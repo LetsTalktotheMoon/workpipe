@@ -209,46 +209,47 @@ class AnthropicClient:
         return self._api_client
 
     def _run_cli(self, prompt: str, model: str) -> str:
-        """底层 Kimi CLI 调用。"""
-        # 创建临时文件存储 prompt
+        """底层 Codex CLI 调用。"""
+        exec_root = Path(self.exec_root)
+        exec_root.mkdir(parents=True, exist_ok=True)
+
         with tempfile.NamedTemporaryFile(
-            prefix="kimi-prompt-",
+            prefix="codex-last-message-",
             suffix=".txt",
             dir="/tmp",
             delete=False,
-            mode="w",
-            encoding="utf-8",
         ) as tmp:
-            tmp.write(prompt)
-            prompt_path = tmp.name
+            output_path = tmp.name
 
         cmd = [
-            KIMI_BIN,
-            "--no-interactive",
-            "-m", model,
+            CODEX_BIN,
+            "exec",
+            "--ephemeral",
+            "--skip-git-repo-check",
+            "-C",
+            str(exec_root),
+            "-o",
+            output_path,
+            "-m",
+            model,
+            "-c",
+            f'model_reasoning_effort="{self.reasoning_effort}"',
         ]
 
         env = os.environ.copy()
 
         try:
             try:
-                with open(prompt_path, "r", encoding="utf-8") as f:
-                    result = subprocess.run(
-                        cmd,
-                        stdin=f,
-                        capture_output=True,
-                        text=True,
-                        timeout=self.timeout,
-                        env=env,
-                    )
+                result = subprocess.run(
+                    cmd,
+                    input=prompt,
+                    capture_output=True,
+                    text=True,
+                    timeout=self.timeout,
+                    env=env,
+                )
             except subprocess.TimeoutExpired as exc:
-                raise RuntimeError(f"kimi CLI timed out after {self.timeout}s") from exc
-            finally:
-                if os.path.exists(prompt_path):
-                    try:
-                        os.remove(prompt_path)
-                    except OSError:
-                        pass
+                raise RuntimeError(f"codex CLI timed out after {self.timeout}s") from exc
 
             stdout = (result.stdout or "").strip()
             stderr = (result.stderr or "").strip()
@@ -256,68 +257,68 @@ class AnthropicClient:
             if result.returncode != 0:
                 excerpt = _best_error_excerpt(stdout, stderr)
                 raise RuntimeError(
-                    f"kimi CLI exit {result.returncode}: {excerpt}"
+                    f"codex CLI exit {result.returncode}: {excerpt}"
                 )
 
-            if stdout:
-                return stdout
+            if os.path.exists(output_path):
+                with open(output_path, "r", encoding="utf-8") as f:
+                    text = f.read().strip()
+                if text:
+                    return text
 
-            raise RuntimeError("kimi CLI succeeded but produced no output")
+            fallback = _extract_last_meaningful_stdout(stdout)
+            if fallback:
+                return fallback
 
-    def _run_kimi_cli(self, prompt: str, model: str, system: str = "") -> str:
-        """通过 Kimi CLI 调用。"""
+            raise RuntimeError("codex CLI succeeded but produced no final message")
+        finally:
+            if os.path.exists(output_path):
+                try:
+                    os.remove(output_path)
+                except OSError:
+                    pass
+
+    def _run_claude_code_cli(self, prompt: str, model: str, system: str = "") -> str:
+        """通过 Claude Code CLI (`claude -p`) 调用。纯文本输出，不加载工具。"""
+        claude_model = CLAUDE_MODEL_ALIASES.get(model, model)
         full_prompt = f"{system.strip()}\n\n{prompt}" if system else prompt
-        
-        # 创建临时文件存储 prompt
-        with tempfile.NamedTemporaryFile(
-            prefix="kimi-prompt-",
-            suffix=".txt",
-            dir="/tmp",
-            delete=False,
-            mode="w",
-            encoding="utf-8",
-        ) as tmp:
-            tmp.write(full_prompt)
-            prompt_path = tmp.name
 
         cmd = [
-            KIMI_BIN,
-            "--no-interactive",
-            "-m", model,
+            CLAUDE_CODE_BIN,
+            "-p",
+            "--model",
+            claude_model,
+            "--output-format",
+            "text",
+            "--tools",
+            "",  # 禁用所有工具，纯文本生成
         ]
 
         env = os.environ.copy()
 
         try:
-            with open(prompt_path, "r", encoding="utf-8") as f:
-                result = subprocess.run(
-                    cmd,
-                    stdin=f,
-                    capture_output=True,
-                    text=True,
-                    timeout=self.timeout,
-                    env=env,
-                )
-            
-            stdout = (result.stdout or "").strip()
-            stderr = (result.stderr or "").strip()
-
-            if result.returncode != 0:
-                excerpt = _best_error_excerpt(stdout, stderr)
-                raise RuntimeError(f"kimi CLI exit {result.returncode}: {excerpt}")
-
-            if stdout:
-                return stdout
-
-            raise RuntimeError("kimi CLI succeeded but produced no output")
+            result = subprocess.run(
+                cmd,
+                input=full_prompt,
+                capture_output=True,
+                text=True,
+                timeout=self.timeout,
+                env=env,
+            )
         except subprocess.TimeoutExpired as exc:
-            raise RuntimeError(f"kimi CLI timed out after {self.timeout}s") from exc
-        finally:
-            if os.path.exists(prompt_path):
-                try:
-                    os.remove(prompt_path)
-                except OSError:
-                    pass
+            raise RuntimeError(f"Claude Code CLI timed out after {self.timeout}s") from exc
+
+        stdout = (result.stdout or "").strip()
+        stderr = (result.stderr or "").strip()
+
+        if result.returncode != 0:
+            excerpt = _best_error_excerpt(stdout, stderr)
+            raise RuntimeError(f"Claude Code CLI exit {result.returncode}: {excerpt}")
+
+        if stdout:
+            return stdout
+
+        raise RuntimeError("Claude Code CLI succeeded but produced no output")
 
     def _run_api(self, prompt: str, model: str, system: str = "") -> str:
         client = self._get_api_client()
@@ -368,14 +369,16 @@ class AnthropicClient:
         transport = self._selected_transport()
 
         last_error: Optional[Exception] = None
-        transport_label = {"api": "OpenAI API", "cli": "Kimi CLI"}.get(transport, transport)
+        transport_label = {"api": "OpenAI API", "claude": "Claude Code CLI", "cli": "Codex CLI"}.get(transport, transport)
         for attempt in range(1, self.max_retries + 2):
             try:
                 if transport == "api":
                     text = self._run_api(prompt, use_model, system=system)
+                elif transport == "claude":
+                    text = self._run_claude_code_cli(prompt, use_model, system=system)
                 else:
                     full_prompt = f"{system.strip()}\n\n{prompt}" if system else prompt
-                    text = self._run_kimi_cli(full_prompt, use_model)
+                    text = self._run_cli(full_prompt, use_model)
                 if cache_key:
                     self._cache[cache_key] = text
                 return text

@@ -1,0 +1,294 @@
+skill_id	skill_name	domain	subdomain	R01	R02	R03	R04	R05	R06	R07	R08	R09	R10	R11	R12	R13	R14	R15	R16	R17	R18	R19	R20	R21	R22
+hard.programming-languages.general-purpose-languages.python	Python	Programming Languages	General-Purpose Languages	5	4	4	9	3	4	5	4	5	5	3	4	2	4	5	1	5	2	5	5	2	1
+hard.programming-languages.general-purpose-languages.java	Java	Programming Languages	General-Purpose Languages	1	0	0	1	0	0	1	0	4	0	2	0	0	0	0	2	0	0	0	0	0	2
+hard.programming-languages.general-purpose-languages.c	C	Programming Languages	General-Purpose Languages	0	1	1	1	3	0	2	0	1	0	0	0	0	2	0	0	5	7	7	0	1	0
+hard.programming-languages.general-purpose-languages.c	C++	Programming Languages	General-Purpose Languages	0	1	1	1	3	0	2	0	1	0	0	0	0	2	0	0	5	7	7	0	1	0
+hard.programming-languages.general-purpose-languages.go	Go	Programming Languages	General-Purpose Languages	0	2	4	0	0	2	2	3	5	2	1	1	3	2	0	0	0	0	0	0	0	0
+hard.programming-languages.general-purpose-languages.rust	Rust	Programming Languages	General-Purpose Languages	0	0	0	0	1	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.general-purpose-languages.scala	Scala	Programming Languages	General-Purpose Languages	1	3	1	0	0	0	0	1	1	1	0	0	1	2	0	0	0	0	1	0	1	0
+hard.programming-languages.general-purpose-languages.kotlin	Kotlin	Programming Languages	General-Purpose Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+hard.programming-languages.general-purpose-languages.ruby	Ruby	Programming Languages	General-Purpose Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.general-purpose-languages.c	C#	Programming Languages	General-Purpose Languages	0	1	1	1	3	0	2	0	1	0	0	0	0	2	0	0	5	7	7	0	1	0
+hard.programming-languages.web-languages.javascript	JavaScript	Programming Languages	Web Languages	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	0	0	0	0	0	0
+hard.programming-languages.web-languages.typescript	TypeScript	Programming Languages	Web Languages	1	0	0	0	2	1	0	0	0	0	0	0	0	2	0	4	0	0	0	0	0	0
+hard.programming-languages.web-languages.html-css	HTML/CSS	Programming Languages	Web Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.apple-ecosystem-languages.swift	Swift	Programming Languages	Apple Ecosystem Languages	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.apple-ecosystem-languages.objective-c	Objective-C	Programming Languages	Apple Ecosystem Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.scripting-automation.shell-bash	Shell/Bash	Programming Languages	Scripting & Automation	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.scripting-automation.perl	Perl	Programming Languages	Scripting & Automation	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.scripting-automation.r	R	Programming Languages	Scripting & Automation	2	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.scripting-automation.tcl	TCL	Programming Languages	Scripting & Automation	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.programming-languages.low-level-hardware-languages.assembly	Assembly	Programming Languages	Low-Level & Hardware Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+hard.programming-languages.low-level-hardware-languages.cuda	CUDA	Programming Languages	Low-Level & Hardware Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+hard.programming-languages.low-level-hardware-languages.verilog-vhdl	Verilog/VHDL	Programming Languages	Low-Level & Hardware Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.low-level-hardware-languages.matlab	MATLAB	Programming Languages	Low-Level & Hardware Languages	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.programming-languages.query-languages.sql	SQL	Programming Languages	Query Languages	2	1	3	0	0	4	2	2	3	3	1	0	3	2	0	1	2	1	0	0	1	4
+hard.programming-languages.query-languages.hiveql	HiveQL	Programming Languages	Query Languages	0	1	1	0	0	0	0	1	1	1	1	1	0	1	1	0	1	1	1	1	1	0
+hard.programming-languages.query-languages.sparksql	SparkSQL	Programming Languages	Query Languages	1	2	0	1	0	0	0	0	1	1	1	1	0	1	1	0	1	1	1	1	1	0
+hard.frontend-ui.frontend-frameworks.react	React	Frontend & UI	Frontend Frameworks	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	3	0	0	0	0	0	0
+hard.frontend-ui.frontend-frameworks.angular	Angular	Frontend & UI	Frontend Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.frontend-frameworks.vue-js	Vue.js	Frontend & UI	Frontend Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+hard.frontend-ui.frontend-frameworks.next-js	Next.js	Frontend & UI	Frontend Frameworks	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+hard.frontend-ui.frontend-foundations.html-css	HTML/CSS	Frontend & UI	Frontend Foundations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+hard.frontend-ui.frontend-foundations.tailwind-css	Tailwind CSS	Frontend & UI	Frontend Foundations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.frontend-foundations.web-components	Web Components	Frontend & UI	Frontend Foundations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.frontend-foundations.graphql	GraphQL	Frontend & UI	Frontend Foundations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.state-management.redux	Redux	Frontend & UI	State Management	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.mobile-frameworks.react-native	React Native	Frontend & UI	Mobile Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.mobile-frameworks.jetpack-compose	Jetpack Compose	Frontend & UI	Mobile Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.mobile-frameworks.swiftui	SwiftUI	Frontend & UI	Mobile Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.design-systems-tooling.tailwindcss	TailwindCSS	Frontend & UI	Design Systems & Tooling	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+hard.frontend-ui.design-systems-tooling.ant-design	Ant Design	Frontend & UI	Design Systems & Tooling	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+hard.frontend-ui.design-systems-tooling.component-libraries	Component Libraries	Frontend & UI	Design Systems & Tooling	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.design-systems-tooling.accessibility-wcag	Accessibility/WCAG	Frontend & UI	Design Systems & Tooling	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.design-systems-tooling.i18n	i18n	Frontend & UI	Design Systems & Tooling	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.frontend-ui.design-systems-tooling.storybook	Storybook	Frontend & UI	Design Systems & Tooling	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.spring	Spring	Backend & Server-Side	Backend Frameworks	2	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.node-js	Node.js	Backend & Server-Side	Backend Frameworks	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.express-js	Express.js	Backend & Server-Side	Backend Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.django	Django	Backend & Server-Side	Backend Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.flask	Flask	Backend & Server-Side	Backend Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.fastapi	FastAPI	Backend & Server-Side	Backend Frameworks	0	0	0	0	0	1	0	0	0	0	0	0	0	0	3	1	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.net	.NET	Backend & Server-Side	Backend Frameworks	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.ruby-on-rails	Ruby on Rails	Backend & Server-Side	Backend Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.hibernate	Hibernate	Backend & Server-Side	Backend Frameworks	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.backend-server-side.backend-frameworks.pydantic	Pydantic	Backend & Server-Side	Backend Frameworks	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.backend-server-side.api-communication.rest-restful	REST/RESTful	Backend & Server-Side	API & Communication	5	2	1	1	3	2	3	0	3	2	1	1	2	1	1	4	0	0	0	1	2	3
+hard.backend-server-side.api-communication.grpc	gRPC	Backend & Server-Side	API & Communication	0	1	0	0	1	1	2	2	2	2	1	0	3	1	1	0	0	0	0	0	1	0
+hard.backend-server-side.api-communication.graphql	GraphQL	Backend & Server-Side	API & Communication	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+hard.backend-server-side.api-communication.microservices	Microservices	Backend & Server-Side	API & Communication	3	2	1	0	1	0	2	2	2	1	0	0	2	3	1	1	0	0	0	0	2	1
+hard.backend-server-side.api-communication.protocol-buffers	Protocol Buffers	Backend & Server-Side	API & Communication	0	0	0	0	0	0	0	0	1	1	0	0	3	0	0	0	0	0	0	0	1	0
+hard.backend-server-side.message-queues-streaming.kafka	Kafka	Backend & Server-Side	Message Queues & Streaming	2	0	1	2	0	1	2	3	1	0	1	1	1	1	1	0	0	0	0	0	0	0
+hard.backend-server-side.message-queues-streaming.rabbitmq	RabbitMQ	Backend & Server-Side	Message Queues & Streaming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.relational-databases.postgresql	PostgreSQL	Data & Storage	Relational Databases	0	0	0	0	0	1	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+hard.data-storage.relational-databases.mysql	MySQL	Data & Storage	Relational Databases	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.relational-databases.sqlite	SQLite	Data & Storage	Relational Databases	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.relational-databases.oracle-db	Oracle DB	Data & Storage	Relational Databases	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.relational-databases.spanner	Spanner	Data & Storage	Relational Databases	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.nosql-key-value-stores.mongodb	MongoDB	Data & Storage	NoSQL & Key-Value Stores	0	0	1	0	0	1	1	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0
+hard.data-storage.nosql-key-value-stores.redis	Redis	Data & Storage	NoSQL & Key-Value Stores	0	0	0	0	0	0	1	1	0	0	0	1	0	1	2	0	0	0	0	0	0	1
+hard.data-storage.nosql-key-value-stores.cassandra	Cassandra	Data & Storage	NoSQL & Key-Value Stores	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.nosql-key-value-stores.dynamodb	DynamoDB	Data & Storage	NoSQL & Key-Value Stores	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.nosql-key-value-stores.elasticsearch	Elasticsearch	Data & Storage	NoSQL & Key-Value Stores	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.nosql-key-value-stores.nosql	NoSQL	Data & Storage	NoSQL & Key-Value Stores	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-warehousing-analytics.bigquery	BigQuery	Data & Storage	Data Warehousing & Analytics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-warehousing-analytics.snowflake	Snowflake	Data & Storage	Data Warehousing & Analytics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-warehousing-analytics.databricks	Databricks	Data & Storage	Data Warehousing & Analytics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-warehousing-analytics.data-warehouse	Data Warehouse	Data & Storage	Data Warehousing & Analytics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-warehousing-analytics.redshift	Redshift	Data & Storage	Data Warehousing & Analytics	0	3	0	0	0	0	0	0	2	1	1	1	0	0	0	0	0	1	0	0	2	0
+hard.data-storage.data-pipeline-processing.spark	Spark	Data & Storage	Data Pipeline & Processing	1	6	2	1	0	0	0	1	1	1	1	1	0	2	1	0	1	1	1	1	3	0
+hard.data-storage.data-pipeline-processing.hadoop	Hadoop	Data & Storage	Data Pipeline & Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-pipeline-processing.airflow	Airflow	Data & Storage	Data Pipeline & Processing	0	1	1	0	0	0	0	0	1	1	1	1	0	2	0	0	0	0	1	1	1	0
+hard.data-storage.data-pipeline-processing.etl	ETL	Data & Storage	Data Pipeline & Processing	1	2	1	2	0	1	1	1	0	0	1	0	1	2	0	0	1	0	0	0	1	0
+hard.data-storage.data-pipeline-processing.data-pipeline	Data Pipeline	Data & Storage	Data Pipeline & Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-pipeline-processing.dbt	dbt	Data & Storage	Data Pipeline & Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-pipeline-processing.pandas	Pandas	Data & Storage	Data Pipeline & Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.data-storage.data-pipeline-processing.sqlalchemy	SQLAlchemy	Data & Storage	Data Pipeline & Processing	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0
+hard.cloud-infrastructure.cloud-platforms.aws	AWS	Cloud & Infrastructure	Cloud Platforms	1	9	1	1	0	1	2	3	2	1	3	5	0	4	1	1	0	0	0	0	1	0
+hard.cloud-infrastructure.cloud-platforms.gcp	GCP	Cloud & Infrastructure	Cloud Platforms	0	0	0	6	0	0	0	3	2	0	1	3	0	0	0	1	0	0	0	0	0	0
+hard.cloud-infrastructure.cloud-platforms.azure	Azure	Cloud & Infrastructure	Cloud Platforms	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.container-orchestration.kubernetes	Kubernetes	Cloud & Infrastructure	Container & Orchestration	2	2	1	1	0	1	2	2	2	1	1	1	3	1	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.container-orchestration.docker	Docker	Cloud & Infrastructure	Container & Orchestration	2	2	1	1	0	1	1	0	2	3	1	0	0	1	1	0	2	0	0	0	2	0
+hard.cloud-infrastructure.container-orchestration.helm	Helm	Cloud & Infrastructure	Container & Orchestration	0	0	0	0	0	0	0	0	3	2	1	1	2	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.container-orchestration.istio	Istio	Cloud & Infrastructure	Container & Orchestration	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.container-orchestration.service-mesh	Service Mesh	Cloud & Infrastructure	Container & Orchestration	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.infrastructure-as-code.terraform	Terraform	Cloud & Infrastructure	Infrastructure as Code	0	0	0	0	0	0	0	1	0	1	0	2	1	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.infrastructure-as-code.ansible	Ansible	Cloud & Infrastructure	Infrastructure as Code	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.infrastructure-as-code.infrastructure-as-code	Infrastructure as Code	Cloud & Infrastructure	Infrastructure as Code	0	0	0	0	0	0	0	1	0	0	0	2	1	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.infrastructure-as-code.hashicorp-vault	HashiCorp Vault	Cloud & Infrastructure	Infrastructure as Code	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.ci-cd-devops.ci-cd	CI/CD	Cloud & Infrastructure	CI/CD & DevOps	1	1	1	0	0	1	1	0	1	2	2	1	0	2	2	2	2	2	0	0	3	1
+hard.cloud-infrastructure.ci-cd-devops.jenkins	Jenkins	Cloud & Infrastructure	CI/CD & DevOps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+hard.cloud-infrastructure.ci-cd-devops.github-actions	GitHub Actions	Cloud & Infrastructure	CI/CD & DevOps	1	1	0	0	0	1	1	0	1	2	2	1	0	1	1	2	1	1	0	0	2	0
+hard.cloud-infrastructure.ci-cd-devops.git	Git	Cloud & Infrastructure	CI/CD & DevOps	0	0	0	0	0	0	2	0	1	1	0	0	1	0	0	1	1	0	0	0	0	1
+hard.cloud-infrastructure.ci-cd-devops.gitlab-ci	GitLab CI	Cloud & Infrastructure	CI/CD & DevOps	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	0	1	1	0	0	1	0
+hard.cloud-infrastructure.ci-cd-devops.argocd	ArgoCD	Cloud & Infrastructure	CI/CD & DevOps	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.ci-cd-devops.flux-cd	Flux CD	Cloud & Infrastructure	CI/CD & DevOps	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.prometheus	Prometheus	Cloud & Infrastructure	Monitoring & Observability	0	0	0	0	0	0	0	2	1	1	0	1	0	2	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.grafana	Grafana	Cloud & Infrastructure	Monitoring & Observability	0	0	0	0	0	0	0	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.monitoring	Monitoring	Cloud & Infrastructure	Monitoring & Observability	1	0	1	3	2	1	1	1	0	0	0	1	0	10	0	0	1	0	0	1	0	0
+hard.cloud-infrastructure.monitoring-observability.observability	Observability	Cloud & Infrastructure	Monitoring & Observability	1	0	0	1	1	0	0	3	0	0	0	0	0	3	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.sre	SRE	Cloud & Infrastructure	Monitoring & Observability	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.opentelemetry	OpenTelemetry	Cloud & Infrastructure	Monitoring & Observability	2	0	0	0	0	0	0	2	2	1	0	0	1	2	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.datadog	Datadog	Cloud & Infrastructure	Monitoring & Observability	1	1	0	0	0	0	0	1	0	1	0	0	0	2	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.nsight-systems	Nsight Systems	Cloud & Infrastructure	Monitoring & Observability	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+hard.cloud-infrastructure.monitoring-observability.nsight-compute	Nsight Compute	Cloud & Infrastructure	Monitoring & Observability	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+hard.cloud-infrastructure.operating-systems-networking.linux	Linux	Cloud & Infrastructure	Operating Systems & Networking	0	0	0	0	0	0	1	0	0	1	2	0	0	1	0	0	2	3	4	0	1	0
+hard.cloud-infrastructure.operating-systems-networking.nginx	Nginx	Cloud & Infrastructure	Operating Systems & Networking	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.operating-systems-networking.networking	Networking	Cloud & Infrastructure	Operating Systems & Networking	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.cloud-infrastructure.operating-systems-networking.operating-systems	Operating Systems	Cloud & Infrastructure	Operating Systems & Networking	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-fundamentals.machine-learning	Machine Learning	AI & Machine Learning	ML Fundamentals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-fundamentals.deep-learning	Deep Learning	AI & Machine Learning	ML Fundamentals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-fundamentals.reinforcement-learning	Reinforcement Learning	AI & Machine Learning	ML Fundamentals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-frameworks-libraries.pytorch	PyTorch	AI & Machine Learning	ML Frameworks & Libraries	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-frameworks-libraries.tensorflow	TensorFlow	AI & Machine Learning	ML Frameworks & Libraries	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.ai-machine-learning.ml-frameworks-libraries.scikit-learn	scikit-learn	AI & Machine Learning	ML Frameworks & Libraries	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-frameworks-libraries.pandas	Pandas	AI & Machine Learning	ML Frameworks & Libraries	1	1	0	1	1	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0
+hard.ai-machine-learning.ml-frameworks-libraries.numpy	NumPy	AI & Machine Learning	ML Frameworks & Libraries	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-frameworks-libraries.tensorflow-lite	TensorFlow Lite	AI & Machine Learning	ML Frameworks & Libraries	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.nlp	NLP	AI & Machine Learning	NLP & Language AI	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.llm	LLM	AI & Machine Learning	NLP & Language AI	5	3	2	5	0	0	0	0	0	0	4	0	1	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.generative-ai	Generative AI	AI & Machine Learning	NLP & Language AI	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.transformers	Transformers	AI & Machine Learning	NLP & Language AI	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.rag	RAG	AI & Machine Learning	NLP & Language AI	2	1	2	1	0	2	1	2	2	4	1	1	1	0	0	3	1	4	0	0	4	3
+hard.ai-machine-learning.nlp-language-ai.langchain	LangChain	AI & Machine Learning	NLP & Language AI	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.langgraph	LangGraph	AI & Machine Learning	NLP & Language AI	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.prompt-engineering	Prompt Engineering	AI & Machine Learning	NLP & Language AI	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.nlp-language-ai.ai-agents	AI Agents	AI & Machine Learning	NLP & Language AI	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.vision-multimodal.computer-vision	Computer Vision	AI & Machine Learning	Vision & Multimodal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+hard.ai-machine-learning.vision-multimodal.video-codec	Video/Codec	AI & Machine Learning	Vision & Multimodal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-systems.fine-tuning	Fine-tuning	AI & Machine Learning	ML Systems	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-systems.mlops	MLOps	AI & Machine Learning	ML Systems	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-systems.recommendation-systems	Recommendation Systems	AI & Machine Learning	ML Systems	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ml-systems.knowledge-graph	Knowledge Graph	AI & Machine Learning	ML Systems	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ai-agent-infrastructure.mcp	MCP	AI & Machine Learning	AI Agent Infrastructure	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ai-agent-infrastructure.multi-model-routing	Multi-model Routing	AI & Machine Learning	AI Agent Infrastructure	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ai-agent-infrastructure.hooks-middleware	Hooks/Middleware	AI & Machine Learning	AI Agent Infrastructure	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ai-agent-infrastructure.confidence-scoring	Confidence Scoring	AI & Machine Learning	AI Agent Infrastructure	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.ai-machine-learning.ai-agent-infrastructure.taxonomy-matching	Taxonomy Matching	AI & Machine Learning	AI Agent Infrastructure	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.tls-ssl	TLS/SSL	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	1	1	0	1	0	1	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.oauth-saml	OAuth/SAML	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	1	1	0	0	0	2	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.ssh	SSH	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.ipsec	IPsec	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.encryption	Encryption	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.iam	IAM	Security	Security Protocols & Practices	0	0	0	0	0	0	0	1	0	1	0	2	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.zero-trust	Zero Trust	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.hashicorp-vault	HashiCorp Vault	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.devsecops	DevSecOps	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.sast	SAST	Security	Security Protocols & Practices	0	1	0	0	0	0	0	0	1	2	1	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-protocols-practices.semgrep	Semgrep	Security	Security Protocols & Practices	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-operations.cybersecurity	Cybersecurity	Security	Security Operations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-operations.penetration-testing	Penetration Testing	Security	Security Operations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-operations.siem	SIEM	Security	Security Operations	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-operations.mitre-att-ck	MITRE ATT&CK	Security	Security Operations	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-operations.vulnerability-management	Vulnerability Management	Security	Security Operations	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.security-operations.incident-response	Incident Response	Security	Security Operations	0	0	1	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+hard.security.security-operations.threat-detection	Threat Detection	Security	Security Operations	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+hard.security.security-operations.anomaly-detection	Anomaly Detection	Security	Security Operations	0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.cryptography.hsm	HSM	Security	Cryptography	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+hard.security.cryptography.mpc	MPC	Security	Cryptography	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.cryptography.ecdsa-eddsa	ECDSA/EdDSA	Security	Cryptography	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+hard.security.cryptography.kms	KMS	Security	Cryptography	0	0	0	0	0	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+hard.security.cryptography.merkle-proofs	Merkle Proofs	Security	Cryptography	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.security.cryptography.mtls	mTLS	Security	Cryptography	0	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0
+hard.security.compliance-governance.kyc-aml	KYC/AML	Security	Compliance & Governance	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	0	0	0	0	0	0
+hard.security.compliance-governance.sox	SOX	Security	Compliance & Governance	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+hard.security.compliance-governance.pipl	PIPL	Security	Compliance & Governance	0	0	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.security.compliance-governance.ofac	OFAC	Security	Compliance & Governance	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.security.compliance-governance.cnbv	CNBV	Security	Compliance & Governance	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+hard.security.compliance-governance.dlp	DLP	Security	Compliance & Governance	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.security.compliance-governance.content-provenance	Content Provenance	Security	Compliance & Governance	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.embedded-systems	Embedded Systems	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.rtos	RTOS	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.firmware	Firmware	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0
+hard.embedded-systems.embedded-engineering.device-drivers	Device Drivers	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.sensors	Sensors	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.geolocation	Geolocation	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.arm64	ARM64	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1	0	0	0
+hard.embedded-systems.embedded-engineering.x86	x86	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	0	0
+hard.embedded-systems.embedded-engineering.android-os	Android OS	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.embedded-linux	Embedded Linux	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.adb	ADB	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.eda	EDA	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.embedded-systems.embedded-engineering.driver-development	Driver Development	Embedded & Systems	Embedded Engineering	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+hard.embedded-systems.systems-programming.kernel	Kernel	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	3	0	0	0
+hard.embedded-systems.systems-programming.virtualization	Virtualization	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0
+hard.embedded-systems.systems-programming.compilers	Compilers	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+hard.embedded-systems.systems-programming.p4-sdn	P4/SDN	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.systems-programming.distributed-systems	Distributed Systems	Embedded & Systems	Systems Programming	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.systems-programming.concurrency	Concurrency	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	1	0
+hard.embedded-systems.systems-programming.llvm	LLVM	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+hard.embedded-systems.systems-programming.loop-tiling	Loop Tiling	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+hard.embedded-systems.systems-programming.vectorization	Vectorization	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+hard.embedded-systems.systems-programming.dsl-transpiler-design	DSL/Transpiler Design	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.systems-programming.cmake	CMake	Embedded & Systems	Systems Programming	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+hard.embedded-systems.signal-processing.sensor-fusion	Sensor Fusion	Embedded & Systems	Signal Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.embedded-systems.signal-processing.kalman-filter	Kalman Filter	Embedded & Systems	Signal Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+hard.embedded-systems.signal-processing.dsp	DSP	Embedded & Systems	Signal Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+hard.embedded-systems.signal-processing.imu	IMU	Embedded & Systems	Signal Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+hard.embedded-systems.signal-processing.opencv	OpenCV	Embedded & Systems	Signal Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+hard.embedded-systems.signal-processing.image-processing	Image Processing	Embedded & Systems	Signal Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.embedded-systems.signal-processing.video-processing	Video Processing	Embedded & Systems	Signal Processing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.embedded-systems.hpc-parallel-computing.mpi	MPI	Embedded & Systems	HPC & Parallel Computing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0
+hard.embedded-systems.hpc-parallel-computing.openmp	OpenMP	Embedded & Systems	HPC & Parallel Computing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+hard.embedded-systems.hpc-parallel-computing.slurm	Slurm	Embedded & Systems	HPC & Parallel Computing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+hard.embedded-systems.hpc-parallel-computing.cuda-kernel-optimization	CUDA Kernel Optimization	Embedded & Systems	HPC & Parallel Computing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.embedded-systems.hpc-parallel-computing.roofline-analysis	Roofline Analysis	Embedded & Systems	HPC & Parallel Computing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+hard.embedded-systems.hpc-parallel-computing.neon-simd	NEON SIMD	Embedded & Systems	HPC & Parallel Computing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hard.platform-mobile.mobile-platforms.ios	iOS	Platform & Mobile	Mobile Platforms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0
+hard.platform-mobile.mobile-platforms.android	Android	Platform & Mobile	Mobile Platforms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	3	7
+hard.platform-mobile.mobile-platforms.mobile-development	Mobile Development	Platform & Mobile	Mobile Platforms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.mobile-platforms.unity-engine	Unity Engine	Platform & Mobile	Mobile Platforms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0
+hard.platform-mobile.specialized-domains.robotics	Robotics	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.autonomous-vehicles	Autonomous Vehicles	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.blockchain-crypto	Blockchain/Crypto	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.gpu-programming	GPU Programming	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.stablecoin	Stablecoin	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.erc-20	ERC-20	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.solidity	Solidity	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.proof-of-reserve	Proof-of-Reserve	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.wallet-infrastructure	Wallet Infrastructure	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.specialized-domains.smart-contracts	Smart Contracts	Platform & Mobile	Specialized Domains	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.platform-mobile.enterprise-revops.salesforce	Salesforce	Platform & Mobile	Enterprise & RevOps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0
+hard.platform-mobile.enterprise-revops.zuora	Zuora	Platform & Mobile	Enterprise & RevOps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0
+hard.platform-mobile.enterprise-revops.netsuite	NetSuite	Platform & Mobile	Enterprise & RevOps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0
+hard.platform-mobile.enterprise-revops.mulesoft	Mulesoft	Platform & Mobile	Enterprise & RevOps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0
+hard.platform-mobile.enterprise-revops.revpro	RevPro	Platform & Mobile	Enterprise & RevOps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+hard.testing-quality.testing.unit-testing	Unit Testing	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.testing-quality.testing.integration-testing	Integration Testing	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.testing-quality.testing.test-automation	Test Automation	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.testing-quality.testing.selenium	Selenium	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hard.testing-quality.testing.google-test	Google Test	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0
+hard.testing-quality.testing.pytest	Pytest	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	3	0
+hard.testing-quality.testing.appium	Appium	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+hard.testing-quality.testing.xcuitest	XCUITest	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+hard.testing-quality.testing.espresso	Espresso	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+hard.testing-quality.testing.regression-testing	Regression Testing	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	0
+hard.testing-quality.testing.performance-profiling	Performance Profiling	Testing & Quality	Testing	0	0	0	0	0	0	1	0	0	0	0	0	0	3	0	0	1	2	1	0	3	0
+hard.testing-quality.testing.simulation-harnesses	Simulation Harnesses	Testing & Quality	Testing	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	4	1	0	0	0	0
+hard.testing-quality.testing.test-planning	Test Planning	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+hard.testing-quality.testing.functional-testing	Functional Testing	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+hard.testing-quality.testing.build-automation	Build Automation	Testing & Quality	Testing	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0
+soft.communication-collaboration.communication-skills	Communication Skills	Communication & Collaboration		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.communication-collaboration.cross-functional-collaboration	Cross-functional Collaboration	Communication & Collaboration		1	1	1	0	1	1	0	0	1	0	1	0	0	0	1	2	0	0	0	0	0	0
+soft.communication-collaboration.teamwork	Teamwork	Communication & Collaboration		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.communication-collaboration.stakeholder-management	Stakeholder Management	Communication & Collaboration		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.communication-collaboration.technical-writing	Technical Writing	Communication & Collaboration		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.communication-collaboration.presentation-skills	Presentation Skills	Communication & Collaboration		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.communication-collaboration.technical-consulting	Technical Consulting	Communication & Collaboration		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+soft.leadership-ownership.leadership	Leadership	Leadership & Ownership		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.leadership-ownership.ownership	Ownership	Leadership & Ownership		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.leadership-ownership.initiative	Initiative	Leadership & Ownership		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.leadership-ownership.decision-making	Decision Making	Leadership & Ownership		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.leadership-ownership.influence	Influence	Leadership & Ownership		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.leadership-ownership.mentoring	Mentoring	Leadership & Ownership		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.work-methodology-execution.agile-scrum	Agile/Scrum	Work Methodology & Execution		0	2	0	0	0	1	2	0	1	0	0	0	0	1	1	1	0	0	0	0	1	0
+soft.work-methodology-execution.problem-solving	Problem Solving	Work Methodology & Execution		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.work-methodology-execution.attention-to-detail	Attention to Detail	Work Methodology & Execution		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.work-methodology-execution.time-management	Time Management	Work Methodology & Execution		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.work-methodology-execution.adaptability	Adaptability	Work Methodology & Execution		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.work-methodology-execution.continuous-learning	Continuous Learning	Work Methodology & Execution		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.work-methodology-execution.sdlc	SDLC	Work Methodology & Execution		0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	3	0
+soft.work-methodology-execution.code-review	Code Review	Work Methodology & Execution		0	0	0	0	0	1	2	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+soft.work-methodology-execution.design-review	Design Review	Work Methodology & Execution		0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+soft.technical-excellence.scale-performance	Scale & Performance	Technical Excellence		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.technical-excellence.system-design	System Design	Technical Excellence		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.technical-excellence.code-quality	Code Quality	Technical Excellence		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.technical-excellence.production-systems	Production Systems	Technical Excellence		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.technical-excellence.distributed-systems-design	Distributed Systems Design	Technical Excellence		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.technical-excellence.concurrency-safety	Concurrency Safety	Technical Excellence		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.product-user-orientation.user-centric	User-Centric	Product & User Orientation		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.product-user-orientation.data-driven	Data-Driven	Product & User Orientation		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.product-user-orientation.innovation	Innovation	Product & User Orientation		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.product-user-orientation.autonomy	Autonomy	Product & User Orientation		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.fintech	Fintech	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.e-commerce	E-Commerce	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.ad-tech	Ad Tech	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.enterprise-saas	Enterprise SaaS	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.healthcare-biotech	Healthcare/Biotech	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.defense-aerospace	Defense/Aerospace	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.media-entertainment	Media/Entertainment	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.security-domain	Security Domain	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.weiqi	Weiqi	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.blockchain-web3	Blockchain/Web3	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.food-delivery-logistics	Food Delivery/Logistics	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+soft.industry-domain.cross-border-operations	Cross-Border Operations	Industry Domain		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

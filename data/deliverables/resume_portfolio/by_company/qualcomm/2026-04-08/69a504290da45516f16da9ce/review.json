@@ -1,0 +1,61 @@
+{
+  "weighted_score": 93.7,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "在 Temu 第 3 条 bullet 里补一小句 PyTorch 或模型训练/推理证据，把 ML 经验从“泛称”提升到“框架级证据”。",
+    "如果事实允许，把 TikTok 第 2 条 bullet 里的 ML 检查对象写得更具体一些，例如模型输出一致性、推理阈值或特征回放。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.7,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.3,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 93.7,
+  "verdict": "pass",
+  "seed_label": "Google AIML SWE",
+  "route_mode": "retarget",
+  "revised": false
+}

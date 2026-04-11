@@ -1,0 +1,271 @@
+{
+  "subseed_id": "amazon_platform_mainline",
+  "company_name": "Amazon",
+  "company_slug": "amazon",
+  "label": "Amazon Platform / Distributed Systems",
+  "kind": "mainline",
+  "status": "active",
+  "primary_seed_id": "seed_amazon_management_plane_anchor_candidate",
+  "seed_ids": [
+    "seed_amazon_management_plane_anchor_candidate",
+    "seed_codex_amazon_sde"
+  ],
+  "candidate_job_ids": [],
+  "target_role_families": [
+    "backend_generalist",
+    "platform",
+    "generalist"
+  ],
+  "notes": "Primary line for management-plane, backend platform, and distributed-systems SDE variants.",
+  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/amazon/amazon_platform_mainline",
+  "seed_dirs": [
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate",
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde"
+  ],
+  "derived_count": 27,
+  "derived_jobs": [
+    {
+      "job_id": "69d640d552a5bf5800128035",
+      "title": "Software Development Engineer II, AFSS",
+      "publish_time": "2026-04-08 06:49:41",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d64084cfdc6132f9469327",
+      "title": "Data Engineer II , NA Stores Expansion",
+      "publish_time": "2026-04-08 06:48:20",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d40040891d7b11cfcf6251",
+      "title": "Senior Java Software Developer",
+      "publish_time": "2026-04-06 13:49:36",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3f41ecdb525785fbc4c63",
+      "title": "Software Development Engineer, OneMHS",
+      "publish_time": "2026-04-06 12:57:50",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "697d2e7e3f57a3356966f6de",
+      "title": "Senior Product Engineer (Ruby) | San Francisco",
+      "publish_time": "2026-04-04 07:42:46",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6939d342ac80bb5492bc5339",
+      "title": "Software Engineer, Context Platform",
+      "publish_time": "2026-04-04 07:38:11",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6897b6ee8c6d6b4426791056",
+      "title": "Software Engineer",
+      "publish_time": "2026-04-04 01:32:17",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d05887cfdc6132f943a843",
+      "title": "Robotics - Software Development Engineer",
+      "publish_time": "2026-04-03 19:17:11",
+      "route_mode": "retarget",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843",
+      "is_outlier": true
+    },
+    {
+      "job_id": "69d00c26cdb525785fba6ae9",
+      "title": "Software Development Engineer, Management Plane",
+      "publish_time": "2026-04-03 13:51:18",
+      "route_mode": "seed_source",
+      "source_kind": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b33d55ae2a534885eaa7d5",
+      "title": "Senior Software Engineer",
+      "publish_time": "2026-04-03 13:24:16",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cffb7b366bb95ba551a58c",
+      "title": "Developer Data Management",
+      "publish_time": "2026-04-03 12:40:11",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69979140e0bddb6acac6411d",
+      "title": "Software Engineer, Dashboard",
+      "publish_time": "2026-04-03 11:42:44",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69433f9250bbaf7650551f99",
+      "title": "Backend Software Engineer, API Platform",
+      "publish_time": "2026-04-03 09:38:17",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b2caedad360c0340a7bebf",
+      "title": "Software Development Engineer , Alexa Device Platform Team",
+      "publish_time": "2026-04-03 08:59:09",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6917535b3ea85638ae1c9c1c",
+      "title": "Junior Software Engineer with Accounting Experience (LATAM)",
+      "publish_time": "2026-04-03 07:33:31",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6996fab5e0bddb6acac5a2cb",
+      "title": "Senior Software Engineer",
+      "publish_time": "2026-04-03 06:46:17",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cf517ecdb525785fba14b7",
+      "title": "Software Development Engineer, Video Advertising Signals and Insights",
+      "publish_time": "2026-04-03 00:34:54",
+      "route_mode": "new_seed",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ceeae0398fb071abf8aac5",
+      "title": "Software Engineer III",
+      "publish_time": "2026-04-02 17:17:04",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ceeabf54f00230c6d04cc9",
+      "title": "Fullstack/ Backend Engineer",
+      "publish_time": "2026-04-02 17:16:31",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cee13fcfdc6132f942d5be",
+      "title": "Software Engineer III",
+      "publish_time": "2026-04-02 16:35:59",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cedd5854f00230c6d0416e",
+      "title": "Fullstack/ Backend Engineer",
+      "publish_time": "2026-04-02 16:19:20",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ced753398fb071abf896e5",
+      "title": "Software Engineer, Electric Utility Grid, Hadron",
+      "publish_time": "2026-04-02 15:53:39",
+      "route_mode": "retarget",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ce947e54f00230c6d00767",
+      "title": "Fullstack/ Backend Engineer",
+      "publish_time": "2026-04-02 11:08:30",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b1df7fd04c69566c745093",
+      "title": "Software Engineer - Core Services",
+      "publish_time": "2026-04-02 04:46:46",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ce0161398fb071abf80503",
+      "title": "Software Engineer, Core Product (Mid–Senior+)",
+      "publish_time": "2026-04-02 00:40:49",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cd8019891d7b11cfcb993e",
+      "title": "Full-Stack / Backend Engineer",
+      "publish_time": "2026-04-01 15:29:13",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cad97f466f1e133aac7d39",
+      "title": "Software Engineer, Backend",
+      "publish_time": "2026-03-30 15:13:51",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    }
+  ]
+}

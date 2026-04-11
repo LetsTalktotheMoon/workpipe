@@ -1,0 +1,133 @@
+{
+  "job_id": "69d3e03ecdb525785fbc3d05",
+  "company_name": "Deepgram",
+  "company_slug": "deepgram",
+  "publish_time": "2026-04-06 11:33:02",
+  "publish_date": "2026-04-06",
+  "title": "ML Ops Infrastructure Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/Deepgram/7ced4c1f-4126-44fe-9cf1-da427a9e4e3e?source=rLVNdemx1O",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_trimedx_platform_multicloud",
+  "seed_label": "TRIMEDX Platform Multicloud",
+  "parent_seed_id": "seed_trimedx_platform_multicloud",
+  "top_candidate": {
+    "seed_id": "seed_trimedx_platform_multicloud",
+    "label": "TRIMEDX Platform Multicloud",
+    "route_score": 0.786,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "mlops"
+    ],
+    "project_ids": [],
+    "seed_company_name": "TRIMEDX",
+    "seed_source_job_id": "69cf12e4891d7b11cfccfd93"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/deepgram/2026-04-06/69d3e03ecdb525785fbc3d05/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/deepgram/2026-04-06/69d3e03ecdb525785fbc3d05/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/deepgram/2026-04-06/69d3e03ecdb525785fbc3d05",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/69d3e03ecdb525785fbc3d05",
+  "generated_at": "2026-04-07T02:18:11",
+  "review": {
+    "weighted_score": 91.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Rewrite Professional Summary into exactly 3 bold-labeled sentences instead of bullet fragments.",
+      "Add one explicit clause connecting the infra work to low-latency serving or release reliability so the Deepgram fit is clearer."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 7.0,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.1,
+    "verdict": "conditional_pass",
+    "seed_label": "TRIMEDX Platform Multicloud",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "Replace the three Professional Summary bullets with exactly three prose sentences, each starting with a bold mini-header in the form `**...:**`. Keep the existing technical claims, but make sentence 1 explicitly bridge the platform/MLOps work to low-latency serving or deployment reliability for real-time APIs. Leave the Experience, Skills, and Achievements sections structurally unchanged unless needed to preserve those claims.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T21:45:35",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.2,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:20",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T21:45:35",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "review_final_score": 91.1,
+  "review_verdict": "conditional_pass"
+}

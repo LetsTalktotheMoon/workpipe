@@ -1,0 +1,118 @@
+{
+  "job_id": "697c690a3f57a33569661871",
+  "company_name": "FICO",
+  "company_slug": "fico",
+  "publish_time": "2026-04-02 08:03:30",
+  "publish_date": "2026-04-02",
+  "title": "Software Engineer - Java, AWS, Kubernetes",
+  "application_status": "1_Discovered",
+  "apply_link": "https://fico.wd1.myworkdayjobs.com/en-US/External/job/Work-from-Home-United-States/Software-Engineer---Java--AWS--Kubernetes_31288?source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_paypal_java_backend",
+  "seed_label": "PayPal Java Backend",
+  "parent_seed_id": "seed_paypal_java_backend",
+  "top_candidate": {
+    "seed_id": "seed_paypal_java_backend",
+    "label": "PayPal Java Backend",
+    "route_score": 0.853,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "azure",
+      "distributed systems",
+      "jenkins",
+      "shell"
+    ],
+    "project_ids": [],
+    "seed_company_name": "PayPal",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fico/2026-04-02/697c690a3f57a33569661871/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fico/2026-04-02/697c690a3f57a33569661871/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fico/2026-04-02/697c690a3f57a33569661871",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/697c690a3f57a33569661871",
+  "generated_at": "2026-04-06T22:23:37",
+  "review": {
+    "weighted_score": 71.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Remove or fully substantiate Azure, Jenkins, and Shell everywhere they appear, especially in the Professional Summary, because they currently fail authenticity and JD-match checks.",
+      "Add concrete JD-required evidence for Shell, Azure, and Jenkins in Skills and experience, or the resume will continue to miss the target-role keyword floor."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 5.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 5.7,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 8.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 7.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 8.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 71.0,
+    "verdict": "fail",
+    "seed_label": "PayPal Java Backend",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Remove or fully substantiate Azure, Jenkins, and Shell everywhere they appear, especially in the Professional Summary, because they currently fail authenticity and JD-match checks.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:23",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

@@ -1,0 +1,113 @@
+{
+  "job_id": "69b4e6033b74eb1e2c825a6c",
+  "company_name": "OpenAI",
+  "company_slug": "openai",
+  "publish_time": "2026-04-04 10:19:35",
+  "publish_date": "2026-04-04",
+  "title": "Software Engineer, Backend (Cooperative AI)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/openai/bd190cad-99ec-4fe7-8f8f-de96b5aa5969?utm_source=8lvZy0eqYJ",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_fullstack_dotnet_azure",
+  "seed_label": "Fullstack DotNet Azure",
+  "parent_seed_id": "seed_fullstack_dotnet_azure",
+  "top_candidate": {
+    "seed_id": "seed_fullstack_dotnet_azure",
+    "label": "Fullstack DotNet Azure",
+    "route_score": 0.824,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "fastapi"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Phenom",
+    "seed_source_job_id": "69cf1ae8cdb525785fb9ec17"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69b4e6033b74eb1e2c825a6c",
+  "generated_at": "2026-04-07T01:22:19",
+  "review": {
+    "weighted_score": 94.4,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Add one explicit cooperative-AI / safety / human-in-the-loop sentence so the OpenAI backend fit is immediate.",
+      "Tighten ownership wording on the most ambitious backend bullets so the transition story reads as credible scope, not implied end-to-end ownership."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.4,
+    "verdict": "pass",
+    "seed_label": "Fullstack DotNet Azure",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:39",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

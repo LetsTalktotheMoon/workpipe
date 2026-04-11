@@ -1,0 +1,463 @@
+{
+  "label": "same/Amazon Web Services ",
+  "seed_label": "AWS Support Backend Anchor",
+  "source_id": "69d050a3cfdc6132f943a6ce",
+  "target_job_id": "69461a32d1953b5d11bf36f4",
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-04/69461a32d1953b5d11bf36f4/resume.md",
+  "source_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-03/69d050a3cfdc6132f943a6ce/job.md",
+  "target_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-04/69461a32d1953b5d11bf36f4/job.md",
+  "source_portfolio_review": {
+    "weighted_score": 94.4,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.4,
+    "verdict": "pass",
+    "seed_label": "AWS Support Backend Anchor",
+    "route_mode": "seed_source",
+    "revised": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:05:32",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 97.1,
+    "previous_verdict": "pass",
+    "latest_timestamp": "2026-04-07T17:05:32"
+  },
+  "target_portfolio_review": {
+    "weighted_score": 95.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Fix the malformed bolding in the DiDi project bullet so the quantified phrase reads cleanly.",
+      "Add one explicit senior-level backend ownership example to make the transition story credible for AWS SDE senior screening."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.1,
+    "verdict": "pass",
+    "seed_label": "AWS Support Backend Anchor",
+    "route_mode": "reuse",
+    "revised": false,
+    "revision_instructions": "1) In the DiDi project block, change `helping the pilot reach **140+ week**ly internal users` to `helping the pilot reach **140+ weekly** internal users`. 2) In the Summary or one TikTok/DiDi bullet, add a concise statement that makes backend ownership explicit: name the service boundary or component you owned, the design tradeoff you handled, and the measured outcome. Keep all immutable fields and JD must-have tech evidence unchanged.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:04:23",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.2,
+    "previous_verdict": "pass",
+    "latest_timestamp": "2026-04-07T17:04:23"
+  },
+  "source_claude_review": {
+    "weighted_score": 93.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "在 TikTok bullet 2 或角色 baseline 中补充一句内联限定语，说明 C++/Embedded 固件工作的业务来源（如'vendor-device incident logs'），消除 HR 对安全平台为何涉及固件测试的疑问",
+      "在 TikTok 项目 section 增加第二处 C++ 或 Embedded 引用，强化两个 JD must-have 关键词的 ATS 覆盖密度"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Summary bullet 1 + bullet 3",
+            "issue": "\"Go\" appears as **Go** in both Summary bullet 1 (programming language) and bullet 3 (board game). Context disambiguates for human readers, but ATS parsers may double-count the Go (programming) keyword signal from the board game reference.",
+            "fix": "In Summary bullet 3, rewrite to \"the game of Go\" (unbolded or with explicit board-game context): \"Apply the pattern recognition of a China National Certified **Go** board game **2-dan** player...\" to prevent ATS conflation with the Go programming language signal."
+          },
+          {
+            "severity": "low",
+            "field": "Skills: AI/ML row vs. Cloud row",
+            "issue": "\"AWS\" appears as a standalone entry in Cloud and as the prefix of \"AWS Bedrock\" in AI/ML — creates implicit name-level duplication across adjacent skills rows that a fast-scanning HR reader may flag as padding.",
+            "fix": "Rename the AI/ML entry from \"AWS Bedrock\" to \"Bedrock\" to eliminate the redundancy; \"AWS\" in Cloud retains platform-level coverage. Update any body references accordingly."
+          }
+        ]
+      },
+      "r1_writing_standard": {
+        "score": 9.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Temu bullets 2 and 4",
+            "issue": "Bullets 2 and 4 in the Temu role open with \"Used\" and \"Supported\" — the weakest action verbs in the entire resume. Every other bullet uses high-signal verbs (Built, Implemented, Designed, Contributed, etc.).",
+            "fix": "Change Temu bullet 2 to \"Leveraged **Python** and **Pandas** to clean merchant attribution data...\" and bullet 4 to \"Validated **A/B Testing** readouts with **Pandas** and lightweight **machine learning** checks in **scikit-learn**...\"."
+          },
+          {
+            "severity": "low",
+            "field": "Summary bullet 3",
+            "issue": "\"**2022 city** champion\" and \"**2023 city** third-place finisher\" include year numbers inside the bold spans. The Achievements section correctly leaves years unbolded — \"city **champion** (2022)\". Inconsistency in bold convention within the same document.",
+            "fix": "Restructure Summary bullet 3 to match Achievements format: \"Apply the pattern recognition of a China National Certified **Go** **2-dan** player — city **champion** (2022) and third place (2023) — to complex systems analysis and high-stakes problem solving.\""
+          }
+        ]
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "TikTok bullet 2 (C++, Embedded)",
+            "issue": "C++ and Embedded are both JD must-have technologies but each appears in exactly one bullet (TikTok main bullet 2) with no additional body mentions. ATS keyword density is thin for two primary required skills; a single co-occurring bullet provides minimal redundancy if that line is deprioritized.",
+            "fix": "Add a second C++/Embedded reference inside the TikTok project section. For example, expand project bullet 4: \"Verified deployment behavior in **Kubernetes**, tuned **CI/CD** gates to block schema mismatches, and validated **C++** parser output against retrieval schema fixtures, preventing **3** staging regressions during the pilot.\""
+          },
+          {
+            "severity": "low",
+            "field": "Skills and body (Code Review)",
+            "issue": "\"Code Review\" is a JD加分技术 entirely absent from both Skills and body. The TikTok CI/CD and project validation context is a natural anchor point for this signal.",
+            "fix": "Add \"Code Review\" to the Programming or Cloud Skills row. Update TikTok bullet 4 to: \"Integrated **CI/CD** checks through **GitHub Actions** and conducted **code review** on **Go** and **Java** service PRs, shortening median validation time by **31%** before merge on the security backend.\""
+          }
+        ]
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "DiDi main bullet 1",
+            "issue": "\"Led a delivery stream for Java and Flask services\" uses \"Led\" as the opening verb for a Senior Data Analyst role. The 13-person squad baseline provides strong justification, but \"Led\" as the first visible verb on this experience block may prompt a brief pause from HR before reading the baseline.",
+            "fix": "No structural change required — the baseline fully explains the cross-functional lead scope. Optionally soften to \"Owned a delivery stream\" if reviewer is risk-averse, but \"Led\" is defensible with the provided context."
+          },
+          {
+            "severity": "low",
+            "field": "TikTok bullet 3",
+            "issue": "\"improving rollback success rate to 98.7% during release drills\" — three-significant-figure precision for a Contributed (not Owned) deployment task is unusually specific for an intern contribution, even with the team-maintained qualifier.",
+            "fix": "Minor: optionally round to \"to ~99%\" or keep as-is. The specificity reads as honest observational data from drill logs rather than fabrication; the team-maintained qualifier provides adequate scope cover."
+          }
+        ]
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "TikTok bullet 2 (C++/Embedded firmware context)",
+            "issue": "\"C++ parsers and Embedded device test adapters on Linux to reproduce firmware-side alert patterns\" within an internal backend security investigation platform is plausible but underframed. HR reviewing a software security platform team will not automatically assume firmware scope; the connection needs one sentence of business-context anchoring to preempt the question.",
+            "fix": "Either (a) expand the role baseline to: \"Intern on a security platform team supporting internal investigation and response workflows across software and firmware-sourced device events.\" OR (b) add an inline qualifier: \"...to reproduce firmware-side alert patterns from vendor-device incident logs, reducing duplicate false-positive tickets by **24%**...\""
+          },
+          {
+            "severity": "low",
+            "field": "TikTok intern role aggregate technology breadth",
+            "issue": "The TikTok internship (6 months) references 14+ distinct technologies. Each bullet has appropriate scope limiters (\"team-maintained\", \"feature components within an existing\", \"intern-owned test cases\"), but the aggregate breadth across Go, Java, C++, Embedded, gRPC, Kafka, PostgreSQL, Docker, Kubernetes, AWS, CI/CD, RAG, AWS Bedrock, and LLM may attract a coherence check from experienced reviewers.",
+            "fix": "No structural change needed — scope limiters are well-placed. Ensure the role baseline (\"Intern on a security platform team...\") remains the first visible context line. Optional: add one clause to the baseline describing the multi-service platform scope to serve as the coherence anchor."
+          }
+        ]
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Skills section (AWS duplication)",
+            "issue": "\"AWS\" appears as a standalone Cloud skill AND as the brand prefix of \"AWS Bedrock\" in AI/ML. Technically distinct (cloud platform vs. managed inference service), but creates implicit brand-level duplication in a fast-read Skills scan.",
+            "fix": "Rename AI/ML entry to \"Bedrock\" (dropping the AWS prefix); keep \"AWS\" only in Cloud as the platform-level entry. Consistent with how Kubernetes, Docker, and GitHub Actions are listed without vendor-brand prefixes."
+          },
+          {
+            "severity": "low",
+            "field": "DiDi project bullet 4",
+            "issue": "\"Extended the operator view in React and aligned service behavior with backend partners, helping the pilot reach 140+ weekly internal users\" — the phrase \"aligned service behavior with backend partners\" is coordination language that breaks the concrete verb+tech+metric XYZ pattern of all other bullets.",
+            "fix": "Rewrite: \"Extended the **React** operator view with new resolution actions and validated **REST** endpoint contracts with backend partners, growing the pilot to **140+** weekly internal users.\""
+          }
+        ]
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Temu section metric scale",
+            "issue": "Temu metrics (12% CTR lift, 7 hours/week saved, 3→1 failed runs) are noticeably smaller in magnitude and business scope compared to DiDi/TikTok figures. Appropriate for a junior DA role but creates a visible signal-intensity drop-off in the oldest section.",
+            "fix": "No change needed for authenticity. Optionally reorder Temu bullets to lead with the A/B testing result (\"Supported A/B Testing readouts... 95% confidence across controlled traffic splits\") as bullet 1, foregrounding the highest-business-stakes outcome in the section."
+          },
+          {
+            "severity": "low",
+            "field": "Summary bullet 3 (Go cognitive bridge)",
+            "issue": "The board-game-to-engineering cognitive bridge is a genuine differentiator, but \"complex systems analysis and high-stakes problem solving\" is generic phrasing that undersells the specific cognitive competencies Go mastery implies (multi-step state-space planning, asymmetric risk evaluation, branching under uncertainty).",
+            "fix": "Consider: \"...to multi-variable systems tradeoff analysis, risk-weighted decision paths, and iterative optimization under constraint — directly transferable to backend reliability and incident triage engineering.\""
+          }
+        ]
+      }
+    },
+    "jd_id": "69d050a3cfdc6132f943a6ce",
+    "company": "Amazon Web Services (AWS)",
+    "title": "Software Development Engineer, Support Engineering Tech",
+    "role_type": "swe_backend",
+    "final_score": 93.0,
+    "verdict": "pass",
+    "revision_instructions": "",
+    "completed_at": "2026-04-09T07:21:50",
+    "latest_timestamp": "2026-04-09T07:21:50"
+  },
+  "target_claude_review": {
+    "weighted_score": 94.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "去除 TikTok exp bullet 1 中 `**team-maintained**` 的加粗——全文唯一 medium 格式违规，一处字符改动即可消除",
+      "将 DiDi exp bullet 1 从 'Led a delivery stream for Java and Flask services' 改为 'Built and led delivery of Java and Flask services...'，以明确编码 ownership，封堵 HR 对 DA 是否亲自写代码的本能疑问"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0,
+        "findings": []
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "TikTok exp bullet 1",
+            "issue": "`**team-maintained**` is bolded — 该词是修饰语/限定词而非技术栈或量化数字，属于明确违规。规范举例中已将 `**team-maintained**` 列为 medium 触发词。",
+            "fix": "去除 `team-maintained` 的加粗：改为 '...in a team-maintained **gRPC** service that normalized **Kafka** security events into **PostgreSQL**...'"
+          },
+          {
+            "severity": "low",
+            "field": "Temu experience section",
+            "issue": "Temu 是全文唯一没有 `> ` blockquote 背景行的经历段落；TikTok 和 DiDi 均有，造成结构不一致。",
+            "fix": "在 Temu 标题行下方添加一行：`> Data analyst on Temu's R&D team supporting pricing, conversion, and A/B experiment analytics.`"
+          }
+        ]
+      },
+      "r2_jd_fitness": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Skills > AI/ML；全文 bullets",
+            "issue": "PyTorch 是 JD 加分技术栈，但 Skills 和正文均无任何出现——丢失一个低成本差异化信号。",
+            "fix": "若有任何 PyTorch 接触，在 Skills > AI/ML 中加入 PyTorch，并在 Temu bullet 中补充一句，例如：'Ran lightweight **PyTorch**-based feature scoring to prioritize pricing experiment variants for A/B readouts.' 若无真实接触，保持现状接受该空白。"
+          },
+          {
+            "severity": "low",
+            "field": "TikTok exp bullet 2",
+            "issue": "Embedded 是 JD must-have，但全文仅一条 bullet 且被 'intern-owned test cases' 限定，对 senior SWE pipeline 而言深度偏薄——ATS 能匹配关键词，但人工初筛时覆盖面略显单一。",
+            "fix": "扩展 bullet 尾部，将 Embedded 工作与后端可靠性链路打通：例如 '...reducing duplicate false-positive tickets by **24%** in intern-owned test cases and validating end-to-end signal fidelity from firmware events to backend triage.'"
+          }
+        ]
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "DiDi exp bullet 1",
+            "issue": "'Led a delivery stream for Java and Flask services' 对 Senior Data Analyst 职称带有轻微 ownership 升格语气；13-person squad baseline 已基本覆盖，但 'Led...services' 短语仍可能引发 HR 短暂停顿。",
+            "fix": "可选微调为 'Drove the data-layer delivery stream for **Java** and **Flask** services behind **REST** endpoints...' 以明确 ownership 锚定在 analytics 侧而非全栈 lead，但当前版本已在可接受范围内，非必改。"
+          }
+        ]
+      },
+      "r4_rationality": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "DiDi exp bullet 1",
+            "issue": "'Led a delivery stream for Java and Flask services' 未明确是否为亲自编码；DiDi project 段已提供 'Built a Java rule-evaluation module and Flask admin service' 等强编码证据，但 experience bullet 本身对 HR 而言编码 ownership 仍属模糊。",
+            "fix": "将 'Led a delivery stream for' 改为 'Built and led delivery of'：'Built and led delivery of **Java** and **Flask** services behind **REST** endpoints for merchant issue intake, reducing first-response time by **29%** across **20+** city operations.' 最小改动，编码主体明确。"
+          },
+          {
+            "severity": "low",
+            "field": "Professional Summary, sentence 1",
+            "issue": "'transitioning from analytics' 前置了弱势信号，而候选人在 DiDi 的 data lead + cross-functional squad 经历和 TikTok 的 backend 交付量均为 senior 信号，当前 Summary 将这些高价值 scope 淹没在背景铺垫里。",
+            "fix": "将 Summary 第 1 句改为以 backend 交付能力开头：'**AWS-Aligned Backend Profile:** Backend engineer with production **Java**, **Go**, **C++**, and **Embedded** delivery across security platforms, merchant ops systems, and analytics infrastructure, with a cross-functional data-lead-to-SWE transition path reinforced by Georgia Tech M.S. CS.'"
+          }
+        ]
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Professional Summary, sentence 1",
+            "issue": "Summary 将三段经历归纳为 'security, marketplace, and operations systems'，但 Temu 明确是 R&D 定价/转化分析，'marketplace' 是一个宽泛映射，与正文场景不完全吻合。",
+            "fix": "将 'marketplace' 替换为 'e-commerce analytics' 或 'platform analytics' 以精确对应 Temu R&D 背景。"
+          },
+          {
+            "severity": "low",
+            "field": "Skills > Programming",
+            "issue": "gRPC 和 REST 属于通信协议/API 层，与编程语言混列在 'Programming' 分组下，分类语义略不对齐，可能轻微影响 ATS 关键词解析的语义准确性。",
+            "fix": "可考虑将该分类重命名为 'Languages & Protocols'，或将 gRPC/REST 移至 Cloud 分组，前提是不超过 14 词行宽限制。"
+          }
+        ]
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Skills > AI/ML；全文",
+            "issue": "无 PyTorch 或深度学习训练框架深度；AWS Bedrock/RAG/LLM 是当前市场强信号，但对于 ML-adjacent AWS SWE 岗位，缺乏训练框架经验会在与有 ML hands-on 背景候选人比较时轻微降低竞争力。",
+            "fix": "若有任何 PyTorch 接触，补入 Skills 并在 Temu 或 TikTok project 增加一条 bullet；若无，当前 Bedrock/RAG/scikit-learn 组合已是最优替代，不建议虚构。"
+          }
+        ]
+      }
+    },
+    "jd_id": "69461a32d1953b5d11bf36f4",
+    "company": "Amazon Web Services (AWS)",
+    "title": "Software Development Engineer",
+    "role_type": "swe_backend",
+    "final_score": 94.5,
+    "verdict": "pass",
+    "revision_instructions": "",
+    "completed_at": "2026-04-09T07:27:36",
+    "latest_timestamp": "2026-04-09T07:27:36"
+  },
+  "status": "completed",
+  "error": "",
+  "updated_at": "2026-04-09T07:34:04",
+  "delta": 1.5
+}

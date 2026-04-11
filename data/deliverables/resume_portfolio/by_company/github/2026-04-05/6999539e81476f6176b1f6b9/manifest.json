@@ -1,0 +1,144 @@
+{
+  "job_id": "6999539e81476f6176b1f6b9",
+  "company_name": "GitHub",
+  "company_slug": "github",
+  "publish_time": "2026-04-05 13:06:56",
+  "publish_date": "2026-04-05",
+  "title": "Software Engineer II, Identity Core",
+  "application_status": "1_Discovered",
+  "apply_link": "https://githubinc.jibeapply.com/jobs/5050?lang=en-us&iis=Job+Board&iisn=LinkedIn&lever-source=LinkedinPosting",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_microsoft_coreai_platform_anchor",
+  "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+  "parent_seed_id": "seed_microsoft_coreai_platform_anchor",
+  "top_candidate": {
+    "seed_id": "seed_microsoft_coreai_platform_anchor",
+    "label": "Microsoft CoreAI/BIC Platform Anchor",
+    "route_score": 0.751,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "git",
+      "ruby"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_merchant_incident_workbench"
+    ],
+    "seed_company_name": "Microsoft",
+    "seed_source_job_id": "69ce6e5d366bb95ba550b6e8"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_merchant_incident_workbench"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/github/2026-04-05/6999539e81476f6176b1f6b9/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/github/2026-04-05/6999539e81476f6176b1f6b9/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/github/2026-04-05/6999539e81476f6176b1f6b9",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-05/6999539e81476f6176b1f6b9",
+  "generated_at": "2026-04-07T01:11:33",
+  "review": {
+    "weighted_score": 95.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "去掉所有修饰词/限定词的加粗，只保留技术栈和量化结果加粗。",
+      "给 TikTok 段补一个 scope anchor，并把 DiDi 项目里的 `Led` 收紧为更符合数据分析师职责的 ownership 表达。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.5,
+    "verdict": "pass",
+    "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "1. 全文统一清理加粗规则：仅保留技术栈、系统名、数字和业务结果的加粗，删除 `team-maintained`、`existing`、`internal`、`bounded` 这类修饰词的加粗。\n2. 在 TikTok 段落补一个范围说明，明确这些 Go/Java/Python/C++/Rust/JS 改动都发生在同一个 team-owned security service 或同一工作流内，避免给人“一个实习生覆盖太多子系统”的疑虑。\n3. 把 DiDi 的 `Led a pilot decomposition...` 改成更收敛的 ownership 表达，例如 `Coordinated a pilot decomposition with backend engineers...`，或者补一句说明你负责的是 analytics-side design / validation / rollout checks。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T23:25:35",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.3,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:24",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:25:35",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 95.5,
+  "review_verdict": "pass"
+}

@@ -1,0 +1,61 @@
+{
+  "weighted_score": 95.5,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": false,
+  "revision_priority": [
+    "移除正文中对限定词的加粗，只保留技术栈名词和量化数字加粗。",
+    "继续维持当前经历骨架，不需要重写，只做版式级清理。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.7,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.2,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 95.5,
+  "verdict": "pass",
+  "seed_label": "AWS Support Backend Anchor",
+  "route_mode": "retarget",
+  "revised": false
+}

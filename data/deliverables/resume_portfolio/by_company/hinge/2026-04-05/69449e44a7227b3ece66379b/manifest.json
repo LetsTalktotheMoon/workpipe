@@ -1,0 +1,137 @@
+{
+  "job_id": "69449e44a7227b3ece66379b",
+  "company_name": "Hinge",
+  "company_slug": "hinge",
+  "publish_time": "2026-04-05 06:59:25",
+  "publish_date": "2026-04-05",
+  "title": "Senior Machine Learning Engineer, Dating Outcomes",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.lever.co/matchgroup/523e9382-57ad-45bb-a06d-c71e57bd0240/apply?lever-source=jobright&lever-origin=applied&lever-source%255B%255D=LinkedIn%2520FR",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.745,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "c++",
+      "machine learning",
+      "system design",
+      "terraform"
+    ],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hinge/2026-04-05/69449e44a7227b3ece66379b/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hinge/2026-04-05/69449e44a7227b3ece66379b/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hinge/2026-04-05/69449e44a7227b3ece66379b",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-05/69449e44a7227b3ece66379b",
+  "generated_at": "2026-04-05T20:27:31",
+  "review": {
+    "weighted_score": 96.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 96.0,
+    "verdict": "pass",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T23:57:27",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 97.0,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:27",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:57:27",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 96.0,
+  "review_verdict": "pass"
+}

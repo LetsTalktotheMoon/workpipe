@@ -1,0 +1,113 @@
+{
+  "job_id": "69600c33a1bbea1d9a7ad533",
+  "company_name": "Komodo Health",
+  "company_slug": "komodo-health",
+  "publish_time": "2026-04-04 07:34:48",
+  "publish_date": "2026-04-04",
+  "title": "Analytics and Insights Manager",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=8363353002&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.94,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69600c33a1bbea1d9a7ad533",
+  "generated_at": "2026-04-05T17:51:12",
+  "review": {
+    "weighted_score": 74.3,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "先修复正文与 Skills 的技术栈一致性，至少把 TikTok 段落里的 Rails 补入 Skills 或删除相关表述。",
+      "再把简历叙事改得更像 Komodo Health 候选人，补出与 health / population-scale analytics / disease-burden measurement 的明确桥梁。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 4.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 8.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 6.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 74.3,
+    "verdict": "fail",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "先修复正文与 Skills 的技术栈一致性，至少把 TikTok 段落里的 Rails 补入 Skills 或删除相关表述。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:32",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

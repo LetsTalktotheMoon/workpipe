@@ -1,0 +1,63 @@
+{
+  "job_id": "69d3d612e63cea7a8b653d63",
+  "company_name": "Mastercard",
+  "company_slug": "mastercard",
+  "publish_time": "2026-04-06 10:49:38",
+  "publish_date": "2026-04-06",
+  "title": "Senior Site Reliability Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Senior-BizOps-Engineer-1_R-268256",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_google_cloud_infra_anchor_candidate",
+  "seed_label": "Google Cloud Infra Anchor",
+  "parent_seed_id": "seed_google_cloud_infra_anchor_candidate",
+  "top_candidate": {
+    "seed_id": "seed_google_cloud_infra_anchor_candidate",
+    "label": "Google Cloud Infra Anchor",
+    "route_score": 0.938,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "Google",
+    "seed_source_job_id": "69d0134b891d7b11cfcd85ea"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mastercard/2026-04-06/69d3d612e63cea7a8b653d63/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-06T22:34:34",
+  "review": {},
+  "subseed_ids": [
+    "google_cloud_infra_mainline"
+  ],
+  "subseed_labels": [
+    "Google Cloud / Infra"
+  ],
+  "primary_subseed_id": "google_cloud_infra_mainline",
+  "primary_subseed_label": "Google Cloud / Infra",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

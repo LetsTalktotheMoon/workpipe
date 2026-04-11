@@ -1,0 +1,448 @@
+{
+  "label": "same/Amazon",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "source_id": "697d74fd137a0510256697d9",
+  "target_job_id": "697dbfc67f40342e15d6a2d4",
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697dbfc67f40342e15d6a2d4/resume.md",
+  "source_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9/job.md",
+  "target_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697dbfc67f40342e15d6a2d4/job.md",
+  "source_portfolio_review": {
+    "weighted_score": 93.6,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.6,
+    "verdict": "pass",
+    "seed_label": "Amazon AGI/LLM Anchor",
+    "route_mode": "seed_source",
+    "revised": false,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:03:19",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.9,
+    "previous_verdict": "pass",
+    "latest_timestamp": "2026-04-07T17:03:19"
+  },
+  "target_portfolio_review": {
+    "weighted_score": 95.6,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.6,
+    "verdict": "pass",
+    "seed_label": "Amazon AGI/LLM Anchor",
+    "route_mode": "reuse",
+    "revised": false,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:02:53",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.3,
+    "previous_verdict": "pass",
+    "latest_timestamp": "2026-04-07T17:02:53"
+  },
+  "source_claude_review": {
+    "weighted_score": 85.3,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "将 'Embedded' 加入 Skills AI/ML 行，并重写 TikTok 经历第2条 bullet 使 'Embedded' 以独立技术词形式出现，修复唯一 high-level JD 必须技术缺口。",
+      "将 Summary '2.5+' 改为 '2+'，同步将 'Agile'、'Code Review' 追加进 Skills Programming 行，一次性解决 R0 两条 medium 问题并补全 JD 加分关键词。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 8.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "Professional Summary，第1句",
+            "issue": "Summary 声明 '2.5+ years of non-internship experience'，但实际为：Temu（Jun 2021–Feb 2022 = 8个月）+ DiDi（Sep 2022–May 2024 = 20个月）= 28个月 ≈ 2.33年，'2.5+'（≥30个月）构成约2个月的夸大，HR 逐行核对日期时可发现。",
+            "fix": "将 '2.5+ years' 改为 '2+ years' 或 'over 2 years'，使描述与页面日期严格自洽，无需改动其他内容。"
+          },
+          {
+            "severity": "medium",
+            "field": "DiDi bullets / Skills section",
+            "issue": "'**Agile**' 和 '**Code Review**' 在 DiDi 正文中以加粗技术词形式出现（视同声明为技能），但两者均未列入 Skills section，导致正文技术与技能列表不对称，且 ATS 在 Skills 段的关键词扫描中将漏掉这两个词。",
+            "fix": "将 'Agile' 和 'Code Review' 加入 Skills。最省扰动方案：在 Programming 行末追加，变为 'Python, Java, C++, Go, PyTorch, REST, gRPC, Scrum, Agile, Code Review'（11项，词数 ≤14 ✓）。"
+          }
+        ]
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "Skills / Programming 行",
+            "issue": "Programming 行将编程语言（Python、Java、C++、Go）、ML框架（PyTorch）、通信协议（REST、gRPC）和项目管理方法论（Scrum）混放于同一类别，类别语义模糊，ATS 跨类别分类逻辑也可能混乱。",
+            "fix": "随 R0/R2 的 Agile、Code Review 补入操作一并重组：可将 Scrum、Agile、Code Review 移至 Programming 行末统一承接（方法论归边），Languages 本体保持 Python, Java, C++, Go；或将 Programming 行更名为 'Languages & Tools' 以语义自洽。"
+          },
+          {
+            "severity": "low",
+            "field": "DiDi experience header / 格式一致性",
+            "issue": "DiDi 经历下有 '> Data lead within a 13-person cross-functional squad...' 角色级 blockquote，而 TikTok 和 Temu 经历均无同等结构，跨经历格式不统一。",
+            "fix": "若需保留 DiDi 角色背景行，可在 TikTok 经历下同样补一行经历级 blockquote（如 'Embedded as sole ML-focused intern within a RAG & policy-retrieval squad in TikTok Security'）以统一格式；或将 DiDi 的背景信息折叠进首条 bullet 的前置语中，取消该 blockquote。"
+          }
+        ]
+      },
+      "r2_jd_fitness": {
+        "score": 7.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "high",
+            "field": "Skills section / JD must-have: Embedded",
+            "issue": "JD 必须技术 'Embedded' 完全缺席 Skills section。正文仅有 'embedded policy vectors' 和 'embedded feature comparisons' 两处形容词用法，ATS 按 Skills 关键词扫描时极可能漏判此必须项；即便全文扫描，修饰性 lowercase 'embedded' 与技能标签 'Embedded' 的语义权重差距显著。",
+            "fix": "① Skills AI/ML 行追加 'Embedded'：改为 'Machine Learning, LLM, Embedded, AWS Bedrock, RAG'（5项 ✓）；② 同步重写 TikTok 经历第2条 bullet，使 'Embedded' 以独立技术词出现，例如：'Developed **Python** evaluation scripts for **Machine Learning** relevance tests on **Embedded** vector representations, and co-ran **PyTorch** reranking experiments with teammates, improving top-**5** retrieval precision by **24%** on a policy-search adaptation benchmark.'；保留 Skills 中所有已有技术，禁止删除。"
+          },
+          {
+            "severity": "medium",
+            "field": "Skills section / JD bonus: Agile, Code Review",
+            "issue": "JD 加分技术 'Code Review' 和 'Agile' 在 DiDi 正文中以加粗形式出现，但 Skills section 仅列有 'Scrum' 而无 'Agile' 和 'Code Review'，ATS 在 Skills 段的关键词扫描中将漏掉这两个加分项。",
+            "fix": "将 'Agile' 和 'Code Review' 加入 Skills section（与 R0 修改合并执行，在 Programming 行末追加即可），无需改动正文。"
+          }
+        ]
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "TikTok experience，bullet 5",
+            "issue": "'Hardened deployment checks' 对于实习生是较强的安全性动词，但后跟 'helping the team keep staging rollback time under 10 minutes' 充分限定了实际贡献范围，整体可接受。",
+            "fix": "若需进一步降低风险感知，可将 'Hardened' 改为 'Reinforced' 或 'Tightened'，差异细微，无需大幅改动。"
+          },
+          {
+            "severity": "low",
+            "field": "DiDi experience，bullet 3",
+            "issue": "'Owned validation and release coordination' 对 Senior Data Analyst 是较强的所有权声明，但范围已限定于流程协调（Code Review standards + Scrum ceremonies）而非系统所有权，Senior 级别可支撑，仅作低优先级提示。",
+            "fix": "保持现状即可；若需更精确，可改为 'Owned the validation gate and release coordination across...' 以强调流程而非系统。"
+          }
+        ]
+      },
+      "r4_rationality": {
+        "score": 8.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "TikTok experience，技术广度",
+            "issue": "一个6个月安全团队实习生同期接触 Go、gRPC、Python、PyTorch、Java、C++、AWS Bedrock、Docker、Kubernetes，技术宽度在真实 HR 视角下偏高，可能触发 '范围是否可信' 的本能质疑。目前 'paired with teammates'、'used by a retrieval path' 等限定语有缓冲但仍偏稀。",
+            "fix": "在 C++ bullet 或项目 baseline 中补一句明确的团队分工背景，例如说明该 sandbox 为全团队共享沙箱、各工程师分模块负责，从而解释为何实习生可以跨栈接触多个组件。"
+          },
+          {
+            "severity": "low",
+            "field": "Professional Summary，senior signal 密度",
+            "issue": "Summary 对 Amazon AGI Senior SWE-ML 岗位的系统工程信号偏弱——三句话聚焦于 'analytics + ML modeling + Go 棋手'，未前置候选人在 TikTok 接触到的生产级 RAG 系统和 LLM 定制基础设施等最高价值信号，senior-level HR 初筛时可能因为 'transitioning from analytics' 标签而降低信任。",
+            "fix": "将 Summary 第1句改写为强调系统工程侧，例如：'**Applied ML & Systems Engineering:** Software engineer with hands-on contributions to production **RAG** retrieval, **LLM** customization pipelines, and **Machine Learning** reranking infrastructure, backed by 2+ years of non-internship analytics foundation across marketplace and food delivery platforms.'——同时解决关键词密度和 senior 可信度问题。"
+          }
+        ]
+      },
+      "r5_logic": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "Skills / Cloud 类别标签",
+            "issue": "'Cloud' 标签下包含关系型数据库（PostgreSQL、MySQL）、内存缓存（Redis）、消息中间件（Kafka）和容器工具（Docker、Kubernetes），与 'Cloud' 语义不符，可能造成 HR 和 ATS 的类别误读。",
+            "fix": "将 'Cloud:' 重命名为 'Infrastructure:' 或 'Platform:'，行内技术列表保持不变，改动仅一词。"
+          },
+          {
+            "severity": "low",
+            "field": "Skills / Programming 行语义一致性",
+            "issue": "Scrum 作为方法论与 Python、Java 等编程语言同列，轻微降低了 Skills 分类的逻辑严谨性（与 R1 finding 1 同源）。",
+            "fix": "随 R1 修改一并调整，将 Scrum（含 Agile、Code Review）移至 Programming 行末统一承接，或单独语义分组，Programming 行只保留语言、框架和协议。"
+          }
+        ]
+      },
+      "r6_competitiveness": {
+        "score": 8.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "Professional Summary，第1句 header",
+            "issue": "'Simulation-Oriented Analytics' 作为首屏 header 对 HR 初筛不透明——无法在0.5秒内让招聘方感知到 'ML Engineer / LLM Systems' 方向，需要阅读正文才能解码，降低了 Summary 的即时筛选转化率，对竞争激烈的 Amazon senior 岗位尤为不利。",
+            "fix": "将第1句 header 改为 '**Applied ML & Systems Engineering:**' 或 '**ML Engineering:**'，并在同句内前置 RAG、LLM customization、Embedded 等 JD 高权重关键词，提升首屏可见度。"
+          },
+          {
+            "severity": "low",
+            "field": "Professional Summary，第3句桥接显式度",
+            "issue": "围棋成就与 Amazon AGI ML Engineering 的关联路径停留在 'pattern recognition' 和 'complex systems analysis' 的比喻层面，缺少一个明确锚点说明这与 ML model evaluation 或 LLM 实验设计的具体迁移。",
+            "fix": "在第3句末补充1个具体迁移案例，例如 '...applied to ML experiment design, model evaluation trade-offs, and high-dimensional retrieval optimization.' 使桥接从比喻落到可操作的 ML 技能点。"
+          }
+        ]
+      }
+    },
+    "jd_id": "697d74fd137a0510256697d9",
+    "company": "Amazon",
+    "title": "Software Development Engineer (ML), AGI Customization, AGI Customization",
+    "role_type": "swe_backend",
+    "final_score": 85.3,
+    "verdict": "fail",
+    "revision_instructions": "【修改指令（按优先级排序，最小扰动原则）】\n\n**P1 — R2 HIGH：补 'Embedded' 进 Skills + 重写 TikTok bullet**\n1. Skills AI/ML 行：'Machine Learning, LLM, AWS Bedrock, RAG' → 'Machine Learning, LLM, Embedded, AWS Bedrock, RAG'\n2. TikTok 经历第2条 bullet 改写为：'Developed **Python** evaluation scripts for **Machine Learning** relevance tests on **Embedded** vector representations, and co-ran **PyTorch** reranking experiments with teammates, improving top-**5** retrieval precision by **24%** on a policy-search adaptation benchmark.'\n3. TikTok Project 第2条 bullet 将 'embedded feature comparisons' 改写为 '**Embedded** feature comparisons'，与 Skills 关键词呼应。\n\n**P2 — R0 MEDIUM：修正年份 + 补全 Skills**\n4. Summary 第1句：'2.5+ years' → '2+ years'\n5. Skills Programming 行末追加 ', Agile, Code Review'，变为 'Python, Java, C++, Go, PyTorch, REST, gRPC, Scrum, Agile, Code Review'（11项，总词数 ≤14 ✓）\n\n**P3 — R5 MEDIUM：重命名 Skills 类别**\n6. Skills 'Cloud:' → 'Infrastructure:'，行内列表不变\n\n**P4 — R6/R4 MEDIUM：加强 Summary 第1句**\n7. Summary 第1句 header 及句身改写为：'**Applied ML & Systems Engineering:** Software engineer with hands-on contributions to production **RAG** retrieval, **LLM** customization pipelines, and **Machine Learning** reranking infrastructure, backed by 2+ years of non-internship analytics foundation across marketplace and food-delivery platforms.'\n\n**可选 / Low-priority**\n8. R4/R3: TikTok C++ bullet 或项目 baseline 补一句跨栈背景（例：'within a shared sandbox where engineers owned separate modules'）\n9. R6: Summary 第3句末加 ML 迁移锚点（例：'...applied to ML experiment design, model evaluation, and high-dimensional retrieval optimization.'）\n10. R1: 如需统一经历级格式，在 TikTok 经历下补一行角色 blockquote，或将 DiDi 的 '> Data lead...' 折叠进首条 bullet。\n\n不可变字段（职称、公司、时间、地点）、现有量化数字、职业主线全部保持不变。以上 P1–P4 修改完成后，预估加权分可达 93–95 区间。",
+    "completed_at": "2026-04-09T02:32:11",
+    "latest_timestamp": "2026-04-09T02:32:11"
+  },
+  "target_claude_review": {
+    "weighted_score": 93.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "将 Skills \"Cloud\" 类别重命名为 \"Infrastructure\"（1 秒改动，即时修复 ATS 分类错误，消除 HR 对技术认知逻辑的疑问）。",
+      "在 DiDi 主经历中新增一条 Matlab 使用 bullet，将唯一 JD must-have 证据从项目子级提升至主经历级别，巩固 Matlab 在简历中的权重信号。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0,
+        "findings": []
+      },
+      "r1_writing_standard": {
+        "score": 9.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "Temu · R&D — 最后一条 bullet",
+            "issue": "\"**R**&D group\" 中的 \"**R**\" 使用了与编程语言 R 完全相同的加粗格式，ATS 可能将其解析为 Temu 经历中的 R 语言额外引用；HR 快速扫描时也可能产生歧义，误以为 R 在 Temu 也有使用出处。",
+            "fix": "将 \"**R**&D group\" 改为 \"R&D group\"（去掉 R 的加粗），R 语言的实质正文证据已在 DiDi 两处 bullet 中明确建立，无需在 Temu 补强。"
+          }
+        ]
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "Skills → Data: Matlab；DiDi Merchant Offer Rule Service project bullet 3",
+            "issue": "Matlab 作为 JD must-have 技术，整份简历中仅在 DiDi 子项目第 3 条 bullet 出现一次（\"Built validation checks in **R** and **Matlab**...\"），属于 minimum-threshold 级别的正文证据。单次项目子级引用对 ATS 权重贡献有限，也无法向 HR 展示 Matlab 在模型/仿真场景中的实质深度。",
+            "fix": "在 DiDi 主经历 bullet 中增加一条专门说明，例如：\"Used **Matlab** to validate supply-demand scenario outputs across city cohorts, cross-checking **SQL** mart projections before weekly courier-route planning releases.\"；保留 Skills 中 Matlab 条目及项目 bullet 不变，使 Matlab 同时出现在主经历与项目两个层级。"
+          },
+          {
+            "severity": "low",
+            "field": "DiDi bullet 2（courier-supply planning）",
+            "issue": "Summary 已用 \"simulation-style evaluation for routing, capacity\" 做出领域桥接，但主经历 bullet 层面未出现任何 \"delivery routing\"、\"network scenario\" 或 \"last-mile\" 词汇，AMZL recruiter 在正文层面的即时共鸣度偏低。",
+            "fix": "在 DiDi bullet 2 结尾追加 \"to model courier-supply scenarios across delivery zones\"，使该条 bullet 同时承载 ETL 工程与 delivery network 模拟双重信号，与 JD 团队方向直接呼应。"
+          }
+        ]
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "TikTok project bullet 4",
+            "issue": "\"Extended the retrieval API... so partner tools could compare\" 措辞隐含跨团队 API ownership，对 intern 而言稍显高级；虽然 \"so partner tools could\" 的目的从句已起到一定限定效果，但 \"Extended\" 动词本身仍暗示主动设计权。",
+            "fix": "将 \"Extended the retrieval API with **Go**, **Java**, and **gRPC** interfaces\" 改为 \"Added **Go**, **Java**, and **gRPC** interfaces to the retrieval API\"，保留技术广度信号的同时消除 ownership 暗示。"
+          }
+        ]
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "DiDi bullet 1 — promo launch cycle",
+            "issue": "\"shortening promo launch cycles from **9 days** to **3 days**\"（67% 压缩）是幅度较大的改进声明，缺少机制说明；挑剔的 HR 可能对该数字产生疑问，特别是在跨 20+ 城市多市场背景下。",
+            "fix": "在结果短语前补充机制限定，例如 \"via automated rule validation and parallel city staging pipelines, shortening promo launch cycles from **9 days** to **3 days**\"，使量化声明具备可解释的操作路径。"
+          }
+        ]
+      },
+      "r5_logic": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "field": "Skills → Cloud 类别标题",
+            "issue": "\"Cloud\" 标签下聚合了关系型数据库（PostgreSQL、MySQL）、缓存（Redis）、消息队列（Kafka）和容器工具（Docker、Kubernetes），均非云服务产品；标签与内容严重不符，影响 ATS 的类别归因精度，也可能让 HR 对候选人的 infra 认知逻辑产生误判。",
+            "fix": "将 \"Cloud\" 重命名为 \"Infrastructure\"；或拆分为 \"Databases & Cache\"（PostgreSQL, MySQL, Redis）和 \"DevOps & Messaging\"（Kafka, Docker, Kubernetes）两行，每行仍满足 4+ 条目且不超过 14 词。"
+          },
+          {
+            "severity": "low",
+            "field": "Skills → Programming: Scrum",
+            "issue": "\"Scrum\" 是项目管理方法论，与 Python、Java、C++ 等编程语言/框架并列在 \"Programming\" 类别下，降低了该类别的语义一致性，可能影响 ATS 对编程技能的准确聚合。",
+            "fix": "若拆分 Cloud 后新增一行，可将 Scrum 移入 \"Methods\" 或 \"Process\" 子类；若维持行数不变，可考虑直接删除（DiDi bullet 3 的 \"Agile **Scrum** ceremonies\" 已在正文建立出处，Skills 层面不列亦不影响 ATS 命中）。"
+          }
+        ]
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "field": "Summary bullet 1 — Simulation-Oriented Analytics",
+            "issue": "DiDi 跨境多市场（Mexico / 20+ cities）运营规模是面向 AMZL 全球物流招聘的强差异化信号，但仅出现在主经历正文中，Summary 层面未做提炼；recruiter 在 6 秒扫描期间可能错过这一与 Amazon 全球交付网络最直接对应的 hook。",
+            "fix": "在 Summary bullet 1 适当位置加入 \"multi-market last-mile logistics\" 或 \"cross-border delivery operations\" 短语，使 AMZL recruiter 在 Summary 层面即能捕捉候选人与目标岗位的领域契合信号。"
+          }
+        ]
+      }
+    },
+    "jd_id": "697dbfc67f40342e15d6a2d4",
+    "company": "Amazon",
+    "title": "Data Scientist, LM Simulations Engineering, AMZL Simulations & Analytics Engineering",
+    "role_type": "data_scientist",
+    "final_score": 93.5,
+    "verdict": "pass",
+    "revision_instructions": "",
+    "completed_at": "2026-04-09T07:07:09",
+    "latest_timestamp": "2026-04-09T07:07:09"
+  },
+  "status": "completed",
+  "error": "",
+  "updated_at": "2026-04-09T07:21:50",
+  "delta": 8.2
+}

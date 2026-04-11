@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Local Job Review</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div class="monitor-shell">
+          <div class="monitor-header">
+            <div>
+              <p class="eyebrow">Process Monitor</p>
+              <h1 class="monitor-title">程序监控看板</h1>
+            </div>
+            <div class="monitor-meta" id="monitorMeta"></div>
+          </div>
+          <div class="monitor-scroll" id="monitorBoard"></div>
+        </div>
+        <div class="hero-stats" id="summaryCards"></div>
+      </header>
+
+      <section class="filters">
+        <div class="filters-header">
+          <h2>筛选器</h2>
+          <button id="clearAllBtn" class="ghost-button" type="button">清空全部筛选</button>
+        </div>
+        <div class="filter-grid" id="filterGrid"></div>
+      </section>
+
+      <section class="table-shell">
+        <div class="table-meta">
+          <div id="resultSummary"></div>
+          <div class="table-meta-actions">
+            <div id="updatedAt"></div>
+            <button id="refreshBtn" class="ghost-button" type="button">立即刷新</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>已申请</th>
+                <th>已放弃</th>
+                <th>已关闭</th>
+                <th>公司名称</th>
+                <th>岗位 Title</th>
+                <th>
+                  <button class="sort-button" type="button" data-sort-key="review">
+                    <span>Review</span>
+                    <span class="sort-indicator"></span>
+                  </button>
+                </th>
+                <th>
+                  <button class="sort-button" type="button" data-sort-key="yoe">
+                    <span>YOE</span>
+                    <span class="sort-indicator"></span>
+                  </button>
+                </th>
+                <th>
+                  <button class="sort-button" type="button" data-sort-key="discovered">
+                    <span>发现日期</span>
+                    <span class="sort-indicator"></span>
+                  </button>
+                </th>
+                <th>
+                  <button class="sort-button" type="button" data-sort-key="published">
+                    <span>发布日期</span>
+                    <span class="sort-indicator"></span>
+                  </button>
+                </th>
+                <th>申请 URL</th>
+                <th>简历目录</th>
+              </tr>
+            </thead>
+            <tbody id="jobTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <template id="filterTemplate">
+      <section class="filter-card">
+        <button class="filter-trigger" type="button">
+          <span class="filter-label"></span>
+          <span class="filter-selection"></span>
+        </button>
+        <div class="filter-panel hidden">
+          <div class="filter-panel-top">
+            <input class="filter-search" type="search" placeholder="搜索..." />
+            <button class="ghost-button small clear-filter-btn" type="button">清空</button>
+          </div>
+          <div class="filter-options"></div>
+        </div>
+      </section>
+    </template>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

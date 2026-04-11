@@ -1,0 +1,75 @@
+{
+  "weighted_score": 87.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 1,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 `Bedrock` 补进 Skills，或把正文两处 `Bedrock` 改成更泛化的 AWS 服务表述，确保正文技术都有出处。",
+    "移除所有限定词加粗，尤其是 `team-maintained` 这类修饰语，只保留技术名词和量化结果加粗。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 6.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 8.7,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 87.5,
+  "verdict": "fail",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "revision_instructions": "保持三段 Experience、两段 Project 和 Achievements 的骨架不变，只做局部修正：1) 在 `## Skills` 的 Cloud 或 AI/ML 类别里新增 `Bedrock`，以覆盖 TikTok Experience 第2条和 TikTok Project 第2条里出现的具体技术名；若不想扩表，则把这两处改写为不点名具体产品的 AWS 服务表述。2) 全文检查所有加粗，删除对限定语的加粗，重点是 `team-maintained`，不要把这类修饰词与真正的技术栈、指标数字混为一谈。其余内容保持原样。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T05:53:52",
+  "rereview_rounds": 2,
+  "rereview_revised": true,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_achievement"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 95.5,
+  "previous_verdict": "pass"
+}

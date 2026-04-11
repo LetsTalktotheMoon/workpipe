@@ -1,0 +1,405 @@
+{
+  "subseed_id": "amazon_ai_ads_mainline",
+  "company_name": "Amazon",
+  "company_slug": "amazon",
+  "label": "Amazon AI / Ads / LLM",
+  "kind": "mainline",
+  "status": "active",
+  "primary_seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_ids": [
+    "seed_amazon_agi_ml_anchor",
+    "seed_amazon_conversational_ads_backend"
+  ],
+  "candidate_job_ids": [],
+  "target_role_families": [
+    "ai_ml_swe",
+    "generalist"
+  ],
+  "notes": "AI application, ads, and LLM-oriented Amazon line.",
+  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/amazon/amazon_ai_ads_mainline",
+  "seed_dirs": [
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_agi_ml_anchor",
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_conversational_ads_backend"
+  ],
+  "derived_count": 42,
+  "derived_jobs": [
+    {
+      "job_id": "699d6a6d81476f6176b63dce",
+      "title": "SDE- ML Engineer, Frontier AI Robotics",
+      "publish_time": "2026-04-08 07:57:09",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69bb8bef569738374141a09c",
+      "title": "Data Scientist, Demand Forecasting",
+      "publish_time": "2026-04-08 07:53:09",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d642dc366bb95ba554bf11",
+      "title": "Business Intelligence Engineer, R2L Analytics",
+      "publish_time": "2026-04-08 06:58:20",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3dab0366bb95ba5537f43",
+      "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Infra",
+      "publish_time": "2026-04-06 11:09:20",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3cf39cdb525785fbc329c",
+      "title": "Machine Learning Engineer",
+      "publish_time": "2026-04-06 10:20:25",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/pinnacle-medicines/2026-04-06/69d3cf39cdb525785fbc329c",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6903bb5ad64a22104aa9240a",
+      "title": "Sr. Machine Learning Engineer, Autonomous Driving & Parking",
+      "publish_time": "2026-04-06 09:32:34",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/lucid-motors/2026-04-06/6903bb5ad64a22104aa9240a",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3ad55366bb95ba5535ce9",
+      "title": "Machine Learning Engineer - On-device Control and Optimization, Core OS",
+      "publish_time": "2026-04-06 06:46:09",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "697d7d4b3f57a3356967669e",
+      "title": "Machine Learning Engineer II , AGI Customization",
+      "publish_time": "2026-04-05 10:31:52",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e",
+      "is_outlier": false
+    },
+    {
+      "job_id": "674973e29a71c8abf4986751",
+      "title": "ML Perception Software Engineer",
+      "publish_time": "2026-04-05 07:51:11",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-intuition/2026-04-05/674973e29a71c8abf4986751",
+      "is_outlier": false
+    },
+    {
+      "job_id": "697d71783f57a33569675632",
+      "title": "Machine Learning Engineer, Marketplace Optimization",
+      "publish_time": "2026-04-05 06:09:27",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "697d74fd137a0510256697d9",
+      "title": "Software Development Engineer (ML), AGI Customization, AGI Customization",
+      "publish_time": "2026-04-04 11:04:11",
+      "route_mode": "seed_source",
+      "source_kind": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6929a3d166796e3028f8ccae",
+      "title": "Software Engineer, Fraud",
+      "publish_time": "2026-04-04 11:03:48",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/whatnot/2026-04-04/6929a3d166796e3028f8ccae",
+      "is_outlier": false
+    },
+    {
+      "job_id": "697dbfc67f40342e15d6a2d4",
+      "title": "Data Scientist, LM Simulations Engineering, AMZL Simulations & Analytics Engineering",
+      "publish_time": "2026-04-04 10:39:56",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69982241e0bddb6acac725a3",
+      "title": "Software Development Engineer , Sponsored Products and Brands",
+      "publish_time": "2026-04-04 10:39:46",
+      "route_mode": "new_seed",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/69982241e0bddb6acac725a3",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6960242d7ebc25398eb61402",
+      "title": "Software Engineer, Productivity",
+      "publish_time": "2026-04-04 08:36:23",
+      "route_mode": "retarget",
+      "source_kind": "seed_validation",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/6960242d7ebc25398eb61402",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6998f2d681476f6176b15d0b",
+      "title": "Machine Learning Engineer, ADV Systems",
+      "publish_time": "2026-04-04 08:21:52",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/6998f2d681476f6176b15d0b",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b47ca73b74eb1e2c81d2c4",
+      "title": "Machine Learning Engineer - VLM/LLM Integration",
+      "publish_time": "2026-04-04 08:18:51",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69b47ca73b74eb1e2c81d2c4",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69993ed9e0bddb6acac8578f",
+      "title": "Machine Learning Engineer, Data & Systems",
+      "publish_time": "2026-04-04 08:13:06",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69993ed9e0bddb6acac8578f",
+      "is_outlier": false
+    },
+    {
+      "job_id": "67f155bcefb8bc125ceaa4ab",
+      "title": "Senior Software Engineer - ML Infrastructure",
+      "publish_time": "2026-04-04 07:55:29",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d08495cdb525785fbab3c5",
+      "title": "Deep Learning Software Engineer, LLM Performance - New College Grad 2026",
+      "publish_time": "2026-04-03 22:25:09",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d07f9d891d7b11cfcdc12d",
+      "title": "Machine Learning Engineer — On-device Control and Optimization, Core OS",
+      "publish_time": "2026-04-03 22:03:57",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d0734c0b098b7a67079835",
+      "title": "MLOps Engineer",
+      "publish_time": "2026-04-03 21:11:24",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/booz-allen-hamilton/2026-04-03/69d0734c0b098b7a67079835",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d0341a891d7b11cfcd9c30",
+      "title": "AI Engr II",
+      "publish_time": "2026-04-03 16:41:46",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d01378366bb95ba551b25b",
+      "title": "AI Engr II",
+      "publish_time": "2026-04-03 14:22:32",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d01378366bb95ba551b25b",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d00c2ccdb525785fba6b0b",
+      "title": "Robotics - Software Development Engineer",
+      "publish_time": "2026-04-03 13:51:24",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b",
+      "is_outlier": true
+    },
+    {
+      "job_id": "69d00c26cdb525785fba6ae4",
+      "title": "AI Builder, Ring",
+      "publish_time": "2026-04-03 13:51:18",
+      "route_mode": "new_seed",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b379f7ae2a534885eae713",
+      "title": "Senior Perception Engineer, Obstacle Foundation Models - Autonomous Vehicles",
+      "publish_time": "2026-04-03 12:39:55",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69b379f7ae2a534885eae713",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6996d6d0ce78e77b4fdb0c7f",
+      "title": "Software Dev Engineer II, Conversational Ad Experiences",
+      "publish_time": "2026-04-03 08:29:25",
+      "route_mode": "seed_source",
+      "source_kind": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f",
+      "is_outlier": false
+    },
+    {
+      "job_id": "681c246292e69414c8224d08",
+      "title": "Software Engineer, Implant",
+      "publish_time": "2026-04-03 08:22:35",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfb2a20b098b7a67073316",
+      "title": "Business Intelligence Engineer, Creators and Social Analytics Team",
+      "publish_time": "2026-04-03 07:29:22",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cfb2a20b098b7a67073316",
+      "is_outlier": false
+    },
+    {
+      "job_id": "687852d5866a435525ab86a8",
+      "title": "Machine Learning Engineer, 3D Simulation",
+      "publish_time": "2026-04-03 05:31:37",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cf034a398fb071abf8b9d5",
+      "title": "ML Model Development Engineer (MMDE-2601)",
+      "publish_time": "2026-04-02 19:01:14",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tetramem-accelerate-the-world/2026-04-02/69cf034a398fb071abf8b9d5",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ceeb16398fb071abf8ab1e",
+      "title": "Software Engineer 2",
+      "publish_time": "2026-04-02 16:24:23",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "695e9cdf08ab990f2829de1d",
+      "title": "Research Senior Scientist, AI/ML (Biologics)",
+      "publish_time": "2026-04-02 13:32:05",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69421283bdcf884a5addd027",
+      "title": "Autonomy Engineer - Deep Learning",
+      "publish_time": "2026-04-02 08:32:36",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/skydio/2026-04-02/69421283bdcf884a5addd027",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6999546d81476f6176b1f81f",
+      "title": "Analytic Science - Scientist II",
+      "publish_time": "2026-04-02 07:47:36",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fico/2026-04-02/6999546d81476f6176b1f81f",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6913e4131465e02904e9864a",
+      "title": "AI Researcher",
+      "publish_time": "2026-04-02 07:18:05",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6978262152f3c27ec6445334",
+      "title": "Software Engineer, ML Core",
+      "publish_time": "2026-04-02 07:13:13",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "697028e4587dfa0bb55daadd",
+      "title": "Applied AI/ML - Vice President",
+      "publish_time": "2026-04-02 05:38:05",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cd30bc398fb071abf72f55",
+      "title": "Sr Engineer, Machine Learning Engineering (ML Apps)",
+      "publish_time": "2026-04-01 09:50:36",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-01/69cd30bc398fb071abf72f55",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ccb759cfdc6132f9412768",
+      "title": "Machine Learning Engineer",
+      "publish_time": "2026-04-01 01:12:41",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/orchard/2026-04-01/69ccb759cfdc6132f9412768",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cc8855cfdc6132f940f397",
+      "title": "Software Engineer - Machine Learning (FC QVE)",
+      "publish_time": "2026-03-31 21:52:05",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/electronic-arts-ea/2026-03-31/69cc8855cfdc6132f940f397",
+      "is_outlier": false
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "weighted_score": 90.7,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Clarify or remove the ambiguous 'Embedded' claim so it reflects real embedded-systems evidence, not embeddings terminology.",
+    "Trim the TikTok scope to the strongest 2-3 ownership areas and add a clearer analytics-to-ML transition bridge."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.9,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 90.7,
+  "verdict": "conditional_pass",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "Clarify or remove the ambiguous 'Embedded' claim so it reflects real embedded-systems evidence, not embeddings terminology.",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:21",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

@@ -1,0 +1,63 @@
+{
+  "job_id": "6913e4131465e02904e9864a",
+  "company_name": "Fireworks AI",
+  "company_slug": "fireworks-ai",
+  "publish_time": "2026-04-02 07:18:05",
+  "publish_date": "2026-04-02",
+  "title": "AI Researcher",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=4000239009&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "parent_seed_id": "seed_amazon_agi_ml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_amazon_agi_ml_anchor",
+    "label": "Amazon AGI/LLM Anchor",
+    "route_score": 0.95,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": "697d74fd137a0510256697d9"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fireworks-ai/2026-04-02/6913e4131465e02904e9864a/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-06T23:09:04",
+  "review": {},
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "primary_subseed_id": "amazon_ai_ads_mainline",
+  "primary_subseed_label": "Amazon AI / Ads / LLM",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

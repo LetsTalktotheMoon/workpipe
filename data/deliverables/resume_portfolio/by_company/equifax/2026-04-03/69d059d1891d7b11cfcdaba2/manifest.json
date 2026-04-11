@@ -1,0 +1,113 @@
+{
+  "job_id": "69d059d1891d7b11cfcdaba2",
+  "company_name": "Equifax",
+  "company_slug": "equifax",
+  "publish_time": "2026-04-03 19:22:41",
+  "publish_date": "2026-04-03",
+  "title": "Data Analyst - AI Product Development",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.equifax.com/en/jobs/j00176164/data-analyst-ai-product-development/?source=Applied_LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_qualified_health_data_engineer",
+  "seed_label": "Qualified Health Data Engineer",
+  "parent_seed_id": "seed_qualified_health_data_engineer",
+  "top_candidate": {
+    "seed_id": "seed_qualified_health_data_engineer",
+    "label": "Qualified Health Data Engineer",
+    "route_score": 0.807,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "data structures"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Qualified Health",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d059d1891d7b11cfcdaba2/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d059d1891d7b11cfcdaba2/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d059d1891d7b11cfcdaba2",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d059d1891d7b11cfcdaba2",
+  "generated_at": "2026-04-05T20:48:51",
+  "review": {
+    "weighted_score": 86.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "把 Scala 经验改成可直接核验的真实实现，或删除 Scala 以避免 JD 误匹配。",
+      "把简历叙事改成更符合 Equifax pre-sales/narrative-driven 数据分析方向，并补足对外沟通与需求转译证据。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 8.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.4,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 86.0,
+    "verdict": "fail",
+    "seed_label": "Qualified Health Data Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "把 Scala 经验改成可直接核验的真实实现，或删除 Scala 以避免 JD 误匹配。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:22",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

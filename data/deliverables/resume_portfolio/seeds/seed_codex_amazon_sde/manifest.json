@@ -1,0 +1,345 @@
+{
+  "seed_id": "seed_codex_amazon_sde",
+  "label": "Amazon SDE",
+  "role_family": "backend_generalist",
+  "seniority": "mid_senior",
+  "validated_score": 93.8,
+  "company_name": "Amazon",
+  "source_job_id": "",
+  "company_anchor": false,
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_merchant_incident_workbench"
+  ],
+  "subseed_ids": [
+    "amazon_platform_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon Platform / Distributed Systems"
+  ],
+  "project_cards": [
+    {
+      "project_id": "tiktok_security_retrieval_console",
+      "company_id": "tiktok_bytedance",
+      "company_name": "TikTok / ByteDance",
+      "start": "2025-06",
+      "end": "2025-09",
+      "team": "Security Investigation Tooling",
+      "business_domain": "Security knowledge retrieval and analyst tooling",
+      "project_goal": "Reduce manual context gathering for policy and incident investigations through retrieval-assisted internal tooling.",
+      "scope_ceiling": "Feature delivery inside a team-maintained retrieval assistant, evaluator, or analyst console; not end-to-end ownership of a standalone platform.",
+      "ownership_ceiling": "Implement handlers, evaluators, ingestion utilities, replay hooks, lightweight UI surfaces, and deployment checks for a bounded intern-owned slice.",
+      "allowed_tech_surface": [
+        "Go",
+        "Python",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "PostgreSQL",
+        "Kafka",
+        "gRPC",
+        "REST",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "S3",
+        "AWS Bedrock",
+        "RAG",
+        "LLM"
+      ],
+      "allowed_role_lenses": [
+        "backend",
+        "data",
+        "swe",
+        "mle",
+        "analyst"
+      ],
+      "needs_scope_note": true,
+      "notes": "Use for retrieval assistant, policy search, evaluation, or analyst-console variants. The business logic stays anchored in security knowledge retrieval."
+    },
+    {
+      "project_id": "didi_merchant_incident_workbench",
+      "company_id": "didi_food",
+      "company_name": "DiDi Food",
+      "start": "2022-09",
+      "end": "2023-03",
+      "team": "Merchant Support and Exception Operations",
+      "business_domain": "Merchant incident triage, support routing, and exception handling",
+      "project_goal": "Replace spreadsheet-heavy merchant support workflows with auditable services and operator tooling.",
+      "scope_ceiling": "Cross-functional delivery of internal support tooling, routing APIs, and dashboards used by regional operations; not sole ownership of the full merchant platform.",
+      "ownership_ceiling": "Translate analyst requirements, build validation scripts and service slices, coordinate release checks, and ship operator-facing views with backend/frontend partners.",
+      "allowed_tech_surface": [
+        "Java",
+        "Python",
+        "Flask",
+        "REST",
+        "SQL",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "Airflow",
+        "Docker",
+        "React",
+        "TypeScript",
+        "Jira"
+      ],
+      "allowed_role_lenses": [
+        "analyst",
+        "backend",
+        "fullstack",
+        "pm",
+        "swe"
+      ],
+      "needs_scope_note": false,
+      "notes": "Use for merchant incident console, exception workbench, refund-resolution workflow, or issue-routing variants."
+    }
+  ],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_amazon_sde/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde",
+  "source_artifact_dir": "",
+  "derived_count": 22,
+  "derived_jobs": [
+    {
+      "job_id": "69d640d552a5bf5800128035",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-08 06:49:41",
+      "title": "Software Development Engineer II, AFSS",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d40040891d7b11cfcf6251",
+      "company_name": "Leidos",
+      "publish_time": "2026-04-06 13:49:36",
+      "title": "Senior Java Software Developer",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d3f41ecdb525785fbc4c63",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-06 12:57:50",
+      "title": "Software Development Engineer, OneMHS",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "697d2e7e3f57a3356966f6de",
+      "company_name": "Cleo",
+      "publish_time": "2026-04-04 07:42:46",
+      "title": "Senior Product Engineer (Ruby) | San Francisco",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "6939d342ac80bb5492bc5339",
+      "company_name": "Glean",
+      "publish_time": "2026-04-04 07:38:11",
+      "title": "Software Engineer, Context Platform",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "6897b6ee8c6d6b4426791056",
+      "company_name": "Merge",
+      "publish_time": "2026-04-04 01:32:17",
+      "title": "Software Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b33d55ae2a534885eaa7d5",
+      "company_name": "Mastercard",
+      "publish_time": "2026-04-03 13:24:16",
+      "title": "Senior Software Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cffb7b366bb95ba551a58c",
+      "company_name": "Tata Consultancy Services",
+      "publish_time": "2026-04-03 12:40:11",
+      "title": "Developer Data Management",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69979140e0bddb6acac6411d",
+      "company_name": "Vercel",
+      "publish_time": "2026-04-03 11:42:44",
+      "title": "Software Engineer, Dashboard",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69433f9250bbaf7650551f99",
+      "company_name": "OpenAI",
+      "publish_time": "2026-04-03 09:38:17",
+      "title": "Backend Software Engineer, API Platform",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b2caedad360c0340a7bebf",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-03 08:59:09",
+      "title": "Software Development Engineer , Alexa Device Platform Team",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "6917535b3ea85638ae1c9c1c",
+      "company_name": "Sezzle",
+      "publish_time": "2026-04-03 07:33:31",
+      "title": "Junior Software Engineer with Accounting Experience (LATAM)",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "6996fab5e0bddb6acac5a2cb",
+      "company_name": "Develop Health",
+      "publish_time": "2026-04-03 06:46:17",
+      "title": "Senior Software Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69ceeae0398fb071abf8aac5",
+      "company_name": "Verisk",
+      "publish_time": "2026-04-02 17:17:04",
+      "title": "Software Engineer III",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69ceeabf54f00230c6d04cc9",
+      "company_name": "Qualitest acq",
+      "publish_time": "2026-04-02 17:16:31",
+      "title": "Fullstack/ Backend Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cee13fcfdc6132f942d5be",
+      "company_name": "TEK Analytics",
+      "publish_time": "2026-04-02 16:35:59",
+      "title": "Software Engineer III",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cedd5854f00230c6d0416e",
+      "company_name": "Qualitest",
+      "publish_time": "2026-04-02 16:19:20",
+      "title": "Fullstack/ Backend Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69ce947e54f00230c6d00767",
+      "company_name": "Qualitest",
+      "publish_time": "2026-04-02 11:08:30",
+      "title": "Fullstack/ Backend Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b1df7fd04c69566c745093",
+      "company_name": "Jewelers Mutual Group",
+      "publish_time": "2026-04-02 04:46:46",
+      "title": "Software Engineer - Core Services",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69ce0161398fb071abf80503",
+      "company_name": "Supio",
+      "publish_time": "2026-04-02 00:40:49",
+      "title": "Software Engineer, Core Product (Mid–Senior+)",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cd8019891d7b11cfcb993e",
+      "company_name": "Qualitest",
+      "publish_time": "2026-04-01 15:29:13",
+      "title": "Full-Stack / Backend Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cad97f466f1e133aac7d39",
+      "company_name": "WisdomAI",
+      "publish_time": "2026-03-30 15:13:51",
+      "title": "Software Engineer, Backend",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

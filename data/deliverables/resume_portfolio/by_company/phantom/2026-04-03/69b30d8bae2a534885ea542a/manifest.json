@@ -1,0 +1,111 @@
+{
+  "job_id": "69b30d8bae2a534885ea542a",
+  "company_name": "Phantom",
+  "company_slug": "phantom",
+  "publish_time": "2026-04-03 09:54:56",
+  "publish_date": "2026-04-03",
+  "title": "SDET (Money Movement)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/phantom/49997233-6425-42a6-a61e-62c8ddd15551?src=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_magnite_sdet",
+  "seed_label": "Magnite SDET",
+  "parent_seed_id": "seed_magnite_sdet",
+  "top_candidate": {
+    "seed_id": "seed_magnite_sdet",
+    "label": "Magnite SDET",
+    "route_score": 0.832,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "gcp",
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Magnite",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69b30d8bae2a534885ea542a",
+  "generated_at": "2026-04-07T00:49:43",
+  "review": {
+    "weighted_score": 96.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 10.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 96.5,
+    "verdict": "pass",
+    "seed_label": "Magnite SDET",
+    "route_mode": "retarget",
+    "revised": true
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:41",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

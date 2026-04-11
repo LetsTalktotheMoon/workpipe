@@ -1,0 +1,65 @@
+{
+  "job_id": "69b33d55ae2a534885eaa7d5",
+  "company_name": "Mastercard",
+  "company_slug": "mastercard",
+  "publish_time": "2026-04-03 13:24:16",
+  "publish_date": "2026-04-03",
+  "title": "Senior Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.mastercard.com/us/en/job/MASRUSR272689EXTERNALENUS/Senior-Software-Engineer?utm_source=linkedin&utm_medium=phenom-feeds&source=LINKEDIN",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_codex_amazon_sde",
+  "seed_label": "Amazon SDE",
+  "parent_seed_id": "seed_codex_amazon_sde",
+  "top_candidate": {
+    "seed_id": "seed_codex_amazon_sde",
+    "label": "Amazon SDE",
+    "route_score": 0.98,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_merchant_incident_workbench"
+    ],
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_merchant_incident_workbench"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mastercard/2026-04-03/69b33d55ae2a534885eaa7d5/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-07T01:28:16",
+  "review": {},
+  "subseed_ids": [
+    "amazon_platform_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon Platform / Distributed Systems"
+  ],
+  "primary_subseed_id": "amazon_platform_mainline",
+  "primary_subseed_label": "Amazon Platform / Distributed Systems",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

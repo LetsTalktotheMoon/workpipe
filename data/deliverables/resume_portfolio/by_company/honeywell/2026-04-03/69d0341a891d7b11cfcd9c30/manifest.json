@@ -1,0 +1,126 @@
+{
+  "job_id": "69d0341a891d7b11cfcd9c30",
+  "company_name": "Honeywell",
+  "company_slug": "honeywell",
+  "publish_time": "2026-04-03 16:41:46",
+  "publish_date": "2026-04-03",
+  "title": "AI Engr II",
+  "application_status": "1_Discovered",
+  "apply_link": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/144777/?utm_medium=jobboard&utm_source=linkedin",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "parent_seed_id": "seed_amazon_agi_ml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_amazon_agi_ml_anchor",
+    "label": "Amazon AGI/LLM Anchor",
+    "route_score": 0.788,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "algorithms",
+      "tensorflow"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": "697d74fd137a0510256697d9"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d0341a891d7b11cfcd9c30",
+  "generated_at": "2026-04-06T23:50:37",
+  "review": {
+    "weighted_score": 75.9,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补上 TensorFlow 的真实使用证据，或从 Summary/Skills 中删除 TensorFlow，避免 JD 必须项失真。",
+      "清理格式与技能对齐问题：取消 qualifier 的加粗，并把 Agile 这类被正文使用的项同步到 Skills 或删掉相关表述。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 6.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r1_writing_standard": {
+        "score": 8.6,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 6.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 8.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 75.9,
+    "verdict": "fail",
+    "seed_label": "Amazon AGI/LLM Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "补上 TensorFlow 的真实使用证据，或从 Summary/Skills 中删除 TensorFlow，避免 JD 必须项失真。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "primary_subseed_id": "amazon_ai_ads_mainline",
+  "primary_subseed_label": "Amazon AI / Ads / LLM",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:28",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

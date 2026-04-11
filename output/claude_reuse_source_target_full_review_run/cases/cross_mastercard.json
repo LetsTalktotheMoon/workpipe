@@ -1,0 +1,169 @@
+{
+  "label": "cross/Mastercard",
+  "seed_label": "Google Cloud Infra Anchor",
+  "source_id": "69d0134b891d7b11cfcd85ea",
+  "target_job_id": "69d3d612e63cea7a8b653d63",
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mastercard/2026-04-06/69d3d612e63cea7a8b653d63/resume.md",
+  "source_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69d0134b891d7b11cfcd85ea/job.md",
+  "target_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mastercard/2026-04-06/69d3d612e63cea7a8b653d63/job.md",
+  "source_portfolio_review": {
+    "weighted_score": 94.4,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "去掉正文里对非技术限定词的加粗，只保留技术栈和量化结果的加粗。",
+      "在 TikTok 经历里补一条明确的性能验证或测试门禁证据，让 Google Cloud Performance 的匹配度更直接。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.4,
+    "verdict": "pass",
+    "seed_label": "Google Cloud Infra Anchor",
+    "route_mode": "seed_source",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T03:03:49",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 70.5,
+    "previous_verdict": "fail",
+    "latest_timestamp": "2026-04-08T03:03:49"
+  },
+  "target_portfolio_review": {
+    "weighted_score": 94.6,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Add one TikTok reliability-ops bullet with SLI/SLO, alerting, incident triage, or rollback gating to make the Senior SRE story more explicit.",
+      "Remove bold from non-technical qualifiers like `team-maintained`, `existing`, and `internal`; keep emphasis on tools and metrics only."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.6,
+    "verdict": "pass",
+    "seed_label": "Google Cloud Infra Anchor",
+    "route_mode": "reuse",
+    "revised": false,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T21:55:37",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 95.6,
+    "previous_verdict": "pass",
+    "latest_timestamp": "2026-04-07T21:55:37"
+  },
+  "source_claude_review": {},
+  "target_claude_review": {},
+  "status": "error",
+  "error": "Claude Code CLI exit 1: You've hit your limit · resets 7am (America/Chicago)",
+  "updated_at": "2026-04-09T02:55:29",
+  "delta": null
+}

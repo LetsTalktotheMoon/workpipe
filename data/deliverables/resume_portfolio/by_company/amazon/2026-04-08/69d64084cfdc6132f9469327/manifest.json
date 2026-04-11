@@ -1,0 +1,71 @@
+{
+  "job_id": "69d64084cfdc6132f9469327",
+  "company_name": "Amazon",
+  "company_slug": "amazon",
+  "publish_time": "2026-04-08 06:48:20",
+  "publish_date": "2026-04-08",
+  "title": "Data Engineer II , NA Stores Expansion",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.amazon.jobs/jobs/10385829/data-engineer-ii--na-stores-expansion?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid",
+  "source_kind": "local_unified_pipeline",
+  "route_mode": "reuse",
+  "seed_id": "seed_amazon_management_plane_anchor_candidate",
+  "seed_label": "Amazon Management Plane Anchor",
+  "parent_seed_id": "seed_amazon_management_plane_anchor_candidate",
+  "top_candidate": {
+    "seed_id": "seed_amazon_management_plane_anchor_candidate",
+    "label": "Amazon Management Plane Anchor",
+    "route_score": 1.0,
+    "base_route_score": 0.852,
+    "required_coverage": 1.0,
+    "core_coverage": 1.0,
+    "preferred_coverage": 0.667,
+    "role_score": 0.72,
+    "domain_score": 0.778,
+    "seniority_score": 1.0,
+    "title_score": 0.2,
+    "same_company": true,
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": "69d00c26cdb525785fba6ae9",
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_supply_eta_service"
+    ]
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d64084cfdc6132f9469327/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-08T19:16:15",
+  "review": {},
+  "subseed_ids": [
+    "amazon_platform_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon Platform / Distributed Systems"
+  ],
+  "primary_subseed_id": "amazon_platform_mainline",
+  "primary_subseed_label": "Amazon Platform / Distributed Systems",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

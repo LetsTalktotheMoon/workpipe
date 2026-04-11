@@ -1,0 +1,134 @@
+{
+  "job_id": "69d3f35f891d7b11cfcf5c8d",
+  "company_name": "FIS",
+  "company_slug": "fis",
+  "publish_time": "2026-04-06 12:54:39",
+  "publish_date": "2026-04-06",
+  "title": "Engineer Senior, Software",
+  "application_status": "1_Discovered",
+  "apply_link": "https://fis.wd5.myworkdayjobs.com/SearchJobs/job/US-NC-CHA-Virtual/Engineer-Senior--Software_JR0305619-1",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_magnite_sdet",
+  "seed_label": "Magnite SDET",
+  "parent_seed_id": "seed_magnite_sdet",
+  "top_candidate": {
+    "seed_id": "seed_magnite_sdet",
+    "label": "Magnite SDET",
+    "route_score": 0.782,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "jira",
+      "react"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Magnite",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fis/2026-04-06/69d3f35f891d7b11cfcf5c8d/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fis/2026-04-06/69d3f35f891d7b11cfcf5c8d/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fis/2026-04-06/69d3f35f891d7b11cfcf5c8d",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/69d3f35f891d7b11cfcf5c8d",
+  "generated_at": "2026-04-07T01:04:17",
+  "review": {
+    "weighted_score": 91.6,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "把 Professional Summary 改成恰好 3 句、每句带 `**小标题:**` 的标准格式。",
+      "取消正文中 `team-maintained` 等限定词的加粗，只保留技术栈名词和量化结果加粗。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 7.0,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.6,
+    "verdict": "conditional_pass",
+    "seed_label": "Magnite SDET",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "只做局部修改，不要重写整份简历。1) 将 `## Professional Summary` 从 3 条 bullet 改为 3 句完整句子，并确保每句都以加粗小标题开头，句式稳定为 `**Header:** ...`。第 1 句聚焦后端/质量工程与 JD 必须技术（Java、JavaScript、React、CI/CD）；第 2 句聚焦 Agile、Scrum、Jira、测试/发布协作；第 3 句保留 pattern recognition 作为高价值认知信号。2) 全文取消对限定词/修饰语的加粗，尤其是 `team-maintained`、`team-owned`、`internal`、`existing` 这类词；只保留技术名词、产品名、数字和关键结果的加粗。3) 保持所有不可变字段、经历顺序、JD 必须技术和现有项目骨架不变，不要删技术，只做格式与强调方式修正。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T19:28:04",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 82.9,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:23",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T19:28:04",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "review_final_score": 91.6,
+  "review_verdict": "conditional_pass"
+}

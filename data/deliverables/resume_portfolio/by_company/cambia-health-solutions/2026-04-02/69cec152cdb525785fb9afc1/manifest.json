@@ -1,0 +1,112 @@
+{
+  "job_id": "69cec152cdb525785fb9afc1",
+  "company_name": "Cambia Health Solutions",
+  "company_slug": "cambia-health-solutions",
+  "publish_time": "2026-04-02 14:19:46",
+  "publish_date": "2026-04-02",
+  "title": "AI Scientist II (Healthcare)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://cambiahealth.wd1.myworkdayjobs.com/External/job/Renton-WA/AI-Scientist-II--Healthcare-_R-6482?source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_linkedin_mle_foundation",
+  "seed_label": "LinkedIn MLE Foundation",
+  "parent_seed_id": "seed_linkedin_mle_foundation",
+  "top_candidate": {
+    "seed_id": "seed_linkedin_mle_foundation",
+    "label": "LinkedIn MLE Foundation",
+    "route_score": 0.777,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "bioinformatics",
+      "deep learning"
+    ],
+    "project_ids": [],
+    "seed_company_name": "LinkedIn",
+    "seed_source_job_id": "69cef362398fb071abf8b1bb"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cec152cdb525785fb9afc1",
+  "generated_at": "2026-04-07T00:17:01",
+  "review": {
+    "weighted_score": 93.8,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Remove bold from descriptive qualifiers like `team-maintained` and `internal` so keyword emphasis stays clean.",
+      "Add one explicit healthcare-domain proof point or soften the healthcare specialization claim in the summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.8,
+    "verdict": "pass",
+    "seed_label": "LinkedIn MLE Foundation",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:14",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

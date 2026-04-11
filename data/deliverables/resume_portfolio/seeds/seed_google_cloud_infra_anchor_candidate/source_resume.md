@@ -1,0 +1,1 @@
+/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_google_cloud_infra_anchor_candidate/resume.md

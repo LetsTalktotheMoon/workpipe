@@ -1,0 +1,135 @@
+{
+  "job_id": "69cc5d28366bb95ba54ef2a0",
+  "company_name": "Travelers",
+  "company_slug": "travelers",
+  "publish_time": "2026-04-08 06:10:20",
+  "publish_date": "2026-04-08",
+  "title": "Data Scientist, Applied Research",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.travelers.com/job/22643600/data-scientist-applied-research-hartford-ct/?source=S0791",
+  "source_kind": "local_unified_pipeline",
+  "route_mode": "retarget",
+  "seed_id": "seed_bytedance_ml_grad",
+  "seed_label": "ByteDance ML Grad",
+  "parent_seed_id": "seed_bytedance_ml_grad",
+  "top_candidate": {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "route_score": 0.951,
+    "base_route_score": 0.951,
+    "required_coverage": 1.0,
+    "core_coverage": 1.0,
+    "preferred_coverage": 1.0,
+    "role_score": 0.78,
+    "domain_score": 0.875,
+    "seniority_score": 1.0,
+    "title_score": 1.0,
+    "same_company": false,
+    "seed_company_name": "ByteDance",
+    "seed_source_job_id": "692777a0d47de4798ecdcf3a",
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": []
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/travelers/2026-04-08/69cc5d28366bb95ba54ef2a0/resume.md",
+  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/travelers/2026-04-08/69cc5d28366bb95ba54ef2a0/resume.pdf",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/travelers/2026-04-08/69cc5d28366bb95ba54ef2a0/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/travelers/2026-04-08/69cc5d28366bb95ba54ef2a0",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69cc5d28366bb95ba54ef2a0",
+  "generated_at": "2026-04-08T13:55:35",
+  "review": {
+    "weighted_score": 93.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Clarify the two May 2026 master's degrees so the education timeline reads as concurrent and intentional, not ambiguous.",
+      "If you want stronger Applied Research signal, move Deep Learning model-evaluation language to the front of the TikTok summary or the second TikTok bullet."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.5,
+    "verdict": "pass",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "Keep all immutable fields unchanged. In Education, add an explicit concurrency or study-mode note to the two master's lines so a reviewer immediately understands how both can complete in May 2026; if that is not accurate, rewrite the education section to reflect the actual sequencing instead of leaving the timeline implicit. If you want to maximize JD fit without changing the core story, lightly reframe Summary sentence 2 or TikTok bullet 2 so it leads with Deep Learning / model evaluation / retrieval benchmarking before implementation details like AWS, S3, and Bedrock. Do not remove Deep Learning from Skills or body text; the JD requires it and the current coverage is already acceptable.",
+    "rereview_version": "unified_followup_v1",
+    "rereviewed_at": "2026-04-08T20:17:33",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 83.5,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "pdf_generated_at": "2026-04-08T15:07:36",
+  "rereview_version": "unified_followup_v1",
+  "rereviewed_at": "2026-04-08T20:17:33",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 93.5,
+  "review_verdict": "pass"
+}

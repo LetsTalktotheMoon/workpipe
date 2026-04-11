@@ -1,0 +1,829 @@
+{
+  "teacher_version": "teacher_b_semantic_v1",
+  "teacher_manifest": {
+    "version": "teacher_b_semantic_v1",
+    "config_name": "teacher_b_pure_semantic",
+    "report_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/match_pipe_semantic_freeze_report.json",
+    "label_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_label_pool.json",
+    "boundary_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_boundary_pool.json",
+    "output_protocol": {
+      "semantic_best_anchor": "Global pure-semantic best anchor from requirement-unit matching.",
+      "semantic_top_k": "Compact semantic candidate list for reuse.",
+      "semantic_score": "Pure semantic channel score.",
+      "semantic_explanation": "Requirement-unit hit explanation and hard-gap summary.",
+      "company_best_anchor": "Same-company continuity anchor from the auxiliary channel.",
+      "company_top_k": "Compact same-company continuity candidates.",
+      "company_score": "Company continuity score, not part of the semantic teacher.",
+      "company_explanation": "Duplicate/title/company continuity rationale.",
+      "delta_summary": "Why the semantic anchor and company anchor differ, and how downstream should combine them.",
+      "writer_input": "Downstream-ready payload with primary semantic anchor and optional continuity anchor."
+    },
+    "dynamic_ingest_policy": {
+      "index_new_job": "Immediate live indexing into jobs_by_id, pattern_index, member_index, combo_index, surface_token_index, and company_index.",
+      "dedupe": "Exact near-duplicates merge by company/title/pattern/canonical fingerprint.",
+      "quarantine": "Low-signal jobs with sparse semantics and heavy pending surface text are isolated from the main pool.",
+      "alias_absorption": "New surface tokens enter the pending alias queue and are absorbed offline after review.",
+      "taxonomy_rebuild": "Accepted alias and taxonomy changes require offline rebuild; job indexing does not."
+    },
+    "freeze_rule_layers": [
+      "match_pipe/matcher.py",
+      "match_pipe/units.py",
+      "match_pipe/starter_selector.py"
+    ],
+    "growth_knowledge_layers": [
+      "match_pipe/taxonomy.py",
+      "match_pipe/semantic_label_pool.json",
+      "match_pipe/semantic_boundary_pool.json",
+      "match_pipe/incremental.py"
+    ],
+    "allowed_mutations": [
+      "taxonomy expansion",
+      "alias absorption",
+      "gold set increment",
+      "boundary pool increment",
+      "small conservative rule fix"
+    ],
+    "disallowed_mutations": [
+      "aggressive parser rewrite",
+      "same_company bias injection into semantic teacher",
+      "duplicate shortcut injection into semantic teacher",
+      "title-normalization shortcut promotion into semantic teacher"
+    ],
+    "feature_config": {
+      "name": "teacher_b_pure_semantic",
+      "enable_pattern_recall": true,
+      "enable_hard_unit_recall": true,
+      "enable_hierarchy_recall": true,
+      "enable_combo_recall": true,
+      "enable_surface_recall": false,
+      "enable_same_company_recall": false,
+      "enable_surface_score": false,
+      "enable_metadata_score": false,
+      "enable_duplicate_score": false,
+      "duplicate_uses_same_company": false,
+      "allow_duplicate_override": false
+    }
+  },
+  "build_seconds": 83.32,
+  "distillation": {
+    "train_case_count": 50,
+    "rebuilt_hard_train": 27,
+    "rebuilt_hard_holdout": 6,
+    "semantic_gold_train": 23,
+    "semantic_gold_holdout": 6,
+    "trace_count": 228,
+    "trace_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/teacher_b_semantic_v1_traces.json",
+    "student_scope": "Pure semantic channel only. No same_company or duplicate features."
+  },
+  "results": {
+    "teacher": {
+      "rebuilt_hard_all": {
+        "case_count": 33,
+        "hit_at_1": 0.7273,
+        "hit_at_3": 0.8485,
+        "hit_at_5": 0.8788,
+        "mean_reciprocal_rank": 0.7955,
+        "median_positive_rank": 1.0,
+        "avg_runtime_ms": 612.71,
+        "avg_candidate_pool_size": 369.21,
+        "misses": [
+          {
+            "query_id": "69d83768869c7e25d859475c",
+            "company_name": "Amazon Web Services (AWS)",
+            "normalized_title": "software engineer, graviton software, annapurna labs",
+            "positive_ids": [
+              "69b2caedad360c0340a7bebf",
+              "69d04d77cdb525785fba9701",
+              "69d7f8e3b861c42857c477f1"
+            ],
+            "top_candidates": [
+              "697c25611136d179eeefdf16",
+              "69ce5e07891d7b11cfcc8020",
+              "69d64081cfdc6132f946931f",
+              "69d24aad54f00230c6d20cdc",
+              "69d8377f738f2f099e89b7e9"
+            ],
+            "rationale": "Must-have alignment should outrank preferred-only overlap."
+          },
+          {
+            "query_id": "69d8377f738f2f099e89b7e9",
+            "company_name": "Amazon Web Services (AWS)",
+            "normalized_title": "sde machine learning, agentcore",
+            "positive_ids": [
+              "69b36777a8ac8e70ff679ed8"
+            ],
+            "top_candidates": [
+              "6996d6d0ce78e77b4fdb0c7f",
+              "69d640de52a5bf5800128045",
+              "69cd30bc398fb071abf72f55",
+              "697d7d4b3f57a3356967669e",
+              "69d83e9db67cec4f9b09b8c9"
+            ],
+            "rationale": "Must-have alignment should outrank preferred-only overlap."
+          },
+          {
+            "query_id": "69d8377f738f2f099e89b7e9",
+            "company_name": "Amazon Web Services (AWS)",
+            "normalized_title": "sde machine learning, agentcore",
+            "positive_ids": [
+              "699d6a6d81476f6176b63dce"
+            ],
+            "top_candidates": [
+              "6996d6d0ce78e77b4fdb0c7f",
+              "69d640de52a5bf5800128045",
+              "69cd30bc398fb071abf72f55",
+              "697d7d4b3f57a3356967669e",
+              "69d83e9db67cec4f9b09b8c9"
+            ],
+            "rationale": "Human-adjudicated semantic label override."
+          },
+          {
+            "query_id": "6929a9fe4c474121999c9ff6",
+            "company_name": "Whatnot",
+            "normalized_title": "software engineer, new grad",
+            "positive_ids": [
+              "69c5849f1b5ad02887375dd5"
+            ],
+            "top_candidates": [
+              "69d818389f97a42dc9c1a4b6",
+              "69d64084cfdc6132f9469327",
+              "69d61c52cfdc6132f9468a50",
+              "69d00574cfdc6132f9437911",
+              "69d064f2891d7b11cfcdb1dd"
+            ],
+            "rationale": "Same normalized title appears across companies with different business/requirement structure."
+          }
+        ]
+      },
+      "rebuilt_hard_holdout": {
+        "case_count": 6,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mean_reciprocal_rank": 1.0,
+        "median_positive_rank": 1.0,
+        "avg_runtime_ms": 643.46,
+        "avg_candidate_pool_size": 420.0,
+        "misses": []
+      },
+      "semantic_gold": {
+        "case_count": 29,
+        "hit_at_1": 0.7586,
+        "hit_at_3": 0.8966,
+        "hit_at_5": 0.931,
+        "mean_reciprocal_rank": 0.8362,
+        "median_positive_rank": 1.0,
+        "avg_runtime_ms": 570.39,
+        "avg_candidate_pool_size": 362.21,
+        "misses": [
+          {
+            "query_id": "69d83768869c7e25d859475c",
+            "company_name": "",
+            "normalized_title": "",
+            "positive_ids": [
+              "69d7f8e3b861c42857c477f1"
+            ],
+            "top_candidates": [
+              "697c25611136d179eeefdf16",
+              "69ce5e07891d7b11cfcc8020",
+              "69d64081cfdc6132f946931f",
+              "69d24aad54f00230c6d20cdc",
+              "69d8377f738f2f099e89b7e9"
+            ],
+            "rationale": "Must-have alignment should outrank preferred-only overlap."
+          },
+          {
+            "query_id": "69d8377f738f2f099e89b7e9",
+            "company_name": "",
+            "normalized_title": "",
+            "positive_ids": [
+              "699d6a6d81476f6176b63dce"
+            ],
+            "top_candidates": [
+              "6996d6d0ce78e77b4fdb0c7f",
+              "69d640de52a5bf5800128045",
+              "69cd30bc398fb071abf72f55",
+              "697d7d4b3f57a3356967669e",
+              "69d83e9db67cec4f9b09b8c9"
+            ],
+            "rationale": "Human-adjudicated semantic label override."
+          }
+        ]
+      },
+      "semantic_gold_holdout": {
+        "case_count": 6,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mean_reciprocal_rank": 1.0,
+        "median_positive_rank": 1.0,
+        "avg_runtime_ms": 635.04,
+        "avg_candidate_pool_size": 420.0,
+        "misses": []
+      }
+    },
+    "new_student": {
+      "weights": {
+        "must_overlap": 0.38,
+        "preferred_overlap": 0.12,
+        "background_overlap": 0.04,
+        "canonical_overlap": 0.17,
+        "hierarchy_overlap": 0.09,
+        "logic_overlap": 0.08,
+        "domain_overlap": 0.05,
+        "role_score": 0.04,
+        "seniority_score": 0.03
+      },
+      "metrics": {
+        "rebuilt_hard_all": {
+          "case_count": 33,
+          "hit_at_1": 0.7576,
+          "hit_at_3": 0.7576,
+          "hit_at_5": 0.7879,
+          "mean_reciprocal_rank": 0.7829,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 70.82,
+          "avg_candidate_pool_size": 369.21,
+          "misses": [
+            {
+              "query_id": "69d83768869c7e25d859475c",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "software engineer, graviton software, annapurna labs",
+              "positive_ids": [
+                "69b2caedad360c0340a7bebf",
+                "69d04d77cdb525785fba9701",
+                "69d7f8e3b861c42857c477f1"
+              ],
+              "top_candidates": [
+                "69ce5e07891d7b11cfcc8020",
+                "69d6409348f0c8161d2f71e4",
+                "69ce5566398fb071abf844d9",
+                "69d8377b9f97a42dc9c1b2ce",
+                "69cfb2a9cfdc6132f9435175"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            },
+            {
+              "query_id": "69d8377f738f2f099e89b7e9",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "sde machine learning, agentcore",
+              "positive_ids": [
+                "69b36777a8ac8e70ff679ed8"
+              ],
+              "top_candidates": [
+                "697d7d4b3f57a3356967669e",
+                "69ce5566398fb071abf844d9",
+                "69d640de52a5bf5800128045",
+                "697b5fcc1423772304eb7c54",
+                "697b58f01136d179eeeecbda"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            },
+            {
+              "query_id": "69d8377f738f2f099e89b7e9",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "sde machine learning, agentcore",
+              "positive_ids": [
+                "699d6a6d81476f6176b63dce"
+              ],
+              "top_candidates": [
+                "697d7d4b3f57a3356967669e",
+                "69ce5566398fb071abf844d9",
+                "69d640de52a5bf5800128045",
+                "697b5fcc1423772304eb7c54",
+                "697b58f01136d179eeeecbda"
+              ],
+              "rationale": "Human-adjudicated semantic label override."
+            }
+          ]
+        },
+        "rebuilt_hard_holdout": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 78.2,
+          "avg_candidate_pool_size": 420.0,
+          "misses": []
+        },
+        "semantic_gold": {
+          "case_count": 29,
+          "hit_at_1": 0.7931,
+          "hit_at_3": 0.7931,
+          "hit_at_5": 0.8276,
+          "mean_reciprocal_rank": 0.817,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 72.6,
+          "avg_candidate_pool_size": 362.21,
+          "misses": [
+            {
+              "query_id": "69d83768869c7e25d859475c",
+              "company_name": "",
+              "normalized_title": "",
+              "positive_ids": [
+                "69d7f8e3b861c42857c477f1"
+              ],
+              "top_candidates": [
+                "69ce5e07891d7b11cfcc8020",
+                "69d6409348f0c8161d2f71e4",
+                "69ce5566398fb071abf844d9",
+                "69d8377b9f97a42dc9c1b2ce",
+                "69cfb2a9cfdc6132f9435175"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            },
+            {
+              "query_id": "69d8377f738f2f099e89b7e9",
+              "company_name": "",
+              "normalized_title": "",
+              "positive_ids": [
+                "699d6a6d81476f6176b63dce"
+              ],
+              "top_candidates": [
+                "697d7d4b3f57a3356967669e",
+                "69ce5566398fb071abf844d9",
+                "69d640de52a5bf5800128045",
+                "697b5fcc1423772304eb7c54",
+                "697b58f01136d179eeeecbda"
+              ],
+              "rationale": "Human-adjudicated semantic label override."
+            }
+          ]
+        },
+        "semantic_gold_holdout": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 92.72,
+          "avg_candidate_pool_size": 420.0,
+          "misses": []
+        }
+      }
+    },
+    "old_student": {
+      "weights": {
+        "required_overlap": 0.42,
+        "all_overlap": 0.22,
+        "domain_overlap": 0.1,
+        "title_overlap": 0.1,
+        "role_score": 0.1,
+        "seniority_score": 0.06
+      },
+      "metrics": {
+        "rebuilt_hard_all": {
+          "case_count": 33,
+          "hit_at_1": 0.7576,
+          "hit_at_3": 0.8485,
+          "hit_at_5": 0.8788,
+          "mean_reciprocal_rank": 0.8099,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 61.21,
+          "avg_candidate_pool_size": 1018.7,
+          "misses": [
+            {
+              "query_id": "69d83768869c7e25d859475c",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "software engineer, graviton software, annapurna labs",
+              "positive_ids": [
+                "69b2caedad360c0340a7bebf",
+                "69d04d77cdb525785fba9701",
+                "69d7f8e3b861c42857c477f1"
+              ],
+              "top_candidates": [
+                "69cfb2a9cfdc6132f9435175",
+                "69d64660cfdc6132f9469390",
+                "69cef2ce398fb071abf8ad6f",
+                "69d83756b67cec4f9b09b75c",
+                "69d41bc054f00230c6d2e008"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            }
+          ]
+        },
+        "rebuilt_hard_holdout": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 55.17,
+          "avg_candidate_pool_size": 1168.83,
+          "misses": []
+        },
+        "semantic_gold": {
+          "case_count": 29,
+          "hit_at_1": 0.7586,
+          "hit_at_3": 0.8621,
+          "hit_at_5": 0.8966,
+          "mean_reciprocal_rank": 0.8139,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 66.15,
+          "avg_candidate_pool_size": 996.34,
+          "misses": [
+            {
+              "query_id": "69d83768869c7e25d859475c",
+              "company_name": "",
+              "normalized_title": "",
+              "positive_ids": [
+                "69d7f8e3b861c42857c477f1"
+              ],
+              "top_candidates": [
+                "69cfb2a9cfdc6132f9435175",
+                "69d64660cfdc6132f9469390",
+                "69cef2ce398fb071abf8ad6f",
+                "69d83756b67cec4f9b09b75c",
+                "69d41bc054f00230c6d2e008"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            }
+          ]
+        },
+        "semantic_gold_holdout": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 73.31,
+          "avg_candidate_pool_size": 1168.83,
+          "misses": []
+        }
+      }
+    },
+    "difficult_category_breakdown": {
+      "cross_company_structure_similar": {
+        "teacher": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 534.11,
+          "avg_candidate_pool_size": 280.33,
+          "misses": []
+        },
+        "new_student": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 59.52,
+          "avg_candidate_pool_size": 280.33,
+          "misses": []
+        },
+        "old_student": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 100.82,
+          "avg_candidate_pool_size": 777.0,
+          "misses": []
+        }
+      },
+      "must_vs_preferred_confusing": {
+        "teacher": {
+          "case_count": 6,
+          "hit_at_1": 0.3333,
+          "hit_at_3": 0.6667,
+          "hit_at_5": 0.6667,
+          "mean_reciprocal_rank": 0.5,
+          "median_positive_rank": 2.0,
+          "avg_runtime_ms": 634.4,
+          "avg_candidate_pool_size": 420.0,
+          "misses": [
+            {
+              "query_id": "69d83768869c7e25d859475c",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "software engineer, graviton software, annapurna labs",
+              "positive_ids": [
+                "69b2caedad360c0340a7bebf",
+                "69d04d77cdb525785fba9701",
+                "69d7f8e3b861c42857c477f1"
+              ],
+              "top_candidates": [
+                "697c25611136d179eeefdf16",
+                "69ce5e07891d7b11cfcc8020",
+                "69d64081cfdc6132f946931f",
+                "69d24aad54f00230c6d20cdc",
+                "69d8377f738f2f099e89b7e9"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            },
+            {
+              "query_id": "69d8377f738f2f099e89b7e9",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "sde machine learning, agentcore",
+              "positive_ids": [
+                "69b36777a8ac8e70ff679ed8"
+              ],
+              "top_candidates": [
+                "6996d6d0ce78e77b4fdb0c7f",
+                "69d640de52a5bf5800128045",
+                "69cd30bc398fb071abf72f55",
+                "697d7d4b3f57a3356967669e",
+                "69d83e9db67cec4f9b09b8c9"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            }
+          ]
+        },
+        "new_student": {
+          "case_count": 6,
+          "hit_at_1": 0.3333,
+          "hit_at_3": 0.3333,
+          "hit_at_5": 0.5,
+          "mean_reciprocal_rank": 0.4028,
+          "median_positive_rank": 6.0,
+          "avg_runtime_ms": 83.02,
+          "avg_candidate_pool_size": 420.0,
+          "misses": [
+            {
+              "query_id": "69d83768869c7e25d859475c",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "software engineer, graviton software, annapurna labs",
+              "positive_ids": [
+                "69b2caedad360c0340a7bebf",
+                "69d04d77cdb525785fba9701",
+                "69d7f8e3b861c42857c477f1"
+              ],
+              "top_candidates": [
+                "69ce5e07891d7b11cfcc8020",
+                "69d6409348f0c8161d2f71e4",
+                "69ce5566398fb071abf844d9",
+                "69d8377b9f97a42dc9c1b2ce",
+                "69cfb2a9cfdc6132f9435175"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            },
+            {
+              "query_id": "69d8377f738f2f099e89b7e9",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "sde machine learning, agentcore",
+              "positive_ids": [
+                "69b36777a8ac8e70ff679ed8"
+              ],
+              "top_candidates": [
+                "697d7d4b3f57a3356967669e",
+                "69ce5566398fb071abf844d9",
+                "69d640de52a5bf5800128045",
+                "697b5fcc1423772304eb7c54",
+                "697b58f01136d179eeeecbda"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            }
+          ]
+        },
+        "old_student": {
+          "case_count": 6,
+          "hit_at_1": 0.1667,
+          "hit_at_3": 0.5,
+          "hit_at_5": 0.5,
+          "mean_reciprocal_rank": 0.3472,
+          "median_positive_rank": 8.0,
+          "avg_runtime_ms": 120.59,
+          "avg_candidate_pool_size": 1132.0,
+          "misses": [
+            {
+              "query_id": "69d83768869c7e25d859475c",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "software engineer, graviton software, annapurna labs",
+              "positive_ids": [
+                "69b2caedad360c0340a7bebf",
+                "69d04d77cdb525785fba9701",
+                "69d7f8e3b861c42857c477f1"
+              ],
+              "top_candidates": [
+                "69cfb2a9cfdc6132f9435175",
+                "69d64660cfdc6132f9469390",
+                "69cef2ce398fb071abf8ad6f",
+                "69d83756b67cec4f9b09b75c",
+                "69d41bc054f00230c6d2e008"
+              ],
+              "rationale": "Must-have alignment should outrank preferred-only overlap."
+            }
+          ]
+        }
+      },
+      "or_and_mixed": {
+        "teacher": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 771.51,
+          "avg_candidate_pool_size": 420.0,
+          "misses": []
+        },
+        "new_student": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 82.06,
+          "avg_candidate_pool_size": 420.0,
+          "misses": []
+        },
+        "old_student": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 74.19,
+          "avg_candidate_pool_size": 1232.33,
+          "misses": []
+        }
+      },
+      "parent_child_conflict": {
+        "teacher": {
+          "case_count": 6,
+          "hit_at_1": 0.5,
+          "hit_at_3": 0.6667,
+          "hit_at_5": 0.8333,
+          "mean_reciprocal_rank": 0.625,
+          "median_positive_rank": 2.0,
+          "avg_runtime_ms": 692.65,
+          "avg_candidate_pool_size": 420.0,
+          "misses": [
+            {
+              "query_id": "69d8377f738f2f099e89b7e9",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "sde machine learning, agentcore",
+              "positive_ids": [
+                "699d6a6d81476f6176b63dce"
+              ],
+              "top_candidates": [
+                "6996d6d0ce78e77b4fdb0c7f",
+                "69d640de52a5bf5800128045",
+                "69cd30bc398fb071abf72f55",
+                "697d7d4b3f57a3356967669e",
+                "69d83e9db67cec4f9b09b8c9"
+              ],
+              "rationale": "Human-adjudicated semantic label override."
+            }
+          ]
+        },
+        "new_student": {
+          "case_count": 6,
+          "hit_at_1": 0.5,
+          "hit_at_3": 0.5,
+          "hit_at_5": 0.5,
+          "mean_reciprocal_rank": 0.5463,
+          "median_positive_rank": 6.0,
+          "avg_runtime_ms": 85.89,
+          "avg_candidate_pool_size": 420.0,
+          "misses": [
+            {
+              "query_id": "69d8377f738f2f099e89b7e9",
+              "company_name": "Amazon Web Services (AWS)",
+              "normalized_title": "sde machine learning, agentcore",
+              "positive_ids": [
+                "699d6a6d81476f6176b63dce"
+              ],
+              "top_candidates": [
+                "697d7d4b3f57a3356967669e",
+                "69ce5566398fb071abf844d9",
+                "69d640de52a5bf5800128045",
+                "697b5fcc1423772304eb7c54",
+                "697b58f01136d179eeeecbda"
+              ],
+              "rationale": "Human-adjudicated semantic label override."
+            }
+          ]
+        },
+        "old_student": {
+          "case_count": 6,
+          "hit_at_1": 0.5,
+          "hit_at_3": 0.6667,
+          "hit_at_5": 0.8333,
+          "mean_reciprocal_rank": 0.6074,
+          "median_positive_rank": 3.0,
+          "avg_runtime_ms": 108.54,
+          "avg_candidate_pool_size": 1116.83,
+          "misses": []
+        }
+      },
+      "same_company_structure_different": {
+        "teacher": {
+          "case_count": 3,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 387.65,
+          "avg_candidate_pool_size": 280.33,
+          "misses": []
+        },
+        "new_student": {
+          "case_count": 3,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 50.07,
+          "avg_candidate_pool_size": 280.33,
+          "misses": []
+        },
+        "old_student": {
+          "case_count": 3,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 31.72,
+          "avg_candidate_pool_size": 665.67,
+          "misses": []
+        }
+      },
+      "title_same_business_different": {
+        "teacher": {
+          "case_count": 6,
+          "hit_at_1": 0.6667,
+          "hit_at_3": 0.8333,
+          "hit_at_5": 0.8333,
+          "mean_reciprocal_rank": 0.75,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 457.97,
+          "avg_candidate_pool_size": 350.17,
+          "misses": [
+            {
+              "query_id": "6929a9fe4c474121999c9ff6",
+              "company_name": "Whatnot",
+              "normalized_title": "software engineer, new grad",
+              "positive_ids": [
+                "69c5849f1b5ad02887375dd5"
+              ],
+              "top_candidates": [
+                "69d818389f97a42dc9c1a4b6",
+                "69d64084cfdc6132f9469327",
+                "69d61c52cfdc6132f9468a50",
+                "69d00574cfdc6132f9437911",
+                "69d064f2891d7b11cfcdb1dd"
+              ],
+              "rationale": "Same normalized title appears across companies with different business/requirement structure."
+            }
+          ]
+        },
+        "new_student": {
+          "case_count": 6,
+          "hit_at_1": 0.8333,
+          "hit_at_3": 0.8333,
+          "hit_at_5": 0.8333,
+          "mean_reciprocal_rank": 0.8571,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 60.25,
+          "avg_candidate_pool_size": 350.17,
+          "misses": []
+        },
+        "old_student": {
+          "case_count": 6,
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mean_reciprocal_rank": 1.0,
+          "median_positive_rank": 1.0,
+          "avg_runtime_ms": 66.89,
+          "avg_candidate_pool_size": 1011.83,
+          "misses": []
+        }
+      }
+    }
+  },
+  "comparison": {
+    "teacher_vs_new_student": {
+      "rebuilt_hard_all_hit_at_1_delta": -0.0303,
+      "semantic_gold_hit_at_1_delta": -0.0345
+    },
+    "new_vs_old_student": {
+      "rebuilt_hard_all_hit_at_1_delta": 0.0,
+      "semantic_gold_hit_at_1_delta": 0.0345,
+      "rebuilt_hard_all_runtime_ms_delta": 9.61
+    }
+  },
+  "deployment_recommendation": {
+    "offline_teacher": "teacher_b_semantic_v1",
+    "online_student": "student_semantic_v2",
+    "company_channel": "keep separate; do not merge into student core"
+  }
+}

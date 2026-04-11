@@ -1,0 +1,157 @@
+{
+  "resume_project_limit": 2,
+  "companies": [
+    {
+      "company_id": "tiktok_bytedance",
+      "company_name": "TikTok / ByteDance",
+      "aliases": ["TikTok", "ByteDance", "Bytedance"],
+      "max_projects": 2,
+      "notes": "Internship company. Keep scope explicitly team-contributed and avoid multiplying independent project universes.",
+      "projects": [
+        {
+          "project_id": "tiktok_security_retrieval_console",
+          "start": "2025-06",
+          "end": "2025-09",
+          "team": "Security Investigation Tooling",
+          "business_domain": "Security knowledge retrieval and analyst tooling",
+          "project_goal": "Reduce manual context gathering for policy and incident investigations through retrieval-assisted internal tooling.",
+          "scope_ceiling": "Feature delivery inside a team-maintained retrieval assistant, evaluator, or analyst console; not end-to-end ownership of a standalone platform.",
+          "ownership_ceiling": "Implement handlers, evaluators, ingestion utilities, replay hooks, lightweight UI surfaces, and deployment checks for a bounded intern-owned slice.",
+          "allowed_tech_surface": ["Go", "Python", "Java", "JavaScript", "TypeScript", "PostgreSQL", "Kafka", "gRPC", "REST", "Docker", "Kubernetes", "AWS", "S3", "AWS Bedrock", "RAG", "LLM"],
+          "allowed_role_lenses": ["backend", "data", "swe", "mle", "analyst"],
+          "needs_scope_note": true,
+          "notes": "Use for retrieval assistant, policy search, evaluation, or analyst-console variants. The business logic stays anchored in security knowledge retrieval."
+        },
+        {
+          "project_id": "tiktok_security_release_hardening",
+          "start": "2025-10",
+          "end": "2025-12",
+          "team": "Security Platform Release and Replay",
+          "business_domain": "Security telemetry replay, release safety, and validation",
+          "project_goal": "Improve release confidence and replay fidelity for security event-processing and retrieval-adjacent services.",
+          "scope_ceiling": "Tooling and reliability work around existing services, replay sandboxes, CI gates, and device/parser validation; not ownership of the core product roadmap.",
+          "ownership_ceiling": "Implement parsers, replay fixtures, CI/CD gates, deployment automation, Linux validation harnesses, and bounded reliability fixes with teammate guidance.",
+          "allowed_tech_surface": ["Go", "Python", "Java", "C++", "Linux", "Kafka", "PostgreSQL", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Model Deployment", "Network Protocol", "Embedded"],
+          "allowed_role_lenses": ["backend", "platform", "swe", "data"],
+          "needs_scope_note": true,
+          "notes": "Use for replay sandbox, release hardening, device-feed validation, or regression-gating variants without changing the underlying security-platform context."
+        }
+      ]
+    },
+    {
+      "company_id": "didi_food",
+      "company_name": "DiDi Food",
+      "aliases": ["DiDi", "Didi", "DiDi · IBG · Food"],
+      "max_projects": 4,
+      "notes": "Longer tenure allows multiple sequential projects, but their time windows must not overlap or read like unrelated parallel careers.",
+      "projects": [
+        {
+          "project_id": "didi_merchant_incident_workbench",
+          "start": "2022-09",
+          "end": "2023-03",
+          "team": "Merchant Support and Exception Operations",
+          "business_domain": "Merchant incident triage, support routing, and exception handling",
+          "project_goal": "Replace spreadsheet-heavy merchant support workflows with auditable services and operator tooling.",
+          "scope_ceiling": "Cross-functional delivery of internal support tooling, routing APIs, and dashboards used by regional operations; not sole ownership of the full merchant platform.",
+          "ownership_ceiling": "Translate analyst requirements, build validation scripts and service slices, coordinate release checks, and ship operator-facing views with backend/frontend partners.",
+          "allowed_tech_surface": ["Java", "Python", "Flask", "REST", "SQL", "MySQL", "Redis", "Kafka", "Airflow", "Docker", "React", "TypeScript", "Jira"],
+          "allowed_role_lenses": ["analyst", "backend", "fullstack", "pm", "swe"],
+          "needs_scope_note": false,
+          "notes": "Use for merchant incident console, exception workbench, refund-resolution workflow, or issue-routing variants."
+        },
+        {
+          "project_id": "didi_pricing_rules_migration",
+          "start": "2023-04",
+          "end": "2023-09",
+          "team": "Pricing and Promotion Infrastructure",
+          "business_domain": "Pricing, dispatch rules, and promotion eligibility services",
+          "project_goal": "Move frequently changed pricing and dispatch logic from analyst-managed processes into release-managed backend services.",
+          "scope_ceiling": "Service migration, rule validation, release-readiness checks, and ops tooling for pricing/dispatch workflows; not ownership of company-wide pricing strategy.",
+          "ownership_ceiling": "Build backfills, rule validators, microservice modules, data parity checks, and rollout coordination with backend and ops partners.",
+          "allowed_tech_surface": ["Java", "Python", "SQL", "MySQL", "Redis", "Kafka", "Airflow", "REST", "Microservices", "Docker", "Git", "Jira"],
+          "allowed_role_lenses": ["analyst", "backend", "data", "pm", "swe"],
+          "needs_scope_note": false,
+          "notes": "Use for merchant offer rules, pricing rules migration, dispatch rules service, or rule-evaluation service variants."
+        },
+        {
+          "project_id": "didi_supply_eta_service",
+          "start": "2023-10",
+          "end": "2024-02",
+          "team": "Supply Planning and Dispatch Analytics",
+          "business_domain": "Courier ETA, supply-demand planning, and anomaly monitoring",
+          "project_goal": "Improve city-level planning speed and operational visibility through reusable ETA and supply monitoring services.",
+          "scope_ceiling": "Internal feature services and planning workflows for ops teams, backed by ETL and event-driven updates; not a standalone customer-facing product.",
+          "ownership_ceiling": "Build feature pipelines, anomaly checks, service adapters, cached reads, and planning diagnostics with partner engineering teams.",
+          "allowed_tech_surface": ["Java", "Python", "SQL", "MySQL", "Redis", "Kafka", "Airflow", "REST", "Flask", "Docker", "ETL"],
+          "allowed_role_lenses": ["analyst", "backend", "data", "pm", "swe"],
+          "needs_scope_note": false,
+          "notes": "Use for courier ETA feature service, capacity planning service, merchant supply exception monitoring, or outage diagnostics."
+        },
+        {
+          "project_id": "didi_campaign_ops_console",
+          "start": "2024-03",
+          "end": "2024-05",
+          "team": "Promotion Operations and Experimentation",
+          "business_domain": "Campaign launch tooling, experimentation, and promotion audits",
+          "project_goal": "Give operators a shared console to configure, launch, and audit promotion campaigns with fewer errors.",
+          "scope_ceiling": "Internal launch-console and experimentation workflows tied to existing backend services and data refresh jobs; not ownership of company-wide growth product strategy.",
+          "ownership_ceiling": "Build validation logic, console flows, sync jobs, audit tables, and release coordination with product/frontend/backend partners.",
+          "allowed_tech_surface": ["Java", "Python", "TypeScript", "JavaScript", "Flask", "REST", "SQL", "Redis", "Kafka", "Airflow", "ETL", "Docker"],
+          "allowed_role_lenses": ["analyst", "fullstack", "pm", "backend", "swe"],
+          "needs_scope_note": false,
+          "notes": "Use for campaign operations console, regional promotion console, or experiment-setup workflow variants."
+        }
+      ]
+    },
+    {
+      "company_id": "temu_rd",
+      "company_name": "Temu R&D",
+      "aliases": ["Temu", "Temu · R&D"],
+      "max_projects": 2,
+      "notes": "Shorter tenure. Keep Temu scoped to analytics and experimentation support rather than turning it into a large standalone engineering program.",
+      "projects": [
+        {
+          "project_id": "temu_checkout_funnel_diagnostics",
+          "start": "2021-06",
+          "end": "2021-10",
+          "team": "Growth and Funnel Analytics",
+          "business_domain": "Checkout funnel, assortment, and conversion diagnostics",
+          "project_goal": "Identify conversion friction and prioritize product fixes through repeatable diagnostics and experiment readouts.",
+          "scope_ceiling": "Analytics workflows, readouts, and lightweight modeling for product and R&D reviews; not ownership of the core product roadmap.",
+          "ownership_ceiling": "Build SQL/Hive/Spark analyses, notebooks, and experiment slices that inform product decisions and monitoring.",
+          "allowed_tech_surface": ["SQL", "Hive", "Spark SQL", "Python", "Pandas", "A/B Testing", "scikit-learn"],
+          "allowed_role_lenses": ["analyst", "data", "pm"],
+          "needs_scope_note": false,
+          "notes": "Use for checkout funnel, conversion diagnostics, retention slices, or experiment-readout variants."
+        },
+        {
+          "project_id": "temu_promo_reporting_automation",
+          "start": "2021-11",
+          "end": "2022-02",
+          "team": "Merchant and Promotion Analytics",
+          "business_domain": "Merchant reporting, promotion monitoring, and recurring analytics automation",
+          "project_goal": "Reduce repetitive reporting and improve visibility for merchant performance and promotion operations.",
+          "scope_ceiling": "Recurring analytics automation, anomaly checks, and lightweight modeling; not full-stack product development.",
+          "ownership_ceiling": "Automate reports, reconcile datasets, build monitoring tables, and provide decision support for experiments and merchant reviews.",
+          "allowed_tech_surface": ["Python", "Pandas", "SQL", "Hive", "Spark SQL", "Airflow", "A/B Testing", "scikit-learn"],
+          "allowed_role_lenses": ["analyst", "data", "pm"],
+          "needs_scope_note": false,
+          "notes": "Use for reporting automation, merchant quality reviews, promotion monitoring, or cohort-analysis variants."
+        }
+      ]
+    }
+  ],
+  "seed_assignments": {
+    "seed_codex_google_aiml": ["tiktok_security_release_hardening", "didi_supply_eta_service"],
+    "seed_codex_google_fullstack": ["tiktok_security_retrieval_console", "didi_campaign_ops_console"],
+    "seed_codex_amazon_sde": ["tiktok_security_retrieval_console", "didi_merchant_incident_workbench"],
+    "seed_amazon_conversational_ads_backend": ["tiktok_security_retrieval_console", "didi_supply_eta_service"],
+    "seed_aws_generalist_embedded": ["tiktok_security_retrieval_console", "didi_pricing_rules_migration"],
+    "seed_google_geo_aiml_anchor": ["tiktok_security_retrieval_console", "didi_supply_eta_service"],
+    "seed_microsoft_polyglot_generalist": ["tiktok_security_retrieval_console", "didi_campaign_ops_console"],
+    "seed_microsoft_coreai_platform_anchor": ["tiktok_security_retrieval_console", "didi_merchant_incident_workbench"],
+    "seed_jpmc_data_mlops_anchor": ["tiktok_security_retrieval_console", "didi_pricing_rules_migration"],
+    "seed_amazon_agi_ml_anchor": ["tiktok_security_retrieval_console", "didi_pricing_rules_migration"],
+    "seed_aws_support_backend_anchor": ["tiktok_security_retrieval_console", "didi_merchant_incident_workbench"]
+  }
+}

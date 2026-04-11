@@ -1,0 +1,63 @@
+{
+  "job_id": "69b84a2756973837413d6fbf",
+  "company_name": "Google",
+  "company_slug": "google",
+  "publish_time": "2026-04-07 07:28:39",
+  "publish_date": "2026-04-07",
+  "title": "Software Engineer, GenAI, Ads Forecasting",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.google.com/jobs/results/72537856697868998-software-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_google_geo_aiml_anchor",
+  "seed_label": "Google Workspace/Geo AIML Anchor",
+  "parent_seed_id": "seed_google_geo_aiml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_google_geo_aiml_anchor",
+    "label": "Google Workspace/Geo AIML Anchor",
+    "route_score": 1.0,
+    "same_company": true,
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_supply_eta_service"
+    ],
+    "seed_company_name": "Google",
+    "seed_source_job_id": "69b2b893ad360c0340a79c07"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-07/69b84a2756973837413d6fbf/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-07T11:12:20",
+  "review": {},
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

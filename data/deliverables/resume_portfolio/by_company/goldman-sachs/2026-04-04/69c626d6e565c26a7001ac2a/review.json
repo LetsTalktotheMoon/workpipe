@@ -1,0 +1,77 @@
+{
+  "weighted_score": 96.5,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": false,
+  "revision_priority": [
+    "把 `Distributed Systems` 明确补进 `## Skills`，并让正文至少有一处同词出现。",
+    "在 Summary 加一句面向 low-latency / high-reliability / quantitative platform 的桥接语。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.7,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.6,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 96.5,
+  "verdict": "pass",
+  "seed_label": "PayPal Java Backend",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T03:01:05",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 95.0,
+  "previous_verdict": "pass"
+}

@@ -1,0 +1,115 @@
+{
+  "job_id": "69d01586cdb525785fba7472",
+  "company_name": "HYR Global Source Inc",
+  "company_slug": "hyr-global-source-inc",
+  "publish_time": "2026-04-03 14:31:18",
+  "publish_date": "2026-04-03",
+  "title": "GCP Data Engineer - Fully Remote",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.linkedin.com/jobs/view/4380369112",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_qualified_health_data_engineer",
+  "seed_label": "Qualified Health Data Engineer",
+  "parent_seed_id": "seed_qualified_health_data_engineer",
+  "top_candidate": {
+    "seed_id": "seed_qualified_health_data_engineer",
+    "label": "Qualified Health Data Engineer",
+    "route_score": 0.882,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "gcp"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Qualified Health",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hyr-global-source-inc/2026-04-03/69d01586cdb525785fba7472/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hyr-global-source-inc/2026-04-03/69d01586cdb525785fba7472/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hyr-global-source-inc/2026-04-03/69d01586cdb525785fba7472",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d01586cdb525785fba7472",
+  "generated_at": "2026-04-05T19:48:50",
+  "review": {
+    "weighted_score": 88.7,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "补一条明确的 Snowflake-to-GCP migration 证据，最好放在 DiDi 或 TikTok 的核心 bullet 中。",
+      "收缩 TikTok internship 的技术面跨度，只保留一条自洽的数据工程主线并去掉过宽的 stack 堆叠。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.2,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 88.7,
+    "verdict": "conditional_pass",
+    "seed_label": "Qualified Health Data Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "补一条明确的 Snowflake-to-GCP migration 证据，最好放在 DiDi 或 TikTok 的核心 bullet 中。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:28",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

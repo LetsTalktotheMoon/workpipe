@@ -1,0 +1,106 @@
+{
+  "job_id": "69d00192cdb525785fba6807",
+  "company_name": "Gordon Food Service",
+  "company_slug": "gordon-food-service",
+  "publish_time": "2026-04-03 13:06:10",
+  "publish_date": "2026-04-03",
+  "title": "CI/CD DevOps Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/CI-CD-DevOps-Engineer_R-49694",
+  "source_kind": "seed_source",
+  "route_mode": "seed_source",
+  "seed_id": "seed_platform_ai_automation",
+  "seed_label": "Platform AI Automation",
+  "parent_seed_id": "seed_platform_ai_automation",
+  "top_candidate": {
+    "same_company": true,
+    "seed_company_name": "Gordon Food Service",
+    "seed_source_job_id": "69d00192cdb525785fba6807",
+    "company_anchor": true,
+    "project_ids": []
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d00192cdb525785fba6807",
+  "generated_at": "2026-04-05T15:34:26",
+  "review": {
+    "jd_id": "candidate_platform_ai_automation",
+    "company": "Gordon Food Service",
+    "title": "CI/CD DevOps Engineer",
+    "role_type": "swe_devops",
+    "verdict": "pass",
+    "final_score": 95.5,
+    "revised": false,
+    "weighted_score": 95.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    }
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:26",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

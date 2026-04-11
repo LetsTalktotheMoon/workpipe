@@ -1,0 +1,68 @@
+{
+  "weighted_score": 93.3,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": false,
+  "revision_priority": [
+    "Make the DiDi ownership framing more explicit on the engineering-heavy bullets so the analyst-to-systems bridge is easier to trust.",
+    "Normalize the DiDi squad descriptor into the bullet structure so the section reads consistently under ATS parsing."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.1,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.4,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 93.3,
+  "verdict": "pass",
+  "seed_label": "Egen Fullstack Node",
+  "route_mode": "retarget",
+  "revised": false,
+  "repaired_at": "2026-04-07T16:57:20",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

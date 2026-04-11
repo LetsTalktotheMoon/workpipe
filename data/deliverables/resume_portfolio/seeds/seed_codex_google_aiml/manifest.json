@@ -1,0 +1,164 @@
+{
+  "seed_id": "seed_codex_google_aiml",
+  "label": "Google AIML SWE",
+  "role_family": "ai_ml_swe",
+  "seniority": "mid_senior",
+  "validated_score": 93.9,
+  "company_name": "Google",
+  "source_job_id": "",
+  "company_anchor": false,
+  "project_ids": [
+    "tiktok_security_release_hardening",
+    "didi_supply_eta_service"
+  ],
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "project_cards": [
+    {
+      "project_id": "tiktok_security_release_hardening",
+      "company_id": "tiktok_bytedance",
+      "company_name": "TikTok / ByteDance",
+      "start": "2025-10",
+      "end": "2025-12",
+      "team": "Security Platform Release and Replay",
+      "business_domain": "Security telemetry replay, release safety, and validation",
+      "project_goal": "Improve release confidence and replay fidelity for security event-processing and retrieval-adjacent services.",
+      "scope_ceiling": "Tooling and reliability work around existing services, replay sandboxes, CI gates, and device/parser validation; not ownership of the core product roadmap.",
+      "ownership_ceiling": "Implement parsers, replay fixtures, CI/CD gates, deployment automation, Linux validation harnesses, and bounded reliability fixes with teammate guidance.",
+      "allowed_tech_surface": [
+        "Go",
+        "Python",
+        "Java",
+        "C++",
+        "Linux",
+        "Kafka",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "CI/CD",
+        "Model Deployment",
+        "Network Protocol",
+        "Embedded"
+      ],
+      "allowed_role_lenses": [
+        "backend",
+        "platform",
+        "swe",
+        "data"
+      ],
+      "needs_scope_note": true,
+      "notes": "Use for replay sandbox, release hardening, device-feed validation, or regression-gating variants without changing the underlying security-platform context."
+    },
+    {
+      "project_id": "didi_supply_eta_service",
+      "company_id": "didi_food",
+      "company_name": "DiDi Food",
+      "start": "2023-10",
+      "end": "2024-02",
+      "team": "Supply Planning and Dispatch Analytics",
+      "business_domain": "Courier ETA, supply-demand planning, and anomaly monitoring",
+      "project_goal": "Improve city-level planning speed and operational visibility through reusable ETA and supply monitoring services.",
+      "scope_ceiling": "Internal feature services and planning workflows for ops teams, backed by ETL and event-driven updates; not a standalone customer-facing product.",
+      "ownership_ceiling": "Build feature pipelines, anomaly checks, service adapters, cached reads, and planning diagnostics with partner engineering teams.",
+      "allowed_tech_surface": [
+        "Java",
+        "Python",
+        "SQL",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "Airflow",
+        "REST",
+        "Flask",
+        "Docker",
+        "ETL"
+      ],
+      "allowed_role_lenses": [
+        "analyst",
+        "backend",
+        "data",
+        "pm",
+        "swe"
+      ],
+      "needs_scope_note": false,
+      "notes": "Use for courier ETA feature service, capacity planning service, merchant supply exception monitoring, or outage diagnostics."
+    }
+  ],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_google_aiml/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml",
+  "source_artifact_dir": "",
+  "derived_count": 6,
+  "derived_jobs": [
+    {
+      "job_id": "69a504290da45516f16da9ce",
+      "company_name": "Qualcomm",
+      "publish_time": "2026-04-08 07:22:03",
+      "title": "Senior Software Engineer, Machine Learning",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce/resume.md",
+      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce/resume.pdf"
+    },
+    {
+      "job_id": "69cef32d54f00230c6d05152",
+      "company_name": "Uber",
+      "publish_time": "2026-04-02 17:52:29",
+      "title": "Software Engineer II - AI Security & Governance",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "699917edce78e77b4fddba00",
+      "company_name": "Distyl",
+      "publish_time": "2026-04-02 17:42:01",
+      "title": "AI Evaluation Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cee70954f00230c6d04ba2",
+      "company_name": "General Motors",
+      "publish_time": "2026-04-02 17:00:41",
+      "title": "Software Engineer – Autonomy Evaluation",
+      "source_kind": "retarget_trial",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b1fbae65de58104c716815",
+      "company_name": "Amazon Web Services (AWS)",
+      "publish_time": "2026-04-02 10:42:18",
+      "title": "Software Development Engineer, Neuron Foundation Tools",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69846d438da7a612045e943f",
+      "company_name": "Waymo",
+      "publish_time": "2026-04-01 23:49:25",
+      "title": "Software Engineer, Perception Evaluation",
+      "source_kind": "seed_validation",
+      "route_mode": "new_seed",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f/resume.md",
+      "resume_pdf": ""
+    }
+  ]
+}

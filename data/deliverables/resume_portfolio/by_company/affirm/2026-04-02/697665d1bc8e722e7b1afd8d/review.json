@@ -1,0 +1,81 @@
+{
+  "weighted_score": 94.0,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": false,
+  "revision_priority": [],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.0,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 10.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.7,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.2,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 94.0,
+  "verdict": "pass",
+  "seed_label": "Google Cloud Infra Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:48:28",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": true,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 96.4,
+  "previous_verdict": "pass",
+  "repaired_at": "2026-04-07T16:57:08",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

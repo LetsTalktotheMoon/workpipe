@@ -1,0 +1,77 @@
+{
+  "weighted_score": 95.5,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "去掉所有修饰词/限定词的加粗，只保留技术栈和量化结果加粗。",
+    "给 TikTok 段补一个 scope anchor，并把 DiDi 项目里的 `Led` 收紧为更符合数据分析师职责的 ownership 表达。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.1,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.7,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.5,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 95.5,
+  "verdict": "pass",
+  "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+  "route_mode": "retarget",
+  "revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "revision_instructions": "1. 全文统一清理加粗规则：仅保留技术栈、系统名、数字和业务结果的加粗，删除 `team-maintained`、`existing`、`internal`、`bounded` 这类修饰词的加粗。\n2. 在 TikTok 段落补一个范围说明，明确这些 Go/Java/Python/C++/Rust/JS 改动都发生在同一个 team-owned security service 或同一工作流内，避免给人“一个实习生覆盖太多子系统”的疑虑。\n3. 把 DiDi 的 `Led a pilot decomposition...` 改成更收敛的 ownership 表达，例如 `Coordinated a pilot decomposition with backend engineers...`，或者补一句说明你负责的是 analytics-side design / validation / rollout checks。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:25:35",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 93.3,
+  "previous_verdict": "pass"
+}

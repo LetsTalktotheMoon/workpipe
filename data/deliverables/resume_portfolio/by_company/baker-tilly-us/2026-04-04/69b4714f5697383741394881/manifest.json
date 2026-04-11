@@ -1,0 +1,111 @@
+{
+  "job_id": "69b4714f5697383741394881",
+  "company_name": "Baker Tilly US",
+  "company_slug": "baker-tilly-us",
+  "publish_time": "2026-04-04 08:18:51",
+  "publish_date": "2026-04-04",
+  "title": "Data Analytics Senior Associate",
+  "application_status": "1_Discovered",
+  "apply_link": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-IL-Chicago-205-N-Michigan-Ave/Data-Analytics-Senior-Associate_JR105707?source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_qualified_health_data_engineer",
+  "seed_label": "Qualified Health Data Engineer",
+  "parent_seed_id": "seed_qualified_health_data_engineer",
+  "top_candidate": {
+    "seed_id": "seed_qualified_health_data_engineer",
+    "label": "Qualified Health Data Engineer",
+    "route_score": 0.946,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [],
+    "seed_company_name": "Qualified Health",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/baker-tilly-us/2026-04-04/69b4714f5697383741394881/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/baker-tilly-us/2026-04-04/69b4714f5697383741394881/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/baker-tilly-us/2026-04-04/69b4714f5697383741394881",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69b4714f5697383741394881",
+  "generated_at": "2026-04-05T19:10:12",
+  "review": {
+    "weighted_score": 93.9,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "补足 Baker Tilly 语境下的 client-facing / advisory 叙事，让简历更像可直接上手的咨询型数据分析候选人。",
+      "压缩 TikTok internship 的技术密度，明确个人 ownership 边界，避免 6 个月经历看起来像跨多个完整平台项目。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.9,
+    "verdict": "pass",
+    "seed_label": "Qualified Health Data Engineer",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:13",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

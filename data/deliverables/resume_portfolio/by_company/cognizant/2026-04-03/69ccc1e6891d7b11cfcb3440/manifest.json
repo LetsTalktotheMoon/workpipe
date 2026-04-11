@@ -1,0 +1,138 @@
+{
+  "job_id": "69ccc1e6891d7b11cfcb3440",
+  "company_name": "Cognizant",
+  "company_slug": "cognizant",
+  "publish_time": "2026-04-03 14:11:38",
+  "publish_date": "2026-04-03",
+  "title": "Data Engineer - Talend & Databricks",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.cognizant.com/global-en/jobs/00068079841/data-engineer-talend-databricks/?source=JB-11500",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_qualified_health_data_engineer",
+  "seed_label": "Qualified Health Data Engineer",
+  "parent_seed_id": "seed_qualified_health_data_engineer",
+  "top_candidate": {
+    "seed_id": "seed_qualified_health_data_engineer",
+    "label": "Qualified Health Data Engineer",
+    "route_score": 0.775,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "mongodb",
+      "x12 834/837"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Qualified Health",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cognizant/2026-04-03/69ccc1e6891d7b11cfcb3440/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cognizant/2026-04-03/69ccc1e6891d7b11cfcb3440/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cognizant/2026-04-03/69ccc1e6891d7b11cfcb3440",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69ccc1e6891d7b11cfcb3440",
+  "generated_at": "2026-04-05T21:06:36",
+  "review": {
+    "weighted_score": 91.3,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Add MongoDB evidence in Skills and one concrete ETL bullet so the JD's must-have stack is actually proven in the body.",
+      "Surface Talend or exact data-integration tooling in one summary sentence or bullet if that experience is real."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.2,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.3,
+    "verdict": "conditional_pass",
+    "seed_label": "Qualified Health Data Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "Keep the immutable experience headers unchanged. Add `MongoDB` to `## Skills`, then edit one existing ETL bullet in DiDi or TikTok to show a specific MongoDB use case such as ingesting, validating, or serving document/event data. If Talend exposure is real, surface it once in the Summary or the most relevant ETL bullet so the resume matches the JD's Talend + Databricks direction; do not remove Databricks or the current experience structure.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T04:06:47",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 89.1,
+    "previous_verdict": "conditional_pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:18",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T04:06:47",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 91.3,
+  "review_verdict": "conditional_pass"
+}

@@ -1,0 +1,70 @@
+{
+  "weighted_score": 78.1,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 2,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "补齐技能出处一致性：把 Rails 和 GCP 加入 Skills，或删除/替换所有正文中的对应技术提法。",
+    "收紧 TikTok 实习叙事：减少单条 bullet 里的技术堆叠，并明确哪些是团队维护、配合开发或 sandbox 范围内的工作。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 4.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r1_writing_standard": {
+      "score": 9.6,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 8.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 7.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.8,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 78.1,
+  "verdict": "fail",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "补齐技能出处一致性：把 Rails 和 GCP 加入 Skills，或删除/替换所有正文中的对应技术提法。",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:32",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

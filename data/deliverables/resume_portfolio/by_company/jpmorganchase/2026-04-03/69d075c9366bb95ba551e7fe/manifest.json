@@ -1,0 +1,120 @@
+{
+  "job_id": "69d075c9366bb95ba551e7fe",
+  "company_name": "JPMorganChase",
+  "company_slug": "jpmorganchase",
+  "publish_time": "2026-04-03 21:22:01",
+  "publish_date": "2026-04-03",
+  "title": "Data Software Engineer II",
+  "application_status": "1_Discovered",
+  "apply_link": "https://JPMorganChase.contacthr.com/151687766",
+  "source_kind": "seed_source",
+  "route_mode": "seed_source",
+  "seed_id": "seed_jpmc_data_mlops_anchor",
+  "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+  "parent_seed_id": "seed_jpmc_data_mlops_anchor",
+  "top_candidate": {
+    "same_company": true,
+    "seed_company_name": "JPMorganChase",
+    "seed_source_job_id": "69d075c9366bb95ba551e7fe",
+    "company_anchor": true,
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ]
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d075c9366bb95ba551e7fe/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d075c9366bb95ba551e7fe/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d075c9366bb95ba551e7fe",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d075c9366bb95ba551e7fe",
+  "generated_at": "2026-04-05T15:34:30",
+  "review": {
+    "jd_id": "69d075c9366bb95ba551e7fe",
+    "company": "JPMorganChase",
+    "title": "Data Software Engineer II",
+    "role_type": "swe_backend",
+    "verdict": "pass",
+    "seed_label": "JPMorganChase Data MLOps Anchor",
+    "route_mode": "new_seed",
+    "final_score": 94.3,
+    "revised": false,
+    "weighted_score": 94.3,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "补强 JPMorganChase 相关的金融/受监管数据场景 framing，避免简历只像通用互联网平台经历。",
+      "收窄 DiDi 里 13 人 squad 的 ownership 表述，明确你到底是 lead、partner 还是协同 owner。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    }
+  },
+  "subseed_ids": [
+    "jpmc_data_mlops_mainline"
+  ],
+  "subseed_labels": [
+    "JPMC Data Platform / MLOps"
+  ],
+  "primary_subseed_id": "jpmc_data_mlops_mainline",
+  "primary_subseed_label": "JPMC Data Platform / MLOps",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:31",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

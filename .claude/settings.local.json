@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source ~/.zshrc)",
+      "Bash(ls ~/Library/LaunchAgents/*pipeline* ~/Library/LaunchAgents/*job*)",
+      "Bash(launchctl list:*)",
+      "Bash(launchctl unload:*)",
+      "Bash(launchctl load:*)"
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "job_id": "69b6af4206c1ba00c548855d",
+  "company_name": "Anyscale",
+  "company_slug": "anyscale",
+  "publish_time": "2026-04-05 09:34:12",
+  "publish_date": "2026-04-05",
+  "title": "Software Engineer (Ray Data)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/anyscale/a83ce0ba-44ab-4d81-9c8c-bfda757377cd?utm_source=2DLolXAkmZ",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_google_cloud_infra_anchor_candidate",
+  "seed_label": "Google Cloud Infra Anchor",
+  "parent_seed_id": "seed_google_cloud_infra_anchor_candidate",
+  "top_candidate": {
+    "seed_id": "seed_google_cloud_infra_anchor_candidate",
+    "label": "Google Cloud Infra Anchor",
+    "route_score": 0.919,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "Google",
+    "seed_source_job_id": "69d0134b891d7b11cfcd85ea"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/anyscale/2026-04-05/69b6af4206c1ba00c548855d/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/anyscale/2026-04-05/69b6af4206c1ba00c548855d/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/anyscale/2026-04-05/69b6af4206c1ba00c548855d",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-05/69b6af4206c1ba00c548855d",
+  "generated_at": "2026-04-06T22:47:43",
+  "review": {
+    "weighted_score": 79.5,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补上真实的 Scala 使用证据，并把它写进 Skills、Summary 和至少一条相关经验 bullet。",
+      "把面向 Anyscale 的主叙事收束到 data pipelines / distributed systems / Scala，而不是只保留通用 backend 广度。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 3.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 79.5,
+    "verdict": "fail",
+    "seed_label": "Google Cloud Infra Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "保持所有不可变字段完全不变。首先在 `## Skills` 里新增 `Scala`，并确保它不是孤立列出，而是能在正文中找到对应出处。其次在至少一条最贴近数据管道或分布式处理的 bullet 中补入真实的 Scala 场景，例如用 Scala 编写批处理/流式转换、Spark 作业、分布式 job 逻辑或数据管道组件；不要用泛泛的“used Scala”代替具体业务动作。然后把 `Professional Summary` 的三句结构保留不变，但在第二句或第一句中加入对 Scala + data pipeline + distributed systems 的明确归纳，确保与正文一致。最后检查全篇，保证新增 Scala 后 Skills 与正文一一对应，且不删除已有技术栈、不过度夸大 ownership。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:10:03",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 84.3,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [
+    "google_cloud_infra_mainline"
+  ],
+  "subseed_labels": [
+    "Google Cloud / Infra"
+  ],
+  "primary_subseed_id": "google_cloud_infra_mainline",
+  "primary_subseed_label": "Google Cloud / Infra",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:11",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T17:10:03",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "review_final_score": 79.5,
+  "review_verdict": "fail"
+}

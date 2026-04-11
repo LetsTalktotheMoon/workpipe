@@ -1,0 +1,70 @@
+{
+  "weighted_score": 94.1,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": false,
+  "revision_priority": [
+    "补一条与 ArteraAI 癌症医疗场景相关的叙事桥接，让转岗故事从“泛 ML”变成“面向高风险决策支持的 ML”。",
+    "收敛 TikTok 段落里每条 bullet 的工具堆叠，并把个人 ownership 与团队平台集成边界说得更清楚。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 10.0,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.1,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 94.1,
+  "verdict": "pass",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "repaired_at": "2026-04-07T16:57:12",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

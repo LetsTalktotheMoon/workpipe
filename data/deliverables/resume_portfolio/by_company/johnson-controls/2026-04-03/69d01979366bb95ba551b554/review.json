@@ -1,0 +1,79 @@
+{
+  "weighted_score": 91.1,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 2,
+  "needs_revision": true,
+  "revision_priority": [
+    "把简历叙事直接桥接到 Johnson Controls 的 smart buildings / operational telemetry / sustainability 方向。",
+    "解释双硕士时间线，并收紧 TikTok 和 DiDi 中最夸张 bullet 的 ownership 边界。",
+    "补一条能直接对齐 Johnson Controls smart buildings / sustainability / operations monitoring 的叙事，否则 JD 方向匹配度不够。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 9.6,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.7,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.5,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "calibrated": true,
+  "calibration_scores": [
+    92.3,
+    91.2,
+    90.1
+  ],
+  "final_score": 91.1,
+  "verdict": "conditional_pass",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": true,
+  "main_failure_reason": "把简历叙事直接桥接到 Johnson Controls 的 smart buildings / operational telemetry / sustainability 方向。",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:30",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

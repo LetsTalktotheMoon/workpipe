@@ -1,0 +1,73 @@
+{
+  "weighted_score": 90.1,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Tighten the TikTok internship to one clearly owned backend service and separate owned work from team-maintained integrations.",
+    "Make the Amazon Robotics fit explicit by adding one summary or experience sentence that ties the stack to Linux-based validation, telemetry, automation, or service reliability."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.6,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 7.7,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 90.1,
+  "verdict": "conditional_pass",
+  "seed_label": "Amazon Management Plane Anchor",
+  "route_mode": "retarget",
+  "revised": true,
+  "revision_instructions": "Preserve all immutable fields exactly as written. Rewrite the TikTok section so it reads like one 6-month intern-owned service with a clear boundary, not multiple independent production subsystems; keep the strongest backend result, but move secondary language/runtime details into supporting integration language and explicitly say which parts were team-maintained. Add one JD-facing sentence in the summary or TikTok bullets that connects Go, Python, C++, and Linux to validation, telemetry, automation, or reliability so the Amazon Robotics fit is explicit. Do not delete any must-have JD technology from the resume; strengthen the evidence instead. Keep the rest of the chronology, titles, and location strings unchanged.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T17:05:16",
+  "rereview_rounds": 2,
+  "rereview_revised": true,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_achievement"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 88.0,
+  "previous_verdict": "conditional_pass"
+}

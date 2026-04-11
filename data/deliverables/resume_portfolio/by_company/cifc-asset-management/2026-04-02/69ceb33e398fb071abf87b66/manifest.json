@@ -1,0 +1,113 @@
+{
+  "job_id": "69ceb33e398fb071abf87b66",
+  "company_name": "CIFC Asset Management",
+  "company_slug": "cifc-asset-management",
+  "publish_time": "2026-04-02 09:53:04",
+  "publish_date": "2026-04-02",
+  "title": "Junior Data Analyst",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.linkedin.com/jobs/view/4395335317",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_bytedance_ml_grad",
+  "seed_label": "ByteDance ML Grad",
+  "parent_seed_id": "seed_bytedance_ml_grad",
+  "top_candidate": {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "route_score": 0.728,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "c#"
+    ],
+    "project_ids": [],
+    "seed_company_name": "ByteDance",
+    "seed_source_job_id": "692777a0d47de4798ecdcf3a"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cifc-asset-management/2026-04-02/69ceb33e398fb071abf87b66/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cifc-asset-management/2026-04-02/69ceb33e398fb071abf87b66/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cifc-asset-management/2026-04-02/69ceb33e398fb071abf87b66",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69ceb33e398fb071abf87b66",
+  "generated_at": "2026-04-07T02:18:18",
+  "review": {
+    "weighted_score": 92.4,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Explain the two concurrent master's programs so the education timeline is unambiguous.",
+      "Normalize bolding so only technical terms and standalone metrics are emphasized, not modifiers like 'team-maintained'."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 7.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 92.4,
+    "verdict": "conditional_pass",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Explain the two concurrent master's programs so the education timeline is unambiguous.",
+    "failure_bucket": "company_consistency_block"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:16",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

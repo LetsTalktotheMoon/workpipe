@@ -1,0 +1,122 @@
+{
+  "job_id": "69cecea5cdb525785fb9b99f",
+  "company_name": "Crestron Electronics",
+  "company_slug": "crestron-electronics",
+  "publish_time": "2026-04-02 15:16:37",
+  "publish_date": "2026-04-02",
+  "title": "Senior Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.dayforcehcm.com/en-US/crestron/candidateportal/jobs/4124",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_generalist_dotnet_enterprise",
+  "seed_label": "Generalist DotNet Enterprise",
+  "parent_seed_id": "seed_generalist_dotnet_enterprise",
+  "top_candidate": {
+    "seed_id": "seed_generalist_dotnet_enterprise",
+    "label": "Generalist DotNet Enterprise",
+    "route_score": 0.734,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      ".net technologies"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Spok",
+    "seed_source_job_id": "69cfdc7b891d7b11cfcd677c"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/crestron-electronics/2026-04-02/69cecea5cdb525785fb9b99f/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/crestron-electronics/2026-04-02/69cecea5cdb525785fb9b99f/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/crestron-electronics/2026-04-02/69cecea5cdb525785fb9b99f",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cecea5cdb525785fb9b99f",
+  "generated_at": "2026-04-06T22:55:42",
+  "review": {
+    "weighted_score": 90.5,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "压缩 Skills 分类并清理加粗规则，避免 ATS 认为结构过宽、重点被稀释。",
+      "补一条面向 Crestron 自动化/控制场景的业务对齐说明，并把各经历的 ownership 边界写清楚。",
+      "收紧 Skills 区的类别宽度，避免单个类别超过 8 个技术栈。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "calibrated": true,
+    "calibration_scores": [
+      92.2,
+      95.5,
+      83.4
+    ],
+    "final_score": 90.5,
+    "verdict": "conditional_pass",
+    "seed_label": "Generalist DotNet Enterprise",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "压缩 Skills 分类并清理加粗规则，避免 ATS 认为结构过宽、重点被稀释。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:19",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

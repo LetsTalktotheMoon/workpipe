@@ -1,0 +1,15 @@
+# JPMC Internal Apps / Fullstack
+
+* `subseed_id`: `jpmc_enterprise_apps_pending`
+* `kind`: `mainline`
+* `status`: `planned`
+* `primary_seed_id`: ``
+* `seed_ids`: ``
+* `candidate_job_ids`: `69d046190b098b7a67077f8c, 69cdd45354f00230c6cf6d55, 69bf613a2c312363dcd20f7f, 6978dbe888e2b47213bcf535`
+* `target_role_families`: `backend_generalist, fullstack, ai_ml_swe`
+* `notes`: Potential second JPMC direction if internal-apps/fullstack roles justify another sub seed. Current evidence is stronger for Python/React/fullstack + internal AI apps than for .NET/capital-markets.
+* `derived_count`: `0`
+
+## Matched Jobs
+
+- None yet

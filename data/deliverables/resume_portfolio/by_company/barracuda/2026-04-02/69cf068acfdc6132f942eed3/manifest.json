@@ -1,0 +1,111 @@
+{
+  "job_id": "69cf068acfdc6132f942eed3",
+  "company_name": "Barracuda",
+  "company_slug": "barracuda",
+  "publish_time": "2026-04-02 19:15:06",
+  "publish_date": "2026-04-02",
+  "title": "Manager, Offensive Security",
+  "application_status": "1_Discovered",
+  "apply_link": "http://app.jobvite.com/CompanyJobs/Careers.aspx?c=qTN9Vfwu&j=omuSzfw1&k=Apply&__jvst=Job+Board&__jvsd=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_fireblocks_sre_anchor",
+  "seed_label": "Fireblocks SRE Anchor",
+  "parent_seed_id": "seed_fireblocks_sre_anchor",
+  "top_candidate": {
+    "seed_id": "seed_fireblocks_sre_anchor",
+    "label": "Fireblocks SRE Anchor",
+    "route_score": 0.798,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "databricks",
+      "gcp"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Fireblocks",
+    "seed_source_job_id": "6997741fce78e77b4fdbcb82"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/barracuda/2026-04-02/69cf068acfdc6132f942eed3/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/barracuda/2026-04-02/69cf068acfdc6132f942eed3/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/barracuda/2026-04-02/69cf068acfdc6132f942eed3",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cf068acfdc6132f942eed3",
+  "generated_at": "2026-04-07T00:14:22",
+  "review": {
+    "weighted_score": 93.2,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.2,
+    "verdict": "pass",
+    "seed_label": "Fireblocks SRE Anchor",
+    "route_mode": "retarget",
+    "revised": true
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:13",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

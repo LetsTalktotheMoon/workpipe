@@ -1,0 +1,116 @@
+{
+  "job_id": "69253d8bd47de4798ecceb43",
+  "company_name": "Roblox",
+  "company_slug": "roblox",
+  "publish_time": "2026-04-03 08:17:23",
+  "publish_date": "2026-04-03",
+  "title": "Senior Software Engineer, Engineering Productivity",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=7421234&utm_source=jobright",
+  "source_kind": "retarget_trial",
+  "route_mode": "retarget",
+  "seed_id": "candidate_itential_generalist_algorithms",
+  "seed_label": "Itential Generalist Algorithms",
+  "parent_seed_id": "candidate_itential_generalist_algorithms",
+  "top_candidate": {
+    "seed_id": "candidate_itential_generalist_algorithms",
+    "label": "Itential Generalist Algorithms",
+    "route_score": 0.868,
+    "required_coverage": 0.778,
+    "core_coverage": 1.0,
+    "preferred_coverage": 1.0,
+    "role_score": 1.0,
+    "domain_score": 0.667,
+    "seniority_score": 0.82,
+    "title_score": 1.0,
+    "missing_required": [
+      "c#",
+      "terraform"
+    ]
+  },
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/roblox/2026-04-03/69253d8bd47de4798ecceb43/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/roblox/2026-04-03/69253d8bd47de4798ecceb43/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/roblox/2026-04-03/69253d8bd47de4798ecceb43",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69253d8bd47de4798ecceb43",
+  "generated_at": "2026-04-05T14:00:54",
+  "review": {
+    "jd_id": "69253d8bd47de4798ecceb43",
+    "company": "Roblox",
+    "title": "Senior Software Engineer, Engineering Productivity",
+    "role_type": "swe_backend",
+    "verdict": "pass",
+    "seed_label": "Itential Generalist Algorithms",
+    "route_mode": "retarget",
+    "final_score": 95.2,
+    "revised": false,
+    "weighted_score": 95.2,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    }
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:45",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

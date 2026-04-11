@@ -1,0 +1,74 @@
+{
+  "job_id": "69d6337b366bb95ba554bcaa",
+  "company_name": "Google",
+  "company_slug": "google",
+  "publish_time": "2026-04-08 05:52:43",
+  "publish_date": "2026-04-08",
+  "title": "Data Engineer, Operations and Infrastructure Data Science",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.google.com/jobs/results/127631856240599750-data-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
+  "source_kind": "local_unified_pipeline",
+  "route_mode": "reuse",
+  "seed_id": "seed_google_geo_aiml_anchor",
+  "seed_label": "Google Workspace/Geo AIML Anchor",
+  "parent_seed_id": "seed_google_geo_aiml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_google_geo_aiml_anchor",
+    "label": "Google Workspace/Geo AIML Anchor",
+    "route_score": 0.893,
+    "base_route_score": 0.733,
+    "required_coverage": 0.75,
+    "core_coverage": 0.5,
+    "preferred_coverage": 0.4,
+    "role_score": 0.7,
+    "domain_score": 0.882,
+    "seniority_score": 1.0,
+    "title_score": 1.0,
+    "same_company": true,
+    "seed_company_name": "Google",
+    "seed_source_job_id": "69b2b893ad360c0340a79c07",
+    "company_anchor": true,
+    "missing_required": [
+      "algorithms",
+      "spark"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_supply_eta_service"
+    ]
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69d6337b366bb95ba554bcaa/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-08T19:16:15",
+  "review": {},
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

@@ -1,0 +1,137 @@
+{
+  "job_id": "6997d94381476f6176b0108a",
+  "company_name": "KLA",
+  "company_slug": "kla",
+  "publish_time": "2026-04-04 07:15:51",
+  "publish_date": "2026-04-04",
+  "title": "GPU Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/GPU-Software-Engineer_2633775?bid=370&source=Job_Board_LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_paypal_java_backend",
+  "seed_label": "PayPal Java Backend",
+  "parent_seed_id": "seed_paypal_java_backend",
+  "top_candidate": {
+    "seed_id": "seed_paypal_java_backend",
+    "label": "PayPal Java Backend",
+    "route_score": 0.802,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "linux"
+    ],
+    "project_ids": [],
+    "seed_company_name": "PayPal",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kla/2026-04-04/6997d94381476f6176b0108a/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kla/2026-04-04/6997d94381476f6176b0108a/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kla/2026-04-04/6997d94381476f6176b0108a",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/6997d94381476f6176b0108a",
+  "generated_at": "2026-04-06T23:00:25",
+  "review": {
+    "weighted_score": 93.7,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Retitle the third Summary sentence to a higher-signal cognition header such as `Systems Judgment`.",
+      "Restructure the Skills buckets so each category matches its contents more cleanly for ATS parsing."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 8.9,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.7,
+    "verdict": "pass",
+    "seed_label": "PayPal Java Backend",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T05:43:00",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 90.5,
+    "previous_verdict": "conditional_pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:31",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T05:43:00",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 93.7,
+  "review_verdict": "pass"
+}

@@ -1,0 +1,82 @@
+{
+  "seed_id": "seed_amazon_management_plane_anchor_candidate",
+  "label": "Amazon Management Plane Anchor",
+  "role_family": "backend_generalist",
+  "seniority": "mid_senior",
+  "validated_score": 95.0,
+  "company_name": "Amazon",
+  "source_job_id": "69d00c26cdb525785fba6ae9",
+  "company_anchor": true,
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "subseed_ids": [
+    "amazon_platform_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon Platform / Distributed Systems"
+  ],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_management_plane_anchor_candidate/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate",
+  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
+  "derived_count": 5,
+  "derived_jobs": [
+    {
+      "job_id": "69d64084cfdc6132f9469327",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-08 06:48:20",
+      "title": "Data Engineer II , NA Stores Expansion",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d05887cfdc6132f943a843",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-03 19:17:11",
+      "title": "Robotics - Software Development Engineer",
+      "source_kind": "retarget_trial",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d00c26cdb525785fba6ae9",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-03 13:51:18",
+      "title": "Software Development Engineer, Management Plane",
+      "source_kind": "seed_source",
+      "route_mode": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cf517ecdb525785fba14b7",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-03 00:34:54",
+      "title": "Software Development Engineer, Video Advertising Signals and Insights",
+      "source_kind": "retarget_trial",
+      "route_mode": "new_seed",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69ced753398fb071abf896e5",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-02 15:53:39",
+      "title": "Software Engineer, Electric Utility Grid, Hadron",
+      "source_kind": "retarget_trial",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5/resume.md",
+      "resume_pdf": ""
+    }
+  ]
+}

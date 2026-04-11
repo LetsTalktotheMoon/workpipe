@@ -1,0 +1,134 @@
+{
+  "_comment": "ByteDance named_project group_ids → canonical project 映射。自动分组，待用户 review。",
+  "canonical_projects": {
+    "compliance-ai-platform": {
+      "title": "AI-Driven Compliance Platform (Crystal AI)",
+      "description": "企业级 AI 合规平台：LLM/多模型驱动的隐私合规、Agent SDK、MLOps",
+      "group_ids": [
+        "cg-bt-project-crystal-ai-cai-enterpr",
+        "cg-bt-project-ai-driven-enterprise-p",
+        "cg-bt-project-ai-driven-compliance-p",
+        "cg-bt-project-enterprise-ai-complian",
+        "cg-bt-project-llm-driven-privacy-com"
+      ]
+    },
+    "content-classification-rag": {
+      "title": "Content Classification & RAG Pipeline",
+      "description": "基于 RAG 的内容分类 / LLM 推荐业务分类器",
+      "group_ids": [
+        "cg-bt-project-policy-aware-content-c",
+        "cg-bt-project-llm-security-threat-cl"
+      ]
+    },
+    "compliance-gateway": {
+      "title": "Compliance Gateway & Scoring Platform (Sienna)",
+      "description": "合规网关：打分、可观测性、API 层",
+      "group_ids": [
+        "cg-bt-project-unified-compliance-gat",
+        "cg-bt-project-gateway-compliance-sco",
+        "cg-bt-project-api-gateway-compliance"
+      ]
+    },
+    "security-event-pipeline": {
+      "title": "Security Event Ingestion & Enrichment Pipeline",
+      "description": "实时安全事件采集、路由、富化管线（Kafka + 大数据）",
+      "group_ids": [
+        "cg-bt-project-real-time-security-eve",
+        "cg-bt-project-distributed-security-e",
+        "cg-bt-project-distributed-security-a",
+        "cg-bt-project-security-audit-log-ing",
+        "cg-bt-project-chaos-resilient-real-t",
+        "cg-bt-project-real-time-content-secu"
+      ]
+    },
+    "schema-data-governance": {
+      "title": "Compliance Schema & Data Governance Platform",
+      "description": "安全事件 schema 治理、数据合规控制面",
+      "group_ids": [
+        "cg-bt-project-security-event-schema-",
+        "cg-bt-project-unified-data-complianc",
+        "cg-bt-project-distributed-compliance"
+      ]
+    },
+    "content-provenance": {
+      "title": "Content Provenance Metadata Service",
+      "description": "内容溯源元数据服务（独立项目）",
+      "group_ids": [
+        "cg-bt-project-content-provenance-met"
+      ]
+    },
+    "bean-ai": {
+      "title": "Bean AI Coding Assistant & Developer Portal",
+      "description": "AI 编码助手全栈平台 + 开发者门户前端",
+      "group_ids": [
+        "cg-bt-sub-project-bean-ai-coding-ass",
+        "cg-bt-project-bean-ai-developer-port"
+      ]
+    },
+    "identity-auth": {
+      "title": "Centralized Identity & Authorization Service",
+      "description": "司机/骑手统一身份认证与授权服务",
+      "group_ids": [
+        "cg-bt-project-centralized-identity-a"
+      ]
+    },
+    "security-ops-tooling": {
+      "title": "Security Ops Internal Tooling",
+      "description": "安全运维内部工具：合规 UI + API 层",
+      "group_ids": [
+        "cg-bt-project-security-ops-internal-"
+      ]
+    },
+    "stablecoin-pipeline": {
+      "title": "Cross-border Payment Settlement Pipeline",
+      "description": "跨境支付/结算管线 + 准备金合规检查",
+      "group_ids": [
+        "cg-bt-project-stablecoin-mint-redeem"
+      ]
+    },
+    "sensor-fusion": {
+      "title": "Security Monitoring Sensor Fusion Prototype",
+      "description": "安全监控传感器融合原型（嵌入式方向）",
+      "group_ids": [
+        "cg-bt-project-security-monitoring-se"
+      ]
+    },
+    "cuda-optimization": {
+      "title": "CUDA Kernel Optimization for Security Analytics",
+      "description": "GPU 内核优化用于安全分析（HPC 方向）",
+      "group_ids": [
+        "cg-bt-project-applied-cuda-kernel-op"
+      ]
+    },
+    "virtio-sandbox": {
+      "title": "VirtIO Paravirtualized I/O Backend",
+      "description": "恶意软件沙箱的半虚拟化 I/O 后端（系统方向）",
+      "group_ids": [
+        "cg-bt-project-virtio-paravirtualized"
+      ]
+    },
+    "billing-pipeline": {
+      "title": "Ride-to-Receipt Integration Pipeline",
+      "description": "出行打车/外卖收款集成管线（Billing 方向）",
+      "group_ids": [
+        "cg-bt-project-quote-to-cash-integrat"
+      ]
+    },
+    "test-framework": {
+      "title": "Automated Test & Verification Suite",
+      "description": "安全事件管线自动化测试 + Mobile/Unity 平台验证",
+      "group_ids": [
+        "cg-bt-project-automated-test-framewo",
+        "cg-bt-project-mobile-unity-platform-"
+      ]
+    },
+    "android-sdk": {
+      "title": "Android Security SDK",
+      "description": "Android 安全 SDK：后端 API 优化 + 端侧性能 + CI/CD",
+      "group_ids": [
+        "cg-bt-project-android-security-sdk-b",
+        "cg-bt-project-android-security-sdk-o"
+      ]
+    }
+  }
+}

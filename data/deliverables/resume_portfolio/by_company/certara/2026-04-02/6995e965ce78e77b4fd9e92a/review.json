@@ -1,0 +1,72 @@
+{
+  "weighted_score": 82.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 1,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Fix the unsourced technology issue in the TikTok project by aligning JavaScript/HTML/CSS between Skills and body bullets.",
+    "Add a truthful Certara-relevant domain bridge so the resume reads as aligned to biosimulation/pharma backend work, not only generic security and analytics."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 7.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r1_writing_standard": {
+      "score": 8.7,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 7.6,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.5,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.8,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 82.5,
+  "verdict": "fail",
+  "seed_label": "Generalist DotNet Enterprise",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "Fix the unsourced technology issue in the TikTok project by aligning JavaScript/HTML/CSS between Skills and body bullets.",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:15",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

@@ -1,0 +1,113 @@
+{
+  "job_id": "69c918771818a24cd84d9876",
+  "company_name": "Vulcan Materials Company",
+  "company_slug": "vulcan-materials-company",
+  "publish_time": "2026-04-04 09:58:04",
+  "publish_date": "2026-04-04",
+  "title": "Applied Analytics Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://vulcanmat.taleo.net/careersection/2/jobdetail.ftl?job=601117&source=LinkedIn&src=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_linkedin_mle_foundation",
+  "seed_label": "LinkedIn MLE Foundation",
+  "parent_seed_id": "seed_linkedin_mle_foundation",
+  "top_candidate": {
+    "seed_id": "seed_linkedin_mle_foundation",
+    "label": "LinkedIn MLE Foundation",
+    "route_score": 0.896,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [],
+    "seed_company_name": "LinkedIn",
+    "seed_source_job_id": "69cef362398fb071abf8b1bb"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vulcan-materials-company/2026-04-04/69c918771818a24cd84d9876/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vulcan-materials-company/2026-04-04/69c918771818a24cd84d9876/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vulcan-materials-company/2026-04-04/69c918771818a24cd84d9876",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69c918771818a24cd84d9876",
+  "generated_at": "2026-04-06T23:55:04",
+  "review": {
+    "weighted_score": 84.5,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "Add real Scala + Spark evidence in Skills and at least one experience bullet.",
+      "Add a credible bridge from consumer-tech analytics to Vulcan Materials' industrial operations domain."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 6.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 8.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.6,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 84.5,
+    "verdict": "fail",
+    "seed_label": "LinkedIn MLE Foundation",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Add real Scala + Spark evidence in Skills and at least one experience bullet.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:53",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

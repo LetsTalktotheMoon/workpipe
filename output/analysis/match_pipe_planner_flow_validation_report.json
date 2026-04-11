@@ -1,0 +1,981 @@
+{
+  "experiment_type": "planner_first_dual_channel_validation",
+  "current_scraped_pair": [
+    {
+      "job_id": "69d8982eb861c42857c4b9d2",
+      "company_name": "Color",
+      "title": "New Grad Software Engineer",
+      "historical_no_starter": {
+        "mode": "no_starter",
+        "final_score": 94.6,
+        "passed": true,
+        "rewrite_rounds": 1,
+        "writer_prompt_tokens_est": 4782,
+        "writer_output_tokens_est": 2766,
+        "reviewer_prompt_tokens_est": 3135,
+        "reviewer_output_tokens_est": 260,
+        "total_tokens_est": 10943,
+        "elapsed_seconds": 263.46,
+        "anchor_summary": {
+          "strategy": "generate_from_scratch"
+        },
+        "error": ""
+      },
+      "historical_old_match_anchor": {
+        "mode": "old_match_anchor",
+        "final_score": 94.9,
+        "passed": true,
+        "rewrite_rounds": 1,
+        "writer_prompt_tokens_est": 6745,
+        "writer_output_tokens_est": 2959,
+        "reviewer_prompt_tokens_est": 3253,
+        "reviewer_output_tokens_est": 403,
+        "total_tokens_est": 13360,
+        "elapsed_seconds": 231.06,
+        "anchor_summary": {
+          "route_mode": "retarget",
+          "seed_label": "AWS Generalist Embedded",
+          "seed_id": "seed_aws_generalist_embedded"
+        },
+        "error": ""
+      },
+      "no_starter_planner": {
+        "mode": "no_starter_planner",
+        "planner_decision": "write",
+        "planner_fit_label": "low",
+        "planner_prompt_tokens_est": 289,
+        "planner_output_tokens_est": 453,
+        "writer_prompt_tokens_est": 2735,
+        "writer_output_tokens_est": 1362,
+        "reviewer_prompt_tokens_est": 3093,
+        "reviewer_output_tokens_est": 573,
+        "total_tokens_est": 8505,
+        "elapsed_seconds": 159.45,
+        "final_score": 93.7,
+        "passed": true,
+        "reviewer_rounds": 1,
+        "writer_rounds": 1,
+        "planner_payload": {
+          "decision": "write",
+          "fit_label": "low",
+          "reuse_ratio_estimate": 0.0,
+          "already_covered": [],
+          "missing_or_weak": [
+            "无 starter，可复用内容为空",
+            "无已验证的项目/实习证据来支撑 SQL、React、Django、Python、AWS、REST、Code Review",
+            "无任何 LLM 相关可选加分证据",
+            "缺少与 New Grad Software Engineer 对应的教育、毕业时间、实习/项目骨架、影响指标",
+            "缺少能体现 backend 取向的服务端设计、API、数据库、云部署、测试与协作经历"
+          ],
+          "risk_flags": [
+            "matcher packet 为空，无法确认任何技术栈或经历真实性",
+            "若 Writer 直接按 JD 补齐技术关键词，存在明显真实性风险",
+            "无 starter 导致 ownership、scope、impact 边界不清，容易过度包装",
+            "Code Review 往往需要团队协作语境，若无证据支撑，表述风险较高",
+            "React 属于 must-have，但目标角色为 backend；若候选人前端经验薄弱，强行突出会失真"
+          ],
+          "role_seniority_guidance": [
+            "按 New Grad 口径写作，优先使用课程项目、实习、科研、校园项目，不要伪装成资深工程师叙事",
+            "强调可验证的个人贡献、技术实现、结果指标，避免大而泛的平台级 ownership",
+            "backend 为主线，围绕 Python/Django、REST API、SQL、AWS 展开；React 作为配套能力呈现即可",
+            "Code Review 可写为参与 PR review、团队开发流程、反馈闭环，但前提是候选人确有相关经历",
+            "若缺少工业级经验，可用项目中的部署、测试、协作、性能优化来替代资深 scope"
+          ],
+          "planner_summary": "当前为 no_starter 模式且无 matcher 证据，不能直接送审，必须进入写作。Writer 需要从零搭建一份面向 Color New Grad Software Engineer 的简历骨架，但只能基于候选人可验证事实补充内容。写作重点应放在 backend 主线能力与 JD must-have 的真实映射，尤其是 Python/Django、REST、SQL、AWS；React 与 Code Review 仅在有明确证据时纳入。",
+          "writer_plan": [
+            "先收集候选人的可验证原始素材：教育信息、毕业时间、实习、项目、技术栈、结果指标、协作方式",
+            "搭建 New Grad backend 叙事主线，优先筛选最能支撑 Python、Django、REST、SQL、AWS 的 2-4 段经历",
+            "为每段经历明确 ownership、scope、tech stack、业务/工程结果，避免空泛描述",
+            "将 JD must-have 做证据映射：Python/Django/REST/SQL/AWS 优先强覆盖，React 次优先，Code Review 仅在有真实协作经历时写入",
+            "若存在 LLM 相关项目且真实可讲，可作为 preferred 加分项放在项目或技能中；若没有则不要硬补",
+            "补齐 New Grad 必要模块：Education、Experience/Projects、Skills，必要时加入 coursework 或 campus engineering activities",
+            "所有 bullet 用动作+实现+结果结构重写，尽量加入性能、规模、效率、用户或开发效率指标",
+            "控制语气与 scope，避免资深化措辞，如 architecture owner、led org-wide migration，除非确有事实依据",
+            "完成初稿后自检真实性风险，删除任何仅为贴合 JD 而缺乏证据的技术关键词"
+          ],
+          "direct_review_rationale": "no_starter 模式下不可 direct_review，且当前无 starter 与 matcher 证据，无法形成可审阅草稿。"
+        },
+        "anchor_summary": {
+          "strategy": "planner_from_scratch"
+        },
+        "final_review": {
+          "weighted_score": 93.7,
+          "passed": true,
+          "critical_count": 0,
+          "high_count": 0,
+          "needs_revision": false,
+          "revision_priority": [
+            "Remove the bold from the `team-maintained` modifier in the TikTok summary bullet.",
+            "Rewrite the first summary sentence to lead with backend ownership instead of the analytics-transition framing."
+          ],
+          "revision_instructions": ""
+        }
+      },
+      "new_dual_channel_planner": {
+        "mode": "new_dual_channel_planner",
+        "planner_decision": "write",
+        "planner_fit_label": "medium",
+        "planner_prompt_tokens_est": 4878,
+        "planner_output_tokens_est": 1490,
+        "writer_prompt_tokens_est": 13104,
+        "writer_output_tokens_est": 2915,
+        "reviewer_prompt_tokens_est": 3169,
+        "reviewer_output_tokens_est": 533,
+        "total_tokens_est": 26089,
+        "elapsed_seconds": 353.3,
+        "final_score": 92.5,
+        "passed": false,
+        "reviewer_rounds": 2,
+        "writer_rounds": 2,
+        "planner_payload": {
+          "decision": "write",
+          "fit_label": "medium",
+          "reuse_ratio_estimate": 0.58,
+          "already_covered": [
+            "Strong evidence for Python, SQL, AWS, and REST across internship and prior roles.",
+            "Backend/service orientation is present through FastAPI, gRPC, service handlers, data access layers, CI/CD, deployment validation, and internal tooling.",
+            "LLM exposure is credible and recent through TikTok internship and retrieval assistant project.",
+            "New-grad timing is supported by M.S. Computer Science expected May 2026.",
+            "Cross-functional engineering collaboration is evidenced across security, platform, and operations contexts.",
+            "Quantified impact bullets are already present and reusable after scope-tightening."
+          ],
+          "missing_or_weak": [
+            "No clear Django evidence in starter; must not imply hands-on Django unless separately verified.",
+            "No clear React evidence in starter; current UI/reference bullets mention interfaces and consoles but not React implementation.",
+            "Code review is not explicitly evidenced; collaboration and release validation exist, but formal review participation is not shown.",
+            "Professional Summary is misaligned: 'AI Engineer Candidate' over-anchors to AI/ML instead of new grad software engineer/backend-web generalist.",
+            "Current resume overweights LLM/RAG/analytics language relative to Color's broader web-stack expectation.",
+            "Senior Data Analyst title can work, but bullets need sharper framing toward software-building contributions rather than analyst-only positioning.",
+            "Some bullets reference GraphQL, Kafka, Databricks, Terraform, Bedrock, etc. that are secondary for this JD and dilute focus.",
+            "Healthcare/mission alignment is absent, though this is optional and can be lightly reflected in summary phrasing."
+          ],
+          "risk_flags": [
+            "Do not add Django or React claims without verified project or coursework evidence.",
+            "Do not overstate ownership from intern context; several bullets correctly note bounded scope and team-maintained systems, and that restraint should be preserved.",
+            "Avoid implying full-stack product ownership from analyst roles where evidence mainly supports collaboration, tooling, monitoring, and service-adjacent work.",
+            "Current summary risks mispositioning candidate as AI/ML-first rather than entry-level software engineer.",
+            "Project bullets may read more senior/platform-owner than appropriate for a new grad unless scoped carefully.",
+            "If 'code review' is added, it must be phrased conservatively, such as participating in review workflows or incorporating reviewer feedback, only if supported elsewhere."
+          ],
+          "role_seniority_guidance": [
+            "Target framing should be recent/new graduate backend software engineer with web-stack familiarity, not AI engineer.",
+            "Emphasize software implementation, APIs, data models, cloud deployment, and cross-functional engineering support over strategy or analytics leadership.",
+            "Keep seniority calibrated: contributor on team-maintained systems, intern-owned slices, partnered delivery, internal tools, and production-adjacent services.",
+            "Use LLM as preferred-skill support only, not as the resume spine.",
+            "Prioritize evidence that shows ability to ramp in Python-based backend/web environments."
+          ],
+          "planner_summary": "The starter is usable but not ready for direct review. It contains substantial reusable backend evidence for Python, SQL, AWS, REST, and production-oriented engineering collaboration, but it is currently framed around AI engineering and analytics-to-SWE transition rather than a new grad backend/web software role. The main blockers are missing explicit evidence for Django, React, and code review, plus summary and bullet emphasis that could mislead on role fit and ownership if left unchanged. This is a rewrite, not a reject: the experience base is relevant, but the narrative must be recentered and risk-controlled.",
+          "writer_plan": [
+            "Rewrite the summary to position the candidate as a new grad software engineer focused on backend/web systems, removing the 'AI Engineer Candidate' headline and reducing AI-first emphasis.",
+            "Reorder skills so Python, SQL, AWS, REST, web/backend tools, and databases lead; move LLM to the end as preferred/adjacent experience.",
+            "Keep TikTok internship as the lead experience and prioritize bullets showing Python services, REST APIs, SQL-backed utilities, deployment checks, and cloud infrastructure exposure.",
+            "Trim or demote bullets that over-index on RAG/LLM unless they also demonstrate backend engineering value.",
+            "For DiDi, recast bullets toward internal tooling, service integration, monitoring, API collaboration, and operational backend support; reduce pure analytics framing.",
+            "Preserve conservative ownership language such as 'contributed', 'partnered', 'within team scope', and 'bounded intern-owned slice'.",
+            "Do not fabricate Django or React. If no verified evidence exists, leave them absent rather than implying them through generic UI or web language.",
+            "Handle code review carefully: only mention collaboration with engineering review/release processes if supported; do not claim formal code review ownership without proof.",
+            "Remove or downweight less relevant technologies in top sections when they distract from Color's must-haves.",
+            "Maintain quantified impact, but ensure each metric is attached to the candidate's scoped contribution and not the whole team outcome.",
+            "Tune the overall tone for entry-level SWE: builder, collaborator, backend/web learner with hands-on production exposure.",
+            "Produce a reviewer-ready draft only after the narrative clearly reflects backend/web fit and no unsupported stack claims remain."
+          ],
+          "direct_review_rationale": "Not suitable for direct review because the current draft is materially mispositioned for the target role. It lacks explicit support for several must-have signals, especially Django, React, and code review, and its AI/analytics-heavy framing could cause reviewer concern about fit, scope, and authenticity if passed through unchanged."
+        },
+        "anchor_summary": {
+          "semantic_best_anchor": {
+            "job_id": "69b17630d04c69566c73c128",
+            "company_name": "Suffolk Construction",
+            "title": "AI Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.633,
+            "reuse_readiness": 0.81,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+              "Hard-requirement coverage is 0.80.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "review_final_score": 0.0,
+            "review_verdict": "",
+            "starter_priority_score": 0.3858
+          },
+          "semantic_starter_anchor": {
+            "job_id": "69b17630d04c69566c73c128",
+            "company_name": "Suffolk Construction",
+            "title": "AI Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.633,
+            "reuse_readiness": 0.81,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+              "Hard-requirement coverage is 0.80.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "review_final_score": 0.0,
+            "review_verdict": "",
+            "starter_priority_score": 0.3858
+          },
+          "semantic_writer_anchor": {
+            "job_id": "69b17630d04c69566c73c128",
+            "company_name": "Suffolk Construction",
+            "title": "AI Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.633,
+            "reuse_readiness": 0.81,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+              "Hard-requirement coverage is 0.80.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "review_final_score": 0.0,
+            "review_verdict": "",
+            "starter_priority_score": 0.3858
+          },
+          "company_best_anchor": null,
+          "continuity_anchor": {
+            "job_id": "69b17630d04c69566c73c128",
+            "company_name": "Suffolk Construction",
+            "title": "AI Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.633,
+            "reuse_readiness": 0.81,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+              "Hard-requirement coverage is 0.80.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "review_final_score": 0.0,
+            "review_verdict": "",
+            "starter_priority_score": 0.3858
+          }
+        },
+        "final_review": {
+          "weighted_score": 92.5,
+          "passed": false,
+          "critical_count": 0,
+          "high_count": 0,
+          "needs_revision": true,
+          "revision_priority": [
+            "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+          ],
+          "revision_instructions": "- [MEDIUM] jd_must_have_body_evidence_missing: Keep the JD must-have skill, but add concrete usage evidence in the most relevant experience or project bullet."
+        }
+      }
+    },
+    {
+      "job_id": "69d88911b67cec4f9b09d144",
+      "company_name": "Centene Corporation",
+      "title": "Application Development Engineer II",
+      "historical_no_starter": {
+        "mode": "no_starter",
+        "final_score": 94.2,
+        "passed": true,
+        "rewrite_rounds": 0,
+        "writer_prompt_tokens_est": 2128,
+        "writer_output_tokens_est": 1388,
+        "reviewer_prompt_tokens_est": 3104,
+        "reviewer_output_tokens_est": 581,
+        "total_tokens_est": 7201,
+        "elapsed_seconds": 434.85,
+        "anchor_summary": {
+          "strategy": "generate_from_scratch"
+        },
+        "error": ""
+      },
+      "historical_old_match_anchor": {
+        "mode": "old_match_anchor",
+        "final_score": 94.5,
+        "passed": true,
+        "rewrite_rounds": 0,
+        "writer_prompt_tokens_est": 4148,
+        "writer_output_tokens_est": 1508,
+        "reviewer_prompt_tokens_est": 3224,
+        "reviewer_output_tokens_est": 505,
+        "total_tokens_est": 9385,
+        "elapsed_seconds": 77.94,
+        "anchor_summary": {
+          "route_mode": "reuse",
+          "seed_label": "Generalist DotNet Enterprise",
+          "seed_id": "seed_generalist_dotnet_enterprise"
+        },
+        "error": ""
+      },
+      "no_starter_planner": {
+        "mode": "no_starter_planner",
+        "planner_decision": "write",
+        "planner_fit_label": "low",
+        "planner_prompt_tokens_est": 286,
+        "planner_output_tokens_est": 394,
+        "writer_prompt_tokens_est": 6889,
+        "writer_output_tokens_est": 2937,
+        "reviewer_prompt_tokens_est": 3205,
+        "reviewer_output_tokens_est": 590,
+        "total_tokens_est": 14301,
+        "elapsed_seconds": 296.69,
+        "final_score": 96.6,
+        "passed": true,
+        "reviewer_rounds": 2,
+        "writer_rounds": 2,
+        "planner_payload": {
+          "decision": "write",
+          "fit_label": "low",
+          "reuse_ratio_estimate": 0.0,
+          "already_covered": [],
+          "missing_or_weak": [
+            "无 starter，可复用内容为空",
+            "无 matcher 证据，缺少可支撑 JD 的项目/经历映射",
+            "缺少后端工程相关的技术栈、语言、框架、数据库、API、测试、CI/CD 证据",
+            "缺少与企业级应用开发、维护、调试、上线支持相关的职责证明",
+            "缺少与 Docker、Kubernetes、React 相关的实际使用边界与熟练度说明",
+            "缺少 entry-level Application Development Engineer II 所需的团队协作、交付、问题排查、代码质量信号"
+          ],
+          "risk_flags": [
+            "无 starter，任何具体项目表述都需要额外事实来源支撑",
+            "无 matcher 证据，容易为了贴 JD 过度补写技术关键词",
+            "preferred 技术不可默认具备，尤其是 Docker、Kubernetes、React",
+            "若候选人实际偏前端或偏数据方向，强行包装为后端 ownership 会失真",
+            "若使用泛化的企业后端描述但缺少可量化结果，容易形成 scope 虚高"
+          ],
+          "role_seniority_guidance": [
+            "按 entry 档写作，强调执行力、学习速度、协作和稳定交付，不要夸大架构主导权",
+            "优先突出实际参与的后端开发任务，如 API、服务逻辑、数据处理、缺陷修复、测试与部署支持",
+            "可以体现对生产问题排查、监控、日志分析、代码评审配合的参与，但避免写成核心 owner 除非有证据",
+            "如果有 Docker 或 Kubernetes 经验，应写清是本地开发、容器化部署、基础运维配合还是独立负责",
+            "React 仅在确有全栈或前后端协作证据时补充，不应喧宾夺主"
+          ],
+          "planner_summary": "当前为 no_starter 模式，且无 starter、无 matcher 证据，不能直接进入 review。需要从头写作，并严格基于候选人的真实经历重建与后端应用开发岗位相关的项目骨架、技术栈和贡献边界。写作重点应放在与企业应用开发、服务实现、调试维护、团队协作相关的可证实内容，而不是机械贴合 preferred 技术关键词。",
+          "writer_plan": [
+            "从候选人真实经历中筛选最接近后端应用开发的教育、实习、项目和工作内容，先建立基础履历骨架",
+            "优先补齐后端核心证据：编程语言、后端框架、数据库、API、集成、测试、部署、故障排查",
+            "将每段经历改写为 entry-level 可成立的贡献表述，强调实现、修复、联调、优化、支持上线等动作",
+            "如候选人具备 Docker 或 Kubernetes 经验，明确写出使用场景、具体操作和影响，避免只列名词",
+            "如存在 React 经验，仅作为辅助能力放在项目或技能区，不要主导整体定位",
+            "为每段经历补充可量化结果或交付信号，如性能改进、缺陷减少、交付周期、自动化覆盖、用户/内部团队影响",
+            "控制 ownership 与 scope，避免使用架构主导、平台负责人、端到端 owner 等高风险表述",
+            "最终形成一版面向 Application Development Engineer II 的后端导向简历，再交由 Reviewer 检查真实性、贴合度与风险"
+          ],
+          "direct_review_rationale": "no_starter 模式下不能 direct_review，且当前没有可审阅的 starter 内容。"
+        },
+        "anchor_summary": {
+          "strategy": "planner_from_scratch"
+        },
+        "final_review": {
+          "weighted_score": 96.6,
+          "passed": true,
+          "critical_count": 0,
+          "high_count": 0,
+          "needs_revision": false,
+          "revision_priority": [
+            "Rewrite the first summary sentence so it explicitly bridges the data-analyst titles to backend and operational systems work.",
+            "Rename the Skills \"Cloud\" bucket to a more precise label such as \"Datastores & Infrastructure\"."
+          ],
+          "revision_instructions": ""
+        }
+      },
+      "new_dual_channel_planner": {
+        "mode": "new_dual_channel_planner",
+        "planner_decision": "write",
+        "planner_fit_label": "medium",
+        "planner_prompt_tokens_est": 4024,
+        "planner_output_tokens_est": 1645,
+        "writer_prompt_tokens_est": 7651,
+        "writer_output_tokens_est": 1356,
+        "reviewer_prompt_tokens_est": 3073,
+        "reviewer_output_tokens_est": 260,
+        "total_tokens_est": 18009,
+        "elapsed_seconds": 192.54,
+        "final_score": 96.9,
+        "passed": true,
+        "reviewer_rounds": 1,
+        "writer_rounds": 1,
+        "planner_payload": {
+          "decision": "write",
+          "fit_label": "medium",
+          "reuse_ratio_estimate": 0.68,
+          "already_covered": [
+            "Backend-oriented narrative is already present through Java, Go, REST, gRPC, PostgreSQL, Kafka, CI/CD, Docker, and Kubernetes.",
+            "Entry-to-early-career positioning is broadly supportable with internship plus adjacent cross-functional delivery experience.",
+            "Preferred technologies are partially covered: Docker, React, and Kubernetes all appear with concrete experience bullets.",
+            "Software development, testing/release safety, service rollout, and distributed systems collaboration are already represented.",
+            "Education signal for computer science is present and aligns with a typical Application Development Engineer II screen."
+          ],
+          "missing_or_weak": [
+            "Current summary is over-optimized for backend transition branding and includes unrelated Go-game achievement content that weakens role targeting.",
+            "Centene is a healthcare company, but the resume does not currently emphasize reliability, maintainability, internal application development, or business-facing engineering outcomes in a way tailored to enterprise application engineering.",
+            "DiDi bullets still read primarily as analytics/data leadership rather than application development; several bullets need reframing toward service implementation, workflow tooling, and engineering collaboration.",
+            "React appears, but mostly as a lightweight dashboard detail; for a backend SWE target it should be retained as supporting evidence, not a headline competency.",
+            "There is no strong explicit emphasis on core application engineering patterns such as API development, integrations, debugging, production support, defect reduction, or maintainable feature delivery.",
+            "Some bullets mix multiple systems and outcomes in a way that could make ownership unclear during review.",
+            "No clear tailoring yet toward Application Development Engineer II language such as building, enhancing, testing, and supporting enterprise applications."
+          ],
+          "risk_flags": [
+            "Professional Summary includes a Go-board-game achievement as a systems-analysis claim; this is credibility risk and should be removed from top-of-resume positioning.",
+            "HealthPartners-style data/platform starter is not the real risk driver; the actual starter content is more backend-friendly, but still contains transition language that may undersell fit for an application engineer role.",
+            "DiDi 'data lead' and analyst titles can create scope inflation if rewritten too aggressively into pure software engineering ownership.",
+            "Project bullets such as RAG assistant and workbench need careful wording to avoid overstating sole ownership versus team-contributed feature work.",
+            "Embedded/C++ firmware-adjacent bullet may distract from the target application role unless kept short and clearly relevant to debugging/integration.",
+            "Senior-sounding language from prior anchors should not leak into this entry-level/mid-junior target."
+          ],
+          "role_seniority_guidance": [
+            "Position the candidate as an early-career application/backend engineer with strong implementation support from internship work and adjacent internal tooling delivery.",
+            "Keep scope grounded in feature implementation, service integration, testing, deployment hygiene, and cross-functional delivery rather than architecture ownership.",
+            "Favor Application Development Engineer II language: build, enhance, test, troubleshoot, maintain, and support internal/business applications.",
+            "Use React only as supporting full-stack versatility; center the story on backend services and application workflows.",
+            "Preserve analyst-to-engineering transition honestly, but do not foreground 'transition' so heavily that it weakens readiness."
+          ],
+          "planner_summary": "Starter is usable but not ready for direct review. It contains substantial reusable backend and application-delivery evidence, including Java/Go services, REST/gRPC, Docker/Kubernetes, CI/CD, and internal tooling, which makes it a viable base for Centene Application Development Engineer II. However, the current framing overemphasizes transition branding, includes a credibility-risk summary line, and leaves several bullets reading as analytics or platform work rather than enterprise application development. Writer should keep the experience skeleton, remove distracting content, and retarget the narrative toward grounded early-career application engineering with clear ownership boundaries.",
+          "writer_plan": [
+            "Rewrite the Professional Summary completely: remove the Go-game achievement, reduce 'backend transition' framing, and position the candidate as an early-career application/backend engineer building internal business and operations applications.",
+            "Retune Skills ordering so backend/application technologies come first: Java, Go, Python, REST, gRPC, SQL, PostgreSQL, Docker, Kubernetes, React; de-emphasize data-science items that are not helping this JD.",
+            "Rework TikTok bullets to emphasize application development outcomes: service handlers, API/data flow integration, testing, deployment reliability, release validation, and internal user workflow improvement.",
+            "Keep the TikTok project only if phrased as team-contributed internal application functionality, not as end-to-end ownership of an AI system.",
+            "Rewrite DiDi experience from 'data lead/analyst' tone into honest application-support and tooling-delivery language: internal workflow services, REST endpoints, Java/Flask modules, React operator tooling, Airflow/job reliability, cross-functional implementation support.",
+            "Trim or soften purely analytics-heavy bullets from DiDi and Temu unless they directly support application logic, debugging, workflow optimization, or data-backed product decisions relevant to software delivery.",
+            "Reduce emphasis on Embedded/C++ unless used to demonstrate debugging, system integration, or test automation value for application engineering.",
+            "Use scope-safe verbs throughout: built, implemented, contributed, partnered, supported, validated; avoid designed/owned/architected unless the bullet evidence clearly supports it.",
+            "Align bullet ordering to the target role: backend services first, deployment/testing second, frontend/supporting dashboard work third, pure analytics last.",
+            "Keep quantified outcomes, but make each metric clearly attributable to the implemented feature or workflow change."
+          ],
+          "direct_review_rationale": "Not suitable for direct review because the current resume still has material positioning and credibility issues, and multiple bullets need reframing to match application development without overstating ownership."
+        },
+        "anchor_summary": {
+          "semantic_best_anchor": {
+            "job_id": "69cfde74366bb95ba5519529",
+            "company_name": "HealthPartners",
+            "title": "Data Engineer Senior",
+            "source_kind": "portfolio_history",
+            "score": 0.5533,
+            "reuse_readiness": 0.7301,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529/resume.md",
+            "has_resume_artifact": false,
+            "explanation": [
+              "Role/seniority: generalist/entry -> data_platform/senior.",
+              "Hard-requirement coverage is 0.88.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_STATISTICS | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS"
+            ],
+            "missing_critical_units": [],
+            "review_final_score": 0.0,
+            "review_verdict": "",
+            "starter_priority_score": 0.3443
+          },
+          "semantic_starter_anchor": {
+            "job_id": "69cfde74366bb95ba5519529",
+            "company_name": "HealthPartners",
+            "title": "Data Engineer Senior",
+            "source_kind": "portfolio_history",
+            "score": 0.5533,
+            "reuse_readiness": 0.7301,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529/resume.md",
+            "has_resume_artifact": false,
+            "explanation": [
+              "Role/seniority: generalist/entry -> data_platform/senior.",
+              "Hard-requirement coverage is 0.88.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_STATISTICS | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS"
+            ],
+            "missing_critical_units": [],
+            "review_final_score": 0.0,
+            "review_verdict": "",
+            "starter_priority_score": 0.3443
+          },
+          "semantic_writer_anchor": {
+            "job_id": "69d640de52a5bf5800128045",
+            "company_name": "Amazon Web Services (AWS)",
+            "title": "Software Development Engineer II - Builder Experience, GenAI, GenAI, Codex",
+            "source_kind": "portfolio_history",
+            "score": 0.5375,
+            "reuse_readiness": 0.7085,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> backend_generalist/mid_senior.",
+              "Hard-requirement coverage is 0.85.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SYSTEM_DESIGN | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS",
+              "Critical gaps: A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ],
+            "missing_critical_units": [
+              "A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ],
+            "review_final_score": 0.0,
+            "review_verdict": "",
+            "starter_priority_score": 0.3342
+          },
+          "company_best_anchor": null,
+          "continuity_anchor": null
+        },
+        "final_review": {
+          "weighted_score": 96.9,
+          "passed": true,
+          "critical_count": 0,
+          "high_count": 0,
+          "needs_revision": false,
+          "revision_priority": [],
+          "revision_instructions": ""
+        }
+      }
+    }
+  ],
+  "legacy_conditional_and_fail_cases": [
+    {
+      "job_id": "6941879614ee092a69ffa832",
+      "company_name": "Affirm",
+      "title": "Software Engineer II, Backend (Identity Decisioning)",
+      "historical_old_pipeline": {
+        "job_id": "6941879614ee092a69ffa832",
+        "company_name": "Affirm",
+        "title": "Software Engineer II, Backend (Identity Decisioning)",
+        "review_final_score": 92.9,
+        "review_verdict": "conditional_pass",
+        "rereview_rounds": 1,
+        "route_mode": "retarget",
+        "seed_label": "Google Cloud Infra Anchor",
+        "token_metrics_available": false
+      },
+      "new_dual_channel_planner": {
+        "mode": "new_dual_channel_planner",
+        "planner_decision": "write",
+        "planner_fit_label": "high",
+        "planner_prompt_tokens_est": 5456,
+        "planner_output_tokens_est": 1495,
+        "writer_prompt_tokens_est": 8968,
+        "writer_output_tokens_est": 1354,
+        "reviewer_prompt_tokens_est": 3099,
+        "reviewer_output_tokens_est": 716,
+        "total_tokens_est": 21088,
+        "elapsed_seconds": 173.13,
+        "final_score": 93.5,
+        "passed": true,
+        "reviewer_rounds": 1,
+        "writer_rounds": 1,
+        "planner_payload": {
+          "decision": "write",
+          "fit_label": "high",
+          "reuse_ratio_estimate": 0.76,
+          "already_covered": [
+            "Affirm-to-Affirm backend decisioning starter is highly aligned on company, role family, and seniority.",
+            "All listed must-have technologies are present in the starter: Distributed Systems, MySQL, Kotlin, Kubernetes, Code Review, Python, AWS, Scala.",
+            "Starter already emphasizes backend systems, microservices, REST/gRPC, Kafka, low-latency and correctness-sensitive workflows.",
+            "There is credible decisioning-adjacent material in the DiDi dispatch rule engine project and operational risk/control language.",
+            "Cross-functional collaboration with product/backend/ops is already demonstrated.",
+            "Recent SWE internship experience provides direct software-engineering evidence and helps support entry-level/backend positioning."
+          ],
+          "missing_or_weak": [
+            "Identity-specific domain relevance is weak: authentication, verification, onboarding, fraud/identity checks are not clearly represented.",
+            "Summary positioning is off-target for this JD because 'Backend Engineer Transitioning from Analytics' foregrounds transition risk instead of current backend readiness.",
+            "Ownership boundaries are not always explicit; several bullets read like backend implementation ownership when they may have been analytics-led coordination or requirements work.",
+            "The DiDi analyst experience needs sharper distinction between influencing backend systems and directly building production backend services.",
+            "MySQL/Kotlin/Scala evidence exists but some instances are project/support-oriented rather than clearly primary ownership.",
+            "No explicit statement of high-availability, reliability, or production operations ownership for customer-facing identity journeys."
+          ],
+          "risk_flags": [
+            "Potential overclaim risk in DiDi bullets that imply direct engineering implementation from a Senior Data Analyst title.",
+            "Potential reviewer skepticism around '3+ years' if interpreted as 3+ years of software engineering rather than mixed analytics plus engineering-adjacent work.",
+            "Design Review and architecture/release bullets may read as engineering ownership beyond what the title supports unless carefully qualified.",
+            "The Security Knowledge Retrieval Assistant project is less relevant to the target identity decisioning scope and could dilute focus if overemphasized.",
+            "Go achievement in summary is distracting for this JD and consumes prime space without improving backend fit."
+          ],
+          "role_seniority_guidance": [
+            "Target role is entry-level SWE II backend, so emphasize execution, implementation, code contribution, and collaboration rather than staff-like architecture leadership.",
+            "Lead with recent software engineering work first, then use analyst experience selectively as decisioning/domain leverage rather than primary engineering proof.",
+            "Present DiDi bullets as backend-adjacent system impact, requirements translation, rule logic, data/monitoring, and cross-functional delivery; avoid implying sole ownership of services not directly built.",
+            "Keep tone at strong early-career backend engineer, not senior platform/infrastructure engineer."
+          ],
+          "planner_summary": "The starter is a strong base and should be reused, but it is not clean enough for direct review. It matches the target on company continuity, backend/decisioning shape, and must-have tech coverage, yet it still needs targeted rewriting to remove transition-language, tighten ownership realism, and reframe analyst experience into credible backend-decisioning support without overstating software-engineering scope. The main gap is domain specificity around identity/authentication/verification, so the writer should maximize adjacent evidence rather than fabricate direct identity experience.",
+          "writer_plan": [
+            "Rewrite the Professional Summary first: remove 'transitioning from analytics' framing, remove the Go achievement from summary, and position the candidate as an early-career backend engineer with decisioning-adjacent distributed systems experience.",
+            "Reorder evidence to prioritize the TikTok Software Engineer Intern experience as the strongest direct SWE proof for an entry backend role.",
+            "Tighten TikTok bullets toward backend fundamentals relevant to Affirm: low-latency services, production reliability, Kubernetes/AWS operations, code review, and team-owned distributed systems.",
+            "De-emphasize or trim the Retrieval Assistant project unless needed for Python/AWS support; keep only the most backend-relevant bullet(s).",
+            "Rewrite DiDi bullets to make ownership precise: use phrasing like partnered with, supported, translated requirements into, built monitors/models/tools, and avoid implying sole ownership of Java/Kotlin/Scala services if that was not true.",
+            "Keep the Dispatch Rule Engine Modernization project because it is the best decisioning-adjacent evidence, but calibrate it around rule logic, operational risk controls, backend collaboration, and measurable business/system impact.",
+            "Preserve explicit mentions of MySQL, Kotlin, Scala, Python, AWS, Kubernetes, Distributed Systems, and Code Review, but attach them only to credible contexts.",
+            "Add or strengthen language around reliability, latency, correctness, monitoring, rollback validation, and production operational efficiency since those map well to Identity Decisioning.",
+            "Reduce generic analytics/reporting content from Temu unless needed to support SQL/Python depth; allocate more space to backend-relevant evidence.",
+            "Keep seniority calibrated: emphasize execution and collaboration, not broad architectural ownership or senior-level system design claims."
+          ],
+          "direct_review_rationale": "Not suitable for direct review because the starter still has material positioning and credibility issues: the summary undersells backend fit, several analyst-era bullets risk overstating engineering ownership, and identity-specific alignment is only indirect. The base is strong enough to reuse, but it needs controlled rewriting before reviewer handoff."
+        },
+        "anchor_summary": {
+          "semantic_best_anchor": {
+            "job_id": "697665d1bc8e722e7b1afd8d",
+            "company_name": "Affirm",
+            "title": "Software Engineer II, Backend (Credit Decisioning)",
+            "source_kind": "portfolio_history",
+            "score": 0.7685,
+            "reuse_readiness": 0.9876,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: backend_generalist/entry -> backend_generalist/entry.",
+              "Hard-requirement coverage is 1.00.",
+              "Best aligned units: Proficient in one of Python or Kotlin => TECH_PYTHON, TECH_KOTLIN | Software Engineer II, Backend (Identity Decisioning) => RESP_BACKEND_DEVELOPMENT | Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. In this role, you will own and deliver high-availability and low-latency systems for onboarding and managing consumer authentication and verification journeys. You will collaborate with product management, design, and analytics to support product development and operational efficiency. => RESP_CROSS_FUNCTIONAL_COLLABORATION"
+            ],
+            "missing_critical_units": [],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.9209
+          },
+          "semantic_starter_anchor": {
+            "job_id": "697665d1bc8e722e7b1afd8d",
+            "company_name": "Affirm",
+            "title": "Software Engineer II, Backend (Credit Decisioning)",
+            "source_kind": "portfolio_history",
+            "score": 0.7685,
+            "reuse_readiness": 0.9876,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: backend_generalist/entry -> backend_generalist/entry.",
+              "Hard-requirement coverage is 1.00.",
+              "Best aligned units: Proficient in one of Python or Kotlin => TECH_PYTHON, TECH_KOTLIN | Software Engineer II, Backend (Identity Decisioning) => RESP_BACKEND_DEVELOPMENT | Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. In this role, you will own and deliver high-availability and low-latency systems for onboarding and managing consumer authentication and verification journeys. You will collaborate with product management, design, and analytics to support product development and operational efficiency. => RESP_CROSS_FUNCTIONAL_COLLABORATION"
+            ],
+            "missing_critical_units": [],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.9209
+          },
+          "semantic_writer_anchor": {
+            "job_id": "697665d1bc8e722e7b1afd8d",
+            "company_name": "Affirm",
+            "title": "Software Engineer II, Backend (Credit Decisioning)",
+            "source_kind": "portfolio_history",
+            "score": 0.7685,
+            "reuse_readiness": 0.9876,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: backend_generalist/entry -> backend_generalist/entry.",
+              "Hard-requirement coverage is 1.00.",
+              "Best aligned units: Proficient in one of Python or Kotlin => TECH_PYTHON, TECH_KOTLIN | Software Engineer II, Backend (Identity Decisioning) => RESP_BACKEND_DEVELOPMENT | Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. In this role, you will own and deliver high-availability and low-latency systems for onboarding and managing consumer authentication and verification journeys. You will collaborate with product management, design, and analytics to support product development and operational efficiency. => RESP_CROSS_FUNCTIONAL_COLLABORATION"
+            ],
+            "missing_critical_units": [],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.9209
+          },
+          "company_best_anchor": {
+            "job_id": "697665d1bc8e722e7b1afd8d",
+            "company_name": "Affirm",
+            "title": "Software Engineer II, Backend (Credit Decisioning)",
+            "source_kind": "portfolio_history",
+            "score": 0.6466,
+            "reuse_readiness": 0.8406,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Company continuity score=0.65; same-company history candidate for Affirm.",
+              "Title overlap=0.71; semantic reuse=0.98.",
+              "Suitable as continuity anchor; hard gaps=0."
+            ],
+            "missing_critical_units": [],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.8495
+          },
+          "continuity_anchor": {
+            "job_id": "697665d1bc8e722e7b1afd8d",
+            "company_name": "Affirm",
+            "title": "Software Engineer II, Backend (Credit Decisioning)",
+            "source_kind": "portfolio_history",
+            "score": 0.6466,
+            "reuse_readiness": 0.8406,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/affirm/2026-04-02/697665d1bc8e722e7b1afd8d/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Company continuity score=0.65; same-company history candidate for Affirm.",
+              "Title overlap=0.71; semantic reuse=0.98.",
+              "Suitable as continuity anchor; hard gaps=0."
+            ],
+            "missing_critical_units": [],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.8495
+          }
+        },
+        "final_review": {
+          "weighted_score": 93.5,
+          "passed": true,
+          "critical_count": 0,
+          "high_count": 0,
+          "needs_revision": false,
+          "revision_priority": [
+            "Make the summary’s first sentence explicitly bridge analyst experience to backend decisioning so the career story reads as intentional on first screen.",
+            "Clean up the summary/skills emphasis pattern by removing unnecessary bolding from date/location qualifiers and tightening the skills category naming."
+          ],
+          "revision_instructions": ""
+        }
+      }
+    },
+    {
+      "job_id": "69cf8f82366bb95ba55176e0",
+      "company_name": "NVIDIA",
+      "title": "Software Engineer, AI Inference Systems - New College Graduate 2026",
+      "historical_old_pipeline": {
+        "job_id": "69cf8f82366bb95ba55176e0",
+        "company_name": "NVIDIA",
+        "title": "Software Engineer, AI Inference Systems - New College Graduate 2026",
+        "review_final_score": 87.3,
+        "review_verdict": "fail",
+        "rereview_rounds": 1,
+        "route_mode": "retarget",
+        "seed_label": "ByteDance ML Grad",
+        "token_metrics_available": false
+      },
+      "new_dual_channel_planner": {
+        "mode": "new_dual_channel_planner",
+        "planner_decision": "write",
+        "planner_fit_label": "medium",
+        "planner_prompt_tokens_est": 7195,
+        "planner_output_tokens_est": 1529,
+        "writer_prompt_tokens_est": 10692,
+        "writer_output_tokens_est": 1434,
+        "reviewer_prompt_tokens_est": 3187,
+        "reviewer_output_tokens_est": 260,
+        "total_tokens_est": 24297,
+        "elapsed_seconds": 169.17,
+        "final_score": 94.1,
+        "passed": true,
+        "reviewer_rounds": 1,
+        "writer_rounds": 1,
+        "planner_payload": {
+          "decision": "write",
+          "fit_label": "medium",
+          "reuse_ratio_estimate": 0.64,
+          "already_covered": [
+            "Has meaningful evidence for Python, Go, C++, Rust, Linux, Docker, Kubernetes, Kafka, Redis, REST, gRPC, and general backend/distributed-service work.",
+            "Shows new-grad-compatible profile with current M.S. in Computer Science and 2025 internship experience.",
+            "Contains multiple quantified bullets on backend systems, validation tooling, deployment workflows, and service reliability.",
+            "Includes some LLM-adjacent exposure through AWS Bedrock/OpenAI-based retrieval workflows.",
+            "Demonstrates cross-functional product-to-infrastructure execution and operational impact that can be reframed toward systems engineering."
+          ],
+          "missing_or_weak": [
+            "Little to no direct evidence of deep learning systems work beyond retrieval/evaluation; PyTorch is absent.",
+            "AI inference systems positioning is weak: no explicit inference optimization, model serving, runtime, throughput/latency tuning, batching, memory, or performance-engineering language.",
+            "Algorithms and data structures are only implied, not stated or evidenced directly.",
+            "Distributed systems is partly present but not explicitly framed as distributed systems design or debugging experience.",
+            "NVIDIA-targeted keywords such as AI inference, performance, ML frameworks, and low-level systems depth are underrepresented.",
+            "Preferred cloud coverage is narrow: AWS appears, but Azure/GCP are absent.",
+            "Current summary is robotics/backend-transition oriented rather than AI inference systems oriented.",
+            "Data-analyst sections consume substantial space and dilute SWE/ML systems signal."
+          ],
+          "risk_flags": [
+            "Summary phrase 'Backend Transition Profile' can weaken fit for a new-grad SWE role by foregrounding career-switch framing instead of engineering readiness.",
+            "Claiming '3+ years of experience building production Go, Java, Python, and Rust systems' appears overstated given the resume still centers heavily on analytics roles.",
+            "Rust depth may be too thin if it is primarily one replay-runner project; avoid implying broad production Rust ownership.",
+            "C++ evidence is limited to parser checks and validation fixtures; avoid presenting it as strong primary-language depth without qualification.",
+            "Several bullets rely on 'team-maintained', 'team-owned', or 'intern-owned workflow' language; ownership boundaries must stay explicit to avoid overclaiming.",
+            "The TikTok project may drift into sounding like end-to-end platform ownership unless carefully scoped as internal tooling within a larger system.",
+            "Go-game achievement currently takes high-visibility summary space without helping NVIDIA AI inference fit."
+          ],
+          "role_seniority_guidance": [
+            "Position as a new college graduate software engineer with strong backend/systems foundations and emerging ML-platform exposure, not as a senior analytics operator.",
+            "Lead with systems languages, Linux/container orchestration, service integration, and measurable latency/reliability improvements.",
+            "Reframe strongest internship bullets toward inference-adjacent themes: retrieval latency, evaluation pipelines, service efficiency, deployment validation, and internal ML-enabled tooling.",
+            "Keep claims grounded: emphasize contribution to team systems, debugging, and implementation depth rather than architecture ownership.",
+            "Use education and coursework/foundations to explicitly surface algorithms, data structures, distributed systems, and deep learning where truthful."
+          ],
+          "planner_summary": "Starter is usable as a base because it already contains strong backend/infrastructure evidence and several target technologies, but it is not ready for direct review. The current narrative is mispositioned for NVIDIA AI Inference Systems: summary framing is off, deep-learning/inference evidence is too weak, and some language/ownership claims risk overstating SWE depth. Writer should keep the strongest TikTok systems bullets and selected backend-adjacent DiDi bullets, then rewrite aggressively around new-grad AI systems fit.",
+          "writer_plan": [
+            "Rewrite the summary from scratch for NVIDIA AI Inference Systems, removing 'backend transition' framing and replacing it with new-grad SWE + backend/ML systems positioning.",
+            "Prioritize TikTok experience as the anchor section; move LLM/retrieval, Go, Python, C++, Linux, Docker, Kubernetes, Kafka, Redis, and evaluation/performance bullets to the top.",
+            "Retool TikTok bullets to emphasize latency reduction, service efficiency, validation rigor, deployment reliability, and internal ML-enabled system support without inventing PyTorch or inference-engine work.",
+            "Keep the Security Knowledge Retrieval Workbench only if phrased as a scoped internal systems project; highlight replay, evaluation, CI/CD, Kubernetes, and experiment reliability.",
+            "Compress DiDi analytics-heavy bullets and retain only those with clear backend/service/distributed-systems signal such as Java service endpoints, Kafka pipelines, Redis caching, Docker releases, and Python validation.",
+            "Minimize or drop Temu bullets unless space is needed for evidence of Python/data processing; the section is weak for this JD.",
+            "Strengthen the skills section to foreground Python, C++, Go, Rust, Linux, Docker, Kubernetes, distributed systems, algorithms/data structures, and deep-learning-adjacent tools only where supported.",
+            "Add explicit but truthful foundations language for algorithms, data structures, distributed systems, and deep learning through education/coursework/project context if available from source materials.",
+            "Do not claim PyTorch, Kubernetes ownership breadth, or inference optimization unless directly supported elsewhere in the candidate record.",
+            "Reduce or relocate the Go-game achievement so it does not compete with technical positioning."
+          ],
+          "direct_review_rationale": "Not suitable for direct review because the current draft is materially misaligned with the target narrative. It undersells AI inference/deep-learning fit, overemphasizes analytics-transition framing, and contains several possible scope/ownership overstatements that should be corrected before review."
+        },
+        "anchor_summary": {
+          "semantic_best_anchor": {
+            "job_id": "69d00c2ccdb525785fba6b0b",
+            "company_name": "Amazon",
+            "title": "Robotics - Software Development Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.5285,
+            "reuse_readiness": 0.6822,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: ai_ml_swe/entry -> generalist/entry.",
+              "Hard-requirement coverage is 0.72.",
+              "Best aligned units: Python, C++, Go, Rust, Algorithms => TECH_PYTHON | Python, C++, Go, Rust, Algorithms => TECH_CPP | Python, C++, Go, Rust, Algorithms => TECH_GO",
+              "Critical gaps: experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories | experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories | Knowledgeable and passionate about performance engineering in ML frameworks (e.g., PyTorch) and inference engines (e.g., vLLM and SGLang)"
+            ],
+            "missing_critical_units": [
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "Knowledgeable and passionate about performance engineering in ML frameworks (e.g., PyTorch) and inference engines (e.g., vLLM and SGLang)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)"
+            ],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.7752
+          },
+          "semantic_starter_anchor": {
+            "job_id": "69d00c2ccdb525785fba6b0b",
+            "company_name": "Amazon",
+            "title": "Robotics - Software Development Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.5285,
+            "reuse_readiness": 0.6822,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: ai_ml_swe/entry -> generalist/entry.",
+              "Hard-requirement coverage is 0.72.",
+              "Best aligned units: Python, C++, Go, Rust, Algorithms => TECH_PYTHON | Python, C++, Go, Rust, Algorithms => TECH_CPP | Python, C++, Go, Rust, Algorithms => TECH_GO",
+              "Critical gaps: experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories | experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories | Knowledgeable and passionate about performance engineering in ML frameworks (e.g., PyTorch) and inference engines (e.g., vLLM and SGLang)"
+            ],
+            "missing_critical_units": [
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "Knowledgeable and passionate about performance engineering in ML frameworks (e.g., PyTorch) and inference engines (e.g., vLLM and SGLang)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)"
+            ],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.7752
+          },
+          "semantic_writer_anchor": {
+            "job_id": "69d00c2ccdb525785fba6b0b",
+            "company_name": "Amazon",
+            "title": "Robotics - Software Development Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.5285,
+            "reuse_readiness": 0.6822,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: ai_ml_swe/entry -> generalist/entry.",
+              "Hard-requirement coverage is 0.72.",
+              "Best aligned units: Python, C++, Go, Rust, Algorithms => TECH_PYTHON | Python, C++, Go, Rust, Algorithms => TECH_CPP | Python, C++, Go, Rust, Algorithms => TECH_GO",
+              "Critical gaps: experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories | experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories | Knowledgeable and passionate about performance engineering in ML frameworks (e.g., PyTorch) and inference engines (e.g., vLLM and SGLang)"
+            ],
+            "missing_critical_units": [
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "Knowledgeable and passionate about performance engineering in ML frameworks (e.g., PyTorch) and inference engines (e.g., vLLM and SGLang)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)"
+            ],
+            "review_final_score": 94.0,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.7752
+          },
+          "company_best_anchor": {
+            "job_id": "69d08495cdb525785fbab3c5",
+            "company_name": "NVIDIA",
+            "title": "Deep Learning Software Engineer, LLM Performance - New College Grad 2026",
+            "source_kind": "portfolio_history",
+            "score": 0.4015,
+            "reuse_readiness": 0.4533,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Company continuity score=0.40; same-company history candidate for NVIDIA.",
+              "Title overlap=0.38; semantic reuse=0.49.",
+              "Weak as continuity anchor; hard gaps=5."
+            ],
+            "missing_critical_units": [
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)",
+              "familiarity with Linux namespaces and cgroups, Excellent debugging, problem-solving, and communication skills"
+            ],
+            "review_final_score": 95.1,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.6818
+          },
+          "continuity_anchor": {
+            "job_id": "69d08495cdb525785fbab3c5",
+            "company_name": "NVIDIA",
+            "title": "Deep Learning Software Engineer, LLM Performance - New College Grad 2026",
+            "source_kind": "portfolio_history",
+            "score": 0.4015,
+            "reuse_readiness": 0.4533,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Company continuity score=0.40; same-company history candidate for NVIDIA.",
+              "Title overlap=0.38; semantic reuse=0.49.",
+              "Weak as continuity anchor; hard gaps=5."
+            ],
+            "missing_critical_units": [
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "experience with Go or Rust is a plus, Solid CS fundamentals: algorithms & data structures, operating systems, computer architecture, parallel programming, distributed systems, deep learning theories",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)",
+              "Experience with containers and orchestration (Docker, Kubernetes, Slurm)",
+              "familiarity with Linux namespaces and cgroups, Excellent debugging, problem-solving, and communication skills"
+            ],
+            "review_final_score": 95.1,
+            "review_verdict": "pass",
+            "starter_priority_score": 0.6818
+          }
+        },
+        "final_review": {
+          "weighted_score": 94.1,
+          "passed": true,
+          "critical_count": 0,
+          "high_count": 0,
+          "needs_revision": false,
+          "revision_priority": [],
+          "revision_instructions": ""
+        }
+      }
+    }
+  ],
+  "notes": {
+    "old_pipeline_tokens_available": false,
+    "reason": "Historical portfolio logs record score/verdict/rounds but do not persist comparable token usage or elapsed time."
+  }
+}

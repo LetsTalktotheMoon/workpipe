@@ -1,0 +1,116 @@
+{
+  "job_id": "69c15d0479e36d3a847dfc49",
+  "company_name": "IBM",
+  "company_slug": "ibm",
+  "publish_time": "2026-04-02 10:58:08",
+  "publish_date": "2026-04-02",
+  "title": "Software Developer 2026 ELH",
+  "application_status": "1_Discovered",
+  "apply_link": "https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=91689&src=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_paypal_java_backend",
+  "seed_label": "PayPal Java Backend",
+  "parent_seed_id": "seed_paypal_java_backend",
+  "top_candidate": {
+    "seed_id": "seed_paypal_java_backend",
+    "label": "PayPal Java Backend",
+    "route_score": 0.832,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "node.js",
+      "react"
+    ],
+    "project_ids": [],
+    "seed_company_name": "PayPal",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ibm/2026-04-02/69c15d0479e36d3a847dfc49/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ibm/2026-04-02/69c15d0479e36d3a847dfc49/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ibm/2026-04-02/69c15d0479e36d3a847dfc49",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69c15d0479e36d3a847dfc49",
+  "generated_at": "2026-04-06T22:45:48",
+  "review": {
+    "weighted_score": 91.5,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Reframe the DiDi experience so the Senior Data Analyst title does not look like a hidden backend engineer role.",
+      "Split the overloaded Skills category into tighter ATS-friendly groups and keep each group within 4-8 items."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 8.6,
+        "weight": 0.1,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r4_rationality": {
+        "score": 8.1,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.5,
+    "verdict": "conditional_pass",
+    "seed_label": "PayPal Java Backend",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Reframe the DiDi experience so the Senior Data Analyst title does not look like a hidden backend engineer role.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:28",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

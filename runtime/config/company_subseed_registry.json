@@ -1,0 +1,189 @@
+{
+  "companies": [
+    {
+      "company_name": "Amazon",
+      "max_mainline_directions": 2,
+      "notes": "Keep Amazon on two stable mainlines: platform/distributed systems and AI/ads/LLM. Robotics stays explicitly out-of-mainline.",
+      "directions": [
+        {
+          "subseed_id": "amazon_platform_mainline",
+          "label": "Amazon Platform / Distributed Systems",
+          "kind": "mainline",
+          "status": "active",
+          "primary_seed_id": "seed_amazon_management_plane_anchor_candidate",
+          "seed_ids": [
+            "seed_amazon_management_plane_anchor_candidate",
+            "seed_codex_amazon_sde"
+          ],
+          "target_role_families": [
+            "backend_generalist",
+            "platform",
+            "generalist"
+          ],
+          "notes": "Primary line for management-plane, backend platform, and distributed-systems SDE variants."
+        },
+        {
+          "subseed_id": "amazon_ai_ads_mainline",
+          "label": "Amazon AI / Ads / LLM",
+          "kind": "mainline",
+          "status": "active",
+          "primary_seed_id": "seed_amazon_agi_ml_anchor",
+          "seed_ids": [
+            "seed_amazon_agi_ml_anchor",
+            "seed_amazon_conversational_ads_backend"
+          ],
+          "target_role_families": [
+            "ai_ml_swe",
+            "generalist"
+          ],
+          "notes": "AI application, ads, and LLM-oriented Amazon line."
+        }
+      ],
+      "outlier_jobs": [
+        {
+          "job_id": "69d05887cfdc6132f943a843",
+          "label": "amazon_robotics_outlier",
+          "title": "Robotics - Software Development Engineer",
+          "reason": "Rust/robotics/hardware-adjacent scope should be generated separately and not folded into the Amazon mainline."
+        },
+        {
+          "job_id": "69d00c2ccdb525785fba6b0b",
+          "label": "amazon_robotics_outlier",
+          "title": "Robotics - Software Development Engineer",
+          "reason": "Duplicate robotics posting; keep marked as outlier even if generated."
+        }
+      ]
+    },
+    {
+      "company_name": "Google",
+      "max_mainline_directions": 2,
+      "notes": "Google is now split into product-facing AI/application work and cloud/infra work. Global Network Edge remains an explicit outlier until proven otherwise.",
+      "directions": [
+        {
+          "subseed_id": "google_product_ai_mainline",
+          "label": "Google Product / AI Application",
+          "kind": "mainline",
+          "status": "active",
+          "primary_seed_id": "seed_google_geo_aiml_anchor",
+          "seed_ids": [
+            "seed_google_geo_aiml_anchor",
+            "seed_codex_google_aiml",
+            "seed_codex_google_fullstack"
+          ],
+          "target_role_families": [
+            "ai_ml_swe",
+            "fullstack",
+            "generalist"
+          ],
+          "notes": "Workspace, Geo, AI application, and product-facing SWE variants."
+        },
+        {
+          "subseed_id": "google_cloud_infra_mainline",
+          "label": "Google Cloud / Infra",
+          "kind": "mainline",
+          "status": "active",
+          "primary_seed_id": "seed_google_cloud_infra_anchor_candidate",
+          "seed_ids": [
+            "seed_google_cloud_infra_anchor_candidate"
+          ],
+          "target_role_families": [
+            "platform",
+            "backend_generalist",
+            "networking"
+          ],
+          "notes": "Cloud performance, DCIM cooling, load balancing, and Cloud Gaia style infrastructure work."
+        }
+      ],
+      "outlier_jobs": [
+        {
+          "job_id": "69d01348cfdc6132f943818e",
+          "label": "google_network_edge_outlier",
+          "title": "Software Engineer, Global Network Edge",
+          "reason": "SDN/network-edge/hardware-abstraction scope is still outside the proven Google mainlines."
+        }
+      ]
+    },
+    {
+      "company_name": "JPMorganChase",
+      "max_mainline_directions": 2,
+      "notes": "Keep JPMC on one active data/mlops mainline and at most one second enterprise-apps direction if ROI proves out. Explicitly mark management, Salesforce, and VP modeling/compliance as outliers.",
+      "directions": [
+        {
+          "subseed_id": "jpmc_data_mlops_mainline",
+          "label": "JPMC Data Platform / MLOps",
+          "kind": "mainline",
+          "status": "active",
+          "primary_seed_id": "seed_jpmc_data_mlops_anchor",
+          "seed_ids": [
+            "seed_jpmc_data_mlops_anchor"
+          ],
+          "target_role_families": [
+            "data_platform",
+            "data_science",
+            "ai_ml_swe",
+            "pm"
+          ],
+          "notes": "Current JPMC mainline for data platform, MLOps, and analytics-hybrid variants."
+        },
+        {
+          "subseed_id": "jpmc_enterprise_apps_pending",
+          "label": "JPMC Internal Apps / Fullstack",
+          "kind": "mainline",
+          "status": "planned",
+          "primary_seed_id": "",
+          "seed_ids": [],
+          "candidate_job_ids": [
+            "69d046190b098b7a67077f8c",
+            "69cdd45354f00230c6cf6d55",
+            "69bf613a2c312363dcd20f7f",
+            "6978dbe888e2b47213bcf535"
+          ],
+          "target_role_families": [
+            "backend_generalist",
+            "fullstack",
+            "ai_ml_swe"
+          ],
+          "notes": "Potential second JPMC direction if internal-apps/fullstack roles justify another sub seed. Current evidence is stronger for Python/React/fullstack + internal AI apps than for .NET/capital-markets."
+        }
+      ],
+      "outlier_jobs": [
+        {
+          "job_id": "69d05041cfdc6132f943a6a2",
+          "label": "jpmc_process_manager_outlier",
+          "title": "Process Improvement Manager",
+          "reason": "Management/process-improvement route should not dilute the software/data mainline."
+        },
+        {
+          "job_id": "69625bd025e18715077f4272",
+          "label": "jpmc_salesforce_outlier",
+          "title": "Salesforce Software Engineer III",
+          "reason": "Salesforce-specific application line is outside the current JPMC mainline and should stay explicitly separated."
+        },
+        {
+          "job_id": "6995f86ce0bddb6acac45e39",
+          "label": "jpmc_vp_applied_ai_outlier",
+          "title": "Compliance - Applied AI/ML Lead - Vice President",
+          "reason": "VP compliance/applied-modeling leadership is an explicit outlier, not a company-mainline extension."
+        },
+        {
+          "job_id": "6925bda627bf2f41a2c401d5",
+          "label": "jpmc_vp_modeling_outlier",
+          "title": "Business Modeling - Applied AI Modeling Lead (VP)",
+          "reason": "VP applied-modeling leadership is an explicit outlier, not a company-mainline extension."
+        },
+        {
+          "job_id": "697b738f1136d179eeeef5ea",
+          "label": "jpmc_security_outlier",
+          "title": "Security Engineer III - Java/Python AWS",
+          "reason": "Security-specific Java/Python/AWS route is currently outside the proven JPMC mainline."
+        },
+        {
+          "job_id": "69ce9e1a891d7b11cfcca544",
+          "label": "jpmc_cpp_outlier",
+          "title": "Software Engineer III - C/C++ Programming",
+          "reason": "C/C++ and shell-heavy systems work sits outside the proven JPMC data/mlops and internal-apps directions."
+        }
+      ]
+    }
+  ]
+}

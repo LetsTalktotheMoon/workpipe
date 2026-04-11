@@ -1,0 +1,77 @@
+{
+  "weighted_score": 91.3,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add MongoDB evidence in Skills and one concrete ETL bullet so the JD's must-have stack is actually proven in the body.",
+    "Surface Talend or exact data-integration tooling in one summary sentence or bullet if that experience is real."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.8,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 7.2,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.2,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 91.3,
+  "verdict": "conditional_pass",
+  "seed_label": "Qualified Health Data Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Keep the immutable experience headers unchanged. Add `MongoDB` to `## Skills`, then edit one existing ETL bullet in DiDi or TikTok to show a specific MongoDB use case such as ingesting, validating, or serving document/event data. If Talend exposure is real, surface it once in the Summary or the most relevant ETL bullet so the resume matches the JD's Talend + Databricks direction; do not remove Databricks or the current experience structure.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T04:06:47",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 89.1,
+  "previous_verdict": "conditional_pass"
+}

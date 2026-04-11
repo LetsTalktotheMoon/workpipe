@@ -1,0 +1,71 @@
+{
+  "job_id": "69bb8bef569738374141a09c",
+  "company_name": "Amazon",
+  "company_slug": "amazon",
+  "publish_time": "2026-04-08 07:53:09",
+  "publish_date": "2026-04-08",
+  "title": "Data Scientist, Demand Forecasting",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.amazon.jobs/jobs/3206851/data-scientist-demand-forecasting?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid",
+  "source_kind": "local_unified_pipeline",
+  "route_mode": "reuse",
+  "seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "parent_seed_id": "seed_amazon_agi_ml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_amazon_agi_ml_anchor",
+    "label": "Amazon AGI/LLM Anchor",
+    "route_score": 0.997,
+    "base_route_score": 0.837,
+    "required_coverage": 1.0,
+    "core_coverage": 1.0,
+    "preferred_coverage": 0.0,
+    "role_score": 0.78,
+    "domain_score": 0.6,
+    "seniority_score": 1.0,
+    "title_score": 0.5,
+    "same_company": true,
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": "697d74fd137a0510256697d9",
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ]
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69bb8bef569738374141a09c/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-08T19:16:15",
+  "review": {},
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "primary_subseed_id": "amazon_ai_ads_mainline",
+  "primary_subseed_label": "Amazon AI / Ads / LLM",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

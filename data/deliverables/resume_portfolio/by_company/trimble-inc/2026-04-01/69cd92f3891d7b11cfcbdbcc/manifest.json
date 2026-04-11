@@ -1,0 +1,144 @@
+{
+  "job_id": "69cd92f3891d7b11cfcbdbcc",
+  "company_name": "Trimble Inc.",
+  "company_slug": "trimble-inc",
+  "publish_time": "2026-04-01 16:49:39",
+  "publish_date": "2026-04-01",
+  "title": "Software Engineer AI",
+  "application_status": "1_Discovered",
+  "apply_link": "https://trimble.eightfold.ai/careers/job/171839755521?microsite=trimble.com&domain=trimble.com&src=LinkedIN",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_microsoft_coreai_platform_anchor",
+  "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+  "parent_seed_id": "seed_microsoft_coreai_platform_anchor",
+  "top_candidate": {
+    "seed_id": "seed_microsoft_coreai_platform_anchor",
+    "label": "Microsoft CoreAI/BIC Platform Anchor",
+    "route_score": 0.712,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      ".net",
+      "prompt engineering",
+      "unit testing"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_merchant_incident_workbench"
+    ],
+    "seed_company_name": "Microsoft",
+    "seed_source_job_id": "69ce6e5d366bb95ba550b6e8"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_merchant_incident_workbench"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/trimble-inc/2026-04-01/69cd92f3891d7b11cfcbdbcc/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/trimble-inc/2026-04-01/69cd92f3891d7b11cfcbdbcc/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/trimble-inc/2026-04-01/69cd92f3891d7b11cfcbdbcc",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-01/69cd92f3891d7b11cfcbdbcc",
+  "generated_at": "2026-04-07T01:13:00",
+  "review": {
+    "weighted_score": 96.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Add C# /.NET to the Skills section so the summary and TikTok bullet 3 remain fully consistent with the declared skill inventory."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.6,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 96.1,
+    "verdict": "pass",
+    "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T06:05:26",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.2,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:50",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T06:05:26",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 96.1,
+  "review_verdict": "pass"
+}

@@ -1,0 +1,61 @@
+## Professional Summary
+* **Behavioral Data Science Focus:** M.S. Computer Science candidate graduating in **2026** with nearly **3 years** of experience translating large-scale behavioral data, experimentation, and **Machine Learning**-informed analysis into product decisions, **SQL** workflows, and production **data pipelines** across consumer platforms.
+* **Transferable Movement Analytics Foundation:** Applies strong **Python**, **Scala**, **SQL**, **Algorithms**, and **Data Structures** fundamentals to model time-based user and operational patterns, build feature preparation pipelines, and support decision systems that transfer well to consumer health, activity, and other longitudinal product measurement settings.
+* **Analytical Pattern Recognition:** Apply the pattern recognition of a China National Certified **Go** **2-dan** player, **2022 city** champion, and **2023 city** third-place finisher to complex systems analysis and high-stakes problem solving.
+
+## Skills
+* **Programming:** Go, Java, Python, Scala, gRPC, REST, Data Pipelines, Deep Learning, Algorithms, Data Structures
+* **Data:** SQL, Hive, Spark SQL, ETL, Pandas, A/B Testing
+* **AI/ML:** AWS Bedrock, Machine Learning, scikit-learn, RAG, LLM, Model Deployment
+* **Cloud:** Kafka, PostgreSQL, Redis, AWS, S3, Docker, Kubernetes, GitHub Actions, Microservices
+
+## Experience
+### Software Engineer Intern | TikTok · Security
+*Jun 2025 – Dec 2025 | San Jose, USA*
+
+* Contributed **Go** and **gRPC** service handlers backed by **PostgreSQL** and **Kafka** for security case enrichment, trimming median investigator fetch time by **31%** within a team-maintained service.
+* Built feature components in a team-maintained **RAG** workflow leveraging **AWS**, **S3**, Bedrock, **LLM**, and **Python** to retrieve prior policy decisions, increasing top-**3** evidence match rate by **24%** on an internal evaluation set.
+* Implemented **Python** data preparation and data pipeline routines for downstream **Machine Learning** models, cutting feature backfill time from **42 minutes** to **11 minutes**.
+* Added **Docker** smoke checks and **GitHub Actions** gates for service packages deployed to **Kubernetes**, improving release reliability for bounded **model deployment** and service rollout checks during the internship.
+* Benchmarked **Algorithms** and **Data Structures** choices used by a **Deep Learning**-oriented retrieval path in **Go**, helping the team standardize heap-based reranking and cache layouts across **3** request handlers.
+
+**Project: Security Knowledge Review Copilot**
+> An internal effort to shorten analyst review time by surfacing reusable evidence from prior cases within a team-maintained service.
+* Developed a **Go** adapter integrating **gRPC** risk services and **Kafka** feedback events for an **LLM** assistant within a team-maintained **RAG** review flow.
+* Prepared **Python** evaluation jobs on **AWS** and **S3** to compare Bedrock prompt variants for **Machine Learning** moderation use cases, improving reviewer acceptance by **18%** on sampled cases.
+* Containerized offline validation with **Docker** and mirrored release checks in **GitHub Actions** before **Kubernetes** rollout, shortening validation time from **2 hours** to **35 minutes**.
+* Profiled **Algorithms** and **Data Structures** in document chunk selection for **Deep Learning** retrieval, lowering duplicate context returned per case by **22%** on internal replay tests.
+
+### Senior Data Analyst | DiDi · IBG · Food
+*Sep 2022 – May 2024 | Beijing/Mexico*
+> Data lead within a **13-person** cross-functional squad spanning product, backend, frontend, mobile, and ops.
+
+* Led redesign of **SQL**, **ETL**, and **Python** **data pipelines** for cross-market order, timing, and subsidy reporting, cutting daily refresh latency from **95 minutes** to **28 minutes** across Mexico operations.
+* Coordinated with backend engineers to ship **Java** **Microservices** exposing **REST** endpoints for merchant campaign rules, reducing manual configuration tickets by **43%**.
+* Drove dispatch alert logic using **Kafka**, **Redis**, and **Algorithms** to prioritize delayed food delivery orders, modeling real-time courier and order state transitions to improve on-time recovery by **17%** during peak meal windows.
+* Represented analytics in launch planning by translating experiment findings and behavioral response patterns into **Python** and **SQL** decision specs that supported **8 city** rollouts.
+
+**Project: Merchant Recovery Decision Platform**
+> An operations platform built to unify merchant exception handling and reduce fragmented recovery actions across markets.
+* Built **Python**, **SQL**, and **ETL** validation workflows to size merchant recovery policies before release, reducing weekly analyst QA effort by **12 hours**.
+* Coordinated implementation of **Java** **Microservices** with **REST** contracts so operations teams could trigger compensations from one console instead of **4** disconnected tools.
+* Streamed courier and merchant state changes through **Kafka** and **Redis**, enabling sub-**5-second** rule evaluation for exception orders during lunch and dinner peaks.
+* Refined service-side **Algorithms** for recovery routing, lifting coupon spend efficiency by **14%** in pilot cities in Mexico.
+
+### Data Analyst | Temu · R&D
+*Jun 2021 – Feb 2022 | Shanghai*
+
+* Analyzed browse-to-order funnels with **Hive**, **SQL**, **Spark SQL**, and **Scala**-based data workflows, surfacing checkout drop-off patterns across **12** product categories.
+* Automated weekly category diagnostics in **Python** and **Pandas**, reducing manual reporting time from **6 hours** to **90 minutes**.
+* Evaluated homepage copy and coupon placement through **A/B Testing**, improving first-purchase conversion by **9%** on a controlled traffic slice.
+* Trained a lightweight **Machine Learning** propensity model with **scikit-learn** in **Python** to flag low-intent sessions, improving remarketing audience precision by **16%** on holdout data.
+
+## Education
+### M.S. Computer Science (OMSCS, Part-time Online Program) | Georgia Institute of Technology
+*Expected May 2026*
+
+### M.S. Information Management (MSIM, Concurrent Part-time Program) | University of Illinois Urbana-Champaign
+*Expected May 2026*
+
+## Achievements
+* China national certified Go **2-dan** — city **champion** (2022) and third place (2023).

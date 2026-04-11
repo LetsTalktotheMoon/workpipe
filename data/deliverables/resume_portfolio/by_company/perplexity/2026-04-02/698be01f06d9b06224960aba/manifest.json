@@ -1,0 +1,63 @@
+{
+  "job_id": "698be01f06d9b06224960aba",
+  "company_name": "Perplexity",
+  "company_slug": "perplexity",
+  "publish_time": "2026-04-02 12:38:49",
+  "publish_date": "2026-04-02",
+  "title": "Full Stack Software Engineer - Growth",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/Perplexity/9917ce6e-bd59-4d79-a8d2-ca47827bf9e2/application?utm_source=linkedinpaid",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_codex_google_fullstack",
+  "seed_label": "Google Full Stack",
+  "parent_seed_id": "seed_codex_google_fullstack",
+  "top_candidate": {
+    "seed_id": "seed_codex_google_fullstack",
+    "label": "Google Full Stack",
+    "route_score": 0.972,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_campaign_ops_console"
+    ],
+    "seed_company_name": "Google",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_campaign_ops_console"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/perplexity/2026-04-02/698be01f06d9b06224960aba/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-07T01:29:47",
+  "review": {},
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

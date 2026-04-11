@@ -1,0 +1,48 @@
+{
+  "job_id": "69b1fbae65de58104c716815",
+  "company_name": "Amazon Web Services (AWS)",
+  "company_slug": "amazon-web-services-aws",
+  "publish_time": "2026-04-02 10:42:18",
+  "publish_date": "2026-04-02",
+  "title": "Software Development Engineer, Neuron Foundation Tools",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.amazon.jobs/jobs/3202423/software-development-engineer-neuron-foundation-tools?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid",
+  "source_kind": "seed_validation",
+  "route_mode": "reuse",
+  "seed_id": "seed_codex_google_aiml",
+  "seed_label": "Google AIML SWE",
+  "parent_seed_id": "seed_codex_google_aiml",
+  "top_candidate": {
+    "route_score": 0.99
+  },
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-02/69b1fbae65de58104c716815/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-05T14:00:55",
+  "review": {},
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

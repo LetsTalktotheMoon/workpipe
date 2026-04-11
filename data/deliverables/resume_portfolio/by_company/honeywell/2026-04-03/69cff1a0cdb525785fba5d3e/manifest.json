@@ -1,0 +1,115 @@
+{
+  "job_id": "69cff1a0cdb525785fba5d3e",
+  "company_name": "Honeywell",
+  "company_slug": "honeywell",
+  "publish_time": "2026-04-03 11:58:08",
+  "publish_date": "2026-04-03",
+  "title": "Data Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.honeywell.com/en/sites/Honeywell/job/145130",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.845,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "databricks"
+    ],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69cff1a0cdb525785fba5d3e/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69cff1a0cdb525785fba5d3e/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69cff1a0cdb525785fba5d3e",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cff1a0cdb525785fba5d3e",
+  "generated_at": "2026-04-05T18:54:54",
+  "review": {
+    "weighted_score": 88.9,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补齐 Scala 的真实证据，并把至少一条经历改写成明确的 Scala + Spark + Databricks 产出。",
+      "解释两段硕士学位同时预计 2026 年 5 月毕业的时间安排，避免 HR 质疑可行性。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.9,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 88.9,
+    "verdict": "conditional_pass",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "补齐 Scala 的真实证据，并把至少一条经历改写成明确的 Scala + Spark + Databricks 产出。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:27",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

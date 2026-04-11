@@ -1,0 +1,119 @@
+{
+  "job_id": "69cef3bd366bb95ba55118c9",
+  "company_name": "PCI Energy Solutions",
+  "company_slug": "pci-energy-solutions",
+  "publish_time": "2026-04-02 17:54:53",
+  "publish_date": "2026-04-02",
+  "title": "Software Developer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://pcienergysolutions.applicantstack.com/x/detail/a24iqm7geu5b",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_cisco_backend_api",
+  "seed_label": "Cisco Backend API",
+  "parent_seed_id": "seed_cisco_backend_api",
+  "top_candidate": {
+    "seed_id": "seed_cisco_backend_api",
+    "label": "Cisco Backend API",
+    "route_score": 0.778,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "git",
+      "node.js",
+      "spring",
+      "spring boot",
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Cisco",
+    "seed_source_job_id": "69d07b90cfdc6132f943be1d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/pci-energy-solutions/2026-04-02/69cef3bd366bb95ba55118c9/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/pci-energy-solutions/2026-04-02/69cef3bd366bb95ba55118c9/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/pci-energy-solutions/2026-04-02/69cef3bd366bb95ba55118c9",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cef3bd366bb95ba55118c9",
+  "generated_at": "2026-04-07T01:10:38",
+  "review": {
+    "weighted_score": 84.5,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "先补齐 JD 必须技术栈的真实出处，尤其是 Node.js、Elasticsearch、Spring Boot、Spring，必须落到具体经历 bullet 而不是只写在技能区。",
+      "再为 DiDi/Temu 的工程化表述补足 ownership 和协作边界，避免 HR 误读为分析岗独立主导后端系统。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 6.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 84.5,
+    "verdict": "fail",
+    "seed_label": "Cisco Backend API",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "先补齐 JD 必须技术栈的真实出处，尤其是 Node.js、Elasticsearch、Spring Boot、Spring，必须落到具体经历 bullet 而不是只写在技能区。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:41",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

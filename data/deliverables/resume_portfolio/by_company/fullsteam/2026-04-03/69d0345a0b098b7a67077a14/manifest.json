@@ -1,0 +1,117 @@
+{
+  "job_id": "69d0345a0b098b7a67077a14",
+  "company_name": "Fullsteam",
+  "company_slug": "fullsteam",
+  "publish_time": "2026-04-03 16:42:50",
+  "publish_date": "2026-04-03",
+  "title": "Sr. Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.linkedin.com/jobs/view/4397577793",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_generalist_dotnet_enterprise",
+  "seed_label": "Generalist DotNet Enterprise",
+  "parent_seed_id": "seed_generalist_dotnet_enterprise",
+  "top_candidate": {
+    "seed_id": "seed_generalist_dotnet_enterprise",
+    "label": "Generalist DotNet Enterprise",
+    "route_score": 0.711,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "azure",
+      "microservices",
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Spok",
+    "seed_source_job_id": "69cfdc7b891d7b11cfcd677c"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d0345a0b098b7a67077a14/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d0345a0b098b7a67077a14/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d0345a0b098b7a67077a14",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d0345a0b098b7a67077a14",
+  "generated_at": "2026-04-06T23:02:11",
+  "review": {
+    "weighted_score": 68.7,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 2,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Remove or substantiate the unsupported \".NET\" and Azure claims in the Professional Summary, because they currently break authenticity.",
+      "Add a concrete Azure-backed experience bullet or remove Azure from the JD positioning, because Azure is a must-have for the target role and is not evidenced now."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 3.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r1_writing_standard": {
+        "score": 8.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 5.1,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 68.7,
+    "verdict": "fail",
+    "seed_label": "Generalist DotNet Enterprise",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Remove or substantiate the unsupported \".NET\" and Azure claims in the Professional Summary, because they currently break authenticity.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:23",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

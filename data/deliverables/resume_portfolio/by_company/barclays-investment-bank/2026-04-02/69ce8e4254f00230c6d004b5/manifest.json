@@ -1,0 +1,136 @@
+{
+  "job_id": "69ce8e4254f00230c6d004b5",
+  "company_name": "Barclays Investment Bank",
+  "company_slug": "barclays-investment-bank",
+  "publish_time": "2026-04-02 10:41:54",
+  "publish_date": "2026-04-02",
+  "title": "Senior Full Stack Developer– AVP",
+  "application_status": "1_Discovered",
+  "apply_link": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Senior-C--Backend-Engineer---AVP_JR-0000091947",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_egen_fullstack_node",
+  "seed_label": "Egen Fullstack Node",
+  "parent_seed_id": "seed_egen_fullstack_node",
+  "top_candidate": {
+    "seed_id": "seed_egen_fullstack_node",
+    "label": "Egen Fullstack Node",
+    "route_score": 0.718,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      ".net",
+      "c#",
+      "c# .net",
+      "distributed systems"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Egen",
+    "seed_source_job_id": "69cda26c398fb071abf7a98d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/barclays-investment-bank/2026-04-02/69ce8e4254f00230c6d004b5/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/barclays-investment-bank/2026-04-02/69ce8e4254f00230c6d004b5/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/barclays-investment-bank/2026-04-02/69ce8e4254f00230c6d004b5",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69ce8e4254f00230c6d004b5",
+  "generated_at": "2026-04-06T22:52:06",
+  "review": {
+    "weighted_score": 89.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Rewrite Professional Summary into exactly 3 labeled sentences and replace the generic third label with a higher-signal systems-judgment header.",
+      "Add one explicit end-to-end ownership clause to the strongest DiDi or TikTok bullet so the React + REST + SQL full-stack bridge reads more directly."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 7.0,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 89.1,
+    "verdict": "conditional_pass",
+    "seed_label": "Egen Fullstack Node",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "Make two surgical edits only. First, replace `## Professional Summary` with exactly 3 full sentences, each starting with a bold label; keep the current technical claims, but remove bullet formatting and change the third label from a generic collaboration-style phrase to a senior-signal label such as `Pattern Recognition`, `Systems Judgment`, or `Decision-Making`. Second, strengthen the transition story by expanding one existing DiDi or TikTok bullet with a single clause that shows end-to-end ownership across the frontend, REST service, and SQL-backed persistence path; do not delete any JD must-have technology and do not rewrite the experience skeleton.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T05:26:57",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_achievement"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.5,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:13",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T05:26:57",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 89.1,
+  "review_verdict": "conditional_pass"
+}

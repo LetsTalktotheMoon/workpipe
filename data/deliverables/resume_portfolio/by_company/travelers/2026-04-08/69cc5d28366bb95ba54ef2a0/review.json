@@ -1,0 +1,77 @@
+{
+  "weighted_score": 93.5,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Clarify the two May 2026 master's degrees so the education timeline reads as concurrent and intentional, not ambiguous.",
+    "If you want stronger Applied Research signal, move Deep Learning model-evaluation language to the front of the TikTok summary or the second TikTok bullet."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.3,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.2,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 93.5,
+  "verdict": "pass",
+  "seed_label": "ByteDance ML Grad",
+  "route_mode": "retarget",
+  "revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "revision_instructions": "Keep all immutable fields unchanged. In Education, add an explicit concurrency or study-mode note to the two master's lines so a reviewer immediately understands how both can complete in May 2026; if that is not accurate, rewrite the education section to reflect the actual sequencing instead of leaving the timeline implicit. If you want to maximize JD fit without changing the core story, lightly reframe Summary sentence 2 or TikTok bullet 2 so it leads with Deep Learning / model evaluation / retrieval benchmarking before implementation details like AWS, S3, and Bedrock. Do not remove Deep Learning from Skills or body text; the JD requires it and the current coverage is already acceptable.",
+  "rereview_version": "unified_followup_v1",
+  "rereviewed_at": "2026-04-08T20:17:33",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 83.5,
+  "previous_verdict": "fail"
+}

@@ -1,0 +1,156 @@
+{
+  "seed_id": "seed_amazon_conversational_ads_backend",
+  "label": "Amazon Conversational Ads Backend",
+  "role_family": "generalist",
+  "seniority": "mid_senior",
+  "validated_score": 95.0,
+  "company_name": "Amazon",
+  "source_job_id": "6996d6d0ce78e77b4fdb0c7f",
+  "company_anchor": true,
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "project_cards": [
+    {
+      "project_id": "tiktok_security_retrieval_console",
+      "company_id": "tiktok_bytedance",
+      "company_name": "TikTok / ByteDance",
+      "start": "2025-06",
+      "end": "2025-09",
+      "team": "Security Investigation Tooling",
+      "business_domain": "Security knowledge retrieval and analyst tooling",
+      "project_goal": "Reduce manual context gathering for policy and incident investigations through retrieval-assisted internal tooling.",
+      "scope_ceiling": "Feature delivery inside a team-maintained retrieval assistant, evaluator, or analyst console; not end-to-end ownership of a standalone platform.",
+      "ownership_ceiling": "Implement handlers, evaluators, ingestion utilities, replay hooks, lightweight UI surfaces, and deployment checks for a bounded intern-owned slice.",
+      "allowed_tech_surface": [
+        "Go",
+        "Python",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "PostgreSQL",
+        "Kafka",
+        "gRPC",
+        "REST",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "S3",
+        "AWS Bedrock",
+        "RAG",
+        "LLM"
+      ],
+      "allowed_role_lenses": [
+        "backend",
+        "data",
+        "swe",
+        "mle",
+        "analyst"
+      ],
+      "needs_scope_note": true,
+      "notes": "Use for retrieval assistant, policy search, evaluation, or analyst-console variants. The business logic stays anchored in security knowledge retrieval."
+    },
+    {
+      "project_id": "didi_supply_eta_service",
+      "company_id": "didi_food",
+      "company_name": "DiDi Food",
+      "start": "2023-10",
+      "end": "2024-02",
+      "team": "Supply Planning and Dispatch Analytics",
+      "business_domain": "Courier ETA, supply-demand planning, and anomaly monitoring",
+      "project_goal": "Improve city-level planning speed and operational visibility through reusable ETA and supply monitoring services.",
+      "scope_ceiling": "Internal feature services and planning workflows for ops teams, backed by ETL and event-driven updates; not a standalone customer-facing product.",
+      "ownership_ceiling": "Build feature pipelines, anomaly checks, service adapters, cached reads, and planning diagnostics with partner engineering teams.",
+      "allowed_tech_surface": [
+        "Java",
+        "Python",
+        "SQL",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "Airflow",
+        "REST",
+        "Flask",
+        "Docker",
+        "ETL"
+      ],
+      "allowed_role_lenses": [
+        "analyst",
+        "backend",
+        "data",
+        "pm",
+        "swe"
+      ],
+      "needs_scope_note": false,
+      "notes": "Use for courier ETA feature service, capacity planning service, merchant supply exception monitoring, or outage diagnostics."
+    }
+  ],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_conversational_ads_backend/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_conversational_ads_backend",
+  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f",
+  "derived_count": 5,
+  "derived_jobs": [
+    {
+      "job_id": "6960242d7ebc25398eb61402",
+      "company_name": "OpenAI",
+      "publish_time": "2026-04-04 08:36:23",
+      "title": "Software Engineer, Productivity",
+      "source_kind": "seed_validation",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/6960242d7ebc25398eb61402",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/6960242d7ebc25398eb61402/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d00c2ccdb525785fba6b0b",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-03 13:51:24",
+      "title": "Robotics - Software Development Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c2ccdb525785fba6b0b/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "6996d6d0ce78e77b4fdb0c7f",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-03 08:29:25",
+      "title": "Software Dev Engineer II, Conversational Ad Experiences",
+      "source_kind": "seed_source",
+      "route_mode": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "681c246292e69414c8224d08",
+      "company_name": "Neuralink",
+      "publish_time": "2026-04-03 08:22:35",
+      "title": "Software Engineer, Implant",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69ceeb16398fb071abf8ab1e",
+      "company_name": "NV Energy",
+      "publish_time": "2026-04-02 16:24:23",
+      "title": "Software Engineer 2",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

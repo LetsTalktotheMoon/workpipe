@@ -1,0 +1,1 @@
+/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fullstack_java_react_enterprise/resume.md

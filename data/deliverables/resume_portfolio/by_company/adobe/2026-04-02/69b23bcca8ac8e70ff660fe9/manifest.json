@@ -1,0 +1,131 @@
+{
+  "job_id": "69b23bcca8ac8e70ff660fe9",
+  "company_name": "Adobe",
+  "company_slug": "adobe",
+  "publish_time": "2026-04-02 05:50:21",
+  "publish_date": "2026-04-02",
+  "title": "Data Scientist, Lightroom",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.adobe.com/us/en/job/ADOBUSR166466EXTERNALENUS/Data-Scientist-Lightroom?utm_source=linkedin&utm_medium=phenom-feeds&source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_qualified_health_data_engineer",
+  "seed_label": "Qualified Health Data Engineer",
+  "parent_seed_id": "seed_qualified_health_data_engineer",
+  "top_candidate": {
+    "seed_id": "seed_qualified_health_data_engineer",
+    "label": "Qualified Health Data Engineer",
+    "route_score": 0.934,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [],
+    "seed_company_name": "Qualified Health",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-02/69b23bcca8ac8e70ff660fe9/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-02/69b23bcca8ac8e70ff660fe9/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-02/69b23bcca8ac8e70ff660fe9",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69b23bcca8ac8e70ff660fe9",
+  "generated_at": "2026-04-05T19:14:45",
+  "review": {
+    "weighted_score": 93.2,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Standardize `Power BI` spelling/casing in Skills and the body for cleaner ATS keyword matching.",
+      "Remove bold from non-signal qualifiers and clarify the two May 2026 master's timelines if you want the resume to read more cleanly to HR."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.2,
+    "verdict": "pass",
+    "seed_label": "Qualified Health Data Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T16:42:57",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": true,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_didi_scope_note",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 92.2,
+    "previous_verdict": "conditional_pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:07",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:42:57",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "review_final_score": 93.2,
+  "review_verdict": "pass"
+}

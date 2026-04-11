@@ -1,0 +1,126 @@
+{
+  "job_id": "69d040ad54f00230c6d109a4",
+  "company_name": "Grid",
+  "company_slug": "grid",
+  "publish_time": "2026-04-03 17:35:25",
+  "publish_date": "2026-04-03",
+  "title": "Software Engineer | On-site | San Francisco",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.lever.co/Grid/637a49f0-7244-4bca-8093-232cb27b42c0/apply?utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_aws_generalist_embedded",
+  "seed_label": "AWS Generalist Embedded",
+  "parent_seed_id": "seed_aws_generalist_embedded",
+  "top_candidate": {
+    "seed_id": "seed_aws_generalist_embedded",
+    "label": "AWS Generalist Embedded",
+    "route_score": 0.784,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "prompt engineering"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "Amazon Web Services (AWS)",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/grid/2026-04-03/69d040ad54f00230c6d109a4/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/grid/2026-04-03/69d040ad54f00230c6d109a4/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/grid/2026-04-03/69d040ad54f00230c6d109a4",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d040ad54f00230c6d109a4",
+  "generated_at": "2026-04-07T02:14:39",
+  "review": {
+    "weighted_score": 84.9,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Fix provenance and formatting issues first: add or remove 'Machine Learning' from Skills and stop bolding modifier words like 'team-maintained'.",
+      "Strengthen the Grid fit story by adding one finance-adjacent backend framing line and tightening the internship ownership scope.",
+      "Fix the R0 source mismatch by adding `Machine Learning` to Skills or removing it from the Temu bullet."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 6.4,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.1,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "calibrated": true,
+    "calibration_scores": [
+      91.6,
+      76.5,
+      86.8
+    ],
+    "final_score": 84.9,
+    "verdict": "fail",
+    "seed_label": "AWS Generalist Embedded",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Fix provenance and formatting issues first: add or remove 'Machine Learning' from Skills and stop bolding modifier words like 'team-maintained'.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:26",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

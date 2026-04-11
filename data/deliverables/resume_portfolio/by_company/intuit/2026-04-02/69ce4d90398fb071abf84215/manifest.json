@@ -1,0 +1,120 @@
+{
+  "job_id": "69ce4d90398fb071abf84215",
+  "company_name": "Intuit",
+  "company_slug": "intuit",
+  "publish_time": "2026-04-02 06:05:52",
+  "publish_date": "2026-04-02",
+  "title": "Software Engineer 2 - Credit Karma",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.intuit.com/job/-/-/27595/93463860784?cid=pjob_li_click_us_swe-other-fy26_cn_text_job_int-tm&iis=pjob&iisn=li&p_sid=FYEniMb&p_uid=PnYkeQ6O4g&ss=paid&utm_campaign=&utm_content=pj_board&utm_medium=jobad&utm_source=linkedin+slots+%28intuit%29",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_codex_google_fullstack",
+  "seed_label": "Google Full Stack",
+  "parent_seed_id": "seed_codex_google_fullstack",
+  "top_candidate": {
+    "seed_id": "seed_codex_google_fullstack",
+    "label": "Google Full Stack",
+    "route_score": 0.77,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "scala"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_campaign_ops_console"
+    ],
+    "seed_company_name": "Google",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_campaign_ops_console"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-02/69ce4d90398fb071abf84215/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-02/69ce4d90398fb071abf84215/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-02/69ce4d90398fb071abf84215",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69ce4d90398fb071abf84215",
+  "generated_at": "2026-04-07T01:46:47",
+  "review": {
+    "weighted_score": 94.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.1,
+    "verdict": "pass",
+    "seed_label": "Google Full Stack",
+    "route_mode": "retarget",
+    "revised": true
+  },
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:29",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

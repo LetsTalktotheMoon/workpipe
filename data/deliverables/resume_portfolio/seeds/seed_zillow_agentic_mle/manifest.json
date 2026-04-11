@@ -1,0 +1,64 @@
+{
+  "seed_id": "seed_zillow_agentic_mle",
+  "label": "Zillow Agentic MLE",
+  "role_family": "ai_ml_swe",
+  "seniority": "mid",
+  "validated_score": 93.2,
+  "company_name": "Zillow",
+  "source_job_id": "",
+  "company_anchor": false,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zillow_agentic_mle/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_zillow_agentic_mle",
+  "source_artifact_dir": "",
+  "derived_count": 4,
+  "derived_jobs": [
+    {
+      "job_id": "6880c91816ea5743a37330c1",
+      "company_name": "Skild AI",
+      "publish_time": "2026-04-04 08:21:45",
+      "title": "Deep Learning Manipulation Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69ceb5ce891d7b11cfccb55b",
+      "company_name": "SharkNinja",
+      "publish_time": "2026-04-02 13:30:38",
+      "title": "Fall 2026: Applied AI & Analytics Co-op (July to December)",
+      "source_kind": "seed_validation",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "695dde09e4cdbb1454cfd921",
+      "company_name": "OpenAI",
+      "publish_time": "2026-04-02 07:06:37",
+      "title": "Software Engineer, Cooperative AI",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cd644fcdb525785fb8744b",
+      "company_name": "Bloom Energy",
+      "publish_time": "2026-04-01 13:30:39",
+      "title": "MES Software Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b/resume.md",
+      "resume_pdf": ""
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "weighted_score": 84.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add genuine Rust evidence or remove this resume from consideration for this JD because Rust is mandatory.",
+    "Rewrite one core experience bullet to show explicit database-infrastructure ownership instead of broad backend/data collaboration."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.0,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 6.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 10.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 1
+    }
+  },
+  "final_score": 84.5,
+  "verdict": "fail",
+  "seed_label": "Google Cloud Infra Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "Add genuine Rust evidence or remove this resume from consideration for this JD because Rust is mandatory.",
+  "failure_bucket": "true_outlier",
+  "repaired_at": "2026-04-07T16:57:20",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

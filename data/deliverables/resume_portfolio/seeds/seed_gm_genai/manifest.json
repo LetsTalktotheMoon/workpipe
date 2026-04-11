@@ -1,0 +1,53 @@
+{
+  "seed_id": "seed_gm_genai",
+  "label": "GM Financial GenAI",
+  "role_family": "ai_ml_swe",
+  "seniority": "mid_senior",
+  "validated_score": 93.7,
+  "company_name": "GM Financial",
+  "source_job_id": "",
+  "company_anchor": false,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_gm_genai/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_gm_genai",
+  "source_artifact_dir": "",
+  "derived_count": 3,
+  "derived_jobs": [
+    {
+      "job_id": "69d02116cdb525785fba786b",
+      "company_name": "ALTEN Technology USA",
+      "publish_time": "2026-04-03 15:20:38",
+      "title": "AI-Enabled Software Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cfb554366bb95ba5518396",
+      "company_name": "Goken America",
+      "publish_time": "2026-04-03 07:40:52",
+      "title": "Software Engineer - AI Capabilities Integration",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cd90eacfdc6132f941d24a",
+      "company_name": "BETSOL",
+      "publish_time": "2026-04-01 16:40:58",
+      "title": "Associate – AI & Automation (Early Career / New Graduate)",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

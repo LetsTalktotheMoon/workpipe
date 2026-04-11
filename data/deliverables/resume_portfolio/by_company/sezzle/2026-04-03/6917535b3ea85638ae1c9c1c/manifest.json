@@ -1,0 +1,118 @@
+{
+  "job_id": "6917535b3ea85638ae1c9c1c",
+  "company_name": "Sezzle",
+  "company_slug": "sezzle",
+  "publish_time": "2026-04-03 07:33:31",
+  "publish_date": "2026-04-03",
+  "title": "Junior Software Engineer with Accounting Experience (LATAM)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=6668065003&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_codex_amazon_sde",
+  "seed_label": "Amazon SDE",
+  "parent_seed_id": "seed_codex_amazon_sde",
+  "top_candidate": {
+    "seed_id": "seed_codex_amazon_sde",
+    "label": "Amazon SDE",
+    "route_score": 0.916,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_merchant_incident_workbench"
+    ],
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_merchant_incident_workbench"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/6917535b3ea85638ae1c9c1c",
+  "generated_at": "2026-04-07T01:38:57",
+  "review": {
+    "weighted_score": 94.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.1,
+    "verdict": "pass",
+    "seed_label": "Amazon SDE",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [
+    "amazon_platform_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon Platform / Distributed Systems"
+  ],
+  "primary_subseed_id": "amazon_platform_mainline",
+  "primary_subseed_label": "Amazon Platform / Distributed Systems",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:46",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

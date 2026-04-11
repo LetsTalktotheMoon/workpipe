@@ -1,0 +1,137 @@
+{
+  "job_id": "69b3e4a006c1ba00c5450b57",
+  "company_name": "Adobe",
+  "company_slug": "adobe",
+  "publish_time": "2026-04-04 04:26:37",
+  "publish_date": "2026-04-04",
+  "title": "Software Development Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.adobe.com/us/en/job/ADOBUSR165849EXTERNALENUS/Software-Development-Engineer?utm_source=linkedin&utm_medium=phenom-feeds&source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_fullstack_dotnet_azure",
+  "seed_label": "Fullstack DotNet Azure",
+  "parent_seed_id": "seed_fullstack_dotnet_azure",
+  "top_candidate": {
+    "seed_id": "seed_fullstack_dotnet_azure",
+    "label": "Fullstack DotNet Azure",
+    "route_score": 0.719,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "html",
+      "microservices",
+      "spring",
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Phenom",
+    "seed_source_job_id": "69cf1ae8cdb525785fb9ec17"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-04/69b3e4a006c1ba00c5450b57/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-04/69b3e4a006c1ba00c5450b57/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-04/69b3e4a006c1ba00c5450b57",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69b3e4a006c1ba00c5450b57",
+  "generated_at": "2026-04-07T01:43:03",
+  "review": {
+    "weighted_score": 95.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "把 Summary 和 1-2 条核心经历改写成更贴近 Acrobat Sign 的服务工程叙事，突出 workflow、auditability、reliability 和 service ownership。",
+      "为 TikTok 和 DiDi 的高密度 full-stack bullet 补足 ownership 边界，减少单条 bullet 内技术堆叠，让贡献更可信。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.1,
+    "verdict": "pass",
+    "seed_label": "Fullstack DotNet Azure",
+    "route_mode": "retarget",
+    "revised": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T16:47:35",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": true,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_didi_scope_note",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.9,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:07",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_global_scope_bullet",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:47:35",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "review_final_score": 95.1,
+  "review_verdict": "pass"
+}

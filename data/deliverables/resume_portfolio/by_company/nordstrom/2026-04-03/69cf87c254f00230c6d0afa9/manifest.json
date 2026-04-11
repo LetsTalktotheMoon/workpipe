@@ -1,0 +1,117 @@
+{
+  "job_id": "69cf87c254f00230c6d0afa9",
+  "company_name": "Nordstrom",
+  "company_slug": "nordstrom",
+  "publish_time": "2026-04-03 04:26:26",
+  "publish_date": "2026-04-03",
+  "title": "Delivery Platform Software Engineer 1 - Developer Tools Team (Hybrid - Seattle, WA)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.nordstrom.com/delivery-platform-software-engineer-1-developer-tools-team-hybrid-seattle-wa/job/F0D7F5BD2B09B655D8CA382151C62D1D?source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_cisco_backend_api",
+  "seed_label": "Cisco Backend API",
+  "parent_seed_id": "seed_cisco_backend_api",
+  "top_candidate": {
+    "seed_id": "seed_cisco_backend_api",
+    "label": "Cisco Backend API",
+    "route_score": 0.817,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "azure",
+      "gcp",
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Cisco",
+    "seed_source_job_id": "69d07b90cfdc6132f943be1d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nordstrom/2026-04-03/69cf87c254f00230c6d0afa9/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nordstrom/2026-04-03/69cf87c254f00230c6d0afa9/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nordstrom/2026-04-03/69cf87c254f00230c6d0afa9",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cf87c254f00230c6d0afa9",
+  "generated_at": "2026-04-07T00:59:44",
+  "review": {
+    "weighted_score": 91.5,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补齐 `GCP`、`Azure`、`Terraform` 的直接使用证据，否则不满足该 JD 的 must-have 技术栈。",
+      "把云平台与 IaC 的具体 ownership 写进一条经验 bullet，并同步到 `Skills`，避免 ATS 只看到局部匹配。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 8.4,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.9,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.5,
+    "verdict": "conditional_pass",
+    "seed_label": "Cisco Backend API",
+    "route_mode": "retarget",
+    "revised": true,
+    "main_failure_reason": "补齐 `GCP`、`Azure`、`Terraform` 的直接使用证据，否则不满足该 JD 的 must-have 技术栈。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:36",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

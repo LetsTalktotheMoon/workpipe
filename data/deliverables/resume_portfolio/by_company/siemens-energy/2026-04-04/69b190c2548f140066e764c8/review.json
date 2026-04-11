@@ -1,0 +1,72 @@
+{
+  "weighted_score": 93.0,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": false,
+  "revision_priority": [],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.9,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r6_competitiveness": {
+      "score": 9.4,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "calibrated": true,
+  "calibration_scores": [
+    92.8,
+    93.5
+  ],
+  "final_score": 93.0,
+  "verdict": "pass",
+  "seed_label": "Generalist DotNet Enterprise",
+  "route_mode": "retarget",
+  "revised": false,
+  "repaired_at": "2026-04-07T16:57:47",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

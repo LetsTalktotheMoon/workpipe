@@ -1,0 +1,76 @@
+{
+  "weighted_score": 94.9,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Clarify the Georgia Tech master's enrollment as part-time or concurrent so the dual-degree timeline does not raise workload questions."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.7,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.4,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 94.9,
+  "verdict": "pass",
+  "seed_label": "Qualified Health Data Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Update the Georgia Tech education line to explicitly show part-time/concurrent status if accurate: `M.S. Computer Science (OMSCS, part-time) | Georgia Institute of Technology | Expected May 2026`. Leave the rest of the resume unchanged; the required JD technologies are already evidenced in the body and should be retained.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:01:29",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 93.8,
+  "previous_verdict": "pass"
+}

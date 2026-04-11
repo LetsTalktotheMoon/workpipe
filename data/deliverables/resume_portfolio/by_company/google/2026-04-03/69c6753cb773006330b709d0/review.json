@@ -1,0 +1,75 @@
+{
+  "weighted_score": 90.6,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Summary 第 3 句从 `Collaborative Execution` 改成高价值认知标题，并把句子重心移到系统判断、取舍或发布风险上。",
+    "把 TikTok 第 4 条 bullet 收窄为单一主责线，避免把 C++、Docker、Kubernetes 和 GitHub Actions 全压进一个 intern 句子里。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.1,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.3,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.7,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.1,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 90.6,
+  "verdict": "conditional_pass",
+  "seed_label": "Google Full Stack",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "保持现有经历骨架不变，只做局部手术式修改：1) `Professional Summary` 保留 3 句结构，但把第 3 句标题改成 `Systems Judgment:`、`Decision-Making:` 或同级别的高价值标题，并将正文改写为强调架构取舍、上线风险控制、设计评审或跨团队决策，不要再用纯 collaboration/teamwork 口径。2) `TikTok` 第 4 条 bullet 拆分或收窄：优先保留一条关于 `C++` 校验/replay fixtures 的技术事实，另一条单独写 `GitHub Actions` 或发布门禁；如果必须合并，至少加上 `team-maintained` / `internship-owned` 之类的所有权限定语，并删掉次要工具名，避免 intern 责任范围显得过宽。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T03:16:04",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_achievement"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 93.6,
+  "previous_verdict": "pass"
+}

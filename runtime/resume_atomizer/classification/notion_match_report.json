@@ -1,0 +1,5303 @@
+[
+  {
+    "company": "Google",
+    "team": "Google Distributed Cloud",
+    "job_title": "Software Engineer, GDC Connected Cluster",
+    "current_resume": "07_Early-Career_Generalist_SDE",
+    "recommended": "07_Early-Career_Generalist_SDE",
+    "total_score": 0.611,
+    "tech_score": 0.75,
+    "biz_score": 0.286,
+    "matched_tech": [
+      "distributed systems",
+      "kubernetes",
+      "security"
+    ],
+    "jd_tech_keywords": [
+      "distributed systems",
+      "golang",
+      "kubernetes",
+      "security"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "edge",
+      "infrastructure",
+      "platform",
+      "reliability",
+      "security",
+      "sre"
+    ],
+    "missing_tech": [
+      "golang"
+    ],
+    "top3": [
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.611,
+        "tech": 0.75,
+        "biz": 0.286
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.564,
+        "tech": 0.5,
+        "biz": 0.714
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.521,
+        "tech": 0.5,
+        "biz": 0.571
+      }
+    ]
+  },
+  {
+    "company": "Notion",
+    "team": "Mobile Platform",
+    "job_title": "Software Engineer, Mobile Platform (Android)",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.41,
+    "tech_score": 0.5,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "ci/cd",
+      "go",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "ci/cd",
+      "go",
+      "kotlin",
+      "rust",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "android",
+      "mobile",
+      "quality",
+      "reliability"
+    ],
+    "missing_tech": [
+      "ai",
+      "kotlin",
+      "rust"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      },
+      {
+        "resume": "14_Platform_Reliability_Resilience_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "",
+    "job_title": "Software Engineer",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.513,
+    "tech_score": 0.611,
+    "biz_score": 0.286,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "azure",
+      "ci/cd",
+      "docker",
+      "javascript",
+      "kubernetes",
+      "llm",
+      "ml",
+      "node.js",
+      "sql"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "azure",
+      "ci/cd",
+      "docker",
+      "gcp",
+      "java",
+      "javascript",
+      "kubernetes",
+      "llm",
+      "ml",
+      "mysql",
+      "node.js",
+      "postgresql",
+      "react",
+      "sdlc",
+      "security",
+      "sql"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "backend",
+      "cloud",
+      "full stack",
+      "ml",
+      "security",
+      "testing"
+    ],
+    "missing_tech": [
+      "gcp",
+      "java",
+      "mysql",
+      "postgresql",
+      "react",
+      "sdlc",
+      "security"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.513,
+        "tech": 0.611,
+        "biz": 0.286
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.513,
+        "tech": 0.611,
+        "biz": 0.286
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.432,
+        "tech": 0.556,
+        "biz": 0.143
+      }
+    ]
+  },
+  {
+    "company": "Goldman Sachs",
+    "team": "Global Markets Trading Platform Engineering",
+    "job_title": "Global Markets Trading Platform Engineering - GBM Public - Associate - Software Engineer - Dallas",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "java",
+      "react",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "java",
+      "react",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "edge",
+      "frontend"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Content & Business Products (CBP) Engineering",
+    "job_title": "UI Engineer (L5), Content & Business Products",
+    "current_resume": "16_Frontend_Design_Systems_Engineer",
+    "recommended": "16_Frontend_Design_Systems_Engineer",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "accessibility",
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "react",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "accessibility",
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "react",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "platform",
+      "quality",
+      "reliability"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.6,
+        "tech": 0.857,
+        "biz": 0.0
+      },
+      {
+        "resume": "11_AI_Field_Solutions_Engineer",
+        "score": 0.275,
+        "tech": 0.286,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "Notion",
+    "team": "Notion Mail",
+    "job_title": "Software Engineer, Mail",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.76,
+    "tech_score": 1.0,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "distributed systems",
+      "go",
+      "kubernetes"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "distributed systems",
+      "go",
+      "kubernetes"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "backend",
+      "full stack",
+      "infrastructure",
+      "reliability"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.76,
+        "tech": 1.0,
+        "biz": 0.2
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.68,
+        "tech": 0.8,
+        "biz": 0.4
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.62,
+        "tech": 0.8,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Studio Orchestrator",
+    "job_title": "Full Stack Software Engineer 5, Studio Orchestration Platform",
+    "current_resume": "06_Full-Stack_Web_Application_Engineer",
+    "recommended": "06_Full-Stack_Web_Application_Engineer",
+    "total_score": 0.63,
+    "tech_score": 0.9,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "css",
+      "graphql",
+      "grpc",
+      "html",
+      "javascript",
+      "kafka",
+      "python",
+      "react",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "css",
+      "graphql",
+      "grpc",
+      "html",
+      "java",
+      "javascript",
+      "kafka",
+      "python",
+      "react",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "frontend",
+      "platform"
+    ],
+    "missing_tech": [
+      "java"
+    ],
+    "top3": [
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.63,
+        "tech": 0.9,
+        "biz": 0.0
+      },
+      {
+        "resume": "11_AI_Field_Solutions_Engineer",
+        "score": 0.5,
+        "tech": 0.5,
+        "biz": 0.5
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.49,
+        "tech": 0.7,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Amazon",
+    "team": "",
+    "job_title": "Jr. Software Development Engineer - Detroit, MI, Jr. Developer Program",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "java",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "java",
+      "python"
+    ],
+    "jd_biz_keywords": [],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Cisco",
+    "team": "Security and Infra & Security (Compute, Cloud, Security teams)",
+    "job_title": "Software Engineer Security & Automation I (Full Time) – United States",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.468,
+    "tech_score": 0.455,
+    "biz_score": 0.5,
+    "matched_tech": [
+      "ci/cd",
+      "docker",
+      "github actions",
+      "kubernetes",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ci/cd",
+      "docker",
+      "github actions",
+      "jenkins",
+      "kubernetes",
+      "machine learning",
+      "oauth",
+      "pytest",
+      "python",
+      "security",
+      "vulnerability"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "devops",
+      "machine learning",
+      "security"
+    ],
+    "missing_tech": [
+      "jenkins",
+      "machine learning",
+      "oauth",
+      "pytest",
+      "security",
+      "vulnerability"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.468,
+        "tech": 0.455,
+        "biz": 0.5
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.468,
+        "tech": 0.455,
+        "biz": 0.5
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.457,
+        "tech": 0.545,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Cloud",
+    "job_title": "Software Engineer, Cloud Billing Core Monetizer, Backend",
+    "current_resume": "09_Backend_Distributed_Systems_Generalist",
+    "recommended": "09_Backend_Distributed_Systems_Generalist",
+    "total_score": 0.8,
+    "tech_score": 1.0,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "java"
+    ],
+    "jd_tech_keywords": [
+      "java"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "billing",
+      "cloud",
+      "fraud",
+      "infrastructure",
+      "platform"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.8,
+        "tech": 1.0,
+        "biz": 0.333
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.75,
+        "tech": 1.0,
+        "biz": 0.167
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.75,
+        "tech": 1.0,
+        "biz": 0.167
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "Customer Success Self-Service",
+    "job_title": "Web Software Engineer",
+    "current_resume": "06_Full-Stack_Web_Application_Engineer",
+    "recommended": "06_Full-Stack_Web_Application_Engineer",
+    "total_score": 0.575,
+    "tech_score": 0.75,
+    "biz_score": 0.167,
+    "matched_tech": [
+      "agile",
+      "css",
+      "html",
+      "javascript",
+      "node.js",
+      "react",
+      "scrum",
+      "sdlc",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "accessibility",
+      "agile",
+      "ai",
+      "angular",
+      "css",
+      "html",
+      "javascript",
+      "node.js",
+      "react",
+      "scrum",
+      "sdlc",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "payments",
+      "platform",
+      "quality",
+      "reliability",
+      "testing"
+    ],
+    "missing_tech": [
+      "accessibility",
+      "ai",
+      "angular"
+    ],
+    "top3": [
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.575,
+        "tech": 0.75,
+        "biz": 0.167
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.408,
+        "tech": 0.583,
+        "biz": 0.0
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.342,
+        "tech": 0.417,
+        "biz": 0.167
+      }
+    ]
+  },
+  {
+    "company": "Goldman Sachs",
+    "team": "Conflicts Resolution Group (CRG)",
+    "job_title": "Software Engineer – CRG (Analyst / Associate)",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.539,
+    "tech_score": 0.684,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "aws",
+      "ci/cd",
+      "java",
+      "kafka",
+      "kubernetes",
+      "langchain",
+      "langgraph",
+      "mongodb",
+      "prompt engineering",
+      "python",
+      "rag",
+      "react",
+      "sql"
+    ],
+    "jd_tech_keywords": [
+      "agile",
+      "ai",
+      "angular",
+      "aws",
+      "ci/cd",
+      "compliance",
+      "genai",
+      "java",
+      "kafka",
+      "kubernetes",
+      "langchain",
+      "langgraph",
+      "mongodb",
+      "prompt engineering",
+      "python",
+      "rag",
+      "react",
+      "sdlc",
+      "sql"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "frontend",
+      "search",
+      "testing"
+    ],
+    "missing_tech": [
+      "agile",
+      "ai",
+      "angular",
+      "compliance",
+      "genai",
+      "sdlc"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.539,
+        "tech": 0.684,
+        "biz": 0.2
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.428,
+        "tech": 0.526,
+        "biz": 0.2
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.392,
+        "tech": 0.474,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "IBM",
+    "team": "IBM Software",
+    "job_title": "Software Engineer – Watsonx Data Platform",
+    "current_resume": "17_Embedded_Sensor_Software_Engineer",
+    "recommended": "17_Embedded_Sensor_Software_Engineer",
+    "total_score": 0.383,
+    "tech_score": 0.333,
+    "biz_score": 0.5,
+    "matched_tech": [
+      "c++",
+      "ci/cd"
+    ],
+    "jd_tech_keywords": [
+      "agile",
+      "c++",
+      "ci/cd",
+      "cuda",
+      "kernel",
+      "machine learning"
+    ],
+    "jd_biz_keywords": [
+      "machine learning",
+      "testing"
+    ],
+    "missing_tech": [
+      "agile",
+      "cuda",
+      "kernel",
+      "machine learning"
+    ],
+    "top3": [
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.383,
+        "tech": 0.333,
+        "biz": 0.5
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Workspace",
+    "job_title": "Software Engineer, AI/ML, Workspace",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.45,
+    "tech_score": 0.5,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "ml"
+    ],
+    "jd_tech_keywords": [
+      "ml",
+      "reinforcement learning"
+    ],
+    "jd_biz_keywords": [
+      "infrastructure",
+      "ml",
+      "quality"
+    ],
+    "missing_tech": [
+      "reinforcement learning"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.45,
+        "tech": 0.5,
+        "biz": 0.333
+      },
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.2,
+        "tech": 0.0,
+        "biz": 0.667
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.2,
+        "tech": 0.0,
+        "biz": 0.667
+      }
+    ]
+  },
+  {
+    "company": "Roblox",
+    "team": "Game Engine Reliability",
+    "job_title": "Software Engineer, Reliability",
+    "current_resume": "14_Platform_Reliability_Resilience_Engineer",
+    "recommended": "14_Platform_Reliability_Resilience_Engineer",
+    "total_score": 0.85,
+    "tech_score": 1.0,
+    "biz_score": 0.5,
+    "matched_tech": [
+      "python",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "python",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "gaming",
+      "networking",
+      "platform",
+      "reliability"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "14_Platform_Reliability_Resilience_Engineer",
+        "score": 0.85,
+        "tech": 1.0,
+        "biz": 0.5
+      },
+      {
+        "resume": "05_Responsible_AI_Engineer",
+        "score": 0.775,
+        "tech": 1.0,
+        "biz": 0.25
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Search",
+    "job_title": "Software Engineer, Recommendations, Rankings, Predictions",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.552,
+    "tech_score": 0.667,
+    "biz_score": 0.286,
+    "matched_tech": [
+      "ai",
+      "ml"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "generative ai",
+      "ml"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "infrastructure",
+      "ml",
+      "quality",
+      "ranking",
+      "recommendation",
+      "search"
+    ],
+    "missing_tech": [
+      "generative ai"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.552,
+        "tech": 0.667,
+        "biz": 0.286
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.362,
+        "tech": 0.333,
+        "biz": 0.429
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.129,
+        "tech": 0.0,
+        "biz": 0.429
+      }
+    ]
+  },
+  {
+    "company": "Qualcomm",
+    "team": "Software Engineering",
+    "job_title": "#Product Software Engineer",
+    "current_resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "recommended": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "total_score": 0.4,
+    "tech_score": 0.5,
+    "biz_score": 0.167,
+    "matched_tech": [
+      "kubernetes",
+      "linux"
+    ],
+    "jd_tech_keywords": [
+      "embedded",
+      "kubernetes",
+      "linux",
+      "pytorch"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "edge",
+      "embedded",
+      "iot",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [
+      "embedded",
+      "pytorch"
+    ],
+    "top3": [
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.4,
+        "tech": 0.5,
+        "biz": 0.167
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Globalization Data Science and Engineering",
+    "job_title": "Research Engineer (L4) - Globalization",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.233,
+    "tech_score": 0.333,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "ml"
+    ],
+    "jd_tech_keywords": [
+      "ml",
+      "pytorch",
+      "tensorflow"
+    ],
+    "jd_biz_keywords": [
+      "edge",
+      "ml"
+    ],
+    "missing_tech": [
+      "pytorch",
+      "tensorflow"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.233,
+        "tech": 0.333,
+        "biz": 0.0
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.233,
+        "tech": 0.333,
+        "biz": 0.0
+      },
+      {
+        "resume": "13_Edge_Infrastructure_Networking_Engineer",
+        "score": 0.15,
+        "tech": 0.0,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Apple",
+    "team": "Apple Intelligence / NLP / Machine Learning",
+    "job_title": "Software Engineer in Natural Language Processing (NLP) and Machine Learning (ML)",
+    "current_resume": "04_ML_AI_Research_Infrastructure_Engineer",
+    "recommended": "04_ML_AI_Research_Infrastructure_Engineer",
+    "total_score": 0.5,
+    "tech_score": 0.5,
+    "biz_score": 0.5,
+    "matched_tech": [
+      "generative ai",
+      "nlp",
+      "python",
+      "pytorch"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "generative ai",
+      "machine learning",
+      "ml",
+      "nlp",
+      "python",
+      "pytorch",
+      "swift"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "machine learning",
+      "ml",
+      "nlp"
+    ],
+    "missing_tech": [
+      "ai",
+      "machine learning",
+      "ml",
+      "swift"
+    ],
+    "top3": [
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.5,
+        "tech": 0.5,
+        "biz": 0.5
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.262,
+        "tech": 0.375,
+        "biz": 0.0
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.175,
+        "tech": 0.25,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Apple",
+    "team": "Video Engineering",
+    "job_title": "Embedded Systems Video Engineer",
+    "current_resume": "17_Embedded_Sensor_Software_Engineer",
+    "recommended": "17_Embedded_Sensor_Software_Engineer",
+    "total_score": 0.2,
+    "tech_score": 0.0,
+    "biz_score": 0.667,
+    "matched_tech": [],
+    "jd_tech_keywords": [
+      "embedded"
+    ],
+    "jd_biz_keywords": [
+      "embedded",
+      "infrastructure",
+      "testing"
+    ],
+    "missing_tech": [
+      "embedded"
+    ],
+    "top3": [
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.2,
+        "tech": 0.0,
+        "biz": 0.667
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.1,
+        "tech": 0.0,
+        "biz": 0.333
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.1,
+        "tech": 0.0,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "General Motors",
+    "team": "Software Validation (AV Organization)",
+    "job_title": "Software Engineer, Autonomous Vehicles Software Systems - Early Career",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.525,
+    "tech_score": 0.75,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "ai",
+      "python",
+      "sql"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "python",
+      "spring",
+      "sql"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "analytics",
+      "edge",
+      "quality",
+      "robotics",
+      "simulation",
+      "testing"
+    ],
+    "missing_tech": [
+      "spring"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.525,
+        "tech": 0.75,
+        "biz": 0.0
+      },
+      {
+        "resume": "13_Edge_Infrastructure_Networking_Engineer",
+        "score": 0.436,
+        "tech": 0.5,
+        "biz": 0.286
+      },
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.436,
+        "tech": 0.5,
+        "biz": 0.286
+      }
+    ]
+  },
+  {
+    "company": "Goldman Sachs",
+    "team": "AM Public Finance Data Engineering",
+    "job_title": "Asset & Wealth Management - Software Engineer - Analyst - New York",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.389,
+    "tech_score": 0.556,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "aws",
+      "java",
+      "react",
+      "spark",
+      "sql"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "java",
+      "javascript",
+      "react",
+      "scala",
+      "sdlc",
+      "snowflake",
+      "spark",
+      "sql"
+    ],
+    "jd_biz_keywords": [
+      "full stack",
+      "quality",
+      "reliability",
+      "testing"
+    ],
+    "missing_tech": [
+      "javascript",
+      "scala",
+      "sdlc",
+      "snowflake"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.389,
+        "tech": 0.556,
+        "biz": 0.0
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.389,
+        "tech": 0.556,
+        "biz": 0.0
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.311,
+        "tech": 0.444,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "PayPal Ads Engineering (Mobile)",
+    "job_title": "Software Development Engineer in Test",
+    "current_resume": "21_QA_SDET_Production_Verification_Engineer",
+    "recommended": "21_QA_SDET_Production_Verification_Engineer",
+    "total_score": 0.425,
+    "tech_score": 0.5,
+    "biz_score": 0.25,
+    "matched_tech": [
+      "sdlc"
+    ],
+    "jd_tech_keywords": [
+      "jwt",
+      "sdlc"
+    ],
+    "jd_biz_keywords": [
+      "ads",
+      "analytics",
+      "android",
+      "ios",
+      "mobile",
+      "quality",
+      "reliability",
+      "testing"
+    ],
+    "missing_tech": [
+      "jwt"
+    ],
+    "top3": [
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.425,
+        "tech": 0.5,
+        "biz": 0.25
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Adobe",
+    "team": "Adobe Document Cloud",
+    "job_title": "Software Development Engineer",
+    "current_resume": "06_Full-Stack_Web_Application_Engineer",
+    "recommended": "06_Full-Stack_Web_Application_Engineer",
+    "total_score": 0.567,
+    "tech_score": 0.667,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "aws",
+      "docker",
+      "html",
+      "javascript",
+      "kubernetes",
+      "microservices",
+      "react",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "azure",
+      "docker",
+      "html",
+      "java",
+      "javascript",
+      "kubernetes",
+      "microservices",
+      "react",
+      "spring",
+      "typescript",
+      "web components"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "infrastructure",
+      "quality"
+    ],
+    "missing_tech": [
+      "azure",
+      "java",
+      "spring",
+      "web components"
+    ],
+    "top3": [
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.567,
+        "tech": 0.667,
+        "biz": 0.333
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.55,
+        "tech": 0.5,
+        "biz": 0.667
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.508,
+        "tech": 0.583,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "Rubrik",
+    "team": "Developer Platform",
+    "job_title": "Software Engineer - Developer Productivity",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.629,
+    "tech_score": 0.714,
+    "biz_score": 0.429,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "azure",
+      "distributed systems",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "azure",
+      "distributed systems",
+      "python",
+      "rag",
+      "virtualization"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "infrastructure",
+      "platform",
+      "quality",
+      "testing",
+      "virtualization"
+    ],
+    "missing_tech": [
+      "rag",
+      "virtualization"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.629,
+        "tech": 0.714,
+        "biz": 0.429
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.429,
+        "tech": 0.429,
+        "biz": 0.429
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.386,
+        "tech": 0.429,
+        "biz": 0.286
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "BigQuery Analytics AI",
+    "job_title": "Software Engineer, BigQuery Agentic AI",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.431,
+    "tech_score": 0.455,
+    "biz_score": 0.375,
+    "matched_tech": [
+      "ai",
+      "distributed systems",
+      "go",
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "bigquery",
+      "distributed systems",
+      "generative ai",
+      "go",
+      "gpt",
+      "java",
+      "langchain",
+      "ml",
+      "python",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "analytics",
+      "backend",
+      "cloud",
+      "infrastructure",
+      "ml",
+      "platform",
+      "reliability"
+    ],
+    "missing_tech": [
+      "bigquery",
+      "generative ai",
+      "gpt",
+      "java",
+      "langchain",
+      "typescript"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.431,
+        "tech": 0.455,
+        "biz": 0.375
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.405,
+        "tech": 0.364,
+        "biz": 0.5
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.393,
+        "tech": 0.455,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "Anduril Industries",
+    "team": "Fury",
+    "job_title": "Mission Systems Software Engineer",
+    "current_resume": "07_Early-Career_Generalist_SDE",
+    "recommended": "07_Early-Career_Generalist_SDE",
+    "total_score": 0.675,
+    "tech_score": 0.857,
+    "biz_score": 0.25,
+    "matched_tech": [
+      "docker",
+      "go",
+      "kubernetes",
+      "linux",
+      "python",
+      "security"
+    ],
+    "jd_tech_keywords": [
+      "docker",
+      "go",
+      "kubernetes",
+      "linux",
+      "python",
+      "rust",
+      "security"
+    ],
+    "jd_biz_keywords": [
+      "networking",
+      "security",
+      "sensor",
+      "simulation"
+    ],
+    "missing_tech": [
+      "rust"
+    ],
+    "top3": [
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.675,
+        "tech": 0.857,
+        "biz": 0.25
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.575,
+        "tech": 0.714,
+        "biz": 0.25
+      },
+      {
+        "resume": "10_DevOps_Platform_Automation_Engineer",
+        "score": 0.575,
+        "tech": 0.714,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "Qualcomm",
+    "team": "ASICS Engineering",
+    "job_title": "CAD Software Applications Engineer with verification",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.525,
+    "tech_score": 0.75,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "ai",
+      "javascript",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "javascript",
+      "machine learning",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "edge",
+      "machine learning"
+    ],
+    "missing_tech": [
+      "machine learning"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.525,
+        "tech": 0.75,
+        "biz": 0.0
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.45,
+        "tech": 0.5,
+        "biz": 0.333
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Stripe",
+    "team": "",
+    "job_title": "Security Engineer, New Grad",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.548,
+    "tech_score": 0.538,
+    "biz_score": 0.571,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "azure",
+      "go",
+      "javascript",
+      "python",
+      "sql"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "azure",
+      "go",
+      "java",
+      "javascript",
+      "python",
+      "ruby",
+      "scala",
+      "security",
+      "sql",
+      "threat detection",
+      "vulnerability"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "infrastructure",
+      "payments",
+      "platform",
+      "reliability",
+      "security"
+    ],
+    "missing_tech": [
+      "java",
+      "ruby",
+      "scala",
+      "security",
+      "threat detection",
+      "vulnerability"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.548,
+        "tech": 0.538,
+        "biz": 0.571
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.463,
+        "tech": 0.538,
+        "biz": 0.286
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.43,
+        "tech": 0.308,
+        "biz": 0.714
+      }
+    ]
+  },
+  {
+    "company": "Qualcomm",
+    "team": "Sensors",
+    "job_title": "Sensors Software Engineer",
+    "current_resume": "07_Early-Career_Generalist_SDE",
+    "recommended": "07_Early-Career_Generalist_SDE",
+    "total_score": 0.42,
+    "tech_score": 0.6,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "java",
+      "linux",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "embedded",
+      "java",
+      "linux",
+      "machine learning",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "android",
+      "edge",
+      "embedded",
+      "machine learning",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [
+      "embedded",
+      "machine learning"
+    ],
+    "top3": [
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.42,
+        "tech": 0.6,
+        "biz": 0.0
+      },
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.33,
+        "tech": 0.4,
+        "biz": 0.167
+      }
+    ]
+  },
+  {
+    "company": "Cisco",
+    "team": "Service Provider High End Router (Cisco 8000)",
+    "job_title": "Software Engineer (P4)",
+    "current_resume": "05_Responsible_AI_Engineer",
+    "recommended": "05_Responsible_AI_Engineer",
+    "total_score": 0.41,
+    "tech_score": 0.5,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "compiler",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "compiler",
+      "networking",
+      "quality",
+      "reliability"
+    ],
+    "missing_tech": [
+      "compiler"
+    ],
+    "top3": [
+      {
+        "resume": "05_Responsible_AI_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      },
+      {
+        "resume": "13_Edge_Infrastructure_Networking_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "Qualcomm",
+    "team": "Open Source Engineering",
+    "job_title": "#Open Source Engineer",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.689,
+    "tech_score": 0.556,
+    "biz_score": 1.0,
+    "matched_tech": [
+      "docker",
+      "go",
+      "javascript",
+      "kubernetes",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "compliance",
+      "docker",
+      "go",
+      "javascript",
+      "kubernetes",
+      "linux",
+      "python",
+      "react",
+      "rust"
+    ],
+    "jd_biz_keywords": [
+      "cloud"
+    ],
+    "missing_tech": [
+      "compliance",
+      "linux",
+      "react",
+      "rust"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.689,
+        "tech": 0.556,
+        "biz": 1.0
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.689,
+        "tech": 0.556,
+        "biz": 1.0
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.611,
+        "tech": 0.444,
+        "biz": 1.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Cloud AI Research",
+    "job_title": "Software Engineer, AI/ML",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.45,
+    "tech_score": 0.429,
+    "biz_score": 0.5,
+    "matched_tech": [
+      "langchain",
+      "llm",
+      "rag"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "generative ai",
+      "langchain",
+      "llm",
+      "ml",
+      "rag",
+      "reinforcement learning"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "infrastructure",
+      "ml",
+      "testing"
+    ],
+    "missing_tech": [
+      "ai",
+      "generative ai",
+      "ml",
+      "reinforcement learning"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.45,
+        "tech": 0.429,
+        "biz": 0.5
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.45,
+        "tech": 0.429,
+        "biz": 0.5
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.375,
+        "tech": 0.429,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "Venmo Identity Engineering",
+    "job_title": "Software Engineer - BE Python",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.38,
+    "tech_score": 0.4,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "aws",
+      "azure",
+      "distributed systems",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "azure",
+      "compliance",
+      "distributed systems",
+      "django",
+      "flask",
+      "gcp",
+      "python",
+      "rest",
+      "sdlc"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "cloud",
+      "payments"
+    ],
+    "missing_tech": [
+      "compliance",
+      "django",
+      "flask",
+      "gcp",
+      "rest",
+      "sdlc"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      },
+      {
+        "resume": "12_Stablecoin_Blockchain_Infrastructure",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "Red Hat",
+    "team": "Red Hat Ansible Engineering",
+    "job_title": "Software Engineer",
+    "current_resume": "14_Platform_Reliability_Resilience_Engineer",
+    "recommended": "14_Platform_Reliability_Resilience_Engineer",
+    "total_score": 0.66,
+    "tech_score": 0.8,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "agile",
+      "docker",
+      "go",
+      "kubernetes",
+      "linux",
+      "python",
+      "rest",
+      "spark"
+    ],
+    "jd_tech_keywords": [
+      "agile",
+      "ai",
+      "docker",
+      "go",
+      "kubernetes",
+      "linux",
+      "python",
+      "rest",
+      "spark",
+      "terraform"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "infrastructure",
+      "platform",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [
+      "ai",
+      "terraform"
+    ],
+    "top3": [
+      {
+        "resume": "14_Platform_Reliability_Resilience_Engineer",
+        "score": 0.66,
+        "tech": 0.8,
+        "biz": 0.333
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.64,
+        "tech": 0.7,
+        "biz": 0.5
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.59,
+        "tech": 0.7,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "Palantir Technologies",
+    "team": "Defense Product Vertical",
+    "job_title": "Backend Software Engineer - Defense with verification",
+    "current_resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "recommended": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "total_score": 0.494,
+    "tech_score": 0.562,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "ci/cd",
+      "distributed systems",
+      "docker",
+      "go",
+      "kafka",
+      "kubernetes",
+      "microservices",
+      "python",
+      "spark"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "cassandra",
+      "ci/cd",
+      "distributed systems",
+      "docker",
+      "elasticsearch",
+      "go",
+      "java",
+      "kafka",
+      "kubernetes",
+      "microservices",
+      "ml",
+      "python",
+      "rust",
+      "security",
+      "spark"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "backend",
+      "ml",
+      "quality",
+      "reliability",
+      "security"
+    ],
+    "missing_tech": [
+      "ai",
+      "cassandra",
+      "elasticsearch",
+      "java",
+      "ml",
+      "rust",
+      "security"
+    ],
+    "top3": [
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.494,
+        "tech": 0.562,
+        "biz": 0.333
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.45,
+        "tech": 0.5,
+        "biz": 0.333
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.444,
+        "tech": 0.562,
+        "biz": 0.167
+      }
+    ]
+  },
+  {
+    "company": "Apple",
+    "team": "Core Virtualization",
+    "job_title": "Software Engineer (Virtualization)",
+    "current_resume": "19_Systems_Software_Virtualization_Engineer",
+    "recommended": "19_Systems_Software_Virtualization_Engineer",
+    "total_score": 0.293,
+    "tech_score": 0.333,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "hypervisor"
+    ],
+    "jd_tech_keywords": [
+      "hypervisor",
+      "kernel",
+      "virtualization"
+    ],
+    "jd_biz_keywords": [
+      "platform",
+      "qa",
+      "quality",
+      "reliability",
+      "virtualization"
+    ],
+    "missing_tech": [
+      "kernel",
+      "virtualization"
+    ],
+    "top3": [
+      {
+        "resume": "19_Systems_Software_Virtualization_Engineer",
+        "score": 0.293,
+        "tech": 0.333,
+        "biz": 0.2
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.12,
+        "tech": 0.0,
+        "biz": 0.4
+      },
+      {
+        "resume": "13_Edge_Infrastructure_Networking_Engineer",
+        "score": 0.12,
+        "tech": 0.0,
+        "biz": 0.4
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "Customer Success Self-Service",
+    "job_title": "Software Engineer, Fullstack",
+    "current_resume": "06_Full-Stack_Web_Application_Engineer",
+    "recommended": "06_Full-Stack_Web_Application_Engineer",
+    "total_score": 0.497,
+    "tech_score": 0.625,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "agile",
+      "ci/cd",
+      "css",
+      "html",
+      "javascript",
+      "node.js",
+      "react",
+      "scrum",
+      "sdlc",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "accessibility",
+      "agile",
+      "ai",
+      "angular",
+      "ci/cd",
+      "css",
+      "html",
+      "java",
+      "javascript",
+      "node.js",
+      "react",
+      "scrum",
+      "sdlc",
+      "security",
+      "typescript",
+      "web components"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "backend",
+      "frontend",
+      "full stack",
+      "payments",
+      "platform",
+      "quality",
+      "reliability",
+      "security",
+      "testing"
+    ],
+    "missing_tech": [
+      "accessibility",
+      "ai",
+      "angular",
+      "java",
+      "security",
+      "web components"
+    ],
+    "top3": [
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.497,
+        "tech": 0.625,
+        "biz": 0.2
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.424,
+        "tech": 0.562,
+        "biz": 0.1
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.322,
+        "tech": 0.375,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "Ramp",
+    "team": "",
+    "job_title": "Design Engineer, Design Systems",
+    "current_resume": "16_Frontend_Design_Systems_Engineer",
+    "recommended": "16_Frontend_Design_Systems_Engineer",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "accessibility",
+      "css",
+      "design systems",
+      "html",
+      "javascript",
+      "react"
+    ],
+    "jd_tech_keywords": [
+      "accessibility",
+      "css",
+      "design systems",
+      "html",
+      "javascript",
+      "react"
+    ],
+    "jd_biz_keywords": [
+      "platform",
+      "quality"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      },
+      {
+        "resume": "11_AI_Field_Solutions_Engineer",
+        "score": 0.383,
+        "tech": 0.333,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Meta",
+    "team": "",
+    "job_title": "Software Engineer, Infrastructure with verification",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "java"
+    ],
+    "jd_tech_keywords": [
+      "java"
+    ],
+    "jd_biz_keywords": [],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Cisco",
+    "team": "Service Provider High End Router (Cisco 8000)",
+    "job_title": "Software Engineer with verification",
+    "current_resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "recommended": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "total_score": 0.436,
+    "tech_score": 0.5,
+    "biz_score": 0.286,
+    "matched_tech": [
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "compiler",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "cloud",
+      "compiler",
+      "mobile",
+      "networking",
+      "quality",
+      "reliability"
+    ],
+    "missing_tech": [
+      "compiler"
+    ],
+    "top3": [
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.436,
+        "tech": 0.5,
+        "biz": 0.286
+      },
+      {
+        "resume": "19_Systems_Software_Virtualization_Engineer",
+        "score": 0.436,
+        "tech": 0.5,
+        "biz": 0.286
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.436,
+        "tech": 0.5,
+        "biz": 0.286
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "Venmo",
+    "job_title": "Software Engineer in Test - Mobile",
+    "current_resume": "21_QA_SDET_Production_Verification_Engineer",
+    "recommended": "21_QA_SDET_Production_Verification_Engineer",
+    "total_score": 0.486,
+    "tech_score": 0.571,
+    "biz_score": 0.286,
+    "matched_tech": [
+      "ci/cd",
+      "github actions",
+      "python",
+      "sdlc"
+    ],
+    "jd_tech_keywords": [
+      "ci/cd",
+      "github actions",
+      "jenkins",
+      "kotlin",
+      "python",
+      "sdlc",
+      "swift"
+    ],
+    "jd_biz_keywords": [
+      "android",
+      "ios",
+      "mobile",
+      "payments",
+      "qa",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [
+      "jenkins",
+      "kotlin",
+      "swift"
+    ],
+    "top3": [
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.486,
+        "tech": 0.571,
+        "biz": 0.286
+      },
+      {
+        "resume": "12_Stablecoin_Blockchain_Infrastructure",
+        "score": 0.443,
+        "tech": 0.571,
+        "biz": 0.143
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.4,
+        "tech": 0.571,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Studio Media Algorithms",
+    "job_title": "Machine Learning Scientist (L4/L5) - Audio & Speech for Games",
+    "current_resume": "04_ML_AI_Research_Infrastructure_Engineer",
+    "recommended": "04_ML_AI_Research_Infrastructure_Engineer",
+    "total_score": 0.56,
+    "tech_score": 0.8,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "deep learning",
+      "java",
+      "python",
+      "pytorch"
+    ],
+    "jd_tech_keywords": [
+      "deep learning",
+      "java",
+      "python",
+      "pytorch",
+      "r"
+    ],
+    "jd_biz_keywords": [
+      "quality"
+    ],
+    "missing_tech": [
+      "r"
+    ],
+    "top3": [
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.56,
+        "tech": 0.8,
+        "biz": 0.0
+      },
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.44,
+        "tech": 0.2,
+        "biz": 1.0
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.44,
+        "tech": 0.2,
+        "biz": 1.0
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Ads Platform Engineering",
+    "job_title": "UI Engineer L5, Ads Engineering",
+    "current_resume": "06_Full-Stack_Web_Application_Engineer",
+    "recommended": "06_Full-Stack_Web_Application_Engineer",
+    "total_score": 0.467,
+    "tech_score": 0.667,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "node.js",
+      "react"
+    ],
+    "jd_tech_keywords": [
+      "angular",
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "node.js",
+      "react",
+      "rest",
+      "vue"
+    ],
+    "jd_biz_keywords": [
+      "ads",
+      "advertising",
+      "cloud",
+      "fullstack",
+      "platform",
+      "testing"
+    ],
+    "missing_tech": [
+      "angular",
+      "rest",
+      "vue"
+    ],
+    "top3": [
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.389,
+        "tech": 0.556,
+        "biz": 0.0
+      },
+      {
+        "resume": "11_AI_Field_Solutions_Engineer",
+        "score": 0.283,
+        "tech": 0.333,
+        "biz": 0.167
+      }
+    ]
+  },
+  {
+    "company": "Amazon",
+    "team": "Amazon Leo",
+    "job_title": "Software Dev Engineer",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "agile",
+      "distributed systems"
+    ],
+    "jd_tech_keywords": [
+      "agile",
+      "distributed systems"
+    ],
+    "jd_biz_keywords": [
+      "quality"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "YouTube Ads ML",
+    "job_title": "Software Engineer, YouTube Ads Machine Learning",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.41,
+    "tech_score": 0.5,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "machine learning",
+      "ml",
+      "python",
+      "reinforcement learning"
+    ],
+    "jd_biz_keywords": [
+      "ads",
+      "infrastructure",
+      "machine learning",
+      "ml",
+      "quality"
+    ],
+    "missing_tech": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      },
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.295,
+        "tech": 0.25,
+        "biz": 0.4
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.295,
+        "tech": 0.25,
+        "biz": 0.4
+      }
+    ]
+  },
+  {
+    "company": "SurveyMonkey",
+    "team": "",
+    "job_title": "Zuora Developer",
+    "current_resume": "14_Platform_Reliability_Resilience_Engineer",
+    "recommended": "14_Platform_Reliability_Resilience_Engineer",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "agile",
+      "compliance",
+      "scrum"
+    ],
+    "jd_tech_keywords": [
+      "agile",
+      "compliance",
+      "scrum"
+    ],
+    "jd_biz_keywords": [
+      "billing",
+      "payments"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "14_Platform_Reliability_Resilience_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "15_Python_Backend_Engineer_FinTech",
+        "score": 0.617,
+        "tech": 0.667,
+        "biz": 0.5
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Cisco",
+    "team": "",
+    "job_title": "Développeur logiciels I (à temps plein) - Canada/Software Developer I (full Time) – United States",
+    "current_resume": "07_Early-Career_Generalist_SDE",
+    "recommended": "07_Early-Career_Generalist_SDE",
+    "total_score": 0.475,
+    "tech_score": 0.625,
+    "biz_score": 0.125,
+    "matched_tech": [
+      "aws",
+      "java",
+      "linux",
+      "python",
+      "security"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "azure",
+      "embedded",
+      "java",
+      "linux",
+      "machine learning",
+      "python",
+      "security"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "embedded",
+      "machine learning",
+      "networking",
+      "qa",
+      "quality",
+      "security",
+      "testing"
+    ],
+    "missing_tech": [
+      "azure",
+      "embedded",
+      "machine learning"
+    ],
+    "top3": [
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.475,
+        "tech": 0.625,
+        "biz": 0.125
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.337,
+        "tech": 0.375,
+        "biz": 0.25
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.337,
+        "tech": 0.375,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "Twitch",
+    "team": "Application Experiences",
+    "job_title": "Software Engineer I, Twitch Chat",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.283,
+    "tech_score": 0.333,
+    "biz_score": 0.167,
+    "matched_tech": [
+      "aws",
+      "react",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "dynamodb",
+      "ecs",
+      "golang",
+      "kotlin",
+      "lambda",
+      "react",
+      "swift",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "frontend",
+      "fullstack",
+      "gaming",
+      "infrastructure",
+      "mobile"
+    ],
+    "missing_tech": [
+      "dynamodb",
+      "ecs",
+      "golang",
+      "kotlin",
+      "lambda",
+      "swift"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.283,
+        "tech": 0.333,
+        "biz": 0.167
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.283,
+        "tech": 0.333,
+        "biz": 0.167
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.283,
+        "tech": 0.333,
+        "biz": 0.167
+      }
+    ]
+  },
+  {
+    "company": "Amazon",
+    "team": "Jr. Developer Program",
+    "job_title": "Jr. Software Development Engineer - Phoenix, AZ, Jr. Developer Program",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "java",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "java",
+      "python"
+    ],
+    "jd_biz_keywords": [],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Security Operations",
+    "job_title": "Software Engineer, Google Security Operations",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.44,
+    "tech_score": 0.286,
+    "biz_score": 0.8,
+    "matched_tech": [
+      "distributed systems",
+      "go"
+    ],
+    "jd_tech_keywords": [
+      "anomaly detection",
+      "cloud spanner",
+      "distributed systems",
+      "go",
+      "kernel",
+      "machine learning",
+      "security"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "infrastructure",
+      "machine learning",
+      "platform",
+      "security"
+    ],
+    "missing_tech": [
+      "anomaly detection",
+      "cloud spanner",
+      "kernel",
+      "machine learning",
+      "security"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.44,
+        "tech": 0.286,
+        "biz": 0.8
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.44,
+        "tech": 0.286,
+        "biz": 0.8
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.42,
+        "tech": 0.429,
+        "biz": 0.4
+      }
+    ]
+  },
+  {
+    "company": "Adobe",
+    "team": "",
+    "job_title": "Software Development Engineer",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.62,
+    "tech_score": 0.6,
+    "biz_score": 0.667,
+    "matched_tech": [
+      "azure",
+      "javascript",
+      "microservices"
+    ],
+    "jd_tech_keywords": [
+      "azure",
+      "java",
+      "javascript",
+      "microservices",
+      "security"
+    ],
+    "jd_biz_keywords": [
+      "platform",
+      "quality",
+      "security"
+    ],
+    "missing_tech": [
+      "java",
+      "security"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.62,
+        "tech": 0.6,
+        "biz": 0.667
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.52,
+        "tech": 0.6,
+        "biz": 0.333
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "Roblox",
+    "team": "Ads Experience",
+    "job_title": "Software Engineer, Ads & Brands",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.475,
+    "tech_score": 0.625,
+    "biz_score": 0.125,
+    "matched_tech": [
+      "go",
+      "java",
+      "python",
+      "react",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "distributed systems",
+      "generative ai",
+      "go",
+      "java",
+      "python",
+      "react",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "ads",
+      "advertising",
+      "ai",
+      "backend",
+      "frontend",
+      "platform",
+      "quality",
+      "reliability"
+    ],
+    "missing_tech": [
+      "ai",
+      "distributed systems",
+      "generative ai"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.475,
+        "tech": 0.625,
+        "biz": 0.125
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.387,
+        "tech": 0.5,
+        "biz": 0.125
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.387,
+        "tech": 0.5,
+        "biz": 0.125
+      }
+    ]
+  },
+  {
+    "company": "Goldman Sachs",
+    "team": "Private Wealth Management (PWM) Private Bank",
+    "job_title": "Asset &Wealth Management-Wealth AI Engineering - Associate-Dallas",
+    "current_resume": "04_ML_AI_Research_Infrastructure_Engineer",
+    "recommended": "04_ML_AI_Research_Infrastructure_Engineer",
+    "total_score": 0.493,
+    "tech_score": 0.533,
+    "biz_score": 0.4,
+    "matched_tech": [
+      "aws",
+      "generative ai",
+      "java",
+      "llm",
+      "nlp",
+      "python",
+      "pytorch",
+      "rag"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "azure",
+      "computer vision",
+      "genai",
+      "generative ai",
+      "java",
+      "llm",
+      "machine learning",
+      "nlp",
+      "prompt engineering",
+      "python",
+      "pytorch",
+      "rag",
+      "tensorflow"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "computer vision",
+      "machine learning",
+      "nlp"
+    ],
+    "missing_tech": [
+      "ai",
+      "azure",
+      "computer vision",
+      "genai",
+      "machine learning",
+      "prompt engineering",
+      "tensorflow"
+    ],
+    "top3": [
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.493,
+        "tech": 0.533,
+        "biz": 0.4
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.34,
+        "tech": 0.4,
+        "biz": 0.2
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.34,
+        "tech": 0.4,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "Anduril Industries",
+    "team": "Warfighter Systems",
+    "job_title": "Skillbridge Software Engineer, EagleEye",
+    "current_resume": "17_Embedded_Sensor_Software_Engineer",
+    "recommended": "17_Embedded_Sensor_Software_Engineer",
+    "total_score": 0.15,
+    "tech_score": 0.0,
+    "biz_score": 0.5,
+    "matched_tech": [],
+    "jd_tech_keywords": [],
+    "jd_biz_keywords": [
+      "sensor",
+      "simulation"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.15,
+        "tech": 0.0,
+        "biz": 0.5
+      },
+      {
+        "resume": "18_HPC_Compiler_Engineer",
+        "score": 0.15,
+        "tech": 0.0,
+        "biz": 0.5
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.0,
+        "tech": 0.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "SoFi",
+    "team": "",
+    "job_title": "Software Engineer, Loans Originations",
+    "current_resume": "21_QA_SDET_Production_Verification_Engineer",
+    "recommended": "21_QA_SDET_Production_Verification_Engineer",
+    "total_score": 0.44,
+    "tech_score": 0.2,
+    "biz_score": 1.0,
+    "matched_tech": [
+      "ci/cd"
+    ],
+    "jd_tech_keywords": [
+      "ci/cd",
+      "compliance",
+      "distributed systems",
+      "java",
+      "kotlin"
+    ],
+    "jd_biz_keywords": [
+      "platform",
+      "quality"
+    ],
+    "missing_tech": [
+      "compliance",
+      "distributed systems",
+      "java",
+      "kotlin"
+    ],
+    "top3": [
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.44,
+        "tech": 0.2,
+        "biz": 1.0
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.43,
+        "tech": 0.4,
+        "biz": 0.5
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.43,
+        "tech": 0.4,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Dropbox",
+    "team": "Mobile Engineering",
+    "job_title": "Android Software Engineer, Mobile Experience with verification",
+    "current_resume": "22_Mobile_Platform_Engineer",
+    "recommended": "22_Mobile_Platform_Engineer",
+    "total_score": 0.775,
+    "tech_score": 1.0,
+    "biz_score": 0.25,
+    "matched_tech": [
+      "kotlin",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "kotlin",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "android",
+      "mobile",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "22_Mobile_Platform_Engineer",
+        "score": 0.775,
+        "tech": 1.0,
+        "biz": 0.25
+      },
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.5,
+        "tech": 0.5,
+        "biz": 0.5
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.5,
+        "tech": 0.5,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Ramp",
+    "team": "Stablecoin-based Payment and Treasury Systems",
+    "job_title": "Software Engineer, Stablecoins",
+    "current_resume": "12_Stablecoin_Blockchain_Infrastructure",
+    "recommended": "12_Stablecoin_Blockchain_Infrastructure",
+    "total_score": 0.759,
+    "tech_score": 0.778,
+    "biz_score": 0.714,
+    "matched_tech": [
+      "aws",
+      "azure",
+      "blockchain",
+      "gcp",
+      "go",
+      "python",
+      "terraform"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "azure",
+      "blockchain",
+      "distributed systems",
+      "gcp",
+      "go",
+      "java",
+      "python",
+      "terraform"
+    ],
+    "jd_biz_keywords": [
+      "blockchain",
+      "cloud",
+      "fintech",
+      "infrastructure",
+      "payments",
+      "quality",
+      "stablecoin"
+    ],
+    "missing_tech": [
+      "distributed systems",
+      "java"
+    ],
+    "top3": [
+      {
+        "resume": "12_Stablecoin_Blockchain_Infrastructure",
+        "score": 0.759,
+        "tech": 0.778,
+        "biz": 0.714
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.595,
+        "tech": 0.667,
+        "biz": 0.429
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.595,
+        "tech": 0.667,
+        "biz": 0.429
+      }
+    ]
+  },
+  {
+    "company": "Scale AI",
+    "team": "Human Frontier Collective (HFC)",
+    "job_title": "Machine Learning Fellow - Human Frontier Collective (US)",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.47,
+    "tech_score": 0.5,
+    "biz_score": 0.4,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "docker",
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "deep learning",
+      "docker",
+      "langchain",
+      "machine learning",
+      "ml",
+      "python",
+      "pytorch",
+      "tensorflow"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "infrastructure",
+      "machine learning",
+      "ml"
+    ],
+    "missing_tech": [
+      "deep learning",
+      "langchain",
+      "machine learning",
+      "pytorch",
+      "tensorflow"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.47,
+        "tech": 0.5,
+        "biz": 0.4
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.47,
+        "tech": 0.5,
+        "biz": 0.4
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.4,
+        "tech": 0.4,
+        "biz": 0.4
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "AI and Infrastructure",
+    "job_title": "Software Engineer, Systems Research, PhD, Early Career",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.475,
+    "tech_score": 0.571,
+    "biz_score": 0.25,
+    "matched_tech": [
+      "distributed systems",
+      "javascript",
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "distributed systems",
+      "golang",
+      "java",
+      "javascript",
+      "machine learning",
+      "ml",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "analytics",
+      "cloud",
+      "machine learning",
+      "ml"
+    ],
+    "missing_tech": [
+      "golang",
+      "java",
+      "machine learning"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.475,
+        "tech": 0.571,
+        "biz": 0.25
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.4,
+        "tech": 0.571,
+        "biz": 0.0
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.35,
+        "tech": 0.286,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Distributed Cloud",
+    "job_title": "Software Engineer, Storage Everywhere, Google Cloud",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.72,
+    "tech_score": 0.6,
+    "biz_score": 1.0,
+    "matched_tech": [
+      "distributed systems",
+      "kubernetes",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "distributed systems",
+      "golang",
+      "java",
+      "kubernetes",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "infrastructure"
+    ],
+    "missing_tech": [
+      "golang",
+      "java"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.72,
+        "tech": 0.6,
+        "biz": 1.0
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.72,
+        "tech": 0.6,
+        "biz": 1.0
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.72,
+        "tech": 0.6,
+        "biz": 1.0
+      }
+    ]
+  },
+  {
+    "company": "Rubrik",
+    "team": "SaaS Application Protection",
+    "job_title": "Software Engineer, SaaS Protection",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.72,
+    "tech_score": 0.6,
+    "biz_score": 1.0,
+    "matched_tech": [
+      "aws",
+      "azure",
+      "distributed systems"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "azure",
+      "distributed systems",
+      "gcp",
+      "golang"
+    ],
+    "jd_biz_keywords": [
+      "cloud"
+    ],
+    "missing_tech": [
+      "gcp",
+      "golang"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.72,
+        "tech": 0.6,
+        "biz": 1.0
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.72,
+        "tech": 0.6,
+        "biz": 1.0
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.58,
+        "tech": 0.4,
+        "biz": 1.0
+      }
+    ]
+  },
+  {
+    "company": "Cisco",
+    "team": "",
+    "job_title": "Software Engineer Data/AI/Intelligent Systems I (Full Time) – United States",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.491,
+    "tech_score": 0.615,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "azure",
+      "distributed systems",
+      "docker",
+      "kubernetes",
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "azure",
+      "distributed systems",
+      "docker",
+      "kubernetes",
+      "machine learning",
+      "ml",
+      "python",
+      "pytorch",
+      "scikit-learn",
+      "spark",
+      "tensorflow"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "machine learning",
+      "ml",
+      "reliability"
+    ],
+    "missing_tech": [
+      "machine learning",
+      "pytorch",
+      "scikit-learn",
+      "spark",
+      "tensorflow"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.491,
+        "tech": 0.615,
+        "biz": 0.2
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.443,
+        "tech": 0.462,
+        "biz": 0.4
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.437,
+        "tech": 0.538,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "Rubrik",
+    "team": "RSC Platform",
+    "job_title": "Software Engineer - Cloud Security",
+    "current_resume": "07_Early-Career_Generalist_SDE",
+    "recommended": "07_Early-Career_Generalist_SDE",
+    "total_score": 0.825,
+    "tech_score": 0.75,
+    "biz_score": 1.0,
+    "matched_tech": [
+      "aws",
+      "distributed systems",
+      "go",
+      "kubernetes",
+      "mysql",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "distributed systems",
+      "gcp",
+      "go",
+      "kubernetes",
+      "mysql",
+      "python",
+      "scala"
+    ],
+    "jd_biz_keywords": [
+      "infrastructure"
+    ],
+    "missing_tech": [
+      "gcp",
+      "scala"
+    ],
+    "top3": [
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.825,
+        "tech": 0.75,
+        "biz": 1.0
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.825,
+        "tech": 0.75,
+        "biz": 1.0
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.825,
+        "tech": 0.75,
+        "biz": 1.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "SU Ecosystem",
+    "job_title": "Software Engineer, Responsible AI",
+    "current_resume": "14_Platform_Reliability_Resilience_Engineer",
+    "recommended": "14_Platform_Reliability_Resilience_Engineer",
+    "total_score": 0.692,
+    "tech_score": 0.667,
+    "biz_score": 0.75,
+    "matched_tech": [
+      "compliance",
+      "typescript"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "compliance",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "infrastructure",
+      "platform",
+      "reliability"
+    ],
+    "missing_tech": [
+      "ai"
+    ],
+    "top3": [
+      {
+        "resume": "14_Platform_Reliability_Resilience_Engineer",
+        "score": 0.692,
+        "tech": 0.667,
+        "biz": 0.75
+      },
+      {
+        "resume": "05_Responsible_AI_Engineer",
+        "score": 0.458,
+        "tech": 0.333,
+        "biz": 0.75
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.383,
+        "tech": 0.333,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "team": "Microsoft Defender",
+    "job_title": "Software Engineer - CTJ - Poly",
+    "current_resume": "07_Early-Career_Generalist_SDE",
+    "recommended": "07_Early-Career_Generalist_SDE",
+    "total_score": 0.687,
+    "tech_score": 0.875,
+    "biz_score": 0.25,
+    "matched_tech": [
+      "ci/cd",
+      "docker",
+      "java",
+      "javascript",
+      "kubernetes",
+      "python",
+      "security"
+    ],
+    "jd_tech_keywords": [
+      "azure",
+      "ci/cd",
+      "docker",
+      "java",
+      "javascript",
+      "kubernetes",
+      "python",
+      "security"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "devops",
+      "reliability",
+      "security"
+    ],
+    "missing_tech": [
+      "azure"
+    ],
+    "top3": [
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.687,
+        "tech": 0.875,
+        "biz": 0.25
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.675,
+        "tech": 0.75,
+        "biz": 0.5
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.588,
+        "tech": 0.625,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Resilience Engineering",
+    "job_title": "Software Engineer (L4) - Resilience Engineering",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "distributed systems"
+    ],
+    "jd_tech_keywords": [
+      "distributed systems"
+    ],
+    "jd_biz_keywords": [
+      "testing"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Developer Experiences - Google Cloud",
+    "job_title": "Software Engineer, BigQuery AI Developer Experience",
+    "current_resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "recommended": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "total_score": 0.647,
+    "tech_score": 0.667,
+    "biz_score": 0.6,
+    "matched_tech": [
+      "bigquery",
+      "distributed systems",
+      "gcp",
+      "go",
+      "python",
+      "sql"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "bigquery",
+      "distributed systems",
+      "gcp",
+      "go",
+      "java",
+      "python",
+      "sql",
+      "typescript"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "backend",
+      "cloud",
+      "infrastructure",
+      "reliability"
+    ],
+    "missing_tech": [
+      "ai",
+      "java",
+      "typescript"
+    ],
+    "top3": [
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.647,
+        "tech": 0.667,
+        "biz": 0.6
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.509,
+        "tech": 0.556,
+        "biz": 0.4
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.509,
+        "tech": 0.556,
+        "biz": 0.4
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Ads Reporting Infrastructure",
+    "job_title": "Software Engineer L5, Ads Eventing",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.308,
+    "tech_score": 0.333,
+    "biz_score": 0.25,
+    "matched_tech": [
+      "distributed systems"
+    ],
+    "jd_tech_keywords": [
+      "compliance",
+      "distributed systems",
+      "druid"
+    ],
+    "jd_biz_keywords": [
+      "ads",
+      "advertising",
+      "analytics",
+      "cloud"
+    ],
+    "missing_tech": [
+      "compliance",
+      "druid"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.308,
+        "tech": 0.333,
+        "biz": 0.25
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.308,
+        "tech": 0.333,
+        "biz": 0.25
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.308,
+        "tech": 0.333,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "Verkada",
+    "team": "cloud infrastructure",
+    "job_title": "Software Engineer, Platform Infrastructure",
+    "current_resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "recommended": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+    "total_score": 0.822,
+    "tech_score": 0.889,
+    "biz_score": 0.667,
+    "matched_tech": [
+      "aws",
+      "datadog",
+      "go",
+      "kubernetes",
+      "opentelemetry",
+      "prometheus",
+      "python",
+      "terraform"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "datadog",
+      "go",
+      "kubernetes",
+      "opentelemetry",
+      "prometheus",
+      "python",
+      "service mesh",
+      "terraform"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "cloud",
+      "infrastructure"
+    ],
+    "missing_tech": [
+      "service mesh"
+    ],
+    "top3": [
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.822,
+        "tech": 0.889,
+        "biz": 0.667
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.822,
+        "tech": 0.889,
+        "biz": 0.667
+      },
+      {
+        "resume": "10_DevOps_Platform_Automation_Engineer",
+        "score": 0.722,
+        "tech": 0.889,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Cloud",
+    "job_title": "Software Engineer, Google Distributed Cloud air-gapped, Infrastructure Lifecycle Management",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.9,
+    "tech_score": 1.0,
+    "biz_score": 0.667,
+    "matched_tech": [
+      "go"
+    ],
+    "jd_tech_keywords": [
+      "go"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "infrastructure",
+      "quality"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.9,
+        "tech": 1.0,
+        "biz": 0.667
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.9,
+        "tech": 1.0,
+        "biz": 0.667
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.9,
+        "tech": 1.0,
+        "biz": 0.667
+      }
+    ]
+  },
+  {
+    "company": "Apple",
+    "team": "Core I/O Quality Engineering",
+    "job_title": "Software Development Engineer in Test - Core I/O Quality Engineering",
+    "current_resume": "17_Embedded_Sensor_Software_Engineer",
+    "recommended": "17_Embedded_Sensor_Software_Engineer",
+    "total_score": 0.55,
+    "tech_score": 0.5,
+    "biz_score": 0.667,
+    "matched_tech": [
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "embedded",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "embedded",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [
+      "embedded"
+    ],
+    "top3": [
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.55,
+        "tech": 0.5,
+        "biz": 0.667
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.45,
+        "tech": 0.5,
+        "biz": 0.333
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "Venmo Identity Engineering",
+    "job_title": "Software Engineer - Python with verification",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.38,
+    "tech_score": 0.4,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "aws",
+      "azure",
+      "distributed systems",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "aws",
+      "azure",
+      "compliance",
+      "distributed systems",
+      "django",
+      "flask",
+      "gcp",
+      "python",
+      "rest",
+      "sdlc"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "cloud",
+      "payments"
+    ],
+    "missing_tech": [
+      "compliance",
+      "django",
+      "flask",
+      "gcp",
+      "rest",
+      "sdlc"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      },
+      {
+        "resume": "12_Stablecoin_Blockchain_Infrastructure",
+        "score": 0.38,
+        "tech": 0.4,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "Twitch",
+    "team": "Monetization ML (Commerce Organization)",
+    "job_title": "Software Engineer, ML with verification",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.521,
+    "tech_score": 0.583,
+    "biz_score": 0.375,
+    "matched_tech": [
+      "aws",
+      "ecs",
+      "go",
+      "lambda",
+      "llm",
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "airflow",
+      "aws",
+      "dynamodb",
+      "ecs",
+      "go",
+      "golang",
+      "java",
+      "kafka",
+      "lambda",
+      "llm",
+      "ml",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "fraud",
+      "gaming",
+      "infrastructure",
+      "ml",
+      "platform",
+      "quality",
+      "recommendation",
+      "reliability"
+    ],
+    "missing_tech": [
+      "airflow",
+      "dynamodb",
+      "golang",
+      "java",
+      "kafka"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.521,
+        "tech": 0.583,
+        "biz": 0.375
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.425,
+        "tech": 0.5,
+        "biz": 0.25
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.425,
+        "tech": 0.5,
+        "biz": 0.25
+      }
+    ]
+  },
+  {
+    "company": "DoorDash",
+    "team": "GenAI Platform",
+    "job_title": "Software Engineer, Machine Learning Infrastructure with verification",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.545,
+    "tech_score": 0.636,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "distributed systems",
+      "genai",
+      "llm",
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "distributed systems",
+      "gcp",
+      "genai",
+      "generative ai",
+      "llm",
+      "machine learning",
+      "ml",
+      "python",
+      "rag"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "backend",
+      "cloud",
+      "infrastructure",
+      "machine learning",
+      "ml",
+      "platform",
+      "quality",
+      "reliability"
+    ],
+    "missing_tech": [
+      "gcp",
+      "generative ai",
+      "machine learning",
+      "rag"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.545,
+        "tech": 0.636,
+        "biz": 0.333
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.448,
+        "tech": 0.545,
+        "biz": 0.222
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.388,
+        "tech": 0.364,
+        "biz": 0.444
+      }
+    ]
+  },
+  {
+    "company": "Anduril Industries",
+    "team": "Deployment Operations - Configuration Team",
+    "job_title": "Technical Operations Engineer, Configuration",
+    "current_resume": "17_Embedded_Sensor_Software_Engineer",
+    "recommended": "17_Embedded_Sensor_Software_Engineer",
+    "total_score": 0.617,
+    "tech_score": 0.667,
+    "biz_score": 0.5,
+    "matched_tech": [
+      "linux",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "linux",
+      "matlab",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "networking",
+      "quality"
+    ],
+    "missing_tech": [
+      "matlab"
+    ],
+    "top3": [
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.617,
+        "tech": 0.667,
+        "biz": 0.5
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.617,
+        "tech": 0.667,
+        "biz": 0.5
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "team": "Microsoft AI Superintelligence (MAIST) Post Training",
+    "job_title": "Member of Technical Staff",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.45,
+    "tech_score": 0.5,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "ai"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "reinforcement learning"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "infrastructure",
+      "quality"
+    ],
+    "missing_tech": [
+      "reinforcement learning"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.45,
+        "tech": 0.5,
+        "biz": 0.333
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.2,
+        "tech": 0.0,
+        "biz": 0.667
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.2,
+        "tech": 0.0,
+        "biz": 0.667
+      }
+    ]
+  },
+  {
+    "company": "Goldman Sachs",
+    "team": "",
+    "job_title": "Asset & Wealth Management-Generative AI Software Engineer-Associate-Albany",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.495,
+    "tech_score": 0.6,
+    "biz_score": 0.25,
+    "matched_tech": [
+      "java",
+      "langchain",
+      "langgraph",
+      "python",
+      "rag",
+      "spring boot"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "generative ai",
+      "java",
+      "javascript",
+      "langchain",
+      "langgraph",
+      "python",
+      "rag",
+      "spring",
+      "spring boot"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "backend",
+      "edge",
+      "frontend"
+    ],
+    "missing_tech": [
+      "ai",
+      "generative ai",
+      "javascript",
+      "spring"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.495,
+        "tech": 0.6,
+        "biz": 0.25
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.355,
+        "tech": 0.4,
+        "biz": 0.25
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.28,
+        "tech": 0.4,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Qualcomm",
+    "team": "Software Engineering",
+    "job_title": "Computer Vision Software Engineer",
+    "current_resume": "09_Backend_Distributed_Systems_Generalist",
+    "recommended": "09_Backend_Distributed_Systems_Generalist",
+    "total_score": 0.527,
+    "tech_score": 0.667,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "java",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "embedded",
+      "java",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "edge",
+      "embedded",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [
+      "embedded"
+    ],
+    "top3": [
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.527,
+        "tech": 0.667,
+        "biz": 0.2
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Docs/Google Workspace",
+    "job_title": "Software Engineer, Generative AI, Google Workspace",
+    "current_resume": "04_ML_AI_Research_Infrastructure_Engineer",
+    "recommended": "04_ML_AI_Research_Infrastructure_Engineer",
+    "total_score": 0.366,
+    "tech_score": 0.4,
+    "biz_score": 0.286,
+    "matched_tech": [
+      "deep learning",
+      "generative ai",
+      "java",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "computer vision",
+      "deep learning",
+      "genai",
+      "generative ai",
+      "java",
+      "machine learning",
+      "ml",
+      "python",
+      "tensorflow"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "computer vision",
+      "infrastructure",
+      "machine learning",
+      "ml",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [
+      "ai",
+      "computer vision",
+      "genai",
+      "machine learning",
+      "ml",
+      "tensorflow"
+    ],
+    "top3": [
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.366,
+        "tech": 0.4,
+        "biz": 0.286
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.323,
+        "tech": 0.4,
+        "biz": 0.143
+      },
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.269,
+        "tech": 0.2,
+        "biz": 0.429
+      }
+    ]
+  },
+  {
+    "company": "Unity",
+    "team": "Production Verification",
+    "job_title": "Software Engineer - Production Verification",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "ai",
+      "ci/cd"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "ci/cd"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "analytics"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.5,
+        "tech": 0.5,
+        "biz": 0.5
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.5,
+        "tech": 0.5,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Ads Platform Engineering",
+    "job_title": "UI Engineer L4, Ads Engineering",
+    "current_resume": "06_Full-Stack_Web_Application_Engineer",
+    "recommended": "06_Full-Stack_Web_Application_Engineer",
+    "total_score": 0.467,
+    "tech_score": 0.667,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "node.js",
+      "react"
+    ],
+    "jd_tech_keywords": [
+      "angular",
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "node.js",
+      "react",
+      "rest",
+      "vue"
+    ],
+    "jd_biz_keywords": [
+      "advertising",
+      "cloud",
+      "fullstack",
+      "testing"
+    ],
+    "missing_tech": [
+      "angular",
+      "rest",
+      "vue"
+    ],
+    "top3": [
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.467,
+        "tech": 0.667,
+        "biz": 0.0
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.389,
+        "tech": 0.556,
+        "biz": 0.0
+      },
+      {
+        "resume": "11_AI_Field_Solutions_Engineer",
+        "score": 0.233,
+        "tech": 0.333,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Google Distributed Cloud Storage",
+    "job_title": "Software Engineer, Google Cloud Storage",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.667,
+    "tech_score": 0.667,
+    "biz_score": 0.667,
+    "matched_tech": [
+      "distributed systems",
+      "go",
+      "kubernetes",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "cloud functions",
+      "distributed systems",
+      "go",
+      "golang",
+      "kubernetes",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "infrastructure",
+      "testing"
+    ],
+    "missing_tech": [
+      "cloud functions",
+      "golang"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.667,
+        "tech": 0.667,
+        "biz": 0.667
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.667,
+        "tech": 0.667,
+        "biz": 0.667
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.567,
+        "tech": 0.667,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "Benchling",
+    "team": "",
+    "job_title": "Software Engineer, New Grad (2026)",
+    "current_resume": "11_AI_Field_Solutions_Engineer",
+    "recommended": "11_AI_Field_Solutions_Engineer",
+    "total_score": 0.47,
+    "tech_score": 0.5,
+    "biz_score": 0.4,
+    "matched_tech": [
+      "react"
+    ],
+    "jd_tech_keywords": [
+      "r",
+      "react"
+    ],
+    "jd_biz_keywords": [
+      "backend",
+      "frontend",
+      "infrastructure",
+      "platform",
+      "reliability"
+    ],
+    "missing_tech": [
+      "r"
+    ],
+    "top3": [
+      {
+        "resume": "11_AI_Field_Solutions_Engineer",
+        "score": 0.47,
+        "tech": 0.5,
+        "biz": 0.4
+      },
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.41,
+        "tech": 0.5,
+        "biz": 0.2
+      }
+    ]
+  },
+  {
+    "company": "Intuit",
+    "team": "",
+    "job_title": "Software Engineer",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.0,
+    "tech_score": 0.0,
+    "biz_score": 0.0,
+    "matched_tech": [],
+    "jd_tech_keywords": [],
+    "jd_biz_keywords": [],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.0,
+        "tech": 0.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.0,
+        "tech": 0.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "03_Cloud_Security_Threat_Engineering",
+        "score": 0.0,
+        "tech": 0.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Amazon",
+    "team": "Workforce Solutions (WS)",
+    "job_title": "Software Development Engineer, Personal Information & Identity Management with verification",
+    "current_resume": "01_AI_Application_GenAI_Integration_Engineer",
+    "recommended": "01_AI_Application_GenAI_Integration_Engineer",
+    "total_score": 0.35,
+    "tech_score": 0.5,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "java"
+    ],
+    "jd_tech_keywords": [
+      "embedded",
+      "java"
+    ],
+    "jd_biz_keywords": [
+      "embedded",
+      "quality",
+      "reliability",
+      "testing"
+    ],
+    "missing_tech": [
+      "embedded"
+    ],
+    "top3": [
+      {
+        "resume": "01_AI_Application_GenAI_Integration_Engineer",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.35,
+        "tech": 0.5,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Tesla",
+    "team": "Manufacturing Test and Engineering",
+    "job_title": "Software Engineer, Manufacturing Test Equipment, Optimus",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.694,
+    "tech_score": 0.778,
+    "biz_score": 0.5,
+    "matched_tech": [
+      "ci/cd",
+      "docker",
+      "github actions",
+      "go",
+      "grpc",
+      "kubernetes",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ci/cd",
+      "docker",
+      "github actions",
+      "go",
+      "grpc",
+      "jenkins",
+      "kubernetes",
+      "linux",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "devops"
+    ],
+    "missing_tech": [
+      "jenkins",
+      "linux"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.694,
+        "tech": 0.778,
+        "biz": 0.5
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.694,
+        "tech": 0.778,
+        "biz": 0.5
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.694,
+        "tech": 0.778,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Cisco",
+    "team": "Security and Infra & Security (Compute, Cloud, Security teams)",
+    "job_title": "Software Engineer Security & Automation I (Full Time) – United States",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.479,
+    "tech_score": 0.5,
+    "biz_score": 0.429,
+    "matched_tech": [
+      "ai",
+      "ci/cd",
+      "docker",
+      "github actions",
+      "kubernetes",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "ci/cd",
+      "docker",
+      "github actions",
+      "jenkins",
+      "kubernetes",
+      "machine learning",
+      "oauth",
+      "pytest",
+      "python",
+      "security",
+      "vulnerability"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "analytics",
+      "cloud",
+      "devops",
+      "infrastructure",
+      "machine learning",
+      "security"
+    ],
+    "missing_tech": [
+      "jenkins",
+      "machine learning",
+      "oauth",
+      "pytest",
+      "security",
+      "vulnerability"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.479,
+        "tech": 0.5,
+        "biz": 0.429
+      },
+      {
+        "resume": "09_Backend_Distributed_Systems_Generalist",
+        "score": 0.463,
+        "tech": 0.417,
+        "biz": 0.571
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.436,
+        "tech": 0.5,
+        "biz": 0.286
+      }
+    ]
+  },
+  {
+    "company": "Unity",
+    "team": "Workflows Team",
+    "job_title": "Software Engineer, QA",
+    "current_resume": "17_Embedded_Sensor_Software_Engineer",
+    "recommended": "17_Embedded_Sensor_Software_Engineer",
+    "total_score": 0.225,
+    "tech_score": 0.0,
+    "biz_score": 0.75,
+    "matched_tech": [],
+    "jd_tech_keywords": [],
+    "jd_biz_keywords": [
+      "infrastructure",
+      "mobile",
+      "quality",
+      "testing"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "17_Embedded_Sensor_Software_Engineer",
+        "score": 0.225,
+        "tech": 0.0,
+        "biz": 0.75
+      },
+      {
+        "resume": "21_QA_SDET_Production_Verification_Engineer",
+        "score": 0.225,
+        "tech": 0.0,
+        "biz": 0.75
+      },
+      {
+        "resume": "22_Mobile_Platform_Engineer",
+        "score": 0.15,
+        "tech": 0.0,
+        "biz": 0.5
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Oversubscription/Power Capping team in Data Center Infrastructure Management",
+    "job_title": "Software Engineer, Data Center Oversubscription",
+    "current_resume": "07_Early-Career_Generalist_SDE",
+    "recommended": "07_Early-Career_Generalist_SDE",
+    "total_score": 0.76,
+    "tech_score": 1.0,
+    "biz_score": 0.2,
+    "matched_tech": [
+      "distributed systems",
+      "python",
+      "security",
+      "sql"
+    ],
+    "jd_tech_keywords": [
+      "distributed systems",
+      "python",
+      "security",
+      "sql"
+    ],
+    "jd_biz_keywords": [
+      "ads",
+      "cloud",
+      "reliability",
+      "search",
+      "security"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.76,
+        "tech": 1.0,
+        "biz": 0.2
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.705,
+        "tech": 0.75,
+        "biz": 0.6
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.645,
+        "tech": 0.75,
+        "biz": 0.4
+      }
+    ]
+  },
+  {
+    "company": "Notion",
+    "team": "",
+    "job_title": "Software Engineer, Fullstack, Early Career with verification",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.7,
+    "tech_score": 1.0,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "javascript"
+    ],
+    "jd_tech_keywords": [
+      "javascript"
+    ],
+    "jd_biz_keywords": [],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.7,
+        "tech": 1.0,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "team": "Platforms",
+    "job_title": "Product Design Engineer, PhD, University Graduate, Platforms Infrastructure",
+    "current_resume": "05_Responsible_AI_Engineer",
+    "recommended": "05_Responsible_AI_Engineer",
+    "total_score": 0.3,
+    "tech_score": 0.0,
+    "biz_score": 1.0,
+    "matched_tech": [],
+    "jd_tech_keywords": [],
+    "jd_biz_keywords": [
+      "infrastructure",
+      "reliability"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "05_Responsible_AI_Engineer",
+        "score": 0.3,
+        "tech": 0.0,
+        "biz": 1.0
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.3,
+        "tech": 0.0,
+        "biz": 1.0
+      },
+      {
+        "resume": "13_Edge_Infrastructure_Networking_Engineer",
+        "score": 0.3,
+        "tech": 0.0,
+        "biz": 1.0
+      }
+    ]
+  },
+  {
+    "company": "Scale AI",
+    "team": "",
+    "job_title": "Field Engineer, Public Sector",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.645,
+    "tech_score": 0.75,
+    "biz_score": 0.4,
+    "matched_tech": [
+      "ai",
+      "go",
+      "javascript",
+      "kubernetes",
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "generative ai",
+      "go",
+      "helm",
+      "javascript",
+      "kubernetes",
+      "ml",
+      "python"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "infrastructure",
+      "ml",
+      "platform",
+      "robotics"
+    ],
+    "missing_tech": [
+      "generative ai",
+      "helm"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.645,
+        "tech": 0.75,
+        "biz": 0.4
+      },
+      {
+        "resume": "11_AI_Field_Solutions_Engineer",
+        "score": 0.557,
+        "tech": 0.625,
+        "biz": 0.4
+      },
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.47,
+        "tech": 0.5,
+        "biz": 0.4
+      }
+    ]
+  },
+  {
+    "company": "Apple",
+    "team": "Edge Engineering",
+    "job_title": "Software Engineer (Edge Services), Infrastructure Services",
+    "current_resume": "13_Edge_Infrastructure_Networking_Engineer",
+    "recommended": "13_Edge_Infrastructure_Networking_Engineer",
+    "total_score": 0.9,
+    "tech_score": 1.0,
+    "biz_score": 0.667,
+    "matched_tech": [
+      "envoy",
+      "go",
+      "grpc",
+      "helm",
+      "kubernetes",
+      "protobuf",
+      "terraform"
+    ],
+    "jd_tech_keywords": [
+      "envoy",
+      "go",
+      "grpc",
+      "helm",
+      "kubernetes",
+      "protobuf",
+      "terraform"
+    ],
+    "jd_biz_keywords": [
+      "edge",
+      "infrastructure",
+      "networking"
+    ],
+    "missing_tech": [],
+    "top3": [
+      {
+        "resume": "13_Edge_Infrastructure_Networking_Engineer",
+        "score": 0.9,
+        "tech": 1.0,
+        "biz": 0.667
+      },
+      {
+        "resume": "12_Stablecoin_Blockchain_Infrastructure",
+        "score": 0.7,
+        "tech": 0.857,
+        "biz": 0.333
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.6,
+        "tech": 0.714,
+        "biz": 0.333
+      }
+    ]
+  },
+  {
+    "company": "PayPal",
+    "team": "",
+    "job_title": "Software Engineer, Fullstack",
+    "current_resume": "06_Full-Stack_Web_Application_Engineer",
+    "recommended": "06_Full-Stack_Web_Application_Engineer",
+    "total_score": 0.445,
+    "tech_score": 0.636,
+    "biz_score": 0.0,
+    "matched_tech": [
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "node.js",
+      "react",
+      "sdlc"
+    ],
+    "jd_tech_keywords": [
+      "accessibility",
+      "angular",
+      "css",
+      "graphql",
+      "html",
+      "javascript",
+      "node.js",
+      "react",
+      "responsive design",
+      "sdlc",
+      "vue"
+    ],
+    "jd_biz_keywords": [
+      "frontend",
+      "full stack"
+    ],
+    "missing_tech": [
+      "accessibility",
+      "angular",
+      "responsive design",
+      "vue"
+    ],
+    "top3": [
+      {
+        "resume": "06_Full-Stack_Web_Application_Engineer",
+        "score": 0.445,
+        "tech": 0.636,
+        "biz": 0.0
+      },
+      {
+        "resume": "16_Frontend_Design_Systems_Engineer",
+        "score": 0.445,
+        "tech": 0.636,
+        "biz": 0.0
+      },
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.127,
+        "tech": 0.182,
+        "biz": 0.0
+      }
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "team": "Customer Experience Applications",
+    "job_title": "Research Software Engineer",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.567,
+    "tech_score": 0.667,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "ai",
+      "aws",
+      "azure",
+      "ci/cd",
+      "distributed systems",
+      "docker",
+      "genai",
+      "javascript",
+      "kubernetes",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "ai",
+      "aws",
+      "azure",
+      "ci/cd",
+      "compliance",
+      "distributed systems",
+      "docker",
+      "genai",
+      "java",
+      "javascript",
+      "kubernetes",
+      "machine learning",
+      "python",
+      "rust",
+      "security"
+    ],
+    "jd_biz_keywords": [
+      "ai",
+      "cloud",
+      "devops",
+      "infrastructure",
+      "machine learning",
+      "quality",
+      "reliability",
+      "security",
+      "testing"
+    ],
+    "missing_tech": [
+      "compliance",
+      "java",
+      "machine learning",
+      "rust",
+      "security"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.567,
+        "tech": 0.667,
+        "biz": 0.333
+      },
+      {
+        "resume": "07_Early-Career_Generalist_SDE",
+        "score": 0.487,
+        "tech": 0.6,
+        "biz": 0.222
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.413,
+        "tech": 0.4,
+        "biz": 0.444
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "team": "Studio Media Algorithms",
+    "job_title": "Machine Learning Scientist (L4) - Content & Studio",
+    "current_resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "recommended": "02_Enterprise_Cloud_Big_Data_Engineering",
+    "total_score": 0.45,
+    "tech_score": 0.5,
+    "biz_score": 0.333,
+    "matched_tech": [
+      "ml",
+      "python"
+    ],
+    "jd_tech_keywords": [
+      "machine learning",
+      "ml",
+      "python",
+      "pytorch"
+    ],
+    "jd_biz_keywords": [
+      "cloud",
+      "infrastructure",
+      "machine learning",
+      "ml",
+      "quality",
+      "search"
+    ],
+    "missing_tech": [
+      "machine learning",
+      "pytorch"
+    ],
+    "top3": [
+      {
+        "resume": "02_Enterprise_Cloud_Big_Data_Engineering",
+        "score": 0.45,
+        "tech": 0.5,
+        "biz": 0.333
+      },
+      {
+        "resume": "04_ML_AI_Research_Infrastructure_Engineer",
+        "score": 0.4,
+        "tech": 0.5,
+        "biz": 0.167
+      },
+      {
+        "resume": "08_Cloud-Native_Platform_Infrastructure_Engineer",
+        "score": 0.275,
+        "tech": 0.25,
+        "biz": 0.333
+      }
+    ]
+  }
+]

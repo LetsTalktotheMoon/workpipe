@@ -1,0 +1,71 @@
+{
+  "job_id": "699ca92c81476f6176b53dfe",
+  "company_name": "Google",
+  "company_slug": "google",
+  "publish_time": "2026-04-08 06:43:10",
+  "publish_date": "2026-04-08",
+  "title": "Engineering Analyst, Cloud AI Abuse",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.google.com/jobs/results/106975155732783814-engineering-analyst/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
+  "source_kind": "local_unified_pipeline",
+  "route_mode": "reuse",
+  "seed_id": "seed_google_geo_aiml_anchor",
+  "seed_label": "Google Workspace/Geo AIML Anchor",
+  "parent_seed_id": "seed_google_geo_aiml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_google_geo_aiml_anchor",
+    "label": "Google Workspace/Geo AIML Anchor",
+    "route_score": 1.0,
+    "base_route_score": 0.855,
+    "required_coverage": 1.0,
+    "core_coverage": 1.0,
+    "preferred_coverage": 0.0,
+    "role_score": 1.0,
+    "domain_score": 0.875,
+    "seniority_score": 0.6,
+    "title_score": 0.2,
+    "same_company": true,
+    "seed_company_name": "Google",
+    "seed_source_job_id": "69b2b893ad360c0340a79c07",
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_supply_eta_service"
+    ]
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699ca92c81476f6176b53dfe/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-08T19:16:15",
+  "review": {},
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

@@ -1,0 +1,106 @@
+{
+  "job_id": "69cfdfd9cfdc6132f9436518",
+  "company_name": "Charles Schwab",
+  "company_slug": "charles-schwab",
+  "publish_time": "2026-04-03 10:42:17",
+  "publish_date": "2026-04-03",
+  "title": "Java Developer - Workplace Services Engineering",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.schwabjobs.com/job/-/-/33727/93511007184?iis=jobright&iisn=jobright&utm_source=jobright&utm_medium=job_posting&utm_campaign=Annual_Media&utm_content=social_media&utm_term=383638107&ss=paid",
+  "source_kind": "seed_source",
+  "route_mode": "seed_source",
+  "seed_id": "seed_backend_java_spring_api",
+  "seed_label": "Backend Java Spring API",
+  "parent_seed_id": "seed_backend_java_spring_api",
+  "top_candidate": {
+    "same_company": true,
+    "seed_company_name": "Charles Schwab",
+    "seed_source_job_id": "69cfdfd9cfdc6132f9436518",
+    "company_anchor": true,
+    "project_ids": []
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/charles-schwab/2026-04-03/69cfdfd9cfdc6132f9436518/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/charles-schwab/2026-04-03/69cfdfd9cfdc6132f9436518/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/charles-schwab/2026-04-03/69cfdfd9cfdc6132f9436518",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cfdfd9cfdc6132f9436518",
+  "generated_at": "2026-04-05T15:34:28",
+  "review": {
+    "jd_id": "candidate_backend_java_spring_api",
+    "company": "Charles Schwab",
+    "title": "Java Developer - Workplace Services Engineering",
+    "role_type": "swe_backend",
+    "verdict": "pass",
+    "final_score": 94.3,
+    "revised": false,
+    "weighted_score": 94.3,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    }
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:15",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

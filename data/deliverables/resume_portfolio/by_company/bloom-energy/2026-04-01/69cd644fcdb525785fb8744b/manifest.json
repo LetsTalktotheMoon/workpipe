@@ -1,0 +1,103 @@
+{
+  "job_id": "69cd644fcdb525785fb8744b",
+  "company_name": "Bloom Energy",
+  "company_slug": "bloom-energy",
+  "publish_time": "2026-04-01 13:30:39",
+  "publish_date": "2026-04-01",
+  "title": "MES Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/Newark-Delaware/MES-Software-Engineer_JR-21794?source=LinkedIn",
+  "source_kind": "seed_validation",
+  "route_mode": "retarget",
+  "seed_id": "seed_zillow_agentic_mle",
+  "seed_label": "Zillow Agentic MLE",
+  "parent_seed_id": "seed_zillow_agentic_mle",
+  "top_candidate": {
+    "route_score": 0.785
+  },
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-01/69cd644fcdb525785fb8744b",
+  "generated_at": "2026-04-05T14:00:55",
+  "review": {
+    "jd_id": "69cd644fcdb525785fb8744b",
+    "company": "Bloom Energy",
+    "title": "MES Software Engineer",
+    "role_type": "swe_backend",
+    "verdict": "pass",
+    "seed_label": "Zillow Agentic MLE",
+    "route_mode": "retarget",
+    "final_score": 94.0,
+    "revised": false,
+    "weighted_score": 94.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    }
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:13",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

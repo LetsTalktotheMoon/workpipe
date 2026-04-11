@@ -1,0 +1,108 @@
+{
+  "seed_id": "seed_itential_generalist_algorithms",
+  "label": "Itential Generalist Algorithms",
+  "role_family": "generalist",
+  "seniority": "mid_senior",
+  "validated_score": 94.5,
+  "company_name": "Itential",
+  "source_job_id": "",
+  "company_anchor": false,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_itential_generalist_algorithms/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_itential_generalist_algorithms",
+  "source_artifact_dir": "",
+  "derived_count": 8,
+  "derived_jobs": [
+    {
+      "job_id": "696978a0f25a380066981f0a",
+      "company_name": "Adobe",
+      "publish_time": "2026-04-08 04:13:18",
+      "title": "Software Developer Engineer 4",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d44e5e891d7b11cfcf930b",
+      "company_name": "Lyft",
+      "publish_time": "2026-04-06 19:22:54",
+      "title": "Software Engineer, Server",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d41bc054f00230c6d2e008",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-06 15:46:56",
+      "title": "Software Development Engineer, Consumer Domains",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "690bd915221b890c277f90de",
+      "company_name": "Adobe",
+      "publish_time": "2026-04-06 04:28:27",
+      "title": "Software Development Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-06/690bd915221b890c277f90de",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-06/690bd915221b890c277f90de/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d0841d891d7b11cfcdc373",
+      "company_name": "Itential",
+      "publish_time": "2026-04-04 12:20:26",
+      "title": "Software Development Engineer II",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "697ca3113f57a33569664fd3",
+      "company_name": "Twitch",
+      "publish_time": "2026-04-04 10:14:47",
+      "title": "Software Engineer, Creator Sponsorships",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d01362cfdc6132f94381e2",
+      "company_name": "Gowan Company",
+      "publish_time": "2026-04-03 14:22:10",
+      "title": "Forward Deployed Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cdd45054f00230c6cf6d4d",
+      "company_name": "JPMorganChase",
+      "publish_time": "2026-04-01 21:28:32",
+      "title": "Software Engineer [Multiple Positions Available]",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-01/69cdd45054f00230c6cf6d4d",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-01/69cdd45054f00230c6cf6d4d/resume.md",
+      "resume_pdf": ""
+    }
+  ]
+}

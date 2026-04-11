@@ -1,0 +1,70 @@
+{
+  "weighted_score": 82.0,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 1,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "补出真实的 Scala 与 model deployment 证据，或者删除所有没有正文支撑的相关主张。",
+    "收缩 TikTok 实习段的 scope 和量化口径，只保留可清楚归因的核心贡献，并加上团队维护/参与式限定语。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 7.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 9.0,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 82.0,
+  "verdict": "fail",
+  "seed_label": "ByteDance ML Grad",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "补出真实的 Scala 与 model deployment 证据，或者删除所有没有正文支撑的相关主张。",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:56",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

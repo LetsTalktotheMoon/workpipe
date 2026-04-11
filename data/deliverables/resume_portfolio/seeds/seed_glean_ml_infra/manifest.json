@@ -1,0 +1,64 @@
+{
+  "seed_id": "seed_glean_ml_infra",
+  "label": "Glean ML Infrastructure",
+  "role_family": "ai_ml_swe",
+  "seniority": "mid_senior",
+  "validated_score": 94.0,
+  "company_name": "Glean",
+  "source_job_id": "689aa14ffaa4e875e825a5de",
+  "company_anchor": true,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_glean_ml_infra/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_glean_ml_infra",
+  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/glean/2026-04-04/689aa14ffaa4e875e825a5de",
+  "derived_count": 4,
+  "derived_jobs": [
+    {
+      "job_id": "689aa14ffaa4e875e825a5de",
+      "company_name": "Glean",
+      "publish_time": "2026-04-04 11:50:36",
+      "title": "Machine Learning Engineer, Infrastructure",
+      "source_kind": "seed_source",
+      "route_mode": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/glean/2026-04-04/689aa14ffaa4e875e825a5de",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/glean/2026-04-04/689aa14ffaa4e875e825a5de/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d084e154f00230c6d12ef5",
+      "company_name": "Uber",
+      "publish_time": "2026-04-03 22:26:25",
+      "title": "Applied Scientist - Marketplace Fairness",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b36777a8ac8e70ff679ed8",
+      "company_name": "Prime Video & Amazon MGM Studios",
+      "publish_time": "2026-04-03 09:00:08",
+      "title": "Software Development Engineer - AI, Prime Video - Personalization and Discovery Science",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "695c9f975e4962051b59cd4a",
+      "company_name": "Abby Care",
+      "publish_time": "2026-04-01 05:42:56",
+      "title": "Applied AI Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

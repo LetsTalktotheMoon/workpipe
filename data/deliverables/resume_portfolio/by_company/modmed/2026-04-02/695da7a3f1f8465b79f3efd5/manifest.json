@@ -1,0 +1,113 @@
+{
+  "job_id": "695da7a3f1f8465b79f3efd5",
+  "company_name": "ModMed",
+  "company_slug": "modmed",
+  "publish_time": "2026-04-02 05:28:12",
+  "publish_date": "2026-04-02",
+  "title": "FullStack Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://modmed.wd501.myworkdayjobs.com/ModMed12/job/Boca-Raton-FL/FullStack-Software-Engineer-2_R3710",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_egen_fullstack_node",
+  "seed_label": "Egen Fullstack Node",
+  "parent_seed_id": "seed_egen_fullstack_node",
+  "top_candidate": {
+    "seed_id": "seed_egen_fullstack_node",
+    "label": "Egen Fullstack Node",
+    "route_score": 0.861,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "php"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Egen",
+    "seed_source_job_id": "69cda26c398fb071abf7a98d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/modmed/2026-04-02/695da7a3f1f8465b79f3efd5/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/modmed/2026-04-02/695da7a3f1f8465b79f3efd5/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/modmed/2026-04-02/695da7a3f1f8465b79f3efd5",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/695da7a3f1f8465b79f3efd5",
+  "generated_at": "2026-04-06T21:49:46",
+  "review": {
+    "weighted_score": 94.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Remove bold formatting from generic modifiers and reserve emphasis for technologies, metrics, and role labels.",
+      "Add one healthcare-adjacent sentence or bullet so the transition story feels specific to ModMed's product context."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.0,
+    "verdict": "pass",
+    "seed_label": "Egen Fullstack Node",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:35",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

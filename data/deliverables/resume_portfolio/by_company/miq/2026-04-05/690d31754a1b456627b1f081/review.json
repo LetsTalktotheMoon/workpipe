@@ -1,0 +1,77 @@
+{
+  "weighted_score": 78.1,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 1,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add `Rails` to `## Skills` so every technical stack used in the body has a declared source.",
+    "Remove bolding from qualifiers like `team-maintained`, `internal`, and `team-owned`; reserve bold for tech terms and numbers only."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 4.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 8.6,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 8.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 8.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.3,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.1,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.6,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 78.1,
+  "verdict": "fail",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Make two surgical edits only: first, add `Rails` to the `## Skills` section under `Programming` (or another existing category) because it already appears in the TikTok bullets; second, strip bold formatting from non-technical modifiers such as `team-maintained`, `internal`, and `team-owned` throughout the summary and experience bullets, while keeping all technical terms and quantitative figures bolded. No other content needs to be rewritten for this pass.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:54:53",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 77.1,
+  "previous_verdict": "fail"
+}

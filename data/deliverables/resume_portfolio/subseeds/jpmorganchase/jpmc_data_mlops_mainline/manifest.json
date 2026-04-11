@@ -1,0 +1,396 @@
+{
+  "subseed_id": "jpmc_data_mlops_mainline",
+  "company_name": "JPMorganChase",
+  "company_slug": "jpmorganchase",
+  "label": "JPMC Data Platform / MLOps",
+  "kind": "mainline",
+  "status": "active",
+  "primary_seed_id": "seed_jpmc_data_mlops_anchor",
+  "seed_ids": [
+    "seed_jpmc_data_mlops_anchor"
+  ],
+  "candidate_job_ids": [],
+  "target_role_families": [
+    "data_platform",
+    "data_science",
+    "ai_ml_swe",
+    "pm"
+  ],
+  "notes": "Current JPMC mainline for data platform, MLOps, and analytics-hybrid variants.",
+  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/jpmorganchase/jpmc_data_mlops_mainline",
+  "seed_dirs": [
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_jpmc_data_mlops_anchor"
+  ],
+  "derived_count": 41,
+  "derived_jobs": [
+    {
+      "job_id": "699e2a14e0bddb6acacd84d1",
+      "title": "Data Engineer (Python/Spark)",
+      "publish_time": "2026-04-08 05:31:50",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d6104ba5c9786095e4919f",
+      "title": "Software Engineer III - Java Backend Engineer (API Marketplace)",
+      "publish_time": "2026-04-08 03:22:35",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d6104ba5c9786095e4919f",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d60df8706f771673ba931b",
+      "title": "Backend Java Software Engineer III",
+      "publish_time": "2026-04-08 03:12:40",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d400b9e63cea7a8b6556ce",
+      "title": "Data Science Senior Associate - Card Data Analytics",
+      "publish_time": "2026-04-06 13:51:37",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-06/69d400b9e63cea7a8b6556ce",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3f351cfdc6132f94560b7",
+      "title": "Data Scientist, Center for Economic Intelligence - Sr. Associate",
+      "publish_time": "2026-04-06 12:54:25",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3f322e63cea7a8b6550d5",
+      "title": "Software Engineer",
+      "publish_time": "2026-04-06 12:53:38",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-06/69d3f322e63cea7a8b6550d5",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3eb5be63cea7a8b654ccb",
+      "title": "Senior Software Engineer - AI Experiment Tracking",
+      "publish_time": "2026-04-06 12:20:27",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/red-hat/2026-04-06/69d3eb5be63cea7a8b654ccb",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3e0f8cdb525785fbc3d5a",
+      "title": "Data Engineer I (US Remote)",
+      "publish_time": "2026-04-06 11:36:08",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3ca41cfdc6132f9453dac",
+      "title": "AI Software Development Engineer",
+      "publish_time": "2026-04-06 09:59:13",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-06/69d3ca41cfdc6132f9453dac",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69c8a0afb773006330b804f6",
+      "title": "Business Modeling - Applied AI ML Senior Associate",
+      "publish_time": "2026-04-06 05:09:54",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d35cfa891d7b11cfcf07b1",
+      "title": "Senior Data Scientist",
+      "publish_time": "2026-04-06 02:12:58",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/takedapharmaceutical-nordics-ab/2026-04-06/69d35cfa891d7b11cfcf07b1",
+      "is_outlier": false
+    },
+    {
+      "job_id": "699931c9e0bddb6acac83f00",
+      "title": "Data Scientist - Quantitative Trading",
+      "publish_time": "2026-04-05 10:31:38",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/totalenergies/2026-04-05/699931c9e0bddb6acac83f00",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69a65e292c0d8b0f5cd07dbf",
+      "title": "Data Engineer",
+      "publish_time": "2026-04-05 07:35:27",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/teza-technologies/2026-04-05/69a65e292c0d8b0f5cd07dbf",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d189eb366bb95ba5526fce",
+      "title": "Data Scientist",
+      "publish_time": "2026-04-04 18:50:17",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/medidata-solutions/2026-04-04/69d189eb366bb95ba5526fce",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69339a06764507023d1b73e2",
+      "title": "Analytics Engineer, GTM Data Infrastructure",
+      "publish_time": "2026-04-04 05:17:04",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69a272150da45516f16bbcf8",
+      "title": "CPU Core Data Analytics Engineer",
+      "publish_time": "2026-04-04 05:16:51",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d075c9cfdc6132f943b769",
+      "title": "Data Software Engineer III - ML",
+      "publish_time": "2026-04-03 21:22:01",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d075c9366bb95ba551e7fe",
+      "title": "Data Software Engineer II",
+      "publish_time": "2026-04-03 21:22:01",
+      "route_mode": "seed_source",
+      "source_kind": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d075c9366bb95ba551e7fe",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d0734e0b098b7a6707983b",
+      "title": "Software Engineer III- Mainframe Developer",
+      "publish_time": "2026-04-03 21:11:26",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d07328366bb95ba551e7a2",
+      "title": "Data Scientist Associate - Payments",
+      "publish_time": "2026-04-03 21:10:48",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d04a79cfdc6132f943a52e",
+      "title": "Data Engineer",
+      "publish_time": "2026-04-03 18:17:13",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zensar-technologies/2026-04-03/69d04a79cfdc6132f943a52e",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d04616366bb95ba551cf5b",
+      "title": "Data Owner Sr. Associate",
+      "publish_time": "2026-04-03 17:58:30",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d001b7366bb95ba551a7ef",
+      "title": "Software Engineer II - Splunk/CRIBL",
+      "publish_time": "2026-04-03 13:06:47",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d0019acdb525785fba682a",
+      "title": "Digital Analytics & Insights-Senior Associate",
+      "publish_time": "2026-04-03 13:06:18",
+      "route_mode": "retarget",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d0019acdb525785fba682a",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6996555981476f6176ae1e6d",
+      "title": "Data Technology DMX Liquidity Data Engineer",
+      "publish_time": "2026-04-03 11:29:36",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/msci-inc/2026-04-03/6996555981476f6176ae1e6d",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfe88d891d7b11cfcd6b08",
+      "title": "Data Engineer",
+      "publish_time": "2026-04-03 11:19:25",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/aderant/2026-04-03/69cfe88d891d7b11cfcd6b08",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfe85e366bb95ba55197d9",
+      "title": "Data Scientist (Full-Time Role)",
+      "publish_time": "2026-04-03 11:18:38",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/infojini-inc/2026-04-03/69cfe85e366bb95ba55197d9",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cff888cfdc6132f9437438",
+      "title": "Data Scientist",
+      "publish_time": "2026-04-03 10:11:01",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nlb-services/2026-04-03/69cff888cfdc6132f9437438",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfd4aacdb525785fba4ec1",
+      "title": "Data Software Engineer III - ML",
+      "publish_time": "2026-04-03 09:54:34",
+      "route_mode": "new_seed",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69cfd4aacdb525785fba4ec1",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfd4a80b098b7a67073ea1",
+      "title": "Software Engineer III- Mainframe Developer",
+      "publish_time": "2026-04-03 09:54:32",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfcb6754f00230c6d0c6cc",
+      "title": "Data Scientist Associate - Payments",
+      "publish_time": "2026-04-03 09:15:03",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfc0ee366bb95ba55189f7",
+      "title": "Database Engineer",
+      "publish_time": "2026-04-03 08:30:22",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cf8fbecfdc6132f94345a1",
+      "title": "Data Analyst II",
+      "publish_time": "2026-04-03 05:00:30",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/generac/2026-04-03/69cf8fbecfdc6132f94345a1",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cf5106891d7b11cfcd2784",
+      "title": "Data Scientist Associate - Payments",
+      "publish_time": "2026-04-03 00:32:54",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cf10f1398fb071abf8c27c",
+      "title": "GEOINT Innovation Data Scientist",
+      "publish_time": "2026-04-02 19:59:29",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/leidos/2026-04-02/69cf10f1398fb071abf8c27c",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cf0e90cdb525785fb9e330",
+      "title": "Data Software Engineer II",
+      "publish_time": "2026-04-02 19:49:20",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ab07427e1fab39d38295a5",
+      "title": "Data Platform Engineer",
+      "publish_time": "2026-04-02 18:23:39",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cea6facdb525785fb99d09",
+      "title": "Software Developer",
+      "publish_time": "2026-04-02 12:27:22",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69a3ded90da45516f16cd050",
+      "title": "Data Scientist II, Interventions",
+      "publish_time": "2026-04-02 07:16:01",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/root-inc/2026-04-02/69a3ded90da45516f16cd050",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69c482876f4f855eeda7180c",
+      "title": "Data Scientist",
+      "publish_time": "2026-04-02 01:39:13",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tubi/2026-04-02/69c482876f4f855eeda7180c",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cc936c366bb95ba54f3134",
+      "title": "Data Scientist",
+      "publish_time": "2026-03-31 19:33:35",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/exl/2026-03-31/69cc936c366bb95ba54f3134",
+      "is_outlier": false
+    }
+  ]
+}

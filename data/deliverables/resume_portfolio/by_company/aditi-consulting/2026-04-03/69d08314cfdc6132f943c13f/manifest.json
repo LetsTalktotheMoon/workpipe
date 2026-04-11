@@ -1,0 +1,129 @@
+{
+  "job_id": "69d08314cfdc6132f943c13f",
+  "company_name": "Aditi Consulting",
+  "company_slug": "aditi-consulting",
+  "publish_time": "2026-04-03 19:02:31",
+  "publish_date": "2026-04-03",
+  "title": "Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www1.jobdiva.com/portal/?a=lmjdnwstygivzwlr4davpil0fjeac503f5em529l58yp19ouif1l5b73opy9iwzs#/jobs/27916170",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_egen_fullstack_node",
+  "seed_label": "Egen Fullstack Node",
+  "parent_seed_id": "seed_egen_fullstack_node",
+  "top_candidate": {
+    "seed_id": "seed_egen_fullstack_node",
+    "label": "Egen Fullstack Node",
+    "route_score": 0.83,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "llm"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Egen",
+    "seed_source_job_id": "69cda26c398fb071abf7a98d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/aditi-consulting/2026-04-03/69d08314cfdc6132f943c13f/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/aditi-consulting/2026-04-03/69d08314cfdc6132f943c13f/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/aditi-consulting/2026-04-03/69d08314cfdc6132f943c13f",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d08314cfdc6132f943c13f",
+  "generated_at": "2026-04-06T21:58:31",
+  "review": {
+    "weighted_score": 92.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "把 Summary 第3句从 `Collaboration Style` 改成高价值认知标题，并突出系统判断、取舍和 rollout 验证。",
+      "保留现有技术栈不删减，但让最强的 senior 信号更多落在业务影响与决策表达上，避免协作叙述稀释核心卖点。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.0,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 92.1,
+    "verdict": "conditional_pass",
+    "seed_label": "Egen Fullstack Node",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "仅需优先修改 `## Professional Summary` 的第3句：将 `**Collaboration Style:** Experienced working across product, frontend, backend, and analytics partners in Agile and **Scrum** environments, with additional exposure to **Scala**-based service integrations and structured rollout validation.` 改写为以高价值认知为标题的句子，例如 `**Systems Judgment:** ...`。新句子应明确写出你如何做 tradeoff、如何验证 rollout、如何协调跨职能 stakeholder，以及如何把 Scala/service integration/validation 变成可审查的决策证据。其余不可变字段、Skills 覆盖、经验顺序、项目结构和量化结果保持不变。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T16:44:59",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": true,
+    "normalize_changes": [
+      "normalized_go_achievement",
+      "normalized_didi_scope_note"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.6,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:07",
+  "repair_changes": [
+    "normalized_go_achievement"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:44:59",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "review_final_score": 92.1,
+  "review_verdict": "conditional_pass"
+}

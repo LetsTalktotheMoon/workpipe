@@ -1,0 +1,72 @@
+{
+  "weighted_score": 90.9,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Networking 显式写进 Skills，并把网络相关经历改写得更像网络自动化而不是泛化的 protocol/telemetry 验证。",
+    "收紧 DiDi 经验的 ownership 叙事，避免 Senior Data Analyst 标题下的 Java 服务交付看起来像 scope 过大。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.7,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.8,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 90.9,
+  "verdict": "conditional_pass",
+  "seed_label": "PayPal Java Backend",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "把 Networking 显式写进 Skills，并把网络相关经历改写得更像网络自动化而不是泛化的 protocol/telemetry 验证。",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:29",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

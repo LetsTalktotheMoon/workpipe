@@ -1,0 +1,111 @@
+{
+  "job_id": "69b3356fad360c0340a85b5f",
+  "company_name": "Citi",
+  "company_slug": "citi",
+  "publish_time": "2026-04-03 13:12:11",
+  "publish_date": "2026-04-03",
+  "title": "Digital S/W Eng Sr Analyst  - Assistant Vice President",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.citi.com/job/-/-/287/92680428224?source=APPLICANT_SOURCE-3-354&utm_medium=job_posting&utm_campaign=nam_experienced&utm_content=social_media&utm_term=393702677&ss=paid&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_cisco_backend_api",
+  "seed_label": "Cisco Backend API",
+  "parent_seed_id": "seed_cisco_backend_api",
+  "top_candidate": {
+    "seed_id": "seed_cisco_backend_api",
+    "label": "Cisco Backend API",
+    "route_score": 0.832,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "linux",
+      "spring"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Cisco",
+    "seed_source_job_id": "69d07b90cfdc6132f943be1d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69b3356fad360c0340a85b5f",
+  "generated_at": "2026-04-07T00:53:26",
+  "review": {
+    "weighted_score": 96.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 96.0,
+    "verdict": "pass",
+    "seed_label": "Cisco Backend API",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:17",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

@@ -1,0 +1,886 @@
+{
+  "experiment_type": "small_flow_real_downstream_validation",
+  "sample_size_requested": 2,
+  "sample_size_executed": 2,
+  "business_metrics": [
+    "writer token consumption",
+    "reviewer token consumption",
+    "total processing time",
+    "rewrite rounds",
+    "review pass rate",
+    "final score"
+  ],
+  "execution_summary": {
+    "no_starter": {
+      "sample_count": 2,
+      "avg_final_score": 94.4,
+      "pass_rate": 1.0,
+      "avg_rewrite_rounds": 0.5,
+      "avg_total_tokens_est": 9072.0,
+      "avg_elapsed_seconds": 349.15
+    },
+    "old_match_anchor": {
+      "sample_count": 2,
+      "avg_final_score": 94.7,
+      "pass_rate": 1.0,
+      "avg_rewrite_rounds": 0.5,
+      "avg_total_tokens_est": 11372.5,
+      "avg_elapsed_seconds": 154.5
+    },
+    "new_dual_channel_anchor": {
+      "sample_count": 2,
+      "avg_final_score": 94.45,
+      "pass_rate": 1.0,
+      "avg_rewrite_rounds": 1.0,
+      "avg_total_tokens_est": 13586.0,
+      "avg_elapsed_seconds": 248.82
+    }
+  },
+  "results": [
+    {
+      "job_id": "69d8982eb861c42857c4b9d2",
+      "company_name": "Color",
+      "title": "New Grad Software Engineer",
+      "route_decision": {
+        "job": {
+          "job_id": "69d8982eb861c42857c4b9d2",
+          "company_name": "Color",
+          "company_key": "color",
+          "title": "New Grad Software Engineer",
+          "seniority": "entry",
+          "role_family": "generalist",
+          "taxonomy_v3": "Engineering and Development, Software Engineering, General Software Engineer",
+          "publish_time": "2026-04-10 01:26:54",
+          "apply_link": "https://app.careerpuck.com/job-board/color-health/job/6c7f692a-848b-41a4-b79b-4a9bba3aeb6d",
+          "core_skills": [
+            "machine learning",
+            "python"
+          ],
+          "required_skills": [
+            "aws",
+            "python",
+            "react",
+            "sql"
+          ],
+          "preferred_skills": [
+            "llm"
+          ],
+          "domains": [
+            "ai",
+            "automation",
+            "backend",
+            "billing",
+            "cloud",
+            "developer-tools",
+            "frontend",
+            "genai",
+            "healthcare",
+            "infrastructure",
+            "internal-tools",
+            "observability",
+            "platform",
+            "privacy",
+            "productivity",
+            "systems",
+            "testing",
+            "web"
+          ]
+        },
+        "route_mode": "retarget",
+        "top_candidate": {
+          "seed_id": "seed_aws_generalist_embedded",
+          "label": "AWS Generalist Embedded",
+          "route_score": 0.879,
+          "base_route_score": 0.879,
+          "required_coverage": 0.8,
+          "core_coverage": 1.0,
+          "preferred_coverage": 1.0,
+          "role_score": 1.0,
+          "domain_score": 0.722,
+          "seniority_score": 0.75,
+          "title_score": 1.0,
+          "same_company": false,
+          "seed_company_name": "Amazon Web Services (AWS)",
+          "seed_source_job_id": "",
+          "company_anchor": false,
+          "missing_required": [
+            "react"
+          ],
+          "project_ids": [
+            "tiktok_security_retrieval_console",
+            "didi_pricing_rules_migration"
+          ]
+        },
+        "top_candidates": [
+          {
+            "seed_id": "seed_aws_generalist_embedded",
+            "label": "AWS Generalist Embedded",
+            "route_score": 0.879,
+            "base_route_score": 0.879,
+            "required_coverage": 0.8,
+            "core_coverage": 1.0,
+            "preferred_coverage": 1.0,
+            "role_score": 1.0,
+            "domain_score": 0.722,
+            "seniority_score": 0.75,
+            "title_score": 1.0,
+            "same_company": false,
+            "seed_company_name": "Amazon Web Services (AWS)",
+            "seed_source_job_id": "",
+            "company_anchor": false,
+            "missing_required": [
+              "react"
+            ],
+            "project_ids": [
+              "tiktok_security_retrieval_console",
+              "didi_pricing_rules_migration"
+            ]
+          },
+          {
+            "seed_id": "seed_generalist_dotnet_enterprise",
+            "label": "Generalist DotNet Enterprise",
+            "route_score": 0.717,
+            "base_route_score": 0.717,
+            "required_coverage": 0.8,
+            "core_coverage": 0.5,
+            "preferred_coverage": 0.0,
+            "role_score": 1.0,
+            "domain_score": 0.611,
+            "seniority_score": 1.0,
+            "title_score": 0.45,
+            "same_company": false,
+            "seed_company_name": "Spok",
+            "seed_source_job_id": "69cfdc7b891d7b11cfcd677c",
+            "company_anchor": true,
+            "missing_required": [
+              "machine learning"
+            ],
+            "project_ids": []
+          },
+          {
+            "seed_id": "seed_zip_backend_web",
+            "label": "Zip Backend Web",
+            "route_score": 0.699,
+            "base_route_score": 0.699,
+            "required_coverage": 0.8,
+            "core_coverage": 0.5,
+            "preferred_coverage": 0.0,
+            "role_score": 0.88,
+            "domain_score": 0.778,
+            "seniority_score": 0.75,
+            "title_score": 0.45,
+            "same_company": false,
+            "seed_company_name": "Zip",
+            "seed_source_job_id": "",
+            "company_anchor": false,
+            "missing_required": [
+              "machine learning"
+            ],
+            "project_ids": []
+          },
+          {
+            "seed_id": "seed_codex_google_fullstack",
+            "label": "Google Full Stack",
+            "route_score": 0.697,
+            "base_route_score": 0.697,
+            "required_coverage": 0.8,
+            "core_coverage": 1.0,
+            "preferred_coverage": 0.0,
+            "role_score": 0.7,
+            "domain_score": 0.722,
+            "seniority_score": 0.75,
+            "title_score": 0.0,
+            "same_company": false,
+            "seed_company_name": "Google",
+            "seed_source_job_id": "",
+            "company_anchor": false,
+            "missing_required": [
+              "react"
+            ],
+            "project_ids": [
+              "tiktok_security_retrieval_console",
+              "didi_campaign_ops_console"
+            ]
+          },
+          {
+            "seed_id": "seed_cisco_backend_api",
+            "label": "Cisco Backend API",
+            "route_score": 0.694,
+            "base_route_score": 0.694,
+            "required_coverage": 0.8,
+            "core_coverage": 0.5,
+            "preferred_coverage": 0.0,
+            "role_score": 0.88,
+            "domain_score": 0.722,
+            "seniority_score": 0.75,
+            "title_score": 0.45,
+            "same_company": false,
+            "seed_company_name": "Cisco",
+            "seed_source_job_id": "69d07b90cfdc6132f943be1d",
+            "company_anchor": true,
+            "missing_required": [
+              "machine learning"
+            ],
+            "project_ids": []
+          }
+        ],
+        "decision_reason": "Top seed AWS Generalist Embedded is directionally compatible but misses some required emphasis: react.",
+        "should_generate": true
+      },
+      "selector_payload": {
+        "query_id": "69d8982eb861c42857c4b9d2",
+        "semantic_best_anchor": {
+          "job_id": "69b17630d04c69566c73c128",
+          "company_name": "Suffolk Construction",
+          "title": "AI Engineer",
+          "source_kind": "portfolio_history",
+          "score": 0.633,
+          "reuse_readiness": 0.81,
+          "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+          "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+          "has_resume_artifact": true,
+          "explanation": [
+            "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+            "Hard-requirement coverage is 0.80.",
+            "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+            "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+          ],
+          "missing_critical_units": [
+            "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+            "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+          ]
+        },
+        "semantic_top_k": [
+          {
+            "job_id": "69b17630d04c69566c73c128",
+            "company_name": "Suffolk Construction",
+            "title": "AI Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.633,
+            "reuse_readiness": 0.81,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+              "Hard-requirement coverage is 0.80.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ]
+          },
+          {
+            "job_id": "69d046190b098b7a67077f8c",
+            "company_name": "JPMorganChase",
+            "title": "Software Engineer II - Fullstack - Python/React",
+            "source_kind": "portfolio_history",
+            "score": 0.5957,
+            "reuse_readiness": 0.7722,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d046190b098b7a67077f8c",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d046190b098b7a67077f8c/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> backend_generalist/mid_senior.",
+              "Hard-requirement coverage is 0.83.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => RESP_SOFTWARE_DEVELOPMENT | Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ]
+          },
+          {
+            "job_id": "69d854e1869c7e25d8594e35",
+            "company_name": "Tesla",
+            "title": "Data Algorithm Engineer",
+            "source_kind": "scraped",
+            "score": 0.5773,
+            "reuse_readiness": 0.7534,
+            "artifact_dir": "",
+            "resume_path": "",
+            "has_resume_artifact": false,
+            "explanation": [
+              "Role/seniority: generalist/entry -> data_platform/senior.",
+              "Hard-requirement coverage is 0.85.",
+              "Best aligned units: Graduated (or expect to graduate) between May 2025 and June 2026 with a Bachelor's degree in Computer Science or a related field => CONSTRAINT_COMPUTER_SCIENCE, CONSTRAINT_ENGINEERING_FIELD | Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ]
+          }
+        ],
+        "semantic_score": 0.633,
+        "semantic_explanation": [
+          "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+          "Hard-requirement coverage is 0.80.",
+          "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+          "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+        ],
+        "company_best_anchor": null,
+        "company_top_k": [],
+        "company_score": 0.0,
+        "company_explanation": [
+          "No same-company anchor found."
+        ],
+        "delta_summary": [
+          "Semantic-best is Suffolk Construction / AI Engineer, optimized for global requirement-unit reuse."
+        ],
+        "writer_input": {
+          "query_id": "69d8982eb861c42857c4b9d2",
+          "mode": "single_anchor",
+          "primary_anchor": {
+            "job_id": "69b17630d04c69566c73c128",
+            "company_name": "Suffolk Construction",
+            "title": "AI Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.633,
+            "reuse_readiness": 0.81,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+              "Hard-requirement coverage is 0.80.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ]
+          },
+          "continuity_anchor": {
+            "job_id": "69b17630d04c69566c73c128",
+            "company_name": "Suffolk Construction",
+            "title": "AI Engineer",
+            "source_kind": "portfolio_history",
+            "score": 0.633,
+            "reuse_readiness": 0.81,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+              "Hard-requirement coverage is 0.80.",
+              "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+              "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ],
+            "missing_critical_units": [
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+              "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+            ]
+          },
+          "guidance": [
+            "Semantic-best is Suffolk Construction / AI Engineer, optimized for global requirement-unit reuse."
+          ]
+        }
+      },
+      "flows": [
+        {
+          "mode": "no_starter",
+          "final_score": 94.6,
+          "passed": true,
+          "rewrite_rounds": 1,
+          "writer_prompt_tokens_est": 4782,
+          "writer_output_tokens_est": 2766,
+          "reviewer_prompt_tokens_est": 3135,
+          "reviewer_output_tokens_est": 260,
+          "total_tokens_est": 10943,
+          "elapsed_seconds": 263.46,
+          "anchor_summary": {
+            "strategy": "generate_from_scratch"
+          },
+          "error": ""
+        },
+        {
+          "mode": "old_match_anchor",
+          "final_score": 94.9,
+          "passed": true,
+          "rewrite_rounds": 1,
+          "writer_prompt_tokens_est": 6745,
+          "writer_output_tokens_est": 2959,
+          "reviewer_prompt_tokens_est": 3253,
+          "reviewer_output_tokens_est": 403,
+          "total_tokens_est": 13360,
+          "elapsed_seconds": 231.06,
+          "anchor_summary": {
+            "route_mode": "retarget",
+            "seed_label": "AWS Generalist Embedded",
+            "seed_id": "seed_aws_generalist_embedded"
+          },
+          "error": ""
+        },
+        {
+          "mode": "new_dual_channel_anchor",
+          "final_score": 94.0,
+          "passed": true,
+          "rewrite_rounds": 1,
+          "writer_prompt_tokens_est": 7391,
+          "writer_output_tokens_est": 2994,
+          "reviewer_prompt_tokens_est": 3237,
+          "reviewer_output_tokens_est": 261,
+          "total_tokens_est": 13883,
+          "elapsed_seconds": 341.66,
+          "anchor_summary": {
+            "semantic_best_anchor": {
+              "job_id": "69b17630d04c69566c73c128",
+              "company_name": "Suffolk Construction",
+              "title": "AI Engineer",
+              "source_kind": "portfolio_history",
+              "score": 0.633,
+              "reuse_readiness": 0.81,
+              "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+              "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+              "has_resume_artifact": true,
+              "explanation": [
+                "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+                "Hard-requirement coverage is 0.80.",
+                "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+                "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+              ],
+              "missing_critical_units": [
+                "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+                "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+              ]
+            },
+            "semantic_writer_anchor": {
+              "job_id": "69b17630d04c69566c73c128",
+              "company_name": "Suffolk Construction",
+              "title": "AI Engineer",
+              "source_kind": "portfolio_history",
+              "score": 0.633,
+              "reuse_readiness": 0.81,
+              "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128",
+              "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/suffolk-construction/2026-04-02/69b17630d04c69566c73c128/resume.md",
+              "has_resume_artifact": true,
+              "explanation": [
+                "Role/seniority: generalist/entry -> ai_ml_swe/senior.",
+                "Hard-requirement coverage is 0.80.",
+                "Best aligned units: Color Health is revolutionizing cancer care with the nation’s first Virtual Cancer Clinic, delivering high-quality, physician-led multidisciplinary care across all 50 states. They are hiring recent software engineering graduates to join teams at Color working on new programs and technology that will define the future of the company. => CONSTRAINT_ENGINEERING_FIELD | Software Engineering, AI Tools, Machine Learning, Web Development, Python => RESP_SOFTWARE_DEVELOPMENT | Software Engineering, AI Tools, Machine Learning, Web Development, Python => CONSTRAINT_ENGINEERING_FIELD",
+                "Critical gaps: You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+ | You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+              ],
+              "missing_critical_units": [
+                "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+",
+                "You have some familiarity with web development and with modern web stacks including Python, Django, AWS, SQL, REST APIs, React, HTML5, CSS3, and ES6+"
+              ]
+            },
+            "company_best_anchor": null
+          },
+          "error": ""
+        }
+      ]
+    },
+    {
+      "job_id": "69d88911b67cec4f9b09d144",
+      "company_name": "Centene Corporation",
+      "title": "Application Development Engineer II",
+      "route_decision": {
+        "job": {
+          "job_id": "69d88911b67cec4f9b09d144",
+          "company_name": "Centene Corporation",
+          "company_key": "centene corporation",
+          "title": "Application Development Engineer II",
+          "seniority": "mid_senior",
+          "role_family": "generalist",
+          "taxonomy_v3": "Engineering and Development, Software Engineering, General Software Engineer",
+          "publish_time": "2026-04-10 00:22:25",
+          "apply_link": "https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-TX/Application-Development-Engineer-II_1636344",
+          "core_skills": [
+            "unit testing"
+          ],
+          "required_skills": [],
+          "preferred_skills": [
+            "docker",
+            "kubernetes",
+            "react"
+          ],
+          "domains": [
+            "data",
+            "enterprise",
+            "frontend",
+            "healthcare",
+            "integration",
+            "testing"
+          ]
+        },
+        "route_mode": "reuse",
+        "top_candidate": {
+          "seed_id": "seed_generalist_dotnet_enterprise",
+          "label": "Generalist DotNet Enterprise",
+          "route_score": 0.965,
+          "base_route_score": 0.965,
+          "required_coverage": 1.0,
+          "core_coverage": 1.0,
+          "preferred_coverage": 1.0,
+          "role_score": 1.0,
+          "domain_score": 0.833,
+          "seniority_score": 0.6,
+          "title_score": 1.0,
+          "same_company": false,
+          "seed_company_name": "Spok",
+          "seed_source_job_id": "69cfdc7b891d7b11cfcd677c",
+          "company_anchor": true,
+          "missing_required": [],
+          "project_ids": []
+        },
+        "top_candidates": [
+          {
+            "seed_id": "seed_generalist_dotnet_enterprise",
+            "label": "Generalist DotNet Enterprise",
+            "route_score": 0.965,
+            "base_route_score": 0.965,
+            "required_coverage": 1.0,
+            "core_coverage": 1.0,
+            "preferred_coverage": 1.0,
+            "role_score": 1.0,
+            "domain_score": 0.833,
+            "seniority_score": 0.6,
+            "title_score": 1.0,
+            "same_company": false,
+            "seed_company_name": "Spok",
+            "seed_source_job_id": "69cfdc7b891d7b11cfcd677c",
+            "company_anchor": true,
+            "missing_required": [],
+            "project_ids": []
+          },
+          {
+            "seed_id": "seed_harbourvest_backend_data",
+            "label": "HarbourVest Backend Data",
+            "route_score": 0.423,
+            "base_route_score": 0.423,
+            "required_coverage": 0.0,
+            "core_coverage": 0.0,
+            "preferred_coverage": 0.667,
+            "role_score": 1.0,
+            "domain_score": 1.0,
+            "seniority_score": 1.0,
+            "title_score": 1.0,
+            "same_company": false,
+            "seed_company_name": "HarbourVest Partners",
+            "seed_source_job_id": "69cc8379891d7b11cfcae5f2",
+            "company_anchor": true,
+            "missing_required": [
+              "unit testing"
+            ],
+            "project_ids": []
+          },
+          {
+            "seed_id": "seed_cisco_backend_api",
+            "label": "Cisco Backend API",
+            "route_score": 0.42,
+            "base_route_score": 0.42,
+            "required_coverage": 0.0,
+            "core_coverage": 0.0,
+            "preferred_coverage": 1.0,
+            "role_score": 0.88,
+            "domain_score": 1.0,
+            "seniority_score": 1.0,
+            "title_score": 1.0,
+            "same_company": false,
+            "seed_company_name": "Cisco",
+            "seed_source_job_id": "69d07b90cfdc6132f943be1d",
+            "company_anchor": true,
+            "missing_required": [
+              "unit testing"
+            ],
+            "project_ids": []
+          },
+          {
+            "seed_id": "seed_microsoft_polyglot_generalist",
+            "label": "Microsoft Polyglot Generalist",
+            "route_score": 0.408,
+            "base_route_score": 0.408,
+            "required_coverage": 0.0,
+            "core_coverage": 0.0,
+            "preferred_coverage": 0.667,
+            "role_score": 1.0,
+            "domain_score": 0.833,
+            "seniority_score": 1.0,
+            "title_score": 1.0,
+            "same_company": false,
+            "seed_company_name": "Microsoft",
+            "seed_source_job_id": "",
+            "company_anchor": false,
+            "missing_required": [
+              "unit testing"
+            ],
+            "project_ids": [
+              "tiktok_security_retrieval_console",
+              "didi_campaign_ops_console"
+            ]
+          },
+          {
+            "seed_id": "seed_zip_backend_web",
+            "label": "Zip Backend Web",
+            "route_score": 0.405,
+            "base_route_score": 0.405,
+            "required_coverage": 0.0,
+            "core_coverage": 0.0,
+            "preferred_coverage": 1.0,
+            "role_score": 0.88,
+            "domain_score": 0.833,
+            "seniority_score": 1.0,
+            "title_score": 1.0,
+            "same_company": false,
+            "seed_company_name": "Zip",
+            "seed_source_job_id": "",
+            "company_anchor": false,
+            "missing_required": [
+              "unit testing"
+            ],
+            "project_ids": []
+          }
+        ],
+        "decision_reason": "Top seed Generalist DotNet Enterprise already covers required stack and role framing with only minor or no gaps.",
+        "should_generate": false
+      },
+      "selector_payload": {
+        "query_id": "69d88911b67cec4f9b09d144",
+        "semantic_best_anchor": {
+          "job_id": "69cfde74366bb95ba5519529",
+          "company_name": "HealthPartners",
+          "title": "Data Engineer Senior",
+          "source_kind": "portfolio_history",
+          "score": 0.5533,
+          "reuse_readiness": 0.7301,
+          "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529",
+          "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529/resume.md",
+          "has_resume_artifact": false,
+          "explanation": [
+            "Role/seniority: generalist/entry -> data_platform/senior.",
+            "Hard-requirement coverage is 0.88.",
+            "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_STATISTICS | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS"
+          ],
+          "missing_critical_units": []
+        },
+        "semantic_top_k": [
+          {
+            "job_id": "69cfde74366bb95ba5519529",
+            "company_name": "HealthPartners",
+            "title": "Data Engineer Senior",
+            "source_kind": "portfolio_history",
+            "score": 0.5533,
+            "reuse_readiness": 0.7301,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529/resume.md",
+            "has_resume_artifact": false,
+            "explanation": [
+              "Role/seniority: generalist/entry -> data_platform/senior.",
+              "Hard-requirement coverage is 0.88.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_STATISTICS | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS"
+            ],
+            "missing_critical_units": []
+          },
+          {
+            "job_id": "69d64081cfdc6132f946931f",
+            "company_name": "Amazon Web Services (AWS)",
+            "title": "Software Development Engineer II, Fleet Automation and Release Orchestration (FAROS)",
+            "source_kind": "portfolio_history",
+            "score": 0.5375,
+            "reuse_readiness": 0.7085,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d64081cfdc6132f946931f",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d64081cfdc6132f946931f/resume.md",
+            "has_resume_artifact": false,
+            "explanation": [
+              "Role/seniority: generalist/entry -> generalist/mid_senior.",
+              "Hard-requirement coverage is 0.85.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SYSTEM_DESIGN | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS",
+              "Critical gaps: A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ],
+            "missing_critical_units": [
+              "A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ]
+          },
+          {
+            "job_id": "69d640de52a5bf5800128045",
+            "company_name": "Amazon Web Services (AWS)",
+            "title": "Software Development Engineer II - Builder Experience, GenAI, GenAI, Codex",
+            "source_kind": "portfolio_history",
+            "score": 0.5375,
+            "reuse_readiness": 0.7085,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> backend_generalist/mid_senior.",
+              "Hard-requirement coverage is 0.85.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SYSTEM_DESIGN | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS",
+              "Critical gaps: A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ],
+            "missing_critical_units": [
+              "A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ]
+          }
+        ],
+        "semantic_score": 0.5533,
+        "semantic_explanation": [
+          "Role/seniority: generalist/entry -> data_platform/senior.",
+          "Hard-requirement coverage is 0.88.",
+          "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_STATISTICS | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS"
+        ],
+        "company_best_anchor": null,
+        "company_top_k": [],
+        "company_score": 0.0,
+        "company_explanation": [
+          "No same-company anchor found."
+        ],
+        "delta_summary": [
+          "Semantic-best is HealthPartners / Data Engineer Senior, optimized for global requirement-unit reuse."
+        ],
+        "writer_input": {
+          "query_id": "69d88911b67cec4f9b09d144",
+          "mode": "single_anchor",
+          "primary_anchor": {
+            "job_id": "69d640de52a5bf5800128045",
+            "company_name": "Amazon Web Services (AWS)",
+            "title": "Software Development Engineer II - Builder Experience, GenAI, GenAI, Codex",
+            "source_kind": "portfolio_history",
+            "score": 0.5375,
+            "reuse_readiness": 0.7085,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> backend_generalist/mid_senior.",
+              "Hard-requirement coverage is 0.85.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SYSTEM_DESIGN | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS",
+              "Critical gaps: A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ],
+            "missing_critical_units": [
+              "A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ]
+          },
+          "continuity_anchor": {
+            "job_id": "69d640de52a5bf5800128045",
+            "company_name": "Amazon Web Services (AWS)",
+            "title": "Software Development Engineer II - Builder Experience, GenAI, GenAI, Codex",
+            "source_kind": "portfolio_history",
+            "score": 0.5375,
+            "reuse_readiness": 0.7085,
+            "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
+            "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+            "has_resume_artifact": true,
+            "explanation": [
+              "Role/seniority: generalist/entry -> backend_generalist/mid_senior.",
+              "Hard-requirement coverage is 0.85.",
+              "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SYSTEM_DESIGN | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS",
+              "Critical gaps: A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ],
+            "missing_critical_units": [
+              "A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+            ]
+          },
+          "guidance": [
+            "Semantic-best is HealthPartners / Data Engineer Senior, optimized for global requirement-unit reuse."
+          ]
+        }
+      },
+      "flows": [
+        {
+          "mode": "no_starter",
+          "final_score": 94.2,
+          "passed": true,
+          "rewrite_rounds": 0,
+          "writer_prompt_tokens_est": 2128,
+          "writer_output_tokens_est": 1388,
+          "reviewer_prompt_tokens_est": 3104,
+          "reviewer_output_tokens_est": 581,
+          "total_tokens_est": 7201,
+          "elapsed_seconds": 434.85,
+          "anchor_summary": {
+            "strategy": "generate_from_scratch"
+          },
+          "error": ""
+        },
+        {
+          "mode": "old_match_anchor",
+          "final_score": 94.5,
+          "passed": true,
+          "rewrite_rounds": 0,
+          "writer_prompt_tokens_est": 4148,
+          "writer_output_tokens_est": 1508,
+          "reviewer_prompt_tokens_est": 3224,
+          "reviewer_output_tokens_est": 505,
+          "total_tokens_est": 9385,
+          "elapsed_seconds": 77.94,
+          "anchor_summary": {
+            "route_mode": "reuse",
+            "seed_label": "Generalist DotNet Enterprise",
+            "seed_id": "seed_generalist_dotnet_enterprise"
+          },
+          "error": ""
+        },
+        {
+          "mode": "new_dual_channel_anchor",
+          "final_score": 94.9,
+          "passed": true,
+          "rewrite_rounds": 1,
+          "writer_prompt_tokens_est": 6916,
+          "writer_output_tokens_est": 2921,
+          "reviewer_prompt_tokens_est": 3193,
+          "reviewer_output_tokens_est": 259,
+          "total_tokens_est": 13289,
+          "elapsed_seconds": 155.98,
+          "anchor_summary": {
+            "semantic_best_anchor": {
+              "job_id": "69cfde74366bb95ba5519529",
+              "company_name": "HealthPartners",
+              "title": "Data Engineer Senior",
+              "source_kind": "portfolio_history",
+              "score": 0.5533,
+              "reuse_readiness": 0.7301,
+              "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529",
+              "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/healthpartners/2026-04-03/69cfde74366bb95ba5519529/resume.md",
+              "has_resume_artifact": false,
+              "explanation": [
+                "Role/seniority: generalist/entry -> data_platform/senior.",
+                "Hard-requirement coverage is 0.88.",
+                "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_STATISTICS | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS"
+              ],
+              "missing_critical_units": []
+            },
+            "semantic_writer_anchor": {
+              "job_id": "69d640de52a5bf5800128045",
+              "company_name": "Amazon Web Services (AWS)",
+              "title": "Software Development Engineer II - Builder Experience, GenAI, GenAI, Codex",
+              "source_kind": "portfolio_history",
+              "score": 0.5375,
+              "reuse_readiness": 0.7085,
+              "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
+              "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+              "has_resume_artifact": true,
+              "explanation": [
+                "Role/seniority: generalist/entry -> backend_generalist/mid_senior.",
+                "Hard-requirement coverage is 0.85.",
+                "Best aligned units: Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SOFTWARE_DEVELOPMENT | Software Development, Service-Oriented Architecture (SOA), UI/UX Design, Unit Testing, Integration Testing => RESP_SYSTEM_DESIGN | A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience => CONSTRAINT_MATHEMATICS",
+                "Critical gaps: A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+              ],
+              "missing_critical_units": [
+                "A Bachelor's degree in a quantitative or business field (e.g., statistics, mathematics, engineering, computer science), 2 – 4 years of related experience"
+              ]
+            },
+            "company_best_anchor": null
+          },
+          "error": ""
+        }
+      ]
+    }
+  ],
+  "future_scale_recommendation": {
+    "next_sample_size": 12,
+    "mix": [
+      "4 generic-title high-risk jobs",
+      "4 cross-company semantic-heavy jobs",
+      "4 same-company continuity-sensitive jobs"
+    ]
+  },
+  "retry_plan": {
+    "rate_limit_triggered": false,
+    "error": "",
+    "retry_windows": []
+  }
+}

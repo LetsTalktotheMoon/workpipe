@@ -1,0 +1,70 @@
+{
+  "weighted_score": 91.0,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Rewrite the Summary into exactly 3 bold-labeled sentences and apply the required bolding rules to tech names and quantitative metrics throughout the resume.",
+    "Add explicit JD-mandated `NoSQL` coverage and eliminate any skill listed in Skills that does not have direct body evidence, especially `JavaScript`."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.3,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 8.8,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 8.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 91.0,
+  "verdict": "conditional_pass",
+  "seed_label": "Egen Fullstack Node",
+  "route_mode": "retarget",
+  "revised": true,
+  "main_failure_reason": "Rewrite the Summary into exactly 3 bold-labeled sentences and apply the required bolding rules to tech names and quantitative metrics throughout the resume.",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:44",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

@@ -1,0 +1,67 @@
+{
+  "job_id": "697d71783f57a33569675632",
+  "company_name": "DoorDash",
+  "company_slug": "doordash",
+  "publish_time": "2026-04-05 06:09:27",
+  "publish_date": "2026-04-05",
+  "title": "Machine Learning Engineer, Marketplace Optimization",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=7580407&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "parent_seed_id": "seed_amazon_agi_ml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_amazon_agi_ml_anchor",
+    "label": "Amazon AGI/LLM Anchor",
+    "route_score": 0.905,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "tensorflow"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": "697d74fd137a0510256697d9"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/doordash/2026-04-05/697d71783f57a33569675632/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-06T23:14:19",
+  "review": {},
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "primary_subseed_id": "amazon_ai_ads_mainline",
+  "primary_subseed_label": "Amazon AI / Ads / LLM",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

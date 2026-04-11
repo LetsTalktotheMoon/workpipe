@@ -1,0 +1,106 @@
+{
+  "job_id": "69ceb5ce891d7b11cfccb55b",
+  "company_name": "SharkNinja",
+  "company_slug": "sharkninja",
+  "publish_time": "2026-04-02 13:30:38",
+  "publish_date": "2026-04-02",
+  "title": "Fall 2026: Applied AI & Analytics Co-op (July to December)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=4669676006&utm_source=jobright",
+  "source_kind": "seed_validation",
+  "route_mode": "retarget",
+  "seed_id": "seed_zillow_agentic_mle",
+  "seed_label": "Zillow Agentic MLE",
+  "parent_seed_id": "seed_zillow_agentic_mle",
+  "top_candidate": {
+    "route_score": 0.763
+  },
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69ceb5ce891d7b11cfccb55b",
+  "generated_at": "2026-04-05T14:00:55",
+  "review": {
+    "jd_id": "69ceb5ce891d7b11cfccb55b",
+    "company": "SharkNinja",
+    "title": "Fall 2026: Applied AI & Analytics Co-op (July to December)",
+    "role_type": "swe_backend",
+    "verdict": "pass",
+    "seed_label": "Zillow Agentic MLE",
+    "route_mode": "retarget",
+    "final_score": 93.6,
+    "revised": false,
+    "weighted_score": 93.6,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "把叙事重心往消费品/生活方式场景的分析与决策支持上移，明确你为什么适合 SharkNinja 的 Applied AI & Analytics。",
+      "给最技术化的 bullets 补足 ownership 边界和业务背景，避免被读成堆栈式描述。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    }
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:46",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

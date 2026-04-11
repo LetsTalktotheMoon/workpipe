@@ -1,0 +1,84 @@
+{
+  "weighted_score": 88.7,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add explicit JavaScript evidence in a bullet and include JavaScript in Skills.",
+    "Remove bold from non-technical modifiers like internal and team-maintained; keep emphasis on technologies and metrics only."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.9,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 7.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.9,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 88.7,
+  "verdict": "conditional_pass",
+  "seed_label": "Fullstack DotNet Azure",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "1. In `## Skills`, add `JavaScript` under the programming section and keep the line within the 14-word limit. 2. In the TikTok or DiDi experience section, rewrite one frontend bullet so it explicitly says `React/JavaScript/TypeScript` or otherwise names a concrete JavaScript implementation with an outcome. 3. Remove bold formatting from non-technical modifiers throughout the body, especially `**internal**` and `**team-maintained**`. 4. Leave immutable company/title/date/location fields unchanged.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:46:02",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": true,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 81.7,
+  "previous_verdict": "fail",
+  "repaired_at": "2026-04-07T16:57:08",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

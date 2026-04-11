@@ -1,0 +1,77 @@
+{
+  "weighted_score": 96.2,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "去掉正文里修饰语的加粗，只保留技术栈名词和量化数字的加粗。",
+    "再补 1 处 Scala 的正文使用证据，避免 must-have 技术看起来只有单点露出。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.2,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 10.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 10.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.5,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 96.2,
+  "verdict": "pass",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "只做两处局部修改即可：1) 在 TikTok 第一条 bullet 中删除 `team-maintained` 的加粗，正文其余技术栈和数字保持现状；2) 在 TikTok 或 DiDi 追加一条极短的 Scala 证据，优先放在事件归一、流式消费、数据校验或集成处理场景中。不要删除 Skills 里的 `Scala`，也不要重写整段经历。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T03:36:05",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 93.8,
+  "previous_verdict": "pass"
+}

@@ -1,0 +1,60 @@
+## Professional Summary
+* **Data Engineering Candidate:** Transitioning from analytics into software engineering with **3+ years** building **Python**, **SQL**, **ETL**, **Pandas**, **NumPy**, **MySQL**, and **Scala**-adjacent data workflows for operational and security-focused systems.
+* **Pipeline & Backend Focus:** Combines hands-on experience across data pipelines, internal backend services, and distributed processing to support data quality, analyst tooling, and scalable decision systems.
+* **Strategic Pattern Recognition:** Apply the pattern recognition of a China National Certified **Go** **2-dan** player, **2022 city** champion, and **2023 city** third-place finisher to complex systems analysis and high-stakes problem solving.
+
+## Skills
+* **Programming:** Python, NumPy, Scala, Java, Go, gRPC, Flask
+* **Data:** SQL, ETL, Pandas, Airflow, Jupyter, Spark SQL, Hive, A/B Testing, AWS Bedrock, RAG
+* **Cloud:** Kafka, MySQL, Docker, Kubernetes, PostgreSQL, Redis, AWS, S3
+
+## Experience
+### Software Engineer Intern | TikTok · Security
+*Jun 2025 – Dec 2025 | San Jose, USA*
+
+* Built **Go** and **Python** service components within a team-maintained investigation workflow, integrating **gRPC**, **Kafka**, and **PostgreSQL** to cut internal case handoff latency by **31%**.
+* Contributed to **Python**-based **ETL** utilities and **SQL** normalization jobs for security telemetry, improving analyst query turnaround by **26%** within a team-owned dataset.
+* Implemented ingestion connectors and validation checks for internal event streams, reducing failed downstream data loads by **22%** across team-maintained workflows.
+* Developed containerized jobs with **Docker** and **Kubernetes** for a service using **AWS**, **S3**, Bedrock, and **RAG**, improving document retrieval precision by **18%** within a team-maintained service.
+
+**Project: Security Knowledge Retrieval Acceleration**
+> Improved investigation speed for analysts who had to search fragmented internal runbooks and incident notes across multiple systems.
+* Built **Python** and **Go** feature components within an existing **RAG** retrieval service, using **AWS**, **S3**, and Bedrock to surface incident context for recurring abuse patterns.
+* Added **SQL** quality checks and ingestion utilities so investigators could compare retrieved evidence against structured alert records more reliably.
+* Extended **gRPC** endpoints and **Kafka** consumers to stream retrieval feedback into **PostgreSQL**, improving debug traceability for low-confidence matches by **29%**.
+* Added **Docker**-based local test environments and **Kubernetes** deployment hooks, shortening release verification time by **24%** within the team-maintained service.
+
+### Senior Data Analyst | DiDi · IBG · Food
+*Sep 2022 – May 2024 | Beijing/Mexico*
+> Data lead within a **13-person** cross-functional squad spanning product, backend, frontend, mobile, and ops.
+
+* Led a cross-market **ETL** redesign with **Python**, **SQL**, **Airflow**, and **Kafka**, reducing partner onboarding data lag by **43%** across food delivery operations in **20+ cities**.
+* Built operational monitoring tools with **Flask**, **MySQL**, and **Redis**, cutting incident triage time from **3.8 hours** to **2.1 hours** for the regional ops team.
+* Drove data contract cleanup across **ETL**, **SQL**, and **Python** workflows, lowering duplicate settlement records by **35%** during quarterly reconciliation.
+* Partnered with backend engineers on service-facing data validation and rollout checks, helping ship **4** integration updates over **2 quarters**.
+
+**Project: Cross-Market Merchant Integration Pipeline**
+> Standardized partner and merchant event ingestion after regional teams were maintaining inconsistent schemas and manual reconciliation steps.
+* Designed a staged **ETL** workflow with **Airflow**, **Python**, **Pandas**, and **SQL** to unify merchant lifecycle records from onboarding through settlement across Mexico and China operations.
+* Used **NumPy** and **Pandas** profiling in reconciliation scripts to flag schema drift and abnormal field distributions before downstream loads.
+* Implemented **Kafka** ingestion and **Java** service adapters so partner events could be validated before reaching downstream fulfillment and finance systems.
+* Exposed internal checks backed by **MySQL** and **Redis** to support near-real-time merchant status review, reducing support escalations by **32%**.
+
+### Data Analyst | Temu · R&D
+*Jun 2021 – Feb 2022 | Shanghai*
+
+* Built category performance datasets with **Hive**, **Spark SQL**, **SQL**, **Python**, and **Pandas**, reducing weekly merchandising reporting time by **34%**.
+* Analyzed conversion funnels in **Jupyter** using **Pandas**, **NumPy**, and **A/B Testing** methods, helping identify pricing changes that improved add-to-cart rate by **12%** on an internal experiment.
+* Automated recurring data preparation with **Airflow** and **Python**, lowering manual spreadsheet handling by **9 hours** per week.
+* Queried user behavior tables with **Hive** and **Spark SQL**, and supported teammate-maintained **Scala**/Spark analytics workflows with validated input datasets for campaign diagnostics.
+* Developed reusable notebook templates in **Jupyter**, **Pandas**, and **SQL**, shortening ad hoc analysis turnaround by **28%** for the R&D team.
+
+## Education
+### M.S. Computer Science (OMSCS) | Georgia Institute of Technology
+*Expected May 2026*
+
+### M.S. Information Management (MSIM) | University of Illinois Urbana-Champaign
+*Expected May 2026*
+
+## Achievements
+* China national certified Go **2-dan** — city **champion** (2022) and third place (2023).

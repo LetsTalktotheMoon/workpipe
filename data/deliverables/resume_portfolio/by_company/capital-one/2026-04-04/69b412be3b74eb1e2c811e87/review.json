@@ -1,0 +1,77 @@
+{
+  "weighted_score": 96.1,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add one explicit Model Risk Office control signal in Summary 2 or the TikTok project bullet, such as validation gates, monitoring, evidence coverage criteria, or release checks.",
+    "Remove bold from qualifier phrases like `team-maintained` in body bullets and keep bold reserved for technical terms and quantified outcomes."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.3,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.2,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 96.1,
+  "verdict": "pass",
+  "seed_label": "Plaid Data Scientist",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Make two surgical edits only. First, in the TikTok Security bullets, unbold modifier phrases such as `team-maintained` and any similar qualifiers so body bolding stays limited to technologies and metrics. Second, in Summary bullet 2 or the TikTok project section, add one short clause that explicitly ties the deep-learning evaluation work to model-risk style controls, such as validation gates, monitoring, evidence coverage criteria, or release checks. Keep all JD must-have technical terms intact and do not delete any existing deep-learning evidence.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T04:50:38",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.0,
+  "previous_verdict": "pass"
+}

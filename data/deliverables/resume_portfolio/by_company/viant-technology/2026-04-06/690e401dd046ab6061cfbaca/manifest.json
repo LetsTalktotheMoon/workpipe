@@ -1,0 +1,138 @@
+{
+  "job_id": "690e401dd046ab6061cfbaca",
+  "company_name": "Viant Technology",
+  "company_slug": "viant-technology",
+  "publish_time": "2026-04-06 05:20:39",
+  "publish_date": "2026-04-06",
+  "title": "Sr. Full Stack Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.linkedin.com/jobs/view/4321148700",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_generalist_dotnet_enterprise",
+  "seed_label": "Generalist DotNet Enterprise",
+  "parent_seed_id": "seed_generalist_dotnet_enterprise",
+  "top_candidate": {
+    "seed_id": "seed_generalist_dotnet_enterprise",
+    "label": "Generalist DotNet Enterprise",
+    "route_score": 0.735,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "java",
+      "restful"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Spok",
+    "seed_source_job_id": "69cfdc7b891d7b11cfcd677c"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/viant-technology/2026-04-06/690e401dd046ab6061cfbaca/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/viant-technology/2026-04-06/690e401dd046ab6061cfbaca/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/viant-technology/2026-04-06/690e401dd046ab6061cfbaca",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/690e401dd046ab6061cfbaca",
+  "generated_at": "2026-04-06T22:49:05",
+  "review": {
+    "weighted_score": 94.6,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Reclassify the Skills buckets so each header matches its contents, especially moving `Git/Shell/Scrum/Unit Testing` out of `APIs` and separating `PostgreSQL/MySQL` from `Cloud`.",
+      "Add one short bridge clause in Summary or the TikTok baseline that frames the prior security/ops/data work as transferable to Viant's data-heavy buy-side platform."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.6,
+    "verdict": "pass",
+    "seed_label": "Generalist DotNet Enterprise",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "In `## Skills`, keep the same technologies but rename the buckets so they are semantically accurate: move `Git`, `Shell`, `Scrum`, and `Unit Testing` out of `APIs` into a clearer `Engineering Practices` bucket; move `PostgreSQL` and `MySQL` out of `Cloud` into a `Datastores` or `Data/Infra` bucket, and keep actual cloud/infrastructure items together. In `Professional Summary` sentence 1 or the TikTok project baseline, add one concise bridge phrase that ties the prior security/ops/data workflows to Viant's buy-side, data-intensive platform work, for example by emphasizing low-latency, audit-heavy, ranking-oriented workflows. Do not remove any current JD must-have stack items or rewrite the experience structure.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T22:54:22",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 92.6,
+    "previous_verdict": "conditional_pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:53",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T22:54:22",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 94.6,
+  "review_verdict": "pass"
+}

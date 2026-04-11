@@ -1,0 +1,903 @@
+{
+  "_comment": "方向 × 职级 期望技术栈。当 JD 技术栈过少时，用此矩阵补全。",
+  "_seniority_levels": [
+    "intern",
+    "new_grad",
+    "mid_1_3y",
+    "senior_5y_plus"
+  ],
+  "profiles": {
+    "backend": {
+      "intern": {
+        "core": [
+          "Python",
+          "Java",
+          "SQL",
+          "REST API",
+          "Git"
+        ],
+        "auxiliary": [
+          "Docker",
+          "PostgreSQL",
+          "Redis",
+          "pytest",
+          "Linux"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Python",
+          "Java",
+          "SQL",
+          "REST API",
+          "Git",
+          "Docker"
+        ],
+        "auxiliary": [
+          "Kubernetes",
+          "Kafka",
+          "Redis",
+          "PostgreSQL",
+          "gRPC",
+          "CI/CD",
+          "MongoDB"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Python",
+          "Java",
+          "Go",
+          "SQL",
+          "Docker",
+          "Kubernetes",
+          "REST API",
+          "gRPC"
+        ],
+        "auxiliary": [
+          "Kafka",
+          "Redis",
+          "PostgreSQL",
+          "Prometheus",
+          "CI/CD",
+          "Terraform",
+          "Microservices",
+          "GraphQL",
+          "RabbitMQ",
+          "Consul",
+          "Vault"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "System Design",
+          "Distributed Systems",
+          "Kubernetes",
+          "Kafka",
+          "gRPC",
+          "Microservices"
+        ],
+        "auxiliary": [
+          "Terraform",
+          "Helm",
+          "Prometheus",
+          "Grafana",
+          "Performance Tuning",
+          "Architecture Review",
+          "GraphQL",
+          "RabbitMQ",
+          "Consul",
+          "Vault"
+        ]
+      }
+    },
+    "ai_genai": {
+      "intern": {
+        "core": [
+          "Python",
+          "PyTorch",
+          "SQL",
+          "Git"
+        ],
+        "auxiliary": [
+          "Pandas",
+          "NumPy",
+          "Jupyter",
+          "scikit-learn"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Python",
+          "PyTorch",
+          "LLM",
+          "SQL",
+          "Git",
+          "Docker"
+        ],
+        "auxiliary": [
+          "RAG",
+          "LangChain",
+          "Hugging Face",
+          "FastAPI",
+          "Pandas",
+          "NumPy"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Python",
+          "PyTorch",
+          "LLM",
+          "RAG",
+          "Docker",
+          "SQL",
+          "FastAPI"
+        ],
+        "auxiliary": [
+          "LangChain",
+          "LangGraph",
+          "Kubernetes",
+          "MLflow",
+          "Prompt Engineering",
+          "Vector DB",
+          "Hugging Face",
+          "vLLM",
+          "TensorRT",
+          "ONNX",
+          "Weights & Biases",
+          "Gradio",
+          "Streamlit"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "LLM",
+          "RAG",
+          "ML System Design",
+          "PyTorch",
+          "Kubernetes",
+          "MLOps"
+        ],
+        "auxiliary": [
+          "Model Serving",
+          "A/B Testing",
+          "Feature Store",
+          "Distributed Training",
+          "vLLM",
+          "TensorRT",
+          "ONNX",
+          "Weights & Biases",
+          "Gradio",
+          "Streamlit"
+        ]
+      }
+    },
+    "devops": {
+      "intern": {
+        "core": [
+          "Linux",
+          "Git",
+          "Docker",
+          "Python",
+          "Bash"
+        ],
+        "auxiliary": [
+          "CI/CD",
+          "AWS",
+          "Terraform"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Linux",
+          "Docker",
+          "Kubernetes",
+          "CI/CD",
+          "Git",
+          "Terraform",
+          "AWS"
+        ],
+        "auxiliary": [
+          "Prometheus",
+          "Grafana",
+          "Ansible",
+          "GitHub Actions",
+          "Helm",
+          "Python"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Kubernetes",
+          "Docker",
+          "Terraform",
+          "CI/CD",
+          "AWS",
+          "GCP",
+          "Prometheus",
+          "Linux"
+        ],
+        "auxiliary": [
+          "Helm",
+          "ArgoCD",
+          "Istio",
+          "Datadog",
+          "Ansible",
+          "GitHub Actions",
+          "Infrastructure as Code",
+          "GitOps (ArgoCD, Flux)",
+          "Service Mesh (Istio, Linkerd)",
+          "ELK (Elasticsearch, Logstash, Kibana)",
+          "Vault (HashiCorp)"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Kubernetes",
+          "Terraform",
+          "CI/CD",
+          "Observability",
+          "Infrastructure as Code",
+          "SRE"
+        ],
+        "auxiliary": [
+          "Service Mesh",
+          "Chaos Engineering",
+          "FinOps",
+          "Multi-Cloud",
+          "Platform Engineering",
+          "GitOps (ArgoCD, Flux)",
+          "Service Mesh (Istio, Linkerd)",
+          "ELK (Elasticsearch, Logstash, Kibana)",
+          "Datadog",
+          "Vault (HashiCorp)"
+        ]
+      }
+    },
+    "data": {
+      "intern": {
+        "core": [
+          "Python",
+          "SQL",
+          "Git"
+        ],
+        "auxiliary": [
+          "Pandas",
+          "Excel",
+          "Jupyter",
+          "PostgreSQL"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Python",
+          "SQL",
+          "Spark",
+          "Git",
+          "Airflow"
+        ],
+        "auxiliary": [
+          "Pandas",
+          "PostgreSQL",
+          "AWS",
+          "ETL",
+          "Hive",
+          "Docker"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Python",
+          "SQL",
+          "Spark",
+          "Airflow",
+          "ETL",
+          "Docker",
+          "AWS"
+        ],
+        "auxiliary": [
+          "Kafka",
+          "BigQuery",
+          "Redshift",
+          "dbt",
+          "Hive",
+          "Data Modeling",
+          "Kubernetes",
+          "Great Expectations",
+          "Dagster",
+          "Snowflake",
+          "Delta Lake"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Data Architecture",
+          "Spark",
+          "Airflow",
+          "ETL",
+          "SQL",
+          "Kafka",
+          "Data Modeling"
+        ],
+        "auxiliary": [
+          "Data Governance",
+          "Stream Processing",
+          "Flink",
+          "Data Quality",
+          "Cost Optimization",
+          "dbt",
+          "Great Expectations",
+          "Dagster",
+          "Snowflake",
+          "Delta Lake"
+        ]
+      }
+    },
+    "frontend": {
+      "intern": {
+        "core": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "React",
+          "Git"
+        ],
+        "auxiliary": [
+          "TypeScript",
+          "Node.js"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "React",
+          "TypeScript",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Git"
+        ],
+        "auxiliary": [
+          "Next.js",
+          "TailwindCSS",
+          "Redux",
+          "REST API",
+          "Jest",
+          "Webpack"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "React",
+          "TypeScript",
+          "Next.js",
+          "REST API",
+          "Git",
+          "CI/CD"
+        ],
+        "auxiliary": [
+          "TailwindCSS",
+          "GraphQL",
+          "Redux",
+          "Webpack",
+          "Cypress",
+          "Storybook",
+          "Accessibility",
+          "Playwright",
+          "Vite",
+          "Tailwind CSS",
+          "Zustand"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "React",
+          "TypeScript",
+          "System Design",
+          "Performance Optimization",
+          "Design Systems"
+        ],
+        "auxiliary": [
+          "Micro-Frontends",
+          "SSR/SSG",
+          "Accessibility",
+          "Build Optimization",
+          "Monorepo",
+          "Storybook",
+          "Playwright",
+          "Vite",
+          "Tailwind CSS",
+          "Zustand"
+        ]
+      }
+    },
+    "security": {
+      "intern": {
+        "core": [
+          "Python",
+          "Linux",
+          "SQL",
+          "Git"
+        ],
+        "auxiliary": [
+          "Network Security",
+          "OWASP",
+          "Bash"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Python",
+          "Linux",
+          "SQL",
+          "Docker",
+          "OWASP",
+          "Git"
+        ],
+        "auxiliary": [
+          "SAST",
+          "Threat Modeling",
+          "TLS/mTLS",
+          "OAuth",
+          "CI/CD",
+          "Vulnerability Assessment"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Python",
+          "SAST",
+          "Threat Detection",
+          "TLS/mTLS",
+          "OAuth",
+          "Docker",
+          "Kubernetes"
+        ],
+        "auxiliary": [
+          "SIEM",
+          "DLP",
+          "HashiCorp Vault",
+          "Zero Trust",
+          "Compliance",
+          "Penetration Testing",
+          "Snyk",
+          "Trivy",
+          "Falco",
+          "SIEM (Splunk, QRadar)"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Security Architecture",
+          "Threat Modeling",
+          "Zero Trust",
+          "Compliance",
+          "SIEM"
+        ],
+        "auxiliary": [
+          "Incident Response",
+          "Security Operations",
+          "Risk Assessment",
+          "SOC",
+          "Red Team",
+          "Snyk",
+          "Trivy",
+          "Falco",
+          "SIEM (Splunk, QRadar)"
+        ]
+      }
+    },
+    "mobile": {
+      "intern": {
+        "core": [
+          "Kotlin",
+          "Swift",
+          "Git"
+        ],
+        "auxiliary": [
+          "Android Studio",
+          "Xcode",
+          "REST API"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Kotlin",
+          "Swift",
+          "Android",
+          "iOS",
+          "Git",
+          "REST API"
+        ],
+        "auxiliary": [
+          "Jetpack Compose",
+          "SwiftUI",
+          "Firebase",
+          "CI/CD",
+          "Unit Testing"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Kotlin",
+          "Swift",
+          "Android",
+          "iOS",
+          "Jetpack",
+          "REST API",
+          "CI/CD"
+        ],
+        "auxiliary": [
+          "MVVM",
+          "Coroutines",
+          "Combine",
+          "SQLite",
+          "Fastlane",
+          "Performance Profiling"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Mobile Architecture",
+          "Kotlin",
+          "Swift",
+          "Performance Optimization",
+          "CI/CD"
+        ],
+        "auxiliary": [
+          "KMM",
+          "Modularization",
+          "A/B Testing",
+          "App Size Optimization",
+          "Build Systems"
+        ]
+      }
+    },
+    "qa_sdet": {
+      "intern": {
+        "core": [
+          "Python",
+          "Git",
+          "SQL"
+        ],
+        "auxiliary": [
+          "pytest",
+          "Selenium",
+          "Postman"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Python",
+          "Selenium",
+          "pytest",
+          "SQL",
+          "Git",
+          "CI/CD"
+        ],
+        "auxiliary": [
+          "Appium",
+          "Docker",
+          "REST API",
+          "Postman",
+          "JUnit",
+          "Performance Testing"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Python",
+          "Selenium",
+          "Appium",
+          "pytest",
+          "CI/CD",
+          "Docker",
+          "API Testing"
+        ],
+        "auxiliary": [
+          "Kubernetes",
+          "Performance Testing",
+          "k6",
+          "Cypress",
+          "Test Architecture",
+          "Data-Driven Testing"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Test Architecture",
+          "CI/CD",
+          "Automation Strategy",
+          "Performance Testing"
+        ],
+        "auxiliary": [
+          "Chaos Testing",
+          "Contract Testing",
+          "Test Infrastructure",
+          "Quality Metrics"
+        ]
+      }
+    },
+    "embedded": {
+      "intern": {
+        "core": [
+          "C",
+          "C++",
+          "Python",
+          "Git"
+        ],
+        "auxiliary": [
+          "Linux",
+          "ARM",
+          "UART/SPI/I2C"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "C",
+          "C++",
+          "Python",
+          "Linux",
+          "Git",
+          "ARM"
+        ],
+        "auxiliary": [
+          "RTOS",
+          "Sensor Fusion",
+          "Embedded Linux",
+          "Debugging Tools",
+          "CMake"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "C",
+          "C++",
+          "Embedded Linux",
+          "RTOS",
+          "ARM",
+          "Python",
+          "Sensor Fusion"
+        ],
+        "auxiliary": [
+          "DSP",
+          "Kalman Filter",
+          "Device Drivers",
+          "Hardware-Software Integration",
+          "CMake"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "System Architecture",
+          "C/C++",
+          "RTOS",
+          "Firmware Design",
+          "Performance Optimization"
+        ],
+        "auxiliary": [
+          "Safety Critical",
+          "Automotive",
+          "IoT Platform",
+          "Power Management"
+        ]
+      }
+    },
+    "hpc_compiler": {
+      "intern": {
+        "core": [
+          "C++",
+          "Python",
+          "Linux",
+          "Git"
+        ],
+        "auxiliary": [
+          "CUDA",
+          "MPI",
+          "OpenMP"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "C++",
+          "CUDA",
+          "Python",
+          "Linux",
+          "MPI",
+          "OpenMP"
+        ],
+        "auxiliary": [
+          "LLVM",
+          "Performance Profiling",
+          "Parallel Computing",
+          "CMake"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "C++",
+          "CUDA",
+          "MPI",
+          "OpenMP",
+          "LLVM",
+          "Performance Optimization"
+        ],
+        "auxiliary": [
+          "GPU Architecture",
+          "Vectorization",
+          "Cache Optimization",
+          "Profiling Tools",
+          "Compiler Design",
+          "Nsight Systems",
+          "Nsight Compute",
+          "Valgrind",
+          "Perf"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Compiler Architecture",
+          "CUDA",
+          "GPU Optimization",
+          "Parallel Computing",
+          "LLVM"
+        ],
+        "auxiliary": [
+          "DSL Design",
+          "Auto-Tuning",
+          "Heterogeneous Computing",
+          "HPC Cluster Management",
+          "Nsight Systems",
+          "Nsight Compute",
+          "Valgrind",
+          "Perf"
+        ]
+      }
+    },
+    "fintech": {
+      "intern": {
+        "core": [
+          "Python",
+          "SQL",
+          "Git"
+        ],
+        "auxiliary": [
+          "REST API",
+          "PostgreSQL",
+          "Docker"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Python",
+          "SQL",
+          "REST API",
+          "Git",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "auxiliary": [
+          "Kafka",
+          "Redis",
+          "Payment Systems",
+          "Reconciliation",
+          "CI/CD"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "Python",
+          "Go",
+          "SQL",
+          "Kafka",
+          "PostgreSQL",
+          "Docker",
+          "Kubernetes"
+        ],
+        "auxiliary": [
+          "Payment Rails",
+          "Ledger Systems",
+          "Compliance",
+          "Redis",
+          "gRPC",
+          "Microservices"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Payment Architecture",
+          "Distributed Systems",
+          "Compliance",
+          "Kafka",
+          "Microservices"
+        ],
+        "auxiliary": [
+          "Settlement Systems",
+          "Risk Management",
+          "Blockchain",
+          "Real-Time Processing"
+        ]
+      }
+    },
+    "cloud_infra": {
+      "intern": {
+        "core": [
+          "Linux",
+          "Python",
+          "Git",
+          "AWS"
+        ],
+        "auxiliary": [
+          "Docker",
+          "Bash",
+          "Networking"
+        ]
+      },
+      "new_grad": {
+        "core": [
+          "Linux",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Python",
+          "Git",
+          "Terraform"
+        ],
+        "auxiliary": [
+          "CI/CD",
+          "Networking",
+          "Prometheus",
+          "Bash",
+          "Ansible"
+        ]
+      },
+      "mid_1_3y": {
+        "core": [
+          "AWS",
+          "GCP",
+          "Kubernetes",
+          "Terraform",
+          "Docker",
+          "CI/CD",
+          "Linux"
+        ],
+        "auxiliary": [
+          "Helm",
+          "Prometheus",
+          "Grafana",
+          "Networking",
+          "IAM",
+          "Cost Optimization",
+          "Ansible",
+          "GitOps (ArgoCD, Flux)",
+          "Service Mesh (Istio, Linkerd)",
+          "ELK (Elasticsearch, Logstash, Kibana)",
+          "Datadog",
+          "Vault (HashiCorp)"
+        ]
+      },
+      "senior_5y_plus": {
+        "core": [
+          "Cloud Architecture",
+          "Kubernetes",
+          "Terraform",
+          "Multi-Cloud",
+          "SRE",
+          "Cost Optimization"
+        ],
+        "auxiliary": [
+          "Platform Engineering",
+          "Service Mesh",
+          "FinOps",
+          "Capacity Planning",
+          "DR/HA",
+          "GitOps (ArgoCD, Flux)",
+          "Service Mesh (Istio, Linkerd)",
+          "ELK (Elasticsearch, Logstash, Kibana)",
+          "Datadog",
+          "Vault (HashiCorp)"
+        ]
+      }
+    }
+  }
+}

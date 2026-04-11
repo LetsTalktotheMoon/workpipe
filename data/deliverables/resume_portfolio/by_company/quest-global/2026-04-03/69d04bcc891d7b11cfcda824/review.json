@@ -1,0 +1,77 @@
+{
+  "weighted_score": 94.7,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Summary 第 1 句的经验年限改到与 2021-2025 的时间线一致，避免被一眼看出自相矛盾。",
+    "给两段 2026 预计毕业的硕士教育加一个轻量说明，明确是 part-time 或 concurrent enrollment。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.3,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.7,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 10.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.2,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 94.7,
+  "verdict": "pass",
+  "seed_label": "ByteDance ML Grad",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "只做局部修补，不要重写骨架。1) 将 Professional Summary 第 1 句从 \"nearly 3 years of experience\" 改为与实际履历一致的 \"4+ years of experience\"，保留其余技术与叙事不变。2) 在 Education 中给两条硕士经历补一个低扰动说明，例如 \"(part-time)\" 或 \"(concurrent)\"，让双学位/双项目状态在表面上自洽。3) 其余内容可以保留，因为 JD must-have 技术、项目背景、量化结果和不可变字段已经基本成立。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T06:06:22",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.6,
+  "previous_verdict": "pass"
+}

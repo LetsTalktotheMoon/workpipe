@@ -1,0 +1,1620 @@
+{
+  "iteration_log": [
+    {
+      "iteration": 1,
+      "baseline_snapshot": {
+        "rebuilt_hard_hit_at_1": 0.3636,
+        "rebuilt_hard_hit_at_3": 0.4545,
+        "legacy_standard_hit_at_1": 0.5946,
+        "legacy_hard_hit_at_1": 0.4545
+      },
+      "current_error_decomposition": {
+        "priority_top3": [
+          "requirement_unit_split_error",
+          "canonical_taxonomy_gap",
+          "must_preferred_weight_error"
+        ]
+      },
+      "next_round_optimization_goal": [
+        "stop splitting inline tech lists into fake single must-have units",
+        "add missing high-frequency canonical elements for networking/Linux/CI-CD/Scala",
+        "make candidate-side constraint strength affect unit satisfaction"
+      ],
+      "code_modifications": [
+        "units.py: smarter field splitting, AT_LEAST_K extraction, member weights",
+        "matcher.py: constraint-aware member scoring, logic-aware structure alignment, stronger must/preferred aggregation",
+        "taxonomy.py: new canonical items for networking/Linux/CI-CD/Scala/Hive/S3/Lambda/Looker/Grafana"
+      ]
+    },
+    {
+      "iteration": 2,
+      "current_error_decomposition": {
+        "by_category": {
+          "or_parse_error": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          },
+          "and_parse_error": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          },
+          "at_least_k_parse_error": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          },
+          "must_preferred_weight_error": {
+            "sample_count": 3,
+            "hit_at_1_impact": 0.0909,
+            "hit_at_3_impact": 0.0303,
+            "sample_query_ids": [
+              "69d83771738f2f099e89b783",
+              "69d8377f738f2f099e89b7e9",
+              "69d83771738f2f099e89b783"
+            ]
+          },
+          "parent_child_rule_error": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          },
+          "requirement_unit_split_error": {
+            "sample_count": 6,
+            "hit_at_1_impact": 0.1818,
+            "hit_at_3_impact": 0.0909,
+            "sample_query_ids": [
+              "69d83774869c7e25d859479c",
+              "69d83768869c7e25d859475c",
+              "69d8376a869c7e25d859476f",
+              "69d8377f738f2f099e89b7e9"
+            ]
+          },
+          "content_type_identification_error": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          },
+          "canonical_taxonomy_gap": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          },
+          "title_metadata_mislead": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          },
+          "generic_title_requirement_gap": {
+            "sample_count": 0,
+            "hit_at_1_impact": 0.0,
+            "hit_at_3_impact": 0.0,
+            "sample_query_ids": []
+          }
+        },
+        "priority_top3": [
+          "requirement_unit_split_error",
+          "must_preferred_weight_error"
+        ]
+      },
+      "next_round_optimization_goal": [
+        "requirement_unit_split_error",
+        "must_preferred_weight_error"
+      ],
+      "code_modifications": [
+        "starter_selector.py: dual-channel output protocol and downstream writer payload",
+        "incremental.py: dynamic ingest, duplicate merge, alias candidate queue, quarantine path",
+        "semantic_freeze_runner.py: active labeling, semantic gold set, freeze and go-live judgment"
+      ],
+      "standard_benchmark_results": {
+        "case_count": 29,
+        "hit_at_1": 0.7586,
+        "hit_at_3": 0.931,
+        "hit_at_5": 0.931,
+        "mean_reciprocal_rank": 0.8391,
+        "median_positive_rank": 1.0,
+        "avg_runtime_ms": 567.24,
+        "avg_candidate_pool_size": 362.21,
+        "misses": [
+          {
+            "query_id": "69d83768869c7e25d859475c",
+            "company_name": "",
+            "normalized_title": "",
+            "positive_ids": [
+              "69d7f8e3b861c42857c477f1"
+            ],
+            "top_candidates": [
+              "697c25611136d179eeefdf16",
+              "69d640de52a5bf5800128045",
+              "69ce5e07891d7b11cfcc8020",
+              "69d24aad54f00230c6d20cdc",
+              "69d64081cfdc6132f946931f"
+            ],
+            "rationale": "Must-have alignment should outrank preferred-only overlap."
+          },
+          {
+            "query_id": "69d8377f738f2f099e89b7e9",
+            "company_name": "",
+            "normalized_title": "",
+            "positive_ids": [
+              "699d6a6d81476f6176b63dce"
+            ],
+            "top_candidates": [
+              "6996d6d0ce78e77b4fdb0c7f",
+              "69d640de52a5bf5800128045",
+              "69cd30bc398fb071abf72f55",
+              "697d7d4b3f57a3356967669e",
+              "69d83e9db67cec4f9b09b8c9"
+            ],
+            "rationale": "Human-adjudicated semantic label override."
+          }
+        ]
+      },
+      "hard_pool_results": {
+        "case_count": 33,
+        "hit_at_1": 0.7273,
+        "hit_at_3": 0.8788,
+        "hit_at_5": 0.8788,
+        "mean_reciprocal_rank": 0.798,
+        "median_positive_rank": 1.0,
+        "avg_runtime_ms": 546.9,
+        "avg_candidate_pool_size": 369.21,
+        "misses": [
+          {
+            "query_id": "69d83768869c7e25d859475c",
+            "company_name": "Amazon Web Services (AWS)",
+            "normalized_title": "software engineer, graviton software, annapurna labs",
+            "positive_ids": [
+              "69b2caedad360c0340a7bebf",
+              "69d04d77cdb525785fba9701",
+              "69d7f8e3b861c42857c477f1"
+            ],
+            "top_candidates": [
+              "697c25611136d179eeefdf16",
+              "69d640de52a5bf5800128045",
+              "69ce5e07891d7b11cfcc8020",
+              "69d24aad54f00230c6d20cdc",
+              "69d64081cfdc6132f946931f"
+            ],
+            "rationale": "Must-have alignment should outrank preferred-only overlap."
+          },
+          {
+            "query_id": "69d8377f738f2f099e89b7e9",
+            "company_name": "Amazon Web Services (AWS)",
+            "normalized_title": "sde machine learning, agentcore",
+            "positive_ids": [
+              "69b36777a8ac8e70ff679ed8"
+            ],
+            "top_candidates": [
+              "6996d6d0ce78e77b4fdb0c7f",
+              "69d640de52a5bf5800128045",
+              "69cd30bc398fb071abf72f55",
+              "697d7d4b3f57a3356967669e",
+              "69d83e9db67cec4f9b09b8c9"
+            ],
+            "rationale": "Must-have alignment should outrank preferred-only overlap."
+          },
+          {
+            "query_id": "69d8377f738f2f099e89b7e9",
+            "company_name": "Amazon Web Services (AWS)",
+            "normalized_title": "sde machine learning, agentcore",
+            "positive_ids": [
+              "699d6a6d81476f6176b63dce"
+            ],
+            "top_candidates": [
+              "6996d6d0ce78e77b4fdb0c7f",
+              "69d640de52a5bf5800128045",
+              "69cd30bc398fb071abf72f55",
+              "697d7d4b3f57a3356967669e",
+              "69d83e9db67cec4f9b09b8c9"
+            ],
+            "rationale": "Human-adjudicated semantic label override."
+          },
+          {
+            "query_id": "6929a9fe4c474121999c9ff6",
+            "company_name": "Whatnot",
+            "normalized_title": "software engineer, new grad",
+            "positive_ids": [
+              "69c5849f1b5ad02887375dd5"
+            ],
+            "top_candidates": [
+              "69d818389f97a42dc9c1a4b6",
+              "69d64084cfdc6132f9469327",
+              "69d61c52cfdc6132f9468a50",
+              "69d00574cfdc6132f9437911",
+              "69d075c9366bb95ba551e7fe"
+            ],
+            "rationale": "Same normalized title appears across companies with different business/requirement structure."
+          }
+        ]
+      },
+      "regression_test_results": {
+        "command": "pytest -q tests/test_match_pipe_units.py tests/test_match_pipe_eval.py tests/test_match_pipe_selector.py",
+        "passed": true,
+        "duration_seconds": 352.06,
+        "stdout_tail": [
+          "......                                                                   [100%]",
+          "6 passed in 351.00s (0:05:50)"
+        ],
+        "stderr_tail": []
+      },
+      "freeze_condition_reached": true
+    }
+  ],
+  "teacher_b_error_decomposition": {
+    "by_category": {
+      "or_parse_error": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      },
+      "and_parse_error": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      },
+      "at_least_k_parse_error": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      },
+      "must_preferred_weight_error": {
+        "sample_count": 3,
+        "hit_at_1_impact": 0.0909,
+        "hit_at_3_impact": 0.0303,
+        "sample_query_ids": [
+          "69d83771738f2f099e89b783",
+          "69d8377f738f2f099e89b7e9",
+          "69d83771738f2f099e89b783"
+        ]
+      },
+      "parent_child_rule_error": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      },
+      "requirement_unit_split_error": {
+        "sample_count": 6,
+        "hit_at_1_impact": 0.1818,
+        "hit_at_3_impact": 0.0909,
+        "sample_query_ids": [
+          "69d83774869c7e25d859479c",
+          "69d83768869c7e25d859475c",
+          "69d8376a869c7e25d859476f",
+          "69d8377f738f2f099e89b7e9"
+        ]
+      },
+      "content_type_identification_error": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      },
+      "canonical_taxonomy_gap": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      },
+      "title_metadata_mislead": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      },
+      "generic_title_requirement_gap": {
+        "sample_count": 0,
+        "hit_at_1_impact": 0.0,
+        "hit_at_3_impact": 0.0,
+        "sample_query_ids": []
+      }
+    },
+    "priority_top3": [
+      "requirement_unit_split_error",
+      "must_preferred_weight_error"
+    ]
+  },
+  "teacher_b_results": {
+    "rebuilt_hard_all": {
+      "case_count": 33,
+      "hit_at_1": 0.7273,
+      "hit_at_3": 0.8788,
+      "hit_at_5": 0.8788,
+      "mean_reciprocal_rank": 0.798,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 546.9,
+      "avg_candidate_pool_size": 369.21,
+      "misses": [
+        {
+          "query_id": "69d83768869c7e25d859475c",
+          "company_name": "Amazon Web Services (AWS)",
+          "normalized_title": "software engineer, graviton software, annapurna labs",
+          "positive_ids": [
+            "69b2caedad360c0340a7bebf",
+            "69d04d77cdb525785fba9701",
+            "69d7f8e3b861c42857c477f1"
+          ],
+          "top_candidates": [
+            "697c25611136d179eeefdf16",
+            "69d640de52a5bf5800128045",
+            "69ce5e07891d7b11cfcc8020",
+            "69d24aad54f00230c6d20cdc",
+            "69d64081cfdc6132f946931f"
+          ],
+          "rationale": "Must-have alignment should outrank preferred-only overlap."
+        },
+        {
+          "query_id": "69d8377f738f2f099e89b7e9",
+          "company_name": "Amazon Web Services (AWS)",
+          "normalized_title": "sde machine learning, agentcore",
+          "positive_ids": [
+            "69b36777a8ac8e70ff679ed8"
+          ],
+          "top_candidates": [
+            "6996d6d0ce78e77b4fdb0c7f",
+            "69d640de52a5bf5800128045",
+            "69cd30bc398fb071abf72f55",
+            "697d7d4b3f57a3356967669e",
+            "69d83e9db67cec4f9b09b8c9"
+          ],
+          "rationale": "Must-have alignment should outrank preferred-only overlap."
+        },
+        {
+          "query_id": "69d8377f738f2f099e89b7e9",
+          "company_name": "Amazon Web Services (AWS)",
+          "normalized_title": "sde machine learning, agentcore",
+          "positive_ids": [
+            "699d6a6d81476f6176b63dce"
+          ],
+          "top_candidates": [
+            "6996d6d0ce78e77b4fdb0c7f",
+            "69d640de52a5bf5800128045",
+            "69cd30bc398fb071abf72f55",
+            "697d7d4b3f57a3356967669e",
+            "69d83e9db67cec4f9b09b8c9"
+          ],
+          "rationale": "Human-adjudicated semantic label override."
+        },
+        {
+          "query_id": "6929a9fe4c474121999c9ff6",
+          "company_name": "Whatnot",
+          "normalized_title": "software engineer, new grad",
+          "positive_ids": [
+            "69c5849f1b5ad02887375dd5"
+          ],
+          "top_candidates": [
+            "69d818389f97a42dc9c1a4b6",
+            "69d64084cfdc6132f9469327",
+            "69d61c52cfdc6132f9468a50",
+            "69d00574cfdc6132f9437911",
+            "69d075c9366bb95ba551e7fe"
+          ],
+          "rationale": "Same normalized title appears across companies with different business/requirement structure."
+        }
+      ]
+    },
+    "semantic_gold": {
+      "case_count": 29,
+      "hit_at_1": 0.7586,
+      "hit_at_3": 0.931,
+      "hit_at_5": 0.931,
+      "mean_reciprocal_rank": 0.8391,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 567.24,
+      "avg_candidate_pool_size": 362.21,
+      "misses": [
+        {
+          "query_id": "69d83768869c7e25d859475c",
+          "company_name": "",
+          "normalized_title": "",
+          "positive_ids": [
+            "69d7f8e3b861c42857c477f1"
+          ],
+          "top_candidates": [
+            "697c25611136d179eeefdf16",
+            "69d640de52a5bf5800128045",
+            "69ce5e07891d7b11cfcc8020",
+            "69d24aad54f00230c6d20cdc",
+            "69d64081cfdc6132f946931f"
+          ],
+          "rationale": "Must-have alignment should outrank preferred-only overlap."
+        },
+        {
+          "query_id": "69d8377f738f2f099e89b7e9",
+          "company_name": "",
+          "normalized_title": "",
+          "positive_ids": [
+            "699d6a6d81476f6176b63dce"
+          ],
+          "top_candidates": [
+            "6996d6d0ce78e77b4fdb0c7f",
+            "69d640de52a5bf5800128045",
+            "69cd30bc398fb071abf72f55",
+            "697d7d4b3f57a3356967669e",
+            "69d83e9db67cec4f9b09b8c9"
+          ],
+          "rationale": "Human-adjudicated semantic label override."
+        }
+      ]
+    }
+  },
+  "teacher_b_category_results": {
+    "cross_company_structure_similar": {
+      "case_count": 6,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mean_reciprocal_rank": 1.0,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 603.68,
+      "avg_candidate_pool_size": 280.33,
+      "misses": []
+    },
+    "must_vs_preferred_confusing": {
+      "case_count": 6,
+      "hit_at_1": 0.3333,
+      "hit_at_3": 0.6667,
+      "hit_at_5": 0.6667,
+      "mean_reciprocal_rank": 0.5,
+      "median_positive_rank": 2.0,
+      "avg_runtime_ms": 673.58,
+      "avg_candidate_pool_size": 420.0,
+      "misses": [
+        {
+          "query_id": "69d83768869c7e25d859475c",
+          "company_name": "Amazon Web Services (AWS)",
+          "normalized_title": "software engineer, graviton software, annapurna labs",
+          "positive_ids": [
+            "69b2caedad360c0340a7bebf",
+            "69d04d77cdb525785fba9701",
+            "69d7f8e3b861c42857c477f1"
+          ],
+          "top_candidates": [
+            "697c25611136d179eeefdf16",
+            "69d640de52a5bf5800128045",
+            "69ce5e07891d7b11cfcc8020",
+            "69d24aad54f00230c6d20cdc",
+            "69d64081cfdc6132f946931f"
+          ],
+          "rationale": "Must-have alignment should outrank preferred-only overlap."
+        },
+        {
+          "query_id": "69d8377f738f2f099e89b7e9",
+          "company_name": "Amazon Web Services (AWS)",
+          "normalized_title": "sde machine learning, agentcore",
+          "positive_ids": [
+            "69b36777a8ac8e70ff679ed8"
+          ],
+          "top_candidates": [
+            "6996d6d0ce78e77b4fdb0c7f",
+            "69d640de52a5bf5800128045",
+            "69cd30bc398fb071abf72f55",
+            "697d7d4b3f57a3356967669e",
+            "69d83e9db67cec4f9b09b8c9"
+          ],
+          "rationale": "Must-have alignment should outrank preferred-only overlap."
+        }
+      ]
+    },
+    "or_and_mixed": {
+      "case_count": 6,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mean_reciprocal_rank": 1.0,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 582.0,
+      "avg_candidate_pool_size": 420.0,
+      "misses": []
+    },
+    "parent_child_conflict": {
+      "case_count": 6,
+      "hit_at_1": 0.5,
+      "hit_at_3": 0.8333,
+      "hit_at_5": 0.8333,
+      "mean_reciprocal_rank": 0.6389,
+      "median_positive_rank": 2.0,
+      "avg_runtime_ms": 707.51,
+      "avg_candidate_pool_size": 420.0,
+      "misses": [
+        {
+          "query_id": "69d8377f738f2f099e89b7e9",
+          "company_name": "Amazon Web Services (AWS)",
+          "normalized_title": "sde machine learning, agentcore",
+          "positive_ids": [
+            "699d6a6d81476f6176b63dce"
+          ],
+          "top_candidates": [
+            "6996d6d0ce78e77b4fdb0c7f",
+            "69d640de52a5bf5800128045",
+            "69cd30bc398fb071abf72f55",
+            "697d7d4b3f57a3356967669e",
+            "69d83e9db67cec4f9b09b8c9"
+          ],
+          "rationale": "Human-adjudicated semantic label override."
+        }
+      ]
+    },
+    "same_company_structure_different": {
+      "case_count": 3,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mean_reciprocal_rank": 1.0,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 357.84,
+      "avg_candidate_pool_size": 280.33,
+      "misses": []
+    },
+    "title_same_business_different": {
+      "case_count": 6,
+      "hit_at_1": 0.6667,
+      "hit_at_3": 0.8333,
+      "hit_at_5": 0.8333,
+      "mean_reciprocal_rank": 0.75,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 429.28,
+      "avg_candidate_pool_size": 350.17,
+      "misses": [
+        {
+          "query_id": "6929a9fe4c474121999c9ff6",
+          "company_name": "Whatnot",
+          "normalized_title": "software engineer, new grad",
+          "positive_ids": [
+            "69c5849f1b5ad02887375dd5"
+          ],
+          "top_candidates": [
+            "69d818389f97a42dc9c1a4b6",
+            "69d64084cfdc6132f9469327",
+            "69d61c52cfdc6132f9468a50",
+            "69d00574cfdc6132f9437911",
+            "69d075c9366bb95ba551e7fe"
+          ],
+          "rationale": "Same normalized title appears across companies with different business/requirement structure."
+        }
+      ]
+    }
+  },
+  "teacher_b_freeze_decision": {
+    "criteria": {
+      "rebuilt_hard_hit_at_1_min": 0.55,
+      "rebuilt_hard_hit_at_3_min": 0.72,
+      "gold_hit_at_1_min": 0.68,
+      "gold_hit_at_3_min": 0.82,
+      "critical_category_hit_at_3_min": 0.5,
+      "avg_runtime_ms_max": 1000.0,
+      "high_priority_active_labels_max": 3,
+      "dynamic_ingest_must_pass": true
+    },
+    "passed": true,
+    "gap_summary": [],
+    "frozen_version": "teacher_b_semantic_v1"
+  },
+  "active_labeling": {
+    "manual_label_stats": {
+      "total_samples": 15,
+      "adjudicated_samples": 14,
+      "pending_manual_samples": 0,
+      "three_round_consistency_rate": 0.9333
+    },
+    "gold_labels": [
+      {
+        "query_id": "69ced753398fb071abf896e5",
+        "positive_ids": [
+          "69cefaec891d7b11cfccefe6"
+        ],
+        "category": "cross_company_structure_similar",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69cefaec891d7b11cfccefe6",
+        "positive_ids": [
+          "69ced753398fb071abf896e5"
+        ],
+        "category": "cross_company_structure_similar",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69d3d602891d7b11cfcf48af",
+        "positive_ids": [
+          "692bb23f4c474121999ce114"
+        ],
+        "category": "cross_company_structure_similar",
+        "confidence": 0.98,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Cross-company jobs share the same requirement-unit pattern signature."
+      },
+      {
+        "query_id": "692bb23f4c474121999ce114",
+        "positive_ids": [
+          "69d3d602891d7b11cfcf48af"
+        ],
+        "category": "cross_company_structure_similar",
+        "confidence": 0.98,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Cross-company jobs share the same requirement-unit pattern signature."
+      },
+      {
+        "query_id": "69cee13fcfdc6132f942d5be",
+        "positive_ids": [
+          "69ceeae0398fb071abf8aac5"
+        ],
+        "category": "cross_company_structure_similar",
+        "confidence": 0.98,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Cross-company jobs share the same requirement-unit pattern signature."
+      },
+      {
+        "query_id": "69ceeae0398fb071abf8aac5",
+        "positive_ids": [
+          "69cee13fcfdc6132f942d5be"
+        ],
+        "category": "cross_company_structure_similar",
+        "confidence": 0.98,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Cross-company jobs share the same requirement-unit pattern signature."
+      },
+      {
+        "query_id": "69d83771738f2f099e89b783",
+        "positive_ids": [
+          "69b3676da8ac8e70ff679ea4"
+        ],
+        "category": "must_vs_preferred_confusing",
+        "confidence": 0.7867,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Must-have alignment should outrank preferred-only overlap."
+      },
+      {
+        "query_id": "69d83774869c7e25d859479c",
+        "positive_ids": [
+          "69d41bc054f00230c6d2e008",
+          "69ce5e07891d7b11cfcc8020"
+        ],
+        "category": "must_vs_preferred_confusing",
+        "confidence": 0.9133,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Generic-title Amazon SDE query is dominated by generic software-engineering must-haves and lacks a decisive domain anchor. Pure semantic retrieval should allow multiple acceptable positives instead of forcing a single gold answer."
+      },
+      {
+        "query_id": "69d83768869c7e25d859475c",
+        "positive_ids": [
+          "69d7f8e3b861c42857c477f1"
+        ],
+        "category": "must_vs_preferred_confusing",
+        "confidence": 0.88,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Must-have alignment should outrank preferred-only overlap."
+      },
+      {
+        "query_id": "69d8376a869c7e25d859476f",
+        "positive_ids": [
+          "69d6468852a5bf58001280a7"
+        ],
+        "category": "must_vs_preferred_confusing",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69d8377b9f97a42dc9c1b2ce",
+        "positive_ids": [
+          "69d7f8e3b861c42857c477f1"
+        ],
+        "category": "must_vs_preferred_confusing",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69d3e83f891d7b11cfcf5777",
+        "positive_ids": [
+          "69d408c5891d7b11cfcf6bc6"
+        ],
+        "category": "or_and_mixed",
+        "confidence": 0.809,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Query contains mixed OR/AND logic and should match jobs with the same logical structure."
+      },
+      {
+        "query_id": "69d84493738f2f099e89ba98",
+        "positive_ids": [
+          "69d82537738f2f099e89aec9"
+        ],
+        "category": "or_and_mixed",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69d82537738f2f099e89aec9",
+        "positive_ids": [
+          "69d84493738f2f099e89ba98"
+        ],
+        "category": "or_and_mixed",
+        "confidence": 0.9113,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Query contains mixed OR/AND logic and should match jobs with the same logical structure."
+      },
+      {
+        "query_id": "69d408c5891d7b11cfcf6bc6",
+        "positive_ids": [
+          "69d3e83f891d7b11cfcf5777"
+        ],
+        "category": "or_and_mixed",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69cee13fcfdc6132f942d5be",
+        "positive_ids": [
+          "69ceeae0398fb071abf8aac5"
+        ],
+        "category": "or_and_mixed",
+        "confidence": 0.98,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Query contains mixed OR/AND logic and should match jobs with the same logical structure."
+      },
+      {
+        "query_id": "69d83771738f2f099e89b783",
+        "positive_ids": [
+          "69b3676da8ac8e70ff679ea4"
+        ],
+        "category": "parent_child_conflict",
+        "confidence": 0.7867,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Parent/child hierarchy must be resolved correctly; sibling/parent-only distractors exist."
+      },
+      {
+        "query_id": "69d8376a869c7e25d859476f",
+        "positive_ids": [
+          "69d00c26cdb525785fba6ae9"
+        ],
+        "category": "parent_child_conflict",
+        "confidence": 0.8711,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Parent/child hierarchy must be resolved correctly; sibling/parent-only distractors exist."
+      },
+      {
+        "query_id": "69d8377b9f97a42dc9c1b2ce",
+        "positive_ids": [
+          "69d7f8e3b861c42857c477f1"
+        ],
+        "category": "parent_child_conflict",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69d8377f738f2f099e89b7e9",
+        "positive_ids": [
+          "699d6a6d81476f6176b63dce"
+        ],
+        "category": "parent_child_conflict",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69d8440df4ea471a51fe4de1",
+        "positive_ids": [
+          "69d7efed738f2f099e899528"
+        ],
+        "category": "parent_child_conflict",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69ced753398fb071abf896e5",
+        "positive_ids": [
+          "69cefaec891d7b11cfccefe6"
+        ],
+        "category": "same_company_structure_different",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "69cefaec891d7b11cfccefe6",
+        "positive_ids": [
+          "69ced753398fb071abf896e5"
+        ],
+        "category": "same_company_structure_different",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "692bb23f4c474121999ce114",
+        "positive_ids": [
+          "69d3d602891d7b11cfcf48af"
+        ],
+        "category": "same_company_structure_different",
+        "confidence": 0.98,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Cross-company semantic twins exist while same-company jobs are structurally different distractors."
+      },
+      {
+        "query_id": "69c4e578d5a1016e98dc540d",
+        "positive_ids": [
+          "69d071e6891d7b11cfcdb7b1"
+        ],
+        "category": "title_same_business_different",
+        "confidence": 0.98,
+        "status": "adjudicated_manual_pool",
+        "rationale": "Human-adjudicated semantic label override."
+      },
+      {
+        "query_id": "692bb23f4c474121999ce114",
+        "positive_ids": [
+          "69d3d602891d7b11cfcf48af"
+        ],
+        "category": "title_same_business_different",
+        "confidence": 0.98,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Same normalized title appears across companies with different business/requirement structure."
+      },
+      {
+        "query_id": "69cff888cfdc6132f9437438",
+        "positive_ids": [
+          "69cc936c366bb95ba54f3134"
+        ],
+        "category": "title_same_business_different",
+        "confidence": 0.9789,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Same normalized title appears across companies with different business/requirement structure."
+      },
+      {
+        "query_id": "69d84493738f2f099e89ba98",
+        "positive_ids": [
+          "69d82537738f2f099e89aec9"
+        ],
+        "category": "title_same_business_different",
+        "confidence": 0.8713,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Same normalized title appears across companies with different business/requirement structure."
+      },
+      {
+        "query_id": "69d82537738f2f099e89aec9",
+        "positive_ids": [
+          "69d84493738f2f099e89ba98"
+        ],
+        "category": "title_same_business_different",
+        "confidence": 0.8713,
+        "status": "codex_curated_high_confidence",
+        "rationale": "Same normalized title appears across companies with different business/requirement structure."
+      }
+    ],
+    "label_pool": [
+      {
+        "sample_id": "69d83774869c7e25d859479c::must_vs_preferred_confusing",
+        "query_id": "69d83774869c7e25d859479c",
+        "category": "must_vs_preferred_confusing",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69ce5e07891d7b11cfcc8020",
+            "rationale": "Initial judgment prefers the EC2 UltraServer role because it shares the generic SDE must-have backbone and cross-functional workflow language."
+          },
+          {
+            "round": 2,
+            "decision": "69d41bc054f00230c6d2e008",
+            "rationale": "Requirement-unit review shows the query lacks a stable domain anchor, so another internal product SDE candidate remains equally plausible."
+          },
+          {
+            "round": 3,
+            "decision": "unresolved",
+            "rationale": "Consistency review still cannot separate candidates using requirement units alone; the query is dominated by generic SDE must-haves and weak background text."
+          }
+        ],
+        "final_status": "pending_manual_review",
+        "final_positive_ids": [],
+        "disagreement_reason": "Generic-title Amazon SDE query lacks a decisive domain or tech anchor after three self-reviews.",
+        "feedback": {
+          "taxonomy": [
+            "Consider adding DOMAIN_HR_SYSTEMS aliases such as workforce solutions and employee onboarding if more evidence appears."
+          ],
+          "rules": [
+            "Do not force a semantic positive when requirement units are mostly generic must-have software engineering clauses."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d8377f738f2f099e89b7e9::parent_child_conflict",
+        "query_id": "69d8377f738f2f099e89b7e9",
+        "category": "parent_child_conflict",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "699d6a6d81476f6176b63dce",
+            "rationale": "The robotics ML systems role matches the query's ML infrastructure and LLM-oriented software engineering shape better than recommendation-oriented SDEs."
+          },
+          {
+            "round": 2,
+            "decision": "699d6a6d81476f6176b63dce",
+            "rationale": "Requirement-unit review confirms the candidate has AND-style infrastructure plus PyTorch/LLM units, while the current gold lacks those parent-child ML-system signals."
+          },
+          {
+            "round": 3,
+            "decision": "699d6a6d81476f6176b63dce",
+            "rationale": "Final consistency check keeps the robotics ML systems role as the strongest semantic anchor."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "699d6a6d81476f6176b63dce"
+        ],
+        "feedback": {
+          "taxonomy": [
+            "Add DOMAIN_AGENT_SYSTEMS aliases such as agentcore and multi-agent workflows to better separate ML-agent infrastructure from generic ML SDE roles."
+          ],
+          "rules": [
+            "Parent-child matching should reward ML infrastructure plus LLM bundles above generic AI software development overlap."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d8377b9f97a42dc9c1b2ce::must_vs_preferred_confusing",
+        "query_id": "69d8377b9f97a42dc9c1b2ce",
+        "category": "must_vs_preferred_confusing",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d7f8e3b861c42857c477f1",
+            "rationale": "Same-title networking role is the clearest semantic twin."
+          },
+          {
+            "round": 2,
+            "decision": "69d7f8e3b861c42857c477f1",
+            "rationale": "Requirement-unit review confirms shared networking and control-plane background units on top of identical SDE must-haves."
+          },
+          {
+            "round": 3,
+            "decision": "69d7f8e3b861c42857c477f1",
+            "rationale": "Final check preserves the networking SIDR duplicate as the correct positive."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d7f8e3b861c42857c477f1"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": [
+            "Must/preferred confusion should not demote exact semantic twins when networking and control-plane units align."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d8377b9f97a42dc9c1b2ce::parent_child_conflict",
+        "query_id": "69d8377b9f97a42dc9c1b2ce",
+        "category": "parent_child_conflict",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d7f8e3b861c42857c477f1",
+            "rationale": "The paired SIDR role shares networking/control-plane background instead of only generic platform infrastructure."
+          },
+          {
+            "round": 2,
+            "decision": "69d7f8e3b861c42857c477f1",
+            "rationale": "Hierarchy review confirms DOMAIN_NETWORKING and TECH_CONTROL_PLANE are better than sibling infrastructure-only roles."
+          },
+          {
+            "round": 3,
+            "decision": "69d7f8e3b861c42857c477f1",
+            "rationale": "Consistency review keeps the same networking positive."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d7f8e3b861c42857c477f1"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": [
+            "Parent-child logic should prefer networking child units over generic infrastructure siblings."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d408c5891d7b11cfcf6bc6::or_and_mixed",
+        "query_id": "69d408c5891d7b11cfcf6bc6",
+        "category": "or_and_mixed",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d3e83f891d7b11cfcf5777",
+            "rationale": "Exact Drupal developer peer is the clearest positive."
+          },
+          {
+            "round": 2,
+            "decision": "69d3e83f891d7b11cfcf5777",
+            "rationale": "Requirement-unit review confirms the PHP/HTML/CSS/JavaScript/MySQL AND bundle."
+          },
+          {
+            "round": 3,
+            "decision": "69d3e83f891d7b11cfcf5777",
+            "rationale": "Final check remains unchanged."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d3e83f891d7b11cfcf5777"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": [
+            "Keep mixed OR/AND bundle handling for web-stack requirement units."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d84493738f2f099e89ba98::or_and_mixed",
+        "query_id": "69d84493738f2f099e89ba98",
+        "category": "or_and_mixed",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d82537738f2f099e89aec9",
+            "rationale": "The NTT DATA North America Data Engineer role shares the same SQL/Python-or-Java/Spark pipeline shape."
+          },
+          {
+            "round": 2,
+            "decision": "69d82537738f2f099e89aec9",
+            "rationale": "Requirement-unit review confirms the OR unit over Python/Java and the AND bundle with Spark and Kubernetes."
+          },
+          {
+            "round": 3,
+            "decision": "69d82537738f2f099e89aec9",
+            "rationale": "Consistency review keeps the same data-engineering positive."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d82537738f2f099e89aec9"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": [
+            "Mixed OR/AND logic should continue to reward data-engineering bundles above generic cloud-data roles."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d83b10f4ea471a51fe4be1::must_vs_preferred_confusing",
+        "query_id": "69d83b10f4ea471a51fe4be1",
+        "category": "must_vs_preferred_confusing",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d83771738f2f099e89b783",
+            "rationale": "Buyer Abuse Prevention ML shares the same applied-scientist model-building and Java/C++/Python must-haves."
+          },
+          {
+            "round": 2,
+            "decision": "69d83771738f2f099e89b783",
+            "rationale": "Requirement-unit review shows the current gold over-indexes on GenAI preference while the buyer-risk role matches the actual must-have bundle."
+          },
+          {
+            "round": 3,
+            "decision": "69d83771738f2f099e89b783",
+            "rationale": "Final consistency check keeps the buyer-risk applied scientist role."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d83771738f2f099e89b783"
+        ],
+        "feedback": {
+          "taxonomy": [
+            "Add DOMAIN_AD_MEASUREMENT aliases such as measurement science if repeated evidence appears."
+          ],
+          "rules": [
+            "Must-have model-building plus programming-language overlap should outrank unrelated GenAI preference-only positives."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d83b10f4ea471a51fe4be1::parent_child_conflict",
+        "query_id": "69d83b10f4ea471a51fe4be1",
+        "category": "parent_child_conflict",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d83771738f2f099e89b783",
+            "rationale": "The buyer-risk applied scientist role matches ML/model-building child units better than broader AI/compiler roles."
+          },
+          {
+            "round": 2,
+            "decision": "69d83771738f2f099e89b783",
+            "rationale": "Hierarchy review confirms the current top generic software engineering candidates are sibling roles, not true applied-science ML children."
+          },
+          {
+            "round": 3,
+            "decision": "69d83771738f2f099e89b783",
+            "rationale": "Consistency review remains unchanged."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d83771738f2f099e89b783"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": [
+            "Parent-child matching must separate applied-science ML roles from generic SWE siblings."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d8376a869c7e25d859476f::must_vs_preferred_confusing",
+        "query_id": "69d8376a869c7e25d859476f",
+        "category": "must_vs_preferred_confusing",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d6468852a5bf58001280a7",
+            "rationale": "Aurora DSQL query processing is the clearest database-engineering semantic match."
+          },
+          {
+            "round": 2,
+            "decision": "69d6468852a5bf58001280a7",
+            "rationale": "Requirement-unit review shows the current gold lacks SQL/database-specific strong-preference units, while Aurora DSQL has them."
+          },
+          {
+            "round": 3,
+            "decision": "69d6468852a5bf58001280a7",
+            "rationale": "Final consistency check keeps Aurora DSQL."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d6468852a5bf58001280a7"
+        ],
+        "feedback": {
+          "taxonomy": [
+            "Add DOMAIN_DATABASE_ENGINES aliases such as distributed SQL, DSQL, Aurora DSQL, and query processing."
+          ],
+          "rules": [
+            "Discriminative SQL/database-engine strong-preference units should outrank generic SDE must-have parity."
+          ]
+        }
+      },
+      {
+        "sample_id": "69d8440df4ea471a51fe4de1::parent_child_conflict",
+        "query_id": "69d8440df4ea471a51fe4de1",
+        "category": "parent_child_conflict",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d7efed738f2f099e899528",
+            "rationale": "Senior Space Infrastructure is the obvious semantic parent/near-duplicate."
+          },
+          {
+            "round": 2,
+            "decision": "69d7efed738f2f099e899528",
+            "rationale": "Requirement-unit review confirms shared infrastructure, Python, Docker, Linux and CI/CD stack; the previous gold is a stale false positive."
+          },
+          {
+            "round": 3,
+            "decision": "69d7efed738f2f099e899528",
+            "rationale": "Final consistency check keeps the Loft Orbital infrastructure role."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d7efed738f2f099e899528"
+        ],
+        "feedback": {
+          "taxonomy": [
+            "Add DOMAIN_SPACE_SYSTEMS aliases such as space infrastructure and satellite operations."
+          ],
+          "rules": [
+            "Remove stale false positives from curated hard pools when they are contradicted by current requirement units."
+          ]
+        }
+      },
+      {
+        "sample_id": "69c4e578d5a1016e98dc540d::title_same_business_different",
+        "query_id": "69c4e578d5a1016e98dc540d",
+        "category": "title_same_business_different",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69d071e6891d7b11cfcdb7b1",
+            "rationale": "IAM Integration Engineer is a better customer/security/support anchor than a generic senior software engineer."
+          },
+          {
+            "round": 2,
+            "decision": "69d071e6891d7b11cfcdb7b1",
+            "rationale": "Requirement-unit review confirms customer-facing problem solving, security and integration semantics."
+          },
+          {
+            "round": 3,
+            "decision": "69d071e6891d7b11cfcdb7b1",
+            "rationale": "Final consistency check remains unchanged."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69d071e6891d7b11cfcdb7b1"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": [
+            "Title overlap must not override customer/security integration semantics."
+          ]
+        }
+      },
+      {
+        "sample_id": "69ced753398fb071abf896e5::cross_company_structure_similar",
+        "query_id": "69ced753398fb071abf896e5",
+        "category": "cross_company_structure_similar",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69cefaec891d7b11cfccefe6",
+            "rationale": "Electric Utility Grid Hadron peer is the clear cross-company structural twin."
+          },
+          {
+            "round": 2,
+            "decision": "69cefaec891d7b11cfccefe6",
+            "rationale": "Requirement-unit review confirms nearly identical language, OO language OR-unit, and software engineering lifecycle clauses."
+          },
+          {
+            "round": 3,
+            "decision": "69cefaec891d7b11cfccefe6",
+            "rationale": "Final consistency check remains unchanged."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69cefaec891d7b11cfccefe6"
+        ],
+        "feedback": {
+          "taxonomy": [
+            "Add DOMAIN_ENERGY_SYSTEMS aliases such as electric utility grid if this cluster continues to grow."
+          ],
+          "rules": []
+        }
+      },
+      {
+        "sample_id": "69cefaec891d7b11cfccefe6::cross_company_structure_similar",
+        "query_id": "69cefaec891d7b11cfccefe6",
+        "category": "cross_company_structure_similar",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69ced753398fb071abf896e5",
+            "rationale": "The paired Hadron role remains the clearest structural twin."
+          },
+          {
+            "round": 2,
+            "decision": "69ced753398fb071abf896e5",
+            "rationale": "Requirement-unit review confirms the same language and lifecycle clauses."
+          },
+          {
+            "round": 3,
+            "decision": "69ced753398fb071abf896e5",
+            "rationale": "Final consistency check remains unchanged."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69ced753398fb071abf896e5"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": []
+        }
+      },
+      {
+        "sample_id": "69ced753398fb071abf896e5::same_company_structure_different",
+        "query_id": "69ced753398fb071abf896e5",
+        "category": "same_company_structure_different",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69cefaec891d7b11cfccefe6",
+            "rationale": "The AWS-named twin is still the correct semantic positive while same-company distractors remain generic SDE roles."
+          },
+          {
+            "round": 2,
+            "decision": "69cefaec891d7b11cfccefe6",
+            "rationale": "Requirement-unit review confirms that same-company alternatives are structurally weaker than the paired Hadron role."
+          },
+          {
+            "round": 3,
+            "decision": "69cefaec891d7b11cfccefe6",
+            "rationale": "Final consistency check remains unchanged."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69cefaec891d7b11cfccefe6"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": [
+            "Same-company distractors should stay below the matched structural twin in semantic-only evaluation."
+          ]
+        }
+      },
+      {
+        "sample_id": "69cefaec891d7b11cfccefe6::same_company_structure_different",
+        "query_id": "69cefaec891d7b11cfccefe6",
+        "category": "same_company_structure_different",
+        "rounds": [
+          {
+            "round": 1,
+            "decision": "69ced753398fb071abf896e5",
+            "rationale": "The Amazon-named twin remains the clearest semantic positive."
+          },
+          {
+            "round": 2,
+            "decision": "69ced753398fb071abf896e5",
+            "rationale": "Requirement-unit review confirms same-company distractors are structurally weaker."
+          },
+          {
+            "round": 3,
+            "decision": "69ced753398fb071abf896e5",
+            "rationale": "Final consistency check remains unchanged."
+          }
+        ],
+        "final_status": "adjudicated",
+        "final_positive_ids": [
+          "69ced753398fb071abf896e5"
+        ],
+        "feedback": {
+          "taxonomy": [],
+          "rules": []
+        }
+      }
+    ],
+    "boundary_pool": [
+      {
+        "query_id": "69d83774869c7e25d859479c",
+        "category": "must_vs_preferred_confusing",
+        "policy": "multiple_acceptable_or_abstain",
+        "acceptable_positive_ids": [
+          "69ce5e07891d7b11cfcc8020",
+          "69d41bc054f00230c6d2e008"
+        ],
+        "freeze_handling": "count_any_acceptable_positive_as_hit_and exclude_from_forced_single-positive adjudication",
+        "rationale": "Generic-title Amazon SDE query is dominated by generic software-engineering must-haves and lacks a decisive domain anchor. Pure semantic retrieval should allow multiple acceptable positives instead of forcing a single gold answer."
+      }
+    ],
+    "queue_summary": {
+      "label_sample_count": 2,
+      "pending_manual_count": 0,
+      "label_budget_estimate": {
+        "high_value_cases": 2,
+        "recommended_manual_review_minutes": 4
+      },
+      "selection_basis": [
+        "score margin instability",
+        "OR/AND or must/preferred or parent-child category",
+        "semantic/company channel disagreement",
+        "lower-confidence codex label status"
+      ],
+      "queue": [
+        {
+          "query_id": "69d83768869c7e25d859475c",
+          "category": "must_vs_preferred_confusing",
+          "priority": 5,
+          "score_margin": 0.0135,
+          "semantic_company_disagree": false,
+          "current_label_status": "codex_curated_high_confidence",
+          "budget_bucket": "high"
+        },
+        {
+          "query_id": "69d8376a869c7e25d859476f",
+          "category": "parent_child_conflict",
+          "priority": 5,
+          "score_margin": 0.023,
+          "semantic_company_disagree": false,
+          "current_label_status": "codex_curated_high_confidence",
+          "budget_bucket": "high"
+        }
+      ],
+      "pending_manual_pool": [
+        {
+          "query_id": "69d83774869c7e25d859479c",
+          "category": "must_vs_preferred_confusing",
+          "disagreement_reason": "Generic-title Amazon SDE query lacks a decisive domain or tech anchor after three self-reviews."
+        },
+        {
+          "query_id": "69d83774869c7e25d859479c",
+          "category": "must_vs_preferred_confusing",
+          "disagreement_reason": "Generic-title Amazon SDE query is dominated by generic software-engineering must-haves and lacks a decisive domain anchor. Pure semantic retrieval should allow multiple acceptable positives instead of forcing a single gold answer."
+        }
+      ]
+    },
+    "feedback_loops": {
+      "gold_set_and_hard_pool": "Accepted codex-curated cases flow into semantic_gold and rebuilt_hard tracking.",
+      "taxonomy_alias_updates": "Pending alias candidates are stored by incremental ingest for later absorption or rejection.",
+      "requirement_unit_rules": "Error decomposition priority feeds parser and scorer rule updates.",
+      "future_student_distillation": "Only frozen semantic teacher traces should be used for the next student distillation pass."
+    }
+  },
+  "dual_channel_architecture": {
+    "semantic_channel": "Requirement-unit / taxonomy / logic / hierarchy only. No same_company or duplicate shortcut.",
+    "company_channel": "Same-company continuity channel using title continuity plus semantic support, separate from the semantic teacher.",
+    "output_protocol": {
+      "semantic_best_anchor": "Global best reusable anchor for Writer skeleton.",
+      "semantic_top_k": "Compact semantic candidate list.",
+      "semantic_score": "Pure semantic reuse score.",
+      "semantic_explanation": "Requirement-unit hit summary and hard-gap explanation.",
+      "company_best_anchor": "Best same-company continuity anchor.",
+      "company_top_k": "Compact same-company candidate list.",
+      "company_score": "Internal continuity score.",
+      "company_explanation": "Duplicate/title/semantic continuity rationale.",
+      "delta_summary": "Why semantic-best and company-best differ and how downstream should combine them."
+    },
+    "downstream_writer_interface": {
+      "same_anchor_case": "Use a single anchor as both semantic and continuity template.",
+      "semantic_better_company_exists": "Use semantic_best as the main skeleton and company_best as continuity reference.",
+      "company_anchor_too_old_or_gap_heavy": "Downgrade continuity anchor and keep semantic_best only."
+    }
+  },
+  "training_runtime_split": {
+    "training_phase": [
+      "semantic gold curation",
+      "active label queue generation",
+      "error decomposition",
+      "taxonomy and rule updates",
+      "teacher freeze and future student distillation"
+    ],
+    "runtime_phase": [
+      "pure-program requirement-unit parsing",
+      "semantic channel retrieval",
+      "company continuity channel retrieval",
+      "dual-channel output to Writer/Reviewer",
+      "incremental ingest and alias queue append"
+    ]
+  },
+  "dynamic_pool_and_incremental_index": {
+    "ingest_rules": {
+      "index_new_job": "Add any non-duplicate, non-quarantined structured job to the live semantic engine immediately.",
+      "dedupe": "Fingerprint on company/title/pattern/canonical set merges exact near-duplicates.",
+      "quarantine": "Low-semantic-signal jobs are isolated instead of polluting the main pool.",
+      "pattern_merge": "Pattern index grows by signature and combo keys on ingest.",
+      "new_alias_state_flow": "Pending surface tokens become alias candidates with pending status until absorbed or rejected offline."
+    },
+    "incremental_strategy": {
+      "incremental_write_indexes": [
+        "jobs_by_id",
+        "pattern_index",
+        "member_index",
+        "combo_index",
+        "surface_token_index",
+        "company_index"
+      ],
+      "offline_rebuild_indexes": [
+        "canonical taxonomy alias compilation after accepted alias updates"
+      ],
+      "fast_next_round_retrieval": "New jobs are retrievable immediately after ingest via MatchEngine.add_structured_job."
+    },
+    "smoke_test": {
+      "ingest_result": {
+        "job_id": "69d84d76869c7e25d8594c84::incremental",
+        "action": "indexed",
+        "fingerprint": "6d5e8fa50d0da9e7d766018c20cced6d",
+        "duplicate_of": "",
+        "quarantine_reason": "",
+        "alias_candidates": [
+          {
+            "token": "ABCDEGraph",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "Application Developer Experimental ABCDEGraph",
+            "suggested_content_type": "responsibility",
+            "status": "pending"
+          },
+          {
+            "token": "Application",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "Application Developer Experimental ABCDEGraph",
+            "suggested_content_type": "responsibility",
+            "status": "pending"
+          },
+          {
+            "token": "Developer",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "Application Developer Experimental ABCDEGraph",
+            "suggested_content_type": "responsibility",
+            "status": "pending"
+          },
+          {
+            "token": "Experimental",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "Application Developer Experimental ABCDEGraph",
+            "suggested_content_type": "responsibility",
+            "status": "pending"
+          },
+          {
+            "token": "ABCDEGraph",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "ABCDEGraph platform experience",
+            "suggested_content_type": "tech_stack",
+            "status": "pending"
+          },
+          {
+            "token": "platform",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "ABCDEGraph platform experience",
+            "suggested_content_type": "tech_stack",
+            "status": "pending"
+          },
+          {
+            "token": "platform",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "Build platform tooling",
+            "suggested_content_type": "responsibility",
+            "status": "pending"
+          },
+          {
+            "token": "tooling",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "Build platform tooling",
+            "suggested_content_type": "responsibility",
+            "status": "pending"
+          },
+          {
+            "token": "Austin",
+            "source_job_id": "69d84d76869c7e25d8594c84::incremental",
+            "source_text": "Austin, TX",
+            "suggested_content_type": "constraint",
+            "status": "pending"
+          }
+        ]
+      },
+      "retrievable_next_round": true,
+      "alias_candidate_captured": true,
+      "incremental_write_supported": true,
+      "offline_rebuild_needed_for_taxonomy_alias_absorption": true
+    }
+  },
+  "go_live_decision": {
+    "criteria": {
+      "zero_llm_runtime": true,
+      "avg_runtime_ms_max": 1200.0,
+      "semantic_top_k_max": 3,
+      "company_top_k_max": 3,
+      "dual_channel_required": true,
+      "dynamic_growth_required": true
+    },
+    "passed": true,
+    "starter_quality_estimate": {
+      "semantic_average_reuse_readiness": 1.0014
+    },
+    "remaining_risks": []
+  },
+  "boundary_policy": {
+    "generic_title_policy": "Queries dominated by generic must-have software-engineering clauses may have multiple acceptable positives or abstain from forced single-positive adjudication.",
+    "active_boundary_case_count": 1,
+    "boundary_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_boundary_pool.json"
+  },
+  "next_student_plan": [
+    "Do not redistill student until teacher_b_freeze_decision.passed is true.",
+    "When frozen, distill only the semantic channel into the new student.",
+    "Keep company continuity as a separate lightweight reranker, not part of the student core."
+  ]
+}

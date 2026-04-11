@@ -1,0 +1,75 @@
+{
+  "seed_id": "seed_frontend_web_perf",
+  "label": "Frontend Web Performance",
+  "role_family": "frontend",
+  "seniority": "entry",
+  "validated_score": 94.8,
+  "company_name": "Profound",
+  "source_job_id": "69cfc830366bb95ba5518b62",
+  "company_anchor": true,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_frontend_web_perf/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_frontend_web_perf",
+  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62",
+  "derived_count": 5,
+  "derived_jobs": [
+    {
+      "job_id": "69a7b876637232443f650896",
+      "company_name": "Arlo",
+      "publish_time": "2026-04-04 06:36:56",
+      "title": "Product Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d068eecdb525785fbaa1b6",
+      "company_name": "Eve",
+      "publish_time": "2026-04-03 20:27:10",
+      "title": "Product Engineer (Front-End Leaning)",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cfc830366bb95ba5518b62",
+      "company_name": "Profound",
+      "publish_time": "2026-04-03 09:01:20",
+      "title": "Software Engineer, Frontend",
+      "source_kind": "seed_source",
+      "route_mode": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69702ce8333b6343a14c9556",
+      "company_name": "Typeface",
+      "publish_time": "2026-04-02 19:34:49",
+      "title": "Senior Web Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b2075065de58104c7174b4",
+      "company_name": "Distyl",
+      "publish_time": "2026-04-02 17:36:59",
+      "title": "Frontend Product Engineer, AI Applications",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

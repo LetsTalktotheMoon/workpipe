@@ -1,0 +1,63 @@
+{
+  "job_id": "6897b6ee8c6d6b4426791056",
+  "company_name": "Merge",
+  "company_slug": "merge",
+  "publish_time": "2026-04-04 01:32:17",
+  "publish_date": "2026-04-04",
+  "title": "Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=5592469004&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_codex_amazon_sde",
+  "seed_label": "Amazon SDE",
+  "parent_seed_id": "seed_codex_amazon_sde",
+  "top_candidate": {
+    "seed_id": "seed_codex_amazon_sde",
+    "label": "Amazon SDE",
+    "route_score": 0.942,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_merchant_incident_workbench"
+    ],
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_merchant_incident_workbench"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/merge/2026-04-04/6897b6ee8c6d6b4426791056/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-07T01:34:52",
+  "review": {},
+  "subseed_ids": [
+    "amazon_platform_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon Platform / Distributed Systems"
+  ],
+  "primary_subseed_id": "amazon_platform_mainline",
+  "primary_subseed_label": "Amazon Platform / Distributed Systems",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

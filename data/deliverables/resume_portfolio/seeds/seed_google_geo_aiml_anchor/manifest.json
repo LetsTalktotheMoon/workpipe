@@ -1,0 +1,211 @@
+{
+  "seed_id": "seed_google_geo_aiml_anchor",
+  "label": "Google Workspace/Geo AIML Anchor",
+  "role_family": "ai_ml_swe",
+  "seniority": "entry",
+  "validated_score": 95.9,
+  "company_name": "Google",
+  "source_job_id": "69b2b893ad360c0340a79c07",
+  "company_anchor": true,
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "project_cards": [
+    {
+      "project_id": "tiktok_security_retrieval_console",
+      "company_id": "tiktok_bytedance",
+      "company_name": "TikTok / ByteDance",
+      "start": "2025-06",
+      "end": "2025-09",
+      "team": "Security Investigation Tooling",
+      "business_domain": "Security knowledge retrieval and analyst tooling",
+      "project_goal": "Reduce manual context gathering for policy and incident investigations through retrieval-assisted internal tooling.",
+      "scope_ceiling": "Feature delivery inside a team-maintained retrieval assistant, evaluator, or analyst console; not end-to-end ownership of a standalone platform.",
+      "ownership_ceiling": "Implement handlers, evaluators, ingestion utilities, replay hooks, lightweight UI surfaces, and deployment checks for a bounded intern-owned slice.",
+      "allowed_tech_surface": [
+        "Go",
+        "Python",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "PostgreSQL",
+        "Kafka",
+        "gRPC",
+        "REST",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "S3",
+        "AWS Bedrock",
+        "RAG",
+        "LLM"
+      ],
+      "allowed_role_lenses": [
+        "backend",
+        "data",
+        "swe",
+        "mle",
+        "analyst"
+      ],
+      "needs_scope_note": true,
+      "notes": "Use for retrieval assistant, policy search, evaluation, or analyst-console variants. The business logic stays anchored in security knowledge retrieval."
+    },
+    {
+      "project_id": "didi_supply_eta_service",
+      "company_id": "didi_food",
+      "company_name": "DiDi Food",
+      "start": "2023-10",
+      "end": "2024-02",
+      "team": "Supply Planning and Dispatch Analytics",
+      "business_domain": "Courier ETA, supply-demand planning, and anomaly monitoring",
+      "project_goal": "Improve city-level planning speed and operational visibility through reusable ETA and supply monitoring services.",
+      "scope_ceiling": "Internal feature services and planning workflows for ops teams, backed by ETL and event-driven updates; not a standalone customer-facing product.",
+      "ownership_ceiling": "Build feature pipelines, anomaly checks, service adapters, cached reads, and planning diagnostics with partner engineering teams.",
+      "allowed_tech_surface": [
+        "Java",
+        "Python",
+        "SQL",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "Airflow",
+        "REST",
+        "Flask",
+        "Docker",
+        "ETL"
+      ],
+      "allowed_role_lenses": [
+        "analyst",
+        "backend",
+        "data",
+        "pm",
+        "swe"
+      ],
+      "needs_scope_note": false,
+      "notes": "Use for courier ETA feature service, capacity planning service, merchant supply exception monitoring, or outage diagnostics."
+    }
+  ],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_google_geo_aiml_anchor/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor",
+  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
+  "derived_count": 10,
+  "derived_jobs": [
+    {
+      "job_id": "69ba92be06c1ba00c54cb3d5",
+      "company_name": "Google",
+      "publish_time": "2026-04-08 07:37:50",
+      "title": "Software Engineer, Generative AI Media, Vertex AI",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.md",
+      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.pdf"
+    },
+    {
+      "job_id": "699c43cb81476f6176b4bd94",
+      "company_name": "Google",
+      "publish_time": "2026-04-08 07:21:22",
+      "title": "Practice Customer Engineer, Cloud AI, Google Cloud",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.md",
+      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.pdf"
+    },
+    {
+      "job_id": "699ca92c81476f6176b53dfe",
+      "company_name": "Google",
+      "publish_time": "2026-04-08 06:43:10",
+      "title": "Engineering Analyst, Cloud AI Abuse",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d63f4dcfdc6132f9469275",
+      "company_name": "Intel",
+      "publish_time": "2026-04-08 06:43:09",
+      "title": "Junior Software Performance Analysis and Optimization Engineer",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.md",
+      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.pdf"
+    },
+    {
+      "job_id": "69d6337b366bb95ba554bcaa",
+      "company_name": "Google",
+      "publish_time": "2026-04-08 05:52:43",
+      "title": "Data Engineer, Operations and Infrastructure Data Science",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d4fd43891d7b11cfcfebdb",
+      "company_name": "Google",
+      "publish_time": "2026-04-07 07:49:07",
+      "title": "Research Data Scientist, Search Ads, Google Experience",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b84a2756973837413d6fbf",
+      "company_name": "Google",
+      "publish_time": "2026-04-07 07:28:39",
+      "title": "Software Engineer, GenAI, Ads Forecasting",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d40bb1366bb95ba553a060",
+      "company_name": "Google",
+      "publish_time": "2026-04-06 14:38:25",
+      "title": "Business Intelligence Generalist, Product Data Warehouse",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cfc7c8366bb95ba5518b4a",
+      "company_name": "Google",
+      "publish_time": "2026-04-03 08:59:36",
+      "title": "Software Engineer, AI/ML, Geo Data Protection",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69b2b893ad360c0340a79c07",
+      "company_name": "Google",
+      "publish_time": "2026-04-03 07:45:25",
+      "title": "GenAI Software Engineer, Workspace Drive",
+      "source_kind": "seed_source",
+      "route_mode": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07/resume.md",
+      "resume_pdf": ""
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "job_id": "699932bde0bddb6acac841d2",
+  "company_name": "Uber",
+  "company_slug": "uber",
+  "publish_time": "2026-04-06 07:58:13",
+  "publish_date": "2026-04-06",
+  "title": "Senior Machine Learning Engineer - Marketplace Pricing",
+  "application_status": "1_Discovered",
+  "apply_link": "https://tnl2.jometer.com/v2/job?jz=5wqzs1638a02a68ba86c13e1fc216a9a9e776KMALBBQAAADQ&iis=Job%20Board%20-%20Recruitment%20Marketing&iisn=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_bytedance_ml_grad",
+  "seed_label": "ByteDance ML Grad",
+  "parent_seed_id": "seed_bytedance_ml_grad",
+  "top_candidate": {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "route_score": 0.775,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "mlops",
+      "scala",
+      "spark"
+    ],
+    "project_ids": [],
+    "seed_company_name": "ByteDance",
+    "seed_source_job_id": "692777a0d47de4798ecdcf3a"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-06/699932bde0bddb6acac841d2/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-06/699932bde0bddb6acac841d2/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-06/699932bde0bddb6acac841d2",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/699932bde0bddb6acac841d2",
+  "generated_at": "2026-04-07T02:07:23",
+  "review": {
+    "weighted_score": 95.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.1,
+    "verdict": "pass",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "retarget",
+    "revised": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T22:24:55",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 64.2,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:52",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T22:24:55",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "review_final_score": 95.1,
+  "review_verdict": "pass"
+}

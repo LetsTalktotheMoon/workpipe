@@ -1,0 +1,80 @@
+{
+  "weighted_score": 92.9,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Summary 第 3 句从协作型标题改成高价值认知标题，并用具体系统/决策结果来支撑。",
+    "如果要进一步增强对 Affirm backend 的贴合度，把最强的 rule evaluation、MySQL、Kubernetes、AWS 相关成果前置到 Summary 和 TikTok/DiDi 的主 bullet 中。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 7.7,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.7,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.7,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.2,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 92.9,
+  "verdict": "conditional_pass",
+  "seed_label": "Google Cloud Infra Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "只需要做一处强制修改即可通过写作标准：将 `## Professional Summary` 的第 3 句从 `Collaborative Problem Solver` 改为高价值认知标题，并重写该句内容，使其明确体现系统判断、决策权衡、回滚验证或规则评估能力，例如围绕 `rule evaluation`, `rollout validation`, `performance-sensitive backend delivery` 组织表述。其余结构可以保留；当前简历在不可变字段、JD 必须技术覆盖、时间线和真实性一致性上没有硬性问题。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:47:20",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": true,
+  "normalize_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.9,
+  "previous_verdict": "pass",
+  "repaired_at": "2026-04-07T16:57:08",
+  "repair_changes": [
+    "normalized_go_achievement"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

@@ -1,0 +1,9 @@
+runs/
+state/
+runtime/**/__pycache__/
+runtime/job_tracker/scraped_jobs.json
+scheduled_run.log
+scheduler_stdout.log
+scheduler_stderr.log
+__pycache__/
+*.pyc

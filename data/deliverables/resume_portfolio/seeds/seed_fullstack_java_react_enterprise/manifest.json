@@ -1,0 +1,97 @@
+{
+  "seed_id": "seed_fullstack_java_react_enterprise",
+  "label": "Fullstack Java React Enterprise",
+  "role_family": "fullstack",
+  "seniority": "mid_senior",
+  "validated_score": 93.7,
+  "company_name": "CVS Health",
+  "source_job_id": "69d0ff2a0b098b7a6707f1b6",
+  "company_anchor": true,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fullstack_java_react_enterprise/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_fullstack_java_react_enterprise",
+  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-04/69d0ff2a0b098b7a6707f1b6",
+  "derived_count": 7,
+  "derived_jobs": [
+    {
+      "job_id": "69d46bec891d7b11cfcfa041",
+      "company_name": "Uber",
+      "publish_time": "2026-04-06 20:18:42",
+      "title": "Engagement Growth - Software Engineer II- Full Stack",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "696015b8a112b402660ecb59",
+      "company_name": "CHAOS Industries",
+      "publish_time": "2026-04-04 13:10:38",
+      "title": "Senior Product Engineer - Palantir",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d0ff2a0b098b7a6707f1b6",
+      "company_name": "CVS Health",
+      "publish_time": "2026-04-04 07:08:10",
+      "title": "Full Stack Associate Software Development Engineer (Java)",
+      "source_kind": "seed_source",
+      "route_mode": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-04/69d0ff2a0b098b7a6707f1b6",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-04/69d0ff2a0b098b7a6707f1b6/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d03159891d7b11cfcd9a1e",
+      "company_name": "CVS Health",
+      "publish_time": "2026-04-03 16:30:01",
+      "title": "Full Stack Associate Software Development Engineer (Java)",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d00c2bcfdc6132f9437a2f",
+      "company_name": "HealthPartners",
+      "publish_time": "2026-04-03 13:51:23",
+      "title": "Software Engineer – Frontend & Developer Experience",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "695a9e86aa05c26e7ab42f31",
+      "company_name": "Scale AI",
+      "publish_time": "2026-04-03 07:37:59",
+      "title": "Software Engineer, Public Sector",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "696e85c4db26b61895116380",
+      "company_name": "ModMed",
+      "publish_time": "2026-04-02 05:28:45",
+      "title": "2026 Summer Software Engineering Internships",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

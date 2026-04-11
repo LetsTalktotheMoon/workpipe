@@ -1,0 +1,133 @@
+{
+  "job_id": "69d408c5891d7b11cfcf6bc6",
+  "company_name": "Systems Integration & Development, Inc.",
+  "company_slug": "systems-integration-development-inc",
+  "publish_time": "2026-04-06 14:25:57",
+  "publish_date": "2026-04-06",
+  "title": "Drupal Developer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://apply.workable.com/astorandsanders/j/791A166672/",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_generalist_dotnet_enterprise",
+  "seed_label": "Generalist DotNet Enterprise",
+  "parent_seed_id": "seed_generalist_dotnet_enterprise",
+  "top_candidate": {
+    "seed_id": "seed_generalist_dotnet_enterprise",
+    "label": "Generalist DotNet Enterprise",
+    "route_score": 0.814,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "php"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Spok",
+    "seed_source_job_id": "69cfdc7b891d7b11cfcd677c"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/systems-integration-development-inc/2026-04-06/69d408c5891d7b11cfcf6bc6/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/systems-integration-development-inc/2026-04-06/69d408c5891d7b11cfcf6bc6/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/systems-integration-development-inc/2026-04-06/69d408c5891d7b11cfcf6bc6",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/69d408c5891d7b11cfcf6bc6",
+  "generated_at": "2026-04-06T22:17:42",
+  "review": {
+    "weighted_score": 91.2,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Add `Bedrock` to `## Skills` so every TikTok technology mention has a Skills citation.",
+      "Rewrite `## Professional Summary` as three complete labeled sentences to match the stated format with minimal wording changes."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 8.1,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.2,
+    "verdict": "conditional_pass",
+    "seed_label": "Generalist DotNet Enterprise",
+    "route_mode": "retarget",
+    "revised": true,
+    "revision_instructions": "Make two surgical edits only. First, in `## Skills`, append `Bedrock` to the `Cloud` line so the TikTok RAG bullet has a matching Skills citation; do not remove or soften the existing TikTok evidence. Second, in `## Professional Summary`, keep the same three content ideas but render them as three complete labeled sentences with `**Label:**` prefixes and periods instead of bullet fragments; preserve the PHP/MySQL/JavaScript/HTML/CSS/Agile/Git wording and, if possible, use a higher-signal third label such as `Systems Judgment:`.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T18:59:40",
+    "rereview_rounds": 2,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.0,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:48",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T18:59:40",
+  "rereview_rounds": 2,
+  "rereview_revised": true,
+  "review_final_score": 91.2,
+  "review_verdict": "conditional_pass"
+}

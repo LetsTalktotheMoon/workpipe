@@ -1,0 +1,114 @@
+{
+  "job_id": "69b20992d04c69566c74ae72",
+  "company_name": "Phantom",
+  "company_slug": "phantom",
+  "publish_time": "2026-04-02 09:44:27",
+  "publish_date": "2026-04-02",
+  "title": "SDET (Wallet Platform)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/phantom/50fa106b-7e02-4cff-8cf8-9f45cf1d60d4?src=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_magnite_sdet",
+  "seed_label": "Magnite SDET",
+  "parent_seed_id": "seed_magnite_sdet",
+  "top_candidate": {
+    "seed_id": "seed_magnite_sdet",
+    "label": "Magnite SDET",
+    "route_score": 0.833,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "gcp",
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Magnite",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69b20992d04c69566c74ae72",
+  "generated_at": "2026-04-07T00:46:15",
+  "review": {
+    "weighted_score": 95.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Add one explicit wallet/payments/money-flow validation example so the Phantom fit is demonstrated, not just implied.",
+      "Reduce the Cloud & Data skills bucket to 4-8 items and remove bold from modifier words like team-maintained and shared."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.1,
+    "verdict": "pass",
+    "seed_label": "Magnite SDET",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:41",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

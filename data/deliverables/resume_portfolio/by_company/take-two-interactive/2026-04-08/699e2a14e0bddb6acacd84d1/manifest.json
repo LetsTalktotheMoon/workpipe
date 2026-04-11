@@ -1,0 +1,71 @@
+{
+  "job_id": "699e2a14e0bddb6acacd84d1",
+  "company_name": "Take-Two Interactive",
+  "company_slug": "take-two-interactive",
+  "publish_time": "2026-04-08 05:31:50",
+  "publish_date": "2026-04-08",
+  "title": "Data Engineer (Python/Spark)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=7635245&utm_source=jobright",
+  "source_kind": "local_unified_pipeline",
+  "route_mode": "reuse",
+  "seed_id": "seed_jpmc_data_mlops_anchor",
+  "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+  "parent_seed_id": "seed_jpmc_data_mlops_anchor",
+  "top_candidate": {
+    "seed_id": "seed_jpmc_data_mlops_anchor",
+    "label": "JPMorganChase Data Platform/MLOps Anchor",
+    "route_score": 1.0,
+    "base_route_score": 1.0,
+    "required_coverage": 1.0,
+    "core_coverage": 1.0,
+    "preferred_coverage": 1.0,
+    "role_score": 1.0,
+    "domain_score": 1.0,
+    "seniority_score": 1.0,
+    "title_score": 1.0,
+    "same_company": false,
+    "seed_company_name": "JPMorganChase",
+    "seed_source_job_id": "69d075c9366bb95ba551e7fe",
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ]
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/take-two-interactive/2026-04-08/699e2a14e0bddb6acacd84d1/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-08T19:16:15",
+  "review": {},
+  "subseed_ids": [
+    "jpmc_data_mlops_mainline"
+  ],
+  "subseed_labels": [
+    "JPMC Data Platform / MLOps"
+  ],
+  "primary_subseed_id": "jpmc_data_mlops_mainline",
+  "primary_subseed_label": "JPMC Data Platform / MLOps",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

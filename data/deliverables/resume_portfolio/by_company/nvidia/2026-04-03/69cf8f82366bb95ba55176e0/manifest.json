@@ -1,0 +1,137 @@
+{
+  "job_id": "69cf8f82366bb95ba55176e0",
+  "company_name": "NVIDIA",
+  "company_slug": "nvidia",
+  "publish_time": "2026-04-03 06:37:14",
+  "publish_date": "2026-04-03",
+  "title": "Software Engineer, AI Inference Systems - New College Graduate 2026",
+  "application_status": "1_Discovered",
+  "apply_link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--AI-Inference-Systems---New-College-Graduate-2026_JR2015076?source=jobboardlinkedin",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_bytedance_ml_grad",
+  "seed_label": "ByteDance ML Grad",
+  "parent_seed_id": "seed_bytedance_ml_grad",
+  "top_candidate": {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "route_score": 0.724,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "c++",
+      "distributed systems",
+      "linux",
+      "pytorch",
+      "slurm"
+    ],
+    "project_ids": [],
+    "seed_company_name": "ByteDance",
+    "seed_source_job_id": "692777a0d47de4798ecdcf3a"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69cf8f82366bb95ba55176e0/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69cf8f82366bb95ba55176e0/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69cf8f82366bb95ba55176e0",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cf8f82366bb95ba55176e0",
+  "generated_at": "2026-04-07T02:24:42",
+  "review": {
+    "weighted_score": 87.3,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "补 1 条明确使用 Rust 的正文证据，并把 Rust 写回 Skills，否则这份简历对 NVIDIA 的 must-have 覆盖是不完整的。",
+      "把 Summary 的经验年限改成与时间线一致的口径，并把首句收紧为更直接的 inference / serving / systems 叙事。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.3,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 7.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.9,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 87.3,
+    "verdict": "fail",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "优先做两处最小修改：1) 在 TikTok 或相关项目中补 1 条能被正文证据支撑的 Rust bullet，并在 Skills 中加入 Rust；如果实际没有 Rust 经验，不要保留这个 JD 版本。2) 把 Professional Summary 第 1 句中的“nearly 3 years”改成与 Jun 2021–Dec 2025 一致的总年限，或明确限定为“nearly 3 years of production-facing backend/AI infrastructure experience”；同时把第 1 句改写得更贴近 NVIDIA 的 inference systems 方向，突出 production inference、reliability、serving 或 distributed backend，而不是泛化为 analytics/backend work。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T06:04:31",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_achievement"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 83.8,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:38",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T06:04:31",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 87.3,
+  "review_verdict": "fail"
+}

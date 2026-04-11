@@ -1,0 +1,108 @@
+{
+  "seed_id": "seed_spotify_backend_music",
+  "label": "Spotify Backend Music",
+  "role_family": "backend_generalist",
+  "seniority": "mid_senior",
+  "validated_score": 94.3,
+  "company_name": "Spotify",
+  "source_job_id": "69cea94b366bb95ba550de01",
+  "company_anchor": true,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_spotify_backend_music/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_spotify_backend_music",
+  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01",
+  "derived_count": 8,
+  "derived_jobs": [
+    {
+      "job_id": "69b2b061ae2a534885e9dc50",
+      "company_name": "The Walt Disney Company",
+      "publish_time": "2026-04-08 07:18:44",
+      "title": "Software Engineer II - Scala",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.md",
+      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.pdf"
+    },
+    {
+      "job_id": "68d1a92aa54edb3bf3e1486e",
+      "company_name": "Verkada",
+      "publish_time": "2026-04-04 09:19:25",
+      "title": "Backend Engineer - Access Control",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d10185cdb525785fbb00eb",
+      "company_name": "Sentry",
+      "publish_time": "2026-04-04 07:18:13",
+      "title": "Senior Software Engineer, Analytics Platform",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d047d2891d7b11cfcda79e",
+      "company_name": "Spotify",
+      "publish_time": "2026-04-03 18:05:54",
+      "title": "Backend Engineer, Music",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "68cbf16a128dc347fd91c700",
+      "company_name": "Plaid",
+      "publish_time": "2026-04-03 09:17:28",
+      "title": "Software Engineer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cf6cfb398fb071abf90141",
+      "company_name": "Uber",
+      "publish_time": "2026-04-03 02:32:11",
+      "title": "Sr Software Engineer",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cea94b366bb95ba550de01",
+      "company_name": "Spotify",
+      "publish_time": "2026-04-02 12:37:15",
+      "title": "Backend Engineer - Music Mission",
+      "source_kind": "seed_source",
+      "route_mode": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69c6949483ea553769fdbd44",
+      "company_name": "Spotify",
+      "publish_time": "2026-03-27 09:30:44",
+      "title": "Backend Engineer, Music",
+      "source_kind": "fanout_batch",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

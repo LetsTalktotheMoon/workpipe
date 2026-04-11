@@ -1,0 +1,137 @@
+{
+  "job_id": "69b412be3b74eb1e2c811e87",
+  "company_name": "Capital One",
+  "company_slug": "capital-one",
+  "publish_time": "2026-04-04 13:39:29",
+  "publish_date": "2026-04-04",
+  "title": "Senior Associate, Data Scientist -  Model Risk Office",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.capitalonecareers.com/job/-/-/234/90384230144?p_sid=KKTKnJb&p_uid=DlDaT3R7pD&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_plaid_data_scientist",
+  "seed_label": "Plaid Data Scientist",
+  "parent_seed_id": "seed_plaid_data_scientist",
+  "top_candidate": {
+    "seed_id": "seed_plaid_data_scientist",
+    "label": "Plaid Data Scientist",
+    "route_score": 0.843,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "deep learning"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Plaid",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-04/69b412be3b74eb1e2c811e87/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-04/69b412be3b74eb1e2c811e87/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-04/69b412be3b74eb1e2c811e87",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69b412be3b74eb1e2c811e87",
+  "generated_at": "2026-04-05T20:33:21",
+  "review": {
+    "weighted_score": 96.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Add one explicit Model Risk Office control signal in Summary 2 or the TikTok project bullet, such as validation gates, monitoring, evidence coverage criteria, or release checks.",
+      "Remove bold from qualifier phrases like `team-maintained` in body bullets and keep bold reserved for technical terms and quantified outcomes."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 96.1,
+    "verdict": "pass",
+    "seed_label": "Plaid Data Scientist",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "Make two surgical edits only. First, in the TikTok Security bullets, unbold modifier phrases such as `team-maintained` and any similar qualifiers so body bolding stays limited to technologies and metrics. Second, in Summary bullet 2 or the TikTok project section, add one short clause that explicitly ties the deep-learning evaluation work to model-risk style controls, such as validation gates, monitoring, evidence coverage criteria, or release checks. Keep all JD must-have technical terms intact and do not delete any existing deep-learning evidence.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T04:50:38",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.0,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:14",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T04:50:38",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 96.1,
+  "review_verdict": "pass"
+}

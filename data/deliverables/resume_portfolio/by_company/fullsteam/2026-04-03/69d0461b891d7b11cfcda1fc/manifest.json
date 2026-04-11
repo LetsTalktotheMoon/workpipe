@@ -1,0 +1,114 @@
+{
+  "job_id": "69d0461b891d7b11cfcda1fc",
+  "company_name": "Fullsteam",
+  "company_slug": "fullsteam",
+  "publish_time": "2026-04-03 17:58:35",
+  "publish_date": "2026-04-03",
+  "title": "Sr. Software Engineer (Proficiency in NestJS & React Required)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://fullsteam.wd1.myworkdayjobs.com/External/job/Remote---US/Sr-Software-Engineer_JR101964",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_egen_fullstack_node",
+  "seed_label": "Egen Fullstack Node",
+  "parent_seed_id": "seed_egen_fullstack_node",
+  "top_candidate": {
+    "seed_id": "seed_egen_fullstack_node",
+    "label": "Egen Fullstack Node",
+    "route_score": 0.812,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      ".net",
+      "azure"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Egen",
+    "seed_source_job_id": "69cda26c398fb071abf7a98d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d0461b891d7b11cfcda1fc/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d0461b891d7b11cfcda1fc/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d0461b891d7b11cfcda1fc",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d0461b891d7b11cfcda1fc",
+  "generated_at": "2026-04-06T22:05:17",
+  "review": {
+    "weighted_score": 93.8,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Remove bold from qualifier words and keep emphasis limited to technologies and measurable claims.",
+      "Tone down the DiDi ownership verbs so the analytics-to-engineering transition reads as shared cross-functional work, not unsupported end-to-end ownership."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.1,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.8,
+    "verdict": "pass",
+    "seed_label": "Egen Fullstack Node",
+    "route_mode": "retarget",
+    "revised": true
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:24",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

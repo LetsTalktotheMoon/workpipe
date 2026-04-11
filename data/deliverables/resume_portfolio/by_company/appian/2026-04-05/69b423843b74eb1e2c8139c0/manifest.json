@@ -1,0 +1,140 @@
+{
+  "job_id": "69b423843b74eb1e2c8139c0",
+  "company_name": "Appian",
+  "company_slug": "appian",
+  "publish_time": "2026-04-05 07:29:17",
+  "publish_date": "2026-04-05",
+  "title": "Information Security Analyst (Third Shift)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://boards.greenhouse.io/embed/job_app?token=7716124&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_fireblocks_sre_anchor",
+  "seed_label": "Fireblocks SRE Anchor",
+  "parent_seed_id": "seed_fireblocks_sre_anchor",
+  "top_candidate": {
+    "seed_id": "seed_fireblocks_sre_anchor",
+    "label": "Fireblocks SRE Anchor",
+    "route_score": 0.84,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "networking"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Fireblocks",
+    "seed_source_job_id": "6997741fce78e77b4fdbcb82"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/appian/2026-04-05/69b423843b74eb1e2c8139c0/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/appian/2026-04-05/69b423843b74eb1e2c8139c0/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/appian/2026-04-05/69b423843b74eb1e2c8139c0",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-05/69b423843b74eb1e2c8139c0",
+  "generated_at": "2026-04-06T23:56:29",
+  "review": {
+    "weighted_score": 88.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Rewrite the Professional Summary into the required 3-sentence, bold-label format.",
+      "Add an explicit bridge in the summary from data-analyst titles to analyst-adjacent internal tooling and automation work.",
+      "Resolve the JavaScript source mismatch by adding JavaScript to Skills or rewriting the DiDi project bullet to avoid an unsupported tech mention."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 7.6,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r1_writing_standard": {
+        "score": 8.8,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.7,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "calibrated": true,
+    "calibration_scores": [
+      92.3,
+      83.0,
+      88.2
+    ],
+    "final_score": 88.0,
+    "verdict": "conditional_pass",
+    "seed_label": "Fireblocks SRE Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "Update `## Skills` so every technical term used in the experience bullets has a matching source entry. The fastest fix is to add `JavaScript` to the programming stack, because the DiDi project explicitly says \"JavaScript console\". If you prefer to keep Skills unchanged, rewrite that bullet to use a non-technical phrasing such as \"operator console\" or \"audited web console\". Then audit all non-Skills bolding and strip emphasis from qualifier words such as `team-maintained`; preserve bold only for technical terms, core metrics, and the required achievement formatting.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:12:24",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 80.6,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:11",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T17:12:24",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "review_final_score": 88.0,
+  "review_verdict": "conditional_pass"
+}

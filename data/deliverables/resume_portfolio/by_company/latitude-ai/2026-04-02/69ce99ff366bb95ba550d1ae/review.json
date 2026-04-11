@@ -1,0 +1,72 @@
+{
+  "weighted_score": 85.4,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 2,
+  "needs_revision": true,
+  "revision_priority": [
+    "补齐 Latitude AI JD 必须技术栈中的 `Scala` 和 `Jenkins`，并为每项提供真实的经历级证据。",
+    "把 `Algorithms` 和 `Data Structures` 从只写在 Summary 的抽象表述，改成有具体项目动作和结果的 bullet。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.8,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 4.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 85.4,
+  "verdict": "fail",
+  "seed_label": "Google Full Stack",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "补齐 Latitude AI JD 必须技术栈中的 `Scala` 和 `Jenkins`，并为每项提供真实的经历级证据。",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:32",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

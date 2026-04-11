@@ -1,0 +1,127 @@
+{
+  "job_id": "697028e4587dfa0bb55daadd",
+  "company_name": "JPMorganChase",
+  "company_slug": "jpmorganchase",
+  "publish_time": "2026-04-02 05:38:05",
+  "publish_date": "2026-04-02",
+  "title": "Applied AI/ML - Vice President",
+  "application_status": "1_Discovered",
+  "apply_link": "https://JPMorganChase.contacthr.com/151427836",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "parent_seed_id": "seed_amazon_agi_ml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_amazon_agi_ml_anchor",
+    "label": "Amazon AGI/LLM Anchor",
+    "route_score": 0.821,
+    "base_route_score": 0.821,
+    "required_coverage": 0.6,
+    "core_coverage": 1.0,
+    "preferred_coverage": 1.0,
+    "role_score": 1.0,
+    "domain_score": 0.875,
+    "seniority_score": 1.0,
+    "title_score": 1.0,
+    "same_company": false,
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": "697d74fd137a0510256697d9",
+    "company_anchor": true,
+    "missing_required": [
+      "nlp",
+      "scikit-learn",
+      "spark",
+      "tensorflow"
+    ]
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/697028e4587dfa0bb55daadd",
+  "generated_at": "2026-04-05T16:40:32",
+  "review": {
+    "weighted_score": 77.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "补齐并用经历证明 `R`、`Spark`、`Keras`、`TensorFlow`，否则这份简历不满足该 JD 的硬性技术门槛。",
+      "把 Summary 和关键经历改成更贴近金融机构、风控/合规/决策支持的叙事，减少纯安全/电商泛化表述。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 4.2,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 8.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 6.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 77.1,
+    "verdict": "fail",
+    "seed_label": "Amazon AGI/LLM Anchor",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "primary_subseed_id": "amazon_ai_ads_mainline",
+  "primary_subseed_label": "Amazon AI / Ads / LLM",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:30",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

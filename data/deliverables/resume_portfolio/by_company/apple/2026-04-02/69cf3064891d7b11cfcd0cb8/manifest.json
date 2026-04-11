@@ -1,0 +1,135 @@
+{
+  "job_id": "69cf3064891d7b11cfcd0cb8",
+  "company_name": "Apple",
+  "company_slug": "apple",
+  "publish_time": "2026-04-02 22:13:40",
+  "publish_date": "2026-04-02",
+  "title": "AI/ML Engineer, Applied Data Science",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.apple.com/en-us/details/200653879-0836/ai-ml-engineer-applied-data-science?team=CORSV",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.797,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "nlp",
+      "openai",
+      "prompt engineering"
+    ],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/apple/2026-04-02/69cf3064891d7b11cfcd0cb8/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/apple/2026-04-02/69cf3064891d7b11cfcd0cb8/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/apple/2026-04-02/69cf3064891d7b11cfcd0cb8",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cf3064891d7b11cfcd0cb8",
+  "generated_at": "2026-04-05T19:52:04",
+  "review": {
+    "weighted_score": 91.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Expand the TikTok experience to at least 4 bullets with one additional substantive, scope-bounded achievement.",
+      "Remove bold formatting from modifier words such as `team-maintained` and keep bolding limited to technologies and quantified results."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 7.9,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.1,
+    "verdict": "conditional_pass",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": true,
+    "revision_instructions": "Revise the resume in two places. First, update `TikTok · Security` so the internship has 4 bullets total; add one concrete bullet that stays within intern scope and describes a real deliverable, ownership boundary, or evaluation result. Keep the existing LLM, RAG, TensorFlow, PyTorch, Python evidence intact. Second, scan the body text and remove bold from any modifier or qualifier words; `team-maintained` should be plain text, and bold should remain reserved for technologies, metrics, and other high-signal terms. Do not change the immutable company/title/date/location fields.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:12:10",
+    "rereview_rounds": 2,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 84.6,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:11",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T17:12:10",
+  "rereview_rounds": 2,
+  "rereview_revised": true,
+  "review_final_score": 91.1,
+  "review_verdict": "conditional_pass"
+}

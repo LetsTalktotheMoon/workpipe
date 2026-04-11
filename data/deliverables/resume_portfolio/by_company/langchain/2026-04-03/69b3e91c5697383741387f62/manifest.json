@@ -1,0 +1,113 @@
+{
+  "job_id": "69b3e91c5697383741387f62",
+  "company_name": "LangChain",
+  "company_slug": "langchain",
+  "publish_time": "2026-04-03 08:23:27",
+  "publish_date": "2026-04-03",
+  "title": "Frontend Engineer, AI Observability & Evals Platform",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/langchain/f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c/application?utm_source=vxReVqRy6V",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_egen_fullstack_node",
+  "seed_label": "Egen Fullstack Node",
+  "parent_seed_id": "seed_egen_fullstack_node",
+  "top_candidate": {
+    "seed_id": "seed_egen_fullstack_node",
+    "label": "Egen Fullstack Node",
+    "route_score": 0.78,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "javascript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Egen",
+    "seed_source_job_id": "69cda26c398fb071abf7a98d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/langchain/2026-04-03/69b3e91c5697383741387f62/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/langchain/2026-04-03/69b3e91c5697383741387f62/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/langchain/2026-04-03/69b3e91c5697383741387f62",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69b3e91c5697383741387f62",
+  "generated_at": "2026-04-06T22:10:58",
+  "review": {
+    "weighted_score": 95.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Tighten the Professional Summary's experience-span claim so it matches the app-building evidence shown in DiDi and TikTok.",
+      "If you want slightly stronger HR trust, add one explicit ownership qualifier to the cross-functional work at DiDi."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.1,
+    "verdict": "pass",
+    "seed_label": "Egen Fullstack Node",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:32",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

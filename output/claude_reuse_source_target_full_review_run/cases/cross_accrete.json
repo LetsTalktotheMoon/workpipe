@@ -1,0 +1,186 @@
+{
+  "label": "cross/Accrete",
+  "seed_label": "Fullstack DotNet Azure",
+  "source_id": "69cf1ae8cdb525785fb9ec17",
+  "target_job_id": "69d3ca9d54f00230c6d2a974",
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/accrete/2026-04-06/69d3ca9d54f00230c6d2a974/resume.md",
+  "source_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phenom/2026-04-02/69cf1ae8cdb525785fb9ec17/job.md",
+  "target_jd_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/accrete/2026-04-06/69d3ca9d54f00230c6d2a974/job.md",
+  "source_portfolio_review": {
+    "jd_id": "candidate_fullstack_dotnet_azure",
+    "company": "Phenom",
+    "title": "Software Developer (Full Stack)",
+    "role_type": "swe_fullstack",
+    "verdict": "pass",
+    "final_score": 95.3,
+    "revised": true,
+    "weighted_score": 95.3,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "repaired_at": "2026-04-07T16:57:41",
+    "repair_changes": [
+      "normalized_go_achievement",
+      "normalized_didi_scope_note"
+    ],
+    "repair_issue_codes_before": [],
+    "repair_issue_codes_after": [],
+    "revision_instructions": "",
+    "latest_timestamp": "2026-04-07T16:57:41"
+  },
+  "target_portfolio_review": {
+    "weighted_score": 94.4,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.4,
+    "verdict": "pass",
+    "seed_label": "Fullstack DotNet Azure",
+    "route_mode": "reuse",
+    "revised": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T16:47:07",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": true,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_didi_scope_note",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.3,
+    "previous_verdict": "conditional_pass",
+    "repaired_at": "2026-04-07T16:57:07",
+    "repair_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_didi_global_scope_bullet",
+      "normalized_keyword_bolding"
+    ],
+    "repair_issue_codes_before": [],
+    "repair_issue_codes_after": [],
+    "latest_timestamp": "2026-04-07T16:57:07"
+  },
+  "source_claude_review": {
+    "weighted_score": 0.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "JSON解析失败: while parsing a flow mapping\n  in \"<unicode string>\", line 40, column 9:\n            {\n            ^\nexpected ',' or '}', but got '<scalar>'\n  in \"<unicode string>\", line 43, column 171:\n     ... R 初筛时难以感知候选人与岗位团队方向的契合度，增加简历被归为\"技术够但方向不匹配\"类别的风险。\",\n                                         ^"
+    ],
+    "scores": {},
+    "jd_id": "69cf1ae8cdb525785fb9ec17",
+    "company": "Phenom",
+    "title": "Software Developer (Full Stack)",
+    "role_type": "swe_fullstack",
+    "final_score": 0.0,
+    "verdict": "fail",
+    "revision_instructions": "审查解析失败（JSON解析失败: while parsing a flow mapping\n  in \"<unicode string>\", line 40, column 9:\n            {\n            ^\nexpected ',' or '}', but got '<scalar>'\n  in \"<unicode string>\", line 43, column 171:\n     ... R 初筛时难以感知候选人与岗位团队方向的契合度，增加简历被归为\"技术够但方向不匹配\"类别的风险。\",\n                                         ^），请重新生成简历。",
+    "completed_at": "2026-04-09T07:34:04",
+    "latest_timestamp": "2026-04-09T07:34:04"
+  },
+  "target_claude_review": {},
+  "status": "running_target",
+  "error": "",
+  "updated_at": "2026-04-09T07:34:04"
+}

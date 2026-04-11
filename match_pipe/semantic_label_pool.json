@@ -1,0 +1,489 @@
+{
+  "labels": [
+    {
+      "sample_id": "69d83774869c7e25d859479c::must_vs_preferred_confusing",
+      "query_id": "69d83774869c7e25d859479c",
+      "category": "must_vs_preferred_confusing",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69ce5e07891d7b11cfcc8020",
+          "rationale": "Initial judgment prefers the EC2 UltraServer role because it shares the generic SDE must-have backbone and cross-functional workflow language."
+        },
+        {
+          "round": 2,
+          "decision": "69d41bc054f00230c6d2e008",
+          "rationale": "Requirement-unit review shows the query lacks a stable domain anchor, so another internal product SDE candidate remains equally plausible."
+        },
+        {
+          "round": 3,
+          "decision": "unresolved",
+          "rationale": "Consistency review still cannot separate candidates using requirement units alone; the query is dominated by generic SDE must-haves and weak background text."
+        }
+      ],
+      "final_status": "pending_manual_review",
+      "final_positive_ids": [],
+      "disagreement_reason": "Generic-title Amazon SDE query lacks a decisive domain or tech anchor after three self-reviews.",
+      "feedback": {
+        "taxonomy": [
+          "Consider adding DOMAIN_HR_SYSTEMS aliases such as workforce solutions and employee onboarding if more evidence appears."
+        ],
+        "rules": [
+          "Do not force a semantic positive when requirement units are mostly generic must-have software engineering clauses."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d8377f738f2f099e89b7e9::parent_child_conflict",
+      "query_id": "69d8377f738f2f099e89b7e9",
+      "category": "parent_child_conflict",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "699d6a6d81476f6176b63dce",
+          "rationale": "The robotics ML systems role matches the query's ML infrastructure and LLM-oriented software engineering shape better than recommendation-oriented SDEs."
+        },
+        {
+          "round": 2,
+          "decision": "699d6a6d81476f6176b63dce",
+          "rationale": "Requirement-unit review confirms the candidate has AND-style infrastructure plus PyTorch/LLM units, while the current gold lacks those parent-child ML-system signals."
+        },
+        {
+          "round": 3,
+          "decision": "699d6a6d81476f6176b63dce",
+          "rationale": "Final consistency check keeps the robotics ML systems role as the strongest semantic anchor."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "699d6a6d81476f6176b63dce"
+      ],
+      "feedback": {
+        "taxonomy": [
+          "Add DOMAIN_AGENT_SYSTEMS aliases such as agentcore and multi-agent workflows to better separate ML-agent infrastructure from generic ML SDE roles."
+        ],
+        "rules": [
+          "Parent-child matching should reward ML infrastructure plus LLM bundles above generic AI software development overlap."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d8377b9f97a42dc9c1b2ce::must_vs_preferred_confusing",
+      "query_id": "69d8377b9f97a42dc9c1b2ce",
+      "category": "must_vs_preferred_confusing",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d7f8e3b861c42857c477f1",
+          "rationale": "Same-title networking role is the clearest semantic twin."
+        },
+        {
+          "round": 2,
+          "decision": "69d7f8e3b861c42857c477f1",
+          "rationale": "Requirement-unit review confirms shared networking and control-plane background units on top of identical SDE must-haves."
+        },
+        {
+          "round": 3,
+          "decision": "69d7f8e3b861c42857c477f1",
+          "rationale": "Final check preserves the networking SIDR duplicate as the correct positive."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d7f8e3b861c42857c477f1"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": [
+          "Must/preferred confusion should not demote exact semantic twins when networking and control-plane units align."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d8377b9f97a42dc9c1b2ce::parent_child_conflict",
+      "query_id": "69d8377b9f97a42dc9c1b2ce",
+      "category": "parent_child_conflict",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d7f8e3b861c42857c477f1",
+          "rationale": "The paired SIDR role shares networking/control-plane background instead of only generic platform infrastructure."
+        },
+        {
+          "round": 2,
+          "decision": "69d7f8e3b861c42857c477f1",
+          "rationale": "Hierarchy review confirms DOMAIN_NETWORKING and TECH_CONTROL_PLANE are better than sibling infrastructure-only roles."
+        },
+        {
+          "round": 3,
+          "decision": "69d7f8e3b861c42857c477f1",
+          "rationale": "Consistency review keeps the same networking positive."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d7f8e3b861c42857c477f1"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": [
+          "Parent-child logic should prefer networking child units over generic infrastructure siblings."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d408c5891d7b11cfcf6bc6::or_and_mixed",
+      "query_id": "69d408c5891d7b11cfcf6bc6",
+      "category": "or_and_mixed",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d3e83f891d7b11cfcf5777",
+          "rationale": "Exact Drupal developer peer is the clearest positive."
+        },
+        {
+          "round": 2,
+          "decision": "69d3e83f891d7b11cfcf5777",
+          "rationale": "Requirement-unit review confirms the PHP/HTML/CSS/JavaScript/MySQL AND bundle."
+        },
+        {
+          "round": 3,
+          "decision": "69d3e83f891d7b11cfcf5777",
+          "rationale": "Final check remains unchanged."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d3e83f891d7b11cfcf5777"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": [
+          "Keep mixed OR/AND bundle handling for web-stack requirement units."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d84493738f2f099e89ba98::or_and_mixed",
+      "query_id": "69d84493738f2f099e89ba98",
+      "category": "or_and_mixed",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d82537738f2f099e89aec9",
+          "rationale": "The NTT DATA North America Data Engineer role shares the same SQL/Python-or-Java/Spark pipeline shape."
+        },
+        {
+          "round": 2,
+          "decision": "69d82537738f2f099e89aec9",
+          "rationale": "Requirement-unit review confirms the OR unit over Python/Java and the AND bundle with Spark and Kubernetes."
+        },
+        {
+          "round": 3,
+          "decision": "69d82537738f2f099e89aec9",
+          "rationale": "Consistency review keeps the same data-engineering positive."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d82537738f2f099e89aec9"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": [
+          "Mixed OR/AND logic should continue to reward data-engineering bundles above generic cloud-data roles."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d83b10f4ea471a51fe4be1::must_vs_preferred_confusing",
+      "query_id": "69d83b10f4ea471a51fe4be1",
+      "category": "must_vs_preferred_confusing",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d83771738f2f099e89b783",
+          "rationale": "Buyer Abuse Prevention ML shares the same applied-scientist model-building and Java/C++/Python must-haves."
+        },
+        {
+          "round": 2,
+          "decision": "69d83771738f2f099e89b783",
+          "rationale": "Requirement-unit review shows the current gold over-indexes on GenAI preference while the buyer-risk role matches the actual must-have bundle."
+        },
+        {
+          "round": 3,
+          "decision": "69d83771738f2f099e89b783",
+          "rationale": "Final consistency check keeps the buyer-risk applied scientist role."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d83771738f2f099e89b783"
+      ],
+      "feedback": {
+        "taxonomy": [
+          "Add DOMAIN_AD_MEASUREMENT aliases such as measurement science if repeated evidence appears."
+        ],
+        "rules": [
+          "Must-have model-building plus programming-language overlap should outrank unrelated GenAI preference-only positives."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d83b10f4ea471a51fe4be1::parent_child_conflict",
+      "query_id": "69d83b10f4ea471a51fe4be1",
+      "category": "parent_child_conflict",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d83771738f2f099e89b783",
+          "rationale": "The buyer-risk applied scientist role matches ML/model-building child units better than broader AI/compiler roles."
+        },
+        {
+          "round": 2,
+          "decision": "69d83771738f2f099e89b783",
+          "rationale": "Hierarchy review confirms the current top generic software engineering candidates are sibling roles, not true applied-science ML children."
+        },
+        {
+          "round": 3,
+          "decision": "69d83771738f2f099e89b783",
+          "rationale": "Consistency review remains unchanged."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d83771738f2f099e89b783"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": [
+          "Parent-child matching must separate applied-science ML roles from generic SWE siblings."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d8376a869c7e25d859476f::must_vs_preferred_confusing",
+      "query_id": "69d8376a869c7e25d859476f",
+      "category": "must_vs_preferred_confusing",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d6468852a5bf58001280a7",
+          "rationale": "Aurora DSQL query processing is the clearest database-engineering semantic match."
+        },
+        {
+          "round": 2,
+          "decision": "69d6468852a5bf58001280a7",
+          "rationale": "Requirement-unit review shows the current gold lacks SQL/database-specific strong-preference units, while Aurora DSQL has them."
+        },
+        {
+          "round": 3,
+          "decision": "69d6468852a5bf58001280a7",
+          "rationale": "Final consistency check keeps Aurora DSQL."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d6468852a5bf58001280a7"
+      ],
+      "feedback": {
+        "taxonomy": [
+          "Add DOMAIN_DATABASE_ENGINES aliases such as distributed SQL, DSQL, Aurora DSQL, and query processing."
+        ],
+        "rules": [
+          "Discriminative SQL/database-engine strong-preference units should outrank generic SDE must-have parity."
+        ]
+      }
+    },
+    {
+      "sample_id": "69d8440df4ea471a51fe4de1::parent_child_conflict",
+      "query_id": "69d8440df4ea471a51fe4de1",
+      "category": "parent_child_conflict",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d7efed738f2f099e899528",
+          "rationale": "Senior Space Infrastructure is the obvious semantic parent/near-duplicate."
+        },
+        {
+          "round": 2,
+          "decision": "69d7efed738f2f099e899528",
+          "rationale": "Requirement-unit review confirms shared infrastructure, Python, Docker, Linux and CI/CD stack; the previous gold is a stale false positive."
+        },
+        {
+          "round": 3,
+          "decision": "69d7efed738f2f099e899528",
+          "rationale": "Final consistency check keeps the Loft Orbital infrastructure role."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d7efed738f2f099e899528"
+      ],
+      "feedback": {
+        "taxonomy": [
+          "Add DOMAIN_SPACE_SYSTEMS aliases such as space infrastructure and satellite operations."
+        ],
+        "rules": [
+          "Remove stale false positives from curated hard pools when they are contradicted by current requirement units."
+        ]
+      }
+    },
+    {
+      "sample_id": "69c4e578d5a1016e98dc540d::title_same_business_different",
+      "query_id": "69c4e578d5a1016e98dc540d",
+      "category": "title_same_business_different",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69d071e6891d7b11cfcdb7b1",
+          "rationale": "IAM Integration Engineer is a better customer/security/support anchor than a generic senior software engineer."
+        },
+        {
+          "round": 2,
+          "decision": "69d071e6891d7b11cfcdb7b1",
+          "rationale": "Requirement-unit review confirms customer-facing problem solving, security and integration semantics."
+        },
+        {
+          "round": 3,
+          "decision": "69d071e6891d7b11cfcdb7b1",
+          "rationale": "Final consistency check remains unchanged."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69d071e6891d7b11cfcdb7b1"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": [
+          "Title overlap must not override customer/security integration semantics."
+        ]
+      }
+    },
+    {
+      "sample_id": "69ced753398fb071abf896e5::cross_company_structure_similar",
+      "query_id": "69ced753398fb071abf896e5",
+      "category": "cross_company_structure_similar",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69cefaec891d7b11cfccefe6",
+          "rationale": "Electric Utility Grid Hadron peer is the clear cross-company structural twin."
+        },
+        {
+          "round": 2,
+          "decision": "69cefaec891d7b11cfccefe6",
+          "rationale": "Requirement-unit review confirms nearly identical language, OO language OR-unit, and software engineering lifecycle clauses."
+        },
+        {
+          "round": 3,
+          "decision": "69cefaec891d7b11cfccefe6",
+          "rationale": "Final consistency check remains unchanged."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69cefaec891d7b11cfccefe6"
+      ],
+      "feedback": {
+        "taxonomy": [
+          "Add DOMAIN_ENERGY_SYSTEMS aliases such as electric utility grid if this cluster continues to grow."
+        ],
+        "rules": []
+      }
+    },
+    {
+      "sample_id": "69cefaec891d7b11cfccefe6::cross_company_structure_similar",
+      "query_id": "69cefaec891d7b11cfccefe6",
+      "category": "cross_company_structure_similar",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69ced753398fb071abf896e5",
+          "rationale": "The paired Hadron role remains the clearest structural twin."
+        },
+        {
+          "round": 2,
+          "decision": "69ced753398fb071abf896e5",
+          "rationale": "Requirement-unit review confirms the same language and lifecycle clauses."
+        },
+        {
+          "round": 3,
+          "decision": "69ced753398fb071abf896e5",
+          "rationale": "Final consistency check remains unchanged."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69ced753398fb071abf896e5"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": []
+      }
+    },
+    {
+      "sample_id": "69ced753398fb071abf896e5::same_company_structure_different",
+      "query_id": "69ced753398fb071abf896e5",
+      "category": "same_company_structure_different",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69cefaec891d7b11cfccefe6",
+          "rationale": "The AWS-named twin is still the correct semantic positive while same-company distractors remain generic SDE roles."
+        },
+        {
+          "round": 2,
+          "decision": "69cefaec891d7b11cfccefe6",
+          "rationale": "Requirement-unit review confirms that same-company alternatives are structurally weaker than the paired Hadron role."
+        },
+        {
+          "round": 3,
+          "decision": "69cefaec891d7b11cfccefe6",
+          "rationale": "Final consistency check remains unchanged."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69cefaec891d7b11cfccefe6"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": [
+          "Same-company distractors should stay below the matched structural twin in semantic-only evaluation."
+        ]
+      }
+    },
+    {
+      "sample_id": "69cefaec891d7b11cfccefe6::same_company_structure_different",
+      "query_id": "69cefaec891d7b11cfccefe6",
+      "category": "same_company_structure_different",
+      "rounds": [
+        {
+          "round": 1,
+          "decision": "69ced753398fb071abf896e5",
+          "rationale": "The Amazon-named twin remains the clearest semantic positive."
+        },
+        {
+          "round": 2,
+          "decision": "69ced753398fb071abf896e5",
+          "rationale": "Requirement-unit review confirms same-company distractors are structurally weaker."
+        },
+        {
+          "round": 3,
+          "decision": "69ced753398fb071abf896e5",
+          "rationale": "Final consistency check remains unchanged."
+        }
+      ],
+      "final_status": "adjudicated",
+      "final_positive_ids": [
+        "69ced753398fb071abf896e5"
+      ],
+      "feedback": {
+        "taxonomy": [],
+        "rules": []
+      }
+    }
+  ]
+}

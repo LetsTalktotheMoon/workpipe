@@ -1,0 +1,142 @@
+{
+  "job_id": "69d63f4dcfdc6132f9469275",
+  "company_name": "Intel",
+  "company_slug": "intel",
+  "publish_time": "2026-04-08 06:43:09",
+  "publish_date": "2026-04-08",
+  "title": "Junior Software Performance Analysis and Optimization Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Junior-Software-Performance-Analysis-and-Optimization-Engineer_JR0280963",
+  "source_kind": "local_unified_pipeline",
+  "route_mode": "retarget",
+  "seed_id": "seed_google_geo_aiml_anchor",
+  "seed_label": "Google Workspace/Geo AIML Anchor",
+  "parent_seed_id": "seed_google_geo_aiml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_google_geo_aiml_anchor",
+    "label": "Google Workspace/Geo AIML Anchor",
+    "route_score": 0.857,
+    "base_route_score": 0.857,
+    "required_coverage": 1.0,
+    "core_coverage": 1.0,
+    "preferred_coverage": 0.0,
+    "role_score": 0.78,
+    "domain_score": 0.875,
+    "seniority_score": 1.0,
+    "title_score": 0.45,
+    "same_company": false,
+    "seed_company_name": "Google",
+    "seed_source_job_id": "69b2b893ad360c0340a79c07",
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_supply_eta_service"
+    ]
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_supply_eta_service"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.md",
+  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.pdf",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d63f4dcfdc6132f9469275",
+  "generated_at": "2026-04-08T14:21:11",
+  "review": {
+    "weighted_score": 98.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.8,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.9,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 98.0,
+    "verdict": "pass",
+    "seed_label": "Google Workspace/Geo AIML Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "",
+    "rereview_version": "unified_followup_v1",
+    "rereviewed_at": "2026-04-08T20:30:13",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 72.0,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "pdf_generated_at": "2026-04-08T15:08:17",
+  "rereview_version": "unified_followup_v1",
+  "rereviewed_at": "2026-04-08T20:30:13",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 98.0,
+  "review_verdict": "pass"
+}

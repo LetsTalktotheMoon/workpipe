@@ -1,0 +1,133 @@
+{
+  "job_id": "69cd2d71398fb071abf729b9",
+  "company_name": "Citi",
+  "company_slug": "citi",
+  "publish_time": "2026-04-02 12:55:06",
+  "publish_date": "2026-04-02",
+  "title": "Data Scientist, Generative AI - Spread Products",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.citi.com/job/-/-/287/92603640576?source=APPLICANT_SOURCE-3-354&utm_medium=job_posting&utm_campaign=nam_experienced&utm_content=social_media&utm_term=393702677&ss=paid&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_bytedance_ml_grad",
+  "seed_label": "ByteDance ML Grad",
+  "parent_seed_id": "seed_bytedance_ml_grad",
+  "top_candidate": {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "route_score": 0.81,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "genai"
+    ],
+    "project_ids": [],
+    "seed_company_name": "ByteDance",
+    "seed_source_job_id": "692777a0d47de4798ecdcf3a"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-02/69cd2d71398fb071abf729b9/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-02/69cd2d71398fb071abf729b9/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-02/69cd2d71398fb071abf729b9",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cd2d71398fb071abf729b9",
+  "generated_at": "2026-04-05T20:21:33",
+  "review": {
+    "weighted_score": 94.7,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Anchor the summary’s spread-product wording with body evidence, or widen it to a broader finance decision-support claim.",
+      "Add a brief qualifier for the concurrent 2026 master’s programs and the breadth of the TikTok intern scope."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.7,
+    "verdict": "pass",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T02:40:34",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_achievement"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 82.8,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:17",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T02:40:34",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 94.7,
+  "review_verdict": "pass"
+}

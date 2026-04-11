@@ -1,0 +1,48 @@
+{
+  "job_id": "69cef2ce398fb071abf8ad6f",
+  "company_name": "Amazon",
+  "company_slug": "amazon",
+  "publish_time": "2026-04-02 17:50:54",
+  "publish_date": "2026-04-02",
+  "title": "Software Development Engineer, Amazon Connect Contact Lens",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.amazon.jobs/en/jobs/10382825/software-development-engineer-amazon-connect-contact-lens",
+  "source_kind": "seed_validation",
+  "route_mode": "reuse",
+  "seed_id": "seed_codex_google_fullstack",
+  "seed_label": "Google Full Stack",
+  "parent_seed_id": "seed_codex_google_fullstack",
+  "top_candidate": {
+    "route_score": 0.99
+  },
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69cef2ce398fb071abf8ad6f/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-05T14:00:55",
+  "review": {},
+  "subseed_ids": [
+    "google_product_ai_mainline"
+  ],
+  "subseed_labels": [
+    "Google Product / AI Application"
+  ],
+  "primary_subseed_id": "google_product_ai_mainline",
+  "primary_subseed_label": "Google Product / AI Application",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

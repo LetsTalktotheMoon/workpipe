@@ -1,0 +1,108 @@
+{
+  "job_id": "69cf16be54f00230c6d066d1",
+  "company_name": "Avive Solutions Inc.",
+  "company_slug": "avive-solutions-inc",
+  "publish_time": "2026-04-02 20:24:14",
+  "publish_date": "2026-04-02",
+  "title": "Business Systems Integration Developer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.lever.co/AviveSolutions/a09e7a6b-fb41-4434-8423-f1ea2494230d/apply?utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.949,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/avive-solutions-inc/2026-04-02/69cf16be54f00230c6d066d1/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/avive-solutions-inc/2026-04-02/69cf16be54f00230c6d066d1/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/avive-solutions-inc/2026-04-02/69cf16be54f00230c6d066d1",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cf16be54f00230c6d066d1",
+  "generated_at": "2026-04-05T17:37:13",
+  "review": {
+    "weighted_score": 93.9,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.9,
+    "verdict": "pass",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:13",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

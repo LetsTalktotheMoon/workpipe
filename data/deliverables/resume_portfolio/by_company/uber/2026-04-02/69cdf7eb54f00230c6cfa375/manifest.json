@@ -1,0 +1,116 @@
+{
+  "job_id": "69cdf7eb54f00230c6cfa375",
+  "company_name": "Uber",
+  "company_slug": "uber",
+  "publish_time": "2026-04-02 00:00:27",
+  "publish_date": "2026-04-02",
+  "title": "Software Engineer, Observability",
+  "application_status": "1_Discovered",
+  "apply_link": "https://tnl2.jometer.com/v2/job?jz=5wqzs2f046845d92894636ea90db1b053325cKMAGUCAAAABQ&iis=Job%20Board%20-%20Recruitment%20Marketing&iisn=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_fullstack_dotnet_azure",
+  "seed_label": "Fullstack DotNet Azure",
+  "parent_seed_id": "seed_fullstack_dotnet_azure",
+  "top_candidate": {
+    "seed_id": "seed_fullstack_dotnet_azure",
+    "label": "Fullstack DotNet Azure",
+    "route_score": 0.746,
+    "base_route_score": 0.746,
+    "required_coverage": 0.6,
+    "core_coverage": 1.0,
+    "preferred_coverage": 0.0,
+    "role_score": 0.85,
+    "domain_score": 0.889,
+    "seniority_score": 1.0,
+    "title_score": 1.0,
+    "same_company": false,
+    "seed_company_name": "Phenom",
+    "seed_source_job_id": "69cf1ae8cdb525785fb9ec17",
+    "company_anchor": true,
+    "missing_required": [
+      "c#",
+      "c++"
+    ]
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cdf7eb54f00230c6cfa375/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cdf7eb54f00230c6cfa375/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cdf7eb54f00230c6cfa375",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cdf7eb54f00230c6cfa375",
+  "generated_at": "2026-04-05T17:01:17",
+  "review": {
+    "weighted_score": 94.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.0,
+    "verdict": "pass",
+    "seed_label": "Fullstack DotNet Azure",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:51",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

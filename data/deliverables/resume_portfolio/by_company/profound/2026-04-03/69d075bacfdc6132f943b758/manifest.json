@@ -1,0 +1,114 @@
+{
+  "job_id": "69d075bacfdc6132f943b758",
+  "company_name": "Profound",
+  "company_slug": "profound",
+  "publish_time": "2026-04-03 21:21:46",
+  "publish_date": "2026-04-03",
+  "title": "AI/ML Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.tryprofound.com/careers/08484c30-121a-4d1f-961b-09518f14337a?from=careers",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_linkedin_mle_foundation",
+  "seed_label": "LinkedIn MLE Foundation",
+  "parent_seed_id": "seed_linkedin_mle_foundation",
+  "top_candidate": {
+    "seed_id": "seed_linkedin_mle_foundation",
+    "label": "LinkedIn MLE Foundation",
+    "route_score": 0.779,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "prompt engineering"
+    ],
+    "project_ids": [],
+    "seed_company_name": "LinkedIn",
+    "seed_source_job_id": "69cef362398fb071abf8b1bb"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69d075bacfdc6132f943b758/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69d075bacfdc6132f943b758/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69d075bacfdc6132f943b758",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d075bacfdc6132f943b758",
+  "generated_at": "2026-04-07T00:15:40",
+  "review": {
+    "weighted_score": 93.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "calibrated": true,
+    "calibration_scores": [
+      92.4,
+      94.3,
+      93.0
+    ],
+    "final_score": 93.0,
+    "verdict": "pass",
+    "seed_label": "LinkedIn MLE Foundation",
+    "route_mode": "retarget",
+    "revised": true
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:43",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

@@ -1,0 +1,141 @@
+{
+  "job_id": "69d00c26cdb525785fba6ae4",
+  "company_name": "Amazon",
+  "company_slug": "amazon",
+  "publish_time": "2026-04-03 13:51:18",
+  "publish_date": "2026-04-03",
+  "title": "AI Builder, Ring",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.amazon.jobs/en/jobs/10383160/ai-builder-ring",
+  "source_kind": "retarget_trial",
+  "route_mode": "new_seed",
+  "seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "parent_seed_id": "seed_amazon_agi_ml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_gm_genai",
+    "label": "GM Financial GenAI",
+    "route_score": 0.748,
+    "base_route_score": 0.748,
+    "required_coverage": 0.4,
+    "core_coverage": 1.0,
+    "preferred_coverage": 1.0,
+    "role_score": 1.0,
+    "domain_score": 1.0,
+    "seniority_score": 1.0,
+    "title_score": 1.0,
+    "same_company": false,
+    "seed_company_name": "GM Financial",
+    "seed_source_job_id": "",
+    "company_anchor": false,
+    "missing_required": [
+      "c#",
+      "c++",
+      "embedded"
+    ]
+  },
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d00c26cdb525785fba6ae4",
+  "generated_at": "2026-04-05T14:00:54",
+  "review": {
+    "weighted_score": 91.6,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "把 Summary 第三句改成更高信号的认知标题，去掉“Problem Solving”式泛化表述。",
+      "删除正文里所有限定词加粗，只保留技术栈和量化结果加粗。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 7.9,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.1,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.6,
+    "verdict": "conditional_pass",
+    "seed_label": "Amazon AGI/LLM Anchor",
+    "route_mode": "new_seed",
+    "revised": false,
+    "revision_instructions": "仅做两类修改。第一，重写 Professional Summary 的第 3 句，把标题从 `Embedded-Focused Problem Solving` 改为更高信号的认知标签，如 `Systems Judgment`、`Decision-Making` 或 `Pattern Recognition`，并把句子内容改成强调取舍、系统优化、风险判断或跨栈分析。第二，通读全文删除对限定词/修饰语的加粗，包括但不限于 `team-maintained`、`intern-owned`、`team-owned`、`existing`、`internal` 这类词；保留技术名词、岗位名、公司名、时间地点和量化数字的加粗。其余职位名称、时间线、技能覆盖、项目结构与成就条目都无需改动。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T17:02:28",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_achievement"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.1,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "primary_subseed_id": "amazon_ai_ads_mainline",
+  "primary_subseed_label": "Amazon AI / Ads / LLM",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:09",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T17:02:28",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "review_final_score": 91.6,
+  "review_verdict": "conditional_pass"
+}

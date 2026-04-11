@@ -1,0 +1,125 @@
+{
+  "job_id": "6998c18ace78e77b4fdd544f",
+  "company_name": "Priceline",
+  "company_slug": "priceline",
+  "publish_time": "2026-04-04 12:06:00",
+  "publish_date": "2026-04-04",
+  "title": "Site Reliability Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://priceline.wd1.myworkdayjobs.com/Priceline/job/Norwalk-CT/Site-Reliability-Engineer_R5464?source=Linkedin",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_fireblocks_sre_anchor",
+  "seed_label": "Fireblocks SRE Anchor",
+  "parent_seed_id": "seed_fireblocks_sre_anchor",
+  "top_candidate": {
+    "seed_id": "seed_fireblocks_sre_anchor",
+    "label": "Fireblocks SRE Anchor",
+    "route_score": 0.814,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "ansible",
+      "distributed systems",
+      "gcp",
+      "terraform"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Fireblocks",
+    "seed_source_job_id": "6997741fce78e77b4fdbcb82"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/6998c18ace78e77b4fdd544f",
+  "generated_at": "2026-04-07T00:09:19",
+  "review": {
+    "weighted_score": 92.6,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Rebalance the Skills section so each category stays within the requested density and remove bolding from modifiers like `team-maintained`.",
+      "Add a Priceline-specific web reliability / latency / customer-traffic angle so the SRE fit is explicit.",
+      "把 Skills 和 Summary 调整成更贴近 Priceline 的 web 产品可靠性/SRE 叙事，并显式加入 Distributed Systems。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.7,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.1,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "calibrated": true,
+    "calibration_scores": [
+      92.3,
+      93.3,
+      91.6
+    ],
+    "final_score": 92.6,
+    "verdict": "conditional_pass",
+    "seed_label": "Fireblocks SRE Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Rebalance the Skills section so each category stays within the requested density and remove bolding from modifiers like `team-maintained`.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:42",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

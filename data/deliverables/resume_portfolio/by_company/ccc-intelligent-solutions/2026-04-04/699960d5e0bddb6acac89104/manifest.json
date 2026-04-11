@@ -1,0 +1,112 @@
+{
+  "job_id": "699960d5e0bddb6acac89104",
+  "company_name": "CCC Intelligent Solutions",
+  "company_slug": "ccc-intelligent-solutions",
+  "publish_time": "2026-04-04 13:10:30",
+  "publish_date": "2026-04-04",
+  "title": "Site Reliability Engineer - AWS",
+  "application_status": "1_Discovered",
+  "apply_link": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Site-Reliability-Engineer---AWS_0014112?source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_trimedx_platform_multicloud",
+  "seed_label": "TRIMEDX Platform Multicloud",
+  "parent_seed_id": "seed_trimedx_platform_multicloud",
+  "top_candidate": {
+    "seed_id": "seed_trimedx_platform_multicloud",
+    "label": "TRIMEDX Platform Multicloud",
+    "route_score": 0.802,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "bash",
+      "restful"
+    ],
+    "project_ids": [],
+    "seed_company_name": "TRIMEDX",
+    "seed_source_job_id": "69cf12e4891d7b11cfccfd93"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ccc-intelligent-solutions/2026-04-04/699960d5e0bddb6acac89104/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ccc-intelligent-solutions/2026-04-04/699960d5e0bddb6acac89104/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ccc-intelligent-solutions/2026-04-04/699960d5e0bddb6acac89104",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/699960d5e0bddb6acac89104",
+  "generated_at": "2026-04-07T02:15:20",
+  "review": {
+    "weighted_score": 95.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "Rewrite the Professional Summary into the required 3 labeled sentences so the structure matches the rubric exactly.",
+      "Normalize the Achievements bullet to the canonical single-line format with only `2-dan` and `champion` emphasized."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.0,
+    "verdict": "pass",
+    "seed_label": "TRIMEDX Platform Multicloud",
+    "route_mode": "retarget",
+    "revised": true
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:15",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

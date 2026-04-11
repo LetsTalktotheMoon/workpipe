@@ -1,0 +1,86 @@
+{
+  "seed_id": "seed_zip_backend_web",
+  "label": "Zip Backend Web",
+  "role_family": "backend_generalist",
+  "seniority": "mid_senior",
+  "validated_score": 93.5,
+  "company_name": "Zip",
+  "source_job_id": "",
+  "company_anchor": false,
+  "project_ids": [],
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "project_cards": [],
+  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zip_backend_web/resume.md",
+  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_zip_backend_web",
+  "source_artifact_dir": "",
+  "derived_count": 6,
+  "derived_jobs": [
+    {
+      "job_id": "699e256cce78e77b4fe33807",
+      "company_name": "PayPal",
+      "publish_time": "2026-04-08 05:43:05",
+      "title": "Sr Full Stack Engineer, PayPal Shopping",
+      "source_kind": "local_unified_pipeline",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807/resume.md",
+      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807/resume.pdf"
+    },
+    {
+      "job_id": "69bf74dd7798f73e35e44625",
+      "company_name": "JPMorganChase",
+      "publish_time": "2026-04-04 05:05:11",
+      "title": "Software Engineer III - Full Stack Generative AI/LLM",
+      "source_kind": "fanout_batch",
+      "route_mode": "retarget",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625",
+      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625/resume.md",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d04d77cdb525785fba9701",
+      "company_name": "Amazon",
+      "publish_time": "2026-04-03 18:29:59",
+      "title": "Software Development Engineer, Ads Data Manager",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69d04c3bcdb525785fba963f",
+      "company_name": "Amazon Web Services (AWS)",
+      "publish_time": "2026-04-03 18:24:43",
+      "title": "Software Dev Engineer, Developer Agents and Experiences",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69cede7bcfdc6132f942d3fd",
+      "company_name": "Infinite Computer Solutions",
+      "publish_time": "2026-04-02 16:24:11",
+      "title": "Salesforce Developer",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    },
+    {
+      "job_id": "69169497286ccf0a151379f4",
+      "company_name": "Abnormal AI",
+      "publish_time": "2026-04-02 15:34:42",
+      "title": "Software Engineer 2, Product Engineering - Identity Security",
+      "source_kind": "seed_validation",
+      "route_mode": "reuse",
+      "artifact_dir": "",
+      "resume_md": "",
+      "resume_pdf": ""
+    }
+  ]
+}

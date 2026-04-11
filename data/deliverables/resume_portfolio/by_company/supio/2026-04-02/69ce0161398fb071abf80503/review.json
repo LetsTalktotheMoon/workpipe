@@ -1,0 +1,70 @@
+{
+  "weighted_score": 89.9,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "补上真实的 Scala 经验并同步进 Skills，否则与目标 JD 的 must-have 技术栈不匹配。",
+    "收紧 Skills 分组，每个类别控制在 4-8 个条目，减少过宽的技术堆叠感。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.8,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 7.3,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.1,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 89.9,
+  "verdict": "conditional_pass",
+  "seed_label": "Amazon SDE",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "补上真实的 Scala 经验并同步进 Skills，否则与目标 JD 的 must-have 技术栈不匹配。",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:48",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

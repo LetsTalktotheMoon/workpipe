@@ -1,0 +1,133 @@
+{
+  "job_id": "6913a31ae344172248f72c97",
+  "company_name": "EliseAI",
+  "company_slug": "eliseai",
+  "publish_time": "2026-04-06 07:28:46",
+  "publish_date": "2026-04-06",
+  "title": "Senior Software Engineer (Full Stack)",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/eliseai/bd740e67-b145-46f0-b1f0-0a13610365dc?utm_source=LinkedInPaid",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_fullstack_dotnet_azure",
+  "seed_label": "Fullstack DotNet Azure",
+  "parent_seed_id": "seed_fullstack_dotnet_azure",
+  "top_candidate": {
+    "seed_id": "seed_fullstack_dotnet_azure",
+    "label": "Fullstack DotNet Azure",
+    "route_score": 0.79,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Phenom",
+    "seed_source_job_id": "69cf1ae8cdb525785fb9ec17"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/6913a31ae344172248f72c97",
+  "generated_at": "2026-04-07T01:27:47",
+  "review": {
+    "weighted_score": 87.4,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 3,
+    "needs_revision": true,
+    "revision_priority": [
+      "Rewrite the Summary into exactly 3 one-sentence bullets with `**Header:**` formatting and stronger senior full-stack ownership framing.",
+      "Split Skills into shorter categories and add one explicit JavaScript body bullet, ideally inside the TikTok or DiDi React/TypeScript work."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 7.0,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 8.4,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 87.4,
+    "verdict": "fail",
+    "seed_label": "Fullstack DotNet Azure",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "1) Replace the three Summary bullets with three one-sentence bullets in the same order. Keep the technical claims, but remove the current fragment-style phrasing and make each line read as a complete sentence ending with a period. For the first sentence, keep the analytics-to-engineering bridge but frame it as full-stack ownership rather than a transition story. 2) Rework `## Skills` into 4-5 shorter categories so each line stays within the stated density cap. A safe split is Frontend, Backend, Data, Cloud, and AI/DevOps; preserve every technology and avoid bolding individual technologies. 3) Add `JavaScript` to one existing work bullet in the body, preferably the TikTok React/TypeScript UI bullet or the DiDi portal bullet, so the JD must-have is evidenced in experience copy rather than only in Summary/Skills. 4) Do not change the immutable job headers, dates, or locations.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T22:27:36",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.0,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:21",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T22:27:36",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "review_final_score": 87.4,
+  "review_verdict": "fail"
+}

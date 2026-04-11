@@ -1,0 +1,111 @@
+{
+  "job_id": "69b45cd13b74eb1e2c819632",
+  "company_name": "FM",
+  "company_slug": "fm",
+  "publish_time": "2026-04-04 09:21:03",
+  "publish_date": "2026-04-04",
+  "title": "AI Software Engineering Co-Op",
+  "application_status": "1_Discovered",
+  "apply_link": "https://click.appcast.io/t/Cg2FQ_J8bCyu6yNUdnZhW06lpXgaEuw6-Mim2XtSiAx1s60fpQEkxjYUcCyVGrgu",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_generalist_dotnet_enterprise",
+  "seed_label": "Generalist DotNet Enterprise",
+  "parent_seed_id": "seed_generalist_dotnet_enterprise",
+  "top_candidate": {
+    "seed_id": "seed_generalist_dotnet_enterprise",
+    "label": "Generalist DotNet Enterprise",
+    "route_score": 0.759,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "java",
+      "typescript"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Spok",
+    "seed_source_job_id": "69cfdc7b891d7b11cfcd677c"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fm/2026-04-04/69b45cd13b74eb1e2c819632/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fm/2026-04-04/69b45cd13b74eb1e2c819632/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fm/2026-04-04/69b45cd13b74eb1e2c819632",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69b45cd13b74eb1e2c819632",
+  "generated_at": "2026-04-06T22:36:02",
+  "review": {
+    "weighted_score": 93.9,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.4,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.9,
+    "verdict": "pass",
+    "seed_label": "Generalist DotNet Enterprise",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:23",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

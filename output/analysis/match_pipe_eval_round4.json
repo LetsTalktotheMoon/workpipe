@@ -1,0 +1,171 @@
+{
+  "build_seconds": 93.47,
+  "suite": {
+    "standard_case_count": 208,
+    "hard_case_count": 68
+  },
+  "splits": {
+    "standard_train": 171,
+    "standard_test": 37,
+    "hard_train": 57,
+    "hard_test": 11
+  },
+  "teacher": {
+    "standard": {
+      "case_count": 37,
+      "hit_at_1": 0.9459,
+      "hit_at_3": 0.973,
+      "hit_at_5": 0.973,
+      "mean_reciprocal_rank": 0.9595,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 1018.44,
+      "misses": [
+        {
+          "query_id": "69cef4d8398fb071abf8b390",
+          "company_name": "Mastercard",
+          "normalized_title": "senior software engineer",
+          "positive_ids": [
+            "69b33d55ae2a534885eaa7d5"
+          ],
+          "top_candidates": [
+            "6961d3e4f3f4cd132506d312",
+            "69cfb9c2cfdc6132f94357dd",
+            "699f72f823374b3b6e6b4718",
+            "69b3032ead360c0340a812b4",
+            "6959cd899f1b381eb27280cb"
+          ],
+          "rationale": "Same-company same-title JD duplicates/reposts form the standard positive group."
+        }
+      ]
+    },
+    "hard": {
+      "case_count": 11,
+      "hit_at_1": 0.8182,
+      "hit_at_3": 0.9091,
+      "hit_at_5": 0.9091,
+      "mean_reciprocal_rank": 0.8636,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 968.38,
+      "misses": [
+        {
+          "query_id": "69cef4d8398fb071abf8b390",
+          "company_name": "Mastercard",
+          "normalized_title": "senior software engineer",
+          "positive_ids": [
+            "69b33d55ae2a534885eaa7d5"
+          ],
+          "top_candidates": [
+            "6961d3e4f3f4cd132506d312",
+            "69cfb9c2cfdc6132f94357dd",
+            "699f72f823374b3b6e6b4718",
+            "69b3032ead360c0340a812b4",
+            "6959cd899f1b381eb27280cb"
+          ],
+          "rationale": "Generic title with many cross-company distractors; positives stay same-company same-title."
+        }
+      ]
+    }
+  },
+  "student": {
+    "weights": {
+      "required_overlap": 0.42,
+      "all_overlap": 0.22,
+      "domain_overlap": 0.1,
+      "title_overlap": 0.1,
+      "role_score": 0.1,
+      "seniority_score": 0.06
+    },
+    "standard": {
+      "case_count": 37,
+      "hit_at_1": 0.8919,
+      "hit_at_3": 0.9189,
+      "hit_at_5": 0.9459,
+      "mean_reciprocal_rank": 0.9108,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 85.06,
+      "misses": [
+        {
+          "query_id": "69cef4d8398fb071abf8b390",
+          "company_name": "Mastercard",
+          "normalized_title": "senior software engineer",
+          "positive_ids": [
+            "69b33d55ae2a534885eaa7d5"
+          ],
+          "top_candidates": [
+            "69892a320f6f7e7a2ce426df",
+            "692e4844ef4b48533d13e5f7",
+            "69cfb8c10b098b7a6707391e",
+            "69cde879cdb525785fb9047f",
+            "69cee312366bb95ba5510a90"
+          ],
+          "rationale": "Same-company same-title JD duplicates/reposts form the standard positive group."
+        },
+        {
+          "query_id": "690bd915221b890c277f90de",
+          "company_name": "Adobe",
+          "normalized_title": "software development engineer",
+          "positive_ids": [
+            "690d2c2f221b890c278043d0",
+            "69b34093ad360c0340a8672f",
+            "69b344d5a8ac8e70ff6783a5",
+            "69b3e4a006c1ba00c5450b57"
+          ],
+          "top_candidates": [
+            "69ce853ecdb525785fb98555",
+            "69bfbe4b79e36d3a847c660a",
+            "699dccab81476f6176b6af20",
+            "69d40b9acdb525785fbc5c5d",
+            "69d7eca4738f2f099e8991df"
+          ],
+          "rationale": "Same-company same-title JD duplicates/reposts form the standard positive group."
+        }
+      ]
+    },
+    "hard": {
+      "case_count": 11,
+      "hit_at_1": 0.7273,
+      "hit_at_3": 0.7273,
+      "hit_at_5": 0.8182,
+      "mean_reciprocal_rank": 0.7455,
+      "median_positive_rank": 1.0,
+      "avg_runtime_ms": 91.74,
+      "misses": [
+        {
+          "query_id": "69cef4d8398fb071abf8b390",
+          "company_name": "Mastercard",
+          "normalized_title": "senior software engineer",
+          "positive_ids": [
+            "69b33d55ae2a534885eaa7d5"
+          ],
+          "top_candidates": [
+            "69892a320f6f7e7a2ce426df",
+            "692e4844ef4b48533d13e5f7",
+            "69cfb8c10b098b7a6707391e",
+            "69cde879cdb525785fb9047f",
+            "69cee312366bb95ba5510a90"
+          ],
+          "rationale": "Generic title with many cross-company distractors; positives stay same-company same-title."
+        },
+        {
+          "query_id": "690bd915221b890c277f90de",
+          "company_name": "Adobe",
+          "normalized_title": "software development engineer",
+          "positive_ids": [
+            "690d2c2f221b890c278043d0",
+            "69b34093ad360c0340a8672f",
+            "69b344d5a8ac8e70ff6783a5",
+            "69b3e4a006c1ba00c5450b57"
+          ],
+          "top_candidates": [
+            "69ce853ecdb525785fb98555",
+            "69bfbe4b79e36d3a847c660a",
+            "699dccab81476f6176b6af20",
+            "69d40b9acdb525785fbc5c5d",
+            "69d7eca4738f2f099e8991df"
+          ],
+          "rationale": "Generic title with many cross-company distractors; positives stay same-company same-title."
+        }
+      ]
+    }
+  }
+}

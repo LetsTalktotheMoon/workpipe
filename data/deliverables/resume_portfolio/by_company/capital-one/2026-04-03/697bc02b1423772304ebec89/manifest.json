@@ -1,0 +1,137 @@
+{
+  "job_id": "697bc02b1423772304ebec89",
+  "company_name": "Capital One",
+  "company_slug": "capital-one",
+  "publish_time": "2026-04-03 13:12:20",
+  "publish_date": "2026-04-03",
+  "title": "Senior Associate, Data Scientist - Risk Management Product",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.capitalonecareers.com/job/-/-/234/91125016528?p_sid=r7Vcp_b&p_uid=L1mmIuqIsF&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_plaid_data_scientist",
+  "seed_label": "Plaid Data Scientist",
+  "parent_seed_id": "seed_plaid_data_scientist",
+  "top_candidate": {
+    "seed_id": "seed_plaid_data_scientist",
+    "label": "Plaid Data Scientist",
+    "route_score": 0.833,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "deep learning"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Plaid",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-03/697bc02b1423772304ebec89/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-03/697bc02b1423772304ebec89/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-03/697bc02b1423772304ebec89",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/697bc02b1423772304ebec89",
+  "generated_at": "2026-04-05T20:40:13",
+  "review": {
+    "weighted_score": 94.7,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "Remove bolding from qualifier phrases like `team-maintained` and keep emphasis limited to technologies and metrics.",
+      "Add a short bridge note explaining that the TikTok internship was concurrent with graduate study so the later-internship timeline reads as intentional."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.7,
+    "verdict": "pass",
+    "seed_label": "Plaid Data Scientist",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "Make two surgical edits only. First, in the TikTok bullets, unbold modifier phrases such as `team-maintained` so the document follows the bolding rule outside Skills. Second, add one brief bridging clause in Summary or Education that explains the TikTok internship was completed while enrolled in OMSCS/MSIM; this resolves the otherwise ambiguous post-analyst internship chronology without altering any immutable role fields.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T04:52:57",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.8,
+    "previous_verdict": "pass"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:14",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T04:52:57",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 94.7,
+  "review_verdict": "pass"
+}

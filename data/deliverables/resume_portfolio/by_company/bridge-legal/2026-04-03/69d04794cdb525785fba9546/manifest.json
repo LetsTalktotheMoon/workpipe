@@ -1,0 +1,115 @@
+{
+  "job_id": "69d04794cdb525785fba9546",
+  "company_name": "Bridge Legal",
+  "company_slug": "bridge-legal",
+  "publish_time": "2026-04-03 18:04:52",
+  "publish_date": "2026-04-03",
+  "title": "AI Product Engineer [Accounting]",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.linkedin.com/jobs/view/4394219188",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.805,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "ai agents"
+    ],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bridge-legal/2026-04-03/69d04794cdb525785fba9546/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bridge-legal/2026-04-03/69d04794cdb525785fba9546/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bridge-legal/2026-04-03/69d04794cdb525785fba9546",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d04794cdb525785fba9546",
+  "generated_at": "2026-04-05T19:44:32",
+  "review": {
+    "weighted_score": 76.3,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "先修复真实性一致性：把所有正文里出现的技术栈补进 Skills，至少把 `Rails` 补上，或删除 Rails 相关表述。",
+      "再修复 JD 匹配：在 Skills 中显式加入 `Data Pipelines`，不要只依赖 Summary 或间接的 ETL/Airflow 表达。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 5.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 8.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 76.3,
+    "verdict": "fail",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "先修复真实性一致性：把所有正文里出现的技术栈补进 Skills，至少把 `Rails` 补上，或删除 Rails 相关表述。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:13",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

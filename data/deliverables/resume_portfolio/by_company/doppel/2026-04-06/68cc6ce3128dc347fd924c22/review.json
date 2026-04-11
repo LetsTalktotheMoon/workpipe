@@ -1,0 +1,73 @@
+{
+  "weighted_score": 95.5,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Remove or replace the unsupported Algorithms and Data Structures claim in the Summary with an evidenced capability.",
+    "Clean up the Skills taxonomy so databases and platform terms are grouped under semantically correct categories without dropping any JD must-have keywords."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.7,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 95.5,
+  "verdict": "pass",
+  "seed_label": "PayPal Java Backend",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "Make two surgical edits only. First, in Professional Summary bullet 3, replace “reinforced by strong Algorithms and Data Structures fundamentals” with an evidence-backed phrase already supported by the bullets, such as “reinforced by service debugging, schema design, and release validation experience.” Second, keep every current keyword in Skills, but regroup the categories so ATS can parse them cleanly: move `MongoDB` out of `Programming`, and rename `APIs` to a more accurate bucket such as `Backend / Storage` (or an equivalent split that keeps the same keyword inventory). Do not delete any JD must-have technology.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T22:39:28",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_achievement"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.2,
+  "previous_verdict": "pass"
+}

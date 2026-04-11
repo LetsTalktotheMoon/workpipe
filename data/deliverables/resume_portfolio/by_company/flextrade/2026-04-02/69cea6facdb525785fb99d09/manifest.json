@@ -1,0 +1,120 @@
+{
+  "job_id": "69cea6facdb525785fb99d09",
+  "company_name": "FlexTrade",
+  "company_slug": "flextrade",
+  "publish_time": "2026-04-02 12:27:22",
+  "publish_date": "2026-04-02",
+  "title": "Software Developer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.flextrade.com/o/software-developer-2031/c/new?source=LinkedIn+Basic+Jobs",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_jpmc_data_mlops_anchor",
+  "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+  "parent_seed_id": "seed_jpmc_data_mlops_anchor",
+  "top_candidate": {
+    "seed_id": "seed_jpmc_data_mlops_anchor",
+    "label": "JPMorganChase Data Platform/MLOps Anchor",
+    "route_score": 0.835,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "distributed systems",
+      "shell"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "JPMorganChase",
+    "seed_source_job_id": "69d075c9366bb95ba551e7fe"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cea6facdb525785fb99d09",
+  "generated_at": "2026-04-06T22:06:04",
+  "review": {
+    "weighted_score": 94.7,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.7,
+    "verdict": "pass",
+    "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "subseed_ids": [
+    "jpmc_data_mlops_mainline"
+  ],
+  "subseed_labels": [
+    "JPMC Data Platform / MLOps"
+  ],
+  "primary_subseed_id": "jpmc_data_mlops_mainline",
+  "primary_subseed_label": "JPMC Data Platform / MLOps",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:23",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

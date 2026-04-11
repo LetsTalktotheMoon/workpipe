@@ -1,0 +1,73 @@
+{
+  "weighted_score": 95.0,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Professional Summary 改成 3 句完整句子，保留现有三段定位但统一成目标格式。",
+    "给 TikTok 段补一条 ownership 边界说明，避免宽栈堆砌感并强化实习 scope。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.0,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.9,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.4,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 95.0,
+  "verdict": "pass",
+  "seed_label": "Google Cloud Infra Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "仅做两处局部修改即可：1) 将 Professional Summary 改写为 3 句完整句子，每句保留现有的加粗小标题与核心定位，不改变技术栈与叙事方向；2) 在 TikTok · Security 的项目 baseline 或首条 bullet 中补一条范围限定，明确哪些部分是你直接负责、哪些是与团队协作集成，以降低“技术覆盖过宽但 ownership 不清”的疑虑。其余经历、Skills、Achievements 维持不变。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T19:20:15",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_achievement"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 95.6,
+  "previous_verdict": "pass"
+}

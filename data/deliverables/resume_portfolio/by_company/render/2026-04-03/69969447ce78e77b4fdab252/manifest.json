@@ -1,0 +1,113 @@
+{
+  "job_id": "69969447ce78e77b4fdab252",
+  "company_name": "Render",
+  "company_slug": "render",
+  "publish_time": "2026-04-03 09:18:47",
+  "publish_date": "2026-04-03",
+  "title": "Software Engineer, Billing",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/render/57a61c00-fa74-402d-89cd-1a1b936e14d5?source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_paypal_java_backend",
+  "seed_label": "PayPal Java Backend",
+  "parent_seed_id": "seed_paypal_java_backend",
+  "top_candidate": {
+    "seed_id": "seed_paypal_java_backend",
+    "label": "PayPal Java Backend",
+    "route_score": 0.841,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [],
+    "project_ids": [],
+    "seed_company_name": "PayPal",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/render/2026-04-03/69969447ce78e77b4fdab252/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/render/2026-04-03/69969447ce78e77b4fdab252/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/render/2026-04-03/69969447ce78e77b4fdab252",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69969447ce78e77b4fdab252",
+  "generated_at": "2026-04-06T22:40:30",
+  "review": {
+    "weighted_score": 73.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Remove or substantiate Scala across Summary, Skills, and at least one experience bullet.",
+      "Add a credible Billing/platform-fit signal, or retarget the resume away from Billing-specific positioning."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 4.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 6.5,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 8.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 73.1,
+    "verdict": "fail",
+    "seed_label": "PayPal Java Backend",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Remove or substantiate Scala across Summary, Skills, and at least one experience bullet.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:45",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

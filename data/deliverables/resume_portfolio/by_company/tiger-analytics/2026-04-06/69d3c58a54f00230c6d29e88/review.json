@@ -1,0 +1,75 @@
+{
+  "weighted_score": 85.2,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 2,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Professional Summary 改成 3 句带加粗标题的正文句式，并去掉对限定词的加粗。",
+    "补齐 Scala 的正文证据：在一个数据管道相关 bullet 里明确写出 Scala，并同步加入 Skills。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 7.6,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 7.2,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.8,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 85.2,
+  "verdict": "fail",
+  "seed_label": "Fireblocks SRE Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "1) 将 `## Professional Summary` 从 3 条项目符号改为 3 句正文，每句都以 `**小标题:**` 开头，保留现有三段含义不变；第 3 句继续使用高价值认知标题（如 `**Systems decision-making:**`），不要改成 teamwork/collaboration 类标题。2) 删除 Summary 和正文里对限定词的加粗，例如 `**team-maintained**`、`**internal**`、`**networking-aware**`，只保留技术名词和量化结果的加粗。3) 在 `Skills` 里补 `Scala`，优先放在 `Programming`；同时在一条最贴近的数据处理经历里补一处 Scala 证据，例如把 Temu 的 Spark/ETL bullet 改成明确的 `Scala` + `Spark` 作业，或把 DiDi 的 ETL/reconciliation bullet 改成 `Scala-based` pipeline 处理。4) 其余结构保持不动：TikTok 职称继续保持 `Software Engineer Intern`，Achievements 继续保留现有格式。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T22:11:46",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 74.6,
+  "previous_verdict": "fail"
+}

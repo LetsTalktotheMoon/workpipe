@@ -1,0 +1,137 @@
+{
+  "job_id": "68c649c0c96a22563ececa76",
+  "company_name": "Citadel Securities",
+  "company_slug": "citadel-securities",
+  "publish_time": "2026-04-05 13:58:30",
+  "publish_date": "2026-04-05",
+  "title": "Data Scientist",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.citadelsecurities.com/careers/details/data-scientist/",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.896,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "spark"
+    ],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citadel-securities/2026-04-05/68c649c0c96a22563ececa76/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citadel-securities/2026-04-05/68c649c0c96a22563ececa76/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citadel-securities/2026-04-05/68c649c0c96a22563ececa76",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-05/68c649c0c96a22563ececa76",
+  "generated_at": "2026-04-05T18:29:17",
+  "review": {
+    "weighted_score": 92.4,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Split the `Cloud` skills row into two shorter rows so it stays ATS-friendly and within the word-limit constraint.",
+      "Add a short modality or concurrent-program note to the two M.S. education lines so the dual May 2026 timelines look intentional."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.4,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 92.4,
+    "verdict": "conditional_pass",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "Make two local edits only. First, rewrite the `## Skills` section so no single skills row exceeds the 14-word limit; keep every current technology but split the current `Cloud` row into two narrower rows such as `Cloud/Infra` and `Data Stores/Streaming`. Second, add a brief qualifier to the education entries, such as `M.S. Computer Science (OMSCS, part-time) | Georgia Institute of Technology` and/or `M.S. Information Management (MSIM, part-time) | University of Illinois Urbana-Champaign`, so the concurrent May 2026 graduation dates are self-explanatory.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T23:18:09",
+    "rereview_rounds": 2,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 84.7,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:17",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:18:09",
+  "rereview_rounds": 2,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 92.4,
+  "review_verdict": "conditional_pass"
+}

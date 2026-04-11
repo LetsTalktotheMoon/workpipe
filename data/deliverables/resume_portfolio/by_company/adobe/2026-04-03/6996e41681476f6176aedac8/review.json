@@ -1,0 +1,80 @@
+{
+  "weighted_score": 83.3,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 3,
+  "needs_revision": true,
+  "revision_priority": [
+    "Rewrite the Professional Summary into the required 3-sentence bold-header format and remove non-compliant bolding in the experience bullets.",
+    "Add explicit, truthful evidence for Snowflake, Scala, Terraform, and Azure, and clarify the DiDi scope so the analyst-to-backend story reads credibly."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 7.8,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 6.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.1,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 7.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.5,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 83.3,
+  "verdict": "fail",
+  "seed_label": "PayPal Java Backend",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "1. `## Professional Summary`: convert the three bullets into exactly 3 sentences, each starting with `**Header:**`; replace the third generic header with a senior-signal header such as `Systems Judgment` or `Decision-Making`. 2. `## Experience` and project blocks: remove bold emphasis from qualifiers and adjectives like `team-maintained`, `existing`, `internal`, `shared`, and similar wording; keep bold only for technologies, metrics, and outcomes. 3. `Skills` and supporting bullets: add concrete, truthful evidence for `Snowflake`, `Scala`, `Terraform`, and `Azure` somewhere in the resume body; the cleanest fix is to add or revise bullets in TikTok or DiDi that show actual usage rather than only listing them in Skills. 4. `DiDi · Senior Data Analyst`: add one clause explaining the embedded/dual-hat operating scope, and soften over-strong verbs if needed so the backend service work does not read like unsupported title inflation. 5. Keep the immutable company/title/date/location fields unchanged exactly as specified.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:45:00",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": true,
+  "normalize_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 78.1,
+  "previous_verdict": "fail",
+  "repaired_at": "2026-04-07T16:57:07",
+  "repair_changes": [
+    "normalized_go_achievement"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

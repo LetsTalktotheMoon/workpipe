@@ -1,0 +1,9 @@
+Minimum qualifications:
+* Bachelor's degree or equivalent practical experience.
+* 1 year of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript) in an industry setting.
+* Experience working with one or more of the following: Web or Mobile Application Development, Unix/Linux environments, Distributed and Parallel Systems, Machine Learning or AI, Information Retrieval, Natural Language Processing, Networking, Developing Software Systems, or Security Software Development.
+Preferred qualifications:
+* Master's degree in Computer Science or a related technical field.
+* Experience developing accessible technologies.
+* Experience with machine learning algorithms and tools, Basics of Machine Learning, Generative AI, Recommendations/Ranking/Predictions, Natural Language Processing, Speech Audio, Machine Learning Infrastructure, Reinforcement Learning, and Computer Vision.
+* Experience developing infrastructure, distributed systems or networks, or experience with compute technologies, storage, or hardware architecture.

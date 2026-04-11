@@ -1,0 +1,75 @@
+{
+  "weighted_score": 91.3,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "补一条可验证的 Rails 正文证据，并同步把 Rails 放进 Skills。",
+    "去掉 TikTok bullets 里对 `team-maintained`、`team-owned` 这类限定词的加粗，只保留技术名词和量化结果加粗。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.1,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 7.9,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 91.3,
+  "verdict": "conditional_pass",
+  "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "最小修改方案：1) 选 DiDi 的 `Pricing Rules Service Migration` 或 TikTok 的 `Internal Security Knowledge Retrieval Accelerator`，补 1 条明确写出 `Rails` 的 bullet，例如说明你维护/扩展了一个 Rails 管理后台、校验页或内部 API 层，并交代它与 ops/validation 的关系；不要只在 Skills 里孤立新增 `Rails`，必须先有正文证据。2) 保留现有 JD 必须技术的覆盖，不要删除 SQL、Spark、Generative AI、Hadoop、Tableau、Python、R；只是补齐 Rails。3) 把 TikTok 第 1、3 条 bullet 中 `team-maintained`、`team-owned` 取消加粗，避免把限定词当作高信号重点。4) 其余结构基本可保留，无需重写经历骨架。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T19:15:28",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 86.4,
+  "previous_verdict": "fail"
+}

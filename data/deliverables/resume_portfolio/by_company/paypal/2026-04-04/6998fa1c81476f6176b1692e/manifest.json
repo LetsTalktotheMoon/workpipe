@@ -1,0 +1,138 @@
+{
+  "job_id": "6998fa1c81476f6176b1692e",
+  "company_name": "PayPal",
+  "company_slug": "paypal",
+  "publish_time": "2026-04-04 05:17:03",
+  "publish_date": "2026-04-04",
+  "title": "Sr Software Engineer, BE Python",
+  "application_status": "1_Discovered",
+  "apply_link": "https://paypal.eightfold.ai/careers?domain=paypal.com&sort_by=relevance&query=R0134355&Codes=W-LINKEDIN",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_paypal_java_backend",
+  "seed_label": "PayPal Java Backend",
+  "parent_seed_id": "seed_paypal_java_backend",
+  "top_candidate": {
+    "seed_id": "seed_paypal_java_backend",
+    "label": "PayPal Java Backend",
+    "route_score": 0.887,
+    "same_company": true,
+    "company_anchor": false,
+    "missing_required": [
+      "distributed systems",
+      "flask"
+    ],
+    "project_ids": [],
+    "seed_company_name": "PayPal",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-04/6998fa1c81476f6176b1692e/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-04/6998fa1c81476f6176b1692e/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-04/6998fa1c81476f6176b1692e",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/6998fa1c81476f6176b1692e",
+  "generated_at": "2026-04-06T21:34:14",
+  "review": {
+    "weighted_score": 94.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "把 Summary 第 3 句标题改成更强的认知标签，如 `Systems Judgment:` 或 `Decision-Making:`。",
+      "把 `Skills` 里的 `APIs` 分类改成更准确的名称，或拆成 `Datastores` / `Engineering Practices`，保留原有条目。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.0,
+    "verdict": "pass",
+    "seed_label": "PayPal Java Backend",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-08T03:28:05",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 82.6,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:41",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T03:28:05",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 94.0,
+  "review_verdict": "pass"
+}

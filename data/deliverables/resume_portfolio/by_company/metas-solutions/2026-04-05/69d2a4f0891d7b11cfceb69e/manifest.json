@@ -1,0 +1,138 @@
+{
+  "job_id": "69d2a4f0891d7b11cfceb69e",
+  "company_name": "Metas Solutions",
+  "company_slug": "metas-solutions",
+  "publish_time": "2026-04-05 13:07:44",
+  "publish_date": "2026-04-05",
+  "title": "Software Developer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://mwejobs.maryland.gov/vosnet/guest.aspx?action=JOBS&whereto=JOBSEARCH_SERVICE_REDIRECT&ordernum=2167070&zip=&src=VOS&radius=&idnum=2167070&site=",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_generalist_dotnet_enterprise",
+  "seed_label": "Generalist DotNet Enterprise",
+  "parent_seed_id": "seed_generalist_dotnet_enterprise",
+  "top_candidate": {
+    "seed_id": "seed_generalist_dotnet_enterprise",
+    "label": "Generalist DotNet Enterprise",
+    "route_score": 0.834,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "java",
+      "php"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Spok",
+    "seed_source_job_id": "69cfdc7b891d7b11cfcd677c"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/metas-solutions/2026-04-05/69d2a4f0891d7b11cfceb69e/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/metas-solutions/2026-04-05/69d2a4f0891d7b11cfceb69e/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/metas-solutions/2026-04-05/69d2a4f0891d7b11cfceb69e",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-05/69d2a4f0891d7b11cfceb69e",
+  "generated_at": "2026-04-06T22:11:45",
+  "review": {
+    "weighted_score": 87.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补一条真实的 `.NET` / `ASP.NET` 正文证据，并把这两个技能同步到 Skills。",
+      "把 Summary 第三句的标题改成更强的认知信号词，如 `Pattern recognition:` 或 `Systems judgment:`。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 6.4,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 8.9,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 87.0,
+    "verdict": "fail",
+    "seed_label": "Generalist DotNet Enterprise",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "保持三段不可变经历头信息完全不动。优先在 TikTok 或 DiDi 里新增 1 条最小化的 .NET / ASP.NET 证据 bullet，最好是内部 admin endpoint、service migration、数据访问层或后台工具改动，且同时带上 SQL、测试、发布或系统设计语境；不要只在 Skills 里补词。确认正文出现后，再把 `.NET` 和 `ASP.NET` 加入 Skills。若要进一步提高首屏信号，把 Summary 第三句的标题从较泛的 `Decision discipline` 改成 `Pattern recognition` 或 `Systems judgment`，内容保持围棋经历不变。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T23:22:42",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 84.1,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:34",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:22:42",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 87.0,
+  "review_verdict": "fail"
+}

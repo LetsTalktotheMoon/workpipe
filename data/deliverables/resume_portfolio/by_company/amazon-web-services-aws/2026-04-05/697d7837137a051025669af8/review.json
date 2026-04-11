@@ -1,0 +1,73 @@
+{
+  "weighted_score": 92.4,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Rewrite the Summary's third sentence with a high-signal cognition header tied to EMR-scale systems work.",
+    "Remove bold emphasis from non-technical qualifiers in the experience bullets, keeping bold only for tech terms and metrics."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 7.8,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 92.4,
+  "verdict": "conditional_pass",
+  "seed_label": "AWS Support Backend Anchor",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "Keep the immutable fields exactly unchanged for TikTok, DiDi, and Temu. Rewrite `**AWS Alignment:**` into a cognition-oriented header such as `**Systems Judgment:**` or `**Scale & Reliability:**`, and make the third Summary sentence explicitly connect the candidate's Java/C++/Hadoop/Spark/AWS work to EMR-relevant backend judgment. In the body bullets, remove bolding from non-technical qualifiers like `team-maintained`, `existing`, and `internal`; preserve bold only for technology names and quantified results. Do not change the Achievements line, project counts, or experience order.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T17:05:30",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_achievement"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 96.2,
+  "previous_verdict": "pass"
+}

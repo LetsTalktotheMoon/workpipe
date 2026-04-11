@@ -1,0 +1,114 @@
+{
+  "job_id": "69cee12dcdb525785fb9c778",
+  "company_name": "KPMG US",
+  "company_slug": "kpmg-us",
+  "publish_time": "2026-04-02 16:35:41",
+  "publish_date": "2026-04-02",
+  "title": "AI Engineer- Senior Associate",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.kpmguscareers.com/jobdetail/?jobId=128733&srcCat=Job+Boards&specSrc=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_h2o_ai_engineer",
+  "seed_label": "H2O AI Engineer",
+  "parent_seed_id": "seed_h2o_ai_engineer",
+  "top_candidate": {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "route_score": 0.795,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "git",
+      "langchain"
+    ],
+    "project_ids": [],
+    "seed_company_name": "H2O.ai",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cee12dcdb525785fb9c778",
+  "generated_at": "2026-04-05T20:00:25",
+  "review": {
+    "weighted_score": 78.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 2,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "补齐技能出处一致性：把 Rails 和 GCP 加入 Skills，或删除/替换所有正文中的对应技术提法。",
+      "收紧 TikTok 实习叙事：减少单条 bullet 里的技术堆叠，并明确哪些是团队维护、配合开发或 sandbox 范围内的工作。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 4.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 8.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 7.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.8,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 78.1,
+    "verdict": "fail",
+    "seed_label": "H2O AI Engineer",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "补齐技能出处一致性：把 Rails 和 GCP 加入 Skills，或删除/替换所有正文中的对应技术提法。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:32",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

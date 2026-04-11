@@ -1,0 +1,117 @@
+{
+  "job_id": "6997ea56e0bddb6acac6cec8",
+  "company_name": "WEX",
+  "company_slug": "wex",
+  "publish_time": "2026-04-03 13:51:00",
+  "publish_date": "2026-04-03",
+  "title": "Senior PHP Software Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.wexinc.com/us/en/job/WEXWEXUSR20873EXTERNALENUS/Senior-PHP-Software-Engineer?utm_source=linkedin&utm_medium=phenom-feeds",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_egen_fullstack_node",
+  "seed_label": "Egen Fullstack Node",
+  "parent_seed_id": "seed_egen_fullstack_node",
+  "top_candidate": {
+    "seed_id": "seed_egen_fullstack_node",
+    "label": "Egen Fullstack Node",
+    "route_score": 0.738,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "aws",
+      "azure",
+      "php"
+    ],
+    "project_ids": [],
+    "seed_company_name": "Egen",
+    "seed_source_job_id": "69cda26c398fb071abf7a98d"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/wex/2026-04-03/6997ea56e0bddb6acac6cec8/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/wex/2026-04-03/6997ea56e0bddb6acac6cec8/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/wex/2026-04-03/6997ea56e0bddb6acac6cec8",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/6997ea56e0bddb6acac6cec8",
+  "generated_at": "2026-04-06T22:44:48",
+  "review": {
+    "weighted_score": 70.8,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Remove or substantiate `PHP` and `Azure` so every JD must-have technology has matching experience evidence.",
+      "Tighten scope language in the DiDi/TikTok sections and remove bolding from qualifier words like `team-maintained` and `existing`."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 5.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 5.6,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 8.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 7.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 8.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 7.8,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 70.8,
+    "verdict": "fail",
+    "seed_label": "Egen Fullstack Node",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "Remove or substantiate `PHP` and `Azure` so every JD must-have technology has matching experience evidence.",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:54",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

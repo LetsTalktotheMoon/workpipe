@@ -1,0 +1,390 @@
+{
+  "subseed_id": "google_product_ai_mainline",
+  "company_name": "Google",
+  "company_slug": "google",
+  "label": "Google Product / AI Application",
+  "kind": "mainline",
+  "status": "active",
+  "primary_seed_id": "seed_google_geo_aiml_anchor",
+  "seed_ids": [
+    "seed_google_geo_aiml_anchor",
+    "seed_codex_google_aiml",
+    "seed_codex_google_fullstack"
+  ],
+  "candidate_job_ids": [],
+  "target_role_families": [
+    "ai_ml_swe",
+    "fullstack",
+    "generalist"
+  ],
+  "notes": "Workspace, Geo, AI application, and product-facing SWE variants.",
+  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/google/google_product_ai_mainline",
+  "seed_dirs": [
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor",
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml",
+    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_fullstack"
+  ],
+  "derived_count": 40,
+  "derived_jobs": [
+    {
+      "job_id": "69ba969206c1ba00c54cb81f",
+      "title": "Software Engineer, Ridgeline Engineering",
+      "publish_time": "2026-04-08 07:37:54",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ba92be06c1ba00c54cb3d5",
+      "title": "Software Engineer, Generative AI Media, Vertex AI",
+      "publish_time": "2026-04-08 07:37:50",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ba8bc25697383741402b0f",
+      "title": "Software Engineer III, Full Stack, Google Cloud Platforms",
+      "publish_time": "2026-04-08 07:28:27",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69a504290da45516f16da9ce",
+      "title": "Senior Software Engineer, Machine Learning",
+      "publish_time": "2026-04-08 07:22:03",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce",
+      "is_outlier": false
+    },
+    {
+      "job_id": "699c43cb81476f6176b4bd94",
+      "title": "Practice Customer Engineer, Cloud AI, Google Cloud",
+      "publish_time": "2026-04-08 07:21:22",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
+      "is_outlier": false
+    },
+    {
+      "job_id": "699ca92c81476f6176b53dfe",
+      "title": "Engineering Analyst, Cloud AI Abuse",
+      "publish_time": "2026-04-08 06:43:10",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d63f4dcfdc6132f9469275",
+      "title": "Junior Software Performance Analysis and Optimization Engineer",
+      "publish_time": "2026-04-08 06:43:09",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d6337b366bb95ba554bcaa",
+      "title": "Data Engineer, Operations and Infrastructure Data Science",
+      "publish_time": "2026-04-08 05:52:43",
+      "route_mode": "reuse",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "699e4a4e81476f6176b73aab",
+      "title": "Software Engineer - Frontend",
+      "publish_time": "2026-04-08 05:49:31",
+      "route_mode": "retarget",
+      "source_kind": "local_unified_pipeline",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d4fd43891d7b11cfcfebdb",
+      "title": "Research Data Scientist, Search Ads, Google Experience",
+      "publish_time": "2026-04-07 07:49:07",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b84a2756973837413d6fbf",
+      "title": "Software Engineer, GenAI, Ads Forecasting",
+      "publish_time": "2026-04-07 07:28:39",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d40bb1366bb95ba553a060",
+      "title": "Business Intelligence Generalist, Product Data Warehouse",
+      "publish_time": "2026-04-06 14:38:25",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d4014a54f00230c6d2d49a",
+      "title": "Engineer Systems",
+      "publish_time": "2026-04-06 13:54:02",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3f3e4366bb95ba5539077",
+      "title": "Software Development Engineer, Devices Software & Services",
+      "publish_time": "2026-04-06 12:56:52",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3e85dcfdc6132f9455b38",
+      "title": "Software Developer 3",
+      "publish_time": "2026-04-06 12:07:41",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/oracle/2026-04-06/69d3e85dcfdc6132f9455b38",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d3b63a54f00230c6d299ab",
+      "title": "Software Engineer III, Front End, Google Cloud AI",
+      "publish_time": "2026-04-06 08:33:46",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-06/69d3b63a54f00230c6d299ab",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69d0707f891d7b11cfcdb55d",
+      "title": "Software Engineer, Payments",
+      "publish_time": "2026-04-03 20:59:27",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69a5dca40da45516f16e9b94",
+      "title": "Software Engineer II – Video Platform",
+      "publish_time": "2026-04-03 19:15:35",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/simplisafe/2026-04-03/69a5dca40da45516f16e9b94",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b43ebf06c1ba00c54572e0",
+      "title": "Asset & Wealth Management - Software Engineer - Associate - New York",
+      "publish_time": "2026-04-03 12:39:29",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "68ca457c9f583c3191e3f28b",
+      "title": "Full Stack Software Engineer - Application Development",
+      "publish_time": "2026-04-03 11:49:24",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/palantir-technologies/2026-04-03/68ca457c9f583c3191e3f28b",
+      "is_outlier": false
+    },
+    {
+      "job_id": "697c23560b88cc7d6423284a",
+      "title": "Software Development Engineer, Aurora DSQL",
+      "publish_time": "2026-04-03 11:28:56",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cfc7c8366bb95ba5518b4a",
+      "title": "Software Engineer, AI/ML, Geo Data Protection",
+      "publish_time": "2026-04-03 08:59:36",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b2b893ad360c0340a79c07",
+      "title": "GenAI Software Engineer, Workspace Drive",
+      "publish_time": "2026-04-03 07:45:25",
+      "route_mode": "seed_source",
+      "source_kind": "seed_source",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69c6753cb773006330b709d0",
+      "title": "Software Engineer III, Full Stack, Core",
+      "publish_time": "2026-04-03 06:06:42",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69c6753cb773006330b709d0",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cef58acdb525785fb9d9f4",
+      "title": "Software Engineer III, Full Stack, Commerce",
+      "publish_time": "2026-04-02 18:02:34",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-02/69cef58acdb525785fb9d9f4",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cef32d54f00230c6d05152",
+      "title": "Software Engineer II - AI Security & Governance",
+      "publish_time": "2026-04-02 17:52:29",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cef2ce398fb071abf8ad6f",
+      "title": "Software Development Engineer, Amazon Connect Contact Lens",
+      "publish_time": "2026-04-02 17:50:54",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "6972333747b64f4e963e75ea",
+      "title": "Software Engineer III, Full Stack, Google Ads",
+      "publish_time": "2026-04-02 17:45:10",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea",
+      "is_outlier": false
+    },
+    {
+      "job_id": "699917edce78e77b4fddba00",
+      "title": "AI Evaluation Engineer",
+      "publish_time": "2026-04-02 17:42:01",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ceeed7398fb071abf8ac72",
+      "title": "Software Engineer, Supply Chain Systems",
+      "publish_time": "2026-04-02 17:33:59",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cee70954f00230c6d04ba2",
+      "title": "Software Engineer – Autonomy Evaluation",
+      "publish_time": "2026-04-02 17:00:41",
+      "route_mode": "retarget",
+      "source_kind": "retarget_trial",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ced2a8cdb525785fb9bb56",
+      "title": "Software Engineer",
+      "publish_time": "2026-04-02 15:33:44",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cedb88366bb95ba55103e5",
+      "title": "Senior Software Engineer - Bloomberg Finance & CFO",
+      "publish_time": "2026-04-02 14:44:14",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloomberg/2026-04-02/69cedb88366bb95ba55103e5",
+      "is_outlier": false
+    },
+    {
+      "job_id": "698be01f06d9b06224960aba",
+      "title": "Full Stack Software Engineer - Growth",
+      "publish_time": "2026-04-02 12:38:49",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ce99ff366bb95ba550d1ae",
+      "title": "Software Engineer I",
+      "publish_time": "2026-04-02 11:31:59",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/latitude-ai/2026-04-02/69ce99ff366bb95ba550d1ae",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69b1fbae65de58104c716815",
+      "title": "Software Development Engineer, Neuron Foundation Tools",
+      "publish_time": "2026-04-02 10:42:18",
+      "route_mode": "reuse",
+      "source_kind": "seed_validation",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69ce4d90398fb071abf84215",
+      "title": "Software Engineer 2 - Credit Karma",
+      "publish_time": "2026-04-02 06:05:52",
+      "route_mode": "retarget",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-02/69ce4d90398fb071abf84215",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69846d438da7a612045e943f",
+      "title": "Software Engineer, Perception Evaluation",
+      "publish_time": "2026-04-01 23:49:25",
+      "route_mode": "new_seed",
+      "source_kind": "seed_validation",
+      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f",
+      "is_outlier": false
+    },
+    {
+      "job_id": "69cc862a8130af1ac833b1ad",
+      "title": "Backend/API Engineer, Money as a Service",
+      "publish_time": "2026-04-01 22:20:03",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    },
+    {
+      "job_id": "695c9dd89a87b95a939806f8",
+      "title": "Software Engineer",
+      "publish_time": "2026-04-01 06:41:39",
+      "route_mode": "reuse",
+      "source_kind": "fanout_batch",
+      "artifact_dir": "",
+      "is_outlier": false
+    }
+  ]
+}

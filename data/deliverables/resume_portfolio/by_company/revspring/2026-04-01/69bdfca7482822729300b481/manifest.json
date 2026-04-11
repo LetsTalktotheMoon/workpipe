@@ -1,0 +1,123 @@
+{
+  "job_id": "69bdfca7482822729300b481",
+  "company_name": "RevSpring",
+  "company_slug": "revspring",
+  "publish_time": "2026-04-01 20:41:21",
+  "publish_date": "2026-04-01",
+  "title": "Software Engineer II- Enrichment",
+  "application_status": "1_Discovered",
+  "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?fromAggregate=true&clientId=8a7883d0798f66af0179905b7890010b&id=8a7885a89d02e553019d0d15f82458d6&source=LinkedIn&lang=en",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_paypal_java_backend",
+  "seed_label": "PayPal Java Backend",
+  "parent_seed_id": "seed_paypal_java_backend",
+  "top_candidate": {
+    "seed_id": "seed_paypal_java_backend",
+    "label": "PayPal Java Backend",
+    "route_score": 0.853,
+    "same_company": false,
+    "company_anchor": false,
+    "missing_required": [
+      "gcp",
+      "networking"
+    ],
+    "project_ids": [],
+    "seed_company_name": "PayPal",
+    "seed_source_job_id": ""
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/revspring/2026-04-01/69bdfca7482822729300b481/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/revspring/2026-04-01/69bdfca7482822729300b481/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/revspring/2026-04-01/69bdfca7482822729300b481",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-01/69bdfca7482822729300b481",
+  "generated_at": "2026-04-06T22:27:16",
+  "review": {
+    "weighted_score": 91.9,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "补一层明确的 data enrichment 叙事，把现有后端工作和岗位团队方向直接对齐。",
+      "收敛 DiDi 段落的 ownership 语气，加入更明确的 scope 限定，避免被质疑过度抬高职责。",
+      "Add explicit enrichment-domain framing so the resume reads as RevSpring-relevant instead of generic backend transition."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 8.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "calibrated": true,
+    "calibration_scores": [
+      92.9,
+      89.0,
+      93.6
+    ],
+    "final_score": 91.9,
+    "verdict": "conditional_pass",
+    "seed_label": "PayPal Java Backend",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "补一层明确的 data enrichment 叙事，把现有后端工作和岗位团队方向直接对齐。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:45",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

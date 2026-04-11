@@ -1,0 +1,26 @@
+{
+  "freeze_criteria": {
+    "teacher_standard_hit_at_1_min": 0.94,
+    "teacher_standard_hit_at_3_min": 0.97,
+    "teacher_hard_hit_at_1_min": 0.8,
+    "teacher_hard_hit_at_3_min": 0.9,
+    "teacher_runtime_ms_max": 1200.0
+  },
+  "freeze_checks": {
+    "teacher_standard_hit_at_1": true,
+    "teacher_standard_hit_at_3": true,
+    "teacher_hard_hit_at_1": true,
+    "teacher_hard_hit_at_3": true,
+    "teacher_runtime": true,
+    "regression_tests": true
+  },
+  "teacher_frozen": true,
+  "student_ready": true,
+  "recommended_deployment": "student_for_online_retrieval_teacher_for_offline_audit",
+  "teacher_advantage": {
+    "standard_hit_at_1_delta": 0.054,
+    "hard_hit_at_1_delta": 0.0909,
+    "standard_hit_at_3_delta": 0.0541,
+    "hard_hit_at_3_delta": 0.1818
+  }
+}

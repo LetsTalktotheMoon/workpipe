@@ -1,0 +1,73 @@
+{
+  "weighted_score": 91.6,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Summary 第三句改成更高信号的认知标题，去掉“Problem Solving”式泛化表述。",
+    "删除正文里所有限定词加粗，只保留技术栈和量化结果加粗。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 7.9,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 9.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.1,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 91.6,
+  "verdict": "conditional_pass",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "route_mode": "new_seed",
+  "revised": false,
+  "revision_instructions": "仅做两类修改。第一，重写 Professional Summary 的第 3 句，把标题从 `Embedded-Focused Problem Solving` 改为更高信号的认知标签，如 `Systems Judgment`、`Decision-Making` 或 `Pattern Recognition`，并把句子内容改成强调取舍、系统优化、风险判断或跨栈分析。第二，通读全文删除对限定词/修饰语的加粗，包括但不限于 `team-maintained`、`intern-owned`、`team-owned`、`existing`、`internal` 这类词；保留技术名词、岗位名、公司名、时间地点和量化数字的加粗。其余职位名称、时间线、技能覆盖、项目结构与成就条目都无需改动。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T17:02:28",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_achievement"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 93.1,
+  "previous_verdict": "pass"
+}

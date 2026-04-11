@@ -1,0 +1,77 @@
+{
+  "weighted_score": 83.7,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 1,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add `Kubernetes` to `## Skills` so every technology named in the resume has Skills provenance.",
+    "Add one performance-oriented clause to the TikTok section to make the TensorRT Performance fit explicit without removing the current security narrative."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 6.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 9.2,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.4,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r5_logic": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.8,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 83.7,
+  "verdict": "fail",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "1) In `## Skills`, add `Kubernetes` to the Cloud row, or create a small `Infra` category if you want to keep the line length balanced. Do not remove the existing Kubernetes mention from the Summary or Experience. 2) In the TikTok section, update one existing bullet, preferably the C++/Linux or model-evaluation bullet, to explicitly mention profiling, benchmarking, batching, latency validation, or throughput checks so the resume reads as performance-oriented rather than only security-oriented. Keep all immutable fields unchanged.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-08T04:42:32",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 80.5,
+  "previous_verdict": "fail"
+}

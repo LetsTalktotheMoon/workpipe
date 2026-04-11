@@ -1,0 +1,124 @@
+{
+  "job_id": "69c61b6f1b5ad0288737d73d",
+  "company_name": "Waystar",
+  "company_slug": "waystar",
+  "publish_time": "2026-04-03 04:57:37",
+  "publish_date": "2026-04-03",
+  "title": "Machine Learning Platform Engineer - Backend Services",
+  "application_status": "1_Discovered",
+  "apply_link": "https://careers.waystar.com/7DF9AC01AA684D908132CA7BB00AD911/job/?vs=1606&utm_source=LinkedIn.com-DE&utm_medium=Social%20Media&utm_campaign=LinkedIn.com",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_aws_support_backend_anchor",
+  "seed_label": "AWS Support Backend Anchor",
+  "parent_seed_id": "seed_aws_support_backend_anchor",
+  "top_candidate": {
+    "seed_id": "seed_aws_support_backend_anchor",
+    "label": "AWS Support Backend Anchor",
+    "route_score": 0.821,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "gcp",
+      "machine learning",
+      "microservices",
+      "nlp"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_merchant_incident_workbench"
+    ],
+    "seed_company_name": "Amazon Web Services (AWS)",
+    "seed_source_job_id": "69d050a3cfdc6132f943a6ce"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_merchant_incident_workbench"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waystar/2026-04-03/69c61b6f1b5ad0288737d73d/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waystar/2026-04-03/69c61b6f1b5ad0288737d73d/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waystar/2026-04-03/69c61b6f1b5ad0288737d73d",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69c61b6f1b5ad0288737d73d",
+  "generated_at": "2026-04-07T00:00:52",
+  "review": {
+    "weighted_score": 91.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补上 GCP 的真实使用证据，并让 Skills 和正文中的同一条经历互相印证。",
+      "补一条医疗支付或 provider workflow 的业务桥接语，或者把 Summary 改成不暗示该领域经验。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.6,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.0,
+    "verdict": "conditional_pass",
+    "seed_label": "AWS Support Backend Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "补上 GCP 的真实使用证据，并让 Skills 和正文中的同一条经历互相印证。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:54",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

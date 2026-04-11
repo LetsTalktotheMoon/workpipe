@@ -1,0 +1,114 @@
+{
+  "job_id": "69cc8152366bb95ba54f0d79",
+  "company_name": "Luminai",
+  "company_slug": "luminai",
+  "publish_time": "2026-03-31 21:22:10",
+  "publish_date": "2026-03-31",
+  "title": "Applied AI Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/luminai/4b580dd6-0675-4f55-86c7-6d694285b6d8/application?utm_source=lo95Qrb3Qg",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_bytedance_ml_grad",
+  "seed_label": "ByteDance ML Grad",
+  "parent_seed_id": "seed_bytedance_ml_grad",
+  "top_candidate": {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "route_score": 0.83,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "system design"
+    ],
+    "project_ids": [],
+    "seed_company_name": "ByteDance",
+    "seed_source_job_id": "692777a0d47de4798ecdcf3a"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/luminai/2026-03-31/69cc8152366bb95ba54f0d79/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/luminai/2026-03-31/69cc8152366bb95ba54f0d79/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/luminai/2026-03-31/69cc8152366bb95ba54f0d79",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-03-31/69cc8152366bb95ba54f0d79",
+  "generated_at": "2026-04-05T20:11:54",
+  "review": {
+    "weighted_score": 91.7,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补一条明确的 healthcare / regulated workflow 叙事，把简历从通用 AI/ops automation 收束到 Luminai 的业务方向。",
+      "把每个项目里最关键的 1-2 条 bullet 改成明确 ownership + scope + metric 的写法，减少‘参与感’过强导致的信任损耗。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 8.1,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.7,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.9,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.7,
+    "verdict": "conditional_pass",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "retarget",
+    "revised": true,
+    "main_failure_reason": "补一条明确的 healthcare / regulated workflow 叙事，把简历从通用 AI/ops automation 收束到 Luminai 的业务方向。",
+    "failure_bucket": "writer_fixable"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:33",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

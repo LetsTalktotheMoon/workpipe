@@ -1,0 +1,79 @@
+{
+  "weighted_score": 90.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 1,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "压缩 Skills 分类并清理加粗规则，避免 ATS 认为结构过宽、重点被稀释。",
+    "补一条面向 Crestron 自动化/控制场景的业务对齐说明，并把各经历的 ownership 边界写清楚。",
+    "收紧 Skills 区的类别宽度，避免单个类别超过 8 个技术栈。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 8.9,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 8.7,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 9.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 9.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.2,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "calibrated": true,
+  "calibration_scores": [
+    92.2,
+    95.5,
+    83.4
+  ],
+  "final_score": 90.5,
+  "verdict": "conditional_pass",
+  "seed_label": "Generalist DotNet Enterprise",
+  "route_mode": "retarget",
+  "revised": false,
+  "main_failure_reason": "压缩 Skills 分类并清理加粗规则，避免 ATS 认为结构过宽、重点被稀释。",
+  "failure_bucket": "writer_fixable",
+  "repaired_at": "2026-04-07T16:57:19",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

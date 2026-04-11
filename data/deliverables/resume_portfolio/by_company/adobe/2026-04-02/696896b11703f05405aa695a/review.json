@@ -1,0 +1,84 @@
+{
+  "weighted_score": 91.6,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "补上 Scala 的实质性使用证据，并同步写入 Skills，避免 JD 必须技术缺口。",
+    "把 Summary 和最相关经历改成更明确的 BI/产品分析叙事，增强 Adobe 业务适配度。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.7,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 7.6,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.9,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 10.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.1,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 91.6,
+  "verdict": "conditional_pass",
+  "seed_label": "H2O AI Engineer",
+  "route_mode": "retarget",
+  "revised": false,
+  "revision_instructions": "保持所有不可变字段完全不变。先补 JD 缺口：在 `Skills` 中加入 `Scala`，并在 TikTok 或 DiDi 的某一条 bullet 里明确写出一次 Scala + Spark/ETL 的实际使用场景，带上业务结果和 ownership 边界，不能只列关键词。然后重写 Summary 和最相关的 1-2 条经历 bullet，把叙事重心从安全/基础设施转到 BI、dashboarding、experiment analysis、stakeholder reporting 和 decision support，让 Adobe 的 reviewer 一眼看到产品/业务分析适配度。保留现有量化结果和技术栈，但把最强的业务信号前置。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T16:44:58",
+  "rereview_rounds": 1,
+  "rereview_revised": false,
+  "normalized_before_review": true,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 90.3,
+  "previous_verdict": "conditional_pass",
+  "repaired_at": "2026-04-07T16:57:07",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

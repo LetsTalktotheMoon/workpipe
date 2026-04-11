@@ -1,0 +1,924 @@
+[
+  {
+    "seed_id": "seed_codex_google_aiml",
+    "label": "Google AIML SWE",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_google_aiml/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "mid_senior",
+    "domains": [
+      "genai",
+      "recommendation",
+      "backend",
+      "platform"
+    ],
+    "taxonomy_hints": [
+      "AI Evaluation Engineer",
+      "Responsible AI Engineer",
+      "Software Engineer"
+    ],
+    "validated_score": 93.9,
+    "source_company": "Google"
+  },
+  {
+    "seed_id": "seed_codex_google_fullstack",
+    "label": "Google Full Stack",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_google_fullstack/resume.md",
+    "role_family": "fullstack",
+    "seniority": "mid_senior",
+    "domains": [
+      "web",
+      "frontend",
+      "backend",
+      "platform"
+    ],
+    "taxonomy_hints": [
+      "Full Stack Engineer",
+      "Backend Software Engineer",
+      "Frontend Software Engineer"
+    ],
+    "validated_score": 95.5,
+    "source_company": "Google"
+  },
+  {
+    "seed_id": "seed_codex_amazon_sde",
+    "label": "Amazon SDE",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_amazon_sde/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "platform",
+      "internal-tools",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "Backend Software Engineer",
+      "General Software Engineer",
+      "Java Developer",
+      "Python Developer"
+    ],
+    "validated_score": 93.8,
+    "source_company": "Amazon"
+  },
+  {
+    "seed_id": "seed_plaid_data_scientist",
+    "label": "Plaid Data Scientist",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_plaid_data_scientist/resume.md",
+    "role_family": "data_science",
+    "seniority": "mid_senior",
+    "domains": [
+      "analytics",
+      "experimentation",
+      "fintech",
+      "data",
+      "productivity"
+    ],
+    "taxonomy_hints": [
+      "Data Scientist",
+      "Data Analyst",
+      "Machine Learning Engineer"
+    ],
+    "validated_score": 94.5,
+    "source_company": "Plaid"
+  },
+  {
+    "seed_id": "seed_qualified_health_data_engineer",
+    "label": "Qualified Health Data Engineer",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_qualified_health_data_engineer/resume.md",
+    "role_family": "data_platform",
+    "seniority": "senior",
+    "domains": [
+      "healthcare",
+      "data",
+      "cloud",
+      "platform",
+      "analytics"
+    ],
+    "taxonomy_hints": [
+      "Data Engineer",
+      "Cloud Engineer",
+      "Infrastructure Engineer"
+    ],
+    "validated_score": 94.4,
+    "source_company": "Qualified Health"
+  },
+  {
+    "seed_id": "seed_zillow_agentic_mle",
+    "label": "Zillow Agentic MLE",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zillow_agentic_mle/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "mid",
+    "domains": [
+      "genai",
+      "ml-platform",
+      "ai",
+      "backend",
+      "cloud"
+    ],
+    "taxonomy_hints": [
+      "Machine Learning Engineer",
+      "Artificial Intelligence Engineer",
+      "Applied Scientist"
+    ],
+    "validated_score": 93.2,
+    "source_company": "Zillow"
+  },
+  {
+    "seed_id": "seed_magnite_sdet",
+    "label": "Magnite SDET",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_magnite_sdet/resume.md",
+    "role_family": "qa",
+    "seniority": "mid",
+    "domains": [
+      "qa",
+      "testing",
+      "platform",
+      "ads",
+      "backend"
+    ],
+    "taxonomy_hints": [
+      "Quality Assurance Engineer",
+      "Software Test Engineer",
+      "Backend Software Engineer"
+    ],
+    "validated_score": 93.7,
+    "source_company": "Magnite"
+  },
+  {
+    "seed_id": "seed_zip_backend_web",
+    "label": "Zip Backend Web",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zip_backend_web/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "web",
+      "platform",
+      "enterprise",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "Backend Software Engineer",
+      "General Software Engineer",
+      "Full Stack Engineer"
+    ],
+    "validated_score": 93.5,
+    "source_company": "Zip"
+  },
+  {
+    "seed_id": "seed_gm_genai",
+    "label": "GM Financial GenAI",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_gm_genai/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "mid_senior",
+    "domains": [
+      "genai",
+      "ai",
+      "backend",
+      "enterprise",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "Artificial Intelligence Engineer",
+      "Machine Learning Engineer",
+      "Backend Software Engineer"
+    ],
+    "validated_score": 93.7,
+    "source_company": "GM Financial"
+  },
+  {
+    "seed_id": "seed_spotify_backend_music",
+    "label": "Spotify Backend Music",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_spotify_backend_music/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "music",
+      "api",
+      "platform",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "Backend Software Engineer",
+      "General Software Engineer",
+      "Java Developer",
+      "Python Developer"
+    ],
+    "validated_score": 94.3,
+    "source_company": "Spotify",
+    "source_job_id": "69cea94b366bb95ba550de01",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_cisco_backend_api",
+    "label": "Cisco Backend API",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_cisco_backend_api/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "enterprise",
+      "api",
+      "microservices",
+      "platform"
+    ],
+    "taxonomy_hints": [
+      "Backend Software Engineer",
+      "General Software Engineer",
+      "Java Developer",
+      "Python Developer"
+    ],
+    "validated_score": 96.3,
+    "source_company": "Cisco",
+    "source_job_id": "69d07b90cfdc6132f943be1d",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_egen_fullstack_node",
+    "label": "Egen Fullstack Node",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_egen_fullstack_node/resume.md",
+    "role_family": "fullstack",
+    "seniority": "mid_senior",
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend",
+      "web",
+      "enterprise"
+    ],
+    "taxonomy_hints": [
+      "Full Stack Engineer",
+      "Frontend Software Engineer",
+      "Backend Software Engineer"
+    ],
+    "validated_score": 93.5,
+    "source_company": "Egen",
+    "source_job_id": "69cda26c398fb071abf7a98d",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_trimedx_platform_multicloud",
+    "label": "TRIMEDX Platform Multicloud",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_trimedx_platform_multicloud/resume.md",
+    "role_family": "platform",
+    "seniority": "senior",
+    "domains": [
+      "platform",
+      "cloud",
+      "infrastructure",
+      "devops",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Infrastructure Engineer"
+    ],
+    "validated_score": 96.3,
+    "source_company": "TRIMEDX",
+    "source_job_id": "69cf12e4891d7b11cfccfd93",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_platform_ai_automation",
+    "label": "Platform AI Automation",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_platform_ai_automation/resume.md",
+    "role_family": "platform",
+    "seniority": "senior",
+    "domains": [
+      "platform",
+      "automation",
+      "devops",
+      "cloud",
+      "security"
+    ],
+    "taxonomy_hints": [
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Infrastructure Engineer"
+    ],
+    "validated_score": 95.5,
+    "source_company": "Gordon Food Service",
+    "source_job_id": "69d00192cdb525785fba6807",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_fullstack_java_react_enterprise",
+    "label": "Fullstack Java React Enterprise",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fullstack_java_react_enterprise/resume.md",
+    "role_family": "fullstack",
+    "seniority": "mid_senior",
+    "domains": [
+      "fullstack",
+      "enterprise",
+      "frontend",
+      "backend",
+      "web"
+    ],
+    "taxonomy_hints": [
+      "Full Stack Engineer",
+      "Frontend Software Engineer",
+      "Backend Software Engineer"
+    ],
+    "validated_score": 93.7,
+    "source_company": "CVS Health",
+    "source_job_id": "69d0ff2a0b098b7a6707f1b6",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_fullstack_dotnet_azure",
+    "label": "Fullstack DotNet Azure",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fullstack_dotnet_azure/resume.md",
+    "role_family": "fullstack",
+    "seniority": "mid_senior",
+    "domains": [
+      "fullstack",
+      "enterprise",
+      "azure",
+      "backend",
+      "frontend"
+    ],
+    "taxonomy_hints": [
+      "Full Stack Engineer",
+      "Frontend Software Engineer",
+      "Backend Software Engineer"
+    ],
+    "validated_score": 95.3,
+    "source_company": "Phenom",
+    "source_job_id": "69cf1ae8cdb525785fb9ec17",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_profound_fullstack_ts_node",
+    "label": "Profound Fullstack TS Node",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_profound_fullstack_ts_node/resume.md",
+    "role_family": "fullstack",
+    "seniority": "mid_senior",
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend",
+      "web",
+      "ai"
+    ],
+    "taxonomy_hints": [
+      "Full Stack Engineer",
+      "Frontend Software Engineer",
+      "Backend Software Engineer"
+    ],
+    "validated_score": 94.8,
+    "source_company": "Profound",
+    "source_job_id": "69cfc86e0b098b7a67073bac",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_glean_ml_infra",
+    "label": "Glean ML Infrastructure",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_glean_ml_infra/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "mid_senior",
+    "domains": [
+      "ml",
+      "infrastructure",
+      "ai",
+      "platform",
+      "backend"
+    ],
+    "taxonomy_hints": [
+      "Machine Learning Engineer",
+      "MLOps Engineer",
+      "AI Infrastructure Engineer"
+    ],
+    "validated_score": 94.0,
+    "source_company": "Glean",
+    "source_job_id": "689aa14ffaa4e875e825a5de",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_frontend_web_perf",
+    "label": "Frontend Web Performance",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_frontend_web_perf/resume.md",
+    "role_family": "frontend",
+    "seniority": "entry",
+    "domains": [
+      "frontend",
+      "web",
+      "performance",
+      "react",
+      "ui"
+    ],
+    "taxonomy_hints": [
+      "Frontend Software Engineer",
+      "Web Engineer",
+      "UI Engineer"
+    ],
+    "validated_score": 94.8,
+    "source_company": "Profound",
+    "source_job_id": "69cfc830366bb95ba5518b62",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_backend_java_spring_api",
+    "label": "Backend Java Spring API",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_backend_java_spring_api/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "entry",
+    "domains": [
+      "backend",
+      "java",
+      "api",
+      "enterprise",
+      "distributed-systems"
+    ],
+    "taxonomy_hints": [
+      "Backend Software Engineer",
+      "Java Developer",
+      "API Engineer"
+    ],
+    "validated_score": 94.3,
+    "source_company": "Charles Schwab",
+    "source_job_id": "69cfdfd9cfdc6132f9436518",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_generalist_dotnet_enterprise",
+    "label": "Generalist DotNet Enterprise",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_generalist_dotnet_enterprise/resume.md",
+    "role_family": "generalist",
+    "seniority": "entry",
+    "domains": [
+      "generalist",
+      "dotnet",
+      "enterprise",
+      "frontend",
+      "backend"
+    ],
+    "taxonomy_hints": [
+      "Software Engineer",
+      "General Software Engineer",
+      "Full Stack Engineer"
+    ],
+    "validated_score": 93.9,
+    "source_company": "Spok",
+    "source_job_id": "69cfdc7b891d7b11cfcd677c",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_linkedin_mle_foundation",
+    "label": "LinkedIn MLE Foundation",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_linkedin_mle_foundation/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "mid_senior",
+    "domains": [
+      "ml",
+      "backend",
+      "experimentation",
+      "marketplace",
+      "genai"
+    ],
+    "taxonomy_hints": [
+      "Machine Learning Engineer",
+      "Software Engineer",
+      "Machine Learning",
+      "Applied Scientist"
+    ],
+    "validated_score": 94.7,
+    "source_company": "LinkedIn",
+    "source_job_id": "69cef362398fb071abf8b1bb",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_amazon_conversational_ads_backend",
+    "label": "Amazon Conversational Ads Backend",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_conversational_ads_backend/resume.md",
+    "role_family": "generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "generative ai",
+      "adtech",
+      "commerce",
+      "operations",
+      "security",
+      "data"
+    ],
+    "taxonomy_hints": [
+      "Software Engineer",
+      "Backend Software Engineer",
+      "General Software Engineer"
+    ],
+    "validated_score": 95.0,
+    "source_company": "Amazon",
+    "source_job_id": "6996d6d0ce78e77b4fdb0c7f",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_harbourvest_backend_data",
+    "label": "HarbourVest Backend Data",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_harbourvest_backend_data/resume.md",
+    "role_family": "generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "data",
+      "finance",
+      "cloud",
+      "sql",
+      "scala",
+      "security",
+      "operations"
+    ],
+    "taxonomy_hints": [
+      "Software Engineer",
+      "Backend Software Engineer",
+      "General Software Engineer"
+    ],
+    "validated_score": 96.8,
+    "source_company": "HarbourVest Partners",
+    "source_job_id": "69cc8379891d7b11cfcae5f2",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_bytedance_ml_grad/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "mid_senior",
+    "domains": [
+      "ml",
+      "ai",
+      "backend",
+      "genai",
+      "security",
+      "ecommerce"
+    ],
+    "taxonomy_hints": [
+      "Machine Learning Engineer",
+      "Artificial Intelligence Engineer",
+      "Applied Scientist"
+    ],
+    "validated_score": 94.2,
+    "source_company": "ByteDance",
+    "source_job_id": "692777a0d47de4798ecdcf3a",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_microsoft_polyglot_generalist",
+    "label": "Microsoft Polyglot Generalist",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_microsoft_polyglot_generalist/resume.md",
+    "role_family": "generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "analytics",
+      "data",
+      "devops",
+      "frontend",
+      "genai",
+      "growth",
+      "security",
+      "testing"
+    ],
+    "taxonomy_hints": [
+      "Engineering and Development",
+      "Software Engineering",
+      "General Software Engineer"
+    ],
+    "validated_score": 95.2,
+    "source_company": "Microsoft"
+  },
+  {
+    "seed_id": "seed_h2o_ai_engineer",
+    "label": "H2O AI Engineer",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_h2o_ai_engineer/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "senior",
+    "domains": [
+      "ai",
+      "automation",
+      "backend",
+      "cloud",
+      "data",
+      "developer-tools",
+      "devops",
+      "enterprise",
+      "frontend",
+      "genai",
+      "healthcare",
+      "infrastructure",
+      "integration",
+      "internal-tools",
+      "ml-platform",
+      "observability",
+      "platform",
+      "productivity",
+      "risk",
+      "systems",
+      "testing"
+    ],
+    "taxonomy_hints": [
+      "Engineering and Development",
+      "Machine Learning",
+      "Artificial Intelligence Engineer"
+    ],
+    "validated_score": 95.2,
+    "source_company": "H2O.ai"
+  },
+  {
+    "seed_id": "seed_aws_generalist_embedded",
+    "label": "AWS Generalist Embedded",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_aws_generalist_embedded/resume.md",
+    "role_family": "generalist",
+    "seniority": "senior",
+    "domains": [
+      "cloud",
+      "distributed-systems",
+      "frontend",
+      "genai",
+      "infrastructure",
+      "systems",
+      "web"
+    ],
+    "taxonomy_hints": [
+      "Engineering and Development",
+      "Software Engineering",
+      "General Software Engineer"
+    ],
+    "validated_score": 94.6,
+    "source_company": "Amazon Web Services (AWS)"
+  },
+  {
+    "seed_id": "seed_itential_generalist_algorithms",
+    "label": "Itential Generalist Algorithms",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_itential_generalist_algorithms/resume.md",
+    "role_family": "generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "automation",
+      "cloud",
+      "data",
+      "devops",
+      "frontend",
+      "infrastructure",
+      "integration",
+      "platform",
+      "systems",
+      "testing"
+    ],
+    "taxonomy_hints": [
+      "Engineering and Development",
+      "Software Engineering",
+      "General Software Engineer"
+    ],
+    "validated_score": 94.5,
+    "source_company": "Itential"
+  },
+  {
+    "seed_id": "seed_paypal_java_backend",
+    "label": "PayPal Java Backend",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_paypal_java_backend/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "entry",
+    "domains": [
+      "backend",
+      "cloud",
+      "compliance",
+      "data",
+      "developer-tools",
+      "devops",
+      "distributed-systems",
+      "fintech",
+      "frontend",
+      "infrastructure",
+      "internal-tools",
+      "payments",
+      "platform",
+      "productivity",
+      "systems",
+      "web"
+    ],
+    "taxonomy_hints": [
+      "Engineering and Development",
+      "Software Engineering",
+      "Java Developer"
+    ],
+    "validated_score": 96.4,
+    "source_company": "PayPal"
+  },
+  {
+    "seed_id": "seed_google_geo_aiml_anchor",
+    "label": "Google Workspace/Geo AIML Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_google_geo_aiml_anchor/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "entry",
+    "domains": [
+      "ai",
+      "backend",
+      "data",
+      "genai",
+      "infrastructure",
+      "ml-platform",
+      "privacy",
+      "productivity",
+      "testing"
+    ],
+    "taxonomy_hints": [
+      "GenAI Software Engineer",
+      "Software Engineer, AI/ML",
+      "Software Engineer, AI/ML, Geo Data Protection",
+      "Software Engineer"
+    ],
+    "validated_score": 95.9,
+    "source_company": "Google",
+    "source_job_id": "69b2b893ad360c0340a79c07",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_microsoft_coreai_platform_anchor",
+    "label": "Microsoft CoreAI/BIC Platform Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_microsoft_coreai_platform_anchor/resume.md",
+    "role_family": "platform",
+    "seniority": "senior",
+    "domains": [
+      "ai",
+      "cloud",
+      "genai",
+      "infrastructure",
+      "integration",
+      "productivity",
+      "security",
+      "systems",
+      "testing"
+    ],
+    "taxonomy_hints": [
+      "Software Engineer II - BIC Foundations",
+      "Software Engineer II - CoreAI",
+      "Software Engineer"
+    ],
+    "validated_score": 93.8,
+    "source_company": "Microsoft",
+    "source_job_id": "69ce6e5d366bb95ba550b6e8",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_jpmc_data_mlops_anchor",
+    "label": "JPMorganChase Data Platform/MLOps Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_jpmc_data_mlops_anchor/resume.md",
+    "role_family": "data_platform",
+    "seniority": "mid_senior",
+    "domains": [
+      "ai",
+      "aws",
+      "data",
+      "infrastructure",
+      "ml-platform",
+      "security",
+      "testing"
+    ],
+    "taxonomy_hints": [
+      "Data Software Engineer II",
+      "Data Software Engineer III - ML",
+      "Software Engineer",
+      "Data Scientist"
+    ],
+    "validated_score": 94.3,
+    "source_company": "JPMorganChase",
+    "source_job_id": "69d075c9366bb95ba551e7fe",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_amazon_agi_ml_anchor",
+    "label": "Amazon AGI/LLM Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_agi_ml_anchor/resume.md",
+    "role_family": "ai_ml_swe",
+    "seniority": "mid_senior",
+    "domains": [
+      "genai",
+      "ai",
+      "backend",
+      "platform",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "Artificial Intelligence Engineer",
+      "Machine Learning Engineer",
+      "Backend Software Engineer",
+      "Software Development Engineer",
+      "Applied Scientist"
+    ],
+    "validated_score": 93.9,
+    "source_company": "Amazon",
+    "source_job_id": "697d74fd137a0510256697d9",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_fireblocks_sre_anchor",
+    "label": "Fireblocks SRE Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fireblocks_sre_anchor/resume.md",
+    "role_family": "platform",
+    "seniority": "mid_senior",
+    "domains": [
+      "platform",
+      "reliability",
+      "security",
+      "cloud",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "Infrastructure Engineer",
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Security Engineer",
+      "Site Reliability Engineer"
+    ],
+    "validated_score": 94.5,
+    "source_company": "Fireblocks",
+    "source_job_id": "6997741fce78e77b4fdbcb82",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_aws_support_backend_anchor",
+    "label": "AWS Support Backend Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_aws_support_backend_anchor/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "platform",
+      "distributed-systems",
+      "self-service",
+      "automation"
+    ],
+    "taxonomy_hints": [
+      "Backend Software Engineer",
+      "General Software Engineer",
+      "Java Developer",
+      "Cloud Engineer",
+      "Software Development Engineer"
+    ],
+    "validated_score": 97.1,
+    "source_company": "Amazon Web Services (AWS)",
+    "source_job_id": "69d050a3cfdc6132f943a6ce",
+    "company_anchor": true
+  },
+  {
+    "seed_id": "seed_amazon_management_plane_anchor_candidate",
+    "label": "Amazon Management Plane Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_management_plane_anchor_candidate/resume.md",
+    "role_family": "backend_generalist",
+    "seniority": "mid_senior",
+    "domains": [
+      "backend",
+      "platform",
+      "infrastructure",
+      "internal-tools",
+      "distributed-systems",
+      "systems"
+    ],
+    "taxonomy_hints": [
+      "Backend Software Engineer",
+      "General Software Engineer",
+      "Infrastructure Engineer"
+    ],
+    "validated_score": 95.0,
+    "source_company": "Amazon",
+    "source_job_id": "69d00c26cdb525785fba6ae9",
+    "company_anchor": true,
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_supply_eta_service"
+    ]
+  },
+  {
+    "seed_id": "seed_google_cloud_infra_anchor_candidate",
+    "label": "Google Cloud Infra Anchor",
+    "path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_google_cloud_infra_anchor_candidate/resume.md",
+    "role_family": "platform",
+    "seniority": "mid_senior",
+    "domains": [
+      "cloud",
+      "platform",
+      "infrastructure",
+      "distributed-systems",
+      "performance",
+      "networking",
+      "systems",
+      "developer-tools",
+      "internal-tools"
+    ],
+    "taxonomy_hints": [
+      "Infrastructure Engineer",
+      "Site Reliability Engineer",
+      "Backend Software Engineer",
+      "Software Engineer"
+    ],
+    "validated_score": 95.5,
+    "source_company": "Google",
+    "source_job_id": "69d0134b891d7b11cfcd85ea",
+    "company_anchor": true,
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "job_id": "69c6510e1b5ad028873838ba",
+  "company_name": "State Street",
+  "company_slug": "state-street",
+  "publish_time": "2026-04-01 16:05:17",
+  "publish_date": "2026-04-01",
+  "title": "Software Developer, Officer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Developer--Officer_R-786294-1?source=APPLICANT_SOURCE-LINKEDIN",
+  "source_kind": "seed_validation",
+  "route_mode": "retarget",
+  "seed_id": "seed_fullstack_dotnet_azure",
+  "seed_label": "Fullstack DotNet Azure",
+  "parent_seed_id": "seed_fullstack_dotnet_azure",
+  "top_candidate": {
+    "route_score": 0.934
+  },
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-01/69c6510e1b5ad028873838ba",
+  "generated_at": "2026-04-05T14:00:55",
+  "review": {
+    "jd_id": "69c6510e1b5ad028873838ba",
+    "company": "State Street",
+    "title": "Software Developer, Officer",
+    "role_type": "swe_backend",
+    "verdict": "pass",
+    "seed_label": "Fullstack DotNet Azure",
+    "route_mode": "retarget",
+    "final_score": 94.0,
+    "revised": false,
+    "weighted_score": 94.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "补强 State Street 相关的业务语境，把后端经历明确映射到风险、控制、可靠性或受监管流程。",
+      "收窄 DiDi 的 lead 叙述并拆分 TikTok 的高密度技术栈，避免 scope 看起来过满。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.6,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    }
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:48",
+  "repair_changes": [
+    "normalized_go_achievement",
+    "normalized_didi_scope_note"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": []
+}

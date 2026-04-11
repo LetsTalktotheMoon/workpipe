@@ -1,0 +1,144 @@
+{
+  "job_id": "69a65e292c0d8b0f5cd07dbf",
+  "company_name": "Teza Technologies",
+  "company_slug": "teza-technologies",
+  "publish_time": "2026-04-05 07:35:27",
+  "publish_date": "2026-04-05",
+  "title": "Data Engineer",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.ashbyhq.com/teza-technologies/5835dedb-2ac0-4f3b-838e-53e33e0a2dc8?utm_source=LinkedIn",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_jpmc_data_mlops_anchor",
+  "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+  "parent_seed_id": "seed_jpmc_data_mlops_anchor",
+  "top_candidate": {
+    "seed_id": "seed_jpmc_data_mlops_anchor",
+    "label": "JPMorganChase Data Platform/MLOps Anchor",
+    "route_score": 0.904,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [
+      "gcp",
+      "mongodb"
+    ],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "JPMorganChase",
+    "seed_source_job_id": "69d075c9366bb95ba551e7fe"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/teza-technologies/2026-04-05/69a65e292c0d8b0f5cd07dbf/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/teza-technologies/2026-04-05/69a65e292c0d8b0f5cd07dbf/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/teza-technologies/2026-04-05/69a65e292c0d8b0f5cd07dbf",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-05/69a65e292c0d8b0f5cd07dbf",
+  "generated_at": "2026-04-06T21:58:35",
+  "review": {
+    "weighted_score": 95.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.1,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.0,
+    "verdict": "pass",
+    "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+    "route_mode": "retarget",
+    "revised": true,
+    "rewrite_adopted": true,
+    "content_changed": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T23:52:00",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 78.1,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [
+    "jpmc_data_mlops_mainline"
+  ],
+  "subseed_labels": [
+    "JPMC Data Platform / MLOps"
+  ],
+  "primary_subseed_id": "jpmc_data_mlops_mainline",
+  "primary_subseed_label": "JPMC Data Platform / MLOps",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:49",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T23:52:00",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "rewrite_adopted": true,
+  "content_changed": true,
+  "review_final_score": 95.0,
+  "review_verdict": "pass"
+}

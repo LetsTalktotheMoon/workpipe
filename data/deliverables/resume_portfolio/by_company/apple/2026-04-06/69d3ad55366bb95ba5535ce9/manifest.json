@@ -1,0 +1,63 @@
+{
+  "job_id": "69d3ad55366bb95ba5535ce9",
+  "company_name": "Apple",
+  "company_slug": "apple",
+  "publish_time": "2026-04-06 06:46:09",
+  "publish_date": "2026-04-06",
+  "title": "Machine Learning Engineer - On-device Control and Optimization, Core OS",
+  "application_status": "1_Discovered",
+  "apply_link": "https://jobs.apple.com/en-us/details/200655892-3337/machine-learning-engineer-on-device-control-and-optimization-core-os?board_id=JB001&rx_campaign=indeed0&rx_ch=jobp4p&rx_group=122365&rx_id=59ad3920-3182-11f1-89a4-17b8ebc7f983&rx_job=200655892-3337_rxr-662&rx_medium=cpc&rx_r=none&rx_source=indeed&rx_ts=20260406T103813Z&rx_vp=cpc&team=SFTWR&cid=aggregators_re+co_global_indeed_nationwide_organic&board_id=JB001&rx_p=ML81BTNLNO",
+  "source_kind": "fanout_batch",
+  "route_mode": "reuse",
+  "seed_id": "seed_amazon_agi_ml_anchor",
+  "seed_label": "Amazon AGI/LLM Anchor",
+  "parent_seed_id": "seed_amazon_agi_ml_anchor",
+  "top_candidate": {
+    "seed_id": "seed_amazon_agi_ml_anchor",
+    "label": "Amazon AGI/LLM Anchor",
+    "route_score": 0.964,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [
+      "tiktok_security_retrieval_console",
+      "didi_pricing_rules_migration"
+    ],
+    "seed_company_name": "Amazon",
+    "seed_source_job_id": "697d74fd137a0510256697d9"
+  },
+  "project_ids": [
+    "tiktok_security_retrieval_console",
+    "didi_pricing_rules_migration"
+  ],
+  "resume_md": "",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/apple/2026-04-06/69d3ad55366bb95ba5535ce9/job.md",
+  "artifact_dir": "",
+  "by_date_link": "",
+  "generated_at": "2026-04-06T23:06:04",
+  "review": {},
+  "subseed_ids": [
+    "amazon_ai_ads_mainline"
+  ],
+  "subseed_labels": [
+    "Amazon AI / Ads / LLM"
+  ],
+  "primary_subseed_id": "amazon_ai_ads_mainline",
+  "primary_subseed_label": "Amazon AI / Ads / LLM",
+  "primary_subseed_kind": "mainline",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "",
+  "repair_changes": [],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "",
+  "rereviewed_at": "",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "review_final_score": 0.0,
+  "review_verdict": "",
+  "reset_to_reuse_at": "2026-04-09T11:54:15"
+}

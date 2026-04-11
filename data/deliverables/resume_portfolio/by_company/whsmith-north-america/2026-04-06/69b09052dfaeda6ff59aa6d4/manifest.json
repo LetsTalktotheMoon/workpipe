@@ -1,0 +1,131 @@
+{
+  "job_id": "69b09052dfaeda6ff59aa6d4",
+  "company_name": "WHSmith North America",
+  "company_slug": "whsmith-north-america",
+  "publish_time": "2026-04-06 10:38:39",
+  "publish_date": "2026-04-06",
+  "title": "SQL Reporting Analyst",
+  "application_status": "1_Discovered",
+  "apply_link": "https://www.linkedin.com/jobs/view/4382488180",
+  "source_kind": "fanout_batch",
+  "route_mode": "retarget",
+  "seed_id": "seed_bytedance_ml_grad",
+  "seed_label": "ByteDance ML Grad",
+  "parent_seed_id": "seed_bytedance_ml_grad",
+  "top_candidate": {
+    "seed_id": "seed_bytedance_ml_grad",
+    "label": "ByteDance ML Grad",
+    "route_score": 0.884,
+    "same_company": false,
+    "company_anchor": true,
+    "missing_required": [],
+    "project_ids": [],
+    "seed_company_name": "ByteDance",
+    "seed_source_job_id": "692777a0d47de4798ecdcf3a"
+  },
+  "project_ids": [],
+  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/whsmith-north-america/2026-04-06/69b09052dfaeda6ff59aa6d4/resume.md",
+  "resume_pdf": "",
+  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/whsmith-north-america/2026-04-06/69b09052dfaeda6ff59aa6d4/job.md",
+  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/whsmith-north-america/2026-04-06/69b09052dfaeda6ff59aa6d4",
+  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/69b09052dfaeda6ff59aa6d4",
+  "generated_at": "2026-04-07T01:58:21",
+  "review": {
+    "weighted_score": 93.8,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "把 `Skills > Programming` 里的 `Ssms` 统一改成 `SSMS`，避免 JD 核心工具的精确匹配损失。",
+      "把 Summary 第 1 句的叙事顺序改成先突出 `SQL reporting / ETL / SSMS`，再带出 `backend systems` 作为补充背景。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.1,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 93.8,
+    "verdict": "pass",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "retarget",
+    "revised": true,
+    "revision_instructions": "仅做两处局部修改即可：1) 在 `## Skills` 的 `Programming` 行中把 `Ssms` 改为 `SSMS`，并确保全文所有出现保持同一拼写；2) 将 `Professional Summary` 第 1 句重排为先写 `SQL reporting, ETL workflows, and analyst-facing reporting solutions in SSMS`，再写 `backend systems across eCommerce, operations, and security domains`，其余两句不动，仍保持恰好 3 句结构。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T22:04:46",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 68.3,
+    "previous_verdict": "fail"
+  },
+  "subseed_ids": [],
+  "subseed_labels": [],
+  "primary_subseed_id": "",
+  "primary_subseed_label": "",
+  "primary_subseed_kind": "",
+  "is_outlier": false,
+  "outlier_label": "",
+  "outlier_reason": "",
+  "repaired_at": "2026-04-07T16:57:55",
+  "repair_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "repair_issue_codes_before": [],
+  "repair_issue_codes_after": [],
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-07T22:04:46",
+  "rereview_rounds": 1,
+  "rereview_revised": true,
+  "review_final_score": 93.8,
+  "review_verdict": "pass"
+}

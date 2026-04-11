@@ -1,0 +1,4562 @@
+[
+  {
+    "query_id": "6929a9fe4c474121999c9ff6",
+    "candidate_id": "69d818389f97a42dc9c1a4b6",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.2667,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "6929a9fe4c474121999c9ff6",
+    "candidate_id": "69d64084cfdc6132f9469327",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7489,
+    "teacher_requirement_score": 0.9514,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6939,
+      "canonical_overlap": 0.1765,
+      "hierarchy_overlap": 0.75,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.2,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "6929a9fe4c474121999c9ff6",
+    "candidate_id": "69d61c52cfdc6132f9468a50",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7489,
+    "teacher_requirement_score": 0.9514,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6939,
+      "canonical_overlap": 0.25,
+      "hierarchy_overlap": 0.75,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.25,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "6929a9fe4c474121999c9ff6",
+    "candidate_id": "69d00574cfdc6132f9437911",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.7489,
+    "teacher_requirement_score": 0.9514,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6939,
+      "canonical_overlap": 0.2727,
+      "hierarchy_overlap": 0.75,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "6929a9fe4c474121999c9ff6",
+    "candidate_id": "69d064f2891d7b11cfcdb1dd",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.7489,
+    "teacher_requirement_score": 0.9514,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6939,
+      "canonical_overlap": 0.2,
+      "hierarchy_overlap": 0.75,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "6929a9fe4c474121999c9ff6",
+    "candidate_id": "69c5849f1b5ad02887375dd5",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.6776,
+    "teacher_requirement_score": 0.84,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.0,
+      "canonical_overlap": 0.3333,
+      "hierarchy_overlap": 0.5,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "692bb23f4c474121999ce114",
+    "candidate_id": "69d3d602891d7b11cfcf48af",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "692bb23f4c474121999ce114",
+    "candidate_id": "69d3d602891d7b11cfcf48af",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "692bb23f4c474121999ce114",
+    "candidate_id": "69d3d602891d7b11cfcf48af",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d071e6891d7b11cfcdb7b1",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.6256,
+    "teacher_requirement_score": 0.7646,
+    "teacher_hard_requirement_score": 0.9728,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.6487,
+      "background_overlap": 0.771,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.6283,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d603734a12eb12c5e15a9f",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6104,
+    "teacher_requirement_score": 0.7659,
+    "teacher_hard_requirement_score": 0.8582,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7502,
+      "background_overlap": 0.7557,
+      "canonical_overlap": 0.2759,
+      "hierarchy_overlap": 0.7117,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d60df8706f771673ba931b",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.5797,
+    "teacher_requirement_score": 0.7181,
+    "teacher_hard_requirement_score": 0.8582,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.667,
+      "background_overlap": 0.7557,
+      "canonical_overlap": 0.2059,
+      "hierarchy_overlap": 0.6433,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.52,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d64ffb366bb95ba554c1d3",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.5707,
+    "teacher_requirement_score": 0.7147,
+    "teacher_hard_requirement_score": 0.8092,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7137,
+      "background_overlap": 0.771,
+      "canonical_overlap": 0.32,
+      "hierarchy_overlap": 0.6817,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.52,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d3f32c366bb95ba5538f3e",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5625,
+    "teacher_requirement_score": 0.6918,
+    "teacher_hard_requirement_score": 0.8553,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5471,
+      "background_overlap": 0.7557,
+      "canonical_overlap": 0.2222,
+      "hierarchy_overlap": 0.545,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69cefaec891d7b11cfccefe6",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69cefaec891d7b11cfccefe6",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69cee13fcfdc6132f942d5be",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7815,
+    "teacher_requirement_score": 1.0018,
+    "teacher_hard_requirement_score": 1.0023,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.6667,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69d07b90cfdc6132f943be1d",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6222,
+    "teacher_requirement_score": 0.7839,
+    "teacher_hard_requirement_score": 0.8605,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.9248,
+      "preferred_overlap": 0.9027,
+      "background_overlap": 0.6969,
+      "canonical_overlap": 0.4667,
+      "hierarchy_overlap": 0.8084,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69b08184dfaeda6ff59a7b0f",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.5312,
+    "teacher_requirement_score": 0.6692,
+    "teacher_hard_requirement_score": 0.735,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7834,
+      "preferred_overlap": 0.7264,
+      "background_overlap": 0.609,
+      "canonical_overlap": 0.44,
+      "hierarchy_overlap": 0.66,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.3333,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69a88d422580d3183f0091db",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.506,
+    "teacher_requirement_score": 0.6423,
+    "teacher_hard_requirement_score": 0.6782,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.6728,
+      "preferred_overlap": 0.7581,
+      "background_overlap": 0.8924,
+      "canonical_overlap": 0.3871,
+      "hierarchy_overlap": 0.6695,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.25,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69d7eccbb67cec4f9b0993a8",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.4908,
+    "teacher_requirement_score": 0.6148,
+    "teacher_hard_requirement_score": 0.6956,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8149,
+      "preferred_overlap": 0.705,
+      "background_overlap": 0.5069,
+      "canonical_overlap": 0.3548,
+      "hierarchy_overlap": 0.6505,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69cee13fcfdc6132f942d5be",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7815,
+    "teacher_requirement_score": 1.0018,
+    "teacher_hard_requirement_score": 1.0023,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.6667,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69d07b90cfdc6132f943be1d",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6222,
+    "teacher_requirement_score": 0.7839,
+    "teacher_hard_requirement_score": 0.8605,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.9248,
+      "preferred_overlap": 0.9027,
+      "background_overlap": 0.6969,
+      "canonical_overlap": 0.4667,
+      "hierarchy_overlap": 0.8084,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69b08184dfaeda6ff59a7b0f",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.5312,
+    "teacher_requirement_score": 0.6692,
+    "teacher_hard_requirement_score": 0.735,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7834,
+      "preferred_overlap": 0.7264,
+      "background_overlap": 0.609,
+      "canonical_overlap": 0.44,
+      "hierarchy_overlap": 0.66,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.3333,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69a88d422580d3183f0091db",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.506,
+    "teacher_requirement_score": 0.6423,
+    "teacher_hard_requirement_score": 0.6782,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.6728,
+      "preferred_overlap": 0.7581,
+      "background_overlap": 0.8924,
+      "canonical_overlap": 0.3871,
+      "hierarchy_overlap": 0.6695,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.25,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69d7eccbb67cec4f9b0993a8",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.4908,
+    "teacher_requirement_score": 0.6148,
+    "teacher_hard_requirement_score": 0.6956,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8149,
+      "preferred_overlap": 0.705,
+      "background_overlap": 0.5069,
+      "canonical_overlap": 0.3548,
+      "hierarchy_overlap": 0.6505,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69ced753398fb071abf896e5",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69ced753398fb071abf896e5",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69cfe85e366bb95ba55197d9",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.8333,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.6667,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69cc936c366bb95ba54f3134",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69d816cab861c42857c48829",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.777,
+    "teacher_requirement_score": 0.9953,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.25,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69d8181db67cec4f9b09a88e",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.7688,
+    "teacher_requirement_score": 0.9825,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.9335,
+      "canonical_overlap": 0.6,
+      "hierarchy_overlap": 0.9,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.3333,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69b412be3b74eb1e2c811e87",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.7274,
+    "teacher_requirement_score": 0.9308,
+    "teacher_hard_requirement_score": 0.9403,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.9335,
+      "canonical_overlap": 0.5294,
+      "hierarchy_overlap": 0.9,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.6667,
+      "role_score": 1.0,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69d3d602891d7b11cfcf48af",
+    "candidate_id": "692bb23f4c474121999ce114",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69d3e83f891d7b11cfcf5777",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7497,
+    "teacher_requirement_score": 0.9625,
+    "teacher_hard_requirement_score": 0.9553,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69b1ef2e548f140066e809d2",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7411,
+    "teacher_requirement_score": 0.9441,
+    "teacher_hard_requirement_score": 0.9778,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7929,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.8889,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69b4c47b06c1ba00c54643ae",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6925,
+    "teacher_requirement_score": 0.8911,
+    "teacher_hard_requirement_score": 0.8732,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8554,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.4211,
+      "hierarchy_overlap": 0.8889,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.84,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69d69373366bb95ba554d7bb",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6875,
+    "teacher_requirement_score": 0.8778,
+    "teacher_hard_requirement_score": 0.8979,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8941,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.8225,
+      "canonical_overlap": 0.2414,
+      "hierarchy_overlap": 0.7978,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69d7f3ae738f2f099e8996fa",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6865,
+    "teacher_requirement_score": 0.8831,
+    "teacher_hard_requirement_score": 0.8663,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8941,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.28,
+      "hierarchy_overlap": 0.7978,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.5,
+      "role_score": 0.84,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "697c25611136d179eeefdf16",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.737,
+    "teacher_requirement_score": 0.9328,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6325,
+      "canonical_overlap": 0.4706,
+      "hierarchy_overlap": 0.7764,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d64081cfdc6132f946931f",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4922,
+      "canonical_overlap": 0.3889,
+      "hierarchy_overlap": 0.7018,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d24aad54f00230c6d20cdc",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.7,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d8377f738f2f099e89b7e9",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.4118,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69b2caedad360c0340a7bebf",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.6908,
+    "teacher_requirement_score": 0.8606,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.1351,
+      "canonical_overlap": 0.4,
+      "hierarchy_overlap": 0.5455,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d04d77cdb525785fba9701",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.6908,
+    "teacher_requirement_score": 0.8606,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.1351,
+      "canonical_overlap": 0.4615,
+      "hierarchy_overlap": 0.5455,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d7f8e3b861c42857c477f1",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.7203,
+    "teacher_requirement_score": 0.9068,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.5385,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7461,
+    "teacher_requirement_score": 0.9569,
+    "teacher_hard_requirement_score": 0.9547,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.8,
+      "hierarchy_overlap": 0.9518,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d0ff1554f00230c6d17d6a",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7231,
+    "teacher_requirement_score": 0.9244,
+    "teacher_hard_requirement_score": 0.9393,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 0.8472,
+      "canonical_overlap": 0.8235,
+      "hierarchy_overlap": 0.8929,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.7,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d00c26cdb525785fba6ae9",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.5417,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6409348f0c8161d2f71e4",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6762,
+    "teacher_requirement_score": 0.8535,
+    "teacher_hard_requirement_score": 0.9279,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.373,
+      "canonical_overlap": 0.7647,
+      "hierarchy_overlap": 0.7647,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7461,
+    "teacher_requirement_score": 0.9569,
+    "teacher_hard_requirement_score": 0.9547,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.8,
+      "hierarchy_overlap": 0.9518,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d0ff1554f00230c6d17d6a",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7231,
+    "teacher_requirement_score": 0.9244,
+    "teacher_hard_requirement_score": 0.9393,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 0.8472,
+      "canonical_overlap": 0.8235,
+      "hierarchy_overlap": 0.8929,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.7,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d00c26cdb525785fba6ae9",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.5417,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6409348f0c8161d2f71e4",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6762,
+    "teacher_requirement_score": 0.8535,
+    "teacher_hard_requirement_score": 0.9279,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.373,
+      "canonical_overlap": 0.7647,
+      "hierarchy_overlap": 0.7647,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d840c5738f2f099e89b981",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.6744,
+    "teacher_requirement_score": 0.8611,
+    "teacher_hard_requirement_score": 0.8809,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7107,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.6,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69b3676da8ac8e70ff679ea4",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.608,
+    "teacher_requirement_score": 0.7587,
+    "teacher_hard_requirement_score": 0.8749,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5031,
+      "background_overlap": 0.5679,
+      "canonical_overlap": 0.4211,
+      "hierarchy_overlap": 0.6667,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d82527738f2f099e89ae81",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6026,
+    "teacher_requirement_score": 0.76,
+    "teacher_hard_requirement_score": 0.8301,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.36,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.62,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69cd30bc398fb071abf72f55",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.598,
+    "teacher_requirement_score": 0.7511,
+    "teacher_hard_requirement_score": 0.8376,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d6501bcfdc6132f9469623",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5793,
+    "teacher_requirement_score": 0.7172,
+    "teacher_hard_requirement_score": 0.8591,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.3455,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.28,
+      "hierarchy_overlap": 0.6817,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d840c5738f2f099e89b981",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.6744,
+    "teacher_requirement_score": 0.8611,
+    "teacher_hard_requirement_score": 0.8809,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7107,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.6,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69b3676da8ac8e70ff679ea4",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.608,
+    "teacher_requirement_score": 0.7587,
+    "teacher_hard_requirement_score": 0.8749,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5031,
+      "background_overlap": 0.5679,
+      "canonical_overlap": 0.4211,
+      "hierarchy_overlap": 0.6667,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d82527738f2f099e89ae81",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6026,
+    "teacher_requirement_score": 0.76,
+    "teacher_hard_requirement_score": 0.8301,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.36,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.62,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69cd30bc398fb071abf72f55",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.598,
+    "teacher_requirement_score": 0.7511,
+    "teacher_hard_requirement_score": 0.8376,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d6501bcfdc6132f9469623",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5793,
+    "teacher_requirement_score": 0.7172,
+    "teacher_hard_requirement_score": 0.8591,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.3455,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.28,
+      "hierarchy_overlap": 0.6817,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "697b5fcc1423772304eb7c54",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7236,
+    "teacher_requirement_score": 0.9255,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.5385,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7236,
+    "teacher_requirement_score": 0.9255,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.6364,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d8377b9f97a42dc9c1b2ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7236,
+    "teacher_requirement_score": 0.9255,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.5833,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d640d552a5bf5800128035",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.7216,
+    "teacher_requirement_score": 0.9224,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.7778,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d83766f4ea471a51fe4b31",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.7216,
+    "teacher_requirement_score": 0.9224,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.7,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d41bc054f00230c6d2e008",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.7216,
+    "teacher_requirement_score": 0.9224,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.7778,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d7f8e3b861c42857c477f1",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7306,
+    "teacher_requirement_score": 0.9321,
+    "teacher_hard_requirement_score": 0.9575,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.9174,
+      "canonical_overlap": 0.8182,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d64081cfdc6132f946931f",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7168,
+    "teacher_requirement_score": 0.9087,
+    "teacher_hard_requirement_score": 0.9654,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6687,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "697c25611136d179eeefdf16",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6858,
+    "teacher_requirement_score": 0.8687,
+    "teacher_hard_requirement_score": 0.927,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.7513,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d8376a869c7e25d859476f",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6854,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9564,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.418,
+      "canonical_overlap": 0.4737,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6845,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9495,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.4726,
+      "canonical_overlap": 0.75,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d7f8e3b861c42857c477f1",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7306,
+    "teacher_requirement_score": 0.9321,
+    "teacher_hard_requirement_score": 0.9575,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.9174,
+      "canonical_overlap": 0.8182,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d64081cfdc6132f946931f",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7168,
+    "teacher_requirement_score": 0.9087,
+    "teacher_hard_requirement_score": 0.9654,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6687,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "697c25611136d179eeefdf16",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6858,
+    "teacher_requirement_score": 0.8687,
+    "teacher_hard_requirement_score": 0.927,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.7513,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d8376a869c7e25d859476f",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6854,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9564,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.418,
+      "canonical_overlap": 0.4737,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6845,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9495,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.4726,
+      "canonical_overlap": 0.75,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "6996d6d0ce78e77b4fdb0c7f",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.707,
+    "teacher_requirement_score": 0.8948,
+    "teacher_hard_requirement_score": 0.9598,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.6708,
+      "canonical_overlap": 0.5294,
+      "hierarchy_overlap": 0.8462,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6732,
+    "teacher_requirement_score": 0.8519,
+    "teacher_hard_requirement_score": 0.9141,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7723,
+      "background_overlap": 0.7826,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.86,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.55,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69cd30bc398fb071abf72f55",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6655,
+    "teacher_requirement_score": 0.8374,
+    "teacher_hard_requirement_score": 0.9256,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7723,
+      "background_overlap": 0.6708,
+      "canonical_overlap": 0.4091,
+      "hierarchy_overlap": 0.7831,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "697d7d4b3f57a3356967669e",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6497,
+    "teacher_requirement_score": 0.8091,
+    "teacher_hard_requirement_score": 0.9423,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.2658,
+      "canonical_overlap": 0.6923,
+      "hierarchy_overlap": 0.6923,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69d83e9db67cec4f9b09b8c9",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6453,
+    "teacher_requirement_score": 0.825,
+    "teacher_hard_requirement_score": 0.8377,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.7826,
+      "canonical_overlap": 0.3448,
+      "hierarchy_overlap": 0.9231,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69b36777a8ac8e70ff679ed8",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.5985,
+    "teacher_requirement_score": 0.7407,
+    "teacher_hard_requirement_score": 0.8887,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7723,
+      "background_overlap": 0.2658,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.6292,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "6996d6d0ce78e77b4fdb0c7f",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.707,
+    "teacher_requirement_score": 0.8948,
+    "teacher_hard_requirement_score": 0.9598,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.6708,
+      "canonical_overlap": 0.5294,
+      "hierarchy_overlap": 0.8462,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6732,
+    "teacher_requirement_score": 0.8519,
+    "teacher_hard_requirement_score": 0.9141,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7723,
+      "background_overlap": 0.7826,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.86,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.55,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69cd30bc398fb071abf72f55",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6655,
+    "teacher_requirement_score": 0.8374,
+    "teacher_hard_requirement_score": 0.9256,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7723,
+      "background_overlap": 0.6708,
+      "canonical_overlap": 0.4091,
+      "hierarchy_overlap": 0.7831,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "697d7d4b3f57a3356967669e",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6497,
+    "teacher_requirement_score": 0.8091,
+    "teacher_hard_requirement_score": 0.9423,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.2658,
+      "canonical_overlap": 0.6923,
+      "hierarchy_overlap": 0.6923,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69d83e9db67cec4f9b09b8c9",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6453,
+    "teacher_requirement_score": 0.825,
+    "teacher_hard_requirement_score": 0.8377,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.7826,
+      "canonical_overlap": 0.3448,
+      "hierarchy_overlap": 0.9231,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "699d6a6d81476f6176b63dce",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.6973,
+    "teacher_requirement_score": 0.8796,
+    "teacher_hard_requirement_score": 0.9598,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.574,
+      "canonical_overlap": 0.5556,
+      "hierarchy_overlap": 0.7831,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d82537738f2f099e89aec9",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7083,
+    "teacher_requirement_score": 0.913,
+    "teacher_hard_requirement_score": 0.8855,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.8411,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.9167,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80baa869c7e25d85934da",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.661,
+    "teacher_requirement_score": 0.8392,
+    "teacher_hard_requirement_score": 0.885,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.795,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.3462,
+      "hierarchy_overlap": 0.78,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80f27869c7e25d859388e",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6129,
+    "teacher_requirement_score": 0.7853,
+    "teacher_hard_requirement_score": 0.7881,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7088,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.7117,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d8402eb861c42857c498ec",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6027,
+    "teacher_requirement_score": 0.7723,
+    "teacher_hard_requirement_score": 0.7749,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.2424,
+      "hierarchy_overlap": 0.6967,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d46cd7cfdc6132f945a6a2",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5887,
+    "teacher_requirement_score": 0.7616,
+    "teacher_hard_requirement_score": 0.7233,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7371,
+      "preferred_overlap": 0.795,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.6154,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.5,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d82537738f2f099e89aec9",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7083,
+    "teacher_requirement_score": 0.913,
+    "teacher_hard_requirement_score": 0.8855,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.8411,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.9167,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80baa869c7e25d85934da",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.661,
+    "teacher_requirement_score": 0.8392,
+    "teacher_hard_requirement_score": 0.885,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.795,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.3462,
+      "hierarchy_overlap": 0.78,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80f27869c7e25d859388e",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6129,
+    "teacher_requirement_score": 0.7853,
+    "teacher_hard_requirement_score": 0.7881,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7088,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.7117,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d8402eb861c42857c498ec",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6027,
+    "teacher_requirement_score": 0.7723,
+    "teacher_hard_requirement_score": 0.7749,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.2424,
+      "hierarchy_overlap": 0.6967,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d46cd7cfdc6132f945a6a2",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5887,
+    "teacher_requirement_score": 0.7616,
+    "teacher_hard_requirement_score": 0.7233,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7371,
+      "preferred_overlap": 0.795,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.6154,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.5,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d82537738f2f099e89aec9",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7083,
+    "teacher_requirement_score": 0.913,
+    "teacher_hard_requirement_score": 0.8855,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.8411,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.9167,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80baa869c7e25d85934da",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.661,
+    "teacher_requirement_score": 0.8392,
+    "teacher_hard_requirement_score": 0.885,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.795,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.3462,
+      "hierarchy_overlap": 0.78,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80f27869c7e25d859388e",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6129,
+    "teacher_requirement_score": 0.7853,
+    "teacher_hard_requirement_score": 0.7881,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7088,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.7117,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d8402eb861c42857c498ec",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6027,
+    "teacher_requirement_score": 0.7723,
+    "teacher_hard_requirement_score": 0.7749,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.2424,
+      "hierarchy_overlap": 0.6967,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d46cd7cfdc6132f945a6a2",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5887,
+    "teacher_requirement_score": 0.7616,
+    "teacher_hard_requirement_score": 0.7233,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7371,
+      "preferred_overlap": 0.795,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.6154,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.5,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "692bb23f4c474121999ce114",
+    "candidate_id": "69d3d602891d7b11cfcf48af",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "692bb23f4c474121999ce114",
+    "candidate_id": "69d3d602891d7b11cfcf48af",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "692bb23f4c474121999ce114",
+    "candidate_id": "69d3d602891d7b11cfcf48af",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d071e6891d7b11cfcdb7b1",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.6256,
+    "teacher_requirement_score": 0.7646,
+    "teacher_hard_requirement_score": 0.9728,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.6487,
+      "background_overlap": 0.771,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.6283,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d603734a12eb12c5e15a9f",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6104,
+    "teacher_requirement_score": 0.7659,
+    "teacher_hard_requirement_score": 0.8582,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7502,
+      "background_overlap": 0.7557,
+      "canonical_overlap": 0.2759,
+      "hierarchy_overlap": 0.7117,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d60df8706f771673ba931b",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.5797,
+    "teacher_requirement_score": 0.7181,
+    "teacher_hard_requirement_score": 0.8582,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.667,
+      "background_overlap": 0.7557,
+      "canonical_overlap": 0.2059,
+      "hierarchy_overlap": 0.6433,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.52,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d64ffb366bb95ba554c1d3",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.5707,
+    "teacher_requirement_score": 0.7147,
+    "teacher_hard_requirement_score": 0.8092,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7137,
+      "background_overlap": 0.771,
+      "canonical_overlap": 0.32,
+      "hierarchy_overlap": 0.6817,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.52,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69c4e578d5a1016e98dc540d",
+    "candidate_id": "69d3f32c366bb95ba5538f3e",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5625,
+    "teacher_requirement_score": 0.6918,
+    "teacher_hard_requirement_score": 0.8553,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5471,
+      "background_overlap": 0.7557,
+      "canonical_overlap": 0.2222,
+      "hierarchy_overlap": 0.545,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69cefaec891d7b11cfccefe6",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69cefaec891d7b11cfccefe6",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ced753398fb071abf896e5",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69cee13fcfdc6132f942d5be",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7815,
+    "teacher_requirement_score": 1.0018,
+    "teacher_hard_requirement_score": 1.0023,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.6667,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69d07b90cfdc6132f943be1d",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6222,
+    "teacher_requirement_score": 0.7839,
+    "teacher_hard_requirement_score": 0.8605,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.9248,
+      "preferred_overlap": 0.9027,
+      "background_overlap": 0.6969,
+      "canonical_overlap": 0.4667,
+      "hierarchy_overlap": 0.8084,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69b08184dfaeda6ff59a7b0f",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.5312,
+    "teacher_requirement_score": 0.6692,
+    "teacher_hard_requirement_score": 0.735,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7834,
+      "preferred_overlap": 0.7264,
+      "background_overlap": 0.609,
+      "canonical_overlap": 0.44,
+      "hierarchy_overlap": 0.66,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.3333,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69a88d422580d3183f0091db",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.506,
+    "teacher_requirement_score": 0.6423,
+    "teacher_hard_requirement_score": 0.6782,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.6728,
+      "preferred_overlap": 0.7581,
+      "background_overlap": 0.8924,
+      "canonical_overlap": 0.3871,
+      "hierarchy_overlap": 0.6695,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.25,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69ceeae0398fb071abf8aac5",
+    "candidate_id": "69d7eccbb67cec4f9b0993a8",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.4908,
+    "teacher_requirement_score": 0.6148,
+    "teacher_hard_requirement_score": 0.6956,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8149,
+      "preferred_overlap": 0.705,
+      "background_overlap": 0.5069,
+      "canonical_overlap": 0.3548,
+      "hierarchy_overlap": 0.6505,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69ced753398fb071abf896e5",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69ced753398fb071abf896e5",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7817,
+    "teacher_requirement_score": 1.0014,
+    "teacher_hard_requirement_score": 1.0056,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.55,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7141,
+    "teacher_requirement_score": 0.909,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.807,
+      "canonical_overlap": 0.6111,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640cde63cea7a8b6682f4",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.625,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cefaec891d7b11cfccefe6",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6996,
+    "teacher_requirement_score": 0.8864,
+    "teacher_hard_requirement_score": 0.9449,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.861,
+      "background_overlap": 0.6082,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69cfe85e366bb95ba55197d9",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.8333,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.6667,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69cc936c366bb95ba54f3134",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69d816cab861c42857c48829",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.777,
+    "teacher_requirement_score": 0.9953,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.5263,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.25,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69d8181db67cec4f9b09a88e",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.7688,
+    "teacher_requirement_score": 0.9825,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.9335,
+      "canonical_overlap": 0.6,
+      "hierarchy_overlap": 0.9,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.3333,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69cff888cfdc6132f9437438",
+    "candidate_id": "69b412be3b74eb1e2c811e87",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.7274,
+    "teacher_requirement_score": 0.9308,
+    "teacher_hard_requirement_score": 0.9403,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.9335,
+      "canonical_overlap": 0.5294,
+      "hierarchy_overlap": 0.9,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.6667,
+      "role_score": 1.0,
+      "seniority_score": 0.45
+    }
+  },
+  {
+    "query_id": "69d3d602891d7b11cfcf48af",
+    "candidate_id": "692bb23f4c474121999ce114",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.78,
+    "teacher_requirement_score": 1.0,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.0,
+      "preferred_overlap": 0.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69d3e83f891d7b11cfcf5777",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7497,
+    "teacher_requirement_score": 0.9625,
+    "teacher_hard_requirement_score": 0.9553,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 1.0,
+      "hierarchy_overlap": 1.0,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69b1ef2e548f140066e809d2",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7411,
+    "teacher_requirement_score": 0.9441,
+    "teacher_hard_requirement_score": 0.9778,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7929,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.8889,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69b4c47b06c1ba00c54643ae",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6925,
+    "teacher_requirement_score": 0.8911,
+    "teacher_hard_requirement_score": 0.8732,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8554,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.4211,
+      "hierarchy_overlap": 0.8889,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.84,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69d69373366bb95ba554d7bb",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6875,
+    "teacher_requirement_score": 0.8778,
+    "teacher_hard_requirement_score": 0.8979,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8941,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.8225,
+      "canonical_overlap": 0.2414,
+      "hierarchy_overlap": 0.7978,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.2,
+      "seniority_score": 0.65
+    }
+  },
+  {
+    "query_id": "69d408c5891d7b11cfcf6bc6",
+    "candidate_id": "69d7f3ae738f2f099e8996fa",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6865,
+    "teacher_requirement_score": 0.8831,
+    "teacher_hard_requirement_score": 0.8663,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.8941,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.28,
+      "hierarchy_overlap": 0.7978,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.5,
+      "role_score": 0.84,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "697c25611136d179eeefdf16",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.737,
+    "teacher_requirement_score": 0.9328,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6325,
+      "canonical_overlap": 0.4706,
+      "hierarchy_overlap": 0.7764,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d64081cfdc6132f946931f",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4922,
+      "canonical_overlap": 0.3889,
+      "hierarchy_overlap": 0.7018,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d24aad54f00230c6d20cdc",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.7,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d8377f738f2f099e89b7e9",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.7235,
+    "teacher_requirement_score": 0.9117,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.4118,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83768869c7e25d859475c",
+    "candidate_id": "69d7f8e3b861c42857c477f1",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.7203,
+    "teacher_requirement_score": 0.9068,
+    "teacher_hard_requirement_score": 1.0,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.4614,
+      "canonical_overlap": 0.5385,
+      "hierarchy_overlap": 0.6855,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7461,
+    "teacher_requirement_score": 0.9569,
+    "teacher_hard_requirement_score": 0.9547,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.8,
+      "hierarchy_overlap": 0.9518,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d0ff1554f00230c6d17d6a",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7231,
+    "teacher_requirement_score": 0.9244,
+    "teacher_hard_requirement_score": 0.9393,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 0.8472,
+      "canonical_overlap": 0.8235,
+      "hierarchy_overlap": 0.8929,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.7,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d00c26cdb525785fba6ae9",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.5417,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6409348f0c8161d2f71e4",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6762,
+    "teacher_requirement_score": 0.8535,
+    "teacher_hard_requirement_score": 0.9279,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.373,
+      "canonical_overlap": 0.7647,
+      "hierarchy_overlap": 0.7647,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6468852a5bf58001280a7",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7461,
+    "teacher_requirement_score": 0.9569,
+    "teacher_hard_requirement_score": 0.9547,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.8,
+      "hierarchy_overlap": 0.9518,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d0ff1554f00230c6d17d6a",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7231,
+    "teacher_requirement_score": 0.9244,
+    "teacher_hard_requirement_score": 0.9393,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.9072,
+      "background_overlap": 0.8472,
+      "canonical_overlap": 0.8235,
+      "hierarchy_overlap": 0.8929,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d050a3cfdc6132f943a6ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.7,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d00c26cdb525785fba6ae9",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6796,
+    "teacher_requirement_score": 0.8617,
+    "teacher_hard_requirement_score": 0.915,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.5258,
+      "canonical_overlap": 0.5417,
+      "hierarchy_overlap": 0.8235,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8376a869c7e25d859476f",
+    "candidate_id": "69d6409348f0c8161d2f71e4",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6762,
+    "teacher_requirement_score": 0.8535,
+    "teacher_hard_requirement_score": 0.9279,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7771,
+      "background_overlap": 0.373,
+      "canonical_overlap": 0.7647,
+      "hierarchy_overlap": 0.7647,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d840c5738f2f099e89b981",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.6744,
+    "teacher_requirement_score": 0.8611,
+    "teacher_hard_requirement_score": 0.8809,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7107,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.6,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69b3676da8ac8e70ff679ea4",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.608,
+    "teacher_requirement_score": 0.7587,
+    "teacher_hard_requirement_score": 0.8749,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5031,
+      "background_overlap": 0.5679,
+      "canonical_overlap": 0.4211,
+      "hierarchy_overlap": 0.6667,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d82527738f2f099e89ae81",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6026,
+    "teacher_requirement_score": 0.76,
+    "teacher_hard_requirement_score": 0.8301,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.36,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.62,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69cd30bc398fb071abf72f55",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.598,
+    "teacher_requirement_score": 0.7511,
+    "teacher_hard_requirement_score": 0.8376,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d6501bcfdc6132f9469623",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5793,
+    "teacher_requirement_score": 0.7172,
+    "teacher_hard_requirement_score": 0.8591,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.3455,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.28,
+      "hierarchy_overlap": 0.6817,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d840c5738f2f099e89b981",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.6744,
+    "teacher_requirement_score": 0.8611,
+    "teacher_hard_requirement_score": 0.8809,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7107,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.6,
+      "hierarchy_overlap": 0.8333,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69b3676da8ac8e70ff679ea4",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.608,
+    "teacher_requirement_score": 0.7587,
+    "teacher_hard_requirement_score": 0.8749,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5031,
+      "background_overlap": 0.5679,
+      "canonical_overlap": 0.4211,
+      "hierarchy_overlap": 0.6667,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d82527738f2f099e89ae81",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6026,
+    "teacher_requirement_score": 0.76,
+    "teacher_hard_requirement_score": 0.8301,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.36,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.62,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69cd30bc398fb071abf72f55",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.598,
+    "teacher_requirement_score": 0.7511,
+    "teacher_hard_requirement_score": 0.8376,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.5405,
+      "background_overlap": 0.7243,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83771738f2f099e89b783",
+    "candidate_id": "69d6501bcfdc6132f9469623",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5793,
+    "teacher_requirement_score": 0.7172,
+    "teacher_hard_requirement_score": 0.8591,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.3455,
+      "background_overlap": 0.7407,
+      "canonical_overlap": 0.28,
+      "hierarchy_overlap": 0.6817,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "697b5fcc1423772304eb7c54",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7236,
+    "teacher_requirement_score": 0.9255,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.5385,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7236,
+    "teacher_requirement_score": 0.9255,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.6364,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d8377b9f97a42dc9c1b2ce",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.7236,
+    "teacher_requirement_score": 0.9255,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.5833,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d640d552a5bf5800128035",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.7216,
+    "teacher_requirement_score": 0.9224,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.7778,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d83766f4ea471a51fe4b31",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.7216,
+    "teacher_requirement_score": 0.9224,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.7,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d83774869c7e25d859479c",
+    "candidate_id": "69d41bc054f00230c6d2e008",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.7216,
+    "teacher_requirement_score": 0.9224,
+    "teacher_hard_requirement_score": 0.9379,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8348,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.7778,
+      "hierarchy_overlap": 0.875,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d7f8e3b861c42857c477f1",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7306,
+    "teacher_requirement_score": 0.9321,
+    "teacher_hard_requirement_score": 0.9575,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.9174,
+      "canonical_overlap": 0.8182,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d64081cfdc6132f946931f",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7168,
+    "teacher_requirement_score": 0.9087,
+    "teacher_hard_requirement_score": 0.9654,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6687,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "697c25611136d179eeefdf16",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6858,
+    "teacher_requirement_score": 0.8687,
+    "teacher_hard_requirement_score": 0.927,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.7513,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d8376a869c7e25d859476f",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6854,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9564,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.418,
+      "canonical_overlap": 0.4737,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6845,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9495,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.4726,
+      "canonical_overlap": 0.75,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d7f8e3b861c42857c477f1",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7306,
+    "teacher_requirement_score": 0.9321,
+    "teacher_hard_requirement_score": 0.9575,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.9174,
+      "canonical_overlap": 0.8182,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d64081cfdc6132f946931f",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.7168,
+    "teacher_requirement_score": 0.9087,
+    "teacher_hard_requirement_score": 0.9654,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.6687,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.0,
+      "domain_overlap": 1.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "697c25611136d179eeefdf16",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6858,
+    "teacher_requirement_score": 0.8687,
+    "teacher_hard_requirement_score": 0.927,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.7513,
+      "canonical_overlap": 0.5625,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.5,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69d8376a869c7e25d859476f",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6854,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9564,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.418,
+      "canonical_overlap": 0.4737,
+      "hierarchy_overlap": 0.8182,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8377b9f97a42dc9c1b2ce",
+    "candidate_id": "69ce5e07891d7b11cfcc8020",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6845,
+    "teacher_requirement_score": 0.8618,
+    "teacher_hard_requirement_score": 0.9495,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8763,
+      "background_overlap": 0.4726,
+      "canonical_overlap": 0.75,
+      "hierarchy_overlap": 0.8345,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.88,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "6996d6d0ce78e77b4fdb0c7f",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.707,
+    "teacher_requirement_score": 0.8948,
+    "teacher_hard_requirement_score": 0.9598,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.6708,
+      "canonical_overlap": 0.5294,
+      "hierarchy_overlap": 0.8462,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69d640de52a5bf5800128045",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.6732,
+    "teacher_requirement_score": 0.8519,
+    "teacher_hard_requirement_score": 0.9141,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7723,
+      "background_overlap": 0.7826,
+      "canonical_overlap": 0.5,
+      "hierarchy_overlap": 0.86,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.55,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69cd30bc398fb071abf72f55",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6655,
+    "teacher_requirement_score": 0.8374,
+    "teacher_hard_requirement_score": 0.9256,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.7723,
+      "background_overlap": 0.6708,
+      "canonical_overlap": 0.4091,
+      "hierarchy_overlap": 0.7831,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "697d7d4b3f57a3356967669e",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6497,
+    "teacher_requirement_score": 0.8091,
+    "teacher_hard_requirement_score": 0.9423,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.2658,
+      "canonical_overlap": 0.6923,
+      "hierarchy_overlap": 0.6923,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "69d83e9db67cec4f9b09b8c9",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.6453,
+    "teacher_requirement_score": 0.825,
+    "teacher_hard_requirement_score": 0.8377,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.7826,
+      "canonical_overlap": 0.3448,
+      "hierarchy_overlap": 0.9231,
+      "logic_overlap": 0.0,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d8377f738f2f099e89b7e9",
+    "candidate_id": "699d6a6d81476f6176b63dce",
+    "teacher_rank": 6,
+    "teacher_total_score": 0.6973,
+    "teacher_requirement_score": 0.8796,
+    "teacher_hard_requirement_score": 0.9598,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.8785,
+      "background_overlap": 0.574,
+      "canonical_overlap": 0.5556,
+      "hierarchy_overlap": 0.7831,
+      "logic_overlap": 1.0,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d82537738f2f099e89aec9",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7083,
+    "teacher_requirement_score": 0.913,
+    "teacher_hard_requirement_score": 0.8855,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.8411,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.9167,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80baa869c7e25d85934da",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.661,
+    "teacher_requirement_score": 0.8392,
+    "teacher_hard_requirement_score": 0.885,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.795,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.3462,
+      "hierarchy_overlap": 0.78,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80f27869c7e25d859388e",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6129,
+    "teacher_requirement_score": 0.7853,
+    "teacher_hard_requirement_score": 0.7881,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7088,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.7117,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d8402eb861c42857c498ec",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6027,
+    "teacher_requirement_score": 0.7723,
+    "teacher_hard_requirement_score": 0.7749,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.2424,
+      "hierarchy_overlap": 0.6967,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d46cd7cfdc6132f945a6a2",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5887,
+    "teacher_requirement_score": 0.7616,
+    "teacher_hard_requirement_score": 0.7233,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7371,
+      "preferred_overlap": 0.795,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.6154,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.5,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d82537738f2f099e89aec9",
+    "teacher_rank": 1,
+    "teacher_total_score": 0.7083,
+    "teacher_requirement_score": 0.913,
+    "teacher_hard_requirement_score": 0.8855,
+    "label": "positive",
+    "student_features": {
+      "must_overlap": 0.8411,
+      "preferred_overlap": 1.0,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.9167,
+      "hierarchy_overlap": 0.9167,
+      "logic_overlap": 1.0,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80baa869c7e25d85934da",
+    "teacher_rank": 2,
+    "teacher_total_score": 0.661,
+    "teacher_requirement_score": 0.8392,
+    "teacher_hard_requirement_score": 0.885,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 1.0,
+      "preferred_overlap": 0.795,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.3462,
+      "hierarchy_overlap": 0.78,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 0.2,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d80f27869c7e25d859388e",
+    "teacher_rank": 3,
+    "teacher_total_score": 0.6129,
+    "teacher_requirement_score": 0.7853,
+    "teacher_hard_requirement_score": 0.7881,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7088,
+      "canonical_overlap": 0.3636,
+      "hierarchy_overlap": 0.7117,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 1.0
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d8402eb861c42857c498ec",
+    "teacher_rank": 4,
+    "teacher_total_score": 0.6027,
+    "teacher_requirement_score": 0.7723,
+    "teacher_hard_requirement_score": 0.7749,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7635,
+      "preferred_overlap": 1.0,
+      "background_overlap": 0.7142,
+      "canonical_overlap": 0.2424,
+      "hierarchy_overlap": 0.6967,
+      "logic_overlap": 0.5,
+      "domain_overlap": 0.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  },
+  {
+    "query_id": "69d84493738f2f099e89ba98",
+    "candidate_id": "69d46cd7cfdc6132f945a6a2",
+    "teacher_rank": 5,
+    "teacher_total_score": 0.5887,
+    "teacher_requirement_score": 0.7616,
+    "teacher_hard_requirement_score": 0.7233,
+    "label": "teacher_topk",
+    "student_features": {
+      "must_overlap": 0.7371,
+      "preferred_overlap": 0.795,
+      "background_overlap": 1.0,
+      "canonical_overlap": 0.6154,
+      "hierarchy_overlap": 0.765,
+      "logic_overlap": 0.5,
+      "domain_overlap": 1.0,
+      "role_score": 1.0,
+      "seniority_score": 0.82
+    }
+  }
+]

@@ -1,12 +1,13 @@
 # Match Pipe Prompt Review
 
-这份文档只服务 `match_pipe`。
+这份文档只服务 `match_pipe`，并且从现在开始把它当成唯一人工审阅入口。
 
 目标：
 - 让你用“改自然语言段落”的方式审稿
 - 每段都能映射回正确代码位置
 - 优先展开 `match_pipe` 真正会吃到的 prompt
 - 不再用抽象块号隐藏正文
+- 你之后只改这一份，我负责映射回所有正确代码位置
 
 怎么提修改：
 - “改 `MP-03` 第 2 段”
@@ -19,16 +20,20 @@
 
 ## Scope
 
-`match_pipe` 当前实际会吃到的 prompt，分成四类：
+`match_pipe` 当前实际会吃到的 prompt，分成六类：
+- 上游共享 candidate context / format constraints
 - 上游共享 Writer prompt
 - 上游共享 Reviewer prompt
+- 上游共享 retarget / upgrade prompt
 - `match_pipe` 自己的 Planner prompt
 - `match_pipe` 自己追加的 overlay prompt
 
 其中：
 - `build_master_writer_prompt()` 是 `match_pipe` 的上游 Writer user prompt
+- `build_candidate_context()` 和 `_format_constraints_for_company()` 会被拼进 `build_master_writer_prompt()`
 - `MASTER_WRITER_SYSTEM` 是 `match_pipe` 的上游 Writer system prompt
 - `build_unified_review_prompt()` / `UNIFIED_REVIEWER_SYSTEM` 是 `match_pipe` 的上游 Reviewer prompt
+- `build_seed_retarget_prompt()` / `build_upgrade_revision_prompt()` 会被 `downstream_validation_runner.py` 直接复用
 - `PLANNER_SYSTEM` / `_planner_prompt()` / `_writer_prompt_from_planner()` / `_writer_revision_prompt()` 是 `match_pipe` 自己的 prompt
 - `Dual-channel continuity note` 是 `match_pipe` 自己的 downstream overlay
 
@@ -106,6 +111,46 @@ OR 组：满足其一即可。
 
 ---
 
+## MP-02A Candidate Context Template
+
+角色：
+- Writer
+
+代码位置：
+- [runtime/core/prompt_builder.py:326](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:326)
+
+说明：
+- 这是 `build_master_writer_prompt()` 的前置大块
+- 它按目标公司动态展开，但自然语言结构是固定的
+
+正文模板：
+
+第 1 段  
+标题固定为：`## 候选人经历框架（⚡=不可变字段，其余可由 Writer 决定）`
+
+第 2 段  
+对每段经历，都会列出：公司、部门、职称、时间、地点、时长、级别。
+
+第 3 段  
+对每段经历，都会列出：禁用动词、允许动词、scope 上限。
+
+第 4 段  
+如果该经历存在 leadership 设定，会额外列出：团队规模、跨职能构成、全球汇报、决策传导。
+
+第 5 段  
+对每段经历，都会列出自然技术栈分层：core、extended、stretch。
+
+第 6 段  
+教育经历模板会列出：学位、学校、时间，以及“保留当/可省略当”的条件。
+
+第 7 段  
+最后会列出成就模块，要求围棋成就融入 Summary 第 3 句。
+
+第 8 段  
+如果目标公司是 ByteDance，还会额外插入：不得写入 TikTok / ByteDance intern，只能使用 DiDi、Temu、Georgia Tech CS coursework/projects 作为证据池。
+
+---
+
 ## MP-03 Shared Format Constraints
 
 角色：
@@ -175,6 +220,36 @@ SKILLS 中每个技术栈必须在至少一条经历 bullet 或项目 bullet 中
 
 第 18 段  
 Achievements section 必须固定格式，且 header 必须是 `## Achievements`。
+
+---
+
+## MP-03A Output Contract
+
+角色：
+- Writer
+- Revision Writer
+- Upgrade Writer
+
+代码位置：
+- [runtime/core/prompt_builder.py:106](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:106)
+- [runtime/core/prompt_builder.py:152](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:152)
+
+正文：
+
+第 1 段  
+输出格式固定包含：Professional Summary、Skills、Experience、Education、Achievements。
+
+第 2 段  
+Header 拼写必须完全一致：`## Experience` 不能写成 `## Professional Experience`，`## Skills` 不能写成 `## Technical Skills`，`## Achievements` 不能写成别的变体。
+
+第 3 段  
+项目必须挂在对应经历下，不单独成 section。
+
+第 4 段  
+只输出简历正文，不要解释、注释、分析。
+
+第 5 段  
+修稿类 prompt 的统一收口句是：直接输出修改后的完整简历 Markdown，不要附带解释。
 
 ---
 
@@ -252,6 +327,184 @@ Achievements section 必须固定格式，且 header 必须是 `## Achievements`
 - 第 1-5 段的 framing
 - rubric 中你最关心的那一维
 - 最后的 JSON 输出约束
+
+---
+
+## MP-05A Reviewer Rubric
+
+角色：
+- Reviewer
+
+代码位置：
+- [runtime/core/prompt_builder.py:620](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:620)
+
+正文：
+
+第 1 段  
+`R0 真实性审查`：检查不可变字段、TikTok/ByteDance 特例、中文字符、SKILLS ↔ 正文一致性、Summary 与正文一致性，以及 DiDi senior scope 是否被误判。
+
+第 2 段  
+`R1 撰写规范审查`：检查 Summary 句数和 header、围棋句位置、经历和项目 bullet 数、XYZ 格式、加粗规则、SKILLS 行密度、project baseline、Achievements section。
+
+第 3 段  
+`R2 JD 适配审查`：检查 must-have 技术是否都进入 SKILLS，且是否在正文有实质使用；必须优先建议补正文证据，而不是删除技术；允许通过领域桥接语言满足陌生行业适配。
+
+第 4 段  
+`R3 炫技审查`：检查 ownership 和动词强度是否超出经历可解释范围；TikTok intern 是否过度 senior；Temu junior 是否越级；stretch 技术是否被合理限定。
+
+第 5 段  
+`R4 合理性审查`：检查转行故事、项目合理性、量化数字可信度、跨职能 scope 是否完成自证、Summary 是否先给出高价值信号，以及陌生行业桥接是否成立。
+
+第 6 段  
+`R5 逻辑审查`：检查经历倒序、SKILLS 分类逻辑、标题信息量、技术分布是否差异化、经历内 bullet 是否连贯、Summary 是否准确归纳。
+
+第 7 段  
+`R6 竞争力审查`：检查量化数据区分度、项目亮点、Summary 的转岗叙事竞争力。
+
+第 8 段  
+输出格式必须是严格 JSON，包含各维度 score、weight、verdict、findings，以及 weighted_score、overall_verdict、critical_count、high_count、needs_revision、revision_priority、revision_instructions。
+
+第 9 段  
+评分校准要求：如果 0 critical 且 0 high，并且 JD 必需技术完整覆盖、转岗叙事自洽，综合分应优先落在 93+，除非存在会显著影响 HR 信任的中等级结构问题。
+
+---
+
+## MP-05B Reviewer Scope Notes
+
+角色：
+- Reviewer
+
+代码位置：
+- [runtime/core/prompt_builder.py:61](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:61)
+- [runtime/core/prompt_builder.py:69](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:69)
+- [runtime/core/prompt_builder.py:81](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:81)
+
+正文：
+
+第 1 段  
+`compact` 审查模式：只保留 Summary、Skills、关键 experiences、DiDi scope、以及最相关 bullets/projects；除非 excerpt 已暴露系统性问题，否则不要因为没展示某段就臆测扣分。
+
+第 2 段  
+`rewrite` 审查模式：职责不是给保守补丁单，而是判断怎样跨过 pass 线；可以建议重写 Summary、Skills、最相关 experiences、project baseline、bullet 取舍与叙事顺序。
+
+第 3 段  
+ByteDance 特例：ByteDance 目标岗位中，TikTok / ByteDance intern 必须完全不存在；若仍出现，视为 critical。
+
+---
+
+## MP-05C Strict Revision Prompt
+
+角色：
+- Revision Writer
+
+代码位置：
+- [runtime/core/prompt_builder.py:789](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:789)
+
+说明：
+- `match_pipe` 目前主流程里更常用 upgrade revision，但 strict revision 仍属于同一族共享 prompt
+
+正文：
+
+第 1 段  
+按审查结果对简历进行精准修改。
+
+第 2 段  
+如果提供了原始技术分配 PLAN，revision 必须遵守它，不得引入计划外技术。
+
+第 3 段  
+列出当前评分、最优先修改事项、所有 critical/high 问题、详细修改指令。
+
+第 4 段  
+修改原则：只修改指出的问题；补技术时优先去 PLAN 已规划的经历；修复 SKILLS ↔ 正文不一致时优先调整正文；对 must-have 技术绝不允许通过删除过关；所有不可变字段不变；输出仍需满足全部格式硬约束。
+
+---
+
+## MP-05D Retarget Prompt
+
+角色：
+- Retarget Writer
+- Downstream dual-channel Writer
+
+代码位置：
+- [runtime/core/prompt_builder.py:878](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:878)
+
+正文：
+
+第 1 段  
+你正在基于一份已经通过高标准审查的 seed resume，为新的 JD 生成派生简历。
+
+第 2 段  
+目标是在保留 seed 叙事骨架、结构质量和可信 scope 的前提下尽可能少改动，让简历对齐目标 JD。
+
+第 3 段  
+会显示当前命中的 seed、路由模式、目标岗位。
+
+第 4 段  
+Retarget 原则：这是在现有 seed 上微调，不是从零重写；控制总改动预算；优先保留成熟的 summary phrasing、经历骨架、项目结构和量化风格；先改 Summary、Skills、最相关经历与对应项目。
+
+第 5 段  
+所有不可变字段必须完全不变；经历顺序必须保持；JD 必需技术必须写到正文里有真实使用出处；不要为了补技术夸大 scope。
+
+第 6 段  
+`reuse` 默认轻改，`retarget` 可做中等幅度改动，但仍不得改写候选人的核心职业叙事。
+
+第 7 段  
+如果目标 JD 带有行业语境，优先通过 summary 和项目业务 framing 对齐，而不是凭空新增不可信 ownership。
+
+第 8 段  
+如果进入同公司一致性模式，优先复用现有 team/domain/project 骨架，把变化理解为“同项目换一种表述”，而不是“换了一套完全不同的工作内容”。
+
+第 9 段  
+保留合法的 DiDi senior scope，不要机械压缩成 generic collaboration phrasing。
+
+第 10 段  
+如果目标 JD 属于自动驾驶、physical AI、robotics、spatial-sensor systems 等陌生行业，优先在 Summary 或项目 baseline 中写 transferable infrastructure / pipeline / reliability patterns，不要假装已有 perception、planning、simulation 或 robotics 本体 ownership。
+
+第 11 段  
+后面会给出目标 JD 关键信息、同公司模式块、project pool block、seed 简历，以及统一输出结构合同。
+
+---
+
+## MP-05E Upgrade Revision Prompt
+
+角色：
+- Upgrade Revision Writer
+- `match_pipe` reviewer 后续重写
+
+代码位置：
+- [runtime/core/prompt_builder.py:973](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:973)
+
+正文：
+
+第 1 段  
+请把下面这份历史简历做一次面向目标 JD 的升级式重写，而不是仅做字面修补。
+
+第 2 段  
+会显示目标岗位、当前评分、历史来源。
+
+第 3 段  
+升级目标：提高 JD 匹配度、summary 信号密度、scope 叙事完整度和整体逻辑自洽；修复 reviewer 指出的所有问题；如果当前版本对 senior 价值表达偏弱，可以重写 summary、Skills、DiDi bullets、项目 framing；允许中等幅度重写，但不得破坏不可变字段和职业故事主线。
+
+第 4 段  
+会列出最优先修改事项、审查发现、必须技术，以及历史 PLAN / 技术分配参考。
+
+第 5 段  
+关键升级规则：Summary 必须重新评估；DiDi senior operating scope 如确有帮助可提炼进 summary；陌生行业优先补一条领域桥接句；scope note 和那条全球经营评审 bullet 只有在确实提高匹配度时才使用。
+
+第 6 段  
+Skills 既要满足格式硬约束，也要确保没有遗漏正文/JD 关键技术；不要靠暴力删减过关。
+
+第 7 段  
+对 must-have 技术，只能补正文证据、扩写项目或重写相关 bullet，不能删除。
+
+第 8 段  
+围棋 Summary 句必须是高价值认知信号，不要写成 collaboration/teamwork 论据。
+
+第 9 段  
+保留所有不可变字段完全不变；经历顺序保持；输出仍然满足全部格式硬约束。
+
+第 10 段  
+如果 seed phrasing、旧 Summary、旧 bullet 选择本身就是失分原因，可以直接替换；rewrite 的目标是通过，而不是尽量少改。
 
 ---
 

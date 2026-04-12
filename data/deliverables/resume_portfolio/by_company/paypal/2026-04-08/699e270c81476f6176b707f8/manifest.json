@@ -33,7 +33,7 @@
   },
   "project_ids": [],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e270c81476f6176b707f8/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e270c81476f6176b707f8/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e270c81476f6176b707f8/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e270c81476f6176b707f8",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/699e270c81476f6176b707f8",
@@ -103,6 +103,5 @@
   "primary_subseed_kind": "",
   "is_outlier": false,
   "outlier_label": "",
-  "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:07:53"
+  "outlier_reason": ""
 }

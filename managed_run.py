@@ -562,7 +562,15 @@ def _preset_date_bounds_map() -> dict[str, dict[str, str]]:
             dates_by_preset["resume_backlog"].add(value)
         if str(record.get("source_kind", "") or "") != "local_unified_pipeline" and str(record.get("resume_md", "") or "").strip():
             dates_by_preset["legacy_rereview"].add(value)
-        if _portfolio_manifest_status(record) == "pass" and not str(record.get("resume_pdf", "") or "").strip():
+        artifact_dir = str(record.get("artifact_dir", "") or "").strip()
+        manifest_path = (
+            Path(artifact_dir).expanduser() / "manifest.json"
+            if artifact_dir
+            else ROOT / "data" / "deliverables" / "resume_portfolio" / "by_company" / str(
+                record.get("company_slug", "") or ""
+            ) / value / str(record.get("job_id", "") or "") / "manifest.json"
+        )
+        if _portfolio_manifest_status(record) == "pass" and not _resume_pdf_exists(manifest_path, record):
             dates_by_preset["pdf_pass_backfill"].add(value)
 
     result: dict[str, dict[str, str]] = {}
@@ -615,8 +623,8 @@ def build_command_presets() -> list[dict[str, Any]]:
         },
         {
             "id": "pdf_pass_backfill",
-            "title": "PDF Backfill Passed",
-            "description": "扫描 pass 且缺 PDF 的简历，按优先级补齐。",
+            "title": "PDF Rebuild Missing",
+            "description": "扫描 pass 且 PDF 文件缺失的简历，按当前统一编译链重建。",
             "supports_filters": True,
             "date_bounds": date_bounds["pdf_pass_backfill"],
             "command": [

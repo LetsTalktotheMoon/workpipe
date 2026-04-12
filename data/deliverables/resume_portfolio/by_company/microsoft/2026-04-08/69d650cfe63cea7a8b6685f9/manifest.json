@@ -33,7 +33,7 @@
   },
   "project_ids": [],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d650cfe63cea7a8b6685f9/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d650cfe63cea7a8b6685f9/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d650cfe63cea7a8b6685f9/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d650cfe63cea7a8b6685f9",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d650cfe63cea7a8b6685f9",
@@ -103,6 +103,5 @@
   "primary_subseed_kind": "",
   "is_outlier": false,
   "outlier_label": "",
-  "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:08:34"
+  "outlier_reason": ""
 }

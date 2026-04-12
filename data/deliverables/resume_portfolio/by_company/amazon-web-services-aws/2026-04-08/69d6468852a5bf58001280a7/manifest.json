@@ -42,7 +42,7 @@
     "didi_pricing_rules_migration"
   ],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d6468852a5bf58001280a7/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d6468852a5bf58001280a7/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d6468852a5bf58001280a7/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d6468852a5bf58001280a7",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d6468852a5bf58001280a7",
@@ -118,6 +118,5 @@
   "primary_subseed_kind": "",
   "is_outlier": false,
   "outlier_label": "",
-  "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:06:28"
+  "outlier_reason": ""
 }

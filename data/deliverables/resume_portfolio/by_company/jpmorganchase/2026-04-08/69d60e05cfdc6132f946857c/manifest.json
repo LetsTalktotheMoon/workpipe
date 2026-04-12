@@ -47,7 +47,7 @@
     "didi_pricing_rules_migration"
   ],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d60e05cfdc6132f946857c/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d60e05cfdc6132f946857c/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d60e05cfdc6132f946857c/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d60e05cfdc6132f946857c",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d60e05cfdc6132f946857c",
@@ -117,6 +117,5 @@
   "primary_subseed_kind": "",
   "is_outlier": false,
   "outlier_label": "",
-  "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:09:19"
+  "outlier_reason": ""
 }

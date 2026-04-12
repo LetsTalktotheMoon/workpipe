@@ -365,10 +365,22 @@ def _sample_jobs(limit: int = 2) -> list[dict[str, Any]]:
     return selected
 
 
-def run_small_flow_validation(output_dir: str | Path, *, sample_size: int = 2) -> dict:
+def run_small_flow_validation(
+    output_dir: str | Path,
+    *,
+    sample_size: int = 2,
+    llm_transport: str = "cli",
+    write_model: str = "gpt-5.4",
+    review_model: str = "gpt-5.4-mini",
+) -> dict:
     output_dir = Path(output_dir).expanduser().resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
-    configure_llm_client(enabled=True, transport="cli", write_model="gpt-5.4", review_model="gpt-5.4-mini")
+    configure_llm_client(
+        enabled=True,
+        transport=llm_transport,
+        write_model=write_model,
+        review_model=review_model,
+    )
     writer = MasterWriter()
     reviewer = UnifiedReviewer()
     seeds = load_seed_registry(include_promoted=True)
@@ -471,8 +483,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run a small real downstream validation for the starter selector.")
     parser.add_argument("--output-dir", default=str(ROOT / "output" / "analysis"))
     parser.add_argument("--sample-size", type=int, default=2)
+    parser.add_argument("--llm-transport", default="cli")
+    parser.add_argument("--write-model", default="gpt-5.4")
+    parser.add_argument("--review-model", default="gpt-5.4-mini")
     args = parser.parse_args()
-    payload = run_small_flow_validation(args.output_dir, sample_size=args.sample_size)
+    payload = run_small_flow_validation(
+        args.output_dir,
+        sample_size=args.sample_size,
+        llm_transport=args.llm_transport,
+        write_model=args.write_model,
+        review_model=args.review_model,
+    )
     print(
         json.dumps(
             {

@@ -4,7 +4,6 @@ Seed registry for reuse/retarget/new-seed routing.
 from __future__ import annotations
 
 import json
-import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable, Optional
@@ -16,13 +15,6 @@ from automation.text_utils import canonicalize_skill, extract_domain_terms, norm
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ATOMIZER_ROOT = Path(
-    os.environ.get(
-        "RESUME_ATOMIZER_ROOT",
-        str(ROOT.parent / "resume_atomizer"),
-    )
-)
-CATALOG_PATH = ATOMIZER_ROOT / "classification" / "resume_catalog.json"
 PROMOTED_SEEDS_PATH = ROOT / "config" / "promoted_seeds.json"
 
 
@@ -66,116 +58,6 @@ class SeedEntry:
             "project_ids": list(self.project_ids),
             "subseed_ids": list(self.subseed_ids),
         }
-
-
-def _titleize_seed_name(source_file: str) -> str:
-    name = Path(source_file).stem
-    name = name.replace("_Resume", "").replace("_", " ")
-    return " ".join(part for part in name.split() if part)
-
-
-def _infer_role_family(name: str) -> str:
-    token = name.lower()
-    if "full-stack" in token or "full stack" in token:
-        return "fullstack"
-    if "frontend" in token:
-        return "frontend"
-    if "backend" in token or "java developer" in token or "python backend" in token:
-        return "backend_generalist"
-    if "ml ai research" in token or "ai application" in token or "responsible ai" in token:
-        return "ai_ml_swe"
-    if "ai field" in token:
-        return "solutions"
-    if "big data" in token or "data engineering" in token:
-        return "data_platform"
-    if "cloud-native platform" in token or "platform reliability" in token or "devops" in token:
-        return "platform"
-    if "security" in token:
-        return "security"
-    if "blockchain" in token:
-        return "blockchain"
-    if "networking" in token or "edge infrastructure" in token:
-        return "networking"
-    if "embedded" in token:
-        return "embedded"
-    if "hpc" in token or "compiler" in token or "systems software" in token:
-        return "systems"
-    if "billing" in token:
-        return "enterprise_apps"
-    if "qa" in token or "sdet" in token:
-        return "qa"
-    if "mobile" in token:
-        return "mobile"
-    if "early-career" in token or "generalist sde" in token:
-        return "generalist"
-    return "generalist"
-
-
-def _infer_seniority(name: str) -> str:
-    token = name.lower()
-    if "early-career" in token:
-        return "entry"
-    if "field solutions" in token or "frontend" in token or "full-stack" in token:
-        return "mid"
-    return "mid_senior"
-
-
-ROLE_TO_TAXONOMY_HINTS = {
-    "ai_ml_swe": {
-        "Artificial Intelligence Engineer",
-        "Machine Learning Engineer",
-        "Applied Scientist",
-        "General Software Engineer",
-    },
-    "backend_generalist": {
-        "Backend Software Engineer",
-        "General Software Engineer",
-        "Java Developer",
-        "Python Developer",
-    },
-    "blockchain": {"Blockchain Engineer", "Backend Software Engineer"},
-    "data_platform": {"Data Engineer", "Machine Learning Engineer", "Cloud Engineer"},
-    "embedded": {"Embedded Software Engineer"},
-    "enterprise_apps": {"Software Engineer", "Billing Developer"},
-    "frontend": {"Frontend Software Engineer", "Full Stack Engineer"},
-    "fullstack": {"Full Stack Engineer", "Frontend Software Engineer", "Backend Software Engineer"},
-    "generalist": {"General Software Engineer", "Software Engineer"},
-    "mobile": {"Mobile Engineer"},
-    "networking": {"Infrastructure Engineer", "Cloud Engineer"},
-    "platform": {"DevOps Engineer", "Cloud Engineer", "Infrastructure Engineer"},
-    "qa": {"Quality Assurance Engineer", "Software Test Engineer"},
-    "security": {"Security Engineer", "Cloud Engineer"},
-    "solutions": {"IT Solutions Architect", "Artificial Intelligence Engineer"},
-    "systems": {"Systems Engineer", "Infrastructure Engineer"},
-}
-
-
-def _catalog_entry_to_seed(entry: dict) -> SeedEntry:
-    source_file = entry["source_file"]
-    role_family = _infer_role_family(source_file)
-    keywords = {
-        canonicalize_skill(item)
-        for item in entry.get("hard_keywords", []) + entry.get("core_stack", [])
-        if canonicalize_skill(item)
-    }
-    domains = {
-        normalize_token(item)
-        for item in entry.get("business_directions", []) + entry.get("experience_domains", [])
-        if normalize_token(item)
-    }
-    title = _titleize_seed_name(source_file)
-    return SeedEntry(
-        seed_id=f"atomizer_{Path(source_file).stem.lower()}",
-        label=title,
-        source_md=ATOMIZER_ROOT / "resumes" / source_file,
-        source_type="atomizer",
-        role_family=role_family,
-        seniority=_infer_seniority(source_file),
-        keywords=keywords,
-        core_stack={canonicalize_skill(item) for item in entry.get("core_stack", []) if canonicalize_skill(item)},
-        domains=domains | extract_domain_terms(" ".join(entry.get("business_directions", []))),
-        taxonomy_hints=set(ROLE_TO_TAXONOMY_HINTS.get(role_family, set())),
-    )
 
 
 def _markdown_seed_keywords(md_path: Path) -> tuple[set[str], set[str]]:
@@ -230,14 +112,8 @@ def _load_promoted_seed_configs() -> list[dict]:
     return json.loads(PROMOTED_SEEDS_PATH.read_text(encoding="utf-8"))
 
 
-def load_seed_registry(
-    include_atomizer: bool = False,
-    include_promoted: bool = True,
-) -> list[SeedEntry]:
+def load_seed_registry(include_promoted: bool = True) -> list[SeedEntry]:
     seeds: list[SeedEntry] = []
-    if include_atomizer and CATALOG_PATH.exists():
-        catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
-        seeds.extend(_catalog_entry_to_seed(entry) for entry in catalog)
     if include_promoted:
         for config in _load_promoted_seed_configs():
             entry = _promoted_seed_to_entry(config)

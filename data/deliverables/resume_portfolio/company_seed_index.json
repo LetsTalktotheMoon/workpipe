@@ -36,14 +36,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
-        "embedded",
-        "go",
-        "grpc",
-        "pandas",
-        "rag",
-        "s3"
+        "docker",
+        "etl",
+        "github actions",
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "analytics",
@@ -134,14 +134,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
-        "design review",
+        "code review",
+        "docker",
+        "etl",
         "flask",
-        "go",
-        "grpc",
-        "pandas",
-        "rag",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "adtech",
@@ -228,14 +228,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
-        "embedded",
+        "docker",
+        "etl",
         "go",
-        "grpc",
-        "pandas",
-        "rag",
-        "scrum"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -326,14 +326,14 @@
         "typescript"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
+        "etl",
         "flask",
-        "go",
-        "grpc",
-        "pandas",
-        "react",
-        "s3",
-        "scikit-learn"
+        "github actions",
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -423,14 +423,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
+        "docker",
+        "etl",
         "flask",
-        "go",
-        "grpc",
-        "linux",
-        "pandas",
-        "react"
+        "github actions",
+        "java",
+        "kubernetes",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -518,14 +518,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
+        "docker",
         "embedded systems",
         "flask",
-        "go",
-        "microservices",
-        "pandas",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -612,14 +612,14 @@
         "sql"
       ],
       "core_stack": [
-        "algorithms",
-        "aws bedrock",
-        "data structures",
+        "docker",
+        "etl",
+        "github actions",
         "go",
-        "microservices",
-        "pandas",
-        "s3",
-        "scikit-learn"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -705,14 +705,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
-        "go",
-        "grpc",
-        "pandas",
-        "rag",
-        "react",
-        "s3",
-        "scrum"
+        "docker",
+        "etl",
+        "gcp",
+        "java",
+        "jenkins",
+        "kubernetes",
+        "spring",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -796,14 +796,14 @@
         "sql"
       ],
       "core_stack": [
-        "ci/cd",
+        "docker",
         "flask",
-        "go",
-        "grpc",
-        "microservices",
-        "pandas",
-        "react",
-        "restful"
+        "github actions",
+        "java",
+        "jenkins",
+        "nosql",
+        "spring",
+        "sql"
       ],
       "domains": [
         "analytics",
@@ -884,14 +884,14 @@
         "tdd"
       ],
       "core_stack": [
-        "ci/cd",
-        "go",
-        "grpc",
-        "microservices",
-        "pandas",
-        "react",
-        "restful",
-        "scrum"
+        "code review",
+        "docker",
+        "github actions",
+        "java",
+        "jenkins",
+        "nosql",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -973,14 +973,14 @@
         "vue"
       ],
       "core_stack": [
-        "angular",
         "ci/cd",
+        "docker",
+        "gcp",
+        "kubernetes",
         "microservices",
-        "mongodb",
-        "react",
-        "restful",
-        "scrum",
-        "system design"
+        "mysql",
+        "nosql",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -1065,14 +1065,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
-        "bash",
+        "docker",
+        "etl",
         "go",
-        "grpc",
+        "java",
+        "kubernetes",
         "linux",
-        "pandas",
-        "prometheus",
-        "s3"
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -1155,14 +1155,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
+        "etl",
         "flask",
         "go",
-        "grpc",
-        "microservices",
-        "pandas",
-        "rag",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -1239,13 +1239,13 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
+        "docker",
         "flask",
         "go",
-        "grpc",
-        "pandas",
-        "scikit-learn",
+        "java",
+        "kubernetes",
+        "redis",
         "sql"
       ],
       "domains": [
@@ -1336,14 +1336,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
-        "go",
-        "grpc",
-        "microservices",
+        "docker",
+        "github actions",
+        "java",
+        "kubernetes",
         "model deployment",
-        "pandas",
-        "s3"
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -1435,14 +1435,14 @@
         "sql"
       ],
       "core_stack": [
-        "algorithms",
-        "aws bedrock",
         "c++",
-        "data structures",
+        "docker",
+        "etl",
         "go",
-        "microservices",
-        "pandas",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -1538,14 +1538,14 @@
         "typescript"
       ],
       "core_stack": [
-        "algorithms",
-        "aws bedrock",
-        "data structures",
+        "docker",
         "flask",
-        "microservices",
-        "s3",
-        "scikit-learn",
-        "software test engineering"
+        "github actions",
+        "java",
+        "kubernetes",
+        "redis",
+        "software test engineering",
+        "sql"
       ],
       "domains": [
         "analytics",
@@ -1634,14 +1634,14 @@
         "sql"
       ],
       "core_stack": [
-        "algorithms",
-        "aws bedrock",
         "c++",
-        "data structures",
+        "docker",
         "flask",
+        "java",
+        "kubernetes",
         "model deployment",
-        "pandas",
-        "s3"
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -1728,14 +1728,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
-        "ci/cd",
+        "docker",
         "flask",
+        "github actions",
         "go",
-        "microservices",
-        "pandas",
-        "rag",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -1829,14 +1829,14 @@
         "tensorflow"
       ],
       "core_stack": [
-        "aws bedrock",
-        "ecs",
+        "docker",
         "flask",
-        "go",
-        "microservices",
-        "pandas",
-        "s3",
-        "scikit-learn"
+        "gcp",
+        "github actions",
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -1919,13 +1919,13 @@
         "sql"
       ],
       "core_stack": [
-        "angular",
+        "code review",
+        "docker",
         "go",
-        "grpc",
-        "javascript",
-        "pandas",
-        "restful",
+        "kubernetes",
+        "postgresql",
         "snowflake",
+        "spark sql",
         "sql"
       ],
       "domains": [
@@ -2006,14 +2006,14 @@
         "typescript"
       ],
       "core_stack": [
-        "algorithms",
-        "ci/cd",
-        "data structures",
+        "airflow",
+        "docker",
+        "github actions",
         "go",
-        "grpc",
-        "microservices",
-        "pandas",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "analytics",
@@ -2098,14 +2098,14 @@
         "tdd"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
         "flask",
-        "go",
-        "jira",
-        "linux",
-        "microservices",
-        "pandas",
-        "rag"
+        "github actions",
+        "java",
+        "jenkins",
+        "nosql",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -2198,13 +2198,13 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
+        "etl",
         "go",
-        "grpc",
-        "jupyter",
-        "microservices",
-        "pandas",
+        "java",
+        "kubernetes",
         "rag",
+        "redis",
         "sql"
       ],
       "domains": [
@@ -2292,14 +2292,14 @@
         "tdd"
       ],
       "core_stack": [
-        "aws bedrock",
-        "data structures",
+        "docker",
         "flask",
-        "go",
-        "grpc",
-        "pandas",
+        "github actions",
+        "java",
+        "kubernetes",
         "playwright",
-        "rag"
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -2382,14 +2382,14 @@
         "typescript"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
+        "docker",
         "flask",
-        "go",
-        "grpc",
-        "pandas",
-        "s3",
-        "scikit-learn"
+        "github actions",
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -2472,14 +2472,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
         "c++",
+        "docker",
+        "etl",
         "flask",
-        "go",
-        "grpc",
-        "microservices",
-        "pandas",
-        "rag"
+        "github actions",
+        "java",
+        "kubernetes",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -2569,14 +2569,14 @@
         "sql"
       ],
       "core_stack": [
-        "algorithms",
-        "aws bedrock",
-        "ci/cd",
-        "data structures",
-        "go",
-        "grpc",
-        "pandas",
-        "rag"
+        "docker",
+        "etl",
+        "java",
+        "kubernetes",
+        "nosql",
+        "redis",
+        "spring",
+        "sql"
       ],
       "domains": [
         "analytics",
@@ -2662,14 +2662,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
         "flask",
+        "github actions",
         "go",
-        "grpc",
-        "pandas",
-        "rag",
-        "react",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -2748,13 +2748,13 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
+        "airflow",
+        "docker",
         "flask",
         "go",
         "java",
-        "machine learning",
-        "pandas",
-        "postgresql",
+        "kubernetes",
+        "redis",
         "sql"
       ],
       "domains": [
@@ -2829,14 +2829,14 @@
         "typescript"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
+        "etl",
         "flask",
+        "github actions",
         "go",
-        "grpc",
-        "pandas",
-        "rag",
-        "react",
-        "s3"
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -2916,14 +2916,14 @@
         "typescript"
       ],
       "core_stack": [
+        "docker",
         "flask",
         "go",
-        "grpc",
-        "microservices",
-        "next.js",
-        "pandas",
-        "react",
-        "tailwind"
+        "java",
+        "kubernetes",
+        "redis",
+        "spark sql",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -3012,14 +3012,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
-        "bigquery",
-        "databricks",
+        "docker",
+        "etl",
         "flask",
         "go",
-        "microservices",
-        "pandas",
-        "s3"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -3106,14 +3106,14 @@
         "unit testing"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
         "flask",
+        "github actions",
         "go",
-        "grpc",
-        "pandas",
-        "react",
-        "s3",
-        "scrum"
+        "html",
+        "kubernetes",
+        "spark sql",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -3193,14 +3193,14 @@
         "system design"
       ],
       "core_stack": [
-        "aws bedrock",
+        "airflow",
+        "docker",
+        "github actions",
         "go",
-        "grpc",
-        "microservices",
-        "pandas",
-        "rag",
-        "s3",
-        "system design"
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "analytics",
@@ -3282,14 +3282,14 @@
         "terraform"
       ],
       "core_stack": [
-        "aws bedrock",
-        "ci/cd",
+        "airflow",
+        "docker",
+        "gcp",
         "go",
-        "grpc",
-        "microservices",
-        "pandas",
+        "kubernetes",
         "rag",
-        "s3"
+        "redis",
+        "sql"
       ],
       "domains": [
         "ads",
@@ -3374,14 +3374,14 @@
         "tensorflow"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
+        "etl",
         "flask",
-        "go",
-        "grpc",
-        "pandas",
-        "prometheus",
-        "rag",
-        "s3"
+        "github actions",
+        "java",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "ai",
@@ -3460,14 +3460,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws bedrock",
+        "docker",
+        "etl",
         "flask",
-        "go",
-        "graphql",
-        "jira",
-        "pandas",
-        "rag",
-        "react"
+        "java",
+        "jenkins",
+        "kubernetes",
+        "redis",
+        "sql"
       ],
       "domains": [
         "analytics",

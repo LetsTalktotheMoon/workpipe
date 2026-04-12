@@ -1,10 +1,11 @@
 """
 LLM client shim.
 
-支持三种 transport：
+支持四种 transport：
 1. OpenAI Responses API（配置了 OPENAI_API_KEY 时优先）
 2. Local `codex exec` CLI fallback
 3. Claude Code CLI（使用 `claude -p`，推荐用于批量简历生成）
+4. Kimi Code API（Anthropic 协议兼容）
 """
 import glob as _glob
 import json
@@ -41,6 +42,10 @@ def _find_claude_code_bin() -> str:
 
 
 CLAUDE_CODE_BIN = _find_claude_code_bin()
+KIMI_API_KEY_ENV_VARS = ("KIMI_API_KEY", "API_KEY")
+KIMI_BASE_URL_ENV_VARS = ("KIMI_BASE_URL", "BASE_URL", "ANTHROPIC_BASE_URL")
+DEFAULT_KIMI_BASE_URL = "https://api.kimi.com/coding"
+DEFAULT_KIMI_MAX_TOKENS = 8192
 
 # Keep old aliases working so existing scripts do not need to change.
 MODEL_ALIASES = {
@@ -109,6 +114,7 @@ class AnthropicClient:
         self.transport = self._resolve_transport(transport)
         self._cache: dict[str, str] = {}
         self._api_client = None
+        self._kimi_client = None
 
     @classmethod
     def _resolve_enabled(cls, enabled: Optional[bool]) -> bool:
@@ -137,13 +143,27 @@ class AnthropicClient:
     @classmethod
     def _resolve_transport(cls, transport: Optional[str]) -> str:
         raw = (transport or os.environ.get(cls.TRANSPORT_ENV_VAR, DEFAULT_TRANSPORT)).strip().lower()
-        if raw not in {"auto", "api", "cli", "claude"}:
+        if raw not in {"auto", "api", "cli", "claude", "kimi"}:
             logger.warning("未知 transport=%s，回退到 auto", raw)
             return DEFAULT_TRANSPORT
         return raw
 
     def _api_key_present(self) -> bool:
         return bool(os.environ.get(self.API_KEY_ENV_VAR, "").strip())
+
+    @staticmethod
+    def _first_present_env(names: tuple[str, ...]) -> str:
+        for name in names:
+            value = os.environ.get(name, "").strip()
+            if value:
+                return value
+        return ""
+
+    def _kimi_api_key(self) -> str:
+        return self._first_present_env(KIMI_API_KEY_ENV_VARS)
+
+    def _kimi_base_url(self) -> str:
+        return self._first_present_env(KIMI_BASE_URL_ENV_VARS) or DEFAULT_KIMI_BASE_URL
 
     def _selected_transport(self) -> str:
         if self.transport == "auto":
@@ -177,6 +197,16 @@ class AnthropicClient:
                 logger.warning("未找到 Claude Code CLI: %s", CLAUDE_CODE_BIN or "<未发现>")
                 return False
             return True
+        if transport == "kimi":
+            if not self._kimi_api_key():
+                logger.warning("未配置 Kimi API key: %s", ", ".join(KIMI_API_KEY_ENV_VARS))
+                return False
+            try:
+                self._get_kimi_client()
+            except Exception as exc:
+                logger.warning("初始化 Kimi client 失败: %s", exc)
+                return False
+            return True
         # cli (codex)
         if not CODEX_BIN or not os.path.isfile(CODEX_BIN):
             logger.warning("未找到 codex CLI: %s", CODEX_BIN or "<未发现>")
@@ -207,6 +237,25 @@ class AnthropicClient:
 
         self._api_client = OpenAI(timeout=self.timeout, **kwargs)
         return self._api_client
+
+    def _get_kimi_client(self):
+        if self._kimi_client is not None:
+            return self._kimi_client
+        try:
+            from anthropic import Anthropic
+        except ImportError as exc:
+            raise RuntimeError("未安装 anthropic Python SDK") from exc
+
+        api_key = self._kimi_api_key()
+        if not api_key:
+            raise RuntimeError("未配置 Kimi API key")
+
+        self._kimi_client = Anthropic(
+            api_key=api_key,
+            base_url=self._kimi_base_url(),
+            timeout=self.timeout,
+        )
+        return self._kimi_client
 
     def _run_cli(self, prompt: str, model: str) -> str:
         """底层 Codex CLI 调用。"""
@@ -341,6 +390,26 @@ class AnthropicClient:
             return extracted
         raise RuntimeError("OpenAI Responses API succeeded but produced no text output")
 
+    def _run_kimi_api(self, prompt: str, model: str, system: str = "") -> str:
+        client = self._get_kimi_client()
+        request: dict[str, Any] = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": int(os.environ.get("KIMI_MAX_TOKENS", DEFAULT_KIMI_MAX_TOKENS)),
+        }
+        if system:
+            request["system"] = system
+
+        response = client.messages.create(**request)
+        parts: list[str] = []
+        for item in getattr(response, "content", None) or []:
+            text = getattr(item, "text", None)
+            if text:
+                parts.append(text)
+        if parts:
+            return "\n".join(parts).strip()
+        raise RuntimeError("Kimi API succeeded but produced no text output")
+
     def call(
         self,
         prompt: str,
@@ -369,13 +438,20 @@ class AnthropicClient:
         transport = self._selected_transport()
 
         last_error: Optional[Exception] = None
-        transport_label = {"api": "OpenAI API", "claude": "Claude Code CLI", "cli": "Codex CLI"}.get(transport, transport)
+        transport_label = {
+            "api": "OpenAI API",
+            "claude": "Claude Code CLI",
+            "cli": "Codex CLI",
+            "kimi": "Kimi API",
+        }.get(transport, transport)
         for attempt in range(1, self.max_retries + 2):
             try:
                 if transport == "api":
                     text = self._run_api(prompt, use_model, system=system)
                 elif transport == "claude":
                     text = self._run_claude_code_cli(prompt, use_model, system=system)
+                elif transport == "kimi":
+                    text = self._run_kimi_api(prompt, use_model, system=system)
                 else:
                     full_prompt = f"{system.strip()}\n\n{prompt}" if system else prompt
                     text = self._run_cli(full_prompt, use_model)

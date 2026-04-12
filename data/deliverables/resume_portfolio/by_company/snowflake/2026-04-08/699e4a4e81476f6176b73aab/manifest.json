@@ -41,7 +41,7 @@
     "didi_campaign_ops_console"
   ],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/699e4a4e81476f6176b73aab",
@@ -132,7 +132,6 @@
   "is_outlier": false,
   "outlier_label": "",
   "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:09:26",
   "rereview_version": "unified_followup_v1",
   "rereviewed_at": "2026-04-08T20:56:14",
   "rereview_rounds": 2,

@@ -39,7 +39,7 @@
     "didi_merchant_incident_workbench"
   ],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d65016cfdc6132f946961a",
@@ -126,7 +126,6 @@
   "is_outlier": false,
   "outlier_label": "",
   "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:08:28",
   "rereview_version": "unified_followup_v1",
   "rereviewed_at": "2026-04-08T20:37:22",
   "rereview_rounds": 1,

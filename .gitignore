@@ -7,3 +7,4 @@ scheduler_stdout.log
 scheduler_stderr.log
 __pycache__/
 *.pyc
+.pipeline_env.kimi

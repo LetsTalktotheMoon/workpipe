@@ -17,6 +17,7 @@ if str(RUNTIME_ROOT) not in sys.path:
 from automation.portfolio import rebuild_portfolio_indexes
 from automation.resume_repair import audit_resume_markdown, normalize_resume_markdown
 from core.anthropic_client import LLMUnavailableError, configure_llm_client
+from core.provider_settings import PROVIDER_CHOICES, resolve_provider_settings
 from core.prompt_builder import build_upgrade_revision_prompt
 from models.jd import JDProfile
 from pipeline.revision_acceptance import should_adopt_revision
@@ -501,9 +502,10 @@ def main() -> None:
     parser.add_argument("--oldest-first", action="store_true")
     parser.add_argument("--shard-count", type=int, default=1)
     parser.add_argument("--shard-index", type=int, default=0)
-    parser.add_argument("--write-model", default="gpt-5.4")
-    parser.add_argument("--review-model", default="gpt-5.4-mini")
-    parser.add_argument("--llm-transport", default="cli")
+    parser.add_argument("--provider", choices=PROVIDER_CHOICES, default="codex")
+    parser.add_argument("--write-model", default=None)
+    parser.add_argument("--review-model", default=None)
+    parser.add_argument("--llm-transport", default=None)
     parser.add_argument("--review-mode", default="full", choices=["compact", "full"])
     parser.add_argument(
         "--source-scope",
@@ -523,12 +525,18 @@ def main() -> None:
         help="Version tag written into rereview payloads.",
     )
     args = parser.parse_args()
+    provider_settings = resolve_provider_settings(
+        args.provider,
+        args.write_model,
+        args.review_model,
+        args.llm_transport,
+    )
 
     configure_llm_client(
         enabled=True,
-        write_model=args.write_model,
-        review_model=args.review_model,
-        transport=args.llm_transport,
+        write_model=provider_settings["write_model"],
+        review_model=provider_settings["review_model"],
+        transport=provider_settings["llm_transport"],
     )
 
     portfolio_root = Path(args.portfolio_root).expanduser().resolve()

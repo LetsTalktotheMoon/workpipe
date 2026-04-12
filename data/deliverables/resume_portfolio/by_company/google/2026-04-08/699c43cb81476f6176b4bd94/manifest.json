@@ -43,7 +43,7 @@
     "didi_supply_eta_service"
   ],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/699c43cb81476f6176b4bd94",
@@ -132,7 +132,6 @@
   "is_outlier": false,
   "outlier_label": "",
   "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:08:24",
   "rereview_version": "unified_followup_v1",
   "rereviewed_at": "2026-04-08T20:34:00",
   "rereview_rounds": 1,

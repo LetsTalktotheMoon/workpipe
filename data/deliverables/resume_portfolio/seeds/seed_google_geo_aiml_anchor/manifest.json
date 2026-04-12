@@ -106,7 +106,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "699c43cb81476f6176b4bd94",
@@ -117,7 +117,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "699ca92c81476f6176b53dfe",
@@ -139,7 +139,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "69d6337b366bb95ba554bcaa",

@@ -118,7 +118,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "699e4a4e81476f6176b73aab",
@@ -129,7 +129,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "69d4014a54f00230c6d2d49a",

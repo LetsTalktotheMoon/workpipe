@@ -17,6 +17,7 @@ if str(RUNTIME_ROOT) not in sys.path:
 
 from rereview_resume_portfolio import UNIFIED_REWRITE_VERSION
 from job_webapp.main import JobAppStore
+from core.provider_settings import PROVIDER_CHOICES, resolve_provider_settings
 
 
 _TIER_LABELS: dict[str, set[str]] = {
@@ -167,12 +168,19 @@ def main() -> None:
     parser.add_argument("--publish-date", default="")
     parser.add_argument("--publish-date-from", default="")
     parser.add_argument("--publish-date-to", default="")
-    parser.add_argument("--write-model", default="gpt-5.4")
-    parser.add_argument("--review-model", default="gpt-5.4-mini")
-    parser.add_argument("--llm-transport", default="cli")
+    parser.add_argument("--provider", choices=PROVIDER_CHOICES, default="codex")
+    parser.add_argument("--write-model", default=None)
+    parser.add_argument("--review-model", default=None)
+    parser.add_argument("--llm-transport", default=None)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--run-dir", default="")
     args = parser.parse_args()
+    provider_settings = resolve_provider_settings(
+        args.provider,
+        args.write_model,
+        args.review_model,
+        args.llm_transport,
+    )
 
     run_dir = Path(args.run_dir).expanduser().resolve() if str(args.run_dir or "").strip() else (
         ROOT / "runs" / f"resume_backlog_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -197,13 +205,13 @@ def main() -> None:
         "--enable-llm",
         "--publish-portfolio",
         "--provider",
-        "codex",
+        provider_settings["provider"],
         "--write-model",
-        args.write_model,
+        provider_settings["write_model"],
         "--review-model",
-        args.review_model,
+        provider_settings["review_model"],
         "--llm-transport",
-        args.llm_transport,
+        provider_settings["llm_transport"],
         "--run-dir",
         str(run_dir / "resume_phase"),
         "--force-all",
@@ -225,11 +233,11 @@ def main() -> None:
         "--review-version",
         UNIFIED_REWRITE_VERSION,
         "--write-model",
-        args.write_model,
+        provider_settings["write_model"],
         "--review-model",
-        args.review_model,
+        provider_settings["review_model"],
         "--llm-transport",
-        args.llm_transport,
+        provider_settings["llm_transport"],
     ]
     if args.dry_run:
         rewrite_command.append("--dry-run")

@@ -139,7 +139,7 @@ def _portfolio_annotation_context() -> tuple[object, dict, dict]:
     registry = load_company_subseed_registry()
     direction_index = registry.direction_index()
     seeds = {
-        seed.seed_id: seed for seed in load_seed_registry(include_atomizer=False, include_promoted=True)
+        seed.seed_id: seed for seed in load_seed_registry(include_promoted=True)
     }
     return registry, direction_index, seeds
 
@@ -357,7 +357,7 @@ def _write_seed_catalog(root: Path, records: Iterable[dict]) -> dict:
     project_registry = load_project_pool_registry()
     subseed_registry = load_company_subseed_registry()
     direction_index = subseed_registry.direction_index()
-    for seed in load_seed_registry(include_atomizer=False, include_promoted=True):
+    for seed in load_seed_registry(include_promoted=True):
         seed_dir = seeds_root / seed.seed_id
         derived_dir = seed_dir / "derived_jobs"
         derived_dir.mkdir(parents=True, exist_ok=True)
@@ -655,7 +655,7 @@ def _write_company_seed_index(root: Path) -> dict:
     registry = load_company_subseed_registry()
     direction_index = registry.direction_index()
     grouped: dict[str, list[dict]] = {}
-    for seed in load_seed_registry(include_atomizer=False, include_promoted=True):
+    for seed in load_seed_registry(include_promoted=True):
         grouped.setdefault(seed.company_name or "Unknown", []).append(
             {
                 **seed.to_dict(),

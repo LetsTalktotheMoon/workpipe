@@ -41,7 +41,7 @@
     "didi_supply_eta_service"
   ],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba9dd95697383741406e1b/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba9dd95697383741406e1b/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba9dd95697383741406e1b/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba9dd95697383741406e1b",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69ba9dd95697383741406e1b",
@@ -117,6 +117,5 @@
   "primary_subseed_kind": "",
   "is_outlier": false,
   "outlier_label": "",
-  "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:06:59"
+  "outlier_reason": ""
 }

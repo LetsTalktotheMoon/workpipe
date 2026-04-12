@@ -26,14 +26,26 @@ from config.candidate_framework import (
 from config.education_decision_tree import decide_education
 from config.natural_tech import BASE_NATURAL_TECH, get_all_tiers
 from core.prompt_builder import (
-    CLUSTER_WRITER_SYSTEM,
     MASTER_WRITER_SYSTEM,
+    RESUME_MARKDOWN_ONLY_RESPONSE_LINE,
     build_master_writer_prompt,
     build_upgrade_revision_prompt,
     build_seed_retarget_prompt,
 )
 
 logger = logging.getLogger(__name__)
+
+STRICT_REVISION_SYSTEM_PROMPT = (
+    "你是专业简历修改专家。严格按照修改指令执行，只改指出的问题，不做额外改动。"
+    f"{RESUME_MARKDOWN_ONLY_RESPONSE_LINE}"
+)
+UPGRADE_REVISION_SYSTEM_PROMPT = (
+    "你是专业简历升级专家。你可以在保持不可变字段、真实性边界和核心职业叙事不变的前提下，"
+    "重写 summary、skills、experience bullets、project baseline 和项目 framing，以显著提升 JD 匹配度、"
+    "scope 表达完整度和整体得分。不要被 seed phrasing、旧 summary 或旧 bullet 选择束缚；"
+    "如果旧稿的 framing 本身导致失分，应主动替换成更强、更清晰、但仍真实自洽的表达。"
+    f"{RESUME_MARKDOWN_ONLY_RESPONSE_LINE}"
+)
 
 
 NON_TECH_SKILL_TERMS = {
@@ -139,18 +151,9 @@ class MasterWriter:
         logger.info("Master Writer 开始修改简历...")
 
         if rewrite_mode == "upgrade":
-            system_prompt = (
-                "你是专业简历升级专家。你可以在保持不可变字段、真实性边界和核心职业叙事不变的前提下，"
-                "重写 summary、skills、experience bullets、project baseline 和项目 framing，以显著提升 JD 匹配度、"
-                "scope 表达完整度和整体得分。不要被 seed phrasing、旧 summary 或旧 bullet 选择束缚；"
-                "如果旧稿的 framing 本身导致失分，应主动替换成更强、更清晰、但仍真实自洽的表达。"
-                "直接输出修改后的完整简历 Markdown，不要附带解释。"
-            )
+            system_prompt = UPGRADE_REVISION_SYSTEM_PROMPT
         else:
-            system_prompt = (
-                "你是专业简历修改专家。严格按照修改指令执行，只改指出的问题，不做额外改动。"
-                "直接输出修改后的完整简历 Markdown，不要附带解释。"
-            )
+            system_prompt = STRICT_REVISION_SYSTEM_PROMPT
 
         # Seed resume 的 revision 仍需要强模型，不再降级到轻量 review model。
         revised = client.call(

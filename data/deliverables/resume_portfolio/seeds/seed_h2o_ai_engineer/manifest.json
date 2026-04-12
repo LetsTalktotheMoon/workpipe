@@ -36,7 +36,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intertek/2026-04-08/69c8e5a61818a24cd84d814a",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intertek/2026-04-08/69c8e5a61818a24cd84d814a/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intertek/2026-04-08/69c8e5a61818a24cd84d814a/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "69d61c52cfdc6132f9468a50",
@@ -47,7 +47,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "69d5d8a0cfdc6132f946677d",
@@ -58,7 +58,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "69d44f97891d7b11cfcf936b",

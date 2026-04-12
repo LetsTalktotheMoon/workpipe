@@ -39,7 +39,7 @@
     "didi_supply_eta_service"
   ],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d63f4dcfdc6132f9469275",
@@ -130,7 +130,6 @@
   "is_outlier": false,
   "outlier_label": "",
   "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:08:17",
   "rereview_version": "unified_followup_v1",
   "rereviewed_at": "2026-04-08T20:30:13",
   "rereview_rounds": 0,

@@ -11,10 +11,11 @@ import subprocess
 from pathlib import Path
 from typing import Sequence
 
-from automation.atomizer_adapter import resume_to_atomizer_markdown
-from automation.seed_registry import ATOMIZER_ROOT, SeedEntry
+from pdf_compiler.markdown_adapter import resume_to_pdf_markdown
+from automation.seed_registry import SeedEntry
 from models.resume import Resume
 
+PDF_COMPILER_ROOT = Path(__file__).resolve().parents[1] / "pdf_compiler"
 
 CORE_REQUIRED_SECTIONS: tuple[str, ...] = (
     "Professional Summary",
@@ -36,8 +37,8 @@ SECTION_TO_PARSER_ATTR = {
 
 
 def _load_md_to_tex():
-    module_path = ATOMIZER_ROOT / "md_to_tex.py"
-    spec = importlib.util.spec_from_file_location("atomizer_md_to_tex", module_path)
+    module_path = PDF_COMPILER_ROOT / "md_to_tex.py"
+    spec = importlib.util.spec_from_file_location("resume_pdf_md_to_tex", module_path)
     if spec is None or spec.loader is None:
         raise RuntimeError(f"Unable to load {module_path}")
     module = importlib.util.module_from_spec(spec)
@@ -60,11 +61,11 @@ def compile_markdown_to_pdf(
     pdf_dir.mkdir(parents=True, exist_ok=True)
 
     md_to_tex = _load_md_to_tex()
-    compile_input = _prepare_atomizer_input(
+    compile_input = _prepare_pdf_compile_input(
         md_path, output_dir, required_sections, md_to_tex, name=name, phone=phone, email=email
     )
     tex_path = Path(md_to_tex.convert_file(str(compile_input), str(tex_dir), level=0))
-    _postprocess_atomizer_tex(tex_path)
+    _postprocess_pdf_tex(tex_path)
     missing_tex_sections = _missing_sections_in_tex(tex_path, required_sections)
     if missing_tex_sections:
         raise RuntimeError(
@@ -104,7 +105,7 @@ def compile_markdown_to_pdf(
     return pdf_path
 
 
-def _prepare_atomizer_input(
+def _prepare_pdf_compile_input(
     md_path: Path,
     output_dir: Path,
     required_sections: Sequence[str],
@@ -114,36 +115,43 @@ def _prepare_atomizer_input(
     email: str | None = None,
 ) -> Path:
     text = md_path.read_text(encoding="utf-8")
-    normalized_text = _normalize_atomizer_heading_aliases(text)
-    missing_sections = _missing_sections_in_atomizer_markdown(
+    normalized_text = _normalize_pdf_heading_aliases(text)
+    existing_name, existing_phone, existing_email = _extract_existing_pdf_header_fields(
         normalized_text,
-        required_sections,
         md_to_tex,
     )
-    if not missing_sections:
-        if normalized_text == text:
-            return md_path
-        normalized_path = output_dir / "resume_atomizer_input.md"
-        normalized_path.write_text(normalized_text, encoding="utf-8")
-        return normalized_path
+    final_name = name or existing_name
+    final_phone = phone or existing_phone
+    final_email = email or existing_email
 
     try:
-        resume = Resume.from_markdown(_normalize_resume_parser_headings(text))
+        resume = Resume.from_markdown(_normalize_resume_parser_headings(normalized_text))
     except Exception as exc:
-        raise RuntimeError(f"Unable to normalize {md_path.name} for atomizer compilation: {exc}") from exc
+        raise RuntimeError(f"Unable to normalize {md_path.name} for PDF compilation: {exc}") from exc
 
-    adapted = resume_to_atomizer_markdown(resume, name=name, phone=phone, email=email)
-    missing_sections = _missing_sections_in_atomizer_markdown(
+    adapted = resume_to_pdf_markdown(
+        resume,
+        name=final_name,
+        phone=final_phone,
+        email=final_email,
+    )
+    missing_sections = _missing_sections_in_pdf_markdown(
         adapted,
         required_sections,
         md_to_tex,
     )
     if missing_sections:
         raise RuntimeError(
-            f"{md_path.name} could not be normalized into a complete atomizer resume; "
+            f"{md_path.name} could not be normalized into a complete PDF source markdown; "
             f"missing sections after adaptation: {', '.join(missing_sections)}"
         )
-    adapted_path = output_dir / "resume_atomizer_input.md"
+    adapted_name, _, _ = _extract_existing_pdf_header_fields(adapted, md_to_tex)
+    if not adapted_name:
+        raise RuntimeError(
+            f"{md_path.name} could not be normalized into a PDF source markdown with a header; "
+            "candidate name is missing."
+        )
+    adapted_path = output_dir / "resume_pdf_input.md"
     adapted_path.write_text(adapted, encoding="utf-8")
     return adapted_path
 
@@ -180,7 +188,7 @@ def publish_seed_artifact(seed: SeedEntry, output_root: Path, generate_pdf: bool
     return manifest
 
 
-def _normalize_atomizer_heading_aliases(text: str) -> str:
+def _normalize_pdf_heading_aliases(text: str) -> str:
     replacements = {
         "## Experience": "## Work Experience",
         "## Achievement": "## Achievements",
@@ -209,7 +217,7 @@ def _replace_heading_aliases(text: str, replacements: dict[str, str]) -> str:
     return normalized
 
 
-def _missing_sections_in_atomizer_markdown(
+def _missing_sections_in_pdf_markdown(
     text: str,
     required_sections: Sequence[str],
     md_to_tex,
@@ -223,6 +231,18 @@ def _missing_sections_in_atomizer_markdown(
         if not value:
             missing.append(section)
     return missing
+
+
+def _extract_existing_pdf_header_fields(
+    text: str,
+    md_to_tex,
+) -> tuple[str | None, str | None, str | None]:
+    parser = md_to_tex.ResumeParser(text)
+    parser.parse()
+    name = parser.name.strip() or None
+    phone = parser.phone.strip() or None
+    email = parser.email.strip() or None
+    return name, phone, email
 
 
 def _missing_sections_in_tex(tex_path: Path, required_sections: Sequence[str]) -> list[str]:
@@ -254,7 +274,7 @@ def _section_aliases(section: str) -> tuple[str, ...]:
     return (section,)
 
 
-def _postprocess_atomizer_tex(tex_path: Path) -> None:
+def _postprocess_pdf_tex(tex_path: Path) -> None:
     text = tex_path.read_text(encoding="utf-8")
     updated = text.replace(r"\section{Additional Information}", r"\section{Achievements}")
     reordered = _reorder_tex_sections(

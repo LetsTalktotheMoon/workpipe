@@ -149,6 +149,7 @@ CANONICAL_OUTPUT_TEMPLATE = """## 输出格式（header 拼写必须完全一致
 - `## Achievements`（不是 `## Achievement`）
 - 项目必须在对应经历下方，不单独成 section
 - 只输出简历正文，不要解释、注释、分析"""
+RESUME_MARKDOWN_ONLY_RESPONSE_LINE = "直接输出修改后的完整简历 Markdown，不要附带解释。"
 
 
 def _target_company_name(jd_or_company) -> str:
@@ -468,28 +469,6 @@ MASTER_WRITER_SYSTEM = """你是一位专业简历撰写专家，为一家职业
 
 规则：凡是 intern 经历中涉及云基础设施（AWS/ECS/S3）或 GenAI（Bedrock/LLM/RAG），
 一律使用 "contributing to" / "integrating with" / "within a team-maintained service" 等限定语。
-"""
-
-
-CLUSTER_WRITER_SYSTEM = """你是一位专业简历重写专家，负责基于一份已经达到局部最优的现有简历，为新的 JD 生成更高适配度的新版本。
-
-你的任务不是从零发明简历，而是：
-1. 先阅读“当前最优底稿简历”
-2. 结合目标 JD 与 cluster 检索上下文做一次明确 PLAN
-3. 基于 PLAN 输出完整新简历
-
-关键原则：
-- PLAN 不能从零开始；必须明确指出底稿中哪些内容沿用、哪些重写、哪些删除、哪些项目需要换位或收缩
-- 若存在同公司历史版本，一致性是硬约束，不得写出互斥角色、互斥时间线、互斥项目池或不可信 workload
-- 若不存在同公司历史版本，则允许更大自由度，但仍应最大化复用底稿中最强、最自然的故事与项目骨架
-- 不允许直接偷用旧 review 分数；你必须真正为新 JD 规划和重写
-- 除不可变字段外，允许中等幅度重写 summary、skills、project baseline、bullet framing、项目归属与技术强调
-- 你不能跳过 PLAN。先有 PLAN，再有 RESUME
-
-输出格式要求：
-- 在 <PLAN>...</PLAN> 中输出最终计划
-- 在 <RESUME>...</RESUME> 中输出完整简历 Markdown
-- 不要输出其他说明文字
 """
 
 
@@ -893,7 +872,7 @@ def build_revision_prompt(
 
 {CANONICAL_OUTPUT_TEMPLATE}
 
-直接输出修改后的完整简历 Markdown，不要附带解释。"""
+{RESUME_MARKDOWN_ONLY_RESPONSE_LINE}"""
 
 
 def build_seed_retarget_prompt(
@@ -988,7 +967,7 @@ def build_seed_retarget_prompt(
 
 {CANONICAL_OUTPUT_TEMPLATE}
 
-直接输出修改后的完整简历 Markdown，不要附带解释。"""
+{RESUME_MARKDOWN_ONLY_RESPONSE_LINE}"""
 
 
 def build_upgrade_revision_prompt(
@@ -1081,157 +1060,3 @@ def build_upgrade_revision_prompt(
 {CANONICAL_OUTPUT_TEMPLATE}
 
 直接输出升级后的完整简历 Markdown，不要附带解释。"""
-
-
-def build_cluster_rewrite_prompt(
-    *,
-    base_resume_md: str,
-    jd,
-    cluster_type: str,
-    cluster_key: str,
-    candidate_match: dict,
-    top_matches: list[dict],
-    company_context: dict | None = None,
-    base_rewrite_review: dict | None = None,
-    previous_plan: str = "",
-    round_index: int = 1,
-) -> str:
-    candidate_ctx = build_candidate_context(jd.company)
-    format_constraints = _format_constraints_for_company(jd.company)
-    target_specific_block = _target_specific_context_block(jd.company)
-    tech_required_str = ", ".join(jd.tech_required) if jd.tech_required else "（无明确列出）"
-    tech_preferred_str = ", ".join(jd.tech_preferred) if jd.tech_preferred else "（无）"
-
-    match_lines = [
-        f"- selected base total_score: {candidate_match.get('total_score', 0):.3f}",
-        f"- required_coverage: {candidate_match.get('required_coverage', 0):.3f}",
-        f"- core_coverage: {candidate_match.get('core_coverage', 0):.3f}",
-        f"- preferred_coverage: {candidate_match.get('preferred_coverage', 0):.3f}",
-        f"- role_score: {candidate_match.get('role_score', 0):.3f}",
-        f"- domain_score: {candidate_match.get('domain_score', 0):.3f}",
-        f"- seniority_score: {candidate_match.get('seniority_score', 0):.3f}",
-        f"- selected base job: {candidate_match.get('company_name', '')} | {candidate_match.get('title', '')}",
-        f"- selected base artifact: {candidate_match.get('artifact_dir', '')}",
-        f"- cluster_type: {cluster_type}",
-        f"- cluster_key: {cluster_key}",
-    ]
-    top_match_block = "\n".join(
-        f"  - {item.get('company_name', '')} | {item.get('title', '')} | score={item.get('total_score', 0):.3f} | review={item.get('review_verdict', '')}/{item.get('review_score', 0)}"
-        for item in top_matches[:5]
-    ) or "  - （无）"
-
-    company_section = ""
-    if company_context and company_context.get("version_count", 0):
-        versions_text = []
-        for version in company_context.get("versions", [])[:6]:
-            experiences_text = []
-            for exp in version.get("experiences", [])[:4]:
-                project_part = f" | project={exp.get('project_title', '')}" if exp.get("project_title") else ""
-                team_part = f" | team={exp.get('team', '')}" if exp.get("team") else ""
-                experiences_text.append(
-                    f"    - {exp.get('experience_id', '')}: {exp.get('title', '')} | dept={exp.get('department', '')}{team_part}{project_part}"
-                )
-            versions_text.append(
-                "\n".join(
-                    [
-                        f"  - job_id={version.get('job_id', '')} | title={version.get('title', '')} | review={version.get('review_verdict', '')}/{version.get('review_score', 0)} | publish={version.get('publish_time', '')}",
-                        *experiences_text,
-                    ]
-                )
-            )
-        risk_text = "\n".join(f"  - {item}" for item in company_context.get("high_risk_flags", [])[:10])
-        company_section = f"""
-## 同公司历史版本上下文（硬约束）
-- company_name: {company_context.get('company_name', '')}
-- existing_versions: {company_context.get('version_count', 0)}
-
-### 已有版本摘要
-{chr(10).join(versions_text)}
-
-### 必须规避的高危冲突
-{risk_text}
-"""
-
-    base_review_section = ""
-    if base_rewrite_review:
-        priorities = base_rewrite_review.get("revision_priority", []) or []
-        priority_text = "\n".join(f"  - {item}" for item in priorities[:6]) or "  - （无）"
-        base_review_section = f"""
-## 底稿对目标 JD 的 rewrite 审查结论
-- weighted_score: {base_rewrite_review.get('weighted_score', 0)}
-- overall_verdict: {base_rewrite_review.get('overall_verdict', '')}
-- critical_count: {base_rewrite_review.get('critical_count', 0)}
-- high_count: {base_rewrite_review.get('high_count', 0)}
-- needs_revision: {base_rewrite_review.get('needs_revision', False)}
-- top rewrite priorities:
-{priority_text}
-
-### reviewer revision_instructions
-{base_rewrite_review.get('revision_instructions', '') or '（无）'}
-"""
-
-    previous_plan_section = ""
-    if previous_plan.strip():
-        previous_plan_section = f"""
-## 上一轮 PLAN（本轮必须基于它更新，而不是忽略）
-{previous_plan.strip()}
-"""
-
-    return f"""{candidate_ctx}
-{target_specific_block}
-
-你正在运行 B 方案实验版：先基于 cluster 选出的最优底稿做 PLAN，再输出新简历。
-这不是从零写作，也不是在旧稿上做无计划的小修小补。
-
-## 目标 JD
-- 公司: {jd.company}
-- 岗位: {jd.title}
-- 角色类型: {jd.role_type}
-- 职级: {jd.seniority}
-- must-have tech: {tech_required_str}
-- preferred tech: {tech_preferred_str}
-
-## Cluster 检索摘要
-{chr(10).join(match_lines)}
-
-### 同类候选 top matches
-{top_match_block}
-{company_section}
-{base_review_section}
-{previous_plan_section}
-
-## B 方案写作原则
-1. PLAN 必须从“当前最优底稿简历”出发，明确写出：沿用、重写、删除、补充四类动作
-2. 若存在同公司历史版本，合理性优先于灵感：不得出现互斥角色、互斥项目池、互斥时间线、过量 workload、无解释的 team/product line 漂移
-3. 若目标公司历史上只有 1 份版本，也同样按同公司一致性处理；只是约束基准更少
-4. 若没有同公司历史版本，则以 cluster 检索出的底稿为主，做最大化 JD 对齐的 PLAN + WRITE
-5. 不能因为底稿已有高分就直接照抄；必须针对新 JD 重新规划
-6. 不允许跳过 PLAN
-7. 若底稿中的某个项目或叙事会触发同公司冲突，优先解释为同项目的另一种强调；确实不成立时再删除或换位
-8. DE 和 Backend SWE 可作为“本职 + 转岗目标”共存；若写成 SWE 版本，需要用 summary / framing 解释“仅展示相关技能”
-9. summary、skills、project baseline、bullet framing 都允许重写，但不可变字段绝不可改
-10. {_experience_order_rule(jd.company)}
-
-## 阶段一：PLAN（必须输出）
-请在 <PLAN> 中至少包含以下小节：
-- Immutable Facts To Preserve
-- Base Resume Elements To Reuse
-- Same-Company Consistency Constraints
-- Project Pool Decisions
-- Summary / Skills Reframing Strategy
-- Experience-by-Experience Rewrite Plan
-- Final Project Allocation
-
-## 阶段二：RESUME（必须输出）
-在 <RESUME> 中输出完整 Markdown 简历。
-
-{format_constraints}
-
-## 当前最优底稿简历
-{base_resume_md}
-
-{CANONICAL_OUTPUT_TEMPLATE}
-"""
-
-
-# ══════════════════════════════════════════════════════════════

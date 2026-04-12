@@ -18,7 +18,7 @@
 
 - 上游抓取运行时代码复制到 `runtime/job_tracker/`
 - 中游筛选/路由/生成运行时代码复制到 `runtime/`
-- 下游 PDF 运行时代码保留在 `runtime/resume_atomizer/`
+- 下游 PDF 运行时代码已抽离到 `runtime/pdf_compiler/`
 
 保留的真实资产：
 
@@ -38,7 +38,7 @@
 - 旧样例 `jd_input/`、`resumes/`
 - 旧试验入口 `auto_trigger.py`、`batch_runner.py`、`sheet_pipeline.py`
 - 旧 `docs/`、`tests/`、`tmp/`
-- 新项目里一并复制过来的 `runtime/resume_atomizer/output`、`docs`、`staging`
+- 已清理旧 `runtime/resume_atomizer/` 目录，仅保留抽离后的 `runtime/pdf_compiler/`
 - 已从 live 工作区挪走的旧 `job-tracker`、旧 `resume_pipeline`、旧 `resume_atomizer` 备份
 ## Remaining External Files
 

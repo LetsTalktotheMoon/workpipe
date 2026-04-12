@@ -178,12 +178,13 @@ def _plan_flow(
     matcher_packet: dict[str, Any] | None = None,
     starter_resume_md: str = "",
     cache_key_suffix: str,
+    planner_model: str,
 ) -> tuple[dict[str, Any], int, int]:
     client = get_llm_client()
     prompt = _planner_prompt(jd=jd, mode=mode, matcher_packet=matcher_packet, starter_resume_md=starter_resume_md)
     payload = client.call_json(
         prompt,
-        model="gpt-5.4",
+        model=planner_model,
         cache_key=client.make_cache_key(jd.jd_id or "unknown", jd.company or "", jd.title or "", cache_key_suffix),
         system=PLANNER_SYSTEM,
     )
@@ -343,12 +344,19 @@ def _review_direct_or_written(
     )
 
 
-def _run_no_starter_planner(writer: MasterWriter, reviewer: UnifiedReviewer, jd: JDProfile) -> FlowResult:
+def _run_no_starter_planner(
+    writer: MasterWriter,
+    reviewer: UnifiedReviewer,
+    jd: JDProfile,
+    *,
+    planner_model: str,
+) -> FlowResult:
     started = time.perf_counter()
     planner_payload, planner_prompt_tokens, planner_output_tokens = _plan_flow(
         jd=jd,
         mode="no_starter",
         cache_key_suffix="planner_no_starter_v1",
+        planner_model=planner_model,
     )
     writer_prompt = _writer_prompt_from_planner(jd=jd, planner_payload=planner_payload)
     resume_md, _ = writer.write_from_prompt(
@@ -380,6 +388,7 @@ def _run_new_dual_channel_planner(
     jd: JDProfile,
     *,
     selector_payload: dict[str, Any],
+    planner_model: str,
 ) -> FlowResult:
     started = time.perf_counter()
     matcher_packet = _build_matcher_packet(selector_payload)
@@ -396,6 +405,7 @@ def _run_new_dual_channel_planner(
         matcher_packet=matcher_packet,
         starter_resume_md=starter_resume_md,
         cache_key_suffix="planner_dual_channel_v1",
+        planner_model=planner_model,
     )
 
     continuity_anchor = _existing_resume_anchor(
@@ -524,10 +534,22 @@ def _portfolio_case(artifact_dir: str | Path, selector: StarterSelector) -> dict
     }
 
 
-def run_planner_validation(output_dir: str | Path) -> dict:
+def run_planner_validation(
+    output_dir: str | Path,
+    *,
+    llm_transport: str = "cli",
+    write_model: str = "gpt-5.4",
+    review_model: str = "gpt-5.4-mini",
+    planner_model: str = "gpt-5.4",
+) -> dict:
     output_dir = Path(output_dir).expanduser().resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
-    configure_llm_client(enabled=True, transport="cli", write_model="gpt-5.4", review_model="gpt-5.4-mini")
+    configure_llm_client(
+        enabled=True,
+        transport=llm_transport,
+        write_model=write_model,
+        review_model=review_model,
+    )
     writer = MasterWriter()
     reviewer = UnifiedReviewer()
     selector = StarterSelector.from_project_data()
@@ -568,12 +590,18 @@ def run_planner_validation(output_dir: str | Path) -> dict:
                 "title": case["title"],
                 "historical_no_starter": case["historical_no_starter"],
                 "historical_old_match_anchor": case["historical_old_match_anchor"],
-                "no_starter_planner": _run_no_starter_planner(writer, reviewer, jd).to_dict(),
+                "no_starter_planner": _run_no_starter_planner(
+                    writer,
+                    reviewer,
+                    jd,
+                    planner_model=planner_model,
+                ).to_dict(),
                 "new_dual_channel_planner": _run_new_dual_channel_planner(
                     writer,
                     reviewer,
                     jd,
                     selector_payload=case["selector_payload"],
+                    planner_model=planner_model,
                 ).to_dict(),
             }
         )
@@ -592,6 +620,7 @@ def run_planner_validation(output_dir: str | Path) -> dict:
                     reviewer,
                     jd,
                     selector_payload=case["selector_payload"],
+                    planner_model=planner_model,
                 ).to_dict(),
             }
         )
@@ -615,8 +644,18 @@ def main() -> None:
 
     parser = argparse.ArgumentParser(description="Run planner-first validation for no-starter and dual-channel flows.")
     parser.add_argument("--output-dir", default=str(ROOT / "output" / "analysis"))
+    parser.add_argument("--llm-transport", default="cli")
+    parser.add_argument("--write-model", default="gpt-5.4")
+    parser.add_argument("--review-model", default="gpt-5.4-mini")
+    parser.add_argument("--planner-model", default="gpt-5.4")
     args = parser.parse_args()
-    payload = run_planner_validation(args.output_dir)
+    payload = run_planner_validation(
+        args.output_dir,
+        llm_transport=args.llm_transport,
+        write_model=args.write_model,
+        review_model=args.review_model,
+        planner_model=args.planner_model,
+    )
     print(
         json.dumps(
             {

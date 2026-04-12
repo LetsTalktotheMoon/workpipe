@@ -115,7 +115,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d6501bcfdc6132f9469623",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d6501bcfdc6132f9469623/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d6501bcfdc6132f9469623/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "69d65016cfdc6132f946961a",
@@ -126,7 +126,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "69d6500ccfdc6132f9469614",
@@ -181,7 +181,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "699dccab81476f6176b6af20",
@@ -192,7 +192,7 @@
       "route_mode": "retarget",
       "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/garmin/2026-04-08/699dccab81476f6176b6af20",
       "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/garmin/2026-04-08/699dccab81476f6176b6af20/resume.md",
-      "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/garmin/2026-04-08/699dccab81476f6176b6af20/resume.pdf"
+      "resume_pdf": ""
     },
     {
       "job_id": "6999539e81476f6176b1f6b9",

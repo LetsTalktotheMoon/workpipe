@@ -36,7 +36,7 @@
   },
   "project_ids": [],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69b2b061ae2a534885e9dc50",
@@ -109,6 +109,5 @@
   "primary_subseed_kind": "",
   "is_outlier": false,
   "outlier_label": "",
-  "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:07:43"
+  "outlier_reason": ""
 }

@@ -28,7 +28,6 @@ DEFAULT_JOBS_JSON = DATA_ROOT / "job_tracker" / "scraped_jobs.json"
 DEFAULT_PORTFOLIO_ROOT = DATA_ROOT / "deliverables" / "resume_portfolio"
 DEFAULT_PROFILES_JSON = DEFAULT_PORTFOLIO_ROOT / "profiles.json"
 
-os.environ.setdefault("RESUME_ATOMIZER_ROOT", str(RUNTIME_ROOT / "resume_atomizer"))
 if str(RESUME_PIPELINE_ROOT) not in sys.path:
     sys.path.insert(0, str(RESUME_PIPELINE_ROOT))
 
@@ -39,6 +38,7 @@ from automation.portfolio import publish_job_artifact, rebuild_portfolio_indexes
 from automation.seed_registry import SeedEntry, load_seed_registry
 from automation.text_utils import prepare_skill_tokens
 from config.candidate_framework import is_bytedance_target_company
+from core.provider_settings import PROVIDER_CHOICES, resolve_provider_settings
 from pipeline.orchestrator import PipelineOrchestrator
 from pipeline.retarget_orchestrator import SeedRetargetOrchestrator
 
@@ -64,19 +64,7 @@ def load_json(path: Path, default: Any = None) -> Any:
 
 
 def relabel_provider(provider: str, write_model: str | None, review_model: str | None, transport: str | None) -> dict[str, str]:
-    if provider == "claude":
-        return {
-            "provider": provider,
-            "write_model": write_model or "claude-sonnet-4-6",
-            "review_model": review_model or "claude-sonnet-4-6",
-            "llm_transport": transport or "claude",
-        }
-    return {
-        "provider": "codex",
-        "write_model": write_model or "gpt-5.4",
-        "review_model": review_model or "gpt-5.4-mini",
-        "llm_transport": transport or "cli",
-    }
+    return resolve_provider_settings(provider, write_model, review_model, transport)
 
 
 def load_resume_state() -> dict[str, Any]:
@@ -560,7 +548,7 @@ def run_resume_step(
     )
     selected_rows = _prioritize_selected_rows(selected_rows, _load_priority_job_ids_from_env())
 
-    seeds = load_seed_registry(include_atomizer=False, include_promoted=True)
+    seeds = load_seed_registry(include_promoted=True)
     seeds_by_id: dict[str, SeedEntry] = {seed.seed_id: seed for seed in seeds}
     portfolio_records = load_json(portfolio_root / "portfolio_index.json", default=[])
     portfolio_by_job_id, portfolio_by_seed_id = _index_portfolio_records(
@@ -1189,7 +1177,7 @@ def add_common_resume_args(parser: argparse.ArgumentParser) -> None:
     )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--enable-llm", action="store_true")
-    parser.add_argument("--provider", choices=["codex", "claude"], default="codex")
+    parser.add_argument("--provider", choices=PROVIDER_CHOICES, default="codex")
     parser.add_argument("--write-model", default=None)
     parser.add_argument("--review-model", default=None)
     parser.add_argument("--llm-transport", default=None)
@@ -1271,7 +1259,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     all_parser.add_argument("--dry-run", action="store_true")
     all_parser.add_argument("--enable-llm", action="store_true")
-    all_parser.add_argument("--provider", choices=["codex", "claude"], default="codex")
+    all_parser.add_argument("--provider", choices=PROVIDER_CHOICES, default="codex")
     all_parser.add_argument("--write-model", default=None)
     all_parser.add_argument("--review-model", default=None)
     all_parser.add_argument("--llm-transport", default=None)

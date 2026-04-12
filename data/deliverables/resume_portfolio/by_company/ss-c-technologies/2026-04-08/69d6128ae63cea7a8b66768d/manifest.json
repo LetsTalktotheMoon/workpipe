@@ -37,7 +37,7 @@
   },
   "project_ids": [],
   "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ss-c-technologies/2026-04-08/69d6128ae63cea7a8b66768d/resume.md",
-  "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ss-c-technologies/2026-04-08/69d6128ae63cea7a8b66768d/resume.pdf",
+  "resume_pdf": "",
   "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ss-c-technologies/2026-04-08/69d6128ae63cea7a8b66768d/job.md",
   "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ss-c-technologies/2026-04-08/69d6128ae63cea7a8b66768d",
   "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d6128ae63cea7a8b66768d",
@@ -110,6 +110,5 @@
   "primary_subseed_kind": "",
   "is_outlier": false,
   "outlier_label": "",
-  "outlier_reason": "",
-  "pdf_generated_at": "2026-04-08T15:08:55"
+  "outlier_reason": ""
 }

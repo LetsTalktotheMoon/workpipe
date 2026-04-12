@@ -104,7 +104,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69cef32d54f00230c6d05152",
@@ -283,7 +283,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "699e4a4e81476f6176b73aab",
@@ -294,7 +294,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d4014a54f00230c6d2d49a",
@@ -2743,7 +2743,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nokia/2026-04-08/69b622b956973837413b6091",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nokia/2026-04-08/69b622b956973837413b6091/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nokia/2026-04-08/69b622b956973837413b6091/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d408e8891d7b11cfcf6c78",
@@ -3093,7 +3093,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69bf74dd7798f73e35e44625",
@@ -3232,7 +3232,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "68d1a92aa54edb3bf3e1486e",
@@ -3723,7 +3723,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hdr/2026-04-08/69a2c0750da45516f16c299c",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hdr/2026-04-08/69a2c0750da45516f16c299c/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hdr/2026-04-08/69a2c0750da45516f16c299c/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d3d042366bb95ba553789e",
@@ -5223,7 +5223,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ss-c-technologies/2026-04-08/69d64ba948f0c8161d2f7366",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ss-c-technologies/2026-04-08/69d64ba948f0c8161d2f7366/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ss-c-technologies/2026-04-08/69d64ba948f0c8161d2f7366/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d408c5891d7b11cfcf6bc6",
@@ -6506,7 +6506,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/travelers/2026-04-08/69cc5d28366bb95ba54ef2a0",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/travelers/2026-04-08/69cc5d28366bb95ba54ef2a0/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/travelers/2026-04-08/69cc5d28366bb95ba54ef2a0/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d60b53366bb95ba554b07d",
@@ -7746,7 +7746,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intertek/2026-04-08/69c8e5a61818a24cd84d814a",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intertek/2026-04-08/69c8e5a61818a24cd84d814a/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intertek/2026-04-08/69c8e5a61818a24cd84d814a/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d61c52cfdc6132f9468a50",
@@ -7757,7 +7757,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d5d8a0cfdc6132f946677d",
@@ -7768,7 +7768,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d44f97891d7b11cfcf936b",
@@ -8845,7 +8845,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-08/690e2f0a221b890c2780b8ea",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-08/690e2f0a221b890c2780b8ea/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-08/690e2f0a221b890c2780b8ea/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d4013654f00230c6d2d42e",
@@ -9160,7 +9160,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kla/2026-04-08/6969fa36639b452fb57ff3d1",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kla/2026-04-08/6969fa36639b452fb57ff3d1/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kla/2026-04-08/6969fa36639b452fb57ff3d1/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d3e841cdb525785fbc4666",
@@ -9943,7 +9943,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "699c43cb81476f6176b4bd94",
@@ -9954,7 +9954,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "699ca92c81476f6176b53dfe",
@@ -9976,7 +9976,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d6337b366bb95ba554bcaa",
@@ -10163,7 +10163,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d6501bcfdc6132f9469623",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d6501bcfdc6132f9469623/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d6501bcfdc6132f9469623/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d65016cfdc6132f946961a",
@@ -10174,7 +10174,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d65016cfdc6132f946961a/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d6500ccfdc6132f9469614",
@@ -10229,7 +10229,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "699dccab81476f6176b6af20",
@@ -10240,7 +10240,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/garmin/2026-04-08/699dccab81476f6176b6af20",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/garmin/2026-04-08/699dccab81476f6176b6af20/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/garmin/2026-04-08/699dccab81476f6176b6af20/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "6999539e81476f6176b1f6b9",
@@ -10683,7 +10683,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d6104ba5c9786095e4919f",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d6104ba5c9786095e4919f/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d6104ba5c9786095e4919f/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d60df8706f771673ba931b",
@@ -11225,7 +11225,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69bb8bef569738374141a09c",
@@ -11247,7 +11247,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d3dab0366bb95ba5537f43",
@@ -12081,7 +12081,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d6409348f0c8161d2f71e4",
@@ -12114,7 +12114,7 @@
         "route_mode": "retarget",
         "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/keysight-technologies/2026-04-08/69a213f8359fe034b1cd5272",
         "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/keysight-technologies/2026-04-08/69a213f8359fe034b1cd5272/resume.md",
-        "resume_pdf": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/keysight-technologies/2026-04-08/69a213f8359fe034b1cd5272/resume.pdf"
+        "resume_pdf": ""
       },
       {
         "job_id": "69d3d5cacdb525785fbc37af",

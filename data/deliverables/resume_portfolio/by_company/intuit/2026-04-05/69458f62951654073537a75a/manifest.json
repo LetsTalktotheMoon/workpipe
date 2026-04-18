@@ -32,7 +32,84 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T18:51:59",
-  "review": {},
+  "review": {
+    "weighted_score": 82.6,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补齐 NLP / Linux / R / Spark 的正文证据，优先落在 TikTok 的 RAG/evaluation 或 Temu 的分析 bullet 中，而不是只放在 Skills。",
+      "把 Summary 第 1 句改成直接面向 Intuit AI Scientist 的信号，先写 ML/NLP/ranking/retrieval 贡献，再放学位状态。",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.4,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 5.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 8.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 82.6,
+    "verdict": "pending",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "Keep the current immutable work history exactly as-is, but rewrite the resume so the JD stack is proven in正文, not only listed in Skills. 1) Update the Professional Summary to stay at 3 sentences with bold headers, but rewrite sentence 1 to lead with the strongest AI-scientist signal: retrieval/ranking/evaluation, NLP, and ML system work; move the M.S. graduation timing to the end of that sentence or sentence 2. 2) Add truthful正文 evidence for the missing must-have stack: explicitly mention NLP in the TikTok RAG/evaluation work, explicitly mention Linux where the evaluation or batch jobs actually ran, explicitly mention R in one analytics/experiment-validation bullet, and use the exact word 'Spark' in a bullet rather than only 'Spark SQL'. 3) Keep all JD must-haves in Skills, but make each of them appear at least once in a bullet or project line. 4) If the current Temu bullets do not support Spark/R/NLP truthfully, restructure that experience by replacing one weaker bullet with a stronger, truthful analysis bullet that names the missing stack; do not delete the skill from the resume without adding body evidence. 5) Preserve the current experience order, bullet count style, and immutable company/title/date/location fields.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:37:43",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.3,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -45,13 +122,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:37:43",
   "rereview_rounds": 0,
   "rereview_revised": false,
   "rewrite_adopted": false,
   "content_changed": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "review_final_score": 82.6,
+  "review_verdict": "pending",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

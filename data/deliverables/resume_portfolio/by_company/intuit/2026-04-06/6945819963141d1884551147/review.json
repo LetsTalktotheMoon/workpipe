@@ -1,0 +1,78 @@
+{
+  "weighted_score": 86.7,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "补齐 JD 必须技术的正文证据，重点是 NLP、Linux 和 R，不要只放在 Skills 里。",
+    "把 Summary 第1句改成直接对齐 Senior AI Scientist 的首屏信号，同时清理所有对非技术限定词的加粗。",
+    "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.7,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 7.2,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.6,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 86.7,
+  "verdict": "pending",
+  "seed_label": "ByteDance ML Grad",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Keep all immutable fields unchanged. Keep the 3-sentence Summary format, but rewrite sentence 1 so it leads with AI/ML production experience and the closest JD stack, not with a generic candidate label. Add truthful, explicit NLP evidence in the most relevant TikTok bullet or project bullet, add a Linux-based workflow/debugging clause in one engineering or data pipeline bullet, and add an R-based diagnostic/analysis clause in one Temu or DiDi bullet; only then add those terms to Skills. Do not remove any existing technical skills; expand evidence instead. Keep the two project blockquotes and 4 bullets per experience. Remove bold from modifier words such as `team-maintained` and `internal`; keep bolding only on technical terms and quantified results. Preserve the exact TikTok/DiDi/Temu titles, dates, and locations, and keep the Achievements bullet exactly in its current single-bullet form.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:36:34",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 96.3,
+  "previous_verdict": "pass"
+}

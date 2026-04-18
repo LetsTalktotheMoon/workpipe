@@ -1,0 +1,77 @@
+{
+  "weighted_score": 88.4,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 Summary 改成先讲 backend/ML infrastructure + retrieval/evaluation 能力，删除“transitioning from analytics”的弱开场。",
+    "把 TikTok 项目重写成更贴近 AI discovery/ranking 的 evaluation 叙事，并同时清理正文里对限定词的加粗。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.8,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 8.7,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.1,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.8,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 88.4,
+  "verdict": "pending",
+  "seed_label": "Glean ML Infrastructure",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "允许结构性重写，但不要动不可变字段。具体改法如下：\n1. Professional Summary 重写为 3 句、每句一个加粗小标题；第 1 句改成 role-first 的工程身份，不要再以“transitioning from analytics”开场。第 2 句明确写出 retrieval、offline evaluation、latency/quality tradeoff、experimentation 这类和 AI product 强相关的能力。第 3 句保留 Go 2-dan 句子，但把它放在认知优势而不是泛泛的 teamwork/problem solving。\n2. TikTok 项目把至少 1 条 bullet 改写成更像 AI quality loop 的表述，例如 offline evaluation harness、retrieval regression checks、ranking quality 或候选召回质量指标；保留现有数字，但把业务结果写成更像 discovery/ranking 场景可迁移的信号。\n3. 删除所有对限定词的加粗，例如 `team-maintained`、`existing`、`internal`、`team-owned`、`controlled`；正文只保留技术名词和量化数字的加粗。\n4. 如果还想进一步提高 Prime Video 适配度，可以把 Skills 里与 AI 相关的能力顺序前移，把 `scikit-learn`、`AWS Bedrock`、`ML Infrastructure`、`Data Pipelines` 放在更靠前的位置，但不要删除现有技能，因为它们在正文里都有出处。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:45:50",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.0,
+  "previous_verdict": "pass"
+}

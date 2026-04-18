@@ -1,0 +1,78 @@
+{
+  "weighted_score": 82.7,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "补入 truthful 的 Matlab 和 R 证据，并在 Skills 与最相关经历/项目 bullet 中同时出现，确保满足 JD must-have。",
+    "重写 Summary 第一句，改成面向 Amazon Music 的数据科学/实验分析开场，补出 consumer/discovery/relevance 方向的桥接信号。",
+    "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.7,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.9,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 5.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 3
+    },
+    "r3_overqualification": {
+      "score": 9.3,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 7.2,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 82.7,
+  "verdict": "pending",
+  "seed_label": "Plaid Data Scientist",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "保持三段不可变经历信息完全不变，且全文继续使用英文。先改 Summary：仍保留 3 句、每句都用 `**小标题:**`，但把第一句从 `Data Scientist Candidate` 改成更直接的角色定位，明确写成面向数据科学/实验分析的开场，并把 Amazon Music 可迁移的 consumer-product 或 recommendation/engagement bridge 放进首句；第二句保留机器学习、Deep Learning、AWS、Spark SQL 和 Go/Java 的证据；第三句继续使用 pattern recognition / decision-making 这类高价值认知 header。然后改 Skills：必须新增 `Matlab` 与 `R`，并把它们放进最贴近的数据/分析类别，不要删掉现有必须技术；同时确保每个技术都能在正文找到出处。再改正文：在最相关的 Temu 或 DiDi 经历里补 1 条真正使用 Matlab 或 R 的分析/建模/实验读数 bullet，格式必须是强动词开头、技术在中、以量化结果收尾。若现有 bullet 已经真实做过这件事，就直接重写那条 bullet，不要另起无关内容。最后做格式清理：取消 `team-maintained`、`internal` 等修饰语的加粗，只保留技术名词和量化指标的加粗；其余结构保持不变，两个项目的 blockquote baseline 也保留。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:52:22",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 96.1,
+  "previous_verdict": "pass"
+}

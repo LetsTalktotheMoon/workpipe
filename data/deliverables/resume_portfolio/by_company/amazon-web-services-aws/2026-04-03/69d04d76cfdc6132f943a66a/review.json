@@ -1,0 +1,77 @@
+{
+  "weighted_score": 92.7,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Rewrite the first Summary sentence to lead with backend/system delivery in Java, C++, Embedded, AWS, and CI/CD instead of the analytics transition.",
+    "Keep the rest of the evidence, but move the career-switch framing to a later clause so the first screen reads as an SDE candidate, not a data analyst pivot."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.2,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.4,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.8,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 92.7,
+  "verdict": "pending",
+  "seed_label": "AWS Support Backend Anchor",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Make a structural rewrite of the Summary, not a light edit. Sentence 1 should become a role-aligned opener that foregrounds backend/system engineering in Java, C++, Embedded, AWS, and CI/CD. Sentence 2 can keep the reliability/triage/incident-response scope. Sentence 3 can stay as the systems-judgment/Go achievement line. If you want to preserve the analytics background, mention it only as prior rigor or domain breadth in a trailing clause, not as the lead identity. Do not delete any must-have JD stack from Skills or Experience; the fix is to re-order the narrative so the strongest Kiro-relevant signal is first.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T11:21:20",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.4,
+  "previous_verdict": "pass"
+}

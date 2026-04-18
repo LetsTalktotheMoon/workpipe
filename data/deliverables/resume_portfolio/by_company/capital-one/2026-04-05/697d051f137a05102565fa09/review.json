@@ -1,0 +1,78 @@
+{
+  "weighted_score": 77.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 1,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "补上 Computer Vision 的正文证据，并把它同步写进 Skills，当前简历对该 JD 仍属硬缺口。",
+    "把 Summary 第一屏改成 AI Foundations / CV 优先的叙事，再保留 retrieval、security、data pipeline 作为支撑。",
+    "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.2,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 3.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 8.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.2,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.1,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.7,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 77.5,
+  "verdict": "pending",
+  "seed_label": "ByteDance ML Grad",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "保持三段不可变经历的公司/职称/时间/地点完全不动。优先做结构性重写而不是只改措辞：1) 在最相关的经历或新增一个小项目中补一条明确的 Computer Vision 证据，写清图像或视频数据、模型训练/推理、评估指标和业务影响；如果实际使用过，再把 PyTorch 一并写入 Skills。2) 把 Summary 第 1 句改成先讲 Computer Vision + ML foundations + production execution，再用第 2 句保留检索、排序、决策支持等迁移能力，第 3 句保留围棋作为认知信号。3) 不要删除现有的 security、retrieval、SQL、A/B testing 等强项，只是把它们从主叙事改成辅证。4) 保持现有的 3 句 Summary、每段 4-6 条 bullet、Achievements 1 条的版式约束。若无法补出真实的 CV 相关工作证据，这份简历不应作为该 JD 的教学示例发布。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:54:18",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 96.3,
+  "previous_verdict": "pass"
+}

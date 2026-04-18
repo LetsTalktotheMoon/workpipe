@@ -1,0 +1,77 @@
+{
+  "weighted_score": 87.9,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "补齐 BigQuery 的正文证据，并把它放进 Skills 与最相关经历的 ETL/warehouse bullet 中。",
+    "重写 Summary 首句，改成 backend systems / service integration / data pipeline 的强信号开头，删除“transitioning from data analysis to backend and full-stack development”的弱 framing。"
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.2,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 7.2,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.6,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.4,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 8.6,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 87.9,
+  "verdict": "pending",
+  "seed_label": "Google Full Stack",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "保持三段经历、时间线和不可变字段完全不变，只做高杠杆重写：1) 在 Skills 里加入 `BigQuery`，优先放到 Data 或 Cloud 分组，并保证同一行里仍然是 JD 相关技术栈；2) 把 DiDi 的 ETL/warehouse 相关 bullet 改写成明确的 BigQuery 生产使用场景，保留原有业务结果与量化，但把技术证据写进正文；3) 将 Professional Summary 第1句改为以 backend systems、gRPC/REST service integration、数据管道或 warehouse workflows 为主，不要再把“从 data analysis 转向 backend/full-stack”放在首屏主句里；4) 其余 bullets、Achievements、项目标题和不可变字段保持原结构，只做局部措辞优化，不需要整份重排。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T11:11:31",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 96.5,
+  "previous_verdict": "pass"
+}

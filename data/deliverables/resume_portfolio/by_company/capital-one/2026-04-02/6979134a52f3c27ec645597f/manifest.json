@@ -30,7 +30,84 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T18:47:06",
-  "review": {},
+  "review": {
+    "weighted_score": 87.7,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补 1 条真实的 Deep Learning 正文证据，并在证据落地后同步加入 `Deep Learning` 技能。",
+      "把 Summary 第一句改成直接面向 LLM retrieval / evaluation / RAG，而不是泛化的 analytics-to-scientist 开场。",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 7.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.7,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 87.7,
+    "verdict": "pending",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "保留不可变字段不动，优先做两处高杠杆修改：1) 在最相关经历里补一条真实的深度学习 bullet，写清楚模型家族、训练/微调目标、数据来源和一个可信指标提升；如果这段工作真实存在，就把它放在 Temu 或 TikTok 最靠前的 bullet，并在 `AI/ML` skills 中加入 `Deep Learning`。2) 结构性重写 Summary 的第 1 句，把职业线直接讲成 `LLM retrieval/evaluation` 或 `retrieval-augmented decision-support systems`，不要先用泛化的 `Applied Scientist Candidate` 或 `translating analytics` 起头；第 2 句继续保留 Java/Python/SQL 的 production execution，第 3 句保留围棋认知句即可。其余内容只做局部微调，不需要整体重写。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:29:39",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.3,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -43,13 +120,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:29:39",
   "rereview_rounds": 0,
   "rereview_revised": false,
   "rewrite_adopted": false,
   "content_changed": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "review_final_score": 87.7,
+  "review_verdict": "pending",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

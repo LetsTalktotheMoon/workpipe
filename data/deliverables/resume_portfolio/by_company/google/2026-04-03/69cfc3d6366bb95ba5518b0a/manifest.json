@@ -38,7 +38,84 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T21:09:58",
-  "review": {},
+  "review": {
+    "weighted_score": 91.3,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "先补出 `Networking` 的正文证据，再把它加入 Skills，避免 JD 必须技术缺口。",
+      "重写 Summary 的首句，把主叙事从转行背景改成网络化后端 / 分布式系统能力，并清理正文里非信号词的粗体。",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 8.4,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.3,
+    "verdict": "pending",
+    "seed_label": "Google Cloud Infra Anchor",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "1. 重写 `Professional Summary` 第一句，把主叙事改成 `Networked backend engineer ...`，把 analytics 从 headline 降为背景补充；2. 在 TikTok 最相关的一条 bullet 或 project baseline 中补出明确的 Networking 证据（RPC request path、timeouts/retries、traffic handling、connection behavior、latency budget、service-to-service routing 任选其一），并在证据落地后把 `Networking` 加入 Skills；3. 清理正文里的粗体，只保留技术栈、数字和成果名词，不要加粗 `team-maintained`、`existing`、`internal`、`team-owned`、`intern-owned` 这类限定词；4. 把 Skills 的类别标签改成 `**Programming:**` / `**Data:**` / `**Cloud:**` 这种形式。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T11:04:59",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.4,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [
     "google_cloud_infra_mainline"
   ],
@@ -55,13 +132,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T11:04:59",
   "rereview_rounds": 0,
   "rereview_revised": false,
   "rewrite_adopted": false,
   "content_changed": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "review_final_score": 91.3,
+  "review_verdict": "pending",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

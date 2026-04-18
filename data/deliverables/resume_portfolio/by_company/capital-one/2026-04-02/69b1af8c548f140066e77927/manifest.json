@@ -30,7 +30,84 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T18:50:25",
-  "review": {},
+  "review": {
+    "weighted_score": 83.5,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Add a real deep-learning proof point to the most relevant experience/project and surface `Deep Learning` in Skills only after the body evidence exists.",
+      "Rewrite the Summary to lead with model development/evaluation and the trustworthiness angle, not with generic analytics-to-ML transition language.",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.7,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 6.8,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 7.7,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 7.0,
+        "weight": 0.05,
+        "verdict": "fail",
+        "findings_count": 1
+      }
+    },
+    "final_score": 83.5,
+    "verdict": "pending",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "Keep all immutable fields exactly as-is. Rewrite `Professional Summary` so the first sentence leads with an Applied Researcher / model-development / evaluation signal, the second sentence supports it with concrete ML system execution, and the third Go sentence stays as the high-value cognition line. In `Skills`, do not delete existing ML, RAG, Bedrock, or systems items; instead, add `Deep Learning` only if you also add at least one body bullet that proves it, and add `PyTorch` or `NLP` only if they are truly supported by a bullet. In the most relevant experience, replace the weakest generic ML bullet with a concrete deep-learning bullet that names the model family or framework, the task, the training or evaluation setup, and the measured outcome. If the candidate does not have truthful deep-learning work, this JD fit remains weak and the resume should not pretend otherwise. In all sections outside `## Skills`, unbold modifiers like `team-maintained`, `bounded`, and `lightweight`; keep bolding limited to technical nouns, proper nouns, and metrics.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:26:45",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.3,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -43,13 +120,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:26:45",
   "rereview_rounds": 0,
   "rereview_revised": false,
   "rewrite_adopted": false,
   "content_changed": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "review_final_score": 83.5,
+  "review_verdict": "pending",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

@@ -1,0 +1,78 @@
+{
+  "weighted_score": 89.2,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "把 `Code Review` 补进 `## Skills`，让 DiDi 和 TikTok 的相关 bullet 在技能区有明确出处。",
+    "重写 Summary 第 1 句，先突出 `ML Infrastructure` / `Model Deployment`，再保留转行背景。",
+    "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 8.3,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r1_writing_standard": {
+      "score": 9.5,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r3_overqualification": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.7,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.0,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 89.2,
+  "verdict": "pending",
+  "seed_label": "Google Workspace/Geo AIML Anchor",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "最小修改即可达标：1) 在 `## Skills` 中新增 `Code Review`，建议放入一个清晰的工程实践子类，确保所有正文里出现的技能都能在 Skills 中被检索到；2) 将 `Professional Summary` 第 1 句改成岗位对齐版，先写 ML Infrastructure / Model Deployment / backend systems，再用半句补充 analytics 背景，不要把“transitioning from analytics”放在开头；3) 其他经历、项目和成就保持不动，TikTok 职称、时间和地点不要改。",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T11:03:57",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 95.8,
+  "previous_verdict": "pass"
+}

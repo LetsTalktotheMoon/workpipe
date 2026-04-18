@@ -31,7 +31,80 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T14:00:54",
-  "review": {},
+  "review": {
+    "weighted_score": 94.1,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.5,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.9,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.1,
+    "verdict": "pass",
+    "seed_label": "LinkedIn MLE Foundation",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T11:07:57",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 94.3,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -44,13 +117,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T11:07:57",
   "rereview_rounds": 0,
   "rereview_revised": false,
   "rewrite_adopted": false,
   "content_changed": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "review_final_score": 94.1,
+  "review_verdict": "pass",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

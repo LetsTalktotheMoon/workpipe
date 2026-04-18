@@ -30,7 +30,84 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T18:43:37",
-  "review": {},
+  "review": {
+    "weighted_score": 85.9,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补一条真实可验证的 Deep Learning 正文证据，并在证据成立后再把 Deep Learning / PyTorch 放进 Skills。",
+      "把 Summary 改成以 ML retrieval/ranking/evaluation 为首屏主线，必要时将 TikTok 项目重写为更贴近 Applied Researcher 的桥接叙事。",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 6.3,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 3
+      },
+      "r3_overqualification": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 85.9,
+    "verdict": "pending",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "保持不可变字段完全不变。先做首屏重写：Summary 第1句改成直接定位为“ML/retrieval/ranking/evaluation systems”而不是泛化的 Applied Scientist Candidate；第2句保留工程执行力，但把重点放在模型评估、检索、排序和可靠性上；第3句保留高价值认知表述。然后补正文证据：在 Temu 或 TikTok 中加入1条真实的 Deep Learning bullet，必须明确写出模型/训练/评估方法，优先使用 PyTorch、embedding、neural ranking、sequence model 这类可被招聘方识别的表述；如果没有这类真实经历，不要伪造，且这份简历不应继续投这个 JD。Skills 里的 Deep Learning、PyTorch、NLP 只能在正文有证据后再加入；Machine Learning、LLM、AWS、RAG 保留。最后，如果确实有 agentic、graph-based、GraphRAG 或 protocol 相关经验，把它从泛化的 RAG 评价里前置到 TikTok 项目或 Summary 中，用更贴近 JD 的语言表达；如果没有，就不要把它写成核心卖点。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:23:37",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.3,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -43,13 +120,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:23:37",
   "rereview_rounds": 0,
   "rereview_revised": false,
   "rewrite_adopted": false,
   "content_changed": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "review_final_score": 85.9,
+  "review_verdict": "pending",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

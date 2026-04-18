@@ -36,7 +36,83 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-07T11:10:29",
-  "review": {},
+  "review": {
+    "weighted_score": 79.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "补上 R 证据，并把 SQL / Python / R 放到最显眼的位置：Skills 里加入 R，且在 Temu 或 DiDi 至少新增 1 条明确使用 R 做统计检验、回归、实验分析或建模的正文 bullet。",
+      "把 Summary 从 backend / GenAI 叙事改成 Research Data Scientist / Search Ads 叙事：首句直接写 SQL + Python + R 的实验分析、漏斗/排序/指标工作，第二句再放系统协作，第三句保留围棋判断力。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 6.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 6.2,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 7.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 79.0,
+    "verdict": "pending",
+    "seed_label": "Google Workspace/Geo AIML Anchor",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "保持不可变字段（TikTok/DiDi/Temu 的公司、职称、时间、地点）完全不动；先重写 Professional Summary 的 3 句：第 1 句改成明确的数据科学主线，直接写 SQL、Python、R、实验分析或指标建模；第 2 句写你做过的增长/漏斗/排序/质量分析，和 Search Ads 更接近的 measurement 叙事；第 3 句保留 Go 2-dan 的 pattern recognition，但不要让它抢掉主线。然后修改 Skills：把 R 加进 Data 或 Programming 分类，且让 SQL / Python / R 排在最前面；不要删除现有技能，但把 backend / infra 技术从主视觉上降级。接着在最相关的经历里补正文证据：优先用 Temu 的一条 bullet 明确写 R 的使用场景，例如 A/B test 评估、回归分析、实验 readout、异常检测或 funnel 分析；如果 R 确实存在于 DiDi 的工作中，也可以在 DiDi 增补一条 R + SQL 的分析 bullet，但必须是正文里可见的真实证据。最后把 DiDi 和 Temu 的现有 bullet 轻微重排，保留 SQL / Python / A/B Testing / Hive / Spark SQL / Pandas 这些对 JD 有价值的证据，弱化纯 backend 或 GenAI 的叙事权重；如果没有真实的 R 经验，这份简历不应继续用于这个 JD，因为它无法满足必须技术栈。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:57:35",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 95.8,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [
     "google_product_ai_mainline"
   ],
@@ -53,11 +129,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:57:35",
   "rereview_rounds": 0,
   "rereview_revised": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
-  "reset_to_reuse_at": "2026-04-09T11:54:15"
+  "review_final_score": 79.0,
+  "review_verdict": "pending",
+  "reset_to_reuse_at": "2026-04-09T11:54:15",
+  "rewrite_adopted": false,
+  "content_changed": false
 }

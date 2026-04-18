@@ -1,0 +1,77 @@
+{
+  "weighted_score": 94.3,
+  "overall_verdict": "pass",
+  "passed": true,
+  "critical_count": 0,
+  "high_count": 0,
+  "needs_revision": true,
+  "revision_priority": [
+    "Rewrite the Professional Summary opening so it leads with backend/security SDE identity instead of \"transitioning from analytics.\"",
+    "Tighten the second summary sentence to anchor one concrete system boundary and ownership scope, not just a stack list."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 9.7,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r2_jd_fitness": {
+      "score": 9.2,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r3_overqualification": {
+      "score": 9.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.8,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 9.5,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 9.3,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 94.3,
+  "verdict": "pass",
+  "seed_label": "AWS Support Backend Anchor",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Keep all immutable experience lines, dates, titles, and locations unchanged. Rewrite the 3-line Professional Summary so it opens with a role-first statement that foregrounds Java/C++ and embedded-adjacent backend work for security, incident-response, or reliability systems. Remove \"Support Engineering Fit\" and \"transitioning from analytics\" from the first line, or move the transition language to a secondary clause after the core identity is established. Keep the second sentence, but make it more concrete by naming the specific system shape you built and supported, such as gRPC, Kafka, PostgreSQL, Kubernetes, Docker, CI/CD, and triage/rollback workflows. Keep the third sentence as the cognitive differentiator. Do not delete any JD must-have technology from Summary, Skills, or Experience; the fix here is repositioning and tightening the framing, not reducing technical coverage.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:44:41",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.4,
+  "previous_verdict": "pass"
+}

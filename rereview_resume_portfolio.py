@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 from datetime import date, datetime
 from pathlib import Path
@@ -16,6 +17,7 @@ if str(RUNTIME_ROOT) not in sys.path:
 
 from automation.portfolio import rebuild_portfolio_indexes
 from automation.resume_repair import audit_resume_markdown, normalize_resume_markdown
+from automation.seed_registry import load_seed_registry
 from core.anthropic_client import LLMUnavailableError, configure_llm_client
 from core.provider_settings import PROVIDER_CHOICES, resolve_provider_settings
 from core.prompt_builder import build_upgrade_revision_prompt
@@ -88,6 +90,140 @@ def _matches_status_scope(manifest: dict[str, Any], status_scope: str) -> bool:
     if status_scope == "pass_only":
         return status == "pass"
     return True
+
+
+def _matches_route_mode(manifest: dict[str, Any], route_mode: str) -> bool:
+    if route_mode == "all":
+        return True
+    return str(manifest.get("route_mode", "") or "").strip() == route_mode
+
+
+def _review_score(review: dict[str, Any]) -> float:
+    try:
+        return float(review.get("final_score", review.get("weighted_score", 0.0)) or 0.0)
+    except Exception:
+        return 0.0
+
+
+def _review_state(review: dict[str, Any]) -> str:
+    verdict = str(review.get("verdict", "") or review.get("overall_verdict", "") or "").strip().lower()
+    if verdict == "pass":
+        return "pass"
+    return "pending"
+
+
+def _has_review_signal(review: dict[str, Any]) -> bool:
+    if not isinstance(review, dict):
+        return False
+    for key in ("final_score", "weighted_score", "verdict", "overall_verdict", "passed"):
+        value = review.get(key)
+        if value not in (None, "", []):
+            return True
+    return False
+
+
+def _normalize_seed_label(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", str(value or "").strip().lower()).strip()
+
+
+def _seed_id_aliases(seed_id: str) -> list[str]:
+    normalized = str(seed_id or "").strip()
+    aliases = [normalized] if normalized else []
+    if normalized.startswith("candidate_"):
+        aliases.append("seed_" + normalized[len("candidate_") :])
+    return aliases
+
+
+def _index_portfolio_records(
+    records: list[dict[str, Any]],
+) -> tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]], dict[str, list[dict[str, Any]]]]:
+    by_job_id: dict[str, dict[str, Any]] = {}
+    by_seed_id: dict[str, list[dict[str, Any]]] = {}
+    by_seed_label: dict[str, list[dict[str, Any]]] = {}
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        job_id = str(record.get("job_id", "") or "").strip()
+        if job_id:
+            by_job_id[job_id] = record
+        seed_id = str(record.get("parent_seed_id", "") or record.get("seed_id", "") or "").strip()
+        if seed_id:
+            by_seed_id.setdefault(seed_id, []).append(record)
+        seed_label = _normalize_seed_label(str(record.get("seed_label", "") or ""))
+        if seed_label:
+            by_seed_label.setdefault(seed_label, []).append(record)
+    for items in list(by_seed_id.values()) + list(by_seed_label.values()):
+        items.sort(
+            key=lambda item: (
+                1 if _review_state(item.get("review", {}) if isinstance(item.get("review"), dict) else {}) == "pass" else 0,
+                _review_score(item.get("review", {}) if isinstance(item.get("review"), dict) else {}),
+                str(item.get("generated_at", "") or ""),
+            ),
+            reverse=True,
+        )
+    return by_job_id, by_seed_id, by_seed_label
+
+
+def _resolve_existing_resume_path(raw_path: str) -> Path | None:
+    path_text = str(raw_path or "").strip()
+    if not path_text:
+        return None
+    path = Path(path_text).expanduser()
+    if not path.is_absolute():
+        path = (ROOT / path).resolve()
+    if not path.exists():
+        return None
+    return path
+
+
+def _resolve_reuse_resume_path(
+    manifest: dict[str, Any],
+    *,
+    seeds_by_id: dict[str, Any],
+    portfolio_by_job_id: dict[str, dict[str, Any]],
+    portfolio_by_seed_id: dict[str, list[dict[str, Any]]],
+    portfolio_by_seed_label: dict[str, list[dict[str, Any]]],
+) -> tuple[Path | None, dict[str, Any]]:
+    seed_id = str(manifest.get("parent_seed_id", "") or manifest.get("seed_id", "") or "").strip()
+    seed_label = _normalize_seed_label(str(manifest.get("seed_label", "") or ""))
+
+    for candidate_seed_id in _seed_id_aliases(seed_id):
+        seed = seeds_by_id.get(candidate_seed_id)
+        source_job_id = str(getattr(seed, "source_job_id", "") or "").strip()
+        if source_job_id:
+            source_record = portfolio_by_job_id.get(source_job_id)
+            if isinstance(source_record, dict):
+                resolved = _resolve_existing_resume_path(str(source_record.get("resume_md", "") or ""))
+                if resolved is not None:
+                    review_payload = source_record.get("review", {}) if isinstance(source_record.get("review"), dict) else {}
+                    return resolved, (review_payload if isinstance(review_payload, dict) else {})
+
+        for record in portfolio_by_seed_id.get(candidate_seed_id, []):
+            resolved = _resolve_existing_resume_path(str(record.get("resume_md", "") or ""))
+            if resolved is not None:
+                review_payload = record.get("review", {}) if isinstance(record.get("review"), dict) else {}
+                return resolved, (review_payload if isinstance(review_payload, dict) else {})
+
+        source_md = getattr(seed, "source_md", None)
+        if source_md is not None:
+            path = Path(str(source_md)).expanduser()
+            if path.exists():
+                validated_score = float(getattr(seed, "validated_score", 0.0) or 0.0)
+                verdict = "pass" if validated_score >= PASS_THRESHOLD else "pending"
+                return path, {
+                    "final_score": round(validated_score, 1),
+                    "weighted_score": round(validated_score, 1),
+                    "verdict": verdict,
+                    "passed": verdict == "pass",
+                }
+
+    if seed_label:
+        for record in portfolio_by_seed_label.get(seed_label, []):
+            resolved = _resolve_existing_resume_path(str(record.get("resume_md", "") or ""))
+            if resolved is not None:
+                review_payload = record.get("review", {}) if isinstance(record.get("review"), dict) else {}
+                return resolved, (review_payload if isinstance(review_payload, dict) else {})
+    return None, {}
 
 
 def serialize_review(result: dict[str, Any], *, route_mode: str, seed_label: str) -> dict[str, Any]:
@@ -303,25 +439,42 @@ def process_manifest(
     write_changes: bool,
     review_mode: str,
     review_version: str,
+    score_only: bool,
+    seeds_by_id: dict[str, Any],
+    portfolio_by_job_id: dict[str, dict[str, Any]],
+    portfolio_by_seed_id: dict[str, list[dict[str, Any]]],
+    portfolio_by_seed_label: dict[str, list[dict[str, Any]]],
 ) -> dict[str, Any]:
     manifest = load_json(manifest_path)
-    resume_path = Path(str(manifest.get("resume_md", "") or "")).expanduser()
+    resume_path = _resolve_existing_resume_path(str(manifest.get("resume_md", "") or ""))
+    source_prior_review: dict[str, Any] = {}
+    if resume_path is None and str(manifest.get("route_mode", "") or "").strip() == "reuse":
+        resume_path, source_prior_review = _resolve_reuse_resume_path(
+            manifest,
+            seeds_by_id=seeds_by_id,
+            portfolio_by_job_id=portfolio_by_job_id,
+            portfolio_by_seed_id=portfolio_by_seed_id,
+            portfolio_by_seed_label=portfolio_by_seed_label,
+        )
     job_md_path = Path(str(manifest.get("job_md", "") or "")).expanduser()
     review_path = manifest_path.parent / "review.json"
     prior_review = load_json(review_path) if review_path.exists() else {}
+    effective_prior_review = prior_review if _has_review_signal(prior_review) else source_prior_review
+    previous_final_score = float(
+        effective_prior_review.get("final_score", effective_prior_review.get("weighted_score", 0.0)) or 0.0
+    )
+    previous_verdict = str(effective_prior_review.get("verdict", effective_prior_review.get("overall_verdict", "")) or "")
 
-    if not resume_path.is_absolute():
-        resume_path = (ROOT / resume_path).resolve()
     if not job_md_path.is_absolute():
         job_md_path = (ROOT / job_md_path).resolve()
 
-    if not resume_path.exists() or not job_md_path.exists():
+    if resume_path is None or not job_md_path.exists():
         return {
             "artifact": str(manifest_path.parent),
             "status": "missing_input",
             "revised": False,
-            "score_before": float(prior_review.get("final_score", 0.0) or 0.0),
-            "score_after": float(prior_review.get("final_score", 0.0) or 0.0),
+            "score_before": previous_final_score,
+            "score_after": previous_final_score,
         }
 
     jd_text = job_md_path.read_text(encoding="utf-8")
@@ -340,7 +493,7 @@ def process_manifest(
     review_rounds = 0
     revised = False
 
-    while not review.passed and review.needs_revision and review_rounds < MAX_REVISIONS:
+    while not score_only and not review.passed and review.needs_revision and review_rounds < MAX_REVISIONS:
         review_rounds += 1
         rewrite_review = review_once(reviewer=reviewer, resume_md=current_resume_md, jd=jd, review_mode="rewrite")
         prompt = build_upgrade_revision_prompt(
@@ -393,7 +546,7 @@ def process_manifest(
 
     issues_after = audit_resume_markdown(current_resume_md)
     rereviewed_at = datetime.now().isoformat(timespec="seconds")
-    content_changed = current_resume_md != original_resume_md
+    content_changed = (current_resume_md != original_resume_md) if not score_only else False
     result = {
         "resume_markdown": current_resume_md,
         "review": review,
@@ -419,8 +572,8 @@ def process_manifest(
             "normalized_before_review": normalized_before_review,
             "normalize_changes": normalize_changes,
             "deterministic_issue_codes_after": [issue.code for issue in issues_after],
-            "previous_final_score": float(prior_review.get("final_score", prior_review.get("weighted_score", 0.0)) or 0.0),
-            "previous_verdict": str(prior_review.get("verdict", prior_review.get("overall_verdict", "")) or ""),
+            "previous_final_score": previous_final_score,
+            "previous_verdict": previous_verdict,
         }
     )
 
@@ -435,7 +588,7 @@ def process_manifest(
     manifest["review_verdict"] = str(review_payload.get("verdict", "") or "")
 
     if write_changes:
-        if current_resume_md != original_resume_md:
+        if not score_only and current_resume_md != original_resume_md:
             resume_path.write_text(current_resume_md, encoding="utf-8")
         write_json(review_path, review_payload)
         write_json(manifest_path, manifest)
@@ -508,6 +661,17 @@ def main() -> None:
     parser.add_argument("--llm-transport", default=None)
     parser.add_argument("--review-mode", default="full", choices=["compact", "full"])
     parser.add_argument(
+        "--route-mode",
+        default="all",
+        choices=["all", "reuse", "retarget", "new_seed"],
+        help="Filter manifests by route_mode. Default is all.",
+    )
+    parser.add_argument(
+        "--score-only",
+        action="store_true",
+        help="Only re-score resumes and write back review payloads; do not attempt rewrite or modify resume.md.",
+    )
+    parser.add_argument(
         "--source-scope",
         default="legacy_only",
         choices=["legacy_only", "unified_only", "all"],
@@ -540,6 +704,12 @@ def main() -> None:
     )
 
     portfolio_root = Path(args.portfolio_root).expanduser().resolve()
+    portfolio_index_path = portfolio_root / "portfolio_index.json"
+    portfolio_records = load_json(portfolio_index_path) if portfolio_index_path.exists() else []
+    portfolio_by_job_id, portfolio_by_seed_id, portfolio_by_seed_label = _index_portfolio_records(
+        portfolio_records if isinstance(portfolio_records, list) else []
+    )
+    seeds_by_id = {seed.seed_id: seed for seed in load_seed_registry(include_promoted=True)}
     company_tiers = _normalize_company_tiers(args.company_tiers)
     publish_date, publish_date_from, publish_date_to = _resolve_publish_date_filters(args)
     manifests = sorted(
@@ -562,7 +732,11 @@ def main() -> None:
         path
         for path in manifests
         if (
-            (lambda manifest: _matches_source_scope(manifest, args.source_scope) and _matches_status_scope(manifest, args.status_scope))(
+            (
+                lambda manifest: _matches_source_scope(manifest, args.source_scope)
+                and _matches_status_scope(manifest, args.status_scope)
+                and _matches_route_mode(manifest, args.route_mode)
+            )(
                 load_json(path)
             )
         )
@@ -614,6 +788,11 @@ def main() -> None:
                 write_changes=not args.dry_run,
                 review_mode=args.review_mode,
                 review_version=str(args.review_version or REREVIEW_VERSION),
+                score_only=bool(args.score_only),
+                seeds_by_id=seeds_by_id,
+                portfolio_by_job_id=portfolio_by_job_id,
+                portfolio_by_seed_id=portfolio_by_seed_id,
+                portfolio_by_seed_label=portfolio_by_seed_label,
             )
             summary["processed"] += 1
             summary["revised"] += int(bool(result.get("revised")))

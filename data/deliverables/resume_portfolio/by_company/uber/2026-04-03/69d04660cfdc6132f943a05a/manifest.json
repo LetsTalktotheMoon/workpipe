@@ -32,7 +32,86 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-06T22:00:50",
-  "review": {},
+  "review": {
+    "weighted_score": 84.8,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "补齐 Uber JD 的缺口：在正文中明确写出 `NoSQL`、`Redis`、`C++` 的真实使用证据，而不是只放在技能区。",
+      "把 Skills 重新组织成更清晰的后端/数据/存储分组，让必须技术在首屏可见且可被 ATS 稳定命中。",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.0,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 6.1,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.6,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 8.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r6_competitiveness": {
+        "score": 8.8,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 84.8,
+    "verdict": "pending",
+    "seed_label": "PayPal Java Backend",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "保留现有不可变经历字段不变，只重写可编辑内容。1) 在 `## Skills` 中新增或调整一个明确的存储/系统类目，把 `NoSQL`、`Redis`、`C++`、`Kafka`、`SQL`、`Java`、`Go`、`Python` 放到同一组更适合 backend SWE 的层级里；不要把必需技术只留在 skills 里。2) 在最相关的工作经历里补 1 条真实可验证的正文 bullet：用一条 bullet 说明你如何在团队维护的服务里接入或优化 `Redis`，再用一条 bullet 说明 `NoSQL` 数据存储/访问模式，另一条 bullet 说明 `C++` 模块或组件的实际参与范围和业务结果；如果这些技术确实不在原始素材里，这份简历不能用当前教学示例直接通过 Uber JD。3) 继续保留当前强项叙事，但把最强的 backend/system 信号前置到 Summary 和每个相关经历的前两条 bullet 中，确保招聘方一眼看到的是 backend application design/development/testing，而不是偏数据分析的旧骨架。",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:32:23",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [
+      "skills_category_weak_label"
+    ],
+    "previous_final_score": 96.8,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -45,13 +124,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:32:23",
   "rereview_rounds": 0,
   "rereview_revised": false,
   "rewrite_adopted": false,
   "content_changed": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "review_final_score": 84.8,
+  "review_verdict": "pending",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

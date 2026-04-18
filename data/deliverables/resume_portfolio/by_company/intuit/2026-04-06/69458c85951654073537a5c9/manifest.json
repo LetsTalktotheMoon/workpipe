@@ -32,7 +32,84 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-07T01:52:37",
-  "review": {},
+  "review": {
+    "weighted_score": 80.8,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "Add explicit Linux, NLP, and R evidence in the body and mirror it in Skills without deleting any existing must-have technologies.",
+      "Rewrite the Summary opening so it leads with Senior AI Scientist signal instead of degree status.",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.7,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 4.2,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 3
+      },
+      "r3_overqualification": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.3,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.8,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 80.8,
+    "verdict": "pending",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "Rework the resume with a narrow, evidence-first rewrite: 1) In Professional Summary sentence 1, lead with ML/ETL/NLP/Spark/SQL retrieval or ranking capability and move the M.S. status to the tail clause or Education. 2) In Skills, add Linux and R only after they are backed by body evidence, and keep NLP as an explicit skill only if you add a matching NLP bullet. 3) Rewrite one Temu bullet into a true NLP modeling/evaluation bullet and add one Linux-based execution or debugging detail in TikTok or DiDi so the JD must-haves are visible in the body. 4) If R was actually used in coursework, research, or analysis, add one explicit R bullet and mirror it in Skills; otherwise this resume still cannot satisfy the JD as written. 5) Remove bold emphasis from modifiers such as team-maintained and similar adjectives; keep bold only for technologies, metrics, and named artifacts.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:35:21",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.3,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -45,11 +122,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:35:21",
   "rereview_rounds": 0,
   "rereview_revised": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
-  "reset_to_reuse_at": "2026-04-09T11:54:15"
+  "review_final_score": 80.8,
+  "review_verdict": "pending",
+  "reset_to_reuse_at": "2026-04-09T11:54:15",
+  "rewrite_adopted": false,
+  "content_changed": false
 }

@@ -36,13 +36,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
-        "etl",
+        "a/b testing",
+        "embedded",
         "github actions",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -134,13 +134,13 @@
         "sql"
       ],
       "core_stack": [
-        "code review",
-        "docker",
-        "etl",
+        "a/b testing",
+        "design review",
         "flask",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "llm",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -228,13 +228,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
-        "etl",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "aws",
+        "aws bedrock",
+        "embedded",
+        "hive",
+        "kafka",
+        "machine learning",
+        "rest api",
         "sql"
       ],
       "domains": [
@@ -326,13 +326,13 @@
         "typescript"
       ],
       "core_stack": [
-        "docker",
-        "etl",
+        "a/b testing",
         "flask",
         "github actions",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -423,13 +423,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
-        "etl",
+        "a/b testing",
+        "embedded",
         "flask",
         "github actions",
-        "java",
-        "kubernetes",
+        "hive",
+        "kafka",
+        "linux",
         "sql"
       ],
       "domains": [
@@ -518,13 +518,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
-        "embedded systems",
+        "a/b testing",
         "flask",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "llm",
+        "machine learning",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -612,13 +612,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
+        "a/b testing",
+        "algorithms",
         "github actions",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "llm",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -705,13 +705,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
+        "aws",
         "gcp",
-        "java",
+        "hive",
         "jenkins",
-        "kubernetes",
-        "spring",
+        "rest api",
+        "s3",
+        "spring boot",
         "sql"
       ],
       "domains": [
@@ -796,13 +796,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
+        "a/b testing",
         "flask",
         "github actions",
-        "java",
+        "hive",
         "jenkins",
-        "nosql",
-        "spring",
+        "kafka",
+        "spring boot",
         "sql"
       ],
       "domains": [
@@ -884,13 +884,13 @@
         "tdd"
       ],
       "core_stack": [
-        "code review",
-        "docker",
+        "agile",
+        "aws",
         "github actions",
-        "java",
+        "hive",
         "jenkins",
-        "nosql",
-        "redis",
+        "kafka",
+        "scrum",
         "sql"
       ],
       "domains": [
@@ -973,14 +973,14 @@
         "vue"
       ],
       "core_stack": [
-        "ci/cd",
-        "docker",
+        "agile",
         "gcp",
-        "kubernetes",
-        "microservices",
-        "mysql",
-        "nosql",
-        "sql"
+        "node.js",
+        "rest api",
+        "scala",
+        "scrum",
+        "sql",
+        "system design"
       ],
       "domains": [
         "ai",
@@ -1065,13 +1065,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
-        "go",
-        "java",
-        "kubernetes",
+        "aws",
+        "aws bedrock",
+        "hive",
+        "kafka",
         "linux",
-        "redis",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -1155,13 +1155,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
+        "aws",
         "flask",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
+        "scala",
         "sql"
       ],
       "domains": [
@@ -1239,13 +1239,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
+        "aws",
+        "aws bedrock",
         "flask",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "grpc",
+        "hive",
+        "kafka",
+        "rest api",
         "sql"
       ],
       "domains": [
@@ -1336,13 +1336,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
+        "a/b testing",
         "github actions",
-        "java",
-        "kubernetes",
-        "model deployment",
-        "redis",
+        "hive",
+        "kafka",
+        "llm",
+        "machine learning",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -1435,13 +1435,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
-        "etl",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "a/b testing",
+        "algorithms",
+        "aws",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -1538,12 +1538,12 @@
         "typescript"
       ],
       "core_stack": [
-        "docker",
+        "a/b testing",
+        "algorithms",
         "flask",
         "github actions",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "s3",
         "software test engineering",
         "sql"
       ],
@@ -1634,13 +1634,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
+        "algorithms",
+        "embedded",
         "flask",
-        "java",
-        "kubernetes",
-        "model deployment",
-        "redis",
+        "hive",
+        "kafka",
+        "machine learning",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -1728,13 +1728,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
+        "aws",
         "flask",
         "github actions",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -1829,13 +1829,13 @@
         "tensorflow"
       ],
       "core_stack": [
-        "docker",
+        "a/b testing",
         "flask",
         "gcp",
         "github actions",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "llm",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -1919,13 +1919,13 @@
         "sql"
       ],
       "core_stack": [
-        "code review",
-        "docker",
-        "go",
-        "kubernetes",
-        "postgresql",
+        "agile",
+        "aws",
+        "grpc",
+        "hive",
+        "kafka",
+        "scala",
         "snowflake",
-        "spark sql",
         "sql"
       ],
       "domains": [
@@ -2006,13 +2006,13 @@
         "typescript"
       ],
       "core_stack": [
-        "airflow",
-        "docker",
+        "algorithms",
+        "ansible",
         "github actions",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -2098,13 +2098,13 @@
         "tdd"
       ],
       "core_stack": [
-        "docker",
+        "a/b testing",
         "flask",
         "github actions",
-        "java",
+        "hive",
         "jenkins",
-        "nosql",
-        "redis",
+        "kafka",
+        "linux",
         "sql"
       ],
       "domains": [
@@ -2198,13 +2198,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
-        "go",
-        "java",
-        "kubernetes",
-        "rag",
-        "redis",
+        "a/b testing",
+        "aws",
+        "hive",
+        "kafka",
+        "llm",
+        "machine learning",
+        "rest api",
         "sql"
       ],
       "domains": [
@@ -2292,13 +2292,13 @@
         "tdd"
       ],
       "core_stack": [
-        "docker",
+        "a/b testing",
+        "aws",
         "flask",
         "github actions",
-        "java",
-        "kubernetes",
-        "playwright",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
         "sql"
       ],
       "domains": [
@@ -2382,13 +2382,13 @@
         "typescript"
       ],
       "core_stack": [
-        "c++",
-        "docker",
+        "a/b testing",
         "flask",
         "github actions",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -2472,13 +2472,13 @@
         "sql"
       ],
       "core_stack": [
-        "c++",
-        "docker",
-        "etl",
+        "c#",
         "flask",
         "github actions",
-        "java",
-        "kubernetes",
+        "hive",
+        "kafka",
+        "llm",
+        "rest api",
         "sql"
       ],
       "domains": [
@@ -2569,13 +2569,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
-        "java",
-        "kubernetes",
-        "nosql",
-        "redis",
-        "spring",
+        "a/b testing",
+        "algorithms",
+        "aws",
+        "cassandra",
+        "hive",
+        "kafka",
+        "spring boot",
         "sql"
       ],
       "domains": [
@@ -2662,13 +2662,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
         "flask",
         "github actions",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
+        "scala",
         "sql"
       ],
       "domains": [
@@ -2748,13 +2748,13 @@
         "sql"
       ],
       "core_stack": [
-        "airflow",
-        "docker",
+        "a/b testing",
         "flask",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "kafka",
+        "machine learning",
+        "python",
+        "rest api",
+        "scala",
         "sql"
       ],
       "domains": [
@@ -2829,13 +2829,13 @@
         "typescript"
       ],
       "core_stack": [
-        "docker",
-        "etl",
         "flask",
         "github actions",
-        "go",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
+        "scala",
         "sql"
       ],
       "domains": [
@@ -2916,14 +2916,14 @@
         "typescript"
       ],
       "core_stack": [
-        "docker",
+        "a/b testing",
         "flask",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
-        "spark sql",
-        "sql"
+        "grpc",
+        "hive",
+        "kafka",
+        "rest api",
+        "sql",
+        "tailwind"
       ],
       "domains": [
         "ads",
@@ -3012,13 +3012,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
+        "a/b testing",
         "flask",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "networking",
+        "s3",
+        "snowflake",
         "sql"
       ],
       "domains": [
@@ -3106,13 +3106,13 @@
         "unit testing"
       ],
       "core_stack": [
-        "docker",
+        "aws",
+        "c#",
         "flask",
         "github actions",
-        "go",
-        "html",
-        "kubernetes",
-        "spark sql",
+        "hive",
+        "kafka",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -3193,13 +3193,13 @@
         "system design"
       ],
       "core_stack": [
-        "airflow",
-        "docker",
+        "a/b testing",
         "github actions",
-        "go",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
+        "scala",
         "sql"
       ],
       "domains": [
@@ -3282,13 +3282,13 @@
         "terraform"
       ],
       "core_stack": [
-        "airflow",
-        "docker",
+        "aws",
         "gcp",
-        "go",
-        "kubernetes",
-        "rag",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
+        "scala",
         "sql"
       ],
       "domains": [
@@ -3374,13 +3374,13 @@
         "tensorflow"
       ],
       "core_stack": [
-        "docker",
-        "etl",
+        "aws",
         "flask",
         "github actions",
-        "java",
-        "kubernetes",
-        "redis",
+        "hive",
+        "kafka",
+        "rest api",
+        "s3",
         "sql"
       ],
       "domains": [
@@ -3460,13 +3460,13 @@
         "sql"
       ],
       "core_stack": [
-        "docker",
-        "etl",
+        "a/b testing",
+        "aws",
         "flask",
-        "java",
+        "graphql",
+        "hive",
         "jenkins",
-        "kubernetes",
-        "redis",
+        "kafka",
         "sql"
       ],
       "domains": [

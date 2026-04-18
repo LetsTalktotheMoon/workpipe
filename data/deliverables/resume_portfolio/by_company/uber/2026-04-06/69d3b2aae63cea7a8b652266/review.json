@@ -1,0 +1,80 @@
+{
+  "weighted_score": 78.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 1,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add truthful body evidence for Uber must-haves `NoSQL`, `C++`, and `Redis`; without them the resume cannot clear ATS for this JD.",
+    "Rewrite the summary to lead with backend ownership and remove bolding from qualifier words across the experience bullets.",
+    "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.5,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 8.4,
+      "weight": 0.15,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 4.8,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 8.8,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 8.1,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r5_logic": {
+      "score": 8.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 2
+    },
+    "r6_competitiveness": {
+      "score": 8.6,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 78.5,
+  "verdict": "pending",
+  "seed_label": "PayPal Java Backend",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Keep the immutable company/title/date/location lines unchanged. Rewrite the top of the resume to be backend-first: keep the 3-line summary format, but make line 1 a direct `Java`/`Go`/`Kafka`/`SQL` backend headline, line 2 a concise platform/data proof, and line 3 the Go 2-dan systems line. Add truthful in-body evidence for `NoSQL`, `C++`, and `Redis` in the most relevant TikTok or DiDi bullets and mirror them in Skills; without those technologies, the resume is not a valid Uber swe_backend sample. Remove bold from qualifier words such as `team-maintained`, `existing`, `internal`, and `team-owned`, and regroup Skills into clearer recruiter-facing buckets such as `Backend`, `Data Platform`, `Infrastructure`, and `Analytics`.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:31:11",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [
+    "skills_category_weak_label"
+  ],
+  "previous_final_score": 96.8,
+  "previous_verdict": "pass"
+}

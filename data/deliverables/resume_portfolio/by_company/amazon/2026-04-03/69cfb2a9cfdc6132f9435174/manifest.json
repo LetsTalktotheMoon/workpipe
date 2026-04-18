@@ -21,7 +21,86 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T14:00:55",
-  "review": {},
+  "review": {
+    "weighted_score": 74.4,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 2,
+    "needs_revision": true,
+    "revision_priority": [
+      "Rewrite the Professional Summary into the required 3-sentence bold-header format and put the Amazon-relevant backend/selection bridge in sentence 1.",
+      "Split the Skills section into shorter, correctly named buckets and keep every line under the hard word limit.",
+      "Rename vague skills buckets into functional categories that a recruiter can parse quickly."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 4.5,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 7.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 7.2,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 8.2,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r6_competitiveness": {
+        "score": 8.0,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 74.4,
+    "verdict": "pending",
+    "seed_label": "Magnite SDET",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "1) Leave all immutable job-history lines unchanged: TikTok must remain `Software Engineer Intern | TikTok · Security | Jun 2025 – Dec 2025 | San Jose, USA`; DiDi and Temu must also stay exact.\n2) Replace the current `## Professional Summary` bullets with exactly 3 full sentences, each starting with a bold header in the form `**Header:** ...` and ending with a period.\n3) Make sentence 1 the strongest role-aligned signal: backend/distributed-systems correctness, Java/Python/Go, and high-volume workflow validation; bring the closest Amazon-relevant bridge to the front.\n4) Make sentence 2 cover automation and delivery depth: Playwright, Pytest, CI/CD, Docker, Kubernetes, GitHub Actions, and GitLab CI.\n5) Keep sentence 3 as the Go 2-dan pattern-recognition line, but use a high-value cognitive header such as pattern recognition, decision-making, or systems judgment.\n6) Rebuild `## Skills` into narrower, semantically correct buckets so each line stays under 14 words; if necessary, use 5 buckets to satisfy the hard limit.\n7) Rename `APIs` to something accurate like `Testing`, `Delivery`, or `Tooling`; if `Cloud` still mixes infra and data stores, split it further or rename it to `Infra`.\n8) Do not delete any skill that already has bullet evidence; instead redistribute the same technologies across shorter lines.\n9) If you want Amazon Specialized Selection to feel credible, reframe one DiDi or Temu bullet toward marketplace/selection/routing/operational decisioning, but only with language that is already supported by the existing work.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T11:26:57",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [
+      "skills_category_weak_label"
+    ],
+    "previous_final_score": 96.5,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -34,11 +113,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T11:26:57",
   "rereview_rounds": 0,
   "rereview_revised": false,
-  "review_final_score": 0.0,
-  "review_verdict": "",
-  "reset_to_reuse_at": "2026-04-09T11:54:15"
+  "review_final_score": 74.4,
+  "review_verdict": "pending",
+  "reset_to_reuse_at": "2026-04-09T11:54:15",
+  "rewrite_adopted": false,
+  "content_changed": false
 }

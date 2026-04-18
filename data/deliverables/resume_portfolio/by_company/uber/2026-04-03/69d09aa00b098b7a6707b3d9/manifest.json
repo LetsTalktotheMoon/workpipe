@@ -30,7 +30,84 @@
   "artifact_dir": "",
   "by_date_link": "",
   "generated_at": "2026-04-05T18:28:29",
-  "review": {},
+  "review": {
+    "weighted_score": 92.6,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "把 Summary 第1句改成以 marketplace pricing/incentives 与 experimentation 为主线，而不是以 `Applied Scientist Candidate` 开头。",
+      "在 DiDi 或 Temu 中补一条最直接的 subsidy/coupon/campaign-rule 业务证据，把 JD 的 pricing & incentives 关联显性化。",
+      "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.1,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 92.6,
+    "verdict": "pending",
+    "seed_label": "ByteDance ML Grad",
+    "route_mode": "reuse",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "- [MEDIUM] jd_must_have_body_evidence_missing: Keep the JD must-have skill, but add concrete usage evidence in the most relevant experience or project bullet.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-16T10:41:01",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 96.3,
+    "previous_verdict": "pass"
+  },
   "subseed_ids": [],
   "subseed_labels": [],
   "primary_subseed_id": "",
@@ -43,13 +120,13 @@
   "repair_changes": [],
   "repair_issue_codes_before": [],
   "repair_issue_codes_after": [],
-  "rereview_version": "",
-  "rereviewed_at": "",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:41:01",
   "rereview_rounds": 0,
   "rereview_revised": false,
-  "rewrite_adopted": true,
-  "content_changed": true,
-  "review_final_score": 0.0,
-  "review_verdict": "",
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "review_final_score": 92.6,
+  "review_verdict": "pending",
   "reset_to_reuse_at": "2026-04-09T11:54:15"
 }

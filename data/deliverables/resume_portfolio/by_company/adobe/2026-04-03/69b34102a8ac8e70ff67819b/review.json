@@ -1,0 +1,77 @@
+{
+  "weighted_score": 80.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 2,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add Scala evidence in the most relevant backend or data-pipeline bullet and reflect it in Skills.",
+    "Rewrite the Professional Summary into exactly 3 headered sentences that foreground LLM, Python, and Scala before the transition story."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 9.6,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 6.8,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r2_jd_fitness": {
+      "score": 6.6,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r3_overqualification": {
+      "score": 9.2,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 7.5,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.4,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 1
+    },
+    "r6_competitiveness": {
+      "score": 8.5,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 80.5,
+  "verdict": "pending",
+  "seed_label": "LinkedIn MLE Foundation",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": false,
+  "revision_instructions": "Keep all immutable fields unchanged, and keep the three experience entries plus two project subsections. First, rewrite `Professional Summary` into exactly 3 full sentences, each starting with a bold header. Use a role-aligned first sentence such as `**ML Systems:** ...` that foregrounds LLM, Python, Scala, and production backend/retrieval work. Use the third sentence for `**Pattern Recognition:**` and keep the Go achievement line there. Remove the current bullet-list formatting and remove the phrase `transitioning from data analytics` from the lead sentence. Second, add Scala as an evidenced skill by rewriting one relevant bullet in either TikTok, DiDi, or Temu so Scala is explicitly named in the implementation stack; the best place is the DiDi ETL or backend bullet, or a Temu Spark-related pipeline bullet if that is truer to the story. After that, add Scala to `## Skills` only if the body now supports it. Third, clean up bolding so only technical nouns, metrics, and proper names are bolded; remove bold from modifiers like `team-maintained`, `internal`, and any similar filler adjectives. Fourth, fix the malformed `6 week**ly**` text to `6 weekly`. Keep the achievement line exactly in the required format and preserve the current chronology and company/title/date/location anchors.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:53:18",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": false,
+  "normalize_changes": [
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 94.3,
+  "previous_verdict": "pass"
+}

@@ -30,10 +30,10 @@
 - [NICE] Keep Skills as-is unless you need to trim secondary tools after the rewrite.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-microsoft/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-microsoft/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-microsoft/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-microsoft/codex.json`
+- Prompt: `same-microsoft/prompt.txt`
+- Metadata: `same-microsoft/metadata.json`
+- 原始输出: `same-microsoft/codex.raw.txt`
+- JSON: `same-microsoft/codex.json`
 
 ## same/Google
 
@@ -50,10 +50,10 @@
 - [SHOULD] 把第一屏最强的数字和 scope 信号加粗，同时去掉 `team-maintained`、`existing`、`internal` 这类修饰语的加粗。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-google/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-google/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-google/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-google/codex.json`
+- Prompt: `same-google/prompt.txt`
+- Metadata: `same-google/metadata.json`
+- 原始输出: `same-google/codex.raw.txt`
+- JSON: `same-google/codex.json`
 
 ## same/Amazon
 
@@ -70,10 +70,10 @@
 - [SHOULD] 给 TikTok 最新经历补一个 Tier1 规模锚点，提升量化可信度。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-amazon/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-amazon/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-amazon/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-amazon/codex.json`
+- Prompt: `same-amazon/prompt.txt`
+- Metadata: `same-amazon/metadata.json`
+- 原始输出: `same-amazon/codex.raw.txt`
+- JSON: `same-amazon/codex.json`
 
 ## same/AWS
 
@@ -89,10 +89,10 @@
 - [NICE] Keep the rest of the structure; it already maps well to the AWS backend brief.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-aws/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-aws/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-aws/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/same-aws/codex.json`
+- Prompt: `same-aws/prompt.txt`
+- Metadata: `same-aws/metadata.json`
+- 原始输出: `same-aws/codex.raw.txt`
+- JSON: `same-aws/codex.json`
 
 ## extra/Dataminr-Infra
 
@@ -109,10 +109,10 @@
 - [NICE] If you want a stronger first-screen bridge to Dataminr, mention event-driven or risk/alerting context once in the Summary.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-dataminr-infra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-dataminr-infra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-dataminr-infra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-dataminr-infra/codex.json`
+- Prompt: `extra-dataminr-infra/prompt.txt`
+- Metadata: `extra-dataminr-infra/metadata.json`
+- 原始输出: `extra-dataminr-infra/codex.raw.txt`
+- JSON: `extra-dataminr-infra/codex.json`
 
 ## extra/Zoox-LLM
 
@@ -129,10 +129,10 @@
 - [NICE] Use ownership/boundary bolding consistently only where it clarifies scope.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-zoox-llm/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-zoox-llm/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-zoox-llm/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-zoox-llm/codex.json`
+- Prompt: `extra-zoox-llm/prompt.txt`
+- Metadata: `extra-zoox-llm/metadata.json`
+- 原始输出: `extra-zoox-llm/codex.raw.txt`
+- JSON: `extra-zoox-llm/codex.json`
 
 ## extra/Synechron-Backend
 
@@ -145,10 +145,10 @@
 ### 优先修改项
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-synechron-backend/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-synechron-backend/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-synechron-backend/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-synechron-backend/codex.json`
+- Prompt: `extra-synechron-backend/prompt.txt`
+- Metadata: `extra-synechron-backend/metadata.json`
+- 原始输出: `extra-synechron-backend/codex.raw.txt`
+- JSON: `extra-synechron-backend/codex.json`
 
 ## extra/CapitalOne-AI
 
@@ -165,10 +165,10 @@
 - [SHOULD] 增加一条面向 Card Services 的迁移桥接，把 security / ops / reconciliation 经验翻成金融分析语境。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-capitalone-ai/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-capitalone-ai/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-capitalone-ai/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-capitalone-ai/codex.json`
+- Prompt: `extra-capitalone-ai/prompt.txt`
+- Metadata: `extra-capitalone-ai/metadata.json`
+- 原始输出: `extra-capitalone-ai/codex.raw.txt`
+- JSON: `extra-capitalone-ai/codex.json`
 
 ## extra/Ramp-Platform
 
@@ -181,10 +181,10 @@
 ### 优先修改项
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-ramp-platform/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-ramp-platform/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-ramp-platform/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-ramp-platform/codex.json`
+- Prompt: `extra-ramp-platform/prompt.txt`
+- Metadata: `extra-ramp-platform/metadata.json`
+- 原始输出: `extra-ramp-platform/codex.raw.txt`
+- JSON: `extra-ramp-platform/codex.json`
 
 ## extra/HealthEquity-DotNet
 
@@ -201,7 +201,7 @@
 - [NICE] 把 `APIs` 这种泛分类改成更具体、更适合 6-8 秒扫读的技能分组。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-healthequity-dotnet/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-healthequity-dotnet/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-healthequity-dotnet/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-combined_20260417_202500_000000/extra-healthequity-dotnet/codex.json`
+- Prompt: `extra-healthequity-dotnet/prompt.txt`
+- Metadata: `extra-healthequity-dotnet/metadata.json`
+- 原始输出: `extra-healthequity-dotnet/codex.raw.txt`
+- JSON: `extra-healthequity-dotnet/codex.json`

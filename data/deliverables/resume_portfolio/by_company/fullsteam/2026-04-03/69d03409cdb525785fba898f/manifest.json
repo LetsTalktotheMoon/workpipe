@@ -28,11 +28,11 @@
     "seed_source_job_id": "69cda26c398fb071abf7a98d"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d03409cdb525785fba898f/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d03409cdb525785fba898f/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d03409cdb525785fba898f/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d03409cdb525785fba898f",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d03409cdb525785fba898f",
+  "job_md": "data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d03409cdb525785fba898f/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d03409cdb525785fba898f",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/fullsteam/2026-04-03/69d03409cdb525785fba898f",
   "generated_at": "2026-04-06T22:39:19",
   "review": {
     "weighted_score": 95.8,

@@ -26,11 +26,11 @@
     "seed_source_job_id": "69cf1ae8cdb525785fb9ec17"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69b4e6033b74eb1e2c825a6c",
+  "job_md": "data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/openai/2026-04-04/69b4e6033b74eb1e2c825a6c",
   "generated_at": "2026-04-07T01:22:19",
   "review": {
     "weighted_score": 94.4,

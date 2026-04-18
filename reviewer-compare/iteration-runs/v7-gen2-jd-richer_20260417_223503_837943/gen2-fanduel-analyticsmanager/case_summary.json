@@ -17,10 +17,10 @@
       "Tableau",
       "Spark"
     ],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/review.json",
     "historical": {},
     "portfolio_review": {
       "weighted_score": 95.4,

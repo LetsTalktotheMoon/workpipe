@@ -16,6 +16,8 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
 
+from repo_paths import repo_relative_path, resolve_repo_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
@@ -306,7 +308,7 @@ def _resume_dir_from_portfolio(record: dict[str, Any]) -> str:
         return artifact_dir
     resume_md = str(record.get("resume_md", "") or "").strip()
     if resume_md:
-        return str(Path(resume_md).expanduser().resolve().parent)
+        return repo_relative_path(resolve_repo_path(resume_md).parent)
     return ""
 
 
@@ -414,7 +416,7 @@ def _normalized_review_status(record: dict[str, Any] | None) -> dict[str, Any]:
 def _read_sheet_row(record: dict[str, Any]) -> dict[str, Any]:
     artifact_dir = str(record.get("artifact_dir", "") or "").strip()
     if artifact_dir:
-        sheet_row_path = Path(artifact_dir) / "sheet_row.json"
+        sheet_row_path = resolve_repo_path(artifact_dir) / "sheet_row.json"
         payload = _load_json(sheet_row_path, {})
         if isinstance(payload, dict):
             return payload

@@ -5,7 +5,7 @@
 ## 最重要的结论
 
 - 我现在最推荐的版本是 `v10 等价证据版，也是最终推荐版`。
-- 它对应的文件是 [Reviewer_4Stage.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v10_equiv_evidence/Reviewer_4Stage.md) 和 [Reviewer_Cal.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v10_equiv_evidence/Reviewer_Cal.py)。
+- 它对应的文件是 [Reviewer_4Stage.md](iterations/v10_equiv_evidence/Reviewer_4Stage.md) 和 [Reviewer_Cal.py](iterations/v10_equiv_evidence/Reviewer_Cal.py)。
 - 它不是因为“分数最高”才被推荐，而是因为它最接近真实 HR 首筛：能抓住真硬伤，又不会随便被几个技术词带偏。
 - 它在修订后的主基准 20 个 case 上是 `20/20`，在修订后的外部确认 10 个 case 上是 `9/10`。
 - 我没有继续追 `v11`，因为只剩 1 个高争议边界 case；再为它放松，过拟合风险大于收益。
@@ -199,7 +199,7 @@
 
 ## 你最该看哪两个文件
 
-- 白话说明版：[reviewer_pipe_plain_language_zh_2026-04-18.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/reviewer_pipe_plain_language_zh_2026-04-18.md)
-- 30 case 全量大表：[reviewer_pipe_version_tables_30cases_zh_2026-04-18.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/reviewer_pipe_version_tables_30cases_zh_2026-04-18.md)
+- 白话说明版：[reviewer_pipe_plain_language_zh_2026-04-18.md](reviewer_pipe_plain_language_zh_2026-04-18.md)
+- 30 case 全量大表：[reviewer_pipe_version_tables_30cases_zh_2026-04-18.md](reviewer_pipe_version_tables_30cases_zh_2026-04-18.md)
 
 如果你想快速看结论，就看这份白话版；如果你想逐案核分，就看后面的全量大表。

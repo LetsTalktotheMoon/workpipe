@@ -9,6 +9,8 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
+from repo_paths import repo_relative_path, resolve_repo_path
+
 ROOT = Path(__file__).resolve().parents[2]
 RUNTIME_ROOT = ROOT / "runtime"
 if str(RUNTIME_ROOT) not in sys.path:
@@ -71,7 +73,7 @@ def _existing_resume_anchor(candidates: list[dict | None]) -> dict | None:
         if not candidate:
             continue
         resume_path = str(candidate.get("resume_path", "") or "")
-        if resume_path and Path(resume_path).exists():
+        if resume_path and resolve_repo_path(resume_path).exists():
             return candidate
     return None
 
@@ -305,7 +307,7 @@ def _run_new_dual_channel_planner(
         + list(selector_payload.get("semantic_positive_cluster", []))
         + list(selector_payload.get("semantic_top_k", []))
     )
-    starter_resume_md = Path(primary_anchor["resume_path"]).read_text(encoding="utf-8") if primary_anchor else ""
+    starter_resume_md = resolve_repo_path(primary_anchor["resume_path"]).read_text(encoding="utf-8") if primary_anchor else ""
     planner_payload, planner_prompt_tokens, planner_output_tokens = _plan_flow(
         jd=jd,
         mode="new_dual_channel",
@@ -420,7 +422,7 @@ def _historical_flow_from_old_report(job_id: str, mode: str, old_report: dict[st
 
 
 def _historical_manifest_snapshot(artifact_dir: str | Path) -> dict[str, Any]:
-    manifest = json.loads((Path(artifact_dir) / "manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((resolve_repo_path(artifact_dir) / "manifest.json").read_text(encoding="utf-8"))
     return {
         "job_id": manifest.get("job_id", ""),
         "company_name": manifest.get("company_name", ""),
@@ -435,7 +437,7 @@ def _historical_manifest_snapshot(artifact_dir: str | Path) -> dict[str, Any]:
 
 
 def _portfolio_case(artifact_dir: str | Path, selector: StarterSelector) -> dict[str, Any]:
-    artifact_dir = Path(artifact_dir)
+    artifact_dir = resolve_repo_path(artifact_dir)
     manifest = json.loads((artifact_dir / "manifest.json").read_text(encoding="utf-8"))
     jd_text = (artifact_dir / "job.md").read_text(encoding="utf-8")
     selector_payload = selector.select_by_job_id(str(manifest["job_id"]), top_k=3).to_dict()
@@ -558,7 +560,7 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Run planner-first validation for no-starter and dual-channel flows.")
-    parser.add_argument("--output-dir", default=str(ROOT / "output" / "analysis"))
+    parser.add_argument("--output-dir", default="output/analysis")
     parser.add_argument("--llm-transport", default="cli")
     parser.add_argument("--write-model", default="gpt-5.4")
     parser.add_argument("--review-model", default="gpt-5.4-mini")
@@ -574,7 +576,7 @@ def main() -> None:
     print(
         json.dumps(
             {
-                "report": str(Path(args.output_dir).expanduser().resolve() / "match_pipe_planner_flow_validation_report.json"),
+                "report": repo_relative_path(Path(args.output_dir).expanduser() / "match_pipe_planner_flow_validation_report.json"),
                 "current_scraped_pair": len(payload["current_scraped_pair"]),
                 "legacy_cases": len(payload["legacy_conditional_and_fail_cases"]),
             },

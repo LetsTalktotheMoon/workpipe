@@ -3,7 +3,7 @@
   "canonical_total_jobs": 3999,
   "canonical_total_jobs_with_apply_url": 3999,
   "canonical_source": "runtime.job_webapp.main.JobAppStore.build_jobs_payload",
-  "canonical_source_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/job_tracker/jobs_catalog.json",
+  "canonical_source_path": "data/job_tracker/jobs_catalog.json",
   "canonical_source_generated_at": "2026-04-13T17:30:31",
   "canonical_source_scope_counts": {
     "catalog_only": 2932,
@@ -29,8 +29,8 @@
   "dry_run": false,
   "request_timeout_seconds": 20.0,
   "allow_unknown_overwrite_terminal": false,
-  "cache_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/state/job_status_backfill.json",
-  "job_app_state_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/state/job_app_status.json",
+  "cache_path": "state/job_status_backfill.json",
+  "job_app_state_path": "state/job_app_status.json",
   "status_counts": {
     "open": 2973,
     "closed": 638,

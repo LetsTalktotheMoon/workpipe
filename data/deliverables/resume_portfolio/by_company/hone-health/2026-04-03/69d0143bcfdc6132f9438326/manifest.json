@@ -24,11 +24,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hone-health/2026-04-03/69d0143bcfdc6132f9438326/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/hone-health/2026-04-03/69d0143bcfdc6132f9438326/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hone-health/2026-04-03/69d0143bcfdc6132f9438326/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hone-health/2026-04-03/69d0143bcfdc6132f9438326",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d0143bcfdc6132f9438326",
+  "job_md": "data/deliverables/resume_portfolio/by_company/hone-health/2026-04-03/69d0143bcfdc6132f9438326/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/hone-health/2026-04-03/69d0143bcfdc6132f9438326",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/hone-health/2026-04-03/69d0143bcfdc6132f9438326",
   "generated_at": "2026-04-05T18:02:19",
   "review": {
     "weighted_score": 93.3,

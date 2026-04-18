@@ -21,7 +21,7 @@
 - [NICE] Bold the strongest result numbers in the lead bullets of each experience for faster human scanning.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-doordash-only_20260417_225504_060728/gen2-doordash-backend/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-doordash-only_20260417_225504_060728/gen2-doordash-backend/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-doordash-only_20260417_225504_060728/gen2-doordash-backend/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-doordash-only_20260417_225504_060728/gen2-doordash-backend/codex.json`
+- Prompt: `gen2-doordash-backend/prompt.txt`
+- Metadata: `gen2-doordash-backend/metadata.json`
+- 原始输出: `gen2-doordash-backend/codex.raw.txt`
+- JSON: `gen2-doordash-backend/codex.json`

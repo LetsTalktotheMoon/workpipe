@@ -20,11 +20,11 @@
     "project_ids": []
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spok/2026-04-03/69cfdc7b891d7b11cfcd677c/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/spok/2026-04-03/69cfdc7b891d7b11cfcd677c/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spok/2026-04-03/69cfdc7b891d7b11cfcd677c/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spok/2026-04-03/69cfdc7b891d7b11cfcd677c",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cfdc7b891d7b11cfcd677c",
+  "job_md": "data/deliverables/resume_portfolio/by_company/spok/2026-04-03/69cfdc7b891d7b11cfcd677c/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/spok/2026-04-03/69cfdc7b891d7b11cfcd677c",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/spok/2026-04-03/69cfdc7b891d7b11cfcd677c",
   "generated_at": "2026-04-05T15:34:28",
   "review": {
     "jd_id": "candidate_generalist_dotnet_enterprise",

@@ -27,11 +27,11 @@
     "seed_source_job_id": "692777a0d47de4798ecdcf3a"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef33654f00230c6d051a9/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef33654f00230c6d051a9/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef33654f00230c6d051a9/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef33654f00230c6d051a9",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cef33654f00230c6d051a9",
+  "job_md": "data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef33654f00230c6d051a9/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef33654f00230c6d051a9",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef33654f00230c6d051a9",
   "generated_at": "2026-04-05T19:46:43",
   "review": {
     "weighted_score": 95.3,

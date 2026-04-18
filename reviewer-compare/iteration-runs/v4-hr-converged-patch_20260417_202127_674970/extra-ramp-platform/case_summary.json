@@ -33,10 +33,10 @@
       "Terraform"
     ],
     "tech_preferred": [],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/review.json",
     "historical": {
       "official_score": null,
       "official_verdict": "",

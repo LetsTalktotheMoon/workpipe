@@ -27,11 +27,11 @@
     "seed_source_job_id": "69cda26c398fb071abf7a98d"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ondo-finance/2026-03-31/69cc942b891d7b11cfcb01d2/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/ondo-finance/2026-03-31/69cc942b891d7b11cfcb01d2/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ondo-finance/2026-03-31/69cc942b891d7b11cfcb01d2/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ondo-finance/2026-03-31/69cc942b891d7b11cfcb01d2",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-03-31/69cc942b891d7b11cfcb01d2",
+  "job_md": "data/deliverables/resume_portfolio/by_company/ondo-finance/2026-03-31/69cc942b891d7b11cfcb01d2/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/ondo-finance/2026-03-31/69cc942b891d7b11cfcb01d2",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/ondo-finance/2026-03-31/69cc942b891d7b11cfcb01d2",
   "generated_at": "2026-04-06T22:13:41",
   "review": {
     "weighted_score": 94.4,

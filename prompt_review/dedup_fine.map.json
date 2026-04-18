@@ -2177,7 +2177,7 @@
     },
     {
       "uid": "frag-4c034691d52bd653",
-      "text": "- 角色：`Writer / 主生成`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:410)\n  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:87)\n- 组装：\n  - `B-WRITER-SYS-001`\n",
+      "text": "- 角色：`Writer / 主生成`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:410)\n  - [runtime/writers/master_writer.py](runtime/writers/master_writer.py:87)\n- 组装：\n  - `B-WRITER-SYS-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::4",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2185,7 +2185,7 @@
     },
     {
       "uid": "frag-cc45412f37c97a64",
-      "text": "- 角色：`Writer / 主生成`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:475)\n- 组装：\n  - `G-DATA-001` candidate context\n  - `B-BYTEDANCE-CTX-001`\n  - `B-WRITER-USER-001` JD header + bridge rule\n  - `G-DATA-002` format constraints\n  - `B-WRITER-USER-002` PLAN skeleton\n  - `B-WRITER-USER-003` RESUME skeleton\n  - `B-OUTPUT-002`\n",
+      "text": "- 角色：`Writer / 主生成`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:475)\n- 组装：\n  - `G-DATA-001` candidate context\n  - `B-BYTEDANCE-CTX-001`\n  - `B-WRITER-USER-001` JD header + bridge rule\n  - `G-DATA-002` format constraints\n  - `B-WRITER-USER-002` PLAN skeleton\n  - `B-WRITER-USER-003` RESUME skeleton\n  - `B-OUTPUT-002`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::5",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2193,7 +2193,7 @@
     },
     {
       "uid": "frag-e0ca96df026192b4",
-      "text": "- 角色：`Writer / 严格修补`\n- 运行位置：\n  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:38)\n- 组装：\n  - `B-WRITER-SYS-REV-STRICT-001`\n  - `B-OUTPUT-001`\n",
+      "text": "- 角色：`Writer / 严格修补`\n- 运行位置：\n  - [runtime/writers/master_writer.py](runtime/writers/master_writer.py:38)\n- 组装：\n  - `B-WRITER-SYS-REV-STRICT-001`\n  - `B-OUTPUT-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::6",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2201,7 +2201,7 @@
     },
     {
       "uid": "frag-699a5d15d2a9ebda",
-      "text": "- 角色：`Writer / 升级重写`\n- 运行位置：\n  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:42)\n- 组装：\n  - `B-WRITER-SYS-REV-UPGRADE-001`\n  - `B-OUTPUT-001`\n",
+      "text": "- 角色：`Writer / 升级重写`\n- 运行位置：\n  - [runtime/writers/master_writer.py](runtime/writers/master_writer.py:42)\n- 组装：\n  - `B-WRITER-SYS-REV-UPGRADE-001`\n  - `B-OUTPUT-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::7",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2209,7 +2209,7 @@
     },
     {
       "uid": "frag-16147f4fe2ae2cfb",
-      "text": "- 角色：`Writer / 严格修补`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:789)\n- 组装：\n  - `B-REVISION-001`\n  - `B-BYTEDANCE-REV-001`\n  - `B-REVISION-002`",
+      "text": "- 角色：`Writer / 严格修补`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:789)\n- 组装：\n  - `B-REVISION-001`\n  - `B-BYTEDANCE-REV-001`\n  - `B-REVISION-002`",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::8",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2217,7 +2217,7 @@
     },
     {
       "uid": "frag-063febaf6cf894a4",
-      "text": "- 角色：`Writer / seed retarget`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:878)\n- 组装：\n  - `B-RETARGET-001`\n  - `B-BYTEDANCE-CTX-001`\n  - `B-RETARGET-002`\n  - `B-RETARGET-003`\n  - `G-DATA-003` project pool block",
+      "text": "- 角色：`Writer / seed retarget`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:878)\n- 组装：\n  - `B-RETARGET-001`\n  - `B-BYTEDANCE-CTX-001`\n  - `B-RETARGET-002`\n  - `B-RETARGET-003`\n  - `G-DATA-003` project pool block",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::9",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2225,7 +2225,7 @@
     },
     {
       "uid": "frag-4ee25fc8076036e7",
-      "text": "- 角色：`Writer / 升级重写`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:973)\n- 组装：\n  - `B-UPGRADE-001`\n  - `B-BYTEDANCE-UPGRADE-001`\n  - `B-UPGRADE-002`\n  - `B-OUTPUT-002`\n  - `B-OUTPUT-001` 的同义收口句变体\n",
+      "text": "- 角色：`Writer / 升级重写`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:973)\n- 组装：\n  - `B-UPGRADE-001`\n  - `B-BYTEDANCE-UPGRADE-001`\n  - `B-UPGRADE-002`\n  - `B-OUTPUT-002`\n  - `B-OUTPUT-001` 的同义收口句变体\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::10",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2241,7 +2241,7 @@
     },
     {
       "uid": "frag-c852d4029364a581",
-      "text": "- 角色：`Reviewer / 主审查`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:568)\n  - [runtime/reviewers/unified_reviewer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/reviewers/unified_reviewer.py:182)\n- 组装：\n  - `B-REVIEWER-SYS-001`\n",
+      "text": "- 角色：`Reviewer / 主审查`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:568)\n  - [runtime/reviewers/unified_reviewer.py](runtime/reviewers/unified_reviewer.py:182)\n- 组装：\n  - `B-REVIEWER-SYS-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::12",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2249,7 +2249,7 @@
     },
     {
       "uid": "frag-70d8a48fc87d8f6d",
-      "text": "- 角色：`Reviewer / 主审查`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:592)\n- 组装：\n  - `B-REVIEWER-USER-001`\n  - `B-IMMUTABLE-001`\n  - `B-REVIEW-SCOPE-001`\n  - `B-REVIEWER-USER-002`\n  - `B-REVIEWER-USER-003`\n",
+      "text": "- 角色：`Reviewer / 主审查`\n- 运行位置：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:592)\n- 组装：\n  - `B-REVIEWER-USER-001`\n  - `B-IMMUTABLE-001`\n  - `B-REVIEW-SCOPE-001`\n  - `B-REVIEWER-USER-002`\n  - `B-REVIEWER-USER-003`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::13",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2265,7 +2265,7 @@
     },
     {
       "uid": "frag-c6f9f589c2ff477f",
-      "text": "- 角色：`Planner / planner-first`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:32)\n- 组装：\n  - `B-PLANNER-SYS-001`\n",
+      "text": "- 角色：`Planner / planner-first`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:32)\n- 组装：\n  - `B-PLANNER-SYS-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::15",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2273,7 +2273,7 @@
     },
     {
       "uid": "frag-afd2fb456c309825",
-      "text": "- 角色：`Planner / planner-first`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:121)\n- 组装：\n  - `B-PLANNER-USER-001`\n",
+      "text": "- 角色：`Planner / planner-first`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:121)\n- 组装：\n  - `B-PLANNER-USER-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::16",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2281,7 +2281,7 @@
     },
     {
       "uid": "frag-a9f803c787e71928",
-      "text": "- 角色：`Writer / planner-first write`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:194)\n- 组装：\n  - `P-WRITER-USER-MAIN`\n  - `B-PLANNER-WRITER-OVERLAY-001`\n",
+      "text": "- 角色：`Writer / planner-first write`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:194)\n- 组装：\n  - `P-WRITER-USER-MAIN`\n  - `B-PLANNER-WRITER-OVERLAY-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::17",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2289,7 +2289,7 @@
     },
     {
       "uid": "frag-ba6d9c78f2ea8728",
-      "text": "- 角色：`Writer / planner-first revision`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:230)\n- 组装：\n  - `P-WRITER-USER-MAIN`\n  - `B-PLANNER-REVISION-OVERLAY-001`\n",
+      "text": "- 角色：`Writer / planner-first revision`\n- 运行位置：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:230)\n- 组装：\n  - `P-WRITER-USER-MAIN`\n  - `B-PLANNER-REVISION-OVERLAY-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::18",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2305,7 +2305,7 @@
     },
     {
       "uid": "frag-334515750e89b163",
-      "text": "- 角色：`Writer / dual-channel retarget`\n- 运行位置：\n  - [match_pipe/downstream_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/downstream_validation_runner.py:276)\n- 组装：\n  - `P-WRITER-USER-RETARGET`\n  - `B-MATCH-OVERLAY-001`\n",
+      "text": "- 角色：`Writer / dual-channel retarget`\n- 运行位置：\n  - [match_pipe/downstream_validation_runner.py](match_pipe/downstream_validation_runner.py:276)\n- 组装：\n  - `P-WRITER-USER-RETARGET`\n  - `B-MATCH-OVERLAY-001`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::20",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2321,7 +2321,7 @@
     },
     {
       "uid": "frag-199d4202e8f1bd23",
-      "text": "- 角色：`测试，不下发模型`\n- 运行位置：\n  - [tests/test_prompt_merge_equivalence.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/tests/test_prompt_merge_equivalence.py:22)\n- 作用：\n  - 锚定 `build_revision_prompt`\n  - 锚定 `build_seed_retarget_prompt`\n  - 锚定 `build_upgrade_revision_prompt`\n  - 锚定 strict/upgrade revision system prompt",
+      "text": "- 角色：`测试，不下发模型`\n- 运行位置：\n  - [tests/test_prompt_merge_equivalence.py](tests/test_prompt_merge_equivalence.py:22)\n- 作用：\n  - 锚定 `build_revision_prompt`\n  - 锚定 `build_seed_retarget_prompt`\n  - 锚定 `build_upgrade_revision_prompt`\n  - 锚定 strict/upgrade revision system prompt",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::22",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2345,7 +2345,7 @@
     },
     {
       "uid": "frag-3f11942e7f80b1c9",
-      "text": "- 类型：共享单句\n- 作用：所有要求“只返回 Markdown 正文”的收口句\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:152)\n  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:38)\n  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:42)\n- 句子：\n  - `S01` 直接输出修改后的完整简历 Markdown，不要附带解释。\n",
+      "text": "- 类型：共享单句\n- 作用：所有要求“只返回 Markdown 正文”的收口句\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:152)\n  - [runtime/writers/master_writer.py](runtime/writers/master_writer.py:38)\n  - [runtime/writers/master_writer.py](runtime/writers/master_writer.py:42)\n- 句子：\n  - `S01` 直接输出修改后的完整简历 Markdown，不要附带解释。\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::25",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2353,7 +2353,7 @@
     },
     {
       "uid": "frag-bd4c2ea2a7593cf1",
-      "text": "- 类型：共享模板\n- 作用：Writer family 的统一输出结构合同\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:106)\n  - 被插入 `P-WRITER-USER-MAIN`\n  - 被插入 `P-WRITER-USER-REV-STRICT`\n  - 被插入 `P-WRITER-USER-RETARGET`\n  - 被插入 `P-WRITER-USER-UPGRADE`\n- 句子/条目：\n  - `S01` ## 输出格式（header 拼写必须完全一致）\n  - `S02` `## Professional Summary`\n  - `S03` `## Skills`\n  - `S04` `## Experience`\n  - `S05` `## Education`\n  - `S06` `## Achievements`\n  - `S07` `## Experience` 不能写成 `## Professional Experience`\n  - `S08` `## Skills` 不能写成 `## Technical Skills`\n  - `S09` `## Achievements` 不能写成 `## Achievement`\n  - `S10` 项目必须挂在对应经历下，不单独成 section\n  - `S11` 只输出简历正文，不要解释、注释、分析\n",
+      "text": "- 类型：共享模板\n- 作用：Writer family 的统一输出结构合同\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:106)\n  - 被插入 `P-WRITER-USER-MAIN`\n  - 被插入 `P-WRITER-USER-REV-STRICT`\n  - 被插入 `P-WRITER-USER-RETARGET`\n  - 被插入 `P-WRITER-USER-UPGRADE`\n- 句子/条目：\n  - `S01` ## 输出格式（header 拼写必须完全一致）\n  - `S02` `## Professional Summary`\n  - `S03` `## Skills`\n  - `S04` `## Experience`\n  - `S05` `## Education`\n  - `S06` `## Achievements`\n  - `S07` `## Experience` 不能写成 `## Professional Experience`\n  - `S08` `## Skills` 不能写成 `## Technical Skills`\n  - `S09` `## Achievements` 不能写成 `## Achievement`\n  - `S10` 项目必须挂在对应经历下，不单独成 section\n  - `S11` 只输出简历正文，不要解释、注释、分析\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::26",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2369,7 +2369,7 @@
     },
     {
       "uid": "frag-00ba73281d5a889f",
-      "text": "- 类型：共享约束块\n- 作用：Reviewer prompt 的不可变字段区\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:177)\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:600)\n- 说明：\n  - 正文由 `TIKTOK_IMMUTABLE_LINE` / `DIDI_IMMUTABLE_LINE` / `TEMU_IMMUTABLE_LINE` 与 ByteDance 特例共同组成\n  - 这里不逐字内联三条经历行；它们是单源常量\n",
+      "text": "- 类型：共享约束块\n- 作用：Reviewer prompt 的不可变字段区\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:177)\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:600)\n- 说明：\n  - 正文由 `TIKTOK_IMMUTABLE_LINE` / `DIDI_IMMUTABLE_LINE` / `TEMU_IMMUTABLE_LINE` 与 ByteDance 特例共同组成\n  - 这里不逐字内联三条经历行；它们是单源常量\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::28",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2377,7 +2377,7 @@
     },
     {
       "uid": "frag-fb69055fe134c4c5",
-      "text": "- 类型：共享 ByteDance 特例块\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:181)\n  - 插入 `P-WRITER-USER-MAIN`\n  - 插入 `P-WRITER-USER-RETARGET`\n- 句子：\n  - `S01` ByteDance 目标岗位不得出现 TikTok / ByteDance intern\n  - `S02` 证据池只允许 DiDi、Temu、Georgia Tech CS coursework/projects\n  - `S03` 需要更强 SWE/system 信号时，优先抬高 GT CS 证据\n  - `S04` seed 里的 TikTok / ByteDance intern 只能作弱参考，不得继承\n",
+      "text": "- 类型：共享 ByteDance 特例块\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:181)\n  - 插入 `P-WRITER-USER-MAIN`\n  - 插入 `P-WRITER-USER-RETARGET`\n- 句子：\n  - `S01` ByteDance 目标岗位不得出现 TikTok / ByteDance intern\n  - `S02` 证据池只允许 DiDi、Temu、Georgia Tech CS coursework/projects\n  - `S03` 需要更强 SWE/system 信号时，优先抬高 GT CS 证据\n  - `S04` seed 里的 TikTok / ByteDance intern 只能作弱参考，不得继承\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::29",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2385,7 +2385,7 @@
     },
     {
       "uid": "frag-2557733f9e94b8ba",
-      "text": "- 类型：共享 ByteDance revision 特例\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:86)\n  - 插入 `P-WRITER-USER-REV-STRICT`\n- 句子：\n  - `S01` 删除任何 TikTok / ByteDance intern 段落、summary 提及、project baseline 或 bullets\n  - `S02` 只允许从 DiDi、Temu、Georgia Tech CS coursework/projects 三类证据中重写\n  - `S03` seed/旧稿中的 TikTok / ByteDance intern 是噪声，不是资产\n",
+      "text": "- 类型：共享 ByteDance revision 特例\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:86)\n  - 插入 `P-WRITER-USER-REV-STRICT`\n- 句子：\n  - `S01` 删除任何 TikTok / ByteDance intern 段落、summary 提及、project baseline 或 bullets\n  - `S02` 只允许从 DiDi、Temu、Georgia Tech CS coursework/projects 三类证据中重写\n  - `S03` seed/旧稿中的 TikTok / ByteDance intern 是噪声，不是资产\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::30",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2393,7 +2393,7 @@
     },
     {
       "uid": "frag-216856f170641841",
-      "text": "- 类型：共享 ByteDance upgrade 特例\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:91)\n  - 插入 `P-WRITER-USER-UPGRADE`\n- 句子：\n  - `S01` 删除任何 TikTok / ByteDance intern 内容，不要把它当作可修补素材\n  - `S02` 证据池仅限 DiDi、Temu、Georgia Tech CS coursework/projects\n  - `S03` 若旧稿保留了 TikTok / ByteDance intern，必须推翻并重写\n",
+      "text": "- 类型：共享 ByteDance upgrade 特例\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:91)\n  - 插入 `P-WRITER-USER-UPGRADE`\n- 句子：\n  - `S01` 删除任何 TikTok / ByteDance intern 内容，不要把它当作可修补素材\n  - `S02` 证据池仅限 DiDi、Temu、Georgia Tech CS coursework/projects\n  - `S03` 若旧稿保留了 TikTok / ByteDance intern，必须推翻并重写\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::31",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2409,7 +2409,7 @@
     },
     {
       "uid": "frag-64f70b868e671bde",
-      "text": "- 类型：Writer system\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:410)\n- 段落：\n  - `P01` 你是一位专业简历撰写专家，为职业转型培训公司制作教学示例简历。\n  - `P02` 候选人为虚构人物，真实性只要求叙事自洽，不做现实核查。\n  - `P03` 质量标准：能通过 ATS 和人工 HR 审查，综合分 93+。\n  - `P04` 虚构候选人写作原则：除不可变字段外，其余工作内容可自由创作，但必须逻辑自洽。\n  - `P05` PLAN 阶段允许给各段经历分配目标 JD 所需技术，不受 natural_tech 分层硬约束。\n  - `P06` 工作流程必须按 `PLAN -> WRITE` 两阶段执行。\n  - `P07` PLAN 阶段需完成技术分配、skills 并集、项目归属、教育保留、量化范围控制、summary 优先级控制、陌生行业桥接。\n  - `P08` RESUME 阶段必须严格按 PLAN 落地，确保 SKILLS 与正文技术完全一致。\n  - `P09` extended/stretch 技术在 intern/junior 里必须用参与式、受限式语气。\n",
+      "text": "- 类型：Writer system\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:410)\n- 段落：\n  - `P01` 你是一位专业简历撰写专家，为职业转型培训公司制作教学示例简历。\n  - `P02` 候选人为虚构人物，真实性只要求叙事自洽，不做现实核查。\n  - `P03` 质量标准：能通过 ATS 和人工 HR 审查，综合分 93+。\n  - `P04` 虚构候选人写作原则：除不可变字段外，其余工作内容可自由创作，但必须逻辑自洽。\n  - `P05` PLAN 阶段允许给各段经历分配目标 JD 所需技术，不受 natural_tech 分层硬约束。\n  - `P06` 工作流程必须按 `PLAN -> WRITE` 两阶段执行。\n  - `P07` PLAN 阶段需完成技术分配、skills 并集、项目归属、教育保留、量化范围控制、summary 优先级控制、陌生行业桥接。\n  - `P08` RESUME 阶段必须严格按 PLAN 落地，确保 SKILLS 与正文技术完全一致。\n  - `P09` extended/stretch 技术在 intern/junior 里必须用参与式、受限式语气。\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::33",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2417,7 +2417,7 @@
     },
     {
       "uid": "frag-8809f2fc473ed1d6",
-      "text": "- 类型：Writer strict revision system\n- 全局映射：\n  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:38)\n- 句子：\n  - `S01` 你是专业简历修改专家。\n  - `S02` 严格按照修改指令执行，只改指出的问题，不做额外改动。\n  - `S03` 复用 `B-OUTPUT-001.S01`\n",
+      "text": "- 类型：Writer strict revision system\n- 全局映射：\n  - [runtime/writers/master_writer.py](runtime/writers/master_writer.py:38)\n- 句子：\n  - `S01` 你是专业简历修改专家。\n  - `S02` 严格按照修改指令执行，只改指出的问题，不做额外改动。\n  - `S03` 复用 `B-OUTPUT-001.S01`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::34",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2425,7 +2425,7 @@
     },
     {
       "uid": "frag-2dd0842d680278ea",
-      "text": "- 类型：Writer upgrade revision system\n- 全局映射：\n  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:42)\n- 句子：\n  - `S01` 你是专业简历升级专家。\n  - `S02` 可在保持不可变字段、真实性边界和核心职业叙事不变前提下重写 summary、skills、experience bullets、project baseline、project framing。\n  - `S03` 目标是显著提升 JD 匹配度、scope 表达完整度和整体得分。\n  - `S04` 不要被 seed phrasing、旧 summary、旧 bullet 选择束缚。\n  - `S05` 如果旧稿 framing 本身导致失分，应主动替换成更强但仍真实自洽的表达。\n  - `S06` 复用 `B-OUTPUT-001.S01`\n",
+      "text": "- 类型：Writer upgrade revision system\n- 全局映射：\n  - [runtime/writers/master_writer.py](runtime/writers/master_writer.py:42)\n- 句子：\n  - `S01` 你是专业简历升级专家。\n  - `S02` 可在保持不可变字段、真实性边界和核心职业叙事不变前提下重写 summary、skills、experience bullets、project baseline、project framing。\n  - `S03` 目标是显著提升 JD 匹配度、scope 表达完整度和整体得分。\n  - `S04` 不要被 seed phrasing、旧 summary、旧 bullet 选择束缚。\n  - `S05` 如果旧稿 framing 本身导致失分，应主动替换成更强但仍真实自洽的表达。\n  - `S06` 复用 `B-OUTPUT-001.S01`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::35",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2441,7 +2441,7 @@
     },
     {
       "uid": "frag-187b1b2b33b8bb3e",
-      "text": "- 类型：主生成 prompt 的静态头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:493)\n- 句子：\n  - `S01` 输出目标 JD 的公司、岗位、角色类型、职级/资历、团队业务方向\n  - `S02` 必须技术栈：SKILLS 至少覆盖所有 must-have，且必须有正文出处\n  - `S03` 加分技术栈：合理选择即可，不必全含\n  - `S04` OR 组：满足其一即可\n  - `S05` 软性要求：列出 soft required\n  - `S06` 陌生行业优先写可迁移能力桥接，不要生造直接行业 ownership\n",
+      "text": "- 类型：主生成 prompt 的静态头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:493)\n- 句子：\n  - `S01` 输出目标 JD 的公司、岗位、角色类型、职级/资历、团队业务方向\n  - `S02` 必须技术栈：SKILLS 至少覆盖所有 must-have，且必须有正文出处\n  - `S03` 加分技术栈：合理选择即可，不必全含\n  - `S04` OR 组：满足其一即可\n  - `S05` 软性要求：列出 soft required\n  - `S06` 陌生行业优先写可迁移能力桥接，不要生造直接行业 ownership\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::37",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2449,7 +2449,7 @@
     },
     {
       "uid": "frag-a50aa639990806af",
-      "text": "- 类型：主生成 prompt 的 PLAN 骨架\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:524)\n- 条目：\n  - `S01` 在 `<PLAN>` 内完成技术分配规划\n  - `S02` 为各经历指定最终技术列表\n  - `S03` 从经历/项目技术并集反推 skills 分类\n  - `S04` 规划两个项目归属和主题\n  - `S05` 规划保留哪些教育经历\n",
+      "text": "- 类型：主生成 prompt 的 PLAN 骨架\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:524)\n- 条目：\n  - `S01` 在 `<PLAN>` 内完成技术分配规划\n  - `S02` 为各经历指定最终技术列表\n  - `S03` 从经历/项目技术并集反推 skills 分类\n  - `S04` 规划两个项目归属和主题\n  - `S05` 规划保留哪些教育经历\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::38",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2457,7 +2457,7 @@
     },
     {
       "uid": "frag-813d52d423ab3fa2",
-      "text": "- 类型：主生成 prompt 的 RESUME 骨架\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:542)\n- 条目：\n  - `S01` 在 `<RESUME>` 内输出完整 Markdown 简历\n  - `S02` 最终结构必须满足 `B-OUTPUT-002`\n",
+      "text": "- 类型：主生成 prompt 的 RESUME 骨架\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:542)\n- 条目：\n  - `S01` 在 `<RESUME>` 内输出完整 Markdown 简历\n  - `S02` 最终结构必须满足 `B-OUTPUT-002`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::39",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2465,7 +2465,7 @@
     },
     {
       "uid": "frag-5a82f4b6c3da0a1b",
-      "text": "- 类型：strict revision 主体\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:824)\n- 条目：\n  - `S01` 按审查结果进行精准修改\n  - `S02` 若有原始 PLAN，revision 必须遵守它，不得引入计划外技术\n  - `S03` 列出最优先修改事项\n  - `S04` 列出所有 critical/high 问题，必须全部修复\n  - `S05` 列出详细修改指令\n",
+      "text": "- 类型：strict revision 主体\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:824)\n- 条目：\n  - `S01` 按审查结果进行精准修改\n  - `S02` 若有原始 PLAN，revision 必须遵守它，不得引入计划外技术\n  - `S03` 列出最优先修改事项\n  - `S04` 列出所有 critical/high 问题，必须全部修复\n  - `S05` 列出详细修改指令\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::40",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2473,7 +2473,7 @@
     },
     {
       "uid": "frag-40343faee44093c9",
-      "text": "- 类型：strict revision 规则尾部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:845)\n- 规则：\n  - `R01` 只修改指出的问题，其他内容保持不变\n  - `R02` 若需补技术，优先去 PLAN 已规划的经历中补\n  - `R03` 修复 SKILLS ↔ 正文不一致时，优先调正文，不随意删加 skills\n  - `R04` 对 must-have 技术，不能通过删除过关\n  - `R05` 所有不可变字段完全不变\n  - `R06` 经历顺序必须保持目标公司要求\n  - `R07` 修后简历必须继续满足格式硬约束\n  - `R08` 陌生行业优先补 summary bridge 或 project baseline bridge\n",
+      "text": "- 类型：strict revision 规则尾部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:845)\n- 规则：\n  - `R01` 只修改指出的问题，其他内容保持不变\n  - `R02` 若需补技术，优先去 PLAN 已规划的经历中补\n  - `R03` 修复 SKILLS ↔ 正文不一致时，优先调正文，不随意删加 skills\n  - `R04` 对 must-have 技术，不能通过删除过关\n  - `R05` 所有不可变字段完全不变\n  - `R06` 经历顺序必须保持目标公司要求\n  - `R07` 修后简历必须继续满足格式硬约束\n  - `R08` 陌生行业优先补 summary bridge 或 project baseline bridge\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::41",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2481,7 +2481,7 @@
     },
     {
       "uid": "frag-d5d73b3500938f5d",
-      "text": "- 类型：seed retarget 头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:922)\n- 条目：\n  - `S01` 基于已通过高标准审查的 seed resume，为新的 JD 生成派生简历\n  - `S02` 目标是在保留 seed 叙事骨架、结构质量、可信 scope 的前提下最小改动对齐 JD\n  - `S03` 显示命中的 seed label、route mode、目标岗位\n",
+      "text": "- 类型：seed retarget 头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:922)\n- 条目：\n  - `S01` 基于已通过高标准审查的 seed resume，为新的 JD 生成派生简历\n  - `S02` 目标是在保留 seed 叙事骨架、结构质量、可信 scope 的前提下最小改动对齐 JD\n  - `S03` 显示命中的 seed label、route mode、目标岗位\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::42",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2489,7 +2489,7 @@
     },
     {
       "uid": "frag-31794ab91cba45fc",
-      "text": "- 类型：seed retarget 核心规则\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:932)\n- 规则：\n  - `R01` 这是在现有 seed 上微调，不是从零重写\n  - `R02` 控制总改动预算\n  - `R03` 优先保留成熟的 summary phrasing、经历骨架、项目结构、量化风格\n  - `R04` 优先修改 Summary、Skills、最相关经历和对应项目\n  - `R05` 不可变字段完全不变\n  - `R06` 经历顺序保持目标公司规则\n  - `R07` must-have 技术必须在正文有出处\n  - `R08` 不要为补技术夸大 scope\n  - `R09` `reuse` 默认轻改，`retarget` 可中等幅度改\n  - `R10` 陌生行业优先改 summary 和项目业务 framing\n  - `R11` 进入同公司一致性模式后，优先复用 team/domain/project 骨架\n  - `R12` 合法的 DiDi senior scope 可以保留，不要机械压缩\n  - `R13` 自动驾驶/physical AI/robotics 等陌生行业优先写 transferable infrastructure patterns\n",
+      "text": "- 类型：seed retarget 核心规则\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:932)\n- 规则：\n  - `R01` 这是在现有 seed 上微调，不是从零重写\n  - `R02` 控制总改动预算\n  - `R03` 优先保留成熟的 summary phrasing、经历骨架、项目结构、量化风格\n  - `R04` 优先修改 Summary、Skills、最相关经历和对应项目\n  - `R05` 不可变字段完全不变\n  - `R06` 经历顺序保持目标公司规则\n  - `R07` must-have 技术必须在正文有出处\n  - `R08` 不要为补技术夸大 scope\n  - `R09` `reuse` 默认轻改，`retarget` 可中等幅度改\n  - `R10` 陌生行业优先改 summary 和项目业务 framing\n  - `R11` 进入同公司一致性模式后，优先复用 team/domain/project 骨架\n  - `R12` 合法的 DiDi senior scope 可以保留，不要机械压缩\n  - `R13` 自动驾驶/physical AI/robotics 等陌生行业优先写 transferable infrastructure patterns\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::43",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2497,7 +2497,7 @@
     },
     {
       "uid": "frag-4ec3baa33482fd12",
-      "text": "- 类型：同公司/同公司 ByteDance 特例块\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:900)\n- 变体：\n  - `V01` ByteDance 同公司 seed：只能弱参考，不得继承 TikTok/ByteDance intern 骨架\n  - `V02` 非 ByteDance 同公司 seed：team/domain/project pool 视为准不可变骨架\n",
+      "text": "- 类型：同公司/同公司 ByteDance 特例块\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:900)\n- 变体：\n  - `V01` ByteDance 同公司 seed：只能弱参考，不得继承 TikTok/ByteDance intern 骨架\n  - `V02` 非 ByteDance 同公司 seed：team/domain/project pool 视为准不可变骨架\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::44",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2505,7 +2505,7 @@
     },
     {
       "uid": "frag-29d8be9dca165e73",
-      "text": "- 类型：upgrade revision 头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:1002)\n- 条目：\n  - `S01` 把历史简历做成面向目标 JD 的升级式重写，而不是字面修补\n  - `S02` 给出目标岗位、当前评分、历史来源\n  - `S03` 升级目标是提升 JD 匹配度、summary 信号密度、scope 叙事完整度和整体逻辑自洽\n  - `S04` 可以中等幅度重写，但不得破坏不可变字段和职业主线\n",
+      "text": "- 类型：upgrade revision 头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:1002)\n- 条目：\n  - `S01` 把历史简历做成面向目标 JD 的升级式重写，而不是字面修补\n  - `S02` 给出目标岗位、当前评分、历史来源\n  - `S03` 升级目标是提升 JD 匹配度、summary 信号密度、scope 叙事完整度和整体逻辑自洽\n  - `S04` 可以中等幅度重写，但不得破坏不可变字段和职业主线\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::45",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2513,7 +2513,7 @@
     },
     {
       "uid": "frag-92978ea5e63d4a2b",
-      "text": "- 类型：upgrade revision 关键规则\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:1023)\n- 规则：\n  - `R01` Summary 必须重新评估，不默认沿用旧 phrasing\n  - `R02` DiDi senior operating scope 如能增强匹配度，可提炼进 summary，但不要与 bullet 重复\n  - `R03` 陌生行业优先补一条领域桥接语句\n  - `R04` DiDi scope note 若保留，统一用标准句式\n  - `R05` 面向 senior/stakeholder JD 时可使用全局经营评审那条 DiDi bullet\n  - `R06` 上面那条 senior bullet 只在确有帮助时使用\n  - `R07` Skills 既要满足格式硬约束，也要补齐正文/JD 技术\n  - `R08` must-have 技术只能补正文证据，不能删除\n  - `R09` 围棋 summary 句必须是高价值认知信号\n  - `R10` 不可变字段完全不变\n  - `R11` 经历顺序保持目标公司规则\n  - `R12` 输出仍需满足全部格式硬约束\n  - `R13` 如果 seed phrasing/旧 summary/旧 bullet 选择本身是失分原因，可以直接替换\n",
+      "text": "- 类型：upgrade revision 关键规则\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:1023)\n- 规则：\n  - `R01` Summary 必须重新评估，不默认沿用旧 phrasing\n  - `R02` DiDi senior operating scope 如能增强匹配度，可提炼进 summary，但不要与 bullet 重复\n  - `R03` 陌生行业优先补一条领域桥接语句\n  - `R04` DiDi scope note 若保留，统一用标准句式\n  - `R05` 面向 senior/stakeholder JD 时可使用全局经营评审那条 DiDi bullet\n  - `R06` 上面那条 senior bullet 只在确有帮助时使用\n  - `R07` Skills 既要满足格式硬约束，也要补齐正文/JD 技术\n  - `R08` must-have 技术只能补正文证据，不能删除\n  - `R09` 围棋 summary 句必须是高价值认知信号\n  - `R10` 不可变字段完全不变\n  - `R11` 经历顺序保持目标公司规则\n  - `R12` 输出仍需满足全部格式硬约束\n  - `R13` 如果 seed phrasing/旧 summary/旧 bullet 选择本身是失分原因，可以直接替换\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::46",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2529,7 +2529,7 @@
     },
     {
       "uid": "frag-a080df35904dcddb",
-      "text": "- 类型：Reviewer system\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:568)\n- 段落：\n  - `P01` 你是一位严格的简历质量审查专家，负责 9 维度综合评分\n  - `P02` 审查是最终裁决，直接决定能否作为教学示例发布\n  - `P03` 反馈必须具体、可操作\n  - `P04` 综合加权分 < 93 必须修改\n  - `P05` 审查目标不是现实核验，而是模拟 ATS + 招聘方人工初筛\n  - `P06` 虚构候选人的真实性只锚定不可变字段、技能出处一致性、时间线自洽、scope 与量化可信度\n  - `P07` 不要因“现实里这个职称通常不做该技术”直接扣分\n  - `P08` 只有叙事自证不足、HR 很可能质疑时才提出问题\n  - `P09` 跨领域接触技术本身允许，重点审查“是否讲圆”\n  - `P10` 只保留真正影响 ATS 或 HR 信任的高信号发现\n  - `P11` 每个维度最多 2 条 finding，不写“无需修改”\n  - `P12` 无 critical/high 时，综合分通常应落在 93-97，而不是机械打低\n  - `P13` 默认 fix 尽量局部、低扰动\n  - `P14` 但当 seed phrasing/旧骨架束缚了 JD 信号时，必须允许结构性重写\n  - `P15` 对 must-have 技术，fix 方向只能是补正文证据，不是删除\n",
+      "text": "- 类型：Reviewer system\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:568)\n- 段落：\n  - `P01` 你是一位严格的简历质量审查专家，负责 9 维度综合评分\n  - `P02` 审查是最终裁决，直接决定能否作为教学示例发布\n  - `P03` 反馈必须具体、可操作\n  - `P04` 综合加权分 < 93 必须修改\n  - `P05` 审查目标不是现实核验，而是模拟 ATS + 招聘方人工初筛\n  - `P06` 虚构候选人的真实性只锚定不可变字段、技能出处一致性、时间线自洽、scope 与量化可信度\n  - `P07` 不要因“现实里这个职称通常不做该技术”直接扣分\n  - `P08` 只有叙事自证不足、HR 很可能质疑时才提出问题\n  - `P09` 跨领域接触技术本身允许，重点审查“是否讲圆”\n  - `P10` 只保留真正影响 ATS 或 HR 信任的高信号发现\n  - `P11` 每个维度最多 2 条 finding，不写“无需修改”\n  - `P12` 无 critical/high 时，综合分通常应落在 93-97，而不是机械打低\n  - `P13` 默认 fix 尽量局部、低扰动\n  - `P14` 但当 seed phrasing/旧骨架束缚了 JD 信号时，必须允许结构性重写\n  - `P15` 对 must-have 技术，fix 方向只能是补正文证据，不是删除\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::48",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2537,7 +2537,7 @@
     },
     {
       "uid": "frag-bfb838a01583958f",
-      "text": "- 类型：review scope note 族\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:61)\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:69)\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:81)\n- 变体：\n  - `V01` compact 审查：只保留 summary / skills / 关键经历 / 关键 bullets / projects，不因未展示内容臆测扣分\n  - `V02` rewrite 审查：职责是判断如何跨过 pass 线，而不是给保守补丁单\n  - `V03` ByteDance 审查：若出现 TikTok / ByteDance intern，直接 critical\n",
+      "text": "- 类型：review scope note 族\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:61)\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:69)\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:81)\n- 变体：\n  - `V01` compact 审查：只保留 summary / skills / 关键经历 / 关键 bullets / projects，不因未展示内容臆测扣分\n  - `V02` rewrite 审查：职责是判断如何跨过 pass 线，而不是给保守补丁单\n  - `V03` ByteDance 审查：若出现 TikTok / ByteDance intern，直接 critical\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::49",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2545,7 +2545,7 @@
     },
     {
       "uid": "frag-97d2ff74fab507b6",
-      "text": "- 类型：Reviewer user 头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:603)\n- 条目：\n  - `S01` 对以下简历进行严格 9 维度审查，返回 JSON\n  - `S02` 列出目标 JD 的公司、岗位、角色类型、职级、must-have、preferred、team direction\n  - `S03` 列出不可变字段块\n  - `S04` 插入 scope note\n  - `S05` 插入待审查简历正文\n",
+      "text": "- 类型：Reviewer user 头部\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:603)\n- 条目：\n  - `S01` 对以下简历进行严格 9 维度审查，返回 JSON\n  - `S02` 列出目标 JD 的公司、岗位、角色类型、职级、must-have、preferred、team direction\n  - `S03` 列出不可变字段块\n  - `S04` 插入 scope note\n  - `S05` 插入待审查简历正文\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::50",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2553,7 +2553,7 @@
     },
     {
       "uid": "frag-4387e455e43a87eb",
-      "text": "- 类型：Reviewer rubric 主体\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:619)\n- 维度：\n  - `R0` 真实性：不可变字段、中文字符、SKILLS ↔ 正文一致性、Summary 一致性、DiDi 特例、ByteDance/TikTok 特例\n  - `R1` 撰写规范：summary 句数/标题格式、围棋句 header、bullet 格式、加粗规则、skills 行密度、project baseline、achievements section\n  - `R2` JD 适配：must-have 技术覆盖、正文实质使用、team direction 对齐、局部补强优先、领域桥接允许\n  - `R3` 炫技：ownership/动词强度、TikTok intern 夸大、Temu junior 夸大、stretch 技术可信度\n  - `R4` 合理性：转行故事、项目合理性、数字可信、跨职能 scope 自证、Summary framing、陌生行业桥接\n  - `R5` 逻辑：经历顺序、skills 分类、技术栈差异化、经历内逻辑、Summary 归纳准确性\n  - `R6` 竞争力：量化数据、项目亮点、Summary 转岗叙事竞争力\n",
+      "text": "- 类型：Reviewer rubric 主体\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:619)\n- 维度：\n  - `R0` 真实性：不可变字段、中文字符、SKILLS ↔ 正文一致性、Summary 一致性、DiDi 特例、ByteDance/TikTok 特例\n  - `R1` 撰写规范：summary 句数/标题格式、围棋句 header、bullet 格式、加粗规则、skills 行密度、project baseline、achievements section\n  - `R2` JD 适配：must-have 技术覆盖、正文实质使用、team direction 对齐、局部补强优先、领域桥接允许\n  - `R3` 炫技：ownership/动词强度、TikTok intern 夸大、Temu junior 夸大、stretch 技术可信度\n  - `R4` 合理性：转行故事、项目合理性、数字可信、跨职能 scope 自证、Summary framing、陌生行业桥接\n  - `R5` 逻辑：经历顺序、skills 分类、技术栈差异化、经历内逻辑、Summary 归纳准确性\n  - `R6` 竞争力：量化数据、项目亮点、Summary 转岗叙事竞争力\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::51",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2561,7 +2561,7 @@
     },
     {
       "uid": "frag-b6cb8e423a396a67",
-      "text": "- 类型：Reviewer JSON schema + calibration\n- 全局映射：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:721)\n- 条目：\n  - `S01` 严格输出 JSON，不得额外文字\n  - `S02` schema 必须包含各维度分数、加权分、overall verdict、critical/high 计数、needs_revision、revision_priority、revision_instructions\n  - `S03` 给出 9.5-10 / 9.0-9.4 / 8.0-8.9 / 7.0-7.9 / <7 的评分档\n  - `S04` 说明高分校准：无 critical/high 且 JD 必需技术完整覆盖时，应优先落在 93+\n",
+      "text": "- 类型：Reviewer JSON schema + calibration\n- 全局映射：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:721)\n- 条目：\n  - `S01` 严格输出 JSON，不得额外文字\n  - `S02` schema 必须包含各维度分数、加权分、overall verdict、critical/high 计数、needs_revision、revision_priority、revision_instructions\n  - `S03` 给出 9.5-10 / 9.0-9.4 / 8.0-8.9 / 7.0-7.9 / <7 的评分档\n  - `S04` 说明高分校准：无 critical/high 且 JD 必需技术完整覆盖时，应优先落在 93+\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::52",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2577,7 +2577,7 @@
     },
     {
       "uid": "frag-2b2eb1228c3392ac",
-      "text": "- 类型：Planner system\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:32)\n- 句子：\n  - `S01` 你是简历流程里的 Planner，不直接写简历\n  - `S02` 基于 JD、matcher 证据和可选 starter 判断 starter 是否合适\n  - `S03` 判断是否可直接送 reviewer\n  - `S04` 判断 coverage、缺口、真实性/ownership/scope 风险\n  - `S05` 判断 Writer 应如何改写、优先级如何排序\n  - `S06` 必须输出 JSON，不要解释性文字，不要复述 schema\n",
+      "text": "- 类型：Planner system\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:32)\n- 句子：\n  - `S01` 你是简历流程里的 Planner，不直接写简历\n  - `S02` 基于 JD、matcher 证据和可选 starter 判断 starter 是否合适\n  - `S03` 判断是否可直接送 reviewer\n  - `S04` 判断 coverage、缺口、真实性/ownership/scope 风险\n  - `S05` 判断 Writer 应如何改写、优先级如何排序\n  - `S06` 必须输出 JSON，不要解释性文字，不要复述 schema\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::54",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2585,7 +2585,7 @@
     },
     {
       "uid": "frag-bab5603c64af15a3",
-      "text": "- 类型：Planner user\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:121)\n- 条目：\n  - `S01` 基于 mode、JD、matcher packet、starter resume 做流程决策\n  - `S02` 返回 schema 必须包含 `decision / fit_label / reuse_ratio_estimate / already_covered / missing_or_weak / risk_flags / role_seniority_guidance / planner_summary / writer_plan / direct_review_rationale`\n  - `S03` `no_starter` 模式下 decision 只能是 `write`\n  - `S04` starter 高度贴合且风险低可 `direct_review`\n  - `S05` starter 语义相近但需改写则 `write`\n  - `S06` starter 虽相似但会误导 summary / ownership / 项目骨架 / scope 时 `reject_starter`\n  - `S07` 不要把 matcher 相似度直接等同于可写作适配度\n",
+      "text": "- 类型：Planner user\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:121)\n- 条目：\n  - `S01` 基于 mode、JD、matcher packet、starter resume 做流程决策\n  - `S02` 返回 schema 必须包含 `decision / fit_label / reuse_ratio_estimate / already_covered / missing_or_weak / risk_flags / role_seniority_guidance / planner_summary / writer_plan / direct_review_rationale`\n  - `S03` `no_starter` 模式下 decision 只能是 `write`\n  - `S04` starter 高度贴合且风险低可 `direct_review`\n  - `S05` starter 语义相近但需改写则 `write`\n  - `S06` starter 虽相似但会误导 summary / ownership / 项目骨架 / scope 时 `reject_starter`\n  - `S07` 不要把 matcher 相似度直接等同于可写作适配度\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::55",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2593,7 +2593,7 @@
     },
     {
       "uid": "frag-b69aab63b7da507f",
-      "text": "- 类型：planner-first writer overlay\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:194)\n- 条目：\n  - `S01` 在 `P-WRITER-USER-MAIN` 之后追加 planner decision JSON\n  - `S02` 追加 matcher evidence JSON\n  - `S03` 追加 historical starter resume\n  - `S04` 若给了 starter，把它视为可复用骨架，不是必须保留的模板\n  - `S05` 优先遵循 planner 对 coverage / missing / risk / role-seniority framing 的判断\n  - `S06` planner 指出 scope/真实性风险时，必须主动改写 summary、ownership、project framing\n  - `S07` planner 认为 starter 可高比例复用时，可保留高价值证据，但仍以目标 JD 为准\n",
+      "text": "- 类型：planner-first writer overlay\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:194)\n- 条目：\n  - `S01` 在 `P-WRITER-USER-MAIN` 之后追加 planner decision JSON\n  - `S02` 追加 matcher evidence JSON\n  - `S03` 追加 historical starter resume\n  - `S04` 若给了 starter，把它视为可复用骨架，不是必须保留的模板\n  - `S05` 优先遵循 planner 对 coverage / missing / risk / role-seniority framing 的判断\n  - `S06` planner 指出 scope/真实性风险时，必须主动改写 summary、ownership、project framing\n  - `S07` planner 认为 starter 可高比例复用时，可保留高价值证据，但仍以目标 JD 为准\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::56",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2601,7 +2601,7 @@
     },
     {
       "uid": "frag-75455111791044c1",
-      "text": "- 类型：planner-first revision overlay\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:230)\n- 条目：\n  - `S01` 在 `P-WRITER-USER-MAIN` 之后追加 planner carry-over、planner risks、reviewer priority、reviewer findings、must-have tech、当前草稿\n  - `S02` 当前目标不是保留旧稿，而是基于 reviewer 与 planner 判断把简历提到更稳的 pass\n  - `S03` 不要保留任何只是因为旧稿已存在、但不再服务目标 JD 的 summary framing、ownership framing、bullet 结构\n  - `S04` planner 指出了 scope / 真实性 / 角色定位 / seniority 风险时必须优先修正\n  - `S05` reviewer 指出 JD 缺口时，优先补正文证据，而不是删除 must-have 技术\n  - `S06` 允许重写 summary、skills 分组、bullet 取舍、project baseline、经历 framing，但不得破坏不可变字段与职业主线真实性\n  - `S07` 输出完整 Markdown，不要解释\n",
+      "text": "- 类型：planner-first revision overlay\n- 全局映射：\n  - [match_pipe/planner_validation_runner.py](match_pipe/planner_validation_runner.py:230)\n- 条目：\n  - `S01` 在 `P-WRITER-USER-MAIN` 之后追加 planner carry-over、planner risks、reviewer priority、reviewer findings、must-have tech、当前草稿\n  - `S02` 当前目标不是保留旧稿，而是基于 reviewer 与 planner 判断把简历提到更稳的 pass\n  - `S03` 不要保留任何只是因为旧稿已存在、但不再服务目标 JD 的 summary framing、ownership framing、bullet 结构\n  - `S04` planner 指出了 scope / 真实性 / 角色定位 / seniority 风险时必须优先修正\n  - `S05` reviewer 指出 JD 缺口时，优先补正文证据，而不是删除 must-have 技术\n  - `S06` 允许重写 summary、skills 分组、bullet 取舍、project baseline、经历 framing，但不得破坏不可变字段与职业主线真实性\n  - `S07` 输出完整 Markdown，不要解释\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::57",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2617,7 +2617,7 @@
     },
     {
       "uid": "frag-028137a43223d4ab",
-      "text": "- 类型：dual-channel continuity overlay\n- 全局映射：\n  - [match_pipe/downstream_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/downstream_validation_runner.py:276)\n- 句子：\n  - `S01` `## Dual-channel continuity note`\n  - `S02` 逐行插入 `delta_summary`\n  - `S03` 若 continuity anchor 存在，插入其公司、标题与 `reuse_readiness`\n  - `S04` `Use semantic anchor as the main skeleton. Apply company continuity only when it does not reintroduce hard gaps.`\n",
+      "text": "- 类型：dual-channel continuity overlay\n- 全局映射：\n  - [match_pipe/downstream_validation_runner.py](match_pipe/downstream_validation_runner.py:276)\n- 句子：\n  - `S01` `## Dual-channel continuity note`\n  - `S02` 逐行插入 `delta_summary`\n  - `S03` 若 continuity anchor 存在，插入其公司、标题与 `reuse_readiness`\n  - `S04` `Use semantic anchor as the main skeleton. Apply company continuity only when it does not reintroduce hard gaps.`\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::59",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2633,7 +2633,7 @@
     },
     {
       "uid": "frag-5ef817f4a28d9305",
-      "text": "- 类型：数据驱动 candidate context\n- 来源：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:326)\n- 说明：\n  - 文字框架在这里，但公司、部门、自然技术栈、教育条目由配置展开\n  - 如果你要统一改“候选人经历框架”这层文案，改这里\n",
+      "text": "- 类型：数据驱动 candidate context\n- 来源：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:326)\n- 说明：\n  - 文字框架在这里，但公司、部门、自然技术栈、教育条目由配置展开\n  - 如果你要统一改“候选人经历框架”这层文案，改这里\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::61",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2641,7 +2641,7 @@
     },
     {
       "uid": "frag-1aa8e4b30dd6b73b",
-      "text": "- 类型：数据驱动 format constraints\n- 来源：\n  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:228)\n- 说明：\n  - 是 Writer/Revision/Upgrade 的大块硬约束来源\n  - 当前仍是单源，无重复文本问题\n",
+      "text": "- 类型：数据驱动 format constraints\n- 来源：\n  - [runtime/core/prompt_builder.py](runtime/core/prompt_builder.py:228)\n- 说明：\n  - 是 Writer/Revision/Upgrade 的大块硬约束来源\n  - 当前仍是单源，无重复文本问题\n",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::62",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2649,7 +2649,7 @@
     },
     {
       "uid": "frag-978efb3489a8cfe5",
-      "text": "- 类型：数据驱动 project pool block\n- 来源：\n  - [runtime/automation/project_pool.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/automation/project_pool.py:174)\n- 说明：\n  - 只进入 `P-WRITER-USER-RETARGET`\n  - 若你要统一改项目池提示语，只改这里",
+      "text": "- 类型：数据驱动 project pool block\n- 来源：\n  - [runtime/automation/project_pool.py](runtime/automation/project_pool.py:174)\n- 说明：\n  - 只进入 `P-WRITER-USER-RETARGET`\n  - 若你要统一改项目池提示语，只改这里",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::63",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2665,7 +2665,7 @@
     },
     {
       "uid": "frag-b1a74df882aa33d8",
-      "text": "\n修改以下块后，必须同步复核：\n- `B-WRITER-SYS-REV-STRICT-001`\n- `B-WRITER-SYS-REV-UPGRADE-001`\n- `B-REVISION-001`\n- `B-RETARGET-001`\n- `B-UPGRADE-001`\n\n对应测试：\n- [tests/test_prompt_merge_equivalence.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/tests/test_prompt_merge_equivalence.py:22)",
+      "text": "\n修改以下块后，必须同步复核：\n- `B-WRITER-SYS-REV-STRICT-001`\n- `B-WRITER-SYS-REV-UPGRADE-001`\n- `B-REVISION-001`\n- `B-RETARGET-001`\n- `B-UPGRADE-001`\n\n对应测试：\n- [tests/test_prompt_merge_equivalence.py](tests/test_prompt_merge_equivalence.py:22)",
       "doc_id": "source_reference::doc::prompt_canonical_review::source_reference::doc::prompt_canonical_review::document::65",
       "group_id": "source_reference::doc::prompt_canonical_review",
       "block_id": "source_reference::doc::prompt_canonical_review::document",
@@ -2689,7 +2689,7 @@
     },
     {
       "uid": "frag-b17a9b8e4378e98f",
-      "text": "- [runtime/core/prompt_builder.py:410](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:410)",
+      "text": "- [runtime/core/prompt_builder.py:410](runtime/core/prompt_builder.py:410)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::2",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2705,7 +2705,7 @@
     },
     {
       "uid": "frag-f817bde4053bfb7a",
-      "text": "- [runtime/core/prompt_builder.py:475](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:475)",
+      "text": "- [runtime/core/prompt_builder.py:475](runtime/core/prompt_builder.py:475)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::3",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2721,7 +2721,7 @@
     },
     {
       "uid": "frag-1a5db63c48be1746",
-      "text": "- [runtime/core/prompt_builder.py:326](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:326)\n\n说明：\n- 这是 `build_master_writer_prompt()` 的前置大块\n- 它按目标公司动态展开，但自然语言结构是固定的\n\n正文模板：\n\n第 1 段  \n标题固定为：`## 候选人经历框架（⚡=不可变字段，其余可由 Writer 决定）`\n\n第 2 段  \n对每段经历，都会列出：公司、部门、职称、时间、地点、时长、级别。\n\n第 3 段  \n对每段经历，都会列出：禁用动词、允许动词、scope 上限。\n\n第 4 段  \n如果该经历存在 leadership 设定，会额外列出：团队规模、跨职能构成、全球汇报、决策传导。\n\n第 5 段  \n对每段经历，都会列出自然技术栈分层：core、extended、stretch。\n\n第 6 段  \n教育经历模板会列出：学位、学校、时间，以及“保留当/可省略当”的条件。\n\n第 7 段  \n最后会列出成就模块，要求围棋成就融入 Summary 第 3 句。\n\n第 8 段  \n如果目标公司是 ByteDance，还会额外插入：不得写入 TikTok / ByteDance intern，只能使用 DiDi、Temu、Georgia Tech CS coursework/projects 作为证据池。",
+      "text": "- [runtime/core/prompt_builder.py:326](runtime/core/prompt_builder.py:326)\n\n说明：\n- 这是 `build_master_writer_prompt()` 的前置大块\n- 它按目标公司动态展开，但自然语言结构是固定的\n\n正文模板：\n\n第 1 段  \n标题固定为：`## 候选人经历框架（⚡=不可变字段，其余可由 Writer 决定）`\n\n第 2 段  \n对每段经历，都会列出：公司、部门、职称、时间、地点、时长、级别。\n\n第 3 段  \n对每段经历，都会列出：禁用动词、允许动词、scope 上限。\n\n第 4 段  \n如果该经历存在 leadership 设定，会额外列出：团队规模、跨职能构成、全球汇报、决策传导。\n\n第 5 段  \n对每段经历，都会列出自然技术栈分层：core、extended、stretch。\n\n第 6 段  \n教育经历模板会列出：学位、学校、时间，以及“保留当/可省略当”的条件。\n\n第 7 段  \n最后会列出成就模块，要求围棋成就融入 Summary 第 3 句。\n\n第 8 段  \n如果目标公司是 ByteDance，还会额外插入：不得写入 TikTok / ByteDance intern，只能使用 DiDi、Temu、Georgia Tech CS coursework/projects 作为证据池。",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::4",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2729,7 +2729,7 @@
     },
     {
       "uid": "frag-2d367089b52849cc",
-      "text": "- `match_pipe` 中所有复用 `build_master_writer_prompt()` 的路径\n\n代码位置：\n- [runtime/core/prompt_builder.py:248](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:248)\n\n这是你刚才指出被我折叠掉、但实际非常重要的一块。",
+      "text": "- `match_pipe` 中所有复用 `build_master_writer_prompt()` 的路径\n\n代码位置：\n- [runtime/core/prompt_builder.py:248](runtime/core/prompt_builder.py:248)\n\n这是你刚才指出被我折叠掉、但实际非常重要的一块。",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::5",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2745,7 +2745,7 @@
     },
     {
       "uid": "frag-9e1418328c85a0e7",
-      "text": "\n代码位置：\n- [runtime/core/prompt_builder.py:106](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:106)\n- [runtime/core/prompt_builder.py:152](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:152)",
+      "text": "\n代码位置：\n- [runtime/core/prompt_builder.py:106](runtime/core/prompt_builder.py:106)\n- [runtime/core/prompt_builder.py:152](runtime/core/prompt_builder.py:152)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::6",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2761,7 +2761,7 @@
     },
     {
       "uid": "frag-0c3e69395b2ba19e",
-      "text": "- [runtime/core/prompt_builder.py:568](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:568)",
+      "text": "- [runtime/core/prompt_builder.py:568](runtime/core/prompt_builder.py:568)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::7",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2777,7 +2777,7 @@
     },
     {
       "uid": "frag-1c785833a2427fee",
-      "text": "- [runtime/core/prompt_builder.py:592](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:592)",
+      "text": "- [runtime/core/prompt_builder.py:592](runtime/core/prompt_builder.py:592)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::8",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2793,7 +2793,7 @@
     },
     {
       "uid": "frag-22cd10df77ff796e",
-      "text": "- [runtime/core/prompt_builder.py:620](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:620)",
+      "text": "- [runtime/core/prompt_builder.py:620](runtime/core/prompt_builder.py:620)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::9",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2809,7 +2809,7 @@
     },
     {
       "uid": "frag-c2e0def983e31e34",
-      "text": "- [runtime/core/prompt_builder.py:61](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:61)\n- [runtime/core/prompt_builder.py:69](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:69)\n- [runtime/core/prompt_builder.py:81](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:81)",
+      "text": "- [runtime/core/prompt_builder.py:61](runtime/core/prompt_builder.py:61)\n- [runtime/core/prompt_builder.py:69](runtime/core/prompt_builder.py:69)\n- [runtime/core/prompt_builder.py:81](runtime/core/prompt_builder.py:81)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::10",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2825,7 +2825,7 @@
     },
     {
       "uid": "frag-b4ac5aa07b5189ac",
-      "text": "\n角色：\n- Revision Writer\n\n代码位置：\n- [runtime/core/prompt_builder.py:789](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:789)\n\n说明：\n- `match_pipe` 目前主流程里更常用 upgrade revision，但 strict revision 仍属于同一族共享 prompt",
+      "text": "\n角色：\n- Revision Writer\n\n代码位置：\n- [runtime/core/prompt_builder.py:789](runtime/core/prompt_builder.py:789)\n\n说明：\n- `match_pipe` 目前主流程里更常用 upgrade revision，但 strict revision 仍属于同一族共享 prompt",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::11",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2849,7 +2849,7 @@
     },
     {
       "uid": "frag-464376f8ff0af8a6",
-      "text": "- [runtime/core/prompt_builder.py:878](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:878)",
+      "text": "- [runtime/core/prompt_builder.py:878](runtime/core/prompt_builder.py:878)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::12",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2865,7 +2865,7 @@
     },
     {
       "uid": "frag-15dfbf80dea2c2f7",
-      "text": "\n角色：\n- Upgrade Revision Writer\n- `match_pipe` reviewer 后续重写\n\n代码位置：\n- [runtime/core/prompt_builder.py:973](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:973)",
+      "text": "\n角色：\n- Upgrade Revision Writer\n- `match_pipe` reviewer 后续重写\n\n代码位置：\n- [runtime/core/prompt_builder.py:973](runtime/core/prompt_builder.py:973)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::13",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2881,7 +2881,7 @@
     },
     {
       "uid": "frag-473a56967fbb4804",
-      "text": "- [match_pipe/planner_validation_runner.py:32](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:32)",
+      "text": "- [match_pipe/planner_validation_runner.py:32](match_pipe/planner_validation_runner.py:32)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::14",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2897,7 +2897,7 @@
     },
     {
       "uid": "frag-52b67eb04cf3cd66",
-      "text": "- [match_pipe/planner_validation_runner.py:121](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:121)",
+      "text": "- [match_pipe/planner_validation_runner.py:121](match_pipe/planner_validation_runner.py:121)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::15",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2913,7 +2913,7 @@
     },
     {
       "uid": "frag-be4dffa32d8bb387",
-      "text": "\n角色：\n- Planner-first Writer\n\n代码位置：\n- [match_pipe/planner_validation_runner.py:194](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:194)",
+      "text": "\n角色：\n- Planner-first Writer\n\n代码位置：\n- [match_pipe/planner_validation_runner.py:194](match_pipe/planner_validation_runner.py:194)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::16",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2929,7 +2929,7 @@
     },
     {
       "uid": "frag-6f8353370af3bb5d",
-      "text": "\n角色：\n- Planner-first Revision Writer\n\n代码位置：\n- [match_pipe/planner_validation_runner.py:230](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:230)",
+      "text": "\n角色：\n- Planner-first Revision Writer\n\n代码位置：\n- [match_pipe/planner_validation_runner.py:230](match_pipe/planner_validation_runner.py:230)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::17",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",
@@ -2953,7 +2953,7 @@
     },
     {
       "uid": "frag-4b0df3838ea8d9e5",
-      "text": "- [match_pipe/downstream_validation_runner.py:276](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/downstream_validation_runner.py:276)",
+      "text": "- [match_pipe/downstream_validation_runner.py:276](match_pipe/downstream_validation_runner.py:276)",
       "doc_id": "source_reference::doc::match_pipe_prompt_review::source_reference::doc::match_pipe_prompt_review::document::18",
       "group_id": "source_reference::doc::match_pipe_prompt_review",
       "block_id": "source_reference::doc::match_pipe_prompt_review::document",

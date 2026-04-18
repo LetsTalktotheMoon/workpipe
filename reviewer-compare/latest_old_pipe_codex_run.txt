@@ -1,1 +1,1 @@
-/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/old-pipe-codex/runs/20260417_222351_709578
+reviewer-compare/old-pipe-codex/runs/20260417_222351_709578

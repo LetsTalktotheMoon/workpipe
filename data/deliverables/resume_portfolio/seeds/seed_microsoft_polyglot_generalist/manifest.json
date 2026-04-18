@@ -89,8 +89,8 @@
       "notes": "Use for campaign operations console, regional promotion console, or experiment-setup workflow variants."
     }
   ],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_microsoft_polyglot_generalist/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_microsoft_polyglot_generalist",
+  "source_resume_md": "data/seed_sources/seed_microsoft_polyglot_generalist/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_microsoft_polyglot_generalist",
   "source_artifact_dir": "",
   "derived_count": 29,
   "derived_jobs": [
@@ -178,8 +178,8 @@
       "title": "Software Engineer, 3D Modeling",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hover/2026-04-05/69992d53ce78e77b4fdde2cf",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hover/2026-04-05/69992d53ce78e77b4fdde2cf/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/hover/2026-04-05/69992d53ce78e77b4fdde2cf",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/hover/2026-04-05/69992d53ce78e77b4fdde2cf/resume.md",
       "resume_pdf": ""
     },
     {
@@ -211,8 +211,8 @@
       "title": "Software Engineer 2, AI Builder",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1454acfdc6132f9442ba5",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1454acfdc6132f9442ba5/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1454acfdc6132f9442ba5",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1454acfdc6132f9442ba5/resume.md",
       "resume_pdf": ""
     },
     {
@@ -222,8 +222,8 @@
       "title": "Software Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/coherent-corp/2026-04-04/69b4c47b06c1ba00c54643ae",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/coherent-corp/2026-04-04/69b4c47b06c1ba00c54643ae/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/coherent-corp/2026-04-04/69b4c47b06c1ba00c54643ae",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/coherent-corp/2026-04-04/69b4c47b06c1ba00c54643ae/resume.md",
       "resume_pdf": ""
     },
     {
@@ -233,8 +233,8 @@
       "title": "AI Software Engineer - Agents",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/perplexity/2026-04-04/69469b187d506e3808f1ef06",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/perplexity/2026-04-04/69469b187d506e3808f1ef06/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/perplexity/2026-04-04/69469b187d506e3808f1ef06",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/perplexity/2026-04-04/69469b187d506e3808f1ef06/resume.md",
       "resume_pdf": ""
     },
     {
@@ -255,8 +255,8 @@
       "title": "Software Engineer 2, AI Builder",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1214ecdb525785fbb098a",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1214ecdb525785fbb098a/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1214ecdb525785fbb098a",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/intuit/2026-04-04/69d1214ecdb525785fbb098a/resume.md",
       "resume_pdf": ""
     },
     {
@@ -266,8 +266,8 @@
       "title": "AI Enablement Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cognition/2026-04-04/692baeac4c474121999ce0a1",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cognition/2026-04-04/692baeac4c474121999ce0a1/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cognition/2026-04-04/692baeac4c474121999ce0a1",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cognition/2026-04-04/692baeac4c474121999ce0a1/resume.md",
       "resume_pdf": ""
     },
     {
@@ -277,8 +277,8 @@
       "title": "Senior Software Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69b6438d56973837413b8622",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69b6438d56973837413b8622/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69b6438d56973837413b8622",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69b6438d56973837413b8622/resume.md",
       "resume_pdf": ""
     },
     {
@@ -288,8 +288,8 @@
       "title": "Asset & Wealth Management - Software Engineer - Associate - Dallas",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/goldman-sachs/2026-04-03/69c8ae57aa3c2c1995e1fc81",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/goldman-sachs/2026-04-03/69c8ae57aa3c2c1995e1fc81/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/goldman-sachs/2026-04-03/69c8ae57aa3c2c1995e1fc81",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/goldman-sachs/2026-04-03/69c8ae57aa3c2c1995e1fc81/resume.md",
       "resume_pdf": ""
     },
     {
@@ -299,8 +299,8 @@
       "title": "Full-stack Engineer, Data Platform - Experimentation & Evaluation",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-03/69d01101891d7b11cfcd8514",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-03/69d01101891d7b11cfcd8514/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/tiktok/2026-04-03/69d01101891d7b11cfcd8514",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/tiktok/2026-04-03/69d01101891d7b11cfcd8514/resume.md",
       "resume_pdf": ""
     },
     {
@@ -310,8 +310,8 @@
       "title": "AI Engineer - Forward Deployed",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/edison-scientific/2026-04-03/69d00c59cdb525785fba6c67",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/edison-scientific/2026-04-03/69d00c59cdb525785fba6c67/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/edison-scientific/2026-04-03/69d00c59cdb525785fba6c67",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/edison-scientific/2026-04-03/69d00c59cdb525785fba6c67/resume.md",
       "resume_pdf": ""
     },
     {
@@ -332,8 +332,8 @@
       "title": "Developer Associate (hybrid)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/northwestern-university/2026-04-03/69cf2b52cdb525785fb9f285",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/northwestern-university/2026-04-03/69cf2b52cdb525785fb9f285/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/northwestern-university/2026-04-03/69cf2b52cdb525785fb9f285",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/northwestern-university/2026-04-03/69cf2b52cdb525785fb9f285/resume.md",
       "resume_pdf": ""
     },
     {
@@ -354,8 +354,8 @@
       "title": "Senior Software Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-03/6959cd899f1b381eb27280cb",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-03/6959cd899f1b381eb27280cb/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-03/6959cd899f1b381eb27280cb",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-03/6959cd899f1b381eb27280cb/resume.md",
       "resume_pdf": ""
     },
     {
@@ -365,8 +365,8 @@
       "title": "Engineer - Services RF (Network Engineer)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ericsson/2026-04-02/69cee3a4cfdc6132f942d986",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ericsson/2026-04-02/69cee3a4cfdc6132f942d986/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/ericsson/2026-04-02/69cee3a4cfdc6132f942d986",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/ericsson/2026-04-02/69cee3a4cfdc6132f942d986/resume.md",
       "resume_pdf": ""
     },
     {
@@ -376,8 +376,8 @@
       "title": "Associate Engineer, Software",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/leviton/2026-04-02/69b20d9665de58104c717a3c",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/leviton/2026-04-02/69b20d9665de58104c717a3c/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/leviton/2026-04-02/69b20d9665de58104c717a3c",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/leviton/2026-04-02/69b20d9665de58104c717a3c/resume.md",
       "resume_pdf": ""
     },
     {
@@ -398,8 +398,8 @@
       "title": "Python Engineer, Truework",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/checkr-inc/2026-04-01/69cdd467891d7b11cfcc0382",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/checkr-inc/2026-04-01/69cdd467891d7b11cfcc0382/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/checkr-inc/2026-04-01/69cdd467891d7b11cfcc0382",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/checkr-inc/2026-04-01/69cdd467891d7b11cfcc0382/resume.md",
       "resume_pdf": ""
     },
     {

@@ -9,6 +9,8 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
+from repo_paths import repo_relative_path, resolve_repo_path
+
 ROOT = Path(__file__).resolve().parents[1]
 RUNTIME_ROOT = ROOT / "runtime"
 if str(RUNTIME_ROOT) not in sys.path:
@@ -51,7 +53,7 @@ def _existing_resume_anchor(candidates: list[dict | None]) -> dict | None:
         if not candidate:
             continue
         resume_path = str(candidate.get("resume_path", "") or "")
-        if resume_path and Path(resume_path).exists():
+        if resume_path and resolve_repo_path(resume_path).exists():
             return candidate
     return None
 
@@ -282,7 +284,7 @@ def _run_new_dual_channel(
     )
     if not primary_anchor:
         raise RuntimeError("No usable semantic resume anchor for dual-channel validation.")
-    seed_resume_md = Path(primary_anchor["resume_path"]).read_text(encoding="utf-8")
+    seed_resume_md = resolve_repo_path(primary_anchor["resume_path"]).read_text(encoding="utf-8")
     continuity_anchor = _existing_resume_anchor(
         [selector_payload["writer_input"].get("continuity_anchor")]
         + list(selector_payload.get("company_top_k", []))
@@ -511,7 +513,7 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Run a small real downstream validation for the starter selector.")
-    parser.add_argument("--output-dir", default=str(ROOT / "output" / "analysis"))
+    parser.add_argument("--output-dir", default="output/analysis")
     parser.add_argument("--sample-size", type=int, default=2)
     parser.add_argument("--llm-transport", default="cli")
     parser.add_argument("--write-model", default="gpt-5.4")
@@ -527,7 +529,7 @@ def main() -> None:
     print(
         json.dumps(
             {
-                "report": str(Path(args.output_dir).expanduser().resolve() / "match_pipe_small_flow_validation_report.json"),
+                "report": repo_relative_path(Path(args.output_dir).expanduser() / "match_pipe_small_flow_validation_report.json"),
                 "sample_size_executed": payload["sample_size_executed"],
                 "rate_limit_triggered": payload["retry_plan"]["rate_limit_triggered"],
             },

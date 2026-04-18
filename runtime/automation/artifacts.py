@@ -11,6 +11,8 @@ import subprocess
 from pathlib import Path
 from typing import Sequence
 
+from repo_paths import repo_relative_path
+
 from pdf_compiler.markdown_adapter import resume_to_pdf_markdown
 from automation.seed_registry import SeedEntry
 from models.resume import Resume
@@ -177,9 +179,9 @@ def publish_seed_artifact(seed: SeedEntry, output_root: Path, generate_pdf: bool
 
     manifest = {
         **seed.to_dict(),
-        "artifact_dir": str(seed_dir),
-        "resume_md": str(md_target),
-        "resume_pdf": str(pdf_target) if pdf_target else "",
+        "artifact_dir": repo_relative_path(seed_dir),
+        "resume_md": repo_relative_path(md_target),
+        "resume_pdf": repo_relative_path(pdf_target) if pdf_target else "",
     }
     (seed_dir / "manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False),

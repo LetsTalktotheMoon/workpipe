@@ -30,10 +30,10 @@
 - [NICE] 保持事实不变，但把首屏表述收紧，减少 profile 式修饰语。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-flextrade-softwaredeveloper/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-flextrade-softwaredeveloper/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-flextrade-softwaredeveloper/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-flextrade-softwaredeveloper/codex.json`
+- Prompt: `conf-flextrade-softwaredeveloper/prompt.txt`
+- Metadata: `conf-flextrade-softwaredeveloper/metadata.json`
+- 原始输出: `conf-flextrade-softwaredeveloper/codex.raw.txt`
+- JSON: `conf-flextrade-softwaredeveloper/codex.json`
 
 ## conf/Whoop-SensorIntelligence
 
@@ -50,10 +50,10 @@
 - [NICE] Remove bold emphasis from qualifiers like internal/team-maintained and keep bolding for tech and scope metrics only.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-whoop-sensorintelligence/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-whoop-sensorintelligence/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-whoop-sensorintelligence/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-whoop-sensorintelligence/codex.json`
+- Prompt: `conf-whoop-sensorintelligence/prompt.txt`
+- Metadata: `conf-whoop-sensorintelligence/metadata.json`
+- 原始输出: `conf-whoop-sensorintelligence/codex.raw.txt`
+- JSON: `conf-whoop-sensorintelligence/codex.json`
 
 ## conf/Hopper-CustomerPlatform
 
@@ -69,10 +69,10 @@
 - [SHOULD] Strengthen the newest TikTok section with one clearer scale signal to better support senior backend screening.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-hopper-customerplatform/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-hopper-customerplatform/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-hopper-customerplatform/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-hopper-customerplatform/codex.json`
+- Prompt: `conf-hopper-customerplatform/prompt.txt`
+- Metadata: `conf-hopper-customerplatform/metadata.json`
+- 原始输出: `conf-hopper-customerplatform/codex.raw.txt`
+- JSON: `conf-hopper-customerplatform/codex.json`
 
 ## conf/Nuro-OffboardInfra
 
@@ -88,10 +88,10 @@
 - [NICE] 其余结构基本干净，保持当前 Skills 和项目拆分方式即可。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-nuro-offboardinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-nuro-offboardinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-nuro-offboardinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-nuro-offboardinfra/codex.json`
+- Prompt: `conf-nuro-offboardinfra/prompt.txt`
+- Metadata: `conf-nuro-offboardinfra/metadata.json`
+- 原始输出: `conf-nuro-offboardinfra/codex.raw.txt`
+- JSON: `conf-nuro-offboardinfra/codex.json`
 
 ## conf/AMH-EnterpriseDataAnalyst
 
@@ -108,10 +108,10 @@
 - [NICE] 收敛过度加粗的修饰语，集中突出技术栈、scope 和结果。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-amh-enterprisedataanalyst/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-amh-enterprisedataanalyst/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-amh-enterprisedataanalyst/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-amh-enterprisedataanalyst/codex.json`
+- Prompt: `conf-amh-enterprisedataanalyst/prompt.txt`
+- Metadata: `conf-amh-enterprisedataanalyst/metadata.json`
+- 原始输出: `conf-amh-enterprisedataanalyst/codex.raw.txt`
+- JSON: `conf-amh-enterprisedataanalyst/codex.json`
 
 ## conf/Phantom-SDET
 
@@ -128,10 +128,10 @@
 - [SHOULD] 重新排序 TikTok 段落，让第一条 bullet 先讲 test ownership / scope，再讲百分比结果。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-phantom-sdet/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-phantom-sdet/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-phantom-sdet/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-phantom-sdet/codex.json`
+- Prompt: `conf-phantom-sdet/prompt.txt`
+- Metadata: `conf-phantom-sdet/metadata.json`
+- 原始输出: `conf-phantom-sdet/codex.raw.txt`
+- JSON: `conf-phantom-sdet/codex.json`
 
 ## conf/VeteransUnited-AssociateSE
 
@@ -148,10 +148,10 @@
 - [NICE] 把 `APIs` 这种泛化技能类别改成更具体的 `Engineering Practices` / `DevEx`。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-veteransunited-associatese/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-veteransunited-associatese/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-veteransunited-associatese/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-veteransunited-associatese/codex.json`
+- Prompt: `conf-veteransunited-associatese/prompt.txt`
+- Metadata: `conf-veteransunited-associatese/metadata.json`
+- 原始输出: `conf-veteransunited-associatese/codex.raw.txt`
+- JSON: `conf-veteransunited-associatese/codex.json`
 
 ## conf/8451-ResearchAI
 
@@ -168,10 +168,10 @@
 - [SHOULD] 把第三句换成更强的 cognition header，并补一条 retail / commerce 业务桥接。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-8451-researchai/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-8451-researchai/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-8451-researchai/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-8451-researchai/codex.json`
+- Prompt: `conf-8451-researchai/prompt.txt`
+- Metadata: `conf-8451-researchai/metadata.json`
+- 原始输出: `conf-8451-researchai/codex.raw.txt`
+- JSON: `conf-8451-researchai/codex.json`
 
 ## conf/Photon-AIEngineer
 
@@ -188,10 +188,10 @@
 - [NICE] Remove bold emphasis from qualifiers such as `team-maintained`; keep bold for technologies and metrics only.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-photon-aiengineer/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-photon-aiengineer/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-photon-aiengineer/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-photon-aiengineer/codex.json`
+- Prompt: `conf-photon-aiengineer/prompt.txt`
+- Metadata: `conf-photon-aiengineer/metadata.json`
+- 原始输出: `conf-photon-aiengineer/codex.raw.txt`
+- JSON: `conf-photon-aiengineer/codex.json`
 
 ## conf/Clarivate-NLP
 
@@ -208,7 +208,7 @@
 - [NICE] Add an explicit internal/sandbox/no-user-data qualifier to the Security-team Bedrock bullets if that is true.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-clarivate-nlp/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-clarivate-nlp/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-clarivate-nlp/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-conf10_20260417_234104_016175/conf-clarivate-nlp/codex.json`
+- Prompt: `conf-clarivate-nlp/prompt.txt`
+- Metadata: `conf-clarivate-nlp/metadata.json`
+- 原始输出: `conf-clarivate-nlp/codex.raw.txt`
+- JSON: `conf-clarivate-nlp/codex.json`

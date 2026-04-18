@@ -33,10 +33,10 @@
       "Code Review",
       "Scala"
     ],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/review.json",
     "historical": {
       "official_score": 95.1,
       "official_verdict": "pass",

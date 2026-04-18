@@ -19,10 +19,10 @@
       "SQL"
     ],
     "tech_preferred": [],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/review.json",
     "historical": {},
     "portfolio_review": {
       "weighted_score": 95.6,

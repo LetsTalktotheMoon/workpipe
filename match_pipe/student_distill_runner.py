@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 import time
 
+from repo_paths import repo_relative_path
+
 from .benchmark import evaluate_cases, split_cases
 from .frozen_teacher import frozen_teacher_manifest
 from .matcher import MatchEngine
@@ -158,13 +160,13 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Distill semantic student from frozen teacher_b_semantic_v1.")
-    parser.add_argument("--output-dir", default=str(ROOT / "output" / "analysis"))
+    parser.add_argument("--output-dir", default="output/analysis")
     args = parser.parse_args()
     payload = run_student_distillation(args.output_dir)
     print(
         json.dumps(
             {
-                "report": str(Path(args.output_dir).expanduser().resolve() / "match_pipe_student_distill_report.json"),
+                "report": repo_relative_path(Path(args.output_dir).expanduser() / "match_pipe_student_distill_report.json"),
                 "trace_count": payload["distillation"]["trace_count"],
             },
             indent=2,

@@ -15,11 +15,11 @@
   "top_candidate": {
     "route_score": 0.934
   },
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-01/69c6510e1b5ad028873838ba",
+  "job_md": "data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/state-street/2026-04-01/69c6510e1b5ad028873838ba",
   "generated_at": "2026-04-05T14:00:55",
   "review": {
     "jd_id": "69c6510e1b5ad028873838ba",

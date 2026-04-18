@@ -30,10 +30,10 @@
 - [SHOULD] 视真实情况为 TikTok 的 Bedrock/RAG bullet 加上 `internal evaluation` / `sandbox` / `no user data` 之类边界限定。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-flextrade-softwaredeveloper/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-flextrade-softwaredeveloper/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-flextrade-softwaredeveloper/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-flextrade-softwaredeveloper/codex.json`
+- Prompt: `conf-flextrade-softwaredeveloper/prompt.txt`
+- Metadata: `conf-flextrade-softwaredeveloper/metadata.json`
+- 原始输出: `conf-flextrade-softwaredeveloper/codex.raw.txt`
+- JSON: `conf-flextrade-softwaredeveloper/codex.json`
 
 ## conf/Whoop-SensorIntelligence
 
@@ -50,10 +50,10 @@
 - [NICE] Tighten the top-of-page narrative so the resume reads as sensor/validation-adjacent rather than broadly cross-domain.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-whoop-sensorintelligence/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-whoop-sensorintelligence/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-whoop-sensorintelligence/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-whoop-sensorintelligence/codex.json`
+- Prompt: `conf-whoop-sensorintelligence/prompt.txt`
+- Metadata: `conf-whoop-sensorintelligence/metadata.json`
+- 原始输出: `conf-whoop-sensorintelligence/codex.raw.txt`
+- JSON: `conf-whoop-sensorintelligence/codex.json`
 
 ## conf/Hopper-CustomerPlatform
 
@@ -69,10 +69,10 @@
 - [NICE] 如需更贴 Hopper 的 post-booking/customer-experience 方向，可以在首段或 DiDi 段补一句更明确的 support / operations / customer workflow bridge。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-hopper-customerplatform/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-hopper-customerplatform/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-hopper-customerplatform/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-hopper-customerplatform/codex.json`
+- Prompt: `conf-hopper-customerplatform/prompt.txt`
+- Metadata: `conf-hopper-customerplatform/metadata.json`
+- 原始输出: `conf-hopper-customerplatform/codex.raw.txt`
+- JSON: `conf-hopper-customerplatform/codex.json`
 
 ## conf/Nuro-OffboardInfra
 
@@ -89,10 +89,10 @@
 - [NICE] 如果版面允许，继续把最相关经历的首条 bullet 写得更像“范围 + 责任 + 结果”，少一点泛化成效描述。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-nuro-offboardinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-nuro-offboardinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-nuro-offboardinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-nuro-offboardinfra/codex.json`
+- Prompt: `conf-nuro-offboardinfra/prompt.txt`
+- Metadata: `conf-nuro-offboardinfra/metadata.json`
+- 原始输出: `conf-nuro-offboardinfra/codex.raw.txt`
+- JSON: `conf-nuro-offboardinfra/codex.json`
 
 ## conf/AMH-EnterpriseDataAnalyst
 
@@ -108,10 +108,10 @@
 - [NICE] 如果要更贴近 AMH，可在 Summary 或 DiDi 项目里补一句 enterprise ops / stakeholder reporting 的迁移桥接。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-amh-enterprisedataanalyst/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-amh-enterprisedataanalyst/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-amh-enterprisedataanalyst/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-amh-enterprisedataanalyst/codex.json`
+- Prompt: `conf-amh-enterprisedataanalyst/prompt.txt`
+- Metadata: `conf-amh-enterprisedataanalyst/metadata.json`
+- 原始输出: `conf-amh-enterprisedataanalyst/codex.raw.txt`
+- JSON: `conf-amh-enterprisedataanalyst/codex.json`
 
 ## conf/Phantom-SDET
 
@@ -128,10 +128,10 @@
 - [SHOULD] 给 TikTok 的 Bedrock/RAG 条目加上 internal/sandbox/synthetic/no-production-data 的边界限定。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-phantom-sdet/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-phantom-sdet/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-phantom-sdet/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-phantom-sdet/codex.json`
+- Prompt: `conf-phantom-sdet/prompt.txt`
+- Metadata: `conf-phantom-sdet/metadata.json`
+- 原始输出: `conf-phantom-sdet/codex.raw.txt`
+- JSON: `conf-phantom-sdet/codex.json`
 
 ## conf/VeteransUnited-AssociateSE
 
@@ -148,10 +148,10 @@
 - [SHOULD] Rename the vague Skills bucket 'APIs' to a clearer workflow-oriented category.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-veteransunited-associatese/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-veteransunited-associatese/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-veteransunited-associatese/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-veteransunited-associatese/codex.json`
+- Prompt: `conf-veteransunited-associatese/prompt.txt`
+- Metadata: `conf-veteransunited-associatese/metadata.json`
+- 原始输出: `conf-veteransunited-associatese/codex.raw.txt`
+- JSON: `conf-veteransunited-associatese/codex.json`
 
 ## conf/8451-ResearchAI
 
@@ -168,10 +168,10 @@
 - [NICE] 其余 bullets 保持现状即可，重点是把首屏叙事从“转型说明”改成“AI/ML 系统能力 + 具体 scope”。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-8451-researchai/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-8451-researchai/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-8451-researchai/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-8451-researchai/codex.json`
+- Prompt: `conf-8451-researchai/prompt.txt`
+- Metadata: `conf-8451-researchai/metadata.json`
+- 原始输出: `conf-8451-researchai/codex.raw.txt`
+- JSON: `conf-8451-researchai/codex.json`
 
 ## conf/Photon-AIEngineer
 
@@ -188,10 +188,10 @@
 - [SHOULD] 取消 `team-maintained` 这类限定词的加粗，只保留技术名词和关键量化信号加粗。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-photon-aiengineer/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-photon-aiengineer/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-photon-aiengineer/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-photon-aiengineer/codex.json`
+- Prompt: `conf-photon-aiengineer/prompt.txt`
+- Metadata: `conf-photon-aiengineer/metadata.json`
+- 原始输出: `conf-photon-aiengineer/codex.raw.txt`
+- JSON: `conf-photon-aiengineer/codex.json`
 
 ## conf/Clarivate-NLP
 
@@ -205,7 +205,7 @@
 - [SHOULD] Add an explicit data-boundary qualifier to the TikTok AWS Bedrock bullets so the Security-context use case is unambiguous.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-clarivate-nlp/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-clarivate-nlp/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-clarivate-nlp/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-confirmation10_20260417_232542_771049/conf-clarivate-nlp/codex.json`
+- Prompt: `conf-clarivate-nlp/prompt.txt`
+- Metadata: `conf-clarivate-nlp/metadata.json`
+- 原始输出: `conf-clarivate-nlp/codex.raw.txt`
+- JSON: `conf-clarivate-nlp/codex.json`

@@ -93,9 +93,9 @@
       "notes": "Use for merchant offer rules, pricing rules migration, dispatch rules service, or rule-evaluation service variants."
     }
   ],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_agi_ml_anchor/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_agi_ml_anchor",
-  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9",
+  "source_resume_md": "data/seed_sources/seed_amazon_agi_ml_anchor/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_amazon_agi_ml_anchor",
+  "source_artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9",
   "derived_count": 37,
   "derived_jobs": [
     {
@@ -105,8 +105,8 @@
       "title": "SDE- ML Engineer, Frontier AI Robotics",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/699d6a6d81476f6176b63dce/resume.md",
       "resume_pdf": ""
     },
     {
@@ -127,8 +127,8 @@
       "title": "Business Intelligence Engineer, R2L Analytics",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-08/69d642dc366bb95ba554bf11/resume.md",
       "resume_pdf": ""
     },
     {
@@ -138,8 +138,8 @@
       "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Infra",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/resume.md",
       "resume_pdf": ""
     },
     {
@@ -149,8 +149,8 @@
       "title": "Machine Learning Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/pinnacle-medicines/2026-04-06/69d3cf39cdb525785fbc329c",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/pinnacle-medicines/2026-04-06/69d3cf39cdb525785fbc329c/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/pinnacle-medicines/2026-04-06/69d3cf39cdb525785fbc329c",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/pinnacle-medicines/2026-04-06/69d3cf39cdb525785fbc329c/resume.md",
       "resume_pdf": ""
     },
     {
@@ -160,8 +160,8 @@
       "title": "Sr. Machine Learning Engineer, Autonomous Driving & Parking",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/lucid-motors/2026-04-06/6903bb5ad64a22104aa9240a",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/lucid-motors/2026-04-06/6903bb5ad64a22104aa9240a/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/lucid-motors/2026-04-06/6903bb5ad64a22104aa9240a",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/lucid-motors/2026-04-06/6903bb5ad64a22104aa9240a/resume.md",
       "resume_pdf": ""
     },
     {
@@ -182,8 +182,8 @@
       "title": "Machine Learning Engineer II , AGI Customization",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/resume.md",
       "resume_pdf": ""
     },
     {
@@ -193,8 +193,8 @@
       "title": "ML Perception Software Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-intuition/2026-04-05/674973e29a71c8abf4986751",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-intuition/2026-04-05/674973e29a71c8abf4986751/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/applied-intuition/2026-04-05/674973e29a71c8abf4986751",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/applied-intuition/2026-04-05/674973e29a71c8abf4986751/resume.md",
       "resume_pdf": ""
     },
     {
@@ -215,8 +215,8 @@
       "title": "Software Development Engineer (ML), AGI Customization, AGI Customization",
       "source_kind": "seed_source",
       "route_mode": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/697d74fd137a0510256697d9/resume.md",
       "resume_pdf": ""
     },
     {
@@ -226,8 +226,8 @@
       "title": "Software Engineer, Fraud",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/whatnot/2026-04-04/6929a3d166796e3028f8ccae",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/whatnot/2026-04-04/6929a3d166796e3028f8ccae/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/whatnot/2026-04-04/6929a3d166796e3028f8ccae",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/whatnot/2026-04-04/6929a3d166796e3028f8ccae/resume.md",
       "resume_pdf": ""
     },
     {
@@ -248,8 +248,8 @@
       "title": "Software Development Engineer , Sponsored Products and Brands",
       "source_kind": "retarget_trial",
       "route_mode": "new_seed",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/69982241e0bddb6acac725a3",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/69982241e0bddb6acac725a3/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/69982241e0bddb6acac725a3",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-04/69982241e0bddb6acac725a3/resume.md",
       "resume_pdf": ""
     },
     {
@@ -259,8 +259,8 @@
       "title": "Machine Learning Engineer, ADV Systems",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/6998f2d681476f6176b15d0b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/6998f2d681476f6176b15d0b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/6998f2d681476f6176b15d0b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/6998f2d681476f6176b15d0b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -270,8 +270,8 @@
       "title": "Machine Learning Engineer - VLM/LLM Integration",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69b47ca73b74eb1e2c81d2c4",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69b47ca73b74eb1e2c81d2c4/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69b47ca73b74eb1e2c81d2c4",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69b47ca73b74eb1e2c81d2c4/resume.md",
       "resume_pdf": ""
     },
     {
@@ -281,8 +281,8 @@
       "title": "Machine Learning Engineer, Data & Systems",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69993ed9e0bddb6acac8578f",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69993ed9e0bddb6acac8578f/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69993ed9e0bddb6acac8578f",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-04/69993ed9e0bddb6acac8578f/resume.md",
       "resume_pdf": ""
     },
     {
@@ -303,8 +303,8 @@
       "title": "Deep Learning Software Engineer, LLM Performance - New College Grad 2026",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69d08495cdb525785fbab3c5/resume.md",
       "resume_pdf": ""
     },
     {
@@ -325,8 +325,8 @@
       "title": "MLOps Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/booz-allen-hamilton/2026-04-03/69d0734c0b098b7a67079835",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/booz-allen-hamilton/2026-04-03/69d0734c0b098b7a67079835/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/booz-allen-hamilton/2026-04-03/69d0734c0b098b7a67079835",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/booz-allen-hamilton/2026-04-03/69d0734c0b098b7a67079835/resume.md",
       "resume_pdf": ""
     },
     {
@@ -336,8 +336,8 @@
       "title": "AI Engr II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d0341a891d7b11cfcd9c30/resume.md",
       "resume_pdf": ""
     },
     {
@@ -347,8 +347,8 @@
       "title": "AI Engr II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d01378366bb95ba551b25b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d01378366bb95ba551b25b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d01378366bb95ba551b25b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/honeywell/2026-04-03/69d01378366bb95ba551b25b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -358,8 +358,8 @@
       "title": "AI Builder, Ring",
       "source_kind": "retarget_trial",
       "route_mode": "new_seed",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae4/resume.md",
       "resume_pdf": ""
     },
     {
@@ -369,8 +369,8 @@
       "title": "Senior Perception Engineer, Obstacle Foundation Models - Autonomous Vehicles",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69b379f7ae2a534885eae713",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69b379f7ae2a534885eae713/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69b379f7ae2a534885eae713",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/nvidia/2026-04-03/69b379f7ae2a534885eae713/resume.md",
       "resume_pdf": ""
     },
     {
@@ -380,8 +380,8 @@
       "title": "Business Intelligence Engineer, Creators and Social Analytics Team",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cfb2a20b098b7a67073316",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cfb2a20b098b7a67073316/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cfb2a20b098b7a67073316",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cfb2a20b098b7a67073316/resume.md",
       "resume_pdf": ""
     },
     {
@@ -391,8 +391,8 @@
       "title": "Machine Learning Engineer, 3D Simulation",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/resume.md",
       "resume_pdf": ""
     },
     {
@@ -402,8 +402,8 @@
       "title": "ML Model Development Engineer (MMDE-2601)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tetramem-accelerate-the-world/2026-04-02/69cf034a398fb071abf8b9d5",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tetramem-accelerate-the-world/2026-04-02/69cf034a398fb071abf8b9d5/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/tetramem-accelerate-the-world/2026-04-02/69cf034a398fb071abf8b9d5",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/tetramem-accelerate-the-world/2026-04-02/69cf034a398fb071abf8b9d5/resume.md",
       "resume_pdf": ""
     },
     {
@@ -424,8 +424,8 @@
       "title": "Autonomy Engineer - Deep Learning",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/skydio/2026-04-02/69421283bdcf884a5addd027",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/skydio/2026-04-02/69421283bdcf884a5addd027/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/skydio/2026-04-02/69421283bdcf884a5addd027",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/skydio/2026-04-02/69421283bdcf884a5addd027/resume.md",
       "resume_pdf": ""
     },
     {
@@ -435,8 +435,8 @@
       "title": "Analytic Science - Scientist II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fico/2026-04-02/6999546d81476f6176b1f81f",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fico/2026-04-02/6999546d81476f6176b1f81f/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/fico/2026-04-02/6999546d81476f6176b1f81f",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/fico/2026-04-02/6999546d81476f6176b1f81f/resume.md",
       "resume_pdf": ""
     },
     {
@@ -468,8 +468,8 @@
       "title": "Applied AI/ML - Vice President",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/697028e4587dfa0bb55daadd/resume.md",
       "resume_pdf": ""
     },
     {
@@ -479,8 +479,8 @@
       "title": "Sr Engineer, Machine Learning Engineering (ML Apps)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-01/69cd30bc398fb071abf72f55",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-01/69cd30bc398fb071abf72f55/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-01/69cd30bc398fb071abf72f55",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-01/69cd30bc398fb071abf72f55/resume.md",
       "resume_pdf": ""
     },
     {
@@ -490,8 +490,8 @@
       "title": "Machine Learning Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/orchard/2026-04-01/69ccb759cfdc6132f9412768",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/orchard/2026-04-01/69ccb759cfdc6132f9412768/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/orchard/2026-04-01/69ccb759cfdc6132f9412768",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/orchard/2026-04-01/69ccb759cfdc6132f9412768/resume.md",
       "resume_pdf": ""
     },
     {
@@ -501,8 +501,8 @@
       "title": "Software Engineer - Machine Learning (FC QVE)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/electronic-arts-ea/2026-03-31/69cc8855cfdc6132f940f397",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/electronic-arts-ea/2026-03-31/69cc8855cfdc6132f940f397/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/electronic-arts-ea/2026-03-31/69cc8855cfdc6132f940f397",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/electronic-arts-ea/2026-03-31/69cc8855cfdc6132f940f397/resume.md",
       "resume_pdf": ""
     }
   ]

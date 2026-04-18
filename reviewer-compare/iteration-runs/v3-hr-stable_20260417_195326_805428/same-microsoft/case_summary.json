@@ -30,10 +30,10 @@
       "Distributed Systems"
     ],
     "tech_preferred": [],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/review.json",
     "historical": {
       "official_score": 94.2,
       "official_verdict": "pass",

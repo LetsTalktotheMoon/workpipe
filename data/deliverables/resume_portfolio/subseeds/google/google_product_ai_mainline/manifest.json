@@ -18,11 +18,11 @@
     "generalist"
   ],
   "notes": "Workspace, Geo, AI application, and product-facing SWE variants.",
-  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/google/google_product_ai_mainline",
+  "direction_dir": "data/deliverables/resume_portfolio/subseeds/google/google_product_ai_mainline",
   "seed_dirs": [
-    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor",
-    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml",
-    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_fullstack"
+    "data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor",
+    "data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml",
+    "data/deliverables/resume_portfolio/seeds/seed_codex_google_fullstack"
   ],
   "derived_count": 40,
   "derived_jobs": [
@@ -41,7 +41,7 @@
       "publish_time": "2026-04-08 07:37:50",
       "route_mode": "retarget",
       "source_kind": "local_unified_pipeline",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
       "is_outlier": false
     },
     {
@@ -50,7 +50,7 @@
       "publish_time": "2026-04-08 07:28:27",
       "route_mode": "retarget",
       "source_kind": "local_unified_pipeline",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
       "is_outlier": false
     },
     {
@@ -59,7 +59,7 @@
       "publish_time": "2026-04-08 07:22:03",
       "route_mode": "retarget",
       "source_kind": "local_unified_pipeline",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce",
       "is_outlier": false
     },
     {
@@ -68,7 +68,7 @@
       "publish_time": "2026-04-08 07:21:22",
       "route_mode": "retarget",
       "source_kind": "local_unified_pipeline",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
       "is_outlier": false
     },
     {
@@ -86,7 +86,7 @@
       "publish_time": "2026-04-08 06:43:09",
       "route_mode": "retarget",
       "source_kind": "local_unified_pipeline",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
       "is_outlier": false
     },
     {
@@ -104,7 +104,7 @@
       "publish_time": "2026-04-08 05:49:31",
       "route_mode": "retarget",
       "source_kind": "local_unified_pipeline",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/snowflake/2026-04-08/699e4a4e81476f6176b73aab",
       "is_outlier": false
     },
     {
@@ -158,7 +158,7 @@
       "publish_time": "2026-04-06 12:07:41",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/oracle/2026-04-06/69d3e85dcfdc6132f9455b38",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/oracle/2026-04-06/69d3e85dcfdc6132f9455b38",
       "is_outlier": false
     },
     {
@@ -167,7 +167,7 @@
       "publish_time": "2026-04-06 08:33:46",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-06/69d3b63a54f00230c6d299ab",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-06/69d3b63a54f00230c6d299ab",
       "is_outlier": false
     },
     {
@@ -185,7 +185,7 @@
       "publish_time": "2026-04-03 19:15:35",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/simplisafe/2026-04-03/69a5dca40da45516f16e9b94",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/simplisafe/2026-04-03/69a5dca40da45516f16e9b94",
       "is_outlier": false
     },
     {
@@ -203,7 +203,7 @@
       "publish_time": "2026-04-03 11:49:24",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/palantir-technologies/2026-04-03/68ca457c9f583c3191e3f28b",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/palantir-technologies/2026-04-03/68ca457c9f583c3191e3f28b",
       "is_outlier": false
     },
     {
@@ -230,7 +230,7 @@
       "publish_time": "2026-04-03 07:45:25",
       "route_mode": "seed_source",
       "source_kind": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
       "is_outlier": false
     },
     {
@@ -239,7 +239,7 @@
       "publish_time": "2026-04-03 06:06:42",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69c6753cb773006330b709d0",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-03/69c6753cb773006330b709d0",
       "is_outlier": false
     },
     {
@@ -248,7 +248,7 @@
       "publish_time": "2026-04-02 18:02:34",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-02/69cef58acdb525785fb9d9f4",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-02/69cef58acdb525785fb9d9f4",
       "is_outlier": false
     },
     {
@@ -257,7 +257,7 @@
       "publish_time": "2026-04-02 17:52:29",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152",
       "is_outlier": false
     },
     {
@@ -275,7 +275,7 @@
       "publish_time": "2026-04-02 17:45:10",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea",
       "is_outlier": false
     },
     {
@@ -302,7 +302,7 @@
       "publish_time": "2026-04-02 17:00:41",
       "route_mode": "retarget",
       "source_kind": "retarget_trial",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2",
       "is_outlier": false
     },
     {
@@ -320,7 +320,7 @@
       "publish_time": "2026-04-02 14:44:14",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloomberg/2026-04-02/69cedb88366bb95ba55103e5",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/bloomberg/2026-04-02/69cedb88366bb95ba55103e5",
       "is_outlier": false
     },
     {
@@ -338,7 +338,7 @@
       "publish_time": "2026-04-02 11:31:59",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/latitude-ai/2026-04-02/69ce99ff366bb95ba550d1ae",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/latitude-ai/2026-04-02/69ce99ff366bb95ba550d1ae",
       "is_outlier": false
     },
     {
@@ -356,7 +356,7 @@
       "publish_time": "2026-04-02 06:05:52",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intuit/2026-04-02/69ce4d90398fb071abf84215",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/intuit/2026-04-02/69ce4d90398fb071abf84215",
       "is_outlier": false
     },
     {
@@ -365,7 +365,7 @@
       "publish_time": "2026-04-01 23:49:25",
       "route_mode": "new_seed",
       "source_kind": "seed_validation",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f",
       "is_outlier": false
     },
     {

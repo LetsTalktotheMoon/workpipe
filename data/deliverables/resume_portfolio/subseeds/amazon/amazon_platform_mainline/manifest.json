@@ -17,10 +17,10 @@
     "generalist"
   ],
   "notes": "Primary line for management-plane, backend platform, and distributed-systems SDE variants.",
-  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/amazon/amazon_platform_mainline",
+  "direction_dir": "data/deliverables/resume_portfolio/subseeds/amazon/amazon_platform_mainline",
   "seed_dirs": [
-    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate",
-    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde"
+    "data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate",
+    "data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde"
   ],
   "derived_count": 27,
   "derived_jobs": [
@@ -66,7 +66,7 @@
       "publish_time": "2026-04-04 07:42:46",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de",
       "is_outlier": false
     },
     {
@@ -93,7 +93,7 @@
       "publish_time": "2026-04-03 19:17:11",
       "route_mode": "retarget",
       "source_kind": "retarget_trial",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843",
       "is_outlier": true
     },
     {
@@ -102,7 +102,7 @@
       "publish_time": "2026-04-03 13:51:18",
       "route_mode": "seed_source",
       "source_kind": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
       "is_outlier": false
     },
     {
@@ -129,7 +129,7 @@
       "publish_time": "2026-04-03 11:42:44",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d",
       "is_outlier": false
     },
     {
@@ -156,7 +156,7 @@
       "publish_time": "2026-04-03 07:33:31",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c",
       "is_outlier": false
     },
     {
@@ -174,7 +174,7 @@
       "publish_time": "2026-04-03 00:34:54",
       "route_mode": "new_seed",
       "source_kind": "retarget_trial",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7",
       "is_outlier": false
     },
     {
@@ -192,7 +192,7 @@
       "publish_time": "2026-04-02 17:16:31",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
       "is_outlier": false
     },
     {
@@ -210,7 +210,7 @@
       "publish_time": "2026-04-02 16:19:20",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e",
       "is_outlier": false
     },
     {
@@ -219,7 +219,7 @@
       "publish_time": "2026-04-02 15:53:39",
       "route_mode": "retarget",
       "source_kind": "retarget_trial",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5",
       "is_outlier": false
     },
     {
@@ -228,7 +228,7 @@
       "publish_time": "2026-04-02 11:08:30",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767",
       "is_outlier": false
     },
     {
@@ -237,7 +237,7 @@
       "publish_time": "2026-04-02 04:46:46",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093",
       "is_outlier": false
     },
     {
@@ -246,7 +246,7 @@
       "publish_time": "2026-04-02 00:40:49",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503",
       "is_outlier": false
     },
     {
@@ -255,7 +255,7 @@
       "publish_time": "2026-04-01 15:29:13",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e",
       "is_outlier": false
     },
     {

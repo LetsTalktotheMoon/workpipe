@@ -11,8 +11,8 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_itential_generalist_algorithms/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_itential_generalist_algorithms",
+  "source_resume_md": "data/seed_sources/seed_itential_generalist_algorithms/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_itential_generalist_algorithms",
   "source_artifact_dir": "",
   "derived_count": 8,
   "derived_jobs": [
@@ -56,8 +56,8 @@
       "title": "Software Development Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-06/690bd915221b890c277f90de",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-06/690bd915221b890c277f90de/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/adobe/2026-04-06/690bd915221b890c277f90de",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/adobe/2026-04-06/690bd915221b890c277f90de/resume.md",
       "resume_pdf": ""
     },
     {
@@ -100,8 +100,8 @@
       "title": "Software Engineer [Multiple Positions Available]",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-01/69cdd45054f00230c6cf6d4d",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-01/69cdd45054f00230c6cf6d4d/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-01/69cdd45054f00230c6cf6d4d",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-01/69cdd45054f00230c6cf6d4d/resume.md",
       "resume_pdf": ""
     }
   ]

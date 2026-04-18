@@ -16,10 +16,14 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from repo_paths import repo_relative_path, resolve_repo_path
+
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 RUNTIME_ROOT = ROOT / "runtime"
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
 if str(RUNTIME_ROOT) not in sys.path:
@@ -273,7 +277,7 @@ def load_aggregate_fn(path: Path):
 
 
 def build_case_record(case: dict[str, Any], case_dir: Path, template: str) -> tuple[dict[str, Any], str]:
-    target_dir = (ROOT / case["target_dir"]).resolve()
+    target_dir = resolve_repo_path(case["target_dir"])
     resume_path = target_dir / "resume.md"
     job_path = target_dir / "job.md"
     manifest_path = target_dir / "manifest.json"
@@ -300,10 +304,10 @@ def build_case_record(case: dict[str, Any], case_dir: Path, template: str) -> tu
         "team_direction": jd.team_direction,
         "tech_required": jd.tech_required,
         "tech_preferred": jd.tech_preferred,
-        "resume_path": str(resume_path),
-        "job_path": str(job_path),
-        "manifest_path": str(manifest_path),
-        "review_path": str(review_path),
+        "resume_path": repo_relative_path(resume_path),
+        "job_path": repo_relative_path(job_path),
+        "manifest_path": repo_relative_path(manifest_path),
+        "review_path": repo_relative_path(review_path),
         "historical": case.get("historical", {}),
         "portfolio_review": portfolio_review,
         "immutable_snapshot": build_candidate_snapshot(jd.company),
@@ -376,10 +380,10 @@ def build_markdown(run_dir: Path, version_label: str, cases: list[dict[str, Any]
             [
                 "",
                 "### 产物",
-                f"- Prompt: `{run_dir / slugify(case['label']) / 'prompt.txt'}`",
-                f"- Metadata: `{run_dir / slugify(case['label']) / 'metadata.json'}`",
-                f"- 原始输出: `{run_dir / slugify(case['label']) / 'codex.raw.txt'}`",
-                f"- JSON: `{run_dir / slugify(case['label']) / 'codex.json'}`",
+                f"- Prompt: `{(Path(slugify(case['label'])) / 'prompt.txt').as_posix()}`",
+                f"- Metadata: `{(Path(slugify(case['label'])) / 'metadata.json').as_posix()}`",
+                f"- 原始输出: `{(Path(slugify(case['label'])) / 'codex.raw.txt').as_posix()}`",
+                f"- JSON: `{(Path(slugify(case['label'])) / 'codex.json').as_posix()}`",
             ]
         )
     return "\n".join(lines).rstrip() + "\n"
@@ -421,9 +425,9 @@ def main() -> int:
         run_dir / "version.json",
         {
             "version_label": args.version_label,
-            "prompt_file": str(prompt_path),
-            "scorer_file": str(scorer_path),
-            "cases_file": str(Path(args.cases_file).resolve()),
+            "prompt_file": repo_relative_path(prompt_path),
+            "scorer_file": repo_relative_path(scorer_path),
+            "cases_file": repo_relative_path(Path(args.cases_file).resolve()),
             "codex_model": args.codex_model,
             "reasoning_effort": args.reasoning_effort,
             "started_at": datetime.now().isoformat(timespec="seconds"),
@@ -474,7 +478,7 @@ def main() -> int:
     summary = build_summary(run_cases)
     write_json(run_dir / "summary.json", summary)
     write_text(run_dir / "report.md", build_markdown(run_dir, args.version_label, run_cases, summary))
-    write_text(HERE / "latest_iteration_run.txt", str(run_dir) + "\n")
+    write_text(HERE / "latest_iteration_run.txt", repo_relative_path(run_dir) + "\n")
     print(str(run_dir))
     return 0
 

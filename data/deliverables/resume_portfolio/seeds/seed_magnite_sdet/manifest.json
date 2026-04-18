@@ -11,8 +11,8 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_magnite_sdet/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_magnite_sdet",
+  "source_resume_md": "data/seed_sources/seed_magnite_sdet/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_magnite_sdet",
   "source_artifact_dir": "",
   "derived_count": 30,
   "derived_jobs": [
@@ -23,8 +23,8 @@
       "title": "Quality Assurance Software Development Engineer",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nokia/2026-04-08/69b622b956973837413b6091",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nokia/2026-04-08/69b622b956973837413b6091/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/nokia/2026-04-08/69b622b956973837413b6091",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/nokia/2026-04-08/69b622b956973837413b6091/resume.md",
       "resume_pdf": ""
     },
     {
@@ -56,8 +56,8 @@
       "title": "Engineer Senior, Software",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fis/2026-04-06/69d3f35f891d7b11cfcf5c8d",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fis/2026-04-06/69d3f35f891d7b11cfcf5c8d/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/fis/2026-04-06/69d3f35f891d7b11cfcf5c8d",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/fis/2026-04-06/69d3f35f891d7b11cfcf5c8d/resume.md",
       "resume_pdf": ""
     },
     {
@@ -78,8 +78,8 @@
       "title": "Software Engineer (Quality)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e057366bb95ba5538162",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e057366bb95ba5538162/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e057366bb95ba5538162",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e057366bb95ba5538162/resume.md",
       "resume_pdf": ""
     },
     {
@@ -111,8 +111,8 @@
       "title": "Software Engineer II- Test Automation",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-05/69a02a9c0836fe79d860f9e2",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-05/69a02a9c0836fe79d860f9e2/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-05/69a02a9c0836fe79d860f9e2",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-05/69a02a9c0836fe79d860f9e2/resume.md",
       "resume_pdf": ""
     },
     {
@@ -122,8 +122,8 @@
       "title": "Software Engineer in Test - (Mobile)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/venmo/2026-04-05/698fd90c0f6f7e7a2cec1f81",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/venmo/2026-04-05/698fd90c0f6f7e7a2cec1f81/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/venmo/2026-04-05/698fd90c0f6f7e7a2cec1f81",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/venmo/2026-04-05/698fd90c0f6f7e7a2cec1f81/resume.md",
       "resume_pdf": ""
     },
     {
@@ -133,8 +133,8 @@
       "title": "Salesforce Quality Assurance Engineer, Associate",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/blackrock/2026-04-04/69ced72b54f00230c6d0376b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/blackrock/2026-04-04/69ced72b54f00230c6d0376b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/blackrock/2026-04-04/69ced72b54f00230c6d0376b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/blackrock/2026-04-04/69ced72b54f00230c6d0376b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -155,8 +155,8 @@
       "title": "Software Developer in Test",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/m3/2026-04-04/69977102ce78e77b4fdbc835",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/m3/2026-04-04/69977102ce78e77b4fdbc835/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/m3/2026-04-04/69977102ce78e77b4fdbc835",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/m3/2026-04-04/69977102ce78e77b4fdbc835/resume.md",
       "resume_pdf": ""
     },
     {
@@ -166,8 +166,8 @@
       "title": "SW User Experience Automation QE",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/apple/2026-04-03/69d07fb3cfdc6132f943bfde",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/apple/2026-04-03/69d07fb3cfdc6132f943bfde/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/apple/2026-04-03/69d07fb3cfdc6132f943bfde",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/apple/2026-04-03/69d07fb3cfdc6132f943bfde/resume.md",
       "resume_pdf": ""
     },
     {
@@ -177,8 +177,8 @@
       "title": "QA Engineer (Remote)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tealium/2026-04-03/69d05a280b098b7a67078a44",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tealium/2026-04-03/69d05a280b098b7a67078a44/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/tealium/2026-04-03/69d05a280b098b7a67078a44",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/tealium/2026-04-03/69d05a280b098b7a67078a44/resume.md",
       "resume_pdf": ""
     },
     {
@@ -254,8 +254,8 @@
       "title": "SDET (Money Movement)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/resume.md",
       "resume_pdf": ""
     },
     {
@@ -265,8 +265,8 @@
       "title": "Software Engineer - Systems Validation",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zipline/2026-04-03/6941779414ee092a69ffa1e4",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zipline/2026-04-03/6941779414ee092a69ffa1e4/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/zipline/2026-04-03/6941779414ee092a69ffa1e4",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/zipline/2026-04-03/6941779414ee092a69ffa1e4/resume.md",
       "resume_pdf": ""
     },
     {
@@ -298,8 +298,8 @@
       "title": "Senior Software Engineer in Test - Mobile",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/venmo/2026-04-02/69cee195cdb525785fb9c95b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/venmo/2026-04-02/69cee195cdb525785fb9c95b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/venmo/2026-04-02/69cee195cdb525785fb9c95b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/venmo/2026-04-02/69cee195cdb525785fb9c95b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -309,8 +309,8 @@
       "title": "Software Engineer II - QA Automation",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee13c891d7b11cfccdb84",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee13c891d7b11cfccdb84/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee13c891d7b11cfccdb84",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee13c891d7b11cfccdb84/resume.md",
       "resume_pdf": ""
     },
     {
@@ -320,8 +320,8 @@
       "title": "Software Engineer III - QA Automation",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee12854f00230c6d04385",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee12854f00230c6d04385/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee12854f00230c6d04385",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69cee12854f00230c6d04385/resume.md",
       "resume_pdf": ""
     },
     {
@@ -331,8 +331,8 @@
       "title": "SDET (Wallet Platform)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/resume.md",
       "resume_pdf": ""
     },
     {
@@ -342,8 +342,8 @@
       "title": "Quality Assurance Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/auger/2026-04-02/6941ec3d14ee092a69000521",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/auger/2026-04-02/6941ec3d14ee092a69000521/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/auger/2026-04-02/6941ec3d14ee092a69000521",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/auger/2026-04-02/6941ec3d14ee092a69000521/resume.md",
       "resume_pdf": ""
     }
   ]

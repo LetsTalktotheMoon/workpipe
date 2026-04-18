@@ -1,1 +1,1 @@
-/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_agi_ml_anchor/resume.md
+/private/tmp/local_job_resume_pipeline_integration/data/seed_sources/seed_amazon_agi_ml_anchor/resume.md

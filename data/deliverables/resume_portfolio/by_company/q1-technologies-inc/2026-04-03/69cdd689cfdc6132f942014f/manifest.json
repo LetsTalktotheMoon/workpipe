@@ -31,11 +31,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/q1-technologies-inc/2026-04-03/69cdd689cfdc6132f942014f/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/q1-technologies-inc/2026-04-03/69cdd689cfdc6132f942014f/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/q1-technologies-inc/2026-04-03/69cdd689cfdc6132f942014f/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/q1-technologies-inc/2026-04-03/69cdd689cfdc6132f942014f",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cdd689cfdc6132f942014f",
+  "job_md": "data/deliverables/resume_portfolio/by_company/q1-technologies-inc/2026-04-03/69cdd689cfdc6132f942014f/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/q1-technologies-inc/2026-04-03/69cdd689cfdc6132f942014f",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/q1-technologies-inc/2026-04-03/69cdd689cfdc6132f942014f",
   "generated_at": "2026-04-05T19:05:46",
   "review": {
     "weighted_score": 94.4,

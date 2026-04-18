@@ -15,11 +15,11 @@
   "top_candidate": {
     "route_score": 0.763
   },
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69ceb5ce891d7b11cfccb55b",
+  "job_md": "data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b",
   "generated_at": "2026-04-05T14:00:55",
   "review": {
     "jd_id": "69ceb5ce891d7b11cfccb55b",

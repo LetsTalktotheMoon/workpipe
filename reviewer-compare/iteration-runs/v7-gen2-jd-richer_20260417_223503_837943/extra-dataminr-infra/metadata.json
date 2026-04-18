@@ -20,10 +20,10 @@
     "Elasticsearch"
   ],
   "tech_preferred": [],
-  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/resume.md",
-  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/job.md",
-  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/manifest.json",
-  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/review.json",
+  "resume_path": "data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/resume.md",
+  "job_path": "data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/job.md",
+  "manifest_path": "data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/manifest.json",
+  "review_path": "data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/review.json",
   "historical": {},
   "portfolio_review": {
     "weighted_score": 94.0,

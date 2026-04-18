@@ -27,11 +27,11 @@
     "seed_source_job_id": "69cef362398fb071abf8b1bb"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cec152cdb525785fb9afc1",
+  "job_md": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1",
   "generated_at": "2026-04-07T00:17:01",
   "review": {
     "weighted_score": 93.8,

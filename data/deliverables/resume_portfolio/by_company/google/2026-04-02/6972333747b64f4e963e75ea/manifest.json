@@ -33,11 +33,11 @@
     "tiktok_security_retrieval_console",
     "didi_campaign_ops_console"
   ],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/6972333747b64f4e963e75ea",
+  "job_md": "data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/google/2026-04-02/6972333747b64f4e963e75ea",
   "generated_at": "2026-04-07T01:22:10",
   "review": {
     "weighted_score": 92.7,

@@ -92,9 +92,9 @@
       "notes": "Use for courier ETA feature service, capacity planning service, merchant supply exception monitoring, or outage diagnostics."
     }
   ],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_google_geo_aiml_anchor/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor",
-  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
+  "source_resume_md": "data/seed_sources/seed_google_geo_aiml_anchor/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor",
+  "source_artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
   "derived_count": 10,
   "derived_jobs": [
     {
@@ -104,8 +104,8 @@
       "title": "Software Engineer, Generative AI Media, Vertex AI",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba92be06c1ba00c54cb3d5/resume.md",
       "resume_pdf": ""
     },
     {
@@ -115,8 +115,8 @@
       "title": "Practice Customer Engineer, Cloud AI, Google Cloud",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/699c43cb81476f6176b4bd94/resume.md",
       "resume_pdf": ""
     },
     {
@@ -137,8 +137,8 @@
       "title": "Junior Software Performance Analysis and Optimization Engineer",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/intel/2026-04-08/69d63f4dcfdc6132f9469275/resume.md",
       "resume_pdf": ""
     },
     {
@@ -203,8 +203,8 @@
       "title": "GenAI Software Engineer, Workspace Drive",
       "source_kind": "seed_source",
       "route_mode": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/google/2026-04-03/69b2b893ad360c0340a79c07/resume.md",
       "resume_pdf": ""
     }
   ]

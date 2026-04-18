@@ -26,11 +26,11 @@
     "seed_source_job_id": "69cf1ae8cdb525785fb9ec17"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/6913a31ae344172248f72c97",
+  "job_md": "data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/eliseai/2026-04-06/6913a31ae344172248f72c97",
   "generated_at": "2026-04-07T01:27:47",
   "review": {
     "weighted_score": 87.4,

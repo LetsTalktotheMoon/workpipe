@@ -24,11 +24,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69600c33a1bbea1d9a7ad533",
+  "job_md": "data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-04/69600c33a1bbea1d9a7ad533",
   "generated_at": "2026-04-05T17:51:12",
   "review": {
     "weighted_score": 74.3,

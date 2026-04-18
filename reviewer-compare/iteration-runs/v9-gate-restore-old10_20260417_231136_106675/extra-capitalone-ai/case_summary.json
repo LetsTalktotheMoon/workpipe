@@ -28,10 +28,10 @@
       "Python",
       "Spark"
     ],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/review.json",
     "historical": {
       "official_score": null,
       "official_verdict": "",

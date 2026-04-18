@@ -6,16 +6,16 @@ Date: 2026-04-17
 
 This round compares:
 
-- Historical baseline from [output/analysis/claude_vs_official_review_report_2026-04-09.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/output/analysis/claude_vs_official_review_report_2026-04-09.md)
-- New isolated 4-stage prompt + deterministic scorer under [reviewer-compare](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare)
+- Historical baseline from [output/analysis/claude_vs_official_review_report_2026-04-09.md](../output/analysis/claude_vs_official_review_report_2026-04-09.md)
+- New isolated 4-stage prompt + deterministic scorer under [reviewer-compare](.)
 - Isolated original prompt snapshots:
-  - [reviewer-compare/original-review-prompt/reviewer_user.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/original-review-prompt/reviewer_user.md)
-  - [reviewer-compare/original-review-prompt/reviewer_system.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/original-review-prompt/reviewer_system.md)
+  - [reviewer-compare/original-review-prompt/reviewer_user.md](original-review-prompt/reviewer_user.md)
+  - [reviewer-compare/original-review-prompt/reviewer_system.md](original-review-prompt/reviewer_system.md)
 
 Executed runs used in this assessment:
 
-- Full Codex run: [reviewer-compare/runs/20260417_175343/report.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/runs/20260417_175343/report.md)
-- Claude AWS success + Amazon limit hit: [reviewer-compare/runs/20260417_175916/same-aws/case_summary.json](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/runs/20260417_175916/same-aws/case_summary.json), [reviewer-compare/runs/20260417_175916/same-amazon/case_summary.json](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/runs/20260417_175916/same-amazon/case_summary.json)
+- Full Codex run: [reviewer-compare/runs/20260417_175343/report.md](runs/20260417_175343/report.md)
+- Claude AWS success + Amazon limit hit: [reviewer-compare/runs/20260417_175916/same-aws/case_summary.json](runs/20260417_175916/same-aws/case_summary.json), [reviewer-compare/runs/20260417_175916/same-amazon/case_summary.json](runs/20260417_175916/same-amazon/case_summary.json)
 
 Important run-state note:
 

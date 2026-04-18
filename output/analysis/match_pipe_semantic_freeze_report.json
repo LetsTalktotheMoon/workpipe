@@ -1610,7 +1610,7 @@
   "boundary_policy": {
     "generic_title_policy": "Queries dominated by generic must-have software-engineering clauses may have multiple acceptable positives or abstain from forced single-positive adjudication.",
     "active_boundary_case_count": 1,
-    "boundary_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_boundary_pool.json"
+    "boundary_pool_path": "match_pipe/semantic_boundary_pool.json"
   },
   "next_student_plan": [
     "Do not redistill student until teacher_b_freeze_decision.passed is true.",

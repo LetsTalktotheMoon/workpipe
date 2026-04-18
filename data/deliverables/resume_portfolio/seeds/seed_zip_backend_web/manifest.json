@@ -11,8 +11,8 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zip_backend_web/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_zip_backend_web",
+  "source_resume_md": "data/seed_sources/seed_zip_backend_web/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_zip_backend_web",
   "source_artifact_dir": "",
   "derived_count": 6,
   "derived_jobs": [
@@ -23,8 +23,8 @@
       "title": "Sr Full Stack Engineer, PayPal Shopping",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/paypal/2026-04-08/699e256cce78e77b4fe33807/resume.md",
       "resume_pdf": ""
     },
     {
@@ -34,8 +34,8 @@
       "title": "Software Engineer III - Full Stack Generative AI/LLM",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625/resume.md",
       "resume_pdf": ""
     },
     {

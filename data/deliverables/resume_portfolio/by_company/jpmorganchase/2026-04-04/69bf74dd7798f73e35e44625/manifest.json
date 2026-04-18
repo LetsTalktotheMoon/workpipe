@@ -33,11 +33,11 @@
     ]
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69bf74dd7798f73e35e44625",
+  "job_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-04/69bf74dd7798f73e35e44625",
   "generated_at": "2026-04-05T16:37:51",
   "review": {
     "weighted_score": 91.2,

@@ -5,7 +5,7 @@
 ## 说明
 
 这份报告是在
-[reviewer_pipe_deep_eval_zh_2026-04-17.md](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/reviewer_pipe_deep_eval_zh_2026-04-17.md)
+[reviewer_pipe_deep_eval_zh_2026-04-17.md](reviewer_pipe_deep_eval_zh_2026-04-17.md)
 的基础上展开证据。
 
 写法原则：
@@ -17,9 +17,9 @@
 本报告使用的两轮 Codex-only 结果：
 
 - 新 pipe：
-  [reviewer-compare/runs/20260417_185315_270748](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/runs/20260417_185315_270748)
+  [reviewer-compare/runs/20260417_185315_270748](runs/20260417_185315_270748)
 - 旧 pipe：
-  [reviewer-compare/old-pipe-codex/runs/20260417_185315_269474](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/old-pipe-codex/runs/20260417_185315_269474)
+  [reviewer-compare/old-pipe-codex/runs/20260417_185315_269474](old-pipe-codex/runs/20260417_185315_269474)
 
 ## 1. 新 pipe 明显更慢
 

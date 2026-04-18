@@ -9,6 +9,8 @@ import statistics
 import subprocess
 import time
 
+from repo_paths import repo_relative_path
+
 from .benchmark import (
     BenchmarkCase,
     BenchmarkMetrics,
@@ -690,7 +692,7 @@ def run_semantic_freeze(output_dir: str | Path) -> dict:
         "boundary_policy": {
             "generic_title_policy": "Queries dominated by generic must-have software-engineering clauses may have multiple acceptable positives or abstain from forced single-positive adjudication.",
             "active_boundary_case_count": len(boundary_cases),
-            "boundary_pool_path": str(BOUNDARY_POOL_PATH),
+            "boundary_pool_path": repo_relative_path(BOUNDARY_POOL_PATH),
         },
         "next_student_plan": [
             "Do not redistill student until teacher_b_freeze_decision.passed is true.",
@@ -708,13 +710,13 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Run Teacher-B semantic freeze and go-live evaluation.")
-    parser.add_argument("--output-dir", default=str(ROOT / "output" / "analysis"))
+    parser.add_argument("--output-dir", default="output/analysis")
     args = parser.parse_args()
     report = run_semantic_freeze(args.output_dir)
     print(json.dumps({
         "freeze_passed": report["teacher_b_freeze_decision"]["passed"],
         "go_live_passed": report["go_live_decision"]["passed"],
-        "report": str(Path(args.output_dir).expanduser().resolve() / "match_pipe_semantic_freeze_report.json"),
+        "report": repo_relative_path(Path(args.output_dir).expanduser() / "match_pipe_semantic_freeze_report.json"),
     }, indent=2, ensure_ascii=False))
 
 

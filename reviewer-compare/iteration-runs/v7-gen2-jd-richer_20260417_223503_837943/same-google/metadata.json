@@ -19,10 +19,10 @@
     "Data Structures",
     "Algorithms"
   ],
-  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
-  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/job.md",
-  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/manifest.json",
-  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/review.json",
+  "resume_path": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
+  "job_path": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/job.md",
+  "manifest_path": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/manifest.json",
+  "review_path": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/review.json",
   "historical": {},
   "portfolio_review": {
     "weighted_score": 94.0,

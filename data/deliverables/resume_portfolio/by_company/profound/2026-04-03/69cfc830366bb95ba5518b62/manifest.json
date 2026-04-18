@@ -20,11 +20,11 @@
     "project_ids": []
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cfc830366bb95ba5518b62",
+  "job_md": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc830366bb95ba5518b62",
   "generated_at": "2026-04-05T15:34:28",
   "review": {
     "jd_id": "candidate_frontend_web_perf",

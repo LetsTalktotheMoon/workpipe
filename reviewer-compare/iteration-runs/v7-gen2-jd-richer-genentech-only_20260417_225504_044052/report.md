@@ -21,7 +21,7 @@
 - [NICE] 让每条 bullet 的技术栈分布更像“围绕一个系统的职责”，而不是“罗列能做的东西”。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-genentech-only_20260417_225504_044052/gen2-genentech-mlinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-genentech-only_20260417_225504_044052/gen2-genentech-mlinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-genentech-only_20260417_225504_044052/gen2-genentech-mlinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-genentech-only_20260417_225504_044052/gen2-genentech-mlinfra/codex.json`
+- Prompt: `gen2-genentech-mlinfra/prompt.txt`
+- Metadata: `gen2-genentech-mlinfra/metadata.json`
+- 原始输出: `gen2-genentech-mlinfra/codex.raw.txt`
+- JSON: `gen2-genentech-mlinfra/codex.json`

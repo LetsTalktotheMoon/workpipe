@@ -3,9 +3,9 @@
   "teacher_manifest": {
     "version": "teacher_b_semantic_v1",
     "config_name": "teacher_b_pure_semantic",
-    "report_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/match_pipe_semantic_freeze_report.json",
-    "label_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_label_pool.json",
-    "boundary_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_boundary_pool.json",
+    "report_path": "output/analysis/match_pipe_semantic_freeze_report.json",
+    "label_pool_path": "match_pipe/semantic_label_pool.json",
+    "boundary_pool_path": "match_pipe/semantic_boundary_pool.json",
     "output_protocol": {
       "semantic_best_anchor": "Global pure-semantic best anchor from requirement-unit matching.",
       "semantic_top_k": "Compact semantic candidate list for reuse.",
@@ -72,7 +72,7 @@
     "semantic_gold_train": 23,
     "semantic_gold_holdout": 6,
     "trace_count": 228,
-    "trace_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/teacher_b_semantic_v1_traces.json",
+    "trace_path": "output/analysis/teacher_b_semantic_v1_traces.json",
     "student_scope": "Pure semantic channel only. No same_company or duplicate features."
   },
   "results": {

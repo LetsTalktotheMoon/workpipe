@@ -24,11 +24,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/msx-international/2026-04-04/697d23a3137a051025661bfb/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/msx-international/2026-04-04/697d23a3137a051025661bfb/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/msx-international/2026-04-04/697d23a3137a051025661bfb/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/msx-international/2026-04-04/697d23a3137a051025661bfb",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/697d23a3137a051025661bfb",
+  "job_md": "data/deliverables/resume_portfolio/by_company/msx-international/2026-04-04/697d23a3137a051025661bfb/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/msx-international/2026-04-04/697d23a3137a051025661bfb",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/msx-international/2026-04-04/697d23a3137a051025661bfb",
   "generated_at": "2026-04-05T17:48:09",
   "review": {
     "weighted_score": 85.3,

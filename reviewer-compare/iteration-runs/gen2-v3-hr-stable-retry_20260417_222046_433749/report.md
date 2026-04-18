@@ -30,10 +30,10 @@
 - [NICE] Add one explicit database/storage ownership signal in the most relevant backend bullet to sharpen the infra story.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-discord-dbinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-discord-dbinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-discord-dbinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-discord-dbinfra/codex.json`
+- Prompt: `gen2-discord-dbinfra/prompt.txt`
+- Metadata: `gen2-discord-dbinfra/metadata.json`
+- 原始输出: `gen2-discord-dbinfra/codex.raw.txt`
+- JSON: `gen2-discord-dbinfra/codex.json`
 
 ## gen2/AppliedIntuition-CloudInfra
 
@@ -50,10 +50,10 @@
 - [NICE] Keep the current technology set unchanged; the main issue is framing and evidence density, not stack coverage.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-appliedintuition-cloudinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-appliedintuition-cloudinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-appliedintuition-cloudinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-appliedintuition-cloudinfra/codex.json`
+- Prompt: `gen2-appliedintuition-cloudinfra/prompt.txt`
+- Metadata: `gen2-appliedintuition-cloudinfra/metadata.json`
+- 原始输出: `gen2-appliedintuition-cloudinfra/codex.raw.txt`
+- JSON: `gen2-appliedintuition-cloudinfra/codex.json`
 
 ## gen2/Fireblocks-SRE
 
@@ -68,10 +68,10 @@
 - [NICE] 如果要增强 senior SRE 叙事，把一个更强的系统/规模信号前置到首屏。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fireblocks-sre/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fireblocks-sre/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fireblocks-sre/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fireblocks-sre/codex.json`
+- Prompt: `gen2-fireblocks-sre/prompt.txt`
+- Metadata: `gen2-fireblocks-sre/metadata.json`
+- 原始输出: `gen2-fireblocks-sre/codex.raw.txt`
+- JSON: `gen2-fireblocks-sre/codex.json`
 
 ## gen2/ChildrensHospital-Azure
 
@@ -88,10 +88,10 @@
 - [SHOULD] 压缩 Skills 行长度，并把 `APIs` 这种弱类别名改成更具体的标题。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-childrenshospital-azure/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-childrenshospital-azure/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-childrenshospital-azure/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-childrenshospital-azure/codex.json`
+- Prompt: `gen2-childrenshospital-azure/prompt.txt`
+- Metadata: `gen2-childrenshospital-azure/metadata.json`
+- 原始输出: `gen2-childrenshospital-azure/codex.raw.txt`
+- JSON: `gen2-childrenshospital-azure/codex.json`
 
 ## gen2/CapitalOne-Manager2
 
@@ -108,10 +108,10 @@
 - [NICE] Reword the Summary opener so it starts with a role/domain anchor instead of 'Candidate' language.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-capitalone-manager2/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-capitalone-manager2/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-capitalone-manager2/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-capitalone-manager2/codex.json`
+- Prompt: `gen2-capitalone-manager2/prompt.txt`
+- Metadata: `gen2-capitalone-manager2/metadata.json`
+- 原始输出: `gen2-capitalone-manager2/codex.raw.txt`
+- JSON: `gen2-capitalone-manager2/codex.json`
 
 ## gen2/Fanduel-AnalyticsManager
 
@@ -128,10 +128,10 @@
 - [NICE] Add an explicit internal/no-user-data qualifier to the TikTok Bedrock/RAG bullet, and bold the strongest scope/ownership markers.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fanduel-analyticsmanager/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fanduel-analyticsmanager/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fanduel-analyticsmanager/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-fanduel-analyticsmanager/codex.json`
+- Prompt: `gen2-fanduel-analyticsmanager/prompt.txt`
+- Metadata: `gen2-fanduel-analyticsmanager/metadata.json`
+- 原始输出: `gen2-fanduel-analyticsmanager/codex.raw.txt`
+- JSON: `gen2-fanduel-analyticsmanager/codex.json`
 
 ## gen2/Geico-SWE2
 
@@ -148,10 +148,10 @@
 - [SHOULD] Keep the current technical coverage and two-project structure; the rest is broadly aligned.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-geico-swe2/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-geico-swe2/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-geico-swe2/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-geico-swe2/codex.json`
+- Prompt: `gen2-geico-swe2/prompt.txt`
+- Metadata: `gen2-geico-swe2/metadata.json`
+- 原始输出: `gen2-geico-swe2/codex.raw.txt`
+- JSON: `gen2-geico-swe2/codex.json`
 
 ## gen2/Doordash-Backend
 
@@ -168,10 +168,10 @@
 - [NICE] Bold the main scope and impact numbers consistently across Summary and Experience for stronger scanability.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-doordash-backend/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-doordash-backend/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-doordash-backend/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-doordash-backend/codex.json`
+- Prompt: `gen2-doordash-backend/prompt.txt`
+- Metadata: `gen2-doordash-backend/metadata.json`
+- 原始输出: `gen2-doordash-backend/codex.raw.txt`
+- JSON: `gen2-doordash-backend/codex.json`
 
 ## gen2/Cisco-NetworkingSenior
 
@@ -188,10 +188,10 @@
 - [NICE] Keep the rest of the content; it already covers the Cisco must-haves.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-cisco-networkingsenior/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-cisco-networkingsenior/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-cisco-networkingsenior/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-cisco-networkingsenior/codex.json`
+- Prompt: `gen2-cisco-networkingsenior/prompt.txt`
+- Metadata: `gen2-cisco-networkingsenior/metadata.json`
+- 原始输出: `gen2-cisco-networkingsenior/codex.raw.txt`
+- JSON: `gen2-cisco-networkingsenior/codex.json`
 
 ## gen2/Genentech-MLInfra
 
@@ -208,7 +208,7 @@
 - [NICE] 若有真实基线，把部分“improved by X%”改成带对象、窗口和 ownership 的表述。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-genentech-mlinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-genentech-mlinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-genentech-mlinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/gen2-v3-hr-stable-retry_20260417_222046_433749/gen2-genentech-mlinfra/codex.json`
+- Prompt: `gen2-genentech-mlinfra/prompt.txt`
+- Metadata: `gen2-genentech-mlinfra/metadata.json`
+- 原始输出: `gen2-genentech-mlinfra/codex.raw.txt`
+- JSON: `gen2-genentech-mlinfra/codex.json`

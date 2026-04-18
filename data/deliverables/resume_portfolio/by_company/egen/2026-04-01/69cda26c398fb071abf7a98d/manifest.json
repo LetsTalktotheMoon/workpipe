@@ -20,11 +20,11 @@
     "project_ids": []
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/egen/2026-04-01/69cda26c398fb071abf7a98d/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/egen/2026-04-01/69cda26c398fb071abf7a98d/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/egen/2026-04-01/69cda26c398fb071abf7a98d/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/egen/2026-04-01/69cda26c398fb071abf7a98d",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-01/69cda26c398fb071abf7a98d",
+  "job_md": "data/deliverables/resume_portfolio/by_company/egen/2026-04-01/69cda26c398fb071abf7a98d/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/egen/2026-04-01/69cda26c398fb071abf7a98d",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/egen/2026-04-01/69cda26c398fb071abf7a98d",
   "generated_at": "2026-04-05T15:34:25",
   "review": {
     "jd_id": "candidate_egen_fullstack_node",

@@ -30,10 +30,10 @@
 - [NICE] Reduce the all-percentage cadence in the newest experience by adding one scope or ownership clause to the strongest bullet.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-discord-dbinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-discord-dbinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-discord-dbinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-discord-dbinfra/codex.json`
+- Prompt: `gen2-discord-dbinfra/prompt.txt`
+- Metadata: `gen2-discord-dbinfra/metadata.json`
+- 原始输出: `gen2-discord-dbinfra/codex.raw.txt`
+- JSON: `gen2-discord-dbinfra/codex.json`
 
 ## gen2/AppliedIntuition-CloudInfra
 
@@ -51,10 +51,10 @@
 - [SHOULD] 如果确实有 cloud-infra / multi-cloud / simulation 相关桥接点，补一句把安全/电商/运营平台经验和目标岗位连接起来。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-appliedintuition-cloudinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-appliedintuition-cloudinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-appliedintuition-cloudinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-appliedintuition-cloudinfra/codex.json`
+- Prompt: `gen2-appliedintuition-cloudinfra/prompt.txt`
+- Metadata: `gen2-appliedintuition-cloudinfra/metadata.json`
+- 原始输出: `gen2-appliedintuition-cloudinfra/codex.raw.txt`
+- JSON: `gen2-appliedintuition-cloudinfra/codex.json`
 
 ## gen2/Fireblocks-SRE
 
@@ -71,10 +71,10 @@
 - [NICE] 若要进一步增强首屏，可把最强的系统边界和规模信号前置到第一条 TikTok bullet。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fireblocks-sre/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fireblocks-sre/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fireblocks-sre/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fireblocks-sre/codex.json`
+- Prompt: `gen2-fireblocks-sre/prompt.txt`
+- Metadata: `gen2-fireblocks-sre/metadata.json`
+- 原始输出: `gen2-fireblocks-sre/codex.raw.txt`
+- JSON: `gen2-fireblocks-sre/codex.json`
 
 ## gen2/ChildrensHospital-Azure
 
@@ -91,10 +91,10 @@
 - [NICE] 把 "Team Fit" 这种泛化标题换成更有判断力的认知型标题。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-childrenshospital-azure/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-childrenshospital-azure/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-childrenshospital-azure/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-childrenshospital-azure/codex.json`
+- Prompt: `gen2-childrenshospital-azure/prompt.txt`
+- Metadata: `gen2-childrenshospital-azure/metadata.json`
+- 原始输出: `gen2-childrenshospital-azure/codex.raw.txt`
+- JSON: `gen2-childrenshospital-azure/codex.json`
 
 ## gen2/CapitalOne-Manager2
 
@@ -111,10 +111,10 @@
 - [NICE] 如果确实有 `Tableau` / `R`，再补进 Skills 和最相关经历。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-capitalone-manager2/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-capitalone-manager2/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-capitalone-manager2/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-capitalone-manager2/codex.json`
+- Prompt: `gen2-capitalone-manager2/prompt.txt`
+- Metadata: `gen2-capitalone-manager2/metadata.json`
+- 原始输出: `gen2-capitalone-manager2/codex.raw.txt`
+- JSON: `gen2-capitalone-manager2/codex.json`
 
 ## gen2/Fanduel-AnalyticsManager
 
@@ -131,10 +131,10 @@
 - [NICE] 统一正文加粗策略，只保留技术名词和规模信号加粗，去掉修饰语加粗。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fanduel-analyticsmanager/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fanduel-analyticsmanager/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fanduel-analyticsmanager/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-fanduel-analyticsmanager/codex.json`
+- Prompt: `gen2-fanduel-analyticsmanager/prompt.txt`
+- Metadata: `gen2-fanduel-analyticsmanager/metadata.json`
+- 原始输出: `gen2-fanduel-analyticsmanager/codex.raw.txt`
+- JSON: `gen2-fanduel-analyticsmanager/codex.json`
 
 ## gen2/Geico-SWE2
 
@@ -151,10 +151,10 @@
 - [NICE] 在 TikTok 段补一个 Tier 1 规模指标，减少整份简历对百分比结果的依赖。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-geico-swe2/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-geico-swe2/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-geico-swe2/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-geico-swe2/codex.json`
+- Prompt: `gen2-geico-swe2/prompt.txt`
+- Metadata: `gen2-geico-swe2/metadata.json`
+- 原始输出: `gen2-geico-swe2/codex.raw.txt`
+- JSON: `gen2-geico-swe2/codex.json`
 
 ## gen2/Doordash-Backend
 
@@ -169,10 +169,10 @@
 - [NICE] 若要进一步增强首屏抓手，可让 TikTok 第一条 bullet 更直接体现服务边界或 ownership，而不是先写结果数字。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-doordash-backend/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-doordash-backend/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-doordash-backend/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-doordash-backend/codex.json`
+- Prompt: `gen2-doordash-backend/prompt.txt`
+- Metadata: `gen2-doordash-backend/metadata.json`
+- 原始输出: `gen2-doordash-backend/codex.raw.txt`
+- JSON: `gen2-doordash-backend/codex.json`
 
 ## gen2/Cisco-NetworkingSenior
 
@@ -189,10 +189,10 @@
 - [NICE] Tighten emphasis rules by bolding key metrics and removing bold from modifiers like team-maintained.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-cisco-networkingsenior/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-cisco-networkingsenior/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-cisco-networkingsenior/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-cisco-networkingsenior/codex.json`
+- Prompt: `gen2-cisco-networkingsenior/prompt.txt`
+- Metadata: `gen2-cisco-networkingsenior/metadata.json`
+- 原始输出: `gen2-cisco-networkingsenior/codex.raw.txt`
+- JSON: `gen2-cisco-networkingsenior/codex.json`
 
 ## gen2/Genentech-MLInfra
 
@@ -207,7 +207,7 @@
 - [SHOULD] If you still want to reduce breadth perception, compress Summary bullet 1 to fewer languages and keep the rest distributed across the relevant experience bullets.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-genentech-mlinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-genentech-mlinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-genentech-mlinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-gen2_20260417_234104_015941/gen2-genentech-mlinfra/codex.json`
+- Prompt: `gen2-genentech-mlinfra/prompt.txt`
+- Metadata: `gen2-genentech-mlinfra/metadata.json`
+- 原始输出: `gen2-genentech-mlinfra/codex.raw.txt`
+- JSON: `gen2-genentech-mlinfra/codex.json`

@@ -9110,13 +9110,13 @@
     "ok": true
   },
   "artifacts": {
-    "map": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/review.map.json",
-    "edited": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/review.edited.json",
-    "baseline": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/review.baseline.json",
-    "regenerated": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/review.regenerated.json",
-    "patch_log": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/patch.log.json",
-    "ambiguities": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/ambiguities.json",
-    "conflicts": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/conflicts/active.json",
-    "roundtrip": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/roundtrip.report.json"
+    "map": "prompt_review/review.map.json",
+    "edited": "prompt_review/review.edited.json",
+    "baseline": "prompt_review/review.baseline.json",
+    "regenerated": "prompt_review/review.regenerated.json",
+    "patch_log": "prompt_review/patch.log.json",
+    "ambiguities": "prompt_review/ambiguities.json",
+    "conflicts": "prompt_review/conflicts/active.json",
+    "roundtrip": "prompt_review/roundtrip.report.json"
   }
 }

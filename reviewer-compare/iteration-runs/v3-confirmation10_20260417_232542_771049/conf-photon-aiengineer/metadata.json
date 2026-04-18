@@ -16,10 +16,10 @@
     "Scala"
   ],
   "tech_preferred": [],
-  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/resume.md",
-  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/job.md",
-  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/manifest.json",
-  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/review.json",
+  "resume_path": "data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/resume.md",
+  "job_path": "data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/job.md",
+  "manifest_path": "data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/manifest.json",
+  "review_path": "data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/review.json",
   "historical": {},
   "portfolio_review": {
     "weighted_score": 94.7,

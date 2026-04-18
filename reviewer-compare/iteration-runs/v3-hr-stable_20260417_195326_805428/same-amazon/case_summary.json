@@ -33,10 +33,10 @@
       "Code Review",
       "Scala"
     ],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e/review.json",
     "historical": {
       "official_score": 95.6,
       "official_verdict": "pass",

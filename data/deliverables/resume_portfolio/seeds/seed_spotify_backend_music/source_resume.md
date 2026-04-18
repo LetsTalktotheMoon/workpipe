@@ -1,1 +1,1 @@
-/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_spotify_backend_music/resume.md
+/private/tmp/local_job_resume_pipeline_integration/data/seed_sources/seed_spotify_backend_music/resume.md

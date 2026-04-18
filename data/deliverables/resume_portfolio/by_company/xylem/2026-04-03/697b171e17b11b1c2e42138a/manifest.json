@@ -29,11 +29,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/xylem/2026-04-03/697b171e17b11b1c2e42138a/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/xylem/2026-04-03/697b171e17b11b1c2e42138a/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/xylem/2026-04-03/697b171e17b11b1c2e42138a/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/xylem/2026-04-03/697b171e17b11b1c2e42138a",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/697b171e17b11b1c2e42138a",
+  "job_md": "data/deliverables/resume_portfolio/by_company/xylem/2026-04-03/697b171e17b11b1c2e42138a/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/xylem/2026-04-03/697b171e17b11b1c2e42138a",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/xylem/2026-04-03/697b171e17b11b1c2e42138a",
   "generated_at": "2026-04-05T18:18:13",
   "review": {
     "weighted_score": 95.0,

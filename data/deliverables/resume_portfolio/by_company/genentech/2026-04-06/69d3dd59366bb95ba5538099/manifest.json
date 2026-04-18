@@ -27,11 +27,11 @@
     "seed_source_job_id": "692777a0d47de4798ecdcf3a"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dd59366bb95ba5538099/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dd59366bb95ba5538099/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dd59366bb95ba5538099/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dd59366bb95ba5538099",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/69d3dd59366bb95ba5538099",
+  "job_md": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dd59366bb95ba5538099/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dd59366bb95ba5538099",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dd59366bb95ba5538099",
   "generated_at": "2026-04-07T02:02:59",
   "review": {
     "weighted_score": 93.5,

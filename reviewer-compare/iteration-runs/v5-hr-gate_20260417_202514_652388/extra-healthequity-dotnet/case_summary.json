@@ -36,10 +36,10 @@
       "Scrum"
     ],
     "tech_preferred": [],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/review.json",
     "historical": {
       "official_score": null,
       "official_verdict": "",

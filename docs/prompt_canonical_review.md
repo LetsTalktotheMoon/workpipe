@@ -31,15 +31,15 @@
 #### `P-WRITER-SYS-MAIN`
 - 角色：`Writer / 主生成`
 - 运行位置：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:410)
-  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:87)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:410)
+  - [runtime/writers/master_writer.py](../runtime/writers/master_writer.py:87)
 - 组装：
   - `B-WRITER-SYS-001`
 
 #### `P-WRITER-USER-MAIN`
 - 角色：`Writer / 主生成`
 - 运行位置：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:475)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:475)
 - 组装：
   - `G-DATA-001` candidate context
   - `B-BYTEDANCE-CTX-001`
@@ -52,7 +52,7 @@
 #### `P-WRITER-SYS-REV-STRICT`
 - 角色：`Writer / 严格修补`
 - 运行位置：
-  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:38)
+  - [runtime/writers/master_writer.py](../runtime/writers/master_writer.py:38)
 - 组装：
   - `B-WRITER-SYS-REV-STRICT-001`
   - `B-OUTPUT-001`
@@ -60,7 +60,7 @@
 #### `P-WRITER-SYS-REV-UPGRADE`
 - 角色：`Writer / 升级重写`
 - 运行位置：
-  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:42)
+  - [runtime/writers/master_writer.py](../runtime/writers/master_writer.py:42)
 - 组装：
   - `B-WRITER-SYS-REV-UPGRADE-001`
   - `B-OUTPUT-001`
@@ -68,7 +68,7 @@
 #### `P-WRITER-USER-REV-STRICT`
 - 角色：`Writer / 严格修补`
 - 运行位置：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:789)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:789)
 - 组装：
   - `B-REVISION-001`
   - `B-BYTEDANCE-REV-001`
@@ -79,7 +79,7 @@
 #### `P-WRITER-USER-RETARGET`
 - 角色：`Writer / seed retarget`
 - 运行位置：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:878)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:878)
 - 组装：
   - `B-RETARGET-001`
   - `B-BYTEDANCE-CTX-001`
@@ -92,7 +92,7 @@
 #### `P-WRITER-USER-UPGRADE`
 - 角色：`Writer / 升级重写`
 - 运行位置：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:973)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:973)
 - 组装：
   - `B-UPGRADE-001`
   - `B-BYTEDANCE-UPGRADE-001`
@@ -105,15 +105,15 @@
 #### `P-REVIEWER-SYS-MAIN`
 - 角色：`Reviewer / 主审查`
 - 运行位置：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:568)
-  - [runtime/reviewers/unified_reviewer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/reviewers/unified_reviewer.py:182)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:568)
+  - [runtime/reviewers/unified_reviewer.py](../runtime/reviewers/unified_reviewer.py:182)
 - 组装：
   - `B-REVIEWER-SYS-001`
 
 #### `P-REVIEWER-USER-MAIN`
 - 角色：`Reviewer / 主审查`
 - 运行位置：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:592)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:592)
 - 组装：
   - `B-REVIEWER-USER-001`
   - `B-IMMUTABLE-001`
@@ -126,21 +126,21 @@
 #### `P-PLANNER-SYS-MAIN`
 - 角色：`Planner / planner-first`
 - 运行位置：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:32)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:32)
 - 组装：
   - `B-PLANNER-SYS-001`
 
 #### `P-PLANNER-USER-MAIN`
 - 角色：`Planner / planner-first`
 - 运行位置：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:121)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:121)
 - 组装：
   - `B-PLANNER-USER-001`
 
 #### `P-PLANNER-WRITER-OVERLAY`
 - 角色：`Writer / planner-first write`
 - 运行位置：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:194)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:194)
 - 组装：
   - `P-WRITER-USER-MAIN`
   - `B-PLANNER-WRITER-OVERLAY-001`
@@ -148,7 +148,7 @@
 #### `P-PLANNER-REVISION-OVERLAY`
 - 角色：`Writer / planner-first revision`
 - 运行位置：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:230)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:230)
 - 组装：
   - `P-WRITER-USER-MAIN`
   - `B-PLANNER-REVISION-OVERLAY-001`
@@ -158,7 +158,7 @@
 #### `P-MATCH-DUAL-CHANNEL-OVERLAY`
 - 角色：`Writer / dual-channel retarget`
 - 运行位置：
-  - [match_pipe/downstream_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/downstream_validation_runner.py:276)
+  - [match_pipe/downstream_validation_runner.py](../match_pipe/downstream_validation_runner.py:276)
 - 组装：
   - `P-WRITER-USER-RETARGET`
   - `B-MATCH-OVERLAY-001`
@@ -168,7 +168,7 @@
 #### `P-TEST-PROMPT-HASH-ANCHOR`
 - 角色：`测试，不下发模型`
 - 运行位置：
-  - [tests/test_prompt_merge_equivalence.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/tests/test_prompt_merge_equivalence.py:22)
+  - [tests/test_prompt_merge_equivalence.py](../tests/test_prompt_merge_equivalence.py:22)
 - 作用：
   - 锚定 `build_revision_prompt`
   - 锚定 `build_seed_retarget_prompt`
@@ -185,9 +185,9 @@
 - 类型：共享单句
 - 作用：所有要求“只返回 Markdown 正文”的收口句
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:152)
-  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:38)
-  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:42)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:152)
+  - [runtime/writers/master_writer.py](../runtime/writers/master_writer.py:38)
+  - [runtime/writers/master_writer.py](../runtime/writers/master_writer.py:42)
 - 句子：
   - `S01` 直接输出修改后的完整简历 Markdown，不要附带解释。
 
@@ -195,7 +195,7 @@
 - 类型：共享模板
 - 作用：Writer family 的统一输出结构合同
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:106)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:106)
   - 被插入 `P-WRITER-USER-MAIN`
   - 被插入 `P-WRITER-USER-REV-STRICT`
   - 被插入 `P-WRITER-USER-RETARGET`
@@ -219,8 +219,8 @@
 - 类型：共享约束块
 - 作用：Reviewer prompt 的不可变字段区
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:177)
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:600)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:177)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:600)
 - 说明：
   - 正文由 `TIKTOK_IMMUTABLE_LINE` / `DIDI_IMMUTABLE_LINE` / `TEMU_IMMUTABLE_LINE` 与 ByteDance 特例共同组成
   - 这里不逐字内联三条经历行；它们是单源常量
@@ -228,7 +228,7 @@
 #### `B-BYTEDANCE-CTX-001`
 - 类型：共享 ByteDance 特例块
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:181)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:181)
   - 插入 `P-WRITER-USER-MAIN`
   - 插入 `P-WRITER-USER-RETARGET`
 - 句子：
@@ -240,7 +240,7 @@
 #### `B-BYTEDANCE-REV-001`
 - 类型：共享 ByteDance revision 特例
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:86)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:86)
   - 插入 `P-WRITER-USER-REV-STRICT`
 - 句子：
   - `S01` 删除任何 TikTok / ByteDance intern 段落、summary 提及、project baseline 或 bullets
@@ -250,7 +250,7 @@
 #### `B-BYTEDANCE-UPGRADE-001`
 - 类型：共享 ByteDance upgrade 特例
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:91)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:91)
   - 插入 `P-WRITER-USER-UPGRADE`
 - 句子：
   - `S01` 删除任何 TikTok / ByteDance intern 内容，不要把它当作可修补素材
@@ -262,7 +262,7 @@
 #### `B-WRITER-SYS-001`
 - 类型：Writer system
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:410)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:410)
 - 段落：
   - `P01` 你是一位专业简历撰写专家，为职业转型培训公司制作教学示例简历。
   - `P02` 候选人为虚构人物，真实性只要求叙事自洽，不做现实核查。
@@ -277,7 +277,7 @@
 #### `B-WRITER-SYS-REV-STRICT-001`
 - 类型：Writer strict revision system
 - 全局映射：
-  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:38)
+  - [runtime/writers/master_writer.py](../runtime/writers/master_writer.py:38)
 - 句子：
   - `S01` 你是专业简历修改专家。
   - `S02` 严格按照修改指令执行，只改指出的问题，不做额外改动。
@@ -286,7 +286,7 @@
 #### `B-WRITER-SYS-REV-UPGRADE-001`
 - 类型：Writer upgrade revision system
 - 全局映射：
-  - [runtime/writers/master_writer.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/writers/master_writer.py:42)
+  - [runtime/writers/master_writer.py](../runtime/writers/master_writer.py:42)
 - 句子：
   - `S01` 你是专业简历升级专家。
   - `S02` 可在保持不可变字段、真实性边界和核心职业叙事不变前提下重写 summary、skills、experience bullets、project baseline、project framing。
@@ -300,7 +300,7 @@
 #### `B-WRITER-USER-001`
 - 类型：主生成 prompt 的静态头部
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:493)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:493)
 - 句子：
   - `S01` 输出目标 JD 的公司、岗位、角色类型、职级/资历、团队业务方向
   - `S02` 必须技术栈：SKILLS 至少覆盖所有 must-have，且必须有正文出处
@@ -312,7 +312,7 @@
 #### `B-WRITER-USER-002`
 - 类型：主生成 prompt 的 PLAN 骨架
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:524)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:524)
 - 条目：
   - `S01` 在 `<PLAN>` 内完成技术分配规划
   - `S02` 为各经历指定最终技术列表
@@ -323,7 +323,7 @@
 #### `B-WRITER-USER-003`
 - 类型：主生成 prompt 的 RESUME 骨架
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:542)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:542)
 - 条目：
   - `S01` 在 `<RESUME>` 内输出完整 Markdown 简历
   - `S02` 最终结构必须满足 `B-OUTPUT-002`
@@ -331,7 +331,7 @@
 #### `B-REVISION-001`
 - 类型：strict revision 主体
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:824)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:824)
 - 条目：
   - `S01` 按审查结果进行精准修改
   - `S02` 若有原始 PLAN，revision 必须遵守它，不得引入计划外技术
@@ -342,7 +342,7 @@
 #### `B-REVISION-002`
 - 类型：strict revision 规则尾部
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:845)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:845)
 - 规则：
   - `R01` 只修改指出的问题，其他内容保持不变
   - `R02` 若需补技术，优先去 PLAN 已规划的经历中补
@@ -356,7 +356,7 @@
 #### `B-RETARGET-001`
 - 类型：seed retarget 头部
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:922)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:922)
 - 条目：
   - `S01` 基于已通过高标准审查的 seed resume，为新的 JD 生成派生简历
   - `S02` 目标是在保留 seed 叙事骨架、结构质量、可信 scope 的前提下最小改动对齐 JD
@@ -365,7 +365,7 @@
 #### `B-RETARGET-002`
 - 类型：seed retarget 核心规则
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:932)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:932)
 - 规则：
   - `R01` 这是在现有 seed 上微调，不是从零重写
   - `R02` 控制总改动预算
@@ -384,7 +384,7 @@
 #### `B-RETARGET-003`
 - 类型：同公司/同公司 ByteDance 特例块
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:900)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:900)
 - 变体：
   - `V01` ByteDance 同公司 seed：只能弱参考，不得继承 TikTok/ByteDance intern 骨架
   - `V02` 非 ByteDance 同公司 seed：team/domain/project pool 视为准不可变骨架
@@ -392,7 +392,7 @@
 #### `B-UPGRADE-001`
 - 类型：upgrade revision 头部
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:1002)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:1002)
 - 条目：
   - `S01` 把历史简历做成面向目标 JD 的升级式重写，而不是字面修补
   - `S02` 给出目标岗位、当前评分、历史来源
@@ -402,7 +402,7 @@
 #### `B-UPGRADE-002`
 - 类型：upgrade revision 关键规则
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:1023)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:1023)
 - 规则：
   - `R01` Summary 必须重新评估，不默认沿用旧 phrasing
   - `R02` DiDi senior operating scope 如能增强匹配度，可提炼进 summary，但不要与 bullet 重复
@@ -423,7 +423,7 @@
 #### `B-REVIEWER-SYS-001`
 - 类型：Reviewer system
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:568)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:568)
 - 段落：
   - `P01` 你是一位严格的简历质量审查专家，负责 9 维度综合评分
   - `P02` 审查是最终裁决，直接决定能否作为教学示例发布
@@ -444,9 +444,9 @@
 #### `B-REVIEW-SCOPE-001`
 - 类型：review scope note 族
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:61)
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:69)
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:81)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:61)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:69)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:81)
 - 变体：
   - `V01` compact 审查：只保留 summary / skills / 关键经历 / 关键 bullets / projects，不因未展示内容臆测扣分
   - `V02` rewrite 审查：职责是判断如何跨过 pass 线，而不是给保守补丁单
@@ -455,7 +455,7 @@
 #### `B-REVIEWER-USER-001`
 - 类型：Reviewer user 头部
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:603)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:603)
 - 条目：
   - `S01` 对以下简历进行严格 9 维度审查，返回 JSON
   - `S02` 列出目标 JD 的公司、岗位、角色类型、职级、must-have、preferred、team direction
@@ -466,7 +466,7 @@
 #### `B-REVIEWER-USER-002`
 - 类型：Reviewer rubric 主体
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:619)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:619)
 - 维度：
   - `R0` 真实性：不可变字段、中文字符、SKILLS ↔ 正文一致性、Summary 一致性、DiDi 特例、ByteDance/TikTok 特例
   - `R1` 撰写规范：summary 句数/标题格式、围棋句 header、bullet 格式、加粗规则、skills 行密度、project baseline、achievements section
@@ -479,7 +479,7 @@
 #### `B-REVIEWER-USER-003`
 - 类型：Reviewer JSON schema + calibration
 - 全局映射：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:721)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:721)
 - 条目：
   - `S01` 严格输出 JSON，不得额外文字
   - `S02` schema 必须包含各维度分数、加权分、overall verdict、critical/high 计数、needs_revision、revision_priority、revision_instructions
@@ -491,7 +491,7 @@
 #### `B-PLANNER-SYS-001`
 - 类型：Planner system
 - 全局映射：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:32)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:32)
 - 句子：
   - `S01` 你是简历流程里的 Planner，不直接写简历
   - `S02` 基于 JD、matcher 证据和可选 starter 判断 starter 是否合适
@@ -503,7 +503,7 @@
 #### `B-PLANNER-USER-001`
 - 类型：Planner user
 - 全局映射：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:121)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:121)
 - 条目：
   - `S01` 基于 mode、JD、matcher packet、starter resume 做流程决策
   - `S02` 返回 schema 必须包含 `decision / fit_label / reuse_ratio_estimate / already_covered / missing_or_weak / risk_flags / role_seniority_guidance / planner_summary / writer_plan / direct_review_rationale`
@@ -516,7 +516,7 @@
 #### `B-PLANNER-WRITER-OVERLAY-001`
 - 类型：planner-first writer overlay
 - 全局映射：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:194)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:194)
 - 条目：
   - `S01` 在 `P-WRITER-USER-MAIN` 之后追加 planner decision JSON
   - `S02` 追加 matcher evidence JSON
@@ -529,7 +529,7 @@
 #### `B-PLANNER-REVISION-OVERLAY-001`
 - 类型：planner-first revision overlay
 - 全局映射：
-  - [match_pipe/planner_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/planner_validation_runner.py:230)
+  - [match_pipe/planner_validation_runner.py](../match_pipe/planner_validation_runner.py:230)
 - 条目：
   - `S01` 在 `P-WRITER-USER-MAIN` 之后追加 planner carry-over、planner risks、reviewer priority、reviewer findings、must-have tech、当前草稿
   - `S02` 当前目标不是保留旧稿，而是基于 reviewer 与 planner 判断把简历提到更稳的 pass
@@ -544,7 +544,7 @@
 #### `B-MATCH-OVERLAY-001`
 - 类型：dual-channel continuity overlay
 - 全局映射：
-  - [match_pipe/downstream_validation_runner.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/downstream_validation_runner.py:276)
+  - [match_pipe/downstream_validation_runner.py](../match_pipe/downstream_validation_runner.py:276)
 - 句子：
   - `S01` `## Dual-channel continuity note`
   - `S02` 逐行插入 `delta_summary`
@@ -556,7 +556,7 @@
 #### `G-DATA-001`
 - 类型：数据驱动 candidate context
 - 来源：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:326)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:326)
 - 说明：
   - 文字框架在这里，但公司、部门、自然技术栈、教育条目由配置展开
   - 如果你要统一改“候选人经历框架”这层文案，改这里
@@ -564,7 +564,7 @@
 #### `G-DATA-002`
 - 类型：数据驱动 format constraints
 - 来源：
-  - [runtime/core/prompt_builder.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/core/prompt_builder.py:228)
+  - [runtime/core/prompt_builder.py](../runtime/core/prompt_builder.py:228)
 - 说明：
   - 是 Writer/Revision/Upgrade 的大块硬约束来源
   - 当前仍是单源，无重复文本问题
@@ -572,7 +572,7 @@
 #### `G-DATA-003`
 - 类型：数据驱动 project pool block
 - 来源：
-  - [runtime/automation/project_pool.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/runtime/automation/project_pool.py:174)
+  - [runtime/automation/project_pool.py](../runtime/automation/project_pool.py:174)
 - 说明：
   - 只进入 `P-WRITER-USER-RETARGET`
   - 若你要统一改项目池提示语，只改这里
@@ -600,4 +600,4 @@
 - `B-UPGRADE-001`
 
 对应测试：
-- [tests/test_prompt_merge_equivalence.py](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/tests/test_prompt_merge_equivalence.py:22)
+- [tests/test_prompt_merge_equivalence.py](../tests/test_prompt_merge_equivalence.py:22)

@@ -11,9 +11,9 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_linkedin_mle_foundation/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_linkedin_mle_foundation",
-  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/linkedin/2026-04-02/69cef362398fb071abf8b1bb",
+  "source_resume_md": "data/seed_sources/seed_linkedin_mle_foundation/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_linkedin_mle_foundation",
+  "source_artifact_dir": "data/deliverables/resume_portfolio/by_company/linkedin/2026-04-02/69cef362398fb071abf8b1bb",
   "derived_count": 35,
   "derived_jobs": [
     {
@@ -45,8 +45,8 @@
       "title": "AI Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/comulate/2026-04-06/69a3cfac0da45516f16cc887",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/comulate/2026-04-06/69a3cfac0da45516f16cc887/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/comulate/2026-04-06/69a3cfac0da45516f16cc887",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/comulate/2026-04-06/69a3cfac0da45516f16cc887/resume.md",
       "resume_pdf": ""
     },
     {
@@ -56,8 +56,8 @@
       "title": "Digital Health And Behavior Data Scientist (50697)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gap-solutions-inc/2026-04-06/69d35775891d7b11cfcf06bd",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gap-solutions-inc/2026-04-06/69d35775891d7b11cfcf06bd/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/gap-solutions-inc/2026-04-06/69d35775891d7b11cfcf06bd",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/gap-solutions-inc/2026-04-06/69d35775891d7b11cfcf06bd/resume.md",
       "resume_pdf": ""
     },
     {
@@ -111,8 +111,8 @@
       "title": "Data Scientist II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/seismic/2026-04-04/69c7507f83ea553769fe2637",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/seismic/2026-04-04/69c7507f83ea553769fe2637/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/seismic/2026-04-04/69c7507f83ea553769fe2637",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/seismic/2026-04-04/69c7507f83ea553769fe2637/resume.md",
       "resume_pdf": ""
     },
     {
@@ -122,8 +122,8 @@
       "title": "Applied Analytics Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vulcan-materials-company/2026-04-04/69c918771818a24cd84d9876",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vulcan-materials-company/2026-04-04/69c918771818a24cd84d9876/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/vulcan-materials-company/2026-04-04/69c918771818a24cd84d9876",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/vulcan-materials-company/2026-04-04/69c918771818a24cd84d9876/resume.md",
       "resume_pdf": ""
     },
     {
@@ -144,8 +144,8 @@
       "title": "AI/ML Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69d075bacfdc6132f943b758",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69d075bacfdc6132f943b758/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69d075bacfdc6132f943b758",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69d075bacfdc6132f943b758/resume.md",
       "resume_pdf": ""
     },
     {
@@ -155,8 +155,8 @@
       "title": "AI ML Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tata-consultancy-services/2026-04-03/69d06472cfdc6132f943b05d",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tata-consultancy-services/2026-04-03/69d06472cfdc6132f943b05d/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/tata-consultancy-services/2026-04-03/69d06472cfdc6132f943b05d",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/tata-consultancy-services/2026-04-03/69d06472cfdc6132f943b05d/resume.md",
       "resume_pdf": ""
     },
     {
@@ -166,8 +166,8 @@
       "title": "Data Scientist I",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/university-of-kentucky/2026-04-03/69d03c2454f00230c6d107e8",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/university-of-kentucky/2026-04-03/69d03c2454f00230c6d107e8/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/university-of-kentucky/2026-04-03/69d03c2454f00230c6d107e8",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/university-of-kentucky/2026-04-03/69d03c2454f00230c6d107e8/resume.md",
       "resume_pdf": ""
     },
     {
@@ -177,8 +177,8 @@
       "title": "Applied Data Scientist",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cresta/2026-04-03/698e867a78b4502f12a55d92",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cresta/2026-04-03/698e867a78b4502f12a55d92/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cresta/2026-04-03/698e867a78b4502f12a55d92",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cresta/2026-04-03/698e867a78b4502f12a55d92/resume.md",
       "resume_pdf": ""
     },
     {
@@ -210,8 +210,8 @@
       "title": "Senior Data Scientist (NLP)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/clarivate/2026-04-03/695fc28ea112b402660e6dc7",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/clarivate/2026-04-03/695fc28ea112b402660e6dc7/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/clarivate/2026-04-03/695fc28ea112b402660e6dc7",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/clarivate/2026-04-03/695fc28ea112b402660e6dc7/resume.md",
       "resume_pdf": ""
     },
     {
@@ -232,8 +232,8 @@
       "title": "Machine Learning Engineer - MLA Perception Offline Driving Intelligence",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/6863482375a7d35fe59d54c3",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/6863482375a7d35fe59d54c3/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/6863482375a7d35fe59d54c3",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/6863482375a7d35fe59d54c3/resume.md",
       "resume_pdf": ""
     },
     {
@@ -254,8 +254,8 @@
       "title": "Data Scientist",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gartner/2026-04-03/69ab43917e1fab39d382dc0b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gartner/2026-04-03/69ab43917e1fab39d382dc0b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/gartner/2026-04-03/69ab43917e1fab39d382dc0b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/gartner/2026-04-03/69ab43917e1fab39d382dc0b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -265,8 +265,8 @@
       "title": "Software Engineer, Machine Learning",
       "source_kind": "seed_source",
       "route_mode": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/linkedin/2026-04-02/69cef362398fb071abf8b1bb",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/linkedin/2026-04-02/69cef362398fb071abf8b1bb/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/linkedin/2026-04-02/69cef362398fb071abf8b1bb",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/linkedin/2026-04-02/69cef362398fb071abf8b1bb/resume.md",
       "resume_pdf": ""
     },
     {
@@ -276,8 +276,8 @@
       "title": "Co-Pilot Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/o3-technology-solutions/2026-04-02/69ceff69398fb071abf8b8c4",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/o3-technology-solutions/2026-04-02/69ceff69398fb071abf8b8c4/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/o3-technology-solutions/2026-04-02/69ceff69398fb071abf8b8c4",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/o3-technology-solutions/2026-04-02/69ceff69398fb071abf8b8c4/resume.md",
       "resume_pdf": ""
     },
     {
@@ -287,8 +287,8 @@
       "title": "AI Scientist II (Healthcare)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cec152cdb525785fb9afc1/resume.md",
       "resume_pdf": ""
     },
     {
@@ -298,8 +298,8 @@
       "title": "Artificial Intelligence Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/photon/2026-04-02/69a78b921fc3d83b780948a8/resume.md",
       "resume_pdf": ""
     },
     {
@@ -309,8 +309,8 @@
       "title": "GenAI / AI-ML Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/arkhya-tech-inc/2026-04-02/69ceb1cf891d7b11cfccb3ff",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/arkhya-tech-inc/2026-04-02/69ceb1cf891d7b11cfccb3ff/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/arkhya-tech-inc/2026-04-02/69ceb1cf891d7b11cfccb3ff",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/arkhya-tech-inc/2026-04-02/69ceb1cf891d7b11cfccb3ff/resume.md",
       "resume_pdf": ""
     },
     {
@@ -320,8 +320,8 @@
       "title": "AI Scientist II (Healthcare)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cea998366bb95ba550de38",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cea998366bb95ba550de38/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cea998366bb95ba550de38",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cambia-health-solutions/2026-04-02/69cea998366bb95ba550de38/resume.md",
       "resume_pdf": ""
     },
     {
@@ -331,8 +331,8 @@
       "title": "Data Scientist (Generative AI Focus)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/known/2026-04-02/695c3a48f1f8465b79f24449",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/known/2026-04-02/695c3a48f1f8465b79f24449/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/known/2026-04-02/695c3a48f1f8465b79f24449",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/known/2026-04-02/695c3a48f1f8465b79f24449/resume.md",
       "resume_pdf": ""
     },
     {
@@ -353,8 +353,8 @@
       "title": "Applied AI ML Engineer-Sr. Associate",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69c8cbc51b5ad02887395602",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69c8cbc51b5ad02887395602/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69c8cbc51b5ad02887395602",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-02/69c8cbc51b5ad02887395602/resume.md",
       "resume_pdf": ""
     },
     {
@@ -397,8 +397,8 @@
       "title": "Machine Learning Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eightfold-ai/2026-03-31/69cc7ae3366bb95ba54efb65",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/eightfold-ai/2026-03-31/69cc7ae3366bb95ba54efb65/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/eightfold-ai/2026-03-31/69cc7ae3366bb95ba54efb65",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/eightfold-ai/2026-03-31/69cc7ae3366bb95ba54efb65/resume.md",
       "resume_pdf": ""
     }
   ]

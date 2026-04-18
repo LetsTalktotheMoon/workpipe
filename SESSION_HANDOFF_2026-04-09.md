@@ -3,7 +3,7 @@
 ## Current Scheduler
 
 - The nightly cron at `23:00 America/Chicago` now runs **scraper only**.
-- It calls [`scheduled_daily_pipeline.sh`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/scheduled_daily_pipeline.sh), which now runs:
+- It calls [`scheduled_daily_pipeline.sh`](scheduled_daily_pipeline.sh), which now runs:
   - `python3 pipeline.py jobs --lookback-hours 48`
 - It no longer auto-triggers:
   - `resume` generation
@@ -27,8 +27,8 @@
   - `title_score`
   - `same_company` bias
 - Main code:
-  - [`runtime/automation/job_router.py`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/runtime/automation/job_router.py)
-  - [`runtime/automation/seed_registry.py`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/runtime/automation/seed_registry.py)
+  - [`runtime/automation/job_router.py`](runtime/automation/job_router.py)
+  - [`runtime/automation/seed_registry.py`](runtime/automation/seed_registry.py)
 
 ### Diagnosed Problems
 
@@ -40,8 +40,8 @@
   - It picks the best existing artifact under a seed family.
   - It copies the **old** `review` payload instead of forcing a fresh review against the **new** JD.
   - Core code:
-    - [`pipeline.py#L389`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/pipeline.py#L389)
-    - [`pipeline.py#L681`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/pipeline.py#L681)
+    - [`pipeline.py#L389`](pipeline.py#L389)
+    - [`pipeline.py#L681`](pipeline.py#L681)
 
 ### Important Validation Result
 
@@ -51,7 +51,7 @@
   - AWS: `94.4 -> 96.1`
   - Take-Two: `94.3 -> 93.2`
 - File:
-  - [`runs/reuse_resample_20260408.json`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/runs/reuse_resample_20260408.json)
+  - [`runs/reuse_resample_20260408.json`](runs/reuse_resample_20260408.json)
 - Interpretation:
   - The current `reuse` accounting is still logically wrong.
   - But it is **not** yet proven that all current `reuse` outputs are bad.

@@ -21,10 +21,10 @@
     "CI/CD",
     "Distributed Systems"
   ],
-  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/resume.md",
-  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/job.md",
-  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/manifest.json",
-  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/review.json",
+  "resume_path": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/resume.md",
+  "job_path": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/job.md",
+  "manifest_path": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/manifest.json",
+  "review_path": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/review.json",
   "historical": {},
   "portfolio_review": {
     "weighted_score": 95.1,

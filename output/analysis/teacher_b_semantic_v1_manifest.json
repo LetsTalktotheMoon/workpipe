@@ -1,9 +1,9 @@
 {
   "version": "teacher_b_semantic_v1",
   "config_name": "teacher_b_pure_semantic",
-  "report_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/match_pipe_semantic_freeze_report.json",
-  "label_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_label_pool.json",
-  "boundary_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_boundary_pool.json",
+  "report_path": "output/analysis/match_pipe_semantic_freeze_report.json",
+  "label_pool_path": "match_pipe/semantic_label_pool.json",
+  "boundary_pool_path": "match_pipe/semantic_boundary_pool.json",
   "output_protocol": {
     "semantic_best_anchor": "Global pure-semantic best anchor from requirement-unit matching.",
     "semantic_top_k": "Compact semantic candidate list for reuse.",

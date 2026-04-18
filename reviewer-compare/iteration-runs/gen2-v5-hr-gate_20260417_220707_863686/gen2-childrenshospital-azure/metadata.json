@@ -12,10 +12,10 @@
     "Node.js",
     "Angular"
   ],
-  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/resume.md",
-  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/job.md",
-  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/manifest.json",
-  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/review.json",
+  "resume_path": "data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/resume.md",
+  "job_path": "data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/job.md",
+  "manifest_path": "data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/manifest.json",
+  "review_path": "data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/review.json",
   "historical": {},
   "portfolio_review": {
     "weighted_score": 72.0,

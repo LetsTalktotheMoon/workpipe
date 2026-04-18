@@ -1,8 +1,8 @@
 {
   "version_label": "v3_hr_stable",
-  "prompt_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v3_hr_stable/Reviewer_4Stage.md",
-  "scorer_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v3_hr_stable/Reviewer_Cal.py",
-  "cases_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/cases_extended_10.json",
+  "prompt_file": "reviewer-compare/iterations/v3_hr_stable/Reviewer_4Stage.md",
+  "scorer_file": "reviewer-compare/iterations/v3_hr_stable/Reviewer_Cal.py",
+  "cases_file": "reviewer-compare/cases_extended_10.json",
   "codex_model": "gpt-5.4-mini",
   "reasoning_effort": "medium",
   "started_at": "2026-04-17T19:53:26"

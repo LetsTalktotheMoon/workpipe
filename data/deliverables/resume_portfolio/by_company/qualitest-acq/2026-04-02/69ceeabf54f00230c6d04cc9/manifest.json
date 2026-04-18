@@ -34,11 +34,11 @@
     "tiktok_security_retrieval_console",
     "didi_merchant_incident_workbench"
   ],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69ceeabf54f00230c6d04cc9",
+  "job_md": "data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
   "generated_at": "2026-04-07T01:47:16",
   "review": {
     "weighted_score": 93.3,

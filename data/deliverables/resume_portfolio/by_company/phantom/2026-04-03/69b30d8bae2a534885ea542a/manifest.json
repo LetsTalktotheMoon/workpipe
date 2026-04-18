@@ -27,11 +27,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69b30d8bae2a534885ea542a",
+  "job_md": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-03/69b30d8bae2a534885ea542a",
   "generated_at": "2026-04-07T00:49:43",
   "review": {
     "weighted_score": 96.5,

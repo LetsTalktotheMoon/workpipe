@@ -1,12 +1,12 @@
 {
   "teacher_freeze_solidification": {
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/teacher_b_semantic_v1_manifest.json",
+    "manifest_path": "output/analysis/teacher_b_semantic_v1_manifest.json",
     "teacher_manifest": {
       "version": "teacher_b_semantic_v1",
       "config_name": "teacher_b_pure_semantic",
-      "report_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/match_pipe_semantic_freeze_report.json",
-      "label_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_label_pool.json",
-      "boundary_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_boundary_pool.json",
+      "report_path": "output/analysis/match_pipe_semantic_freeze_report.json",
+      "label_pool_path": "match_pipe/semantic_label_pool.json",
+      "boundary_pool_path": "match_pipe/semantic_boundary_pool.json",
       "output_protocol": {
         "semantic_best_anchor": "Global pure-semantic best anchor from requirement-unit matching.",
         "semantic_top_k": "Compact semantic candidate list for reuse.",
@@ -65,7 +65,7 @@
         "allow_duplicate_override": false
       }
     },
-    "freeze_report_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/match_pipe_semantic_freeze_report.json",
+    "freeze_report_path": "output/analysis/match_pipe_semantic_freeze_report.json",
     "freeze_passed": true,
     "frozen_rule_layer": [
       "match_pipe/matcher.py",
@@ -80,7 +80,7 @@
     ]
   },
   "student_redistillation": {
-    "report_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/match_pipe_student_distill_report.json",
+    "report_path": "output/analysis/match_pipe_student_distill_report.json",
     "teacher_vs_student": {
       "teacher_vs_new_student": {
         "rebuilt_hard_all_hit_at_1_delta": -0.0303,
@@ -94,7 +94,7 @@
     }
   },
   "small_flow_validation": {
-    "report_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/output/analysis/match_pipe_small_flow_validation_report.json",
+    "report_path": "output/analysis/match_pipe_small_flow_validation_report.json",
     "execution_summary": {},
     "retry_plan": {
       "rate_limit_triggered": true,
@@ -108,7 +108,7 @@
   "boundary_policy": {
     "generic_title_policy": "Queries dominated by generic must-have software-engineering clauses may have multiple acceptable positives or abstain from forced single-positive adjudication.",
     "active_boundary_case_count": 1,
-    "boundary_pool_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/match_pipe/semantic_boundary_pool.json"
+    "boundary_pool_path": "match_pipe/semantic_boundary_pool.json"
   },
   "recommended_deployment": {
     "offline_teacher": "teacher_b_semantic_v1",

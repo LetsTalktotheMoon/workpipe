@@ -4,8 +4,8 @@
 
 本轮在原 10 case 之外新增了 10 个主基准 case，并额外抽取了 10 个外部确认 case。按 raw JD 复核并修正标签后，当前最佳版本是：
 
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v10_equiv_evidence/Reviewer_4Stage.md`
-- Scorer: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v10_equiv_evidence/Reviewer_Cal.py`
+- Prompt: `iterations/v10_equiv_evidence/Reviewer_4Stage.md`
+- Scorer: `iterations/v10_equiv_evidence/Reviewer_Cal.py`
 
 最终成绩：
 
@@ -33,20 +33,20 @@
 
 相关文件：
 
-- 主基准 revised 标签：`/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/hr_labels_20_raw_jd_revised.json`
-- 确认集 revised 标签：`/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/hr_labels_confirmation_10_revised.json`
+- 主基准 revised 标签：`hr_labels_20_raw_jd_revised.json`
+- 确认集 revised 标签：`hr_labels_confirmation_10_revised.json`
 
 ## 历史版本与新迭代对照
 
 主基准（20 case, revised labels）版本总表见：
 
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration_comparison_v10_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/main20_scores_v10_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/deduction_comparison_v10_revised.md`
+- `iteration_comparison_v10_revised.md`
+- `main20_scores_v10_revised.md`
+- `deduction_comparison_v10_revised.md`
 
 外部确认集（10 case, revised labels）分数表见：
 
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/confirmation10_scores_v10_revised.md`
+- `confirmation10_scores_v10_revised.md`
 
 关键摘要：
 
@@ -192,22 +192,22 @@
 
 推荐采用：
 
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v10_equiv_evidence/Reviewer_4Stage.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v10_equiv_evidence/Reviewer_Cal.py`
+- `iterations/v10_equiv_evidence/Reviewer_4Stage.md`
+- `iterations/v10_equiv_evidence/Reviewer_Cal.py`
 
 核心报告与表格：
 
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/reviewer_pipe_generalization_iteration_zh_2026-04-17.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration_comparison_v10_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/main20_scores_v10_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/confirmation10_scores_v10_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/deduction_comparison_v10_revised.md`
+- `reviewer_pipe_generalization_iteration_zh_2026-04-17.md`
+- `iteration_comparison_v10_revised.md`
+- `main20_scores_v10_revised.md`
+- `confirmation10_scores_v10_revised.md`
+- `deduction_comparison_v10_revised.md`
 
 中间评估与 revised 标签：
 
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/hr_labels_20_raw_jd_revised.json`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/hr_labels_confirmation_10_revised.json`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/v9_main_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/v10_main_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/v9_conf_revised.md`
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/v10_conf_full.md`
+- `hr_labels_20_raw_jd_revised.json`
+- `hr_labels_confirmation_10_revised.json`
+- `v9_main_revised.md`
+- `v10_main_revised.md`
+- `v9_conf_revised.md`
+- `v10_conf_full.md`

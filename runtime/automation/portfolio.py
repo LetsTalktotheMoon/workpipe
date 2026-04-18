@@ -13,6 +13,8 @@ from pathlib import Path
 from typing import Iterable, Optional
 from xml.sax.saxutils import escape
 
+from repo_paths import relative_doc_link, repo_relative_path, resolve_repo_path
+
 from automation.company_subseed_registry import load_company_subseed_registry
 from automation.google_sheets import parse_publish_time
 from automation.jd_builder import row_to_jd_markdown
@@ -20,8 +22,8 @@ from automation.project_pool import load_project_pool_registry
 from automation.seed_registry import load_seed_registry
 from automation.text_utils import slugify
 
-ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_PORTFOLIO_ROOT = ROOT / "deliverables" / "resume_portfolio"
+ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_PORTFOLIO_ROOT = ROOT / "data" / "deliverables" / "resume_portfolio"
 
 
 def normalize_portfolio_root(path: str | Path | None = None) -> Path:
@@ -36,6 +38,58 @@ def normalize_portfolio_root(path: str | Path | None = None) -> Path:
 def _write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def _normalize_path_fields(payload: dict, *keys: str) -> dict:
+    normalized = dict(payload)
+    for key in keys:
+        if key in normalized:
+            normalized[key] = repo_relative_path(normalized.get(key, ""))
+    return normalized
+
+
+def _normalize_record_paths(record: dict) -> dict:
+    normalized = _normalize_path_fields(
+        record,
+        "resume_md",
+        "resume_pdf",
+        "job_md",
+        "artifact_dir",
+        "by_date_link",
+        "portfolio_root",
+        "by_company_root",
+        "by_date_root",
+        "seeds_root",
+        "portfolio_index",
+        "portfolio_markdown",
+        "resume_workbook",
+        "seed_index_json",
+        "seed_index_markdown",
+        "company_seed_index_json",
+        "company_seed_index_markdown",
+        "company_subseed_index_json",
+        "company_subseed_index_markdown",
+        "subseeds_root",
+        "experience_project_pool_json",
+        "experience_project_pool_markdown",
+        "source_resume_md",
+        "seed_dir",
+        "source_artifact_dir",
+        "direction_dir",
+    )
+    seed_dirs = normalized.get("seed_dirs")
+    if isinstance(seed_dirs, list):
+        normalized["seed_dirs"] = [repo_relative_path(item) for item in seed_dirs]
+    derived_jobs = normalized.get("derived_jobs")
+    if isinstance(derived_jobs, list):
+        rewritten_jobs = []
+        for item in derived_jobs:
+            if isinstance(item, dict):
+                rewritten_jobs.append(_normalize_path_fields(item, "artifact_dir", "resume_md", "resume_pdf"))
+            else:
+                rewritten_jobs.append(item)
+        normalized["derived_jobs"] = rewritten_jobs
+    return normalized
 
 
 def _publish_date(row: dict) -> str:
@@ -78,10 +132,10 @@ def ensure_profiles_json(portfolio_root: str | Path | None = None) -> Path:
                 "email": "",
             }
         ],
-        "portfolio_root": str(root),
-        "by_company_root": str(root / "by_company"),
-        "by_date_root": str(root / "by_date"),
-        "seeds_root": str(root / "seeds"),
+        "portfolio_root": repo_relative_path(root),
+        "by_company_root": repo_relative_path(root / "by_company"),
+        "by_date_root": repo_relative_path(root / "by_date"),
+        "seeds_root": repo_relative_path(root / "seeds"),
         "updated_at": datetime.now().isoformat(timespec="seconds"),
         "job_count": 0,
     }
@@ -97,6 +151,7 @@ def ensure_profiles_json(portfolio_root: str | Path | None = None) -> Path:
         payload.setdefault("by_company_root", defaults["by_company_root"])
         payload.setdefault("by_date_root", defaults["by_date_root"])
         payload.setdefault("seeds_root", defaults["seeds_root"])
+        payload = _normalize_record_paths(payload)
         if payload != current:
             _write_json(profiles_path, payload)
         return profiles_path
@@ -249,11 +304,11 @@ def publish_job_artifact(
         "parent_seed_id": parent_seed_id or seed_id,
         "top_candidate": top_candidate,
         "project_ids": project_ids,
-        "resume_md": str(resume_target),
-        "resume_pdf": pdf_target,
-        "job_md": str(job_dir / "job.md"),
-        "artifact_dir": str(job_dir),
-        "by_date_link": str(link_path),
+        "resume_md": repo_relative_path(resume_target),
+        "resume_pdf": repo_relative_path(pdf_target),
+        "job_md": repo_relative_path(job_dir / "job.md"),
+        "artifact_dir": repo_relative_path(job_dir),
+        "by_date_link": repo_relative_path(link_path),
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "review": review_payload or {},
     }
@@ -283,7 +338,7 @@ def delete_job_artifact(
 
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     job_dir = manifest_path.parent
-    by_date_link = Path(str(manifest.get("by_date_link", "") or ""))
+    by_date_link = resolve_repo_path(manifest.get("by_date_link", ""))
     _remove_path(by_date_link)
     _remove_path(job_dir)
 
@@ -293,7 +348,7 @@ def delete_job_artifact(
     return {
         "job_id": str(manifest.get("job_id", "") or ""),
         "company_name": str(manifest.get("company_name", "") or ""),
-        "artifact_dir": str(job_dir),
+        "artifact_dir": repo_relative_path(job_dir),
         "deleted": True,
     }
 
@@ -306,7 +361,7 @@ def collect_portfolio_records(portfolio_root: str | Path | None = None) -> list[
             record = json.loads(path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             continue
-        annotated = _annotate_record_metadata(record)
+        annotated = _normalize_record_paths(_annotate_record_metadata(record))
         if annotated != record:
             _write_json(path, annotated)
         records.append(annotated)
@@ -328,7 +383,7 @@ def _rebuild_by_date_views(root: Path, records: Iterable[dict]) -> None:
     by_date_root.mkdir(parents=True, exist_ok=True)
 
     for record in records:
-        artifact_dir = Path(str(record.get("artifact_dir", "") or "")).resolve()
+        artifact_dir = resolve_repo_path(record.get("artifact_dir", ""))
         publish_date = str(record.get("publish_date", "") or "unknown-date")
         job_id = str(record.get("job_id", "") or "").strip()
         if not job_id or not artifact_dir.exists():
@@ -374,7 +429,7 @@ def _write_seed_catalog(root: Path, records: Iterable[dict]) -> dict:
 
         source_record = source_record_by_seed.get(seed.seed_id)
         if source_record:
-            artifact_dir = Path(str(source_record.get("artifact_dir", "") or "")).resolve()
+            artifact_dir = resolve_repo_path(source_record.get("artifact_dir", ""))
             if artifact_dir.exists():
                 _ensure_path_link(seed_dir / "source_artifact", artifact_dir)
 
@@ -385,7 +440,7 @@ def _write_seed_catalog(root: Path, records: Iterable[dict]) -> dict:
         )
         for record in derived_records:
             job_id = str(record.get("job_id", "") or "").strip()
-            artifact_dir = Path(str(record.get("artifact_dir", "") or "")).resolve()
+            artifact_dir = resolve_repo_path(record.get("artifact_dir", ""))
             if not job_id or not artifact_dir.exists():
                 continue
             _ensure_path_link(derived_dir / job_id, artifact_dir)
@@ -403,9 +458,9 @@ def _write_seed_catalog(root: Path, records: Iterable[dict]) -> dict:
             "subseed_ids": list(seed.subseed_ids),
             "subseed_labels": subseed_labels,
             "project_cards": project_cards,
-            "source_resume_md": str(source_path),
-            "seed_dir": str(seed_dir),
-            "source_artifact_dir": str(Path(str(source_record.get("artifact_dir", "") or "")).resolve()) if source_record else "",
+            "source_resume_md": repo_relative_path(source_path),
+            "seed_dir": repo_relative_path(seed_dir),
+            "source_artifact_dir": repo_relative_path(source_record.get("artifact_dir", "")) if source_record else "",
             "derived_count": len(derived_records),
             "derived_jobs": [
                 {
@@ -435,7 +490,7 @@ def _write_seed_catalog(root: Path, records: Iterable[dict]) -> dict:
             f"* `source_job_id`: `{seed.source_job_id or ''}`",
             f"* `project_ids`: `{', '.join(seed.project_ids) or ''}`",
             f"* `subseed_ids`: `{', '.join(seed.subseed_ids) or ''}`",
-            f"* `source_resume_md`: {source_path}",
+            f"* `source_resume_md`: {repo_relative_path(source_path)}",
             f"* `source_artifact_dir`: {manifest['source_artifact_dir'] or ''}",
             f"* `derived_count`: `{len(derived_records)}`",
             "",
@@ -463,9 +518,9 @@ def _write_seed_catalog(root: Path, records: Iterable[dict]) -> dict:
     (root / "seed_index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return {
         "seed_count": len(catalog),
-        "seeds_root": str(seeds_root),
-        "seed_index_json": str(root / "seed_index.json"),
-        "seed_index_markdown": str(root / "seed_index.md"),
+        "seeds_root": repo_relative_path(seeds_root),
+        "seed_index_json": repo_relative_path(root / "seed_index.json"),
+        "seed_index_markdown": repo_relative_path(root / "seed_index.md"),
     }
 
 
@@ -546,16 +601,16 @@ def _write_company_subseed_catalog(root: Path, records: Iterable[dict]) -> dict:
 
             for record in deduped_records:
                 job_id = str(record.get("job_id", "") or "").strip()
-                artifact_dir = Path(str(record.get("artifact_dir", "") or "")).resolve()
+                artifact_dir = resolve_repo_path(record.get("artifact_dir", ""))
                 if job_id and artifact_dir.exists():
                     _ensure_path_link(matched_dir / job_id, artifact_dir)
 
             manifest = direction.to_dict()
             manifest.update(
                 {
-                    "direction_dir": str(direction_dir),
+                    "direction_dir": repo_relative_path(direction_dir),
                     "seed_dirs": [
-                        str((seed_root / seed_id).resolve())
+                        repo_relative_path((seed_root / seed_id).resolve())
                         for seed_id in direction.seed_ids
                         if (seed_root / seed_id).exists()
                     ],
@@ -623,7 +678,7 @@ def _write_company_subseed_catalog(root: Path, records: Iterable[dict]) -> dict:
         for outlier in plan.outlier_jobs:
             record = records_by_job_id.get(outlier.job_id)
             if record:
-                artifact_dir = Path(str(record.get("artifact_dir", "") or "")).resolve()
+                artifact_dir = resolve_repo_path(record.get("artifact_dir", ""))
                 if artifact_dir.exists():
                     _ensure_path_link(outlier_dir / outlier.job_id, artifact_dir)
             outlier_payload = {
@@ -645,9 +700,9 @@ def _write_company_subseed_catalog(root: Path, records: Iterable[dict]) -> dict:
     _write_json(root / "company_subseed_index.json", payload)
     (root / "company_subseed_index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return {
-        "subseeds_root": str(subseeds_root),
-        "company_subseed_index_json": str(root / "company_subseed_index.json"),
-        "company_subseed_index_markdown": str(root / "company_subseed_index.md"),
+        "subseeds_root": repo_relative_path(subseeds_root),
+        "company_subseed_index_json": repo_relative_path(root / "company_subseed_index.json"),
+        "company_subseed_index_markdown": repo_relative_path(root / "company_subseed_index.md"),
     }
 
 
@@ -680,15 +735,15 @@ def _write_company_seed_index(root: Path) -> dict:
         for item in items:
             lines.append(
                 f"- `{item.get('seed_id', '')}` | {item.get('label', '')} | score `{item.get('validated_score', '')}` | "
-                f"subseed `{', '.join(item.get('subseed_ids', []))}` | {item.get('source_md', '')}"
+                f"subseed `{', '.join(item.get('subseed_ids', []))}` | {repo_relative_path(item.get('source_md', ''))}"
             )
         lines.append("")
 
     _write_json(root / "company_seed_index.json", payload)
     (root / "company_seed_index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return {
-        "company_seed_index_json": str(root / "company_seed_index.json"),
-        "company_seed_index_markdown": str(root / "company_seed_index.md"),
+        "company_seed_index_json": repo_relative_path(root / "company_seed_index.json"),
+        "company_seed_index_markdown": repo_relative_path(root / "company_seed_index.md"),
     }
 
 
@@ -820,9 +875,15 @@ def _write_workbook(records: Iterable[dict], workbook_path: Path) -> None:
         pdf_path = str(record.get("resume_pdf", "") or "")
         apply_link = str(record.get("apply_link", "") or "")
         if resume_path:
-            values[15] = (f'HYPERLINK("{_formula_literal(Path(resume_path).resolve().as_uri())}","{_formula_literal(resume_path)}")', "formula")
+            values[15] = (
+                f'HYPERLINK("{_formula_literal(relative_doc_link(workbook_path, resume_path))}","{_formula_literal(resume_path)}")',
+                "formula",
+            )
         if pdf_path:
-            values[16] = (f'HYPERLINK("{_formula_literal(Path(pdf_path).resolve().as_uri())}","{_formula_literal(pdf_path)}")', "formula")
+            values[16] = (
+                f'HYPERLINK("{_formula_literal(relative_doc_link(workbook_path, pdf_path))}","{_formula_literal(pdf_path)}")',
+                "formula",
+            )
         if apply_link:
             values[17] = (f'HYPERLINK("{_formula_literal(apply_link)}","{_formula_literal(apply_link)}")', "formula")
 
@@ -932,15 +993,15 @@ def rebuild_portfolio_indexes(portfolio_root: str | Path | None = None) -> dict:
             profiles = json.loads(profiles_path.read_text(encoding="utf-8"))
             profiles.update(
                 {
-                    "portfolio_root": str(root),
-                    "by_company_root": str(root / "by_company"),
-                    "by_date_root": str(root / "by_date"),
-                    "seeds_root": str(root / "seeds"),
-                    "portfolio_index": str(root / "portfolio_index.json"),
-                    "portfolio_markdown": str(root / "portfolio_index.md"),
-                    "resume_workbook": str(root / "resume_portfolio.xlsx"),
-                    "seed_index_json": str(root / "seed_index.json"),
-                    "seed_index_markdown": str(root / "seed_index.md"),
+                    "portfolio_root": repo_relative_path(root),
+                    "by_company_root": repo_relative_path(root / "by_company"),
+                    "by_date_root": repo_relative_path(root / "by_date"),
+                    "seeds_root": repo_relative_path(root / "seeds"),
+                    "portfolio_index": repo_relative_path(root / "portfolio_index.json"),
+                    "portfolio_markdown": repo_relative_path(root / "portfolio_index.md"),
+                    "resume_workbook": repo_relative_path(root / "resume_portfolio.xlsx"),
+                    "seed_index_json": repo_relative_path(root / "seed_index.json"),
+                    "seed_index_markdown": repo_relative_path(root / "seed_index.md"),
                     "company_seed_index_json": company_seed_summary["company_seed_index_json"],
                     "company_seed_index_markdown": company_seed_summary["company_seed_index_markdown"],
                     "company_subseed_index_json": company_subseed_summary["company_subseed_index_json"],
@@ -953,14 +1014,15 @@ def rebuild_portfolio_indexes(portfolio_root: str | Path | None = None) -> dict:
                     "seed_count": seed_catalog_summary["seed_count"],
                 }
             )
+            profiles = _normalize_record_paths(profiles)
             _write_json(profiles_path, profiles)
             return {
-                "portfolio_root": str(root),
+                "portfolio_root": repo_relative_path(root),
                 "record_count": len(records),
-                "markdown": str(root / "portfolio_index.md"),
-                "workbook": str(root / "resume_portfolio.xlsx"),
-                "profiles": str(profiles_path),
-                "seed_index_markdown": str(root / "seed_index.md"),
+                "markdown": repo_relative_path(root / "portfolio_index.md"),
+                "workbook": repo_relative_path(root / "resume_portfolio.xlsx"),
+                "profiles": repo_relative_path(profiles_path),
+                "seed_index_markdown": repo_relative_path(root / "seed_index.md"),
                 "company_seed_index_markdown": company_seed_summary["company_seed_index_markdown"],
                 "company_subseed_index_markdown": company_subseed_summary["company_subseed_index_markdown"],
             }

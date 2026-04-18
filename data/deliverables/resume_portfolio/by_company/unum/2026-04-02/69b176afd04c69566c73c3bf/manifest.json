@@ -27,11 +27,11 @@
     "seed_source_job_id": "69d07b90cfdc6132f943be1d"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/unum/2026-04-02/69b176afd04c69566c73c3bf/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/unum/2026-04-02/69b176afd04c69566c73c3bf/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/unum/2026-04-02/69b176afd04c69566c73c3bf/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/unum/2026-04-02/69b176afd04c69566c73c3bf",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69b176afd04c69566c73c3bf",
+  "job_md": "data/deliverables/resume_portfolio/by_company/unum/2026-04-02/69b176afd04c69566c73c3bf/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/unum/2026-04-02/69b176afd04c69566c73c3bf",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/unum/2026-04-02/69b176afd04c69566c73c3bf",
   "generated_at": "2026-04-07T01:17:16",
   "review": {
     "weighted_score": 95.0,

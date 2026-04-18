@@ -1,40 +1,40 @@
 # Seed Index
 
-- `seed_codex_google_aiml` | Google AIML SWE | score `93.9` | derived `6` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml
-- `seed_codex_google_fullstack` | Google Full Stack | score `95.5` | derived `24` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_fullstack
-- `seed_codex_amazon_sde` | Amazon SDE | score `93.8` | derived `22` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde
-- `seed_plaid_data_scientist` | Plaid Data Scientist | score `94.5` | derived `84` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_plaid_data_scientist
-- `seed_qualified_health_data_engineer` | Qualified Health Data Engineer | score `94.4` | derived `74` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_qualified_health_data_engineer
-- `seed_zillow_agentic_mle` | Zillow Agentic MLE | score `93.2` | derived `4` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_zillow_agentic_mle
-- `seed_magnite_sdet` | Magnite SDET | score `93.7` | derived `30` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_magnite_sdet
-- `seed_zip_backend_web` | Zip Backend Web | score `93.5` | derived `6` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_zip_backend_web
-- `seed_gm_genai` | GM Financial GenAI | score `93.7` | derived `3` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_gm_genai
-- `seed_spotify_backend_music` | Spotify Backend Music | score `94.3` | derived `8` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_spotify_backend_music
-- `seed_cisco_backend_api` | Cisco Backend API | score `96.3` | derived `32` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_cisco_backend_api
-- `seed_egen_fullstack_node` | Egen Fullstack Node | score `93.5` | derived `48` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_egen_fullstack_node
-- `seed_trimedx_platform_multicloud` | TRIMEDX Platform Multicloud | score `96.3` | derived `20` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_trimedx_platform_multicloud
-- `seed_platform_ai_automation` | Platform AI Automation | score `95.5` | derived `3` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_platform_ai_automation
-- `seed_fullstack_java_react_enterprise` | Fullstack Java React Enterprise | score `93.7` | derived `7` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_fullstack_java_react_enterprise
-- `seed_fullstack_dotnet_azure` | Fullstack DotNet Azure | score `95.3` | derived `26` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_fullstack_dotnet_azure
-- `seed_profound_fullstack_ts_node` | Profound Fullstack TS Node | score `94.8` | derived `4` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_profound_fullstack_ts_node
-- `seed_glean_ml_infra` | Glean ML Infrastructure | score `94.0` | derived `4` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_glean_ml_infra
-- `seed_frontend_web_perf` | Frontend Web Performance | score `94.8` | derived `5` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_frontend_web_perf
-- `seed_backend_java_spring_api` | Backend Java Spring API | score `94.3` | derived `4` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_backend_java_spring_api
-- `seed_generalist_dotnet_enterprise` | Generalist DotNet Enterprise | score `93.9` | derived `60` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_generalist_dotnet_enterprise
-- `seed_linkedin_mle_foundation` | LinkedIn MLE Foundation | score `94.7` | derived `35` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_linkedin_mle_foundation
-- `seed_amazon_conversational_ads_backend` | Amazon Conversational Ads Backend | score `95.0` | derived `5` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_conversational_ads_backend
-- `seed_harbourvest_backend_data` | HarbourVest Backend Data | score `96.8` | derived `2` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_harbourvest_backend_data
-- `seed_bytedance_ml_grad` | ByteDance ML Grad | score `94.2` | derived `72` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_bytedance_ml_grad
-- `seed_microsoft_polyglot_generalist` | Microsoft Polyglot Generalist | score `95.2` | derived `29` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_microsoft_polyglot_generalist
-- `seed_h2o_ai_engineer` | H2O AI Engineer | score `95.2` | derived `91` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_h2o_ai_engineer
-- `seed_aws_generalist_embedded` | AWS Generalist Embedded | score `94.6` | derived `18` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_aws_generalist_embedded
-- `seed_itential_generalist_algorithms` | Itential Generalist Algorithms | score `94.5` | derived `8` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_itential_generalist_algorithms
-- `seed_paypal_java_backend` | PayPal Java Backend | score `96.4` | derived `62` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_paypal_java_backend
-- `seed_google_geo_aiml_anchor` | Google Workspace/Geo AIML Anchor | score `95.9` | derived `10` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor
-- `seed_microsoft_coreai_platform_anchor` | Microsoft CoreAI/BIC Platform Anchor | score `93.8` | derived `38` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_microsoft_coreai_platform_anchor
-- `seed_jpmc_data_mlops_anchor` | JPMorganChase Data Platform/MLOps Anchor | score `94.3` | derived `41` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_jpmc_data_mlops_anchor
-- `seed_amazon_agi_ml_anchor` | Amazon AGI/LLM Anchor | score `93.9` | derived `37` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_agi_ml_anchor
-- `seed_fireblocks_sre_anchor` | Fireblocks SRE Anchor | score `94.5` | derived `30` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_fireblocks_sre_anchor
-- `seed_aws_support_backend_anchor` | AWS Support Backend Anchor | score `97.1` | derived `35` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_aws_support_backend_anchor
-- `seed_amazon_management_plane_anchor_candidate` | Amazon Management Plane Anchor | score `95.0` | derived `5` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate
-- `seed_google_cloud_infra_anchor_candidate` | Google Cloud Infra Anchor | score `95.5` | derived `43` | /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_google_cloud_infra_anchor_candidate
+- `seed_codex_google_aiml` | Google AIML SWE | score `93.9` | derived `6` | data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml
+- `seed_codex_google_fullstack` | Google Full Stack | score `95.5` | derived `24` | data/deliverables/resume_portfolio/seeds/seed_codex_google_fullstack
+- `seed_codex_amazon_sde` | Amazon SDE | score `93.8` | derived `22` | data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde
+- `seed_plaid_data_scientist` | Plaid Data Scientist | score `94.5` | derived `84` | data/deliverables/resume_portfolio/seeds/seed_plaid_data_scientist
+- `seed_qualified_health_data_engineer` | Qualified Health Data Engineer | score `94.4` | derived `74` | data/deliverables/resume_portfolio/seeds/seed_qualified_health_data_engineer
+- `seed_zillow_agentic_mle` | Zillow Agentic MLE | score `93.2` | derived `4` | data/deliverables/resume_portfolio/seeds/seed_zillow_agentic_mle
+- `seed_magnite_sdet` | Magnite SDET | score `93.7` | derived `30` | data/deliverables/resume_portfolio/seeds/seed_magnite_sdet
+- `seed_zip_backend_web` | Zip Backend Web | score `93.5` | derived `6` | data/deliverables/resume_portfolio/seeds/seed_zip_backend_web
+- `seed_gm_genai` | GM Financial GenAI | score `93.7` | derived `3` | data/deliverables/resume_portfolio/seeds/seed_gm_genai
+- `seed_spotify_backend_music` | Spotify Backend Music | score `94.3` | derived `8` | data/deliverables/resume_portfolio/seeds/seed_spotify_backend_music
+- `seed_cisco_backend_api` | Cisco Backend API | score `96.3` | derived `32` | data/deliverables/resume_portfolio/seeds/seed_cisco_backend_api
+- `seed_egen_fullstack_node` | Egen Fullstack Node | score `93.5` | derived `48` | data/deliverables/resume_portfolio/seeds/seed_egen_fullstack_node
+- `seed_trimedx_platform_multicloud` | TRIMEDX Platform Multicloud | score `96.3` | derived `20` | data/deliverables/resume_portfolio/seeds/seed_trimedx_platform_multicloud
+- `seed_platform_ai_automation` | Platform AI Automation | score `95.5` | derived `3` | data/deliverables/resume_portfolio/seeds/seed_platform_ai_automation
+- `seed_fullstack_java_react_enterprise` | Fullstack Java React Enterprise | score `93.7` | derived `7` | data/deliverables/resume_portfolio/seeds/seed_fullstack_java_react_enterprise
+- `seed_fullstack_dotnet_azure` | Fullstack DotNet Azure | score `95.3` | derived `26` | data/deliverables/resume_portfolio/seeds/seed_fullstack_dotnet_azure
+- `seed_profound_fullstack_ts_node` | Profound Fullstack TS Node | score `94.8` | derived `4` | data/deliverables/resume_portfolio/seeds/seed_profound_fullstack_ts_node
+- `seed_glean_ml_infra` | Glean ML Infrastructure | score `94.0` | derived `4` | data/deliverables/resume_portfolio/seeds/seed_glean_ml_infra
+- `seed_frontend_web_perf` | Frontend Web Performance | score `94.8` | derived `5` | data/deliverables/resume_portfolio/seeds/seed_frontend_web_perf
+- `seed_backend_java_spring_api` | Backend Java Spring API | score `94.3` | derived `4` | data/deliverables/resume_portfolio/seeds/seed_backend_java_spring_api
+- `seed_generalist_dotnet_enterprise` | Generalist DotNet Enterprise | score `93.9` | derived `60` | data/deliverables/resume_portfolio/seeds/seed_generalist_dotnet_enterprise
+- `seed_linkedin_mle_foundation` | LinkedIn MLE Foundation | score `94.7` | derived `35` | data/deliverables/resume_portfolio/seeds/seed_linkedin_mle_foundation
+- `seed_amazon_conversational_ads_backend` | Amazon Conversational Ads Backend | score `95.0` | derived `5` | data/deliverables/resume_portfolio/seeds/seed_amazon_conversational_ads_backend
+- `seed_harbourvest_backend_data` | HarbourVest Backend Data | score `96.8` | derived `2` | data/deliverables/resume_portfolio/seeds/seed_harbourvest_backend_data
+- `seed_bytedance_ml_grad` | ByteDance ML Grad | score `94.2` | derived `72` | data/deliverables/resume_portfolio/seeds/seed_bytedance_ml_grad
+- `seed_microsoft_polyglot_generalist` | Microsoft Polyglot Generalist | score `95.2` | derived `29` | data/deliverables/resume_portfolio/seeds/seed_microsoft_polyglot_generalist
+- `seed_h2o_ai_engineer` | H2O AI Engineer | score `95.2` | derived `91` | data/deliverables/resume_portfolio/seeds/seed_h2o_ai_engineer
+- `seed_aws_generalist_embedded` | AWS Generalist Embedded | score `94.6` | derived `18` | data/deliverables/resume_portfolio/seeds/seed_aws_generalist_embedded
+- `seed_itential_generalist_algorithms` | Itential Generalist Algorithms | score `94.5` | derived `8` | data/deliverables/resume_portfolio/seeds/seed_itential_generalist_algorithms
+- `seed_paypal_java_backend` | PayPal Java Backend | score `96.4` | derived `62` | data/deliverables/resume_portfolio/seeds/seed_paypal_java_backend
+- `seed_google_geo_aiml_anchor` | Google Workspace/Geo AIML Anchor | score `95.9` | derived `10` | data/deliverables/resume_portfolio/seeds/seed_google_geo_aiml_anchor
+- `seed_microsoft_coreai_platform_anchor` | Microsoft CoreAI/BIC Platform Anchor | score `93.8` | derived `38` | data/deliverables/resume_portfolio/seeds/seed_microsoft_coreai_platform_anchor
+- `seed_jpmc_data_mlops_anchor` | JPMorganChase Data Platform/MLOps Anchor | score `94.3` | derived `41` | data/deliverables/resume_portfolio/seeds/seed_jpmc_data_mlops_anchor
+- `seed_amazon_agi_ml_anchor` | Amazon AGI/LLM Anchor | score `93.9` | derived `37` | data/deliverables/resume_portfolio/seeds/seed_amazon_agi_ml_anchor
+- `seed_fireblocks_sre_anchor` | Fireblocks SRE Anchor | score `94.5` | derived `30` | data/deliverables/resume_portfolio/seeds/seed_fireblocks_sre_anchor
+- `seed_aws_support_backend_anchor` | AWS Support Backend Anchor | score `97.1` | derived `35` | data/deliverables/resume_portfolio/seeds/seed_aws_support_backend_anchor
+- `seed_amazon_management_plane_anchor_candidate` | Amazon Management Plane Anchor | score `95.0` | derived `5` | data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate
+- `seed_google_cloud_infra_anchor_candidate` | Google Cloud Infra Anchor | score `95.5` | derived `43` | data/deliverables/resume_portfolio/seeds/seed_google_cloud_infra_anchor_candidate

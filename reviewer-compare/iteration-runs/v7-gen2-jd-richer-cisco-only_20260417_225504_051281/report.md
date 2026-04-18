@@ -21,7 +21,7 @@
 - [NICE] 其余量化和项目结构基本可用，后续只需做措辞收敛，不必大改整份简历。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-cisco-only_20260417_225504_051281/gen2-cisco-networkingsenior/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-cisco-only_20260417_225504_051281/gen2-cisco-networkingsenior/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-cisco-only_20260417_225504_051281/gen2-cisco-networkingsenior/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-cisco-only_20260417_225504_051281/gen2-cisco-networkingsenior/codex.json`
+- Prompt: `gen2-cisco-networkingsenior/prompt.txt`
+- Metadata: `gen2-cisco-networkingsenior/metadata.json`
+- 原始输出: `gen2-cisco-networkingsenior/codex.raw.txt`
+- JSON: `gen2-cisco-networkingsenior/codex.json`

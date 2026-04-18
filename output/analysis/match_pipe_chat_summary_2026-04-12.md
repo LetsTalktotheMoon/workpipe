@@ -820,15 +820,15 @@ score = hit_at_1 + 0.5 * hit_at_3 + 0.25 * MRR
 
 | 位置 | 作用 |
 |---|---|
-| [match_pipe/units.py:94](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/units.py:94) | `_text_blocks()`，把 JD 拆成 title / summary / core_skills / must_have / preferred / responsibilities / metadata |
-| [match_pipe/units.py:196](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/units.py:196) | `_infer_logic_type()`，识别 `SINGLE / OR / AND / AT_LEAST_K / PARENT_ANY_CHILD` |
-| [match_pipe/units.py:239](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/units.py:239) | `_unit_weight()`，计算 `unit_weight` |
-| [match_pipe/units.py:265](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/units.py:265) | `_member_weight()`，计算 unit 内成员权重 |
-| [match_pipe/matcher.py:402](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/matcher.py:402) | `_score_candidate()`，把各 unit 分合成最终候选分 |
-| [match_pipe/matcher.py:508](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/matcher.py:508) | `_semantic_specificity()`，用 IDF 估计稀缺度并放大有效权重 |
-| [match_pipe/matcher.py:526](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/matcher.py:526) | `_score_unit()`，计算单个 requirement unit 的命中分 |
-| [match_pipe/matcher.py:588](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/matcher.py:588) | `_member_match_score()`，计算单个 member 的 exact / ancestor / background 命中分 |
-| [match_pipe/matcher.py:619](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/match_pipe/matcher.py:619) | `_best_structure_alignment()`，计算结构对齐度并影响 OR / AND / AT_LEAST_K / PARENT_ANY_CHILD |
+| [match_pipe/units.py:94](../../match_pipe/units.py:94) | `_text_blocks()`，把 JD 拆成 title / summary / core_skills / must_have / preferred / responsibilities / metadata |
+| [match_pipe/units.py:196](../../match_pipe/units.py:196) | `_infer_logic_type()`，识别 `SINGLE / OR / AND / AT_LEAST_K / PARENT_ANY_CHILD` |
+| [match_pipe/units.py:239](../../match_pipe/units.py:239) | `_unit_weight()`，计算 `unit_weight` |
+| [match_pipe/units.py:265](../../match_pipe/units.py:265) | `_member_weight()`，计算 unit 内成员权重 |
+| [match_pipe/matcher.py:402](../../match_pipe/matcher.py:402) | `_score_candidate()`，把各 unit 分合成最终候选分 |
+| [match_pipe/matcher.py:508](../../match_pipe/matcher.py:508) | `_semantic_specificity()`，用 IDF 估计稀缺度并放大有效权重 |
+| [match_pipe/matcher.py:526](../../match_pipe/matcher.py:526) | `_score_unit()`，计算单个 requirement unit 的命中分 |
+| [match_pipe/matcher.py:588](../../match_pipe/matcher.py:588) | `_member_match_score()`，计算单个 member 的 exact / ancestor / background 命中分 |
+| [match_pipe/matcher.py:619](../../match_pipe/matcher.py:619) | `_best_structure_alignment()`，计算结构对齐度并影响 OR / AND / AT_LEAST_K / PARENT_ANY_CHILD |
 
 ---
 

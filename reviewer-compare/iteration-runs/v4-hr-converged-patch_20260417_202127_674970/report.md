@@ -18,10 +18,10 @@
 ### 优先修改项
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-ramp-platform/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-ramp-platform/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-ramp-platform/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-ramp-platform/codex.json`
+- Prompt: `extra-ramp-platform/prompt.txt`
+- Metadata: `extra-ramp-platform/metadata.json`
+- 原始输出: `extra-ramp-platform/codex.raw.txt`
+- JSON: `extra-ramp-platform/codex.json`
 
 ## extra/HealthEquity-DotNet
 
@@ -38,7 +38,7 @@
 - [NICE] 把 `APIs` 这种泛分类改成更具体、更适合 6-8 秒扫读的技能分组。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-healthequity-dotnet/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-healthequity-dotnet/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-healthequity-dotnet/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v4-hr-converged-patch_20260417_202127_674970/extra-healthequity-dotnet/codex.json`
+- Prompt: `extra-healthequity-dotnet/prompt.txt`
+- Metadata: `extra-healthequity-dotnet/metadata.json`
+- 原始输出: `extra-healthequity-dotnet/codex.raw.txt`
+- JSON: `extra-healthequity-dotnet/codex.json`

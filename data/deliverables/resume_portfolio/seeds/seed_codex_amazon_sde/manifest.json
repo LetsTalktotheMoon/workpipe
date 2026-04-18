@@ -94,8 +94,8 @@
       "notes": "Use for merchant incident console, exception workbench, refund-resolution workflow, or issue-routing variants."
     }
   ],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_amazon_sde/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde",
+  "source_resume_md": "data/seed_sources/seed_codex_amazon_sde/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_codex_amazon_sde",
   "source_artifact_dir": "",
   "derived_count": 22,
   "derived_jobs": [
@@ -139,8 +139,8 @@
       "title": "Senior Product Engineer (Ruby) | San Francisco",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cleo/2026-04-04/697d2e7e3f57a3356966f6de/resume.md",
       "resume_pdf": ""
     },
     {
@@ -194,8 +194,8 @@
       "title": "Software Engineer, Dashboard",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/vercel/2026-04-03/69979140e0bddb6acac6411d/resume.md",
       "resume_pdf": ""
     },
     {
@@ -227,8 +227,8 @@
       "title": "Junior Software Engineer with Accounting Experience (LATAM)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/sezzle/2026-04-03/6917535b3ea85638ae1c9c1c/resume.md",
       "resume_pdf": ""
     },
     {
@@ -260,8 +260,8 @@
       "title": "Fullstack/ Backend Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/qualitest-acq/2026-04-02/69ceeabf54f00230c6d04cc9/resume.md",
       "resume_pdf": ""
     },
     {
@@ -282,8 +282,8 @@
       "title": "Fullstack/ Backend Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69cedd5854f00230c6d0416e/resume.md",
       "resume_pdf": ""
     },
     {
@@ -293,8 +293,8 @@
       "title": "Fullstack/ Backend Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-02/69ce947e54f00230c6d00767/resume.md",
       "resume_pdf": ""
     },
     {
@@ -304,8 +304,8 @@
       "title": "Software Engineer - Core Services",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jewelers-mutual-group/2026-04-02/69b1df7fd04c69566c745093/resume.md",
       "resume_pdf": ""
     },
     {
@@ -315,8 +315,8 @@
       "title": "Software Engineer, Core Product (Mid–Senior+)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/supio/2026-04-02/69ce0161398fb071abf80503/resume.md",
       "resume_pdf": ""
     },
     {
@@ -326,8 +326,8 @@
       "title": "Full-Stack / Backend Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/qualitest/2026-04-01/69cd8019891d7b11cfcb993e/resume.md",
       "resume_pdf": ""
     },
     {

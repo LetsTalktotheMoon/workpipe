@@ -13,10 +13,14 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from repo_paths import repo_relative_path, resolve_repo_path
+
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 RUNTIME_ROOT = ROOT / "runtime"
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 if str(RUNTIME_ROOT) not in sys.path:
     sys.path.insert(0, str(RUNTIME_ROOT))
 
@@ -155,7 +159,7 @@ def load_cases(path: Path) -> list[dict[str, Any]]:
 
 
 def build_case(case: dict[str, Any]) -> tuple[dict[str, Any], str, str, str]:
-    target_dir = (ROOT / case["target_dir"]).resolve()
+    target_dir = resolve_repo_path(case["target_dir"])
     resume_path = target_dir / "resume.md"
     job_path = target_dir / "job.md"
     manifest_path = target_dir / "manifest.json"
@@ -183,9 +187,9 @@ def build_case(case: dict[str, Any]) -> tuple[dict[str, Any], str, str, str]:
         "company": jd.company,
         "title": jd.title,
         "historical": case.get("historical", {}),
-        "resume_path": str(resume_path),
-        "job_path": str(job_path),
-        "manifest_path": str(manifest_path),
+        "resume_path": repo_relative_path(resume_path),
+        "job_path": repo_relative_path(job_path),
+        "manifest_path": repo_relative_path(manifest_path),
     }
     return metadata, system_prompt, user_prompt, combined_prompt
 
@@ -259,11 +263,11 @@ def build_report(cases: list[dict[str, Any]], run_dir: Path) -> str:
             [
                 "",
                 "### 产物",
-                f"- system: `{run_dir / slugify(case['label']) / 'system.txt'}`",
-                f"- user prompt: `{run_dir / slugify(case['label']) / 'prompt.txt'}`",
-                f"- 合并 prompt: `{run_dir / slugify(case['label']) / 'combined_prompt.txt'}`",
-                f"- 原始输出: `{run_dir / slugify(case['label']) / 'codex.raw.txt'}`",
-                f"- JSON: `{run_dir / slugify(case['label']) / 'codex.json'}`",
+                f"- system: `{(Path(slugify(case['label'])) / 'system.txt').as_posix()}`",
+                f"- user prompt: `{(Path(slugify(case['label'])) / 'prompt.txt').as_posix()}`",
+                f"- 合并 prompt: `{(Path(slugify(case['label'])) / 'combined_prompt.txt').as_posix()}`",
+                f"- 原始输出: `{(Path(slugify(case['label'])) / 'codex.raw.txt').as_posix()}`",
+                f"- JSON: `{(Path(slugify(case['label'])) / 'codex.json').as_posix()}`",
             ]
         )
     return "\n".join(lines).rstrip() + "\n"
@@ -331,7 +335,7 @@ def main() -> int:
         )
 
     write_text(run_dir / "report.md", build_report(report_cases, run_dir))
-    write_text(HERE / "latest_old_pipe_codex_run.txt", str(run_dir) + "\n")
+    write_text(HERE / "latest_old_pipe_codex_run.txt", repo_relative_path(run_dir) + "\n")
     print(str(run_dir))
     return 0
 

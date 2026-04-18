@@ -89,8 +89,8 @@
       "notes": "Use for courier ETA feature service, capacity planning service, merchant supply exception monitoring, or outage diagnostics."
     }
   ],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_google_aiml/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml",
+  "source_resume_md": "data/seed_sources/seed_codex_google_aiml/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_codex_google_aiml",
   "source_artifact_dir": "",
   "derived_count": 6,
   "derived_jobs": [
@@ -101,8 +101,8 @@
       "title": "Senior Software Engineer, Machine Learning",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-08/69a504290da45516f16da9ce/resume.md",
       "resume_pdf": ""
     },
     {
@@ -112,8 +112,8 @@
       "title": "Software Engineer II - AI Security & Governance",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/uber/2026-04-02/69cef32d54f00230c6d05152/resume.md",
       "resume_pdf": ""
     },
     {
@@ -134,8 +134,8 @@
       "title": "Software Engineer – Autonomy Evaluation",
       "source_kind": "retarget_trial",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/general-motors/2026-04-02/69cee70954f00230c6d04ba2/resume.md",
       "resume_pdf": ""
     },
     {
@@ -156,8 +156,8 @@
       "title": "Software Engineer, Perception Evaluation",
       "source_kind": "seed_validation",
       "route_mode": "new_seed",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/waymo/2026-04-01/69846d438da7a612045e943f/resume.md",
       "resume_pdf": ""
     }
   ]

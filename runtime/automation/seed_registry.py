@@ -8,6 +8,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable, Optional
 
+from repo_paths import repo_relative_path, resolve_repo_path
+
 from automation.company_subseed_registry import load_company_subseed_registry
 from models.resume import Resume
 from automation.project_pool import load_project_pool_registry
@@ -42,7 +44,7 @@ class SeedEntry:
         return {
             "seed_id": self.seed_id,
             "label": self.label,
-            "source_md": str(self.source_md),
+            "source_md": repo_relative_path(self.source_md),
             "source_type": self.source_type,
             "role_family": self.role_family,
             "seniority": self.seniority,
@@ -74,7 +76,7 @@ def _markdown_seed_keywords(md_path: Path) -> tuple[set[str], set[str]]:
 
 
 def _promoted_seed_to_entry(config: dict) -> Optional[SeedEntry]:
-    md_path = Path(config["path"])
+    md_path = resolve_repo_path(config["path"])
     if not md_path.exists():
         return None
     keywords, body_terms = _markdown_seed_keywords(md_path)

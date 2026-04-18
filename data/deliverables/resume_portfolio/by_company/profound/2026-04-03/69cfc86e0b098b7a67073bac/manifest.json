@@ -20,11 +20,11 @@
     "project_ids": []
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc86e0b098b7a67073bac/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc86e0b098b7a67073bac/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc86e0b098b7a67073bac/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc86e0b098b7a67073bac",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69cfc86e0b098b7a67073bac",
+  "job_md": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc86e0b098b7a67073bac/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc86e0b098b7a67073bac",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/profound/2026-04-03/69cfc86e0b098b7a67073bac",
   "generated_at": "2026-04-05T15:34:27",
   "review": {
     "jd_id": "candidate_profound_fullstack_ts_node",

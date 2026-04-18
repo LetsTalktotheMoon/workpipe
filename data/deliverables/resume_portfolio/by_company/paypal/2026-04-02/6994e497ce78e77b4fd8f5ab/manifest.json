@@ -26,11 +26,11 @@
     "seed_source_job_id": "692777a0d47de4798ecdcf3a"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-02/6994e497ce78e77b4fd8f5ab/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/paypal/2026-04-02/6994e497ce78e77b4fd8f5ab/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-02/6994e497ce78e77b4fd8f5ab/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/paypal/2026-04-02/6994e497ce78e77b4fd8f5ab",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/6994e497ce78e77b4fd8f5ab",
+  "job_md": "data/deliverables/resume_portfolio/by_company/paypal/2026-04-02/6994e497ce78e77b4fd8f5ab/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/paypal/2026-04-02/6994e497ce78e77b4fd8f5ab",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/paypal/2026-04-02/6994e497ce78e77b4fd8f5ab",
   "generated_at": "2026-04-05T20:25:56",
   "review": {
     "weighted_score": 95.0,

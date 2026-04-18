@@ -11,9 +11,9 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_platform_ai_automation/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_platform_ai_automation",
-  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807",
+  "source_resume_md": "data/seed_sources/seed_platform_ai_automation/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_platform_ai_automation",
+  "source_artifact_dir": "data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807",
   "derived_count": 3,
   "derived_jobs": [
     {
@@ -34,8 +34,8 @@
       "title": "CI/CD DevOps Engineer",
       "source_kind": "seed_source",
       "route_mode": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/gordon-food-service/2026-04-03/69d00192cdb525785fba6807/resume.md",
       "resume_pdf": ""
     },
     {

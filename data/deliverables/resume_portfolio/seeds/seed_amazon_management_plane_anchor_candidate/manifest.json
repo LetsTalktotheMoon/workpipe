@@ -18,9 +18,9 @@
     "Amazon Platform / Distributed Systems"
   ],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_management_plane_anchor_candidate/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate",
-  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
+  "source_resume_md": "data/seed_sources/seed_amazon_management_plane_anchor_candidate/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_amazon_management_plane_anchor_candidate",
+  "source_artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
   "derived_count": 5,
   "derived_jobs": [
     {
@@ -41,8 +41,8 @@
       "title": "Robotics - Software Development Engineer",
       "source_kind": "retarget_trial",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d05887cfdc6132f943a843/resume.md",
       "resume_pdf": ""
     },
     {
@@ -52,8 +52,8 @@
       "title": "Software Development Engineer, Management Plane",
       "source_kind": "seed_source",
       "route_mode": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69d00c26cdb525785fba6ae9/resume.md",
       "resume_pdf": ""
     },
     {
@@ -63,8 +63,8 @@
       "title": "Software Development Engineer, Video Advertising Signals and Insights",
       "source_kind": "retarget_trial",
       "route_mode": "new_seed",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/69cf517ecdb525785fba14b7/resume.md",
       "resume_pdf": ""
     },
     {
@@ -74,8 +74,8 @@
       "title": "Software Engineer, Electric Utility Grid, Hadron",
       "source_kind": "retarget_trial",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-02/69ced753398fb071abf896e5/resume.md",
       "resume_pdf": ""
     }
   ]

@@ -30,10 +30,10 @@
 - [SHOULD] 去掉 `team-maintained`、`existing` 这类描述词的加粗，只保留技术名词和量化结果加粗。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-microsoft/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-microsoft/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-microsoft/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-microsoft/codex.json`
+- Prompt: `same-microsoft/prompt.txt`
+- Metadata: `same-microsoft/metadata.json`
+- 原始输出: `same-microsoft/codex.raw.txt`
+- JSON: `same-microsoft/codex.json`
 
 ## same/Google
 
@@ -50,10 +50,10 @@
 - [NICE] Normalize bolding so qualifiers like `team-maintained` are unbolded and only technologies or key scale/result tokens are emphasized.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-google/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-google/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-google/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-google/codex.json`
+- Prompt: `same-google/prompt.txt`
+- Metadata: `same-google/metadata.json`
+- 原始输出: `same-google/codex.raw.txt`
+- JSON: `same-google/codex.json`
 
 ## same/Amazon
 
@@ -70,10 +70,10 @@
 - [NICE] Keep the rest of the content, but make the most relevant scope signal visible earlier in the TikTok section.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-amazon/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-amazon/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-amazon/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-amazon/codex.json`
+- Prompt: `same-amazon/prompt.txt`
+- Metadata: `same-amazon/metadata.json`
+- 原始输出: `same-amazon/codex.raw.txt`
+- JSON: `same-amazon/codex.json`
 
 ## same/AWS
 
@@ -90,10 +90,10 @@
 - [NICE] Bold the key scope numbers and headline metrics consistently across the experience bullets.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-aws/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-aws/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-aws/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/same-aws/codex.json`
+- Prompt: `same-aws/prompt.txt`
+- Metadata: `same-aws/metadata.json`
+- 原始输出: `same-aws/codex.raw.txt`
+- JSON: `same-aws/codex.json`
 
 ## extra/Dataminr-Infra
 
@@ -109,10 +109,10 @@
 - [NICE] Bold `Bedrock` in the TikTok bullet so technical emphasis is consistent with the rest of the resume.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-dataminr-infra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-dataminr-infra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-dataminr-infra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-dataminr-infra/codex.json`
+- Prompt: `extra-dataminr-infra/prompt.txt`
+- Metadata: `extra-dataminr-infra/metadata.json`
+- 原始输出: `extra-dataminr-infra/codex.raw.txt`
+- JSON: `extra-dataminr-infra/codex.json`
 
 ## extra/Zoox-LLM
 
@@ -129,10 +129,10 @@
 - [NICE] 如果要更贴 Zoox 的 3D simulation 方向，可以在 replay sandbox 项目里再强化“simulation / evaluation infrastructure”的表述。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-zoox-llm/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-zoox-llm/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-zoox-llm/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-zoox-llm/codex.json`
+- Prompt: `extra-zoox-llm/prompt.txt`
+- Metadata: `extra-zoox-llm/metadata.json`
+- 原始输出: `extra-zoox-llm/codex.raw.txt`
+- JSON: `extra-zoox-llm/codex.json`
 
 ## extra/Synechron-Backend
 
@@ -149,10 +149,10 @@
 - [NICE] Rename the `APIs` skills bucket to a more informative category label.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-synechron-backend/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-synechron-backend/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-synechron-backend/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-synechron-backend/codex.json`
+- Prompt: `extra-synechron-backend/prompt.txt`
+- Metadata: `extra-synechron-backend/metadata.json`
+- 原始输出: `extra-synechron-backend/codex.raw.txt`
+- JSON: `extra-synechron-backend/codex.json`
 
 ## extra/CapitalOne-AI
 
@@ -169,10 +169,10 @@
 - [NICE] Remove bold formatting from descriptive modifiers like `team-maintained`, `existing`, and `internal`.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-capitalone-ai/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-capitalone-ai/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-capitalone-ai/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-capitalone-ai/codex.json`
+- Prompt: `extra-capitalone-ai/prompt.txt`
+- Metadata: `extra-capitalone-ai/metadata.json`
+- 原始输出: `extra-capitalone-ai/codex.raw.txt`
+- JSON: `extra-capitalone-ai/codex.json`
 
 ## extra/Ramp-Platform
 
@@ -189,10 +189,10 @@
 - [NICE] 如果要进一步增强 Ramp 匹配感，可在最相关经历里补一句“reliability-sensitive internal workflows / platform infrastructure”式桥接。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-ramp-platform/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-ramp-platform/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-ramp-platform/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-ramp-platform/codex.json`
+- Prompt: `extra-ramp-platform/prompt.txt`
+- Metadata: `extra-ramp-platform/metadata.json`
+- 原始输出: `extra-ramp-platform/codex.raw.txt`
+- JSON: `extra-ramp-platform/codex.json`
 
 ## extra/HealthEquity-DotNet
 
@@ -209,7 +209,7 @@
 - [NICE] Rename the `APIs` Skills bucket to a more informative label.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-healthequity-dotnet/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-healthequity-dotnet/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-healthequity-dotnet/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v2-hr-recal_20260417_193622_478749/extra-healthequity-dotnet/codex.json`
+- Prompt: `extra-healthequity-dotnet/prompt.txt`
+- Metadata: `extra-healthequity-dotnet/metadata.json`
+- 原始输出: `extra-healthequity-dotnet/codex.raw.txt`
+- JSON: `extra-healthequity-dotnet/codex.json`

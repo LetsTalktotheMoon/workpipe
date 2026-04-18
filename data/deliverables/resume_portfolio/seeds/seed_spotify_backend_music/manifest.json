@@ -11,9 +11,9 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_spotify_backend_music/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_spotify_backend_music",
-  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01",
+  "source_resume_md": "data/seed_sources/seed_spotify_backend_music/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_spotify_backend_music",
+  "source_artifact_dir": "data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01",
   "derived_count": 8,
   "derived_jobs": [
     {
@@ -23,8 +23,8 @@
       "title": "Software Engineer II - Scala",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-08/69b2b061ae2a534885e9dc50/resume.md",
       "resume_pdf": ""
     },
     {
@@ -89,8 +89,8 @@
       "title": "Backend Engineer - Music Mission",
       "source_kind": "seed_source",
       "route_mode": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/spotify/2026-04-02/69cea94b366bb95ba550de01/resume.md",
       "resume_pdf": ""
     },
     {

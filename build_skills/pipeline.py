@@ -12,6 +12,8 @@ from html import escape
 from pathlib import Path
 from typing import Any
 
+from repo_paths import resolve_repo_path
+
 from .descriptions import business_group_definitions, describe_skill, skill_focus
 from .taxonomy import CATEGORY_ORDER, CATEGORY_TO_SKILLS, SKILL_ALIASES, canonicalize_skill, categorize_skill, taxonomy_snapshot
 
@@ -213,7 +215,7 @@ def load_job_md(portfolio_row: dict[str, Any]) -> str:
     job_md = str(portfolio_row.get("job_md", "") or "").strip()
     if not job_md:
         return ""
-    path = Path(job_md)
+    path = resolve_repo_path(job_md)
     if not path.exists():
         return ""
     return path.read_text()

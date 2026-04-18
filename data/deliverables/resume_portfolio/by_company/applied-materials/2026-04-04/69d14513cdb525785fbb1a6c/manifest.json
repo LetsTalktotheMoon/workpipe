@@ -24,11 +24,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69d14513cdb525785fbb1a6c",
+  "job_md": "data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c",
   "generated_at": "2026-04-05T19:16:47",
   "review": {
     "weighted_score": 95.8,

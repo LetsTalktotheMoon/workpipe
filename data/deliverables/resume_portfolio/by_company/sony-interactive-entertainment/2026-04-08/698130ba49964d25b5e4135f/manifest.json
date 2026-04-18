@@ -34,11 +34,11 @@
     "project_ids": []
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sony-interactive-entertainment/2026-04-08/698130ba49964d25b5e4135f/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/sony-interactive-entertainment/2026-04-08/698130ba49964d25b5e4135f/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sony-interactive-entertainment/2026-04-08/698130ba49964d25b5e4135f/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sony-interactive-entertainment/2026-04-08/698130ba49964d25b5e4135f",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/698130ba49964d25b5e4135f",
+  "job_md": "data/deliverables/resume_portfolio/by_company/sony-interactive-entertainment/2026-04-08/698130ba49964d25b5e4135f/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/sony-interactive-entertainment/2026-04-08/698130ba49964d25b5e4135f",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/sony-interactive-entertainment/2026-04-08/698130ba49964d25b5e4135f",
   "generated_at": "2026-04-08T13:31:42",
   "review": {
     "weighted_score": 94.5,

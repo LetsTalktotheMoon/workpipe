@@ -28,11 +28,11 @@
     "seed_source_job_id": "692777a0d47de4798ecdcf3a"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ra-capital-management/2026-04-06/69d406b1891d7b11cfcf69fe/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/ra-capital-management/2026-04-06/69d406b1891d7b11cfcf69fe/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ra-capital-management/2026-04-06/69d406b1891d7b11cfcf69fe/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ra-capital-management/2026-04-06/69d406b1891d7b11cfcf69fe",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/69d406b1891d7b11cfcf69fe",
+  "job_md": "data/deliverables/resume_portfolio/by_company/ra-capital-management/2026-04-06/69d406b1891d7b11cfcf69fe/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/ra-capital-management/2026-04-06/69d406b1891d7b11cfcf69fe",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/ra-capital-management/2026-04-06/69d406b1891d7b11cfcf69fe",
   "generated_at": "2026-04-07T02:00:04",
   "review": {
     "weighted_score": 94.2,

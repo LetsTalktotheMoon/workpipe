@@ -89,8 +89,8 @@
       "notes": "Use for merchant offer rules, pricing rules migration, dispatch rules service, or rule-evaluation service variants."
     }
   ],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_aws_generalist_embedded/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_aws_generalist_embedded",
+  "source_resume_md": "data/seed_sources/seed_aws_generalist_embedded/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_aws_generalist_embedded",
   "source_artifact_dir": "",
   "derived_count": 18,
   "derived_jobs": [
@@ -112,8 +112,8 @@
       "title": "Software Development Engineer 3",
       "source_kind": "local_unified_pipeline",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-08/690e2f0a221b890c2780b8ea",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-08/690e2f0a221b890c2780b8ea/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/adobe/2026-04-08/690e2f0a221b890c2780b8ea",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/adobe/2026-04-08/690e2f0a221b890c2780b8ea/resume.md",
       "resume_pdf": ""
     },
     {
@@ -156,8 +156,8 @@
       "title": "Information Management - College Co-Op",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/selective-insurance/2026-04-06/69d3e012e63cea7a8b654262",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/selective-insurance/2026-04-06/69d3e012e63cea7a8b654262/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/selective-insurance/2026-04-06/69d3e012e63cea7a8b654262",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/selective-insurance/2026-04-06/69d3e012e63cea7a8b654262/resume.md",
       "resume_pdf": ""
     },
     {
@@ -167,8 +167,8 @@
       "title": "Software Engineer | On-site | San Francisco",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/grid/2026-04-04/69d13d7bcfdc6132f9442412",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/grid/2026-04-04/69d13d7bcfdc6132f9442412/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/grid/2026-04-04/69d13d7bcfdc6132f9442412",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/grid/2026-04-04/69d13d7bcfdc6132f9442412/resume.md",
       "resume_pdf": ""
     },
     {
@@ -178,8 +178,8 @@
       "title": "Senior Software Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/697d6be43f57a33569675193",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/697d6be43f57a33569675193/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/697d6be43f57a33569675193",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/697d6be43f57a33569675193/resume.md",
       "resume_pdf": ""
     },
     {
@@ -200,8 +200,8 @@
       "title": "Software Engineer | On-site | San Francisco",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/grid/2026-04-03/69d040ad54f00230c6d109a4",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/grid/2026-04-03/69d040ad54f00230c6d109a4/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/grid/2026-04-03/69d040ad54f00230c6d109a4",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/grid/2026-04-03/69d040ad54f00230c6d109a4/resume.md",
       "resume_pdf": ""
     },
     {
@@ -233,8 +233,8 @@
       "title": "Software Engineer I, Pilots",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/brain-corp/2026-04-03/69d00574cfdc6132f9437911",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/brain-corp/2026-04-03/69d00574cfdc6132f9437911/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/brain-corp/2026-04-03/69d00574cfdc6132f9437911",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/brain-corp/2026-04-03/69d00574cfdc6132f9437911/resume.md",
       "resume_pdf": ""
     },
     {
@@ -244,8 +244,8 @@
       "title": "Senior Networking Application Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-03/69cfcf74cdb525785fba4da5",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-03/69cfcf74cdb525785fba4da5/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-03/69cfcf74cdb525785fba4da5",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/qualcomm/2026-04-03/69cfcf74cdb525785fba4da5/resume.md",
       "resume_pdf": ""
     },
     {
@@ -266,8 +266,8 @@
       "title": "Software Engineer, AI Infrastructure",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fireworks-ai/2026-04-03/690b9b4d4a1b456627b10c18",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fireworks-ai/2026-04-03/690b9b4d4a1b456627b10c18/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/fireworks-ai/2026-04-03/690b9b4d4a1b456627b10c18",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/fireworks-ai/2026-04-03/690b9b4d4a1b456627b10c18/resume.md",
       "resume_pdf": ""
     },
     {

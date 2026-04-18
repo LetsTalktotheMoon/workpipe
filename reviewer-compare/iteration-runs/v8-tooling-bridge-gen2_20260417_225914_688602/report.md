@@ -30,10 +30,10 @@
 - [NICE] Keep the existing stack breadth, but reduce reliance on inference by naming the exact DB surface, operational action, and measured result in one place.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-discord-dbinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-discord-dbinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-discord-dbinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-discord-dbinfra/codex.json`
+- Prompt: `gen2-discord-dbinfra/prompt.txt`
+- Metadata: `gen2-discord-dbinfra/metadata.json`
+- 原始输出: `gen2-discord-dbinfra/codex.raw.txt`
+- JSON: `gen2-discord-dbinfra/codex.json`
 
 ## gen2/AppliedIntuition-CloudInfra
 
@@ -50,10 +50,10 @@
 - [SHOULD] 在 TikTok 最新经历里补一个更硬的规模锚点，避免只剩局部效率提升。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-appliedintuition-cloudinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-appliedintuition-cloudinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-appliedintuition-cloudinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-appliedintuition-cloudinfra/codex.json`
+- Prompt: `gen2-appliedintuition-cloudinfra/prompt.txt`
+- Metadata: `gen2-appliedintuition-cloudinfra/metadata.json`
+- 原始输出: `gen2-appliedintuition-cloudinfra/codex.raw.txt`
+- JSON: `gen2-appliedintuition-cloudinfra/codex.json`
 
 ## gen2/Fireblocks-SRE
 
@@ -70,10 +70,10 @@
 - [SHOULD] 给 TikTok 实习经历补一个更硬的 scope 指标，避免首屏被看成“百分比很多但范围不清”。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fireblocks-sre/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fireblocks-sre/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fireblocks-sre/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fireblocks-sre/codex.json`
+- Prompt: `gen2-fireblocks-sre/prompt.txt`
+- Metadata: `gen2-fireblocks-sre/metadata.json`
+- 原始输出: `gen2-fireblocks-sre/codex.raw.txt`
+- JSON: `gen2-fireblocks-sre/codex.json`
 
 ## gen2/ChildrensHospital-Azure
 
@@ -90,10 +90,10 @@
 - [NICE] Reduce stack breadth in the DiDi section so the core technologies read as ownership, not listing.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-childrenshospital-azure/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-childrenshospital-azure/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-childrenshospital-azure/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-childrenshospital-azure/codex.json`
+- Prompt: `gen2-childrenshospital-azure/prompt.txt`
+- Metadata: `gen2-childrenshospital-azure/metadata.json`
+- 原始输出: `gen2-childrenshospital-azure/codex.raw.txt`
+- JSON: `gen2-childrenshospital-azure/codex.json`
 
 ## gen2/CapitalOne-Manager2
 
@@ -110,10 +110,10 @@
 - [NICE] Add one concrete scope signal to the latest TikTok experience so the top of the page reads less like percentage-only impact.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-capitalone-manager2/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-capitalone-manager2/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-capitalone-manager2/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-capitalone-manager2/codex.json`
+- Prompt: `gen2-capitalone-manager2/prompt.txt`
+- Metadata: `gen2-capitalone-manager2/metadata.json`
+- 原始输出: `gen2-capitalone-manager2/codex.raw.txt`
+- JSON: `gen2-capitalone-manager2/codex.json`
 
 ## gen2/Fanduel-AnalyticsManager
 
@@ -130,10 +130,10 @@
 - [NICE] 给 TikTok 段补一个更具体的规模或工作量锚点，减少纯百分比结果的堆叠感。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fanduel-analyticsmanager/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fanduel-analyticsmanager/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fanduel-analyticsmanager/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-fanduel-analyticsmanager/codex.json`
+- Prompt: `gen2-fanduel-analyticsmanager/prompt.txt`
+- Metadata: `gen2-fanduel-analyticsmanager/metadata.json`
+- 原始输出: `gen2-fanduel-analyticsmanager/codex.raw.txt`
+- JSON: `gen2-fanduel-analyticsmanager/codex.json`
 
 ## gen2/Geico-SWE2
 
@@ -150,10 +150,10 @@
 - [NICE] 轻微收敛转型叙事，减少首屏“路径变化”感。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-geico-swe2/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-geico-swe2/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-geico-swe2/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-geico-swe2/codex.json`
+- Prompt: `gen2-geico-swe2/prompt.txt`
+- Metadata: `gen2-geico-swe2/metadata.json`
+- 原始输出: `gen2-geico-swe2/codex.raw.txt`
+- JSON: `gen2-geico-swe2/codex.json`
 
 ## gen2/Doordash-Backend
 
@@ -169,10 +169,10 @@
 - [NICE] 若要增强 DoorDash 匹配感，可在 Summary 或 DiDi 段补一句物流/marketplace/restaurant ops 语境桥接。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-doordash-backend/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-doordash-backend/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-doordash-backend/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-doordash-backend/codex.json`
+- Prompt: `gen2-doordash-backend/prompt.txt`
+- Metadata: `gen2-doordash-backend/metadata.json`
+- 原始输出: `gen2-doordash-backend/codex.raw.txt`
+- JSON: `gen2-doordash-backend/codex.json`
 
 ## gen2/Cisco-NetworkingSenior
 
@@ -189,10 +189,10 @@
 - [SHOULD] 给最新经历补一个明确 scope 数字，让百分比结果有系统规模背景。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-cisco-networkingsenior/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-cisco-networkingsenior/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-cisco-networkingsenior/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-cisco-networkingsenior/codex.json`
+- Prompt: `gen2-cisco-networkingsenior/prompt.txt`
+- Metadata: `gen2-cisco-networkingsenior/metadata.json`
+- 原始输出: `gen2-cisco-networkingsenior/codex.raw.txt`
+- JSON: `gen2-cisco-networkingsenior/codex.json`
 
 ## gen2/Genentech-MLInfra
 
@@ -209,7 +209,7 @@
 - [NICE] Bold the strongest quantitative proof points consistently across Experience bullets.
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-genentech-mlinfra/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-genentech-mlinfra/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-genentech-mlinfra/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v8-tooling-bridge-gen2_20260417_225914_688602/gen2-genentech-mlinfra/codex.json`
+- Prompt: `gen2-genentech-mlinfra/prompt.txt`
+- Metadata: `gen2-genentech-mlinfra/metadata.json`
+- 原始输出: `gen2-genentech-mlinfra/codex.raw.txt`
+- JSON: `gen2-genentech-mlinfra/codex.json`

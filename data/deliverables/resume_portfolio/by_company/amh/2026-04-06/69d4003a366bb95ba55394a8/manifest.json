@@ -24,11 +24,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-06/69d4003a366bb95ba55394a8",
+  "job_md": "data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8",
   "generated_at": "2026-04-07T02:16:11",
   "review": {
     "weighted_score": 93.4,

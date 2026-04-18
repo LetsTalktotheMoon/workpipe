@@ -38,11 +38,11 @@
     "project_ids": []
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d5d8a0cfdc6132f946677d",
+  "job_md": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-08/69d5d8a0cfdc6132f946677d",
   "generated_at": "2026-04-08T14:59:51",
   "review": {
     "weighted_score": 93.7,

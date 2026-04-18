@@ -8,7 +8,7 @@
 * `source_job_id`: ``
 * `project_ids`: ``
 * `subseed_ids`: ``
-* `source_resume_md`: /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_gm_genai/resume.md
+* `source_resume_md`: data/seed_sources/seed_gm_genai/resume.md
 * `source_artifact_dir`: 
 * `derived_count`: `3`
 

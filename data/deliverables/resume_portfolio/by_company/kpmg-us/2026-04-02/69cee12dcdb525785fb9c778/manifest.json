@@ -27,11 +27,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-02/69cee12dcdb525785fb9c778",
+  "job_md": "data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/kpmg-us/2026-04-02/69cee12dcdb525785fb9c778",
   "generated_at": "2026-04-05T20:00:25",
   "review": {
     "weighted_score": 78.1,

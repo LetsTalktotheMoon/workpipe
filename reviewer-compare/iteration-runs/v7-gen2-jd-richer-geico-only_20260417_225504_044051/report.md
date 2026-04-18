@@ -20,7 +20,7 @@
 - [SHOULD] 如果 Azure 工具链经验真实存在，尽量写成更具体的 Azure 交付证据，而不是只写 Azure-connected。
 
 ### 产物
-- Prompt: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-geico-only_20260417_225504_044051/gen2-geico-swe2/prompt.txt`
-- Metadata: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-geico-only_20260417_225504_044051/gen2-geico-swe2/metadata.json`
-- 原始输出: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-geico-only_20260417_225504_044051/gen2-geico-swe2/codex.raw.txt`
-- JSON: `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v7-gen2-jd-richer-geico-only_20260417_225504_044051/gen2-geico-swe2/codex.json`
+- Prompt: `gen2-geico-swe2/prompt.txt`
+- Metadata: `gen2-geico-swe2/metadata.json`
+- 原始输出: `gen2-geico-swe2/codex.raw.txt`
+- JSON: `gen2-geico-swe2/codex.json`

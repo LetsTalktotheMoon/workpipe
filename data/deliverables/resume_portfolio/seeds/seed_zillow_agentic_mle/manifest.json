@@ -11,8 +11,8 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zillow_agentic_mle/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_zillow_agentic_mle",
+  "source_resume_md": "data/seed_sources/seed_zillow_agentic_mle/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_zillow_agentic_mle",
   "source_artifact_dir": "",
   "derived_count": 4,
   "derived_jobs": [
@@ -34,8 +34,8 @@
       "title": "Fall 2026: Applied AI & Analytics Co-op (July to December)",
       "source_kind": "seed_validation",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/sharkninja/2026-04-02/69ceb5ce891d7b11cfccb55b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -56,8 +56,8 @@
       "title": "MES Software Engineer",
       "source_kind": "seed_validation",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/bloom-energy/2026-04-01/69cd644fcdb525785fb8744b/resume.md",
       "resume_pdf": ""
     }
   ]

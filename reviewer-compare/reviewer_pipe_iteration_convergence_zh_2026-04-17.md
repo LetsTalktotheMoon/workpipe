@@ -4,7 +4,7 @@
 
 本轮从当前 `v1` 出发，完成了 `v2`、`v3`、`v4`、`v5`、`v6` 五轮改造与全量 10 case 测试。
 
-**最终推荐版本不是最新的 `v6`，而是 [`v3_hr_stable/Reviewer_4Stage.md`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v3_hr_stable/Reviewer_4Stage.md) + [`v3_hr_stable/Reviewer_Cal.py`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v3_hr_stable/Reviewer_Cal.py)。**
+**最终推荐版本不是最新的 `v6`，而是 [`v3_hr_stable/Reviewer_4Stage.md`](iterations/v3_hr_stable/Reviewer_4Stage.md) + [`v3_hr_stable/Reviewer_Cal.py`](iterations/v3_hr_stable/Reviewer_Cal.py)。**
 
 原因很简单：
 
@@ -12,7 +12,7 @@
 2. `v4`、`v5`、`v6` 虽然分别尝试修复 `HealthEquity`、`exact token`、`平台家族/年限` 等问题，但都出现了新的系统性回摆。
 3. 继续迭代已经进入“修一个 case、坏另一个 case”的过拟合状态，不再是净改进。
 
-本轮所有比较表和中间产物都在 [`reviewer-compare`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare) 下；全量版本对照表见 [`iteration_comparison_v6.md`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration_comparison_v6.md)。
+本轮所有比较表和中间产物都在 [`reviewer-compare`](.) 下；全量版本对照表见 [`iteration_comparison_v6.md`](iteration_comparison_v6.md)。
 
 ## 2. 评估口径
 
@@ -188,9 +188,9 @@
 
 **当前就地可用的推荐方案：**
 
-- 生产/影子评测推荐版本：[`v3_hr_stable/Reviewer_4Stage.md`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v3_hr_stable/Reviewer_4Stage.md)
-- 对应 scorer：[`v3_hr_stable/Reviewer_Cal.py`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v3_hr_stable/Reviewer_Cal.py)
-- 全量 run：[`v3-hr-stable_20260417_195326_805428`](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v3-hr-stable_20260417_195326_805428)
+- 生产/影子评测推荐版本：[`v3_hr_stable/Reviewer_4Stage.md`](iterations/v3_hr_stable/Reviewer_4Stage.md)
+- 对应 scorer：[`v3_hr_stable/Reviewer_Cal.py`](iterations/v3_hr_stable/Reviewer_Cal.py)
+- 全量 run：[`v3-hr-stable_20260417_195326_805428`](iteration-runs/v3-hr-stable_20260417_195326_805428)
 
 **不推荐采用的版本：**
 

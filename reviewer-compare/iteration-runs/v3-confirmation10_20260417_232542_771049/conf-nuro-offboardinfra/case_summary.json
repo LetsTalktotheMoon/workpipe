@@ -18,10 +18,10 @@
       "Distributed Systems"
     ],
     "tech_preferred": [],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/nuro/2026-04-04/6997d0d8e0bddb6acac69ae5/review.json",
     "historical": {},
     "portfolio_review": {
       "weighted_score": 94.3,

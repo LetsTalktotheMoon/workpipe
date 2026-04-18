@@ -11,8 +11,8 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_qualified_health_data_engineer/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_qualified_health_data_engineer",
+  "source_resume_md": "data/seed_sources/seed_qualified_health_data_engineer/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_qualified_health_data_engineer",
   "source_artifact_dir": "",
   "derived_count": 74,
   "derived_jobs": [
@@ -23,8 +23,8 @@
       "title": "Manager, Data Analysis - Card Services",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/resume.md",
       "resume_pdf": ""
     },
     {
@@ -78,8 +78,8 @@
       "title": "Sr Trust and Safety Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hertz/2026-04-06/69d40ba0e63cea7a8b65621c",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hertz/2026-04-06/69d40ba0e63cea7a8b65621c/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/hertz/2026-04-06/69d40ba0e63cea7a8b65621c",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/hertz/2026-04-06/69d40ba0e63cea7a8b65621c/resume.md",
       "resume_pdf": ""
     },
     {
@@ -89,8 +89,8 @@
       "title": "Enterprise Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/shelter-insurance-companies/2026-04-06/69d40a7fe63cea7a8b65619c",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/shelter-insurance-companies/2026-04-06/69d40a7fe63cea7a8b65619c/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/shelter-insurance-companies/2026-04-06/69d40a7fe63cea7a8b65619c",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/shelter-insurance-companies/2026-04-06/69d40a7fe63cea7a8b65619c/resume.md",
       "resume_pdf": ""
     },
     {
@@ -100,8 +100,8 @@
       "title": "Senior Enterprise Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/resume.md",
       "resume_pdf": ""
     },
     {
@@ -133,8 +133,8 @@
       "title": "Manager, Data Analysis - Card Services",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/resume.md",
       "resume_pdf": ""
     },
     {
@@ -144,8 +144,8 @@
       "title": "Senior Data Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-06/69d3e5a1891d7b11cfcf5574",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-06/69d3e5a1891d7b11cfcf5574/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-06/69d3e5a1891d7b11cfcf5574",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-06/69d3e5a1891d7b11cfcf5574/resume.md",
       "resume_pdf": ""
     },
     {
@@ -155,8 +155,8 @@
       "title": "Data Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-06/69d3d7c3366bb95ba5537d8d",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-06/69d3d7c3366bb95ba5537d8d/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-06/69d3d7c3366bb95ba5537d8d",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-06/69d3d7c3366bb95ba5537d8d/resume.md",
       "resume_pdf": ""
     },
     {
@@ -166,8 +166,8 @@
       "title": "Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/m-science/2026-04-06/69d3bf91e63cea7a8b6525f9",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/m-science/2026-04-06/69d3bf91e63cea7a8b6525f9/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/m-science/2026-04-06/69d3bf91e63cea7a8b6525f9",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/m-science/2026-04-06/69d3bf91e63cea7a8b6525f9/resume.md",
       "resume_pdf": ""
     },
     {
@@ -188,8 +188,8 @@
       "title": "Senior Data Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kikoff/2026-04-06/69d38de9cfdc6132f9451c7d",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/kikoff/2026-04-06/69d38de9cfdc6132f9451c7d/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/kikoff/2026-04-06/69d38de9cfdc6132f9451c7d",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/kikoff/2026-04-06/69d38de9cfdc6132f9451c7d/resume.md",
       "resume_pdf": ""
     },
     {
@@ -199,8 +199,8 @@
       "title": "Technical Data Analyst III",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ghx/2026-04-06/69d35ce7366bb95ba5533b18",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ghx/2026-04-06/69d35ce7366bb95ba5533b18/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/ghx/2026-04-06/69d35ce7366bb95ba5533b18",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/ghx/2026-04-06/69d35ce7366bb95ba5533b18/resume.md",
       "resume_pdf": ""
     },
     {
@@ -210,8 +210,8 @@
       "title": "Business Intelligence Analyst II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-trade-desk/2026-04-05/69cec0c8366bb95ba550ef84",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-trade-desk/2026-04-05/69cec0c8366bb95ba550ef84/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/the-trade-desk/2026-04-05/69cec0c8366bb95ba550ef84",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/the-trade-desk/2026-04-05/69cec0c8366bb95ba550ef84/resume.md",
       "resume_pdf": ""
     },
     {
@@ -232,8 +232,8 @@
       "title": "GTM Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/clay/2026-04-05/6998e02481476f6176b146be",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/clay/2026-04-05/6998e02481476f6176b146be/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/clay/2026-04-05/6998e02481476f6176b146be",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/clay/2026-04-05/6998e02481476f6176b146be/resume.md",
       "resume_pdf": ""
     },
     {
@@ -254,8 +254,8 @@
       "title": "Analytics Manager",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -265,8 +265,8 @@
       "title": "Senior Data Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/real-chemistry/2026-04-04/696192f3e7ed9a5731ba6d49",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/real-chemistry/2026-04-04/696192f3e7ed9a5731ba6d49/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/real-chemistry/2026-04-04/696192f3e7ed9a5731ba6d49",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/real-chemistry/2026-04-04/696192f3e7ed9a5731ba6d49/resume.md",
       "resume_pdf": ""
     },
     {
@@ -276,8 +276,8 @@
       "title": "Business Intelligence Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/applied-materials/2026-04-04/69d14513cdb525785fbb1a6c/resume.md",
       "resume_pdf": ""
     },
     {
@@ -298,8 +298,8 @@
       "title": "Software Engineer, Data",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercari-us/2026-04-04/69c2df1794007a2195dee428",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercari-us/2026-04-04/69c2df1794007a2195dee428/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/mercari-us/2026-04-04/69c2df1794007a2195dee428",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/mercari-us/2026-04-04/69c2df1794007a2195dee428/resume.md",
       "resume_pdf": ""
     },
     {
@@ -309,8 +309,8 @@
       "title": "Data Engineer, Go-To-Market",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/notion/2026-04-04/6926667a27bf2f41a2c45d86",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/notion/2026-04-04/6926667a27bf2f41a2c45d86/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/notion/2026-04-04/6926667a27bf2f41a2c45d86",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/notion/2026-04-04/6926667a27bf2f41a2c45d86/resume.md",
       "resume_pdf": ""
     },
     {
@@ -320,8 +320,8 @@
       "title": "Data Analytics Senior Associate",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/baker-tilly-us/2026-04-04/69b4714f5697383741394881",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/baker-tilly-us/2026-04-04/69b4714f5697383741394881/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/baker-tilly-us/2026-04-04/69b4714f5697383741394881",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/baker-tilly-us/2026-04-04/69b4714f5697383741394881/resume.md",
       "resume_pdf": ""
     },
     {
@@ -353,8 +353,8 @@
       "title": "Senior Data Engineer, Data Governance",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cargurus/2026-04-04/69435a3c50bbaf76505539ff",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cargurus/2026-04-04/69435a3c50bbaf76505539ff/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cargurus/2026-04-04/69435a3c50bbaf76505539ff",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cargurus/2026-04-04/69435a3c50bbaf76505539ff/resume.md",
       "resume_pdf": ""
     },
     {
@@ -375,8 +375,8 @@
       "title": "(Senior) Corporate Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/origami-risk/2026-04-04/69b4ebc33b74eb1e2c8269c2",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/origami-risk/2026-04-04/69b4ebc33b74eb1e2c8269c2/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/origami-risk/2026-04-04/69b4ebc33b74eb1e2c8269c2",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/origami-risk/2026-04-04/69b4ebc33b74eb1e2c8269c2/resume.md",
       "resume_pdf": ""
     },
     {
@@ -397,8 +397,8 @@
       "title": "Data Analyst II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d08006cdb525785fbab0eb",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d08006cdb525785fbab0eb/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d08006cdb525785fbab0eb",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d08006cdb525785fbab0eb/resume.md",
       "resume_pdf": ""
     },
     {
@@ -408,8 +408,8 @@
       "title": "Sr. Data Analyst, Product.",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jam-city/2026-04-03/69d07cf7cfdc6132f943bf33",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jam-city/2026-04-03/69d07cf7cfdc6132f943bf33/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jam-city/2026-04-03/69d07cf7cfdc6132f943bf33",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/jam-city/2026-04-03/69d07cf7cfdc6132f943bf33/resume.md",
       "resume_pdf": ""
     },
     {
@@ -430,8 +430,8 @@
       "title": "Data Analyst - AI Product Development",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d059d1891d7b11cfcdaba2",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d059d1891d7b11cfcdaba2/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d059d1891d7b11cfcdaba2",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d059d1891d7b11cfcdaba2/resume.md",
       "resume_pdf": ""
     },
     {
@@ -441,8 +441,8 @@
       "title": "Data Analyst - AI Product Development",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d029ad0b098b7a67076d09",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d029ad0b098b7a67076d09/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d029ad0b098b7a67076d09",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/equifax/2026-04-03/69d029ad0b098b7a67076d09/resume.md",
       "resume_pdf": ""
     },
     {
@@ -452,8 +452,8 @@
       "title": "GCP Data Engineer - Fully Remote",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hyr-global-source-inc/2026-04-03/69d01586cdb525785fba7472",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hyr-global-source-inc/2026-04-03/69d01586cdb525785fba7472/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/hyr-global-source-inc/2026-04-03/69d01586cdb525785fba7472",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/hyr-global-source-inc/2026-04-03/69d01586cdb525785fba7472/resume.md",
       "resume_pdf": ""
     },
     {
@@ -463,8 +463,8 @@
       "title": "Data Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-03/69d0145c891d7b11cfcd8788",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-03/69d0145c891d7b11cfcd8788/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-03/69d0145c891d7b11cfcd8788",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/beaconfire-inc/2026-04-03/69d0145c891d7b11cfcd8788/resume.md",
       "resume_pdf": ""
     },
     {
@@ -474,8 +474,8 @@
       "title": "Data Engineer - Talend & Databricks",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cognizant/2026-04-03/69ccc1e6891d7b11cfcb3440",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cognizant/2026-04-03/69ccc1e6891d7b11cfcb3440/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cognizant/2026-04-03/69ccc1e6891d7b11cfcb3440",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cognizant/2026-04-03/69ccc1e6891d7b11cfcb3440/resume.md",
       "resume_pdf": ""
     },
     {
@@ -485,8 +485,8 @@
       "title": "Manager, Data Analysis",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-03/69d0062c0b098b7a67075a8c",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-03/69d0062c0b098b7a67075a8c/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-03/69d0062c0b098b7a67075a8c",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-03/69d0062c0b098b7a67075a8c/resume.md",
       "resume_pdf": ""
     },
     {
@@ -496,8 +496,8 @@
       "title": "Data Analyst II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d0019b891d7b11cfcd7acd",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d0019b891d7b11cfcd7acd/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d0019b891d7b11cfcd7acd",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/lennar/2026-04-03/69d0019b891d7b11cfcd7acd/resume.md",
       "resume_pdf": ""
     },
     {
@@ -518,8 +518,8 @@
       "title": "Data Scientist",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/transunion/2026-04-03/69cff85dcfdc6132f943741f",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/transunion/2026-04-03/69cff85dcfdc6132f943741f/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/transunion/2026-04-03/69cff85dcfdc6132f943741f",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/transunion/2026-04-03/69cff85dcfdc6132f943741f/resume.md",
       "resume_pdf": ""
     },
     {
@@ -529,8 +529,8 @@
       "title": "Member of Technical Staff, Synthetic Data",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cohere/2026-04-03/69278675d47de4798ecde00b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cohere/2026-04-03/69278675d47de4798ecde00b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cohere/2026-04-03/69278675d47de4798ecde00b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cohere/2026-04-03/69278675d47de4798ecde00b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -573,8 +573,8 @@
       "title": "Data Engineer, Finance",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/notion/2026-04-03/69436cf150bbaf76505559e5",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/notion/2026-04-03/69436cf150bbaf76505559e5/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/notion/2026-04-03/69436cf150bbaf76505559e5",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/notion/2026-04-03/69436cf150bbaf76505559e5/resume.md",
       "resume_pdf": ""
     },
     {
@@ -584,8 +584,8 @@
       "title": "Sr Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/artefact/2026-04-03/698e5711f64d441a16508b91",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/artefact/2026-04-03/698e5711f64d441a16508b91/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/artefact/2026-04-03/698e5711f64d441a16508b91",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/artefact/2026-04-03/698e5711f64d441a16508b91/resume.md",
       "resume_pdf": ""
     },
     {
@@ -595,8 +595,8 @@
       "title": "Data Scientist II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-02/69cf42f1398fb071abf8e4d0",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-02/69cf42f1398fb071abf8e4d0/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-02/69cf42f1398fb071abf8e4d0",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-02/69cf42f1398fb071abf8e4d0/resume.md",
       "resume_pdf": ""
     },
     {
@@ -628,8 +628,8 @@
       "title": "Software Engineer II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-02/69cf04ec891d7b11cfccf4fb",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-02/69cf04ec891d7b11cfccf4fb/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-02/69cf04ec891d7b11cfccf4fb",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/the-walt-disney-company/2026-04-02/69cf04ec891d7b11cfccf4fb/resume.md",
       "resume_pdf": ""
     },
     {
@@ -650,8 +650,8 @@
       "title": "Data Engineer(W2)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cloud-resources-llc/2026-04-02/69cf0660398fb071abf8baf4",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cloud-resources-llc/2026-04-02/69cf0660398fb071abf8baf4/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cloud-resources-llc/2026-04-02/69cf0660398fb071abf8baf4",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/cloud-resources-llc/2026-04-02/69cf0660398fb071abf8baf4/resume.md",
       "resume_pdf": ""
     },
     {
@@ -661,8 +661,8 @@
       "title": "Cloud Data Platform Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/charles-schwab/2026-04-02/69cee192cfdc6132f942d759",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/charles-schwab/2026-04-02/69cee192cfdc6132f942d759/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/charles-schwab/2026-04-02/69cee192cfdc6132f942d759",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/charles-schwab/2026-04-02/69cee192cfdc6132f942d759/resume.md",
       "resume_pdf": ""
     },
     {
@@ -672,8 +672,8 @@
       "title": "Digital Data Analyst",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/yamaha-motor-corporation-usa/2026-04-02/69cede07cdb525785fb9c5ee",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/yamaha-motor-corporation-usa/2026-04-02/69cede07cdb525785fb9c5ee/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/yamaha-motor-corporation-usa/2026-04-02/69cede07cdb525785fb9c5ee",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/yamaha-motor-corporation-usa/2026-04-02/69cede07cdb525785fb9c5ee/resume.md",
       "resume_pdf": ""
     },
     {
@@ -683,8 +683,8 @@
       "title": "Data Scientist- Platform Integrity",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sleeper/2026-04-02/69cedd2f891d7b11cfccd910",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/sleeper/2026-04-02/69cedd2f891d7b11cfccd910/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/sleeper/2026-04-02/69cedd2f891d7b11cfccd910",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/sleeper/2026-04-02/69cedd2f891d7b11cfccd910/resume.md",
       "resume_pdf": ""
     },
     {
@@ -694,8 +694,8 @@
       "title": "Data Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/saferide-health/2026-04-02/69cec927cdb525785fb9b78b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/saferide-health/2026-04-02/69cec927cdb525785fb9b78b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/saferide-health/2026-04-02/69cec927cdb525785fb9b78b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/saferide-health/2026-04-02/69cec927cdb525785fb9b78b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -727,8 +727,8 @@
       "title": "Analytics Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-02/69951d7fce78e77b4fd934ed",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-02/69951d7fce78e77b4fd934ed/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-02/69951d7fce78e77b4fd934ed",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-02/69951d7fce78e77b4fd934ed/resume.md",
       "resume_pdf": ""
     },
     {
@@ -771,8 +771,8 @@
       "title": "Data Scientist III",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-02/69bc69ea5b89c002acf21221",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-02/69bc69ea5b89c002acf21221/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-02/69bc69ea5b89c002acf21221",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/komodo-health/2026-04-02/69bc69ea5b89c002acf21221/resume.md",
       "resume_pdf": ""
     },
     {
@@ -793,8 +793,8 @@
       "title": "Data Scientist, Lightroom",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-02/69b23bcca8ac8e70ff660fe9",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/adobe/2026-04-02/69b23bcca8ac8e70ff660fe9/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/adobe/2026-04-02/69b23bcca8ac8e70ff660fe9",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/adobe/2026-04-02/69b23bcca8ac8e70ff660fe9/resume.md",
       "resume_pdf": ""
     },
     {
@@ -804,8 +804,8 @@
       "title": "Senior Associate Data Engineer, AWS Cloud - Los Angeles - hybrid in office 3 days per week",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/publicis-sapient/2026-04-02/69c35849753c101b2156fe0b",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/publicis-sapient/2026-04-02/69c35849753c101b2156fe0b/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/publicis-sapient/2026-04-02/69c35849753c101b2156fe0b",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/publicis-sapient/2026-04-02/69c35849753c101b2156fe0b/resume.md",
       "resume_pdf": ""
     },
     {
@@ -815,8 +815,8 @@
       "title": "Data Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/its-logistics/2026-04-02/69aa23461f59c56275e2f0b1",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/its-logistics/2026-04-02/69aa23461f59c56275e2f0b1/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/its-logistics/2026-04-02/69aa23461f59c56275e2f0b1",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/its-logistics/2026-04-02/69aa23461f59c56275e2f0b1/resume.md",
       "resume_pdf": ""
     },
     {
@@ -826,8 +826,8 @@
       "title": "Data Scientist II",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-01/69cdac59cdb525785fb8d815",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-01/69cdac59cdb525785fb8d815/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-01/69cdac59cdb525785fb8d815",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/thermo-fisher-scientific/2026-04-01/69cdac59cdb525785fb8d815/resume.md",
       "resume_pdf": ""
     }
   ]

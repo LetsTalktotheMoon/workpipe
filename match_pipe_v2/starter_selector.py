@@ -4,6 +4,8 @@ from dataclasses import asdict, dataclass
 import json
 from pathlib import Path
 
+from repo_paths import resolve_repo_path
+
 from .matcher import MatchEngine, MatchFeatureConfig, TEACHER_CONFIGS, _jaccard, _norm_title, _role_score, _seniority_score
 from .models import MatchResult, StructuredJob
 
@@ -152,7 +154,7 @@ class StarterSelector:
         reuse_readiness = 0.72 * match.requirement_score + 0.28 * match.hard_requirement_score
         artifact_dir = str(match.candidate.metadata.get("artifact_dir", "") or "")
         resume_path = f"{artifact_dir}/resume.md" if artifact_dir else ""
-        has_resume_artifact = bool(resume_path) and Path(resume_path).exists()
+        has_resume_artifact = bool(resume_path) and resolve_repo_path(resume_path).exists()
         review_final_score = float(match.candidate.metadata.get("review_final_score", 0.0) or 0.0)
         historical_quality = max(min(review_final_score / 100.0, 1.0), 0.0)
         starter_priority_score = 0.48 * historical_quality + 0.32 * reuse_readiness + 0.2 * match.total_score
@@ -206,7 +208,7 @@ class StarterSelector:
                 reuse_readiness=0.58 * semantic_match.requirement_score + 0.42 * duplicate,
                 artifact_dir=artifact_dir,
                 resume_path=resume_path,
-                has_resume_artifact=bool(resume_path) and Path(resume_path).exists(),
+                has_resume_artifact=bool(resume_path) and resolve_repo_path(resume_path).exists(),
                 explanation=self._company_explanation(query, semantic_match, duplicate),
                 missing_critical_units=list(semantic_match.missing_critical_units),
             ).to_dict() | {
@@ -331,7 +333,7 @@ class StarterSelector:
     @staticmethod
     def _usable_resume_anchor(anchors: list[dict | None]) -> dict | None:
         for anchor in anchors:
-            if anchor and anchor.get("has_resume_artifact") and Path(str(anchor.get("resume_path", "") or "")).exists():
+            if anchor and anchor.get("has_resume_artifact") and resolve_repo_path(anchor.get("resume_path", "")).exists():
                 return anchor
         return None
 

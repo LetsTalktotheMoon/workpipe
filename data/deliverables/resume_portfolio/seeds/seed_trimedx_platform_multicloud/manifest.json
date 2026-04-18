@@ -11,9 +11,9 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_trimedx_platform_multicloud/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_trimedx_platform_multicloud",
-  "source_artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/trimedx/2026-04-02/69cf12e4891d7b11cfccfd93",
+  "source_resume_md": "data/seed_sources/seed_trimedx_platform_multicloud/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_trimedx_platform_multicloud",
+  "source_artifact_dir": "data/deliverables/resume_portfolio/by_company/trimedx/2026-04-02/69cf12e4891d7b11cfccfd93",
   "derived_count": 20,
   "derived_jobs": [
     {
@@ -23,8 +23,8 @@
       "title": "Senior Software Engineer, Infrastructure",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hummingbird/2026-04-06/69d3fcbd54f00230c6d2ce9e",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hummingbird/2026-04-06/69d3fcbd54f00230c6d2ce9e/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/hummingbird/2026-04-06/69d3fcbd54f00230c6d2ce9e",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/hummingbird/2026-04-06/69d3fcbd54f00230c6d2ce9e/resume.md",
       "resume_pdf": ""
     },
     {
@@ -34,8 +34,8 @@
       "title": "Full Stack Cloud Engineer (AI Security Platform)",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e04a366bb95ba553814e",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e04a366bb95ba553814e/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e04a366bb95ba553814e",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/hiddenlayer/2026-04-06/69d3e04a366bb95ba553814e/resume.md",
       "resume_pdf": ""
     },
     {
@@ -45,8 +45,8 @@
       "title": "ML Ops Infrastructure Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/deepgram/2026-04-06/69d3e03ecdb525785fbc3d05",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/deepgram/2026-04-06/69d3e03ecdb525785fbc3d05/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/deepgram/2026-04-06/69d3e03ecdb525785fbc3d05",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/deepgram/2026-04-06/69d3e03ecdb525785fbc3d05/resume.md",
       "resume_pdf": ""
     },
     {
@@ -56,8 +56,8 @@
       "title": "Software Engineer, Infrastructure",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/resume.md",
       "resume_pdf": ""
     },
     {
@@ -67,8 +67,8 @@
       "title": "Software Engineer, Agent Infrastructure",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-06/68f0ac62eb273a32d976ba37",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/openai/2026-04-06/68f0ac62eb273a32d976ba37/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/openai/2026-04-06/68f0ac62eb273a32d976ba37",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/openai/2026-04-06/68f0ac62eb273a32d976ba37/resume.md",
       "resume_pdf": ""
     },
     {
@@ -89,8 +89,8 @@
       "title": "Site Reliability Engineer - AWS",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ccc-intelligent-solutions/2026-04-04/699960d5e0bddb6acac89104",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/ccc-intelligent-solutions/2026-04-04/699960d5e0bddb6acac89104/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/ccc-intelligent-solutions/2026-04-04/699960d5e0bddb6acac89104",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/ccc-intelligent-solutions/2026-04-04/699960d5e0bddb6acac89104/resume.md",
       "resume_pdf": ""
     },
     {
@@ -100,8 +100,8 @@
       "title": "Cloud Infrastructure Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/glean/2026-04-04/69bc287f5b89c002acf160da",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/glean/2026-04-04/69bc287f5b89c002acf160da/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/glean/2026-04-04/69bc287f5b89c002acf160da",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/glean/2026-04-04/69bc287f5b89c002acf160da/resume.md",
       "resume_pdf": ""
     },
     {
@@ -111,8 +111,8 @@
       "title": "Platform Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/five9/2026-04-04/69b4c4cb3b74eb1e2c8223d6",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/five9/2026-04-04/69b4c4cb3b74eb1e2c8223d6/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/five9/2026-04-04/69b4c4cb3b74eb1e2c8223d6",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/five9/2026-04-04/69b4c4cb3b74eb1e2c8223d6/resume.md",
       "resume_pdf": ""
     },
     {
@@ -144,8 +144,8 @@
       "title": "Senior Software Engineer, Infrastructure",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/parafin/2026-04-03/69d0831d54f00230c6d12c87",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/parafin/2026-04-03/69d0831d54f00230c6d12c87/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/parafin/2026-04-03/69d0831d54f00230c6d12c87",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/parafin/2026-04-03/69d0831d54f00230c6d12c87/resume.md",
       "resume_pdf": ""
     },
     {
@@ -166,8 +166,8 @@
       "title": "Sr Site Reliability Engineer",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bmc-software/2026-04-03/69d00c99cfdc6132f9437d58",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/bmc-software/2026-04-03/69d00c99cfdc6132f9437d58/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/bmc-software/2026-04-03/69d00c99cfdc6132f9437d58",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/bmc-software/2026-04-03/69d00c99cfdc6132f9437d58/resume.md",
       "resume_pdf": ""
     },
     {
@@ -199,8 +199,8 @@
       "title": "Senior Software Engineer - Cloud Platform",
       "source_kind": "fanout_batch",
       "route_mode": "retarget",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/latitude-ai/2026-04-03/69a3bdb2b600907a9629bd3e",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/latitude-ai/2026-04-03/69a3bdb2b600907a9629bd3e/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/latitude-ai/2026-04-03/69a3bdb2b600907a9629bd3e",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/latitude-ai/2026-04-03/69a3bdb2b600907a9629bd3e/resume.md",
       "resume_pdf": ""
     },
     {
@@ -221,8 +221,8 @@
       "title": "Senior Platform Engineer",
       "source_kind": "seed_source",
       "route_mode": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/trimedx/2026-04-02/69cf12e4891d7b11cfccfd93",
-      "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/trimedx/2026-04-02/69cf12e4891d7b11cfccfd93/resume.md",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/trimedx/2026-04-02/69cf12e4891d7b11cfccfd93",
+      "resume_md": "data/deliverables/resume_portfolio/by_company/trimedx/2026-04-02/69cf12e4891d7b11cfccfd93/resume.md",
       "resume_pdf": ""
     },
     {

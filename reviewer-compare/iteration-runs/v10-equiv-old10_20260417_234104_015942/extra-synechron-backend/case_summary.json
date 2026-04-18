@@ -44,10 +44,10 @@
       "Code Review",
       "Scala"
     ],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a/review.json",
     "historical": {
       "official_score": null,
       "official_verdict": "",

@@ -7,9 +7,9 @@
 本报告基于以下两轮 Codex-only 跑分结果：
 
 - 新 pipe（`Reviewer_4Stage.md` + `Reviewer_Cal.py`）：
-  [reviewer-compare/runs/20260417_185315_270748](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/runs/20260417_185315_270748)
+  [reviewer-compare/runs/20260417_185315_270748](runs/20260417_185315_270748)
 - 旧 pipe（原 `UnifiedReviewer` prompt + system，已隔离）：
-  [reviewer-compare/old-pipe-codex/runs/20260417_185315_269474](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/old-pipe-codex/runs/20260417_185315_269474)
+  [reviewer-compare/old-pipe-codex/runs/20260417_185315_269474](old-pipe-codex/runs/20260417_185315_269474)
 
 使用的 10 组 case：
 

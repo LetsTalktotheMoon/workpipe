@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
+from repo_paths import repo_relative_path
+
 from .matcher import MatchFeatureConfig, TEACHER_CONFIGS
 
 
@@ -49,9 +51,9 @@ class FrozenTeacherManifest:
 TEACHER_B_SEMANTIC_V1 = FrozenTeacherManifest(
     version="teacher_b_semantic_v1",
     config_name="teacher_b_pure_semantic",
-    report_path=str(ROOT / "output" / "analysis" / "match_pipe_semantic_freeze_report.json"),
-    label_pool_path=str(ROOT / "match_pipe" / "semantic_label_pool.json"),
-    boundary_pool_path=str(ROOT / "match_pipe" / "semantic_boundary_pool.json"),
+    report_path=repo_relative_path(ROOT / "output" / "analysis" / "match_pipe_semantic_freeze_report.json"),
+    label_pool_path=repo_relative_path(ROOT / "match_pipe" / "semantic_label_pool.json"),
+    boundary_pool_path=repo_relative_path(ROOT / "match_pipe" / "semantic_boundary_pool.json"),
     output_protocol={
         "semantic_best_anchor": "Global pure-semantic best anchor from requirement-unit matching.",
         "semantic_top_k": "Compact semantic candidate list for reuse.",

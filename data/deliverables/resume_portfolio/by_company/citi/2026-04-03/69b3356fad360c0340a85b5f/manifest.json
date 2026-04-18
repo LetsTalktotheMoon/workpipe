@@ -27,11 +27,11 @@
     "seed_source_job_id": "69d07b90cfdc6132f943be1d"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69b3356fad360c0340a85b5f",
+  "job_md": "data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/citi/2026-04-03/69b3356fad360c0340a85b5f",
   "generated_at": "2026-04-07T00:53:26",
   "review": {
     "weighted_score": 96.0,

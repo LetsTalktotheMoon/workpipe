@@ -26,11 +26,11 @@
     "seed_source_job_id": ""
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/analytic-partners/2026-04-03/69d0346a54f00230c6d10595/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/analytic-partners/2026-04-03/69d0346a54f00230c6d10595/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/analytic-partners/2026-04-03/69d0346a54f00230c6d10595/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/analytic-partners/2026-04-03/69d0346a54f00230c6d10595",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/69d0346a54f00230c6d10595",
+  "job_md": "data/deliverables/resume_portfolio/by_company/analytic-partners/2026-04-03/69d0346a54f00230c6d10595/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/analytic-partners/2026-04-03/69d0346a54f00230c6d10595",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/analytic-partners/2026-04-03/69d0346a54f00230c6d10595",
   "generated_at": "2026-04-05T19:00:20",
   "review": {
     "weighted_score": 87.3,

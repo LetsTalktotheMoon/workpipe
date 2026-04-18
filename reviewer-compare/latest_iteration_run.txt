@@ -1,1 +1,1 @@
-/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iteration-runs/v10-equiv-old10-healthequity-only_20260417_235720_865332
+reviewer-compare/iteration-runs/v10-equiv-old10-healthequity-only_20260417_235720_865332

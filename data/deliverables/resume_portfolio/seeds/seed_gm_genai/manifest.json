@@ -11,8 +11,8 @@
   "subseed_ids": [],
   "subseed_labels": [],
   "project_cards": [],
-  "source_resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_gm_genai/resume.md",
-  "seed_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_gm_genai",
+  "source_resume_md": "data/seed_sources/seed_gm_genai/resume.md",
+  "seed_dir": "data/deliverables/resume_portfolio/seeds/seed_gm_genai",
   "source_artifact_dir": "",
   "derived_count": 3,
   "derived_jobs": [

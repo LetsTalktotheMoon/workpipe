@@ -27,10 +27,10 @@
       "C++",
       "MySQL"
     ],
-    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/resume.md",
-    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/job.md",
-    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/manifest.json",
-    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/review.json",
+    "resume_path": "data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/resume.md",
+    "job_path": "data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/job.md",
+    "manifest_path": "data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/manifest.json",
+    "review_path": "data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/review.json",
     "historical": {},
     "portfolio_review": {
       "jd_id": "candidate_fireblocks_sre",

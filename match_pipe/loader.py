@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+from repo_paths import repo_relative_path
 from runtime.automation.jd_builder import row_to_jd_markdown
 
 from .models import JobDocument
@@ -45,7 +46,7 @@ def _row_to_document(
             "taxonomy_v3": str(row.get("taxonomy_v3", "") or "").strip(),
             "work_model": str(row.get("work_model", "") or "").strip(),
             "employment_type": str(row.get("employment_type", "") or "").strip(),
-            "artifact_dir": str(artifact_dir) if artifact_dir else "",
+            "artifact_dir": repo_relative_path(artifact_dir) if artifact_dir else "",
             "review_final_score": float((manifest or {}).get("review_final_score", 0.0) or 0.0),
             "review_verdict": str((manifest or {}).get("review_verdict", "") or ""),
             "route_mode": str((manifest or {}).get("route_mode", "") or ""),

@@ -3,7 +3,7 @@
     {
       "seed_id": "seed_amazon_management_plane_anchor_candidate",
       "label": "Amazon Management Plane Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_management_plane_anchor_candidate/resume.md",
+      "source_md": "data/seed_sources/seed_amazon_management_plane_anchor_candidate/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "mid_senior",
@@ -36,14 +36,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
+        "c++",
         "embedded",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "sql"
+        "mysql",
+        "pandas",
+        "python"
       ],
       "domains": [
         "analytics",
@@ -100,7 +100,7 @@
     {
       "seed_id": "seed_amazon_conversational_ads_backend",
       "label": "Amazon Conversational Ads Backend",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_conversational_ads_backend/resume.md",
+      "source_md": "data/seed_sources/seed_amazon_conversational_ads_backend/resume.md",
       "source_type": "promoted",
       "role_family": "generalist",
       "seniority": "mid_senior",
@@ -134,14 +134,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
         "design review",
-        "flask",
-        "hive",
+        "genai",
+        "java",
         "kafka",
-        "llm",
-        "s3",
-        "sql"
+        "mysql",
+        "pandas",
+        "python",
+        "spark sql"
       ],
       "domains": [
         "adtech",
@@ -197,7 +197,7 @@
     {
       "seed_id": "seed_amazon_agi_ml_anchor",
       "label": "Amazon AGI/LLM Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_amazon_agi_ml_anchor/resume.md",
+      "source_md": "data/seed_sources/seed_amazon_agi_ml_anchor/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "mid_senior",
@@ -228,14 +228,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws",
-        "aws bedrock",
+        "c++",
         "embedded",
-        "hive",
+        "java",
         "kafka",
         "machine learning",
-        "rest api",
-        "sql"
+        "mysql",
+        "pandas",
+        "python"
       ],
       "domains": [
         "ai",
@@ -291,7 +291,7 @@
     {
       "seed_id": "seed_codex_amazon_sde",
       "label": "Amazon SDE",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_amazon_sde/resume.md",
+      "source_md": "data/seed_sources/seed_codex_amazon_sde/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "mid_senior",
@@ -326,14 +326,14 @@
         "typescript"
       ],
       "core_stack": [
-        "a/b testing",
-        "flask",
+        "genai",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "sql"
+        "mysql",
+        "pandas",
+        "python",
+        "react"
       ],
       "domains": [
         "ai",
@@ -390,7 +390,7 @@
     {
       "seed_id": "seed_aws_support_backend_anchor",
       "label": "AWS Support Backend Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_aws_support_backend_anchor/resume.md",
+      "source_md": "data/seed_sources/seed_aws_support_backend_anchor/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "mid_senior",
@@ -423,14 +423,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
+        "c++",
         "embedded",
-        "flask",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "linux",
-        "sql"
+        "pandas",
+        "python",
+        "react"
       ],
       "domains": [
         "ads",
@@ -484,7 +484,7 @@
     {
       "seed_id": "seed_aws_generalist_embedded",
       "label": "AWS Generalist Embedded",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_aws_generalist_embedded/resume.md",
+      "source_md": "data/seed_sources/seed_aws_generalist_embedded/resume.md",
       "source_type": "promoted",
       "role_family": "generalist",
       "seniority": "senior",
@@ -518,14 +518,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
-        "flask",
-        "hive",
+        "c++",
+        "java",
         "kafka",
-        "llm",
         "machine learning",
-        "s3",
-        "sql"
+        "microservices",
+        "mysql",
+        "pandas",
+        "python"
       ],
       "domains": [
         "ai",
@@ -577,7 +577,7 @@
     {
       "seed_id": "seed_bytedance_ml_grad",
       "label": "ByteDance ML Grad",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_bytedance_ml_grad/resume.md",
+      "source_md": "data/seed_sources/seed_bytedance_ml_grad/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "mid_senior",
@@ -612,14 +612,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
-        "algorithms",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "llm",
-        "s3",
-        "sql"
+        "machine learning",
+        "microservices",
+        "pandas",
+        "python",
+        "spark sql"
       ],
       "domains": [
         "ai",
@@ -671,7 +671,7 @@
     {
       "seed_id": "seed_fullstack_java_react_enterprise",
       "label": "Fullstack Java React Enterprise",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fullstack_java_react_enterprise/resume.md",
+      "source_md": "data/seed_sources/seed_fullstack_java_react_enterprise/resume.md",
       "source_type": "promoted",
       "role_family": "fullstack",
       "seniority": "mid_senior",
@@ -705,14 +705,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws",
-        "gcp",
-        "hive",
-        "jenkins",
-        "rest api",
-        "s3",
-        "spring boot",
-        "sql"
+        "azure",
+        "java",
+        "mysql",
+        "pandas",
+        "python",
+        "rag",
+        "react",
+        "spark sql"
       ],
       "domains": [
         "ads",
@@ -762,7 +762,7 @@
     {
       "seed_id": "seed_backend_java_spring_api",
       "label": "Backend Java Spring API",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_backend_java_spring_api/resume.md",
+      "source_md": "data/seed_sources/seed_backend_java_spring_api/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "entry",
@@ -796,14 +796,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
-        "flask",
         "github actions",
-        "hive",
-        "jenkins",
+        "java",
         "kafka",
-        "spring boot",
-        "sql"
+        "microservices",
+        "nosql",
+        "pandas",
+        "python",
+        "react"
       ],
       "domains": [
         "analytics",
@@ -850,7 +850,7 @@
     {
       "seed_id": "seed_cisco_backend_api",
       "label": "Cisco Backend API",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_cisco_backend_api/resume.md",
+      "source_md": "data/seed_sources/seed_cisco_backend_api/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "mid_senior",
@@ -884,14 +884,14 @@
         "tdd"
       ],
       "core_stack": [
-        "agile",
-        "aws",
         "github actions",
-        "hive",
-        "jenkins",
+        "java",
         "kafka",
-        "scrum",
-        "sql"
+        "microservices",
+        "nosql",
+        "python",
+        "react",
+        "tdd"
       ],
       "domains": [
         "ads",
@@ -943,7 +943,7 @@
     {
       "seed_id": "seed_egen_fullstack_node",
       "label": "Egen Fullstack Node",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_egen_fullstack_node/resume.md",
+      "source_md": "data/seed_sources/seed_egen_fullstack_node/resume.md",
       "source_type": "promoted",
       "role_family": "fullstack",
       "seniority": "mid_senior",
@@ -973,14 +973,14 @@
         "vue"
       ],
       "core_stack": [
-        "agile",
         "gcp",
-        "node.js",
-        "rest api",
+        "microservices",
+        "mysql",
+        "nosql",
+        "python",
+        "react",
         "scala",
-        "scrum",
-        "sql",
-        "system design"
+        "sql"
       ],
       "domains": [
         "ai",
@@ -1030,7 +1030,7 @@
     {
       "seed_id": "seed_fireblocks_sre_anchor",
       "label": "Fireblocks SRE Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fireblocks_sre_anchor/resume.md",
+      "source_md": "data/seed_sources/seed_fireblocks_sre_anchor/resume.md",
       "source_type": "promoted",
       "role_family": "platform",
       "seniority": "mid_senior",
@@ -1065,14 +1065,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws",
-        "aws bedrock",
-        "hive",
+        "azure",
+        "java",
         "kafka",
-        "linux",
-        "rest api",
-        "s3",
-        "sql"
+        "mysql",
+        "pandas",
+        "python",
+        "shell",
+        "spark sql"
       ],
       "domains": [
         "ai",
@@ -1124,7 +1124,7 @@
     {
       "seed_id": "seed_gm_genai",
       "label": "GM Financial GenAI",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_gm_genai/resume.md",
+      "source_md": "data/seed_sources/seed_gm_genai/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "mid_senior",
@@ -1155,14 +1155,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws",
-        "flask",
-        "hive",
+        "genai",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "scala",
-        "sql"
+        "microservices",
+        "pandas",
+        "python",
+        "rag",
+        "spark sql"
       ],
       "domains": [
         "ads",
@@ -1210,7 +1210,7 @@
     {
       "seed_id": "seed_glean_ml_infra",
       "label": "Glean ML Infrastructure",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_glean_ml_infra/resume.md",
+      "source_md": "data/seed_sources/seed_glean_ml_infra/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "mid_senior",
@@ -1239,13 +1239,13 @@
         "sql"
       ],
       "core_stack": [
-        "aws",
-        "aws bedrock",
-        "flask",
-        "grpc",
-        "hive",
+        "c++",
+        "java",
         "kafka",
-        "rest api",
+        "ml infrastructure",
+        "pandas",
+        "python",
+        "spark sql",
         "sql"
       ],
       "domains": [
@@ -1298,7 +1298,7 @@
     {
       "seed_id": "seed_google_geo_aiml_anchor",
       "label": "Google Workspace/Geo AIML Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_google_geo_aiml_anchor/resume.md",
+      "source_md": "data/seed_sources/seed_google_geo_aiml_anchor/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "entry",
@@ -1336,14 +1336,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
+        "c++",
+        "genai",
         "github actions",
-        "hive",
         "kafka",
-        "llm",
-        "machine learning",
-        "s3",
-        "sql"
+        "microservices",
+        "ml infrastructure",
+        "python",
+        "ruby"
       ],
       "domains": [
         "ads",
@@ -1402,7 +1402,7 @@
     {
       "seed_id": "seed_google_cloud_infra_anchor_candidate",
       "label": "Google Cloud Infra Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_google_cloud_infra_anchor_candidate/resume.md",
+      "source_md": "data/seed_sources/seed_google_cloud_infra_anchor_candidate/resume.md",
       "source_type": "promoted",
       "role_family": "platform",
       "seniority": "mid_senior",
@@ -1435,14 +1435,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
-        "algorithms",
-        "aws",
-        "hive",
+        "c++",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "sql"
+        "microservices",
+        "mysql",
+        "pandas",
+        "python",
+        "spark sql"
       ],
       "domains": [
         "ai",
@@ -1499,7 +1499,7 @@
     {
       "seed_id": "seed_codex_google_fullstack",
       "label": "Google Full Stack",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_google_fullstack/resume.md",
+      "source_md": "data/seed_sources/seed_codex_google_fullstack/resume.md",
       "source_type": "promoted",
       "role_family": "fullstack",
       "seniority": "mid_senior",
@@ -1538,14 +1538,14 @@
         "typescript"
       ],
       "core_stack": [
-        "a/b testing",
-        "algorithms",
-        "flask",
         "github actions",
-        "hive",
-        "s3",
-        "software test engineering",
-        "sql"
+        "java",
+        "kafka",
+        "machine learning",
+        "microservices",
+        "mysql",
+        "pandas",
+        "python"
       ],
       "domains": [
         "analytics",
@@ -1600,7 +1600,7 @@
     {
       "seed_id": "seed_codex_google_aiml",
       "label": "Google AIML SWE",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_codex_google_aiml/resume.md",
+      "source_md": "data/seed_sources/seed_codex_google_aiml/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "mid_senior",
@@ -1634,14 +1634,14 @@
         "sql"
       ],
       "core_stack": [
-        "algorithms",
+        "c++",
         "embedded",
-        "flask",
-        "hive",
+        "java",
         "kafka",
         "machine learning",
-        "s3",
-        "sql"
+        "mysql",
+        "pandas",
+        "python"
       ],
       "domains": [
         "ads",
@@ -1700,7 +1700,7 @@
     {
       "seed_id": "seed_platform_ai_automation",
       "label": "Platform AI Automation",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_platform_ai_automation/resume.md",
+      "source_md": "data/seed_sources/seed_platform_ai_automation/resume.md",
       "source_type": "promoted",
       "role_family": "platform",
       "seniority": "senior",
@@ -1728,14 +1728,14 @@
         "sql"
       ],
       "core_stack": [
-        "aws",
-        "flask",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "sql"
+        "microservices",
+        "pandas",
+        "python",
+        "rag",
+        "spark sql"
       ],
       "domains": [
         "ads",
@@ -1787,7 +1787,7 @@
     {
       "seed_id": "seed_h2o_ai_engineer",
       "label": "H2O AI Engineer",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_h2o_ai_engineer/resume.md",
+      "source_md": "data/seed_sources/seed_h2o_ai_engineer/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "senior",
@@ -1829,14 +1829,14 @@
         "tensorflow"
       ],
       "core_stack": [
-        "a/b testing",
-        "flask",
-        "gcp",
+        "azure",
+        "ecs",
         "github actions",
-        "hive",
-        "llm",
-        "s3",
-        "sql"
+        "kafka",
+        "microservices",
+        "mysql",
+        "python",
+        "tensorflow"
       ],
       "domains": [
         "ai",
@@ -1892,7 +1892,7 @@
     {
       "seed_id": "seed_harbourvest_backend_data",
       "label": "HarbourVest Backend Data",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_harbourvest_backend_data/resume.md",
+      "source_md": "data/seed_sources/seed_harbourvest_backend_data/resume.md",
       "source_type": "promoted",
       "role_family": "generalist",
       "seniority": "mid_senior",
@@ -1920,12 +1920,12 @@
       ],
       "core_stack": [
         "agile",
-        "aws",
-        "grpc",
-        "hive",
+        "azure",
         "kafka",
+        "pandas",
+        "python",
         "scala",
-        "snowflake",
+        "spark sql",
         "sql"
       ],
       "domains": [
@@ -1975,7 +1975,7 @@
     {
       "seed_id": "seed_itential_generalist_algorithms",
       "label": "Itential Generalist Algorithms",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_itential_generalist_algorithms/resume.md",
+      "source_md": "data/seed_sources/seed_itential_generalist_algorithms/resume.md",
       "source_type": "promoted",
       "role_family": "generalist",
       "seniority": "mid_senior",
@@ -2006,13 +2006,13 @@
         "typescript"
       ],
       "core_stack": [
-        "algorithms",
-        "ansible",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
+        "microservices",
+        "pandas",
+        "python",
+        "spark sql",
         "sql"
       ],
       "domains": [
@@ -2060,7 +2060,7 @@
     {
       "seed_id": "seed_jpmc_data_mlops_anchor",
       "label": "JPMorganChase Data Platform/MLOps Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_jpmc_data_mlops_anchor/resume.md",
+      "source_md": "data/seed_sources/seed_jpmc_data_mlops_anchor/resume.md",
       "source_type": "promoted",
       "role_family": "data_platform",
       "seniority": "mid_senior",
@@ -2098,14 +2098,14 @@
         "tdd"
       ],
       "core_stack": [
-        "a/b testing",
-        "flask",
         "github actions",
-        "hive",
-        "jenkins",
+        "java",
         "kafka",
-        "linux",
-        "sql"
+        "microservices",
+        "mysql",
+        "nosql",
+        "python",
+        "tdd"
       ],
       "domains": [
         "ai",
@@ -2166,7 +2166,7 @@
     {
       "seed_id": "seed_linkedin_mle_foundation",
       "label": "LinkedIn MLE Foundation",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_linkedin_mle_foundation/resume.md",
+      "source_md": "data/seed_sources/seed_linkedin_mle_foundation/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "mid_senior",
@@ -2198,14 +2198,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
-        "aws",
-        "hive",
+        "genai",
+        "java",
         "kafka",
-        "llm",
         "machine learning",
-        "rest api",
-        "sql"
+        "microservices",
+        "pandas",
+        "python",
+        "spark sql"
       ],
       "domains": [
         "ai",
@@ -2255,7 +2255,7 @@
     {
       "seed_id": "seed_magnite_sdet",
       "label": "Magnite SDET",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_magnite_sdet/resume.md",
+      "source_md": "data/seed_sources/seed_magnite_sdet/resume.md",
       "source_type": "promoted",
       "role_family": "qa",
       "seniority": "mid",
@@ -2292,14 +2292,14 @@
         "tdd"
       ],
       "core_stack": [
-        "a/b testing",
-        "aws",
-        "flask",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "sql"
+        "pandas",
+        "pytest",
+        "python",
+        "spark sql",
+        "tdd"
       ],
       "domains": [
         "ads",
@@ -2349,7 +2349,7 @@
     {
       "seed_id": "seed_microsoft_polyglot_generalist",
       "label": "Microsoft Polyglot Generalist",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_microsoft_polyglot_generalist/resume.md",
+      "source_md": "data/seed_sources/seed_microsoft_polyglot_generalist/resume.md",
       "source_type": "promoted",
       "role_family": "generalist",
       "seniority": "mid_senior",
@@ -2383,13 +2383,13 @@
       ],
       "core_stack": [
         "a/b testing",
-        "flask",
+        "c++",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "sql"
+        "pandas",
+        "python",
+        "spark sql"
       ],
       "domains": [
         "ai",
@@ -2439,7 +2439,7 @@
     {
       "seed_id": "seed_microsoft_coreai_platform_anchor",
       "label": "Microsoft CoreAI/BIC Platform Anchor",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_microsoft_coreai_platform_anchor/resume.md",
+      "source_md": "data/seed_sources/seed_microsoft_coreai_platform_anchor/resume.md",
       "source_type": "promoted",
       "role_family": "platform",
       "seniority": "senior",
@@ -2472,14 +2472,14 @@
         "sql"
       ],
       "core_stack": [
-        "c#",
-        "flask",
+        "azure",
+        "c++",
+        "genai",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "llm",
-        "rest api",
-        "sql"
+        "microservices",
+        "python"
       ],
       "domains": [
         "ads",
@@ -2532,7 +2532,7 @@
     {
       "seed_id": "seed_paypal_java_backend",
       "label": "PayPal Java Backend",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_paypal_java_backend/resume.md",
+      "source_md": "data/seed_sources/seed_paypal_java_backend/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "entry",
@@ -2569,14 +2569,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
-        "algorithms",
-        "aws",
         "cassandra",
-        "hive",
+        "java",
         "kafka",
-        "spring boot",
-        "sql"
+        "mysql",
+        "nosql",
+        "pandas",
+        "python",
+        "spark sql"
       ],
       "domains": [
         "analytics",
@@ -2628,7 +2628,7 @@
     {
       "seed_id": "seed_fullstack_dotnet_azure",
       "label": "Fullstack DotNet Azure",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_fullstack_dotnet_azure/resume.md",
+      "source_md": "data/seed_sources/seed_fullstack_dotnet_azure/resume.md",
       "source_type": "promoted",
       "role_family": "fullstack",
       "seniority": "mid_senior",
@@ -2662,14 +2662,14 @@
         "sql"
       ],
       "core_stack": [
-        "flask",
+        "azure",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "scala",
-        "sql"
+        "pandas",
+        "python",
+        "react",
+        "spark sql"
       ],
       "domains": [
         "ads",
@@ -2722,7 +2722,7 @@
     {
       "seed_id": "seed_plaid_data_scientist",
       "label": "Plaid Data Scientist",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_plaid_data_scientist/resume.md",
+      "source_md": "data/seed_sources/seed_plaid_data_scientist/resume.md",
       "source_type": "promoted",
       "role_family": "data_science",
       "seniority": "mid_senior",
@@ -2749,13 +2749,13 @@
       ],
       "core_stack": [
         "a/b testing",
-        "flask",
+        "java",
         "kafka",
         "machine learning",
+        "pandas",
         "python",
-        "rest api",
         "scala",
-        "sql"
+        "spark sql"
       ],
       "domains": [
         "analytics",
@@ -2798,7 +2798,7 @@
     {
       "seed_id": "seed_profound_fullstack_ts_node",
       "label": "Profound Fullstack TS Node",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_profound_fullstack_ts_node/resume.md",
+      "source_md": "data/seed_sources/seed_profound_fullstack_ts_node/resume.md",
       "source_type": "promoted",
       "role_family": "fullstack",
       "seniority": "mid_senior",
@@ -2829,14 +2829,14 @@
         "typescript"
       ],
       "core_stack": [
-        "flask",
+        "etl",
         "github actions",
-        "hive",
         "kafka",
-        "rest api",
-        "s3",
-        "scala",
-        "sql"
+        "pandas",
+        "python",
+        "rag",
+        "react",
+        "spark sql"
       ],
       "domains": [
         "ai",
@@ -2887,7 +2887,7 @@
     {
       "seed_id": "seed_frontend_web_perf",
       "label": "Frontend Web Performance",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_frontend_web_perf/resume.md",
+      "source_md": "data/seed_sources/seed_frontend_web_perf/resume.md",
       "source_type": "promoted",
       "role_family": "frontend",
       "seniority": "entry",
@@ -2917,13 +2917,13 @@
       ],
       "core_stack": [
         "a/b testing",
-        "flask",
-        "grpc",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "sql",
-        "tailwind"
+        "microservices",
+        "pandas",
+        "python",
+        "react",
+        "spark sql"
       ],
       "domains": [
         "ads",
@@ -2974,7 +2974,7 @@
     {
       "seed_id": "seed_qualified_health_data_engineer",
       "label": "Qualified Health Data Engineer",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_qualified_health_data_engineer/resume.md",
+      "source_md": "data/seed_sources/seed_qualified_health_data_engineer/resume.md",
       "source_type": "promoted",
       "role_family": "data_platform",
       "seniority": "senior",
@@ -3012,14 +3012,14 @@
         "sql"
       ],
       "core_stack": [
-        "a/b testing",
-        "flask",
-        "hive",
+        "azure",
+        "databricks",
+        "java",
         "kafka",
-        "networking",
-        "s3",
-        "snowflake",
-        "sql"
+        "microservices",
+        "mysql",
+        "pandas",
+        "python"
       ],
       "domains": [
         "ads",
@@ -3069,7 +3069,7 @@
     {
       "seed_id": "seed_generalist_dotnet_enterprise",
       "label": "Generalist DotNet Enterprise",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_generalist_dotnet_enterprise/resume.md",
+      "source_md": "data/seed_sources/seed_generalist_dotnet_enterprise/resume.md",
       "source_type": "promoted",
       "role_family": "generalist",
       "seniority": "entry",
@@ -3106,14 +3106,14 @@
         "unit testing"
       ],
       "core_stack": [
-        "aws",
-        "c#",
-        "flask",
+        ".net",
         "github actions",
-        "hive",
         "kafka",
-        "s3",
-        "sql"
+        "mysql",
+        "pandas",
+        "python",
+        "react",
+        "shell"
       ],
       "domains": [
         "ads",
@@ -3161,7 +3161,7 @@
     {
       "seed_id": "seed_spotify_backend_music",
       "label": "Spotify Backend Music",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_spotify_backend_music/resume.md",
+      "source_md": "data/seed_sources/seed_spotify_backend_music/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "mid_senior",
@@ -3193,14 +3193,14 @@
         "system design"
       ],
       "core_stack": [
-        "a/b testing",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "scala",
-        "sql"
+        "microservices",
+        "mysql",
+        "pandas",
+        "python",
+        "spark sql"
       ],
       "domains": [
         "analytics",
@@ -3251,7 +3251,7 @@
     {
       "seed_id": "seed_trimedx_platform_multicloud",
       "label": "TRIMEDX Platform Multicloud",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_trimedx_platform_multicloud/resume.md",
+      "source_md": "data/seed_sources/seed_trimedx_platform_multicloud/resume.md",
       "source_type": "promoted",
       "role_family": "platform",
       "seniority": "senior",
@@ -3282,14 +3282,14 @@
         "terraform"
       ],
       "core_stack": [
-        "aws",
-        "gcp",
-        "hive",
+        "azure",
         "kafka",
-        "rest api",
-        "s3",
+        "microservices",
+        "pandas",
+        "python",
+        "rag",
         "scala",
-        "sql"
+        "spark sql"
       ],
       "domains": [
         "ads",
@@ -3338,7 +3338,7 @@
     {
       "seed_id": "seed_zillow_agentic_mle",
       "label": "Zillow Agentic MLE",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zillow_agentic_mle/resume.md",
+      "source_md": "data/seed_sources/seed_zillow_agentic_mle/resume.md",
       "source_type": "promoted",
       "role_family": "ai_ml_swe",
       "seniority": "mid",
@@ -3374,14 +3374,14 @@
         "tensorflow"
       ],
       "core_stack": [
-        "aws",
-        "flask",
         "github actions",
-        "hive",
+        "java",
         "kafka",
-        "rest api",
-        "s3",
-        "sql"
+        "ml infrastructure",
+        "mysql",
+        "pandas",
+        "python",
+        "tensorflow"
       ],
       "domains": [
         "ai",
@@ -3429,7 +3429,7 @@
     {
       "seed_id": "seed_zip_backend_web",
       "label": "Zip Backend Web",
-      "source_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/seed_sources/seed_zip_backend_web/resume.md",
+      "source_md": "data/seed_sources/seed_zip_backend_web/resume.md",
       "source_type": "promoted",
       "role_family": "backend_generalist",
       "seniority": "mid_senior",
@@ -3461,13 +3461,13 @@
       ],
       "core_stack": [
         "a/b testing",
-        "aws",
-        "flask",
-        "graphql",
-        "hive",
-        "jenkins",
+        "java",
         "kafka",
-        "sql"
+        "pandas",
+        "python",
+        "rag",
+        "react",
+        "spark sql"
       ],
       "domains": [
         "analytics",

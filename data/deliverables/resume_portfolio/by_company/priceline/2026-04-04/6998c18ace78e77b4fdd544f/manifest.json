@@ -29,11 +29,11 @@
     "seed_source_job_id": "6997741fce78e77b4fdbcb82"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/6998c18ace78e77b4fdd544f",
+  "job_md": "data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/priceline/2026-04-04/6998c18ace78e77b4fdd544f",
   "generated_at": "2026-04-07T00:09:19",
   "review": {
     "weighted_score": 92.6,

@@ -29,11 +29,11 @@
     "seed_source_job_id": "69d07b90cfdc6132f943be1d"
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69743267206da320f49e535a/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69743267206da320f49e535a/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69743267206da320f49e535a/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69743267206da320f49e535a",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-04/69743267206da320f49e535a",
+  "job_md": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69743267206da320f49e535a/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69743267206da320f49e535a",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/mercury-insurance/2026-04-04/69743267206da320f49e535a",
   "generated_at": "2026-04-07T00:54:40",
   "review": {
     "weighted_score": 94.6,

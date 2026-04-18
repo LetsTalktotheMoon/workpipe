@@ -15,10 +15,14 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from repo_paths import repo_relative_path, resolve_repo_path
+
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 RUNTIME_ROOT = ROOT / "runtime"
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
 if str(RUNTIME_ROOT) not in sys.path:
@@ -378,7 +382,7 @@ def run_one_model(
 
 
 def build_case_record(case: dict[str, Any], case_dir: Path, template: str) -> tuple[dict[str, Any], str]:
-    target_dir = (ROOT / case["target_dir"]).resolve()
+    target_dir = resolve_repo_path(case["target_dir"])
     resume_path = target_dir / "resume.md"
     job_path = target_dir / "job.md"
     manifest_path = target_dir / "manifest.json"
@@ -406,10 +410,10 @@ def build_case_record(case: dict[str, Any], case_dir: Path, template: str) -> tu
         "team_direction": jd.team_direction,
         "tech_required": jd.tech_required,
         "tech_preferred": jd.tech_preferred,
-        "resume_path": str(resume_path),
-        "job_path": str(job_path),
-        "manifest_path": str(manifest_path),
-        "review_path": str(review_path),
+        "resume_path": repo_relative_path(resume_path),
+        "job_path": repo_relative_path(job_path),
+        "manifest_path": repo_relative_path(manifest_path),
+        "review_path": repo_relative_path(review_path),
         "historical": case.get("historical", {}),
         "portfolio_review": portfolio_review,
         "immutable_snapshot": build_candidate_snapshot(jd.company),
@@ -540,12 +544,12 @@ def build_markdown(run_dir: Path, cases: list[dict[str, Any]], summary: dict[str
             [
                 "",
                 "### 产物",
-                f"- Prompt: `{run_dir / slugify(case['label']) / 'prompt.txt'}`",
-                f"- 原 reviewer prompt: `{run_dir / slugify(case['label']) / 'original_reviewer_prompt.txt'}`",
-                f"- 原 reviewer system: `{run_dir / slugify(case['label']) / 'original_reviewer_system.txt'}`",
-                f"- Metadata: `{run_dir / slugify(case['label']) / 'metadata.json'}`",
-                f"- Codex JSON: `{run_dir / slugify(case['label']) / 'codex.json'}`",
-                f"- Claude JSON: `{run_dir / slugify(case['label']) / 'claude.json'}`",
+                f"- Prompt: `{(Path(slugify(case['label'])) / 'prompt.txt').as_posix()}`",
+                f"- 原 reviewer prompt: `{(Path(slugify(case['label'])) / 'original_reviewer_prompt.txt').as_posix()}`",
+                f"- 原 reviewer system: `{(Path(slugify(case['label'])) / 'original_reviewer_system.txt').as_posix()}`",
+                f"- Metadata: `{(Path(slugify(case['label'])) / 'metadata.json').as_posix()}`",
+                f"- Codex JSON: `{(Path(slugify(case['label'])) / 'codex.json').as_posix()}`",
+                f"- Claude JSON: `{(Path(slugify(case['label'])) / 'claude.json').as_posix()}`",
             ]
         )
     return "\n".join(lines).rstrip() + "\n"
@@ -629,7 +633,7 @@ def main() -> None:
     summary = build_summary(run_cases)
     write_json(run_dir / "summary.json", summary)
     write_text(run_dir / "report.md", build_markdown(run_dir, run_cases, summary))
-    write_text(HERE / "latest_run.txt", str(run_dir) + "\n")
+    write_text(HERE / "latest_run.txt", repo_relative_path(run_dir) + "\n")
     print(str(run_dir))
 
 

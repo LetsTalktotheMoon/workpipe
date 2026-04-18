@@ -26,11 +26,11 @@
     "tiktok_security_retrieval_console",
     "didi_supply_eta_service"
   ],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-03/6996d6d0ce78e77b4fdb0c7f",
+  "job_md": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-03/6996d6d0ce78e77b4fdb0c7f",
   "generated_at": "2026-04-05T15:34:29",
   "review": {
     "weighted_score": 95.0,

@@ -19,7 +19,7 @@
     "ai_ml_swe"
   ],
   "notes": "Potential second JPMC direction if internal-apps/fullstack roles justify another sub seed. Current evidence is stronger for Python/React/fullstack + internal AI apps than for .NET/capital-markets.",
-  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/jpmorganchase/jpmc_enterprise_apps_pending",
+  "direction_dir": "data/deliverables/resume_portfolio/subseeds/jpmorganchase/jpmc_enterprise_apps_pending",
   "seed_dirs": [],
   "derived_count": 0,
   "derived_jobs": []

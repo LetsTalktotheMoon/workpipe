@@ -12,6 +12,10 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+if str(ROOT / "runtime") not in sys.path:
+    sys.path.insert(0, str(ROOT / "runtime"))
+
+from repo_paths import relative_doc_link, repo_relative_path
 
 from runtime.job_webapp.prompt_library import build_match_pipe_prompt_library
 
@@ -355,8 +359,19 @@ def tag(text: str, kind: str) -> str:
 
 def file_link(path: str, line: int | None = None) -> str:
     target = ROOT / path
-    suffix = f":{line}" if line else ""
-    return f'<a href="file://{target}{suffix}">{html.escape(path + (f":{line}" if line else ""))}</a>'
+    return f'<a href="{html.escape(relative_doc_link(OUT_HTML, target))}">{html.escape(path + (f":{line}" if line else ""))}</a>'
+
+
+def normalize_payload_paths(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {key: normalize_payload_paths(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [normalize_payload_paths(item) for item in value]
+    if isinstance(value, str):
+        if "local_job_resume_pipeline" in value or value.startswith("file://"):
+            return repo_relative_path(value)
+        return value
+    return value
 
 
 def render_targets(targets: list[dict[str, Any]]) -> str:
@@ -883,11 +898,11 @@ def build_html(payload: dict[str, Any]) -> str:
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    payload = build_payload()
+    payload = normalize_payload_paths(build_payload())
     OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     OUT_HTML.write_text(build_html(payload), encoding="utf-8")
-    print(OUT_HTML)
-    print(OUT_JSON)
+    print(repo_relative_path(OUT_HTML))
+    print(repo_relative_path(OUT_JSON))
 
 
 if __name__ == "__main__":

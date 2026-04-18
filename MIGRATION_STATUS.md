@@ -4,7 +4,7 @@
 
 稳定可运行的本地主链只保留在：
 
-- `/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline`
+- 当前仓库根目录（`<repo-root>`）
 
 主入口：
 
@@ -31,7 +31,7 @@
 
 历史试验资产已移到：
 
-- `/Users/jingyizhang/Documents/Playground/projects/archive_resume_pipeline_experiments_20260407`
+- 仓库外部归档目录 `archive_resume_pipeline_experiments_20260407`
 
 其中包含：
 

@@ -4,8 +4,8 @@
 
 最终标签文件：
 
-- 主 20： [hr_labels_20_raw_jd_revised.json](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/hr_labels_20_raw_jd_revised.json)
-- 外部确认 10： [hr_labels_confirmation_10_revised.json](/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/hr_labels_confirmation_10_revised.json)
+- 主 20： [hr_labels_20_raw_jd_revised.json](hr_labels_20_raw_jd_revised.json)
+- 外部确认 10： [hr_labels_confirmation_10_revised.json](hr_labels_confirmation_10_revised.json)
 
 ## 我是怎么判 `pass` / `fail` 的
 

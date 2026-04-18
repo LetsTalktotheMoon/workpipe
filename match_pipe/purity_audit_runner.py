@@ -6,6 +6,8 @@ from pathlib import Path
 import statistics
 import time
 
+from repo_paths import repo_relative_path
+
 from .benchmark import (
     BenchmarkCase,
     audit_legacy_benchmark,
@@ -410,13 +412,13 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Run match_pipe purity audit and A/B/C comparison.")
-    parser.add_argument("--output-dir", default=str(ROOT / "output" / "analysis"))
+    parser.add_argument("--output-dir", default="output/analysis")
     args = parser.parse_args()
 
     payload = run_purity_audit(args.output_dir)
     print(json.dumps(
         {
-            "written_to": str(Path(args.output_dir).expanduser().resolve() / "match_pipe_purity_audit.json"),
+            "written_to": repo_relative_path(Path(args.output_dir).expanduser() / "match_pipe_purity_audit.json"),
             "variant_build_seconds": payload["variant_build_seconds"],
             "benchmark_suite": payload["benchmark_suite"],
         },

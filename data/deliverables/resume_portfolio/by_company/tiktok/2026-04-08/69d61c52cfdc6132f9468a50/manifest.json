@@ -34,11 +34,11 @@
     "project_ids": []
   },
   "project_ids": [],
-  "resume_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/resume.md",
+  "resume_md": "data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/resume.md",
   "resume_pdf": "",
-  "job_md": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/job.md",
-  "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50",
-  "by_date_link": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_date/2026-04-08/69d61c52cfdc6132f9468a50",
+  "job_md": "data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50/job.md",
+  "artifact_dir": "data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50",
+  "by_date_link": "data/deliverables/resume_portfolio/by_company/tiktok/2026-04-08/69d61c52cfdc6132f9468a50",
   "generated_at": "2026-04-08T14:02:14",
   "review": {
     "weighted_score": 86.4,

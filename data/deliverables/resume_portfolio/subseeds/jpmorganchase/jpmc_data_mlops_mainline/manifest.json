@@ -17,9 +17,9 @@
     "pm"
   ],
   "notes": "Current JPMC mainline for data platform, MLOps, and analytics-hybrid variants.",
-  "direction_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/subseeds/jpmorganchase/jpmc_data_mlops_mainline",
+  "direction_dir": "data/deliverables/resume_portfolio/subseeds/jpmorganchase/jpmc_data_mlops_mainline",
   "seed_dirs": [
-    "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/seeds/seed_jpmc_data_mlops_anchor"
+    "data/deliverables/resume_portfolio/seeds/seed_jpmc_data_mlops_anchor"
   ],
   "derived_count": 41,
   "derived_jobs": [
@@ -38,7 +38,7 @@
       "publish_time": "2026-04-08 03:22:35",
       "route_mode": "retarget",
       "source_kind": "local_unified_pipeline",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d6104ba5c9786095e4919f",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-08/69d6104ba5c9786095e4919f",
       "is_outlier": false
     },
     {
@@ -56,7 +56,7 @@
       "publish_time": "2026-04-06 13:51:37",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-06/69d400b9e63cea7a8b6556ce",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-06/69d400b9e63cea7a8b6556ce",
       "is_outlier": false
     },
     {
@@ -74,7 +74,7 @@
       "publish_time": "2026-04-06 12:53:38",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-06/69d3f322e63cea7a8b6550d5",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/cvs-health/2026-04-06/69d3f322e63cea7a8b6550d5",
       "is_outlier": false
     },
     {
@@ -83,7 +83,7 @@
       "publish_time": "2026-04-06 12:20:27",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/red-hat/2026-04-06/69d3eb5be63cea7a8b654ccb",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/red-hat/2026-04-06/69d3eb5be63cea7a8b654ccb",
       "is_outlier": false
     },
     {
@@ -101,7 +101,7 @@
       "publish_time": "2026-04-06 09:59:13",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/intel/2026-04-06/69d3ca41cfdc6132f9453dac",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/intel/2026-04-06/69d3ca41cfdc6132f9453dac",
       "is_outlier": false
     },
     {
@@ -119,7 +119,7 @@
       "publish_time": "2026-04-06 02:12:58",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/takedapharmaceutical-nordics-ab/2026-04-06/69d35cfa891d7b11cfcf07b1",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/takedapharmaceutical-nordics-ab/2026-04-06/69d35cfa891d7b11cfcf07b1",
       "is_outlier": false
     },
     {
@@ -128,7 +128,7 @@
       "publish_time": "2026-04-05 10:31:38",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/totalenergies/2026-04-05/699931c9e0bddb6acac83f00",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/totalenergies/2026-04-05/699931c9e0bddb6acac83f00",
       "is_outlier": false
     },
     {
@@ -137,7 +137,7 @@
       "publish_time": "2026-04-05 07:35:27",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/teza-technologies/2026-04-05/69a65e292c0d8b0f5cd07dbf",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/teza-technologies/2026-04-05/69a65e292c0d8b0f5cd07dbf",
       "is_outlier": false
     },
     {
@@ -146,7 +146,7 @@
       "publish_time": "2026-04-04 18:50:17",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/medidata-solutions/2026-04-04/69d189eb366bb95ba5526fce",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/medidata-solutions/2026-04-04/69d189eb366bb95ba5526fce",
       "is_outlier": false
     },
     {
@@ -182,7 +182,7 @@
       "publish_time": "2026-04-03 21:22:01",
       "route_mode": "seed_source",
       "source_kind": "seed_source",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d075c9366bb95ba551e7fe",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d075c9366bb95ba551e7fe",
       "is_outlier": false
     },
     {
@@ -209,7 +209,7 @@
       "publish_time": "2026-04-03 18:17:13",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/zensar-technologies/2026-04-03/69d04a79cfdc6132f943a52e",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/zensar-technologies/2026-04-03/69d04a79cfdc6132f943a52e",
       "is_outlier": false
     },
     {
@@ -236,7 +236,7 @@
       "publish_time": "2026-04-03 13:06:18",
       "route_mode": "retarget",
       "source_kind": "retarget_trial",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d0019acdb525785fba682a",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69d0019acdb525785fba682a",
       "is_outlier": false
     },
     {
@@ -245,7 +245,7 @@
       "publish_time": "2026-04-03 11:29:36",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/msci-inc/2026-04-03/6996555981476f6176ae1e6d",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/msci-inc/2026-04-03/6996555981476f6176ae1e6d",
       "is_outlier": false
     },
     {
@@ -254,7 +254,7 @@
       "publish_time": "2026-04-03 11:19:25",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/aderant/2026-04-03/69cfe88d891d7b11cfcd6b08",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/aderant/2026-04-03/69cfe88d891d7b11cfcd6b08",
       "is_outlier": false
     },
     {
@@ -263,7 +263,7 @@
       "publish_time": "2026-04-03 11:18:38",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/infojini-inc/2026-04-03/69cfe85e366bb95ba55197d9",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/infojini-inc/2026-04-03/69cfe85e366bb95ba55197d9",
       "is_outlier": false
     },
     {
@@ -272,7 +272,7 @@
       "publish_time": "2026-04-03 10:11:01",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/nlb-services/2026-04-03/69cff888cfdc6132f9437438",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/nlb-services/2026-04-03/69cff888cfdc6132f9437438",
       "is_outlier": false
     },
     {
@@ -281,7 +281,7 @@
       "publish_time": "2026-04-03 09:54:34",
       "route_mode": "new_seed",
       "source_kind": "retarget_trial",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69cfd4aacdb525785fba4ec1",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/jpmorganchase/2026-04-03/69cfd4aacdb525785fba4ec1",
       "is_outlier": false
     },
     {
@@ -317,7 +317,7 @@
       "publish_time": "2026-04-03 05:00:30",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/generac/2026-04-03/69cf8fbecfdc6132f94345a1",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/generac/2026-04-03/69cf8fbecfdc6132f94345a1",
       "is_outlier": false
     },
     {
@@ -335,7 +335,7 @@
       "publish_time": "2026-04-02 19:59:29",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/leidos/2026-04-02/69cf10f1398fb071abf8c27c",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/leidos/2026-04-02/69cf10f1398fb071abf8c27c",
       "is_outlier": false
     },
     {
@@ -362,7 +362,7 @@
       "publish_time": "2026-04-02 12:27:22",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09",
       "is_outlier": false
     },
     {
@@ -371,7 +371,7 @@
       "publish_time": "2026-04-02 07:16:01",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/root-inc/2026-04-02/69a3ded90da45516f16cd050",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/root-inc/2026-04-02/69a3ded90da45516f16cd050",
       "is_outlier": false
     },
     {
@@ -380,7 +380,7 @@
       "publish_time": "2026-04-02 01:39:13",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/tubi/2026-04-02/69c482876f4f855eeda7180c",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/tubi/2026-04-02/69c482876f4f855eeda7180c",
       "is_outlier": false
     },
     {
@@ -389,7 +389,7 @@
       "publish_time": "2026-03-31 19:33:35",
       "route_mode": "retarget",
       "source_kind": "fanout_batch",
-      "artifact_dir": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline/data/deliverables/resume_portfolio/by_company/exl/2026-03-31/69cc936c366bb95ba54f3134",
+      "artifact_dir": "data/deliverables/resume_portfolio/by_company/exl/2026-03-31/69cc936c366bb95ba54f3134",
       "is_outlier": false
     }
   ]

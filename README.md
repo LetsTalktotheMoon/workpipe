@@ -40,7 +40,7 @@
 先做无 LLM 的小范围验证：
 
 ```bash
-cd /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline
+cd <repo-root>
 
 ./run_all.sh \
   --skip-scrape \

@@ -1,0 +1,214 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:44:00",
+  "completed_at": "2026-04-17T23:44:47",
+  "duration_seconds": 47.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "## Professional Summary",
+          "issue": "All three summary bullets start with noun-phrase labels ('Backend Focus', 'Platform Delivery', 'Decision Discipline') rather than action verbs, so the summary reads more like section tags than a punchy first-pass narrative.",
+          "fix": "Rewrite each summary chunk so the opening clause is action-oriented or role-oriented, while keeping the required 3-sentence structure intact."
+        },
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience and project bullets",
+          "issue": "Several key scope/result numbers are left unbolded in the body, including '3 internal queues', '120K', '13-person', '37%', '34%', '18 seconds to 6 seconds', and '96%'. The formatting rules call for major scale/scope signals to be visually emphasized.",
+          "fix": "Bold only the most important scope and performance numbers in each bullet so the strongest quant signals stand out at a glance."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "## Professional Summary / first sentence",
+          "issue": "The first sentence is still framed around transition language ('software engineer transitioning from analytics'), which weakens the immediate role signal for a senior backend opening.",
+          "fix": "Reframe the opening around the target identity first, e.g. backend/platform engineer with distributed-systems and API ownership, and move the transition story later or compress it."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok | Software Engineer Intern",
+          "issue": "The newest experience relies mostly on tactical percentage improvements and turnaround deltas, with only modest scope signals ('3 internal queues', '120K historical snippets') and no clearly large-scale system metric. That is credible, but not a strong senior-level quant anchor.",
+          "fix": "Add one stronger scope or scale indicator to the most relevant TikTok bullet, such as request volume, dataset size, service count, or deployment cadence, so the section reads less like isolated efficiency wins."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Reframe the Summary so the first sentence opens with a direct backend/platform identity instead of transition language.",
+      "[SHOULD] Bold the highest-value scope and performance numbers in the experience bullets so the strongest quant signals are visible immediately.",
+      "[SHOULD] Strengthen the newest TikTok section with one clearer scale signal to better support senior backend screening."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 8.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Reframe the Summary so the first sentence opens with a direct backend/platform identity instead of transition language.",
+      "[SHOULD] Bold the highest-value scope and performance numbers in the experience bullets so the strongest quant signals are visible immediately.",
+      "[SHOULD] Strengthen the newest TikTok section with one clearer scale signal to better support senior backend screening."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "## Professional Summary",
+            "issue": "All three summary bullets start with noun-phrase labels ('Backend Focus', 'Platform Delivery', 'Decision Discipline') rather than action verbs, so the summary reads more like section tags than a punchy first-pass narrative.",
+            "fix": "Rewrite each summary chunk so the opening clause is action-oriented or role-oriented, while keeping the required 3-sentence structure intact."
+          },
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience and project bullets",
+            "issue": "Several key scope/result numbers are left unbolded in the body, including '3 internal queues', '120K', '13-person', '37%', '34%', '18 seconds to 6 seconds', and '96%'. The formatting rules call for major scale/scope signals to be visually emphasized.",
+            "fix": "Bold only the most important scope and performance numbers in each bullet so the strongest quant signals stand out at a glance."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "## Professional Summary / first sentence",
+            "issue": "The first sentence is still framed around transition language ('software engineer transitioning from analytics'), which weakens the immediate role signal for a senior backend opening.",
+            "fix": "Reframe the opening around the target identity first, e.g. backend/platform engineer with distributed-systems and API ownership, and move the transition story later or compress it."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok | Software Engineer Intern",
+            "issue": "The newest experience relies mostly on tactical percentage improvements and turnaround deltas, with only modest scope signals ('3 internal queues', '120K historical snippets') and no clearly large-scale system metric. That is credible, but not a strong senior-level quant anchor.",
+            "fix": "Add one stronger scope or scale indicator to the most relevant TikTok bullet, such as request volume, dataset size, service count, or deployment cadence, so the section reads less like isolated efficiency wins."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Reframe the Summary so the first sentence opens with a direct backend/platform identity instead of transition language.",
+        "[SHOULD] Bold the highest-value scope and performance numbers in the experience bullets so the strongest quant signals are visible immediately.",
+        "[SHOULD] Strengthen the newest TikTok section with one clearer scale signal to better support senior backend screening."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "## Professional Summary",
+          "issue": "All three summary bullets start with noun-phrase labels ('Backend Focus', 'Platform Delivery', 'Decision Discipline') rather than action verbs, so the summary reads more like section tags than a punchy first-pass narrative.",
+          "fix": "Rewrite each summary chunk so the opening clause is action-oriented or role-oriented, while keeping the required 3-sentence structure intact."
+        },
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience and project bullets",
+          "issue": "Several key scope/result numbers are left unbolded in the body, including '3 internal queues', '120K', '13-person', '37%', '34%', '18 seconds to 6 seconds', and '96%'. The formatting rules call for major scale/scope signals to be visually emphasized.",
+          "fix": "Bold only the most important scope and performance numbers in each bullet so the strongest quant signals stand out at a glance."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "## Professional Summary / first sentence",
+          "issue": "The first sentence is still framed around transition language ('software engineer transitioning from analytics'), which weakens the immediate role signal for a senior backend opening.",
+          "fix": "Reframe the opening around the target identity first, e.g. backend/platform engineer with distributed-systems and API ownership, and move the transition story later or compress it."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok | Software Engineer Intern",
+          "issue": "The newest experience relies mostly on tactical percentage improvements and turnaround deltas, with only modest scope signals ('3 internal queues', '120K historical snippets') and no clearly large-scale system metric. That is credible, but not a strong senior-level quant anchor.",
+          "fix": "Add one stronger scope or scale indicator to the most relevant TikTok bullet, such as request volume, dataset size, service count, or deployment cadence, so the section reads less like isolated efficiency wins."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-030",
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-030",
+      "P1-040",
+      "P2-001",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

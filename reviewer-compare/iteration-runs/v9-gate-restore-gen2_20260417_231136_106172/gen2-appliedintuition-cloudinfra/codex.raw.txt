@@ -1,0 +1,39 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Skills > Cloud",
+        "issue": "JD core skills explicitly call out GCP, but the resume only evidences AWS and Azure. For a cloud infrastructure role, this leaves one core cloud-provider signal unclosed.",
+        "fix": "If there is any real GCP work, add it to the most relevant cloud/deployment bullet with the exact service or deployment context; otherwise keep the resume anchored on AWS/Azure and do not imply direct GCP ownership.",
+        "note": "[常识边界]"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok experience, first bullet",
+        "issue": "The newest experience opens with an outcome metric, but it lacks a concrete scope anchor such as service count, traffic volume, or rollout scale. That makes the cloud-infra story feel more like a small-team improvement than a senior infrastructure signal.",
+        "fix": "Add one truthful scale cue to the same bullet, such as number of services, weekly rollout volume, or workflow volume, so the first impression is anchored in scope instead of only percentage improvement."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Close the GCP gap in the Cloud skill story by adding a truthful GCP deployment/ops bullet if it exists.",
+    "[SHOULD] Add one concrete scope metric to the TikTok first bullet so the newest experience reads as infrastructure at scale, not just percentage improvement.",
+    "[NICE] Keep the rest of the structure, summary framing, and immutable fields unchanged."
+  ],
+  "revision_instructions": ""
+}

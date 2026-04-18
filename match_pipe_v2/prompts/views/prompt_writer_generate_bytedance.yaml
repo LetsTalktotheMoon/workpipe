@@ -1,0 +1,24 @@
+view_id: prompt_writer_generate_bytedance
+title: 主生成 Writer Prompt（ByteDance 分支）
+pipeline: match_pipe
+stage: no_starter / writer / bytedance
+role: writer
+description: ByteDance 目标岗位会切到共享正文 + ByteDance 分支块。
+system_block: writer_system
+user_blocks:
+- candidate_context_shared_experience
+- candidate_context_shared_education
+- candidate_context_bytedance_education_branch
+- candidate_context_shared_achievements
+- candidate_context_bytedance_boundary
+- retarget_bytedance_special
+- writer_jd_context
+- writer_plan_shared_intro
+- writer_plan_shared_didi_temu
+- writer_plan_shared_gt_coursework
+- writer_plan_shared_tail
+- format_constraints_shared_head
+- format_constraints_branch_bytedance
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract

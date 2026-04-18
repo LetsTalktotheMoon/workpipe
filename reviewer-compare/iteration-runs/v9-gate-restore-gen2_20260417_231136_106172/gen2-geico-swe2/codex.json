@@ -1,0 +1,250 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:18:39",
+  "completed_at": "2026-04-17T23:19:54",
+  "duration_seconds": 75.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary / Experience / Project background lines",
+          "issue": "Scope and ownership qualifiers such as 'team-maintained', 'team-owned', 'internal', 'shared', 'backend-owned', and 'Azure-connected' are not consistently bolded, so the visual hierarchy does not clearly separate ownership boundaries from the rest of the sentence.",
+          "fix": "Bold the qualifier phrases wherever they delimit scope or ownership, especially in the TikTok and DiDi experience bullets and the two project background lines."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary first sentence",
+          "issue": "The opening framing is still transition-led ('Backend Engineer Transitioning from Analytics') rather than a direct role+domain pitch, so it weakens the first-screen signal for a backend role.",
+          "fix": "Rewrite the first summary header to lead with the target role and domain, then move the transition language later in the sentence or into a later summary line."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-013",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "JD minimum qualifications vs. Skills / Experience",
+          "issue": "The JD asks for advanced PowerShell scripting, but the resume shows Shell only and gives no PowerShell evidence.",
+          "fix": "Add one concrete bullet in the most relevant backend or tooling-heavy experience showing PowerShell-based scripting for build, release, deployment, or Azure validation work."
+        },
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok · Security Experience",
+          "issue": "This section reads like stack padding: Go, Python, C++, Shell, and Java all appear as active work languages across one short internship, which makes the scope feel broader than the ownership described.",
+          "fix": "Tighten the language story so 2-3 primary languages are clearly tied to the strongest bullets, and present the other languages only where they are directly required by the task."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security Experience and project",
+          "issue": "The latest and most visible section relies heavily on percentage improvements and relative gains, with no clear Tier 1 scale signal such as request volume, event volume, SLA, or team/system scope.",
+          "fix": "Add one concrete scope metric to the most relevant TikTok bullet or project bullet, such as traffic volume, daily events, service count, team size, or an explicit reliability target."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add explicit PowerShell evidence in the most relevant backend/tooling experience.",
+      "[MUST] Tighten the TikTok language-stack story so it does not read as broad stack padding.",
+      "[SHOULD] Add one Tier 1 scope metric to the latest experience or project.",
+      "[NICE] Reframe the summary opener around a direct backend/security pitch and bold scope qualifiers consistently."
+    ],
+    "revision_instructions": "[MUST] In the most relevant backend/tooling experience, add 1 bullet with concrete PowerShell usage for build/release/deployment validation or Azure scripting; do not rely on Shell as a substitute. [MUST] Rewrite the TikTok section so Go/Python are the primary languages and C++/Java are only retained where they are directly needed, to avoid the impression of stack padding. [SHOULD] Add one Tier 1 scope signal to the latest experience or project, such as request volume, event volume, service boundary, team size, or an SLO. [NICE] Change the first summary header to a direct backend/security pitch and bold scope qualifiers like team-owned, team-maintained, internal, shared, and backend-owned where they define ownership.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 9.5,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 93.9,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add explicit PowerShell evidence in the most relevant backend/tooling experience.",
+      "[MUST] Tighten the TikTok language-stack story so it does not read as broad stack padding.",
+      "[SHOULD] Add one Tier 1 scope metric to the latest experience or project.",
+      "[NICE] Reframe the summary opener around a direct backend/security pitch and bold scope qualifiers consistently."
+    ],
+    "revision_instructions": "[MUST] In the most relevant backend/tooling experience, add 1 bullet with concrete PowerShell usage for build/release/deployment validation or Azure scripting; do not rely on Shell as a substitute. [MUST] Rewrite the TikTok section so Go/Python are the primary languages and C++/Java are only retained where they are directly needed, to avoid the impression of stack padding. [SHOULD] Add one Tier 1 scope signal to the latest experience or project, such as request volume, event volume, service boundary, team size, or an SLO. [NICE] Change the first summary header to a direct backend/security pitch and bold scope qualifiers like team-owned, team-maintained, internal, shared, and backend-owned where they define ownership.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary / Experience / Project background lines",
+            "issue": "Scope and ownership qualifiers such as 'team-maintained', 'team-owned', 'internal', 'shared', 'backend-owned', and 'Azure-connected' are not consistently bolded, so the visual hierarchy does not clearly separate ownership boundaries from the rest of the sentence.",
+            "fix": "Bold the qualifier phrases wherever they delimit scope or ownership, especially in the TikTok and DiDi experience bullets and the two project background lines."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary first sentence",
+            "issue": "The opening framing is still transition-led ('Backend Engineer Transitioning from Analytics') rather than a direct role+domain pitch, so it weakens the first-screen signal for a backend role.",
+            "fix": "Rewrite the first summary header to lead with the target role and domain, then move the transition language later in the sentence or into a later summary line."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-013",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "JD minimum qualifications vs. Skills / Experience",
+            "issue": "The JD asks for advanced PowerShell scripting, but the resume shows Shell only and gives no PowerShell evidence.",
+            "fix": "Add one concrete bullet in the most relevant backend or tooling-heavy experience showing PowerShell-based scripting for build, release, deployment, or Azure validation work."
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok · Security Experience",
+            "issue": "This section reads like stack padding: Go, Python, C++, Shell, and Java all appear as active work languages across one short internship, which makes the scope feel broader than the ownership described.",
+            "fix": "Tighten the language story so 2-3 primary languages are clearly tied to the strongest bullets, and present the other languages only where they are directly required by the task."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security Experience and project",
+            "issue": "The latest and most visible section relies heavily on percentage improvements and relative gains, with no clear Tier 1 scale signal such as request volume, event volume, SLA, or team/system scope.",
+            "fix": "Add one concrete scope metric to the most relevant TikTok bullet or project bullet, such as traffic volume, daily events, service count, team size, or an explicit reliability target."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add explicit PowerShell evidence in the most relevant backend/tooling experience.",
+        "[MUST] Tighten the TikTok language-stack story so it does not read as broad stack padding.",
+        "[SHOULD] Add one Tier 1 scope metric to the latest experience or project.",
+        "[NICE] Reframe the summary opener around a direct backend/security pitch and bold scope qualifiers consistently."
+      ],
+      "revision_instructions": "[MUST] In the most relevant backend/tooling experience, add 1 bullet with concrete PowerShell usage for build/release/deployment validation or Azure scripting; do not rely on Shell as a substitute. [MUST] Rewrite the TikTok section so Go/Python are the primary languages and C++/Java are only retained where they are directly needed, to avoid the impression of stack padding. [SHOULD] Add one Tier 1 scope signal to the latest experience or project, such as request volume, event volume, service boundary, team size, or an SLO. [NICE] Change the first summary header to a direct backend/security pitch and bold scope qualifiers like team-owned, team-maintained, internal, shared, and backend-owned where they define ownership.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary / Experience / Project background lines",
+          "issue": "Scope and ownership qualifiers such as 'team-maintained', 'team-owned', 'internal', 'shared', 'backend-owned', and 'Azure-connected' are not consistently bolded, so the visual hierarchy does not clearly separate ownership boundaries from the rest of the sentence.",
+          "fix": "Bold the qualifier phrases wherever they delimit scope or ownership, especially in the TikTok and DiDi experience bullets and the two project background lines."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-013",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "JD minimum qualifications vs. Skills / Experience",
+          "issue": "The JD asks for advanced PowerShell scripting, but the resume shows Shell only and gives no PowerShell evidence.",
+          "fix": "Add one concrete bullet in the most relevant backend or tooling-heavy experience showing PowerShell-based scripting for build, release, deployment, or Azure validation work."
+        }
+      ],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok · Security Experience",
+          "issue": "This section reads like stack padding: Go, Python, C++, Shell, and Java all appear as active work languages across one short internship, which makes the scope feel broader than the ownership described.",
+          "fix": "Tighten the language story so 2-3 primary languages are clearly tied to the strongest bullets, and present the other languages only where they are directly required by the task."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary first sentence",
+          "issue": "The opening framing is still transition-led ('Backend Engineer Transitioning from Analytics') rather than a direct role+domain pitch, so it weakens the first-screen signal for a backend role.",
+          "fix": "Rewrite the first summary header to lead with the target role and domain, then move the transition language later in the sentence or into a later summary line."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security Experience and project",
+          "issue": "The latest and most visible section relies heavily on percentage improvements and relative gains, with no clear Tier 1 scale signal such as request volume, event volume, SLA, or team/system scope.",
+          "fix": "Add one concrete scope metric to the most relevant TikTok bullet or project bullet, such as traffic volume, daily events, service count, team size, or an explicit reliability target."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-013",
+          "P3C-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3B-013",
+      "P3C-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ TikTok · Security Experience"
+    ]
+  }
+}

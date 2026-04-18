@@ -1,0 +1,63 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Experience bullets (TikTok, DiDi, Temu)",
+        "issue": "正文里把修饰语和限定词加粗了，例如 team-maintained、existing、internal、team-owned，这类词不属于技术名词或量化信号。",
+        "fix": "只保留技术栈名词和量化结果的加粗；把描述性限定词取消加粗，避免版式噪音。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "high",
+        "field": "Professional Summary, sentence 1",
+        "issue": "首句以 Data Analysis Candidate 开场，属于候选人自我标签而不是直接的角色方向，首屏抓手偏弱。",
+        "fix": "把首句改成直接角色定位，例如 Data/Backend oriented 叙事，再保留 Python、SQL、Spark、ETL 的领域信号。"
+      },
+      {
+        "rule_id": "P2-020",
+        "severity": "medium",
+        "field": "TikTok Experience, bullet 1",
+        "issue": "首页第一段经历的第一条 bullet 主要是技术实现和百分比结果，没有 tier 1 规模/scope 锚点，首条不够像该段最强信号。",
+        "fix": "把这一条改成先讲你负责的系统边界或工作量级，再写 31% 的结果；如果真实存在，补 cases/day、dataset size、analyst count 或 SLA。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall target-role fit",
+        "issue": "岗位标题是 Manager，但简历当前只展示了项目/交付级领导力，没有清晰的人带人、绩效、招聘、组织 ownership 证据，Manager scope 断层明显。",
+        "fix": "如果目标确实是 Manager, Data Analysis - Card Services，需在最相关经历中补出真实的 people/team ownership 证据；否则这份简历更适合投 senior IC / lead analyst 类岗位。",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience",
+        "issue": "最新且最相关的经历几乎全靠 31%、26%、18%、95 分钟到 54 分钟 这类 tier 2 改进数字，缺少 tier 1 规模/scope 信号来支撑可信度。",
+        "fix": "在 TikTok 最强的 1-2 条 bullet 里补一个可追问的规模锚点，例如每日 case 量、数据集规模、使用团队数、发布频率或稳定性目标。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 处理 Manager 角色与现有经历之间的结构性错配：如果目标真是 Manager，补 people/team ownership 证据；否则改投更匹配的 senior IC/lead analyst 岗位。",
+    "[MUST] 把 Professional Summary 第一句改成直接角色方向，而不是 Candidate 自我标签，提升首屏抓手。",
+    "[SHOULD] 为 TikTok 首条 bullet 补一个 tier 1 规模或 scope 锚点，避免整段只靠百分比。",
+    "[NICE] 取消 Experience 里修饰语的加粗，只保留技术名词和量化结果加粗。"
+  ],
+  "revision_instructions": "[结构性错配] 这份简历当前更像 senior IC / analyst 背景，不像 Manager。若目标确实是 Manager, Data Analysis - Card Services，需要在最相关经历里补出真实的 people/team ownership 证据（如带人、跨团队决策、评审、owner scope）；否则建议保留现有叙事但改投更匹配的 senior IC / lead analyst 岗位。同步把 Summary 第一句改成直接角色定位，不要用 Candidate；并在 TikTok 首条 bullet 补一个可追问的规模锚点（cases/day、dataset size、team scope、SLA），而不是只写百分比。最后，取消 Experience 里对 team-maintained、existing、internal 等修饰语的加粗，保留技术名词和量化数字的加粗即可。"
+}

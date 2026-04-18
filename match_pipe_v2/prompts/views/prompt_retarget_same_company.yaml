@@ -1,0 +1,9 @@
+view_id: prompt_retarget_same_company
+title: Retarget Prompt（同公司分支）
+pipeline: match_pipe
+stage: old_match_anchor / writer / same_company
+role: writer
+description: 旧 match anchor 在同公司一致性模式下会额外叠加这段分支。
+system_block: strict_revision_system
+user_blocks:
+- retarget_same_company

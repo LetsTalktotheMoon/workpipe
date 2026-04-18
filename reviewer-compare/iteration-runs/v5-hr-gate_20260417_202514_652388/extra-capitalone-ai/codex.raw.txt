@@ -1,0 +1,48 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience bullets across TikTok / DiDi / Temu",
+        "issue": "Quantitative outcomes and scope signals are not consistently bolded, so the scanability is weaker than the resume's own formatting rules intend.",
+        "fix": "Bold the highest-signal numbers and scope markers in each experience section, especially team size, city count, and before/after metrics such as 13-person, 20+ cities, 95 minutes to 54 minutes, and 3.8 hours to 2.1 hours."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first bullet",
+        "issue": "The opening framing leans on 'Candidate' instead of a direct role/field anchor, which weakens the first-screen signal.",
+        "fix": "Recast the first sentence to be role-first, such as 'Data analyst / analytics engineer with 3+ years...' while keeping the Python, SQL, Spark, and ETL signal."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall role scope / Experience positioning",
+        "issue": "The target title is Manager, but the resume only shows IC delivery. There is no verifiable people-management, mentoring, hiring, performance-review, or roadmap ownership evidence to support a manager reading.",
+        "fix": "If this scope is real, add one truthful bullet in the most relevant role describing lead ownership, stakeholder direction, mentoring, or team-level decision making. If it is not real, this resume is structurally better aligned to IC roles than to a Manager posting.",
+        "note": "[结构性错配]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Resolve the manager-scope gap with truthful lead/ownership evidence in the most relevant experience, or stop positioning this resume for Manager roles.",
+    "[MUST] Rework the first Summary sentence to be role-first rather than 'Candidate'-first, while preserving the 3+ years Python/SQL/Spark/ETL signal.",
+    "[SHOULD] Bold the most important scope/result numbers in each experience section to improve scanability.",
+    "[NICE] Keep the China-company stacks as-is; no localization translation changes are needed here."
+  ],
+  "revision_instructions": "[结构性错配] If you truly have people/lead ownership, add it to the most relevant DiDi or TikTok bullet as a concrete, verifiable scope statement. If you do not, do not continue pitching this as a Manager resume; it is better suited to IC or manager-adjacent roles. Rewrite the first Summary sentence to be role-led instead of 'Candidate'-led. Then bold the highest-value metrics and scope tokens across Experience, especially 13-person, 20+ cities, 95 minutes to 54 minutes, 3.8 hours to 2.1 hours, 31%, and 43%."
+}

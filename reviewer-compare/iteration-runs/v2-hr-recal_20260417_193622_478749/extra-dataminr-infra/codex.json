@@ -1,0 +1,191 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T19:40:36",
+  "completed_at": "2026-04-17T19:41:32",
+  "duration_seconds": 56.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "TikTok Experience | bullet 4",
+          "issue": "Technical product name `Bedrock` is left unbolded, while the resume otherwise bolds technical nouns outside Skills.",
+          "fix": "Change it to `**Bedrock**` or `**AWS Bedrock**` so technical emphasis is consistent across the page."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary | sentence 3 header",
+          "issue": "`Structured Problem Solver` is a generic cognition label and weakens the last Summary sentence on a quick scan.",
+          "fix": "Replace it with a higher-signal framing such as `**Systems judgment:**` or `**Pattern recognition:**` while keeping the body text."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience section",
+          "issue": "The latest experience is framed entirely as percentage improvements, so HR cannot infer service scale or seniority from the first screen.",
+          "fix": "Add one concrete Tier 1 anchor in the strongest bullet, such as request volume, data volume, service count, latency/SLA, or team boundary, while keeping the existing deltas."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Add one Tier 1 scope anchor to the TikTok internship section so the latest experience reads as backend-scale work, not only a set of percentage deltas.",
+      "[SHOULD] Replace the generic Summary header `Structured Problem Solver` with a stronger cognition frame such as `Systems judgment` or `Pattern recognition`.",
+      "[NICE] Bold `Bedrock` in the TikTok bullet so technical emphasis is consistent with the rest of the resume."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 97.4,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Add one Tier 1 scope anchor to the TikTok internship section so the latest experience reads as backend-scale work, not only a set of percentage deltas.",
+      "[SHOULD] Replace the generic Summary header `Structured Problem Solver` with a stronger cognition frame such as `Systems judgment` or `Pattern recognition`.",
+      "[NICE] Bold `Bedrock` in the TikTok bullet so technical emphasis is consistent with the rest of the resume."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "TikTok Experience | bullet 4",
+            "issue": "Technical product name `Bedrock` is left unbolded, while the resume otherwise bolds technical nouns outside Skills.",
+            "fix": "Change it to `**Bedrock**` or `**AWS Bedrock**` so technical emphasis is consistent across the page."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary | sentence 3 header",
+            "issue": "`Structured Problem Solver` is a generic cognition label and weakens the last Summary sentence on a quick scan.",
+            "fix": "Replace it with a higher-signal framing such as `**Systems judgment:**` or `**Pattern recognition:**` while keeping the body text."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience section",
+            "issue": "The latest experience is framed entirely as percentage improvements, so HR cannot infer service scale or seniority from the first screen.",
+            "fix": "Add one concrete Tier 1 anchor in the strongest bullet, such as request volume, data volume, service count, latency/SLA, or team boundary, while keeping the existing deltas."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Add one Tier 1 scope anchor to the TikTok internship section so the latest experience reads as backend-scale work, not only a set of percentage deltas.",
+        "[SHOULD] Replace the generic Summary header `Structured Problem Solver` with a stronger cognition frame such as `Systems judgment` or `Pattern recognition`.",
+        "[NICE] Bold `Bedrock` in the TikTok bullet so technical emphasis is consistent with the rest of the resume."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "TikTok Experience | bullet 4",
+          "issue": "Technical product name `Bedrock` is left unbolded, while the resume otherwise bolds technical nouns outside Skills.",
+          "fix": "Change it to `**Bedrock**` or `**AWS Bedrock**` so technical emphasis is consistent across the page."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary | sentence 3 header",
+          "issue": "`Structured Problem Solver` is a generic cognition label and weakens the last Summary sentence on a quick scan.",
+          "fix": "Replace it with a higher-signal framing such as `**Systems judgment:**` or `**Pattern recognition:**` while keeping the body text."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience section",
+          "issue": "The latest experience is framed entirely as percentage improvements, so HR cannot infer service scale or seniority from the first screen.",
+          "fix": "Add one concrete Tier 1 anchor in the strongest bullet, such as request volume, data volume, service count, latency/SLA, or team boundary, while keeping the existing deltas."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-010"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-010",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "conf/FlexTrade-SoftwareDeveloper": {
+    "target_verdict": "pass",
+    "reason": "Golang、AWS、Docker、Linux、Shell 与当前后端/基础设施经历高度贴合，真实 HR 首筛应通过。"
+  },
+  "conf/Whoop-SensorIntelligence": {
+    "target_verdict": "fail",
+    "reason": "岗位核心是 signal processing、time-series biosignals、C 与 wearable domain，当前简历缺少对应信号处理和领域证据链，真实 HR 应直接保留。"
+  },
+  "conf/Hopper-CustomerPlatform": {
+    "target_verdict": "pass",
+    "reason": "大规模分布式系统、前后端协同与客户平台方向整体可桥接，虽 senior 表达还可加强，但首筛可过。"
+  },
+  "conf/Nuro-OffboardInfra": {
+    "target_verdict": "pass",
+    "reason": "Python/C++/Go、distributed systems 与 data/infrastructure 叙事形成较强闭环，真实 HR 应通过。"
+  },
+  "conf/AMH-EnterpriseDataAnalyst": {
+    "target_verdict": "pass",
+    "reason": "Business Intelligence、financial reporting、data warehousing、SQL 与当前数据分析主轴高度一致，首筛应通过。"
+  },
+  "conf/Phantom-SDET": {
+    "target_verdict": "pass",
+    "reason": "测试/验证自动化、Go/Python/TypeScript/JavaScript 与当前质量导向工程叙事较匹配，真实 HR 应允许进入下一轮。"
+  },
+  "conf/VeteransUnited-AssociateSE": {
+    "target_verdict": "pass",
+    "reason": ".NET/C#/ASP.NET、CI/CD、Web APIs、microservices 与岗位要求直接对齐，属于明显可过的目标岗位。"
+  },
+  "conf/8451-ResearchAI": {
+    "target_verdict": "fail",
+    "reason": "岗位强调 agentic systems、research agents、multi-step reasoning、RLHF，当前简历只有通用 LLM/ML 工程与评估证据，没有研究型 agent/RLHF 证据链。"
+  },
+  "conf/Photon-AIEngineer": {
+    "target_verdict": "pass",
+    "reason": "Generative AI、Python、LangChain/LlamaIndex/Vector Search 与当前 AI 工程叙事可形成合理桥接，真实 HR 首筛应通过。"
+  },
+  "conf/Clarivate-NLP": {
+    "target_verdict": "pass",
+    "reason": "NLP、Python、LangChain、LangGraph 与当前 NLP/LLM 工作流叙事高度相关，尽管 senior title 偏 ambitious，但首筛仍可过。"
+  }
+}

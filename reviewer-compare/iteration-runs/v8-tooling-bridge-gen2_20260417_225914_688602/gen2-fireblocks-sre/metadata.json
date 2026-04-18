@@ -1,0 +1,126 @@
+{
+  "label": "gen2/Fireblocks-SRE",
+  "company": "Fireblocks",
+  "title": "Site Reliability Engineer",
+  "role_type": "swe_backend",
+  "seniority": "senior",
+  "team_direction": "Fireblocks is a leader in providing secure solutions for digital assets and blockchain technology",
+  "tech_required": [
+    "Linux",
+    "Bash",
+    "Azure",
+    "Shell",
+    "Kubernetes",
+    "Git",
+    "Docker",
+    "Python",
+    "JavaScript",
+    "AWS"
+  ],
+  "tech_preferred": [
+    "R",
+    "MySQL",
+    "C++",
+    "Scala"
+  ],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/review.json",
+  "historical": {},
+  "portfolio_review": {
+    "jd_id": "candidate_fireblocks_sre",
+    "company": "Fireblocks",
+    "title": "Site Reliability Engineer",
+    "role_type": "swe_backend",
+    "verdict": "pass",
+    "final_score": 94.5,
+    "revised": false,
+    "weighted_score": 94.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "补一条明确指向 Fireblocks 业务语境的安全/高可用基础设施叙事，避免简历看起来只是通用后端与平台经验。",
+      "在 DiDi 和 TikTok 的角色说明中再补 scope 限定语，降低“分析岗却承担工程 ownership”带来的可信度追问。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "repaired_at": "2026-04-07T16:57:23",
+    "repair_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_didi_scope_note",
+      "normalized_keyword_bolding"
+    ],
+    "repair_issue_codes_before": [],
+    "repair_issue_codes_after": []
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

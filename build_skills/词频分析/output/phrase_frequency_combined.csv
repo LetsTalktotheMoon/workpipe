@@ -1,0 +1,34 @@
+bucket,title,semantic_variants,frequency,job_count,mention_count
+soft_skill,合作,Communication、Collaboration、Stakeholders、Collaborative、Cross-Functional Teams、Verbal Communication、Interpersonal、Written Communication、Teamwork、Effective Communication、Clear Communication、Cross-Functional Collaboration、Cross-Functional Team、Stakeholder Management、Cross Functional Teams、Cross Functional Team、Cross Functional Collaboration,2773,2773,6111
+soft_skill,思辨与创新,Problem-Solving、Analytical、Problem Solving、Curiosity、Willingness To Learn、Critical Thinking、Analytical Thinking、Eagerness To Learn、Quick Learner、Creativity、Business Acumen,1981,1981,3482
+generalized_tech,Software Engineering,Software Development、Software Engineering、Application Development、Software Development Life Cycle、Software Development Lifecycle、Software Engineer、Software Developer、SWE、Application Engineering、SDE I,1846,1846,2850
+soft_skill,管理/领导,Ownership、Leadership、Mentoring、Proactive、Stakeholder、Self-Starter、Initiative、Accountability、Accountable、Self Starter,1210,1210,1617
+generalized_tech,Database Systems,Databases、Database、Relational Databases、Relational Database、Non-Relational Databases、Non-Relational Database、MPP Databases,1164,1164,1506
+soft_skill,抗压,Adaptability、Attention To Detail、Time Management、Organizational、Independent Work、Independence、Flexibility,813,813,973
+generalized_tech,Data Science / Analytics,Data Analysis、Data Analytics、Data Visualization Tools、Data Visualization Tool,618,618,721
+business_domain,Enterprise Software / SaaS,Enterprise,420,420,420
+generalized_tech,Full-Stack Development,Full-Stack、Full Stack、Full-Stack Development、Full Stack Development,326,326,436
+generalized_tech,Data Engineering,Data Engineering、Data Pipeline,325,325,348
+business_domain,Risk / Fraud / Credit,Risk、Fraud、Credit,240,240,287
+business_domain,Finance / FinTech,Financial Services、Fintech、Payment、Payments、Financial Markets、Wealth Management、FinTech,238,238,305
+generalized_tech,Architecture / Systems,System Design、Distributed System,234,234,239
+business_domain,Education / EdTech,Education,181,181,181
+generalized_tech,Backend Development,Backend Development、Back-End Development、Back End Development,173,173,174
+business_domain,Healthcare,Healthcare,147,147,147
+generalized_tech,Frontend Development,Frontend Development、Front-End Development、Front End Development,128,128,128
+business_domain,Public Sector / Government,Government、Public Sector,124,124,124
+business_domain,Retail / E-commerce,Marketplace、E-Commerce、Retail,115,115,126
+business_domain,Consumer Products / Consumer Internet,Consumer,103,103,103
+business_domain,Media / Advertising,Media、Advertising、Ad Tech,99,99,106
+generalized_tech,Web Development,Web Development、WEB Development,86,86,87
+business_domain,Travel / Hospitality,Travel、Hospitality,80,80,82
+business_domain,Logistics / Supply Chain,Supply Chain、Logistics、Transportation,74,74,90
+business_domain,Banking,Banking、Lending、Mortgage,70,70,72
+business_domain,Trading,Trading,60,60,60
+business_domain,Manufacturing / Industrial,Manufacturing,59,59,59
+business_domain,Energy / Utilities,Energy,38,38,38
+business_domain,Life Sciences / Biotech,Life Sciences、Pharma、Biotech、Life Science,33,33,45
+business_domain,Gaming / Entertainment,Gaming,21,21,21
+business_domain,B2B / B2C,B2B、B2C,20,20,22
+business_domain,Real Estate / PropTech,Real Estate,6,6,6
+business_domain,Telecom,Telecom、Telecommunications,2,2,2

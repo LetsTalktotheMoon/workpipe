@@ -1,0 +1,46 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "首句把重点放在“从 data analytics 转向 software engineering”的迁移叙事上，首屏更像转型说明而不是 Senior AI/ML Engineer 的直接定位。",
+        "fix": "把首句改成直接的角色定位 + ML 系统范围，例如先写 AI/ML engineer / ML systems builder，再把 analytics 背景作为补充支撑放到后半句。"
+      },
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 3",
+        "issue": "“Strategic Problem Solving” 属于泛化能力标题，认知信号不够具体，首屏说服力弱于“Pattern recognition / Structural intuition”一类 header。",
+        "fix": "把该句 header 改成更具认知含量的标题，例如 `Pattern recognition:`、`Structural intuition:` 或 `Decision-making:`。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok Experience, bullets 2 and 4",
+        "issue": "同一段 internship 同时铺开 AWS、GCP、Azure、Kubernetes、Docker、Bedrock 等平台/云栈，且写成了使用级证据，容易被读成 stack stuffing，而不是单一团队职责内的主线贡献。",
+        "fix": "收敛成 1 个主云/主平台 + 1-2 个辅助技术，把其余平台改写成 test environment / evaluation environment 背景，或者只保留真正核心的云与部署栈。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把 Summary 第一段改成直接的 AI/ML engineer / ML systems 定位，去掉首句的“transitioning from data analytics into software engineering”主叙事。",
+    "[MUST] 把 Summary 第三句的 `Strategic Problem Solving` 改成更强的认知型 header，例如 `Pattern recognition` 或 `Structural intuition`。",
+    "[SHOULD] 收敛 TikTok internship 里的云与平台栈，只保留主云和真正核心的部署/检索技术，避免 AWS + GCP + Azure 同段堆叠。",
+    "[NICE] 其余 bullets 保持现状即可，重点是把首屏叙事从“转型说明”改成“AI/ML 系统能力 + 具体 scope”。"
+  ],
+  "revision_instructions": "[MUST] 先重写 Summary：第 1 句用“AI/ML engineer / ML systems builder + 具体技术范围”直接定角色，不要以“transitioning from data analytics into software engineering”开头；第 3 句把 `Strategic Problem Solving` 换成更强的认知型 header。 [MUST] 收敛 TikTok 段的云/平台叙事，只保留主云和真正核心的部署/检索栈，把其余平台放回 test environment / evaluation environment 背景，避免 internship 段看起来像多云堆栈。"
+}

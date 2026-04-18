@@ -1,0 +1,346 @@
+{
+  "label": "gen2/Genentech-MLInfra",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Genentech-MLInfra",
+    "company": "Genentech",
+    "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Infra",
+    "role_type": "mle",
+    "seniority": "senior",
+    "team_direction": "Genentech is a leading biotechnology company focused on innovation and healthcare access",
+    "tech_required": [
+      "Python",
+      "AWS",
+      "C++",
+      "Go",
+      "Rust",
+      "Git",
+      "Scala"
+    ],
+    "tech_preferred": [
+      "PyTorch",
+      "ML Infrastructure"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 94.5,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.3,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 8.9,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.5,
+      "verdict": "pass",
+      "seed_label": "Amazon AGI/LLM Anchor",
+      "route_mode": "retarget",
+      "revised": true,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T21:54:04",
+      "rereview_rounds": 1,
+      "rereview_revised": true,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_achievement"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 93.9,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:15:46",
+    "completed_at": "2026-04-17T22:16:38",
+    "duration_seconds": 52.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok and DiDi",
+            "issue": "Several bullets bold qualifying adjectives or ownership markers such as \"team-maintained\", \"intern-owned\", and \"team-owned\". That weakens the visual convention that bold should be reserved for technologies and the most important scale/result signals.",
+            "fix": "Remove bold from modifiers and keep bolding focused on core technologies, key metrics, and scope signals."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok and DiDi sections",
+            "issue": "The resume tells a strong infra story, but it does not explicitly connect that experience to Genentech's biotech / healthcare context. A reviewer may still have to infer the migration logic from security, marketplace, and food-delivery work.",
+            "fix": "Add one concise bridge sentence in Summary or the most relevant project framing how auditability, privacy-sensitive workflows, and evaluation / replay patterns transfer to regulated healthcare ML infra."
+          },
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience",
+            "issue": "The summary and newest role surface six programming languages as if they were all primary daily-stack languages. That reads like stack inflation unless you distinguish core ownership from adjacency or integration work.",
+            "fix": "Reduce each role to 2-3 primary languages and move the rest into supporting notes or project-specific integration details."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "The newest section leans heavily on latency and percentage improvements, but it does not give a Tier 1 scope anchor such as service scale, team size, request volume, or SLA. That weakens the seniority signal on first pass.",
+            "fix": "Rewrite the strongest TikTok bullet to include one concrete scope metric or ownership boundary alongside the improvement result."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Add one explicit bridge sentence for Genentech that ties the security / evaluation / replay work to regulated healthcare ML infra.",
+        "[SHOULD] Trim the apparent multi-language surface area by marking which languages were primary versus support / integration languages in each role.",
+        "[SHOULD] Add one Tier 1 scope signal to the TikTok section so the newest experience reads senior enough on first scan.",
+        "[NICE] Remove bold from modifiers and keep the bolding pattern reserved for technologies and high-value metrics."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 9.5,
+        "r3_overqualification": 9.0,
+        "r4_rationality": 9.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 96.5,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Add one explicit bridge sentence for Genentech that ties the security / evaluation / replay work to regulated healthcare ML infra.",
+        "[SHOULD] Trim the apparent multi-language surface area by marking which languages were primary versus support / integration languages in each role.",
+        "[SHOULD] Add one Tier 1 scope signal to the TikTok section so the newest experience reads senior enough on first scan.",
+        "[NICE] Remove bold from modifiers and keep the bolding pattern reserved for technologies and high-value metrics."
+      ],
+      "revision_instructions": "",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Experience bullets across TikTok and DiDi",
+              "issue": "Several bullets bold qualifying adjectives or ownership markers such as \"team-maintained\", \"intern-owned\", and \"team-owned\". That weakens the visual convention that bold should be reserved for technologies and the most important scale/result signals.",
+              "fix": "Remove bold from modifiers and keep bolding focused on core technologies, key metrics, and scope signals."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-003",
+              "sub_area": "3B",
+              "severity": "medium",
+              "field": "Professional Summary; TikTok and DiDi sections",
+              "issue": "The resume tells a strong infra story, but it does not explicitly connect that experience to Genentech's biotech / healthcare context. A reviewer may still have to infer the migration logic from security, marketplace, and food-delivery work.",
+              "fix": "Add one concise bridge sentence in Summary or the most relevant project framing how auditability, privacy-sensitive workflows, and evaluation / replay patterns transfer to regulated healthcare ML infra."
+            },
+            {
+              "rule_id": "P3C-011",
+              "sub_area": "3C",
+              "severity": "medium",
+              "field": "Professional Summary; TikTok Experience",
+              "issue": "The summary and newest role surface six programming languages as if they were all primary daily-stack languages. That reads like stack inflation unless you distinguish core ownership from adjacency or integration work.",
+              "fix": "Reduce each role to 2-3 primary languages and move the rest into supporting notes or project-specific integration details."
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Experience",
+              "issue": "The newest section leans heavily on latency and percentage improvements, but it does not give a Tier 1 scope anchor such as service scale, team size, request volume, or SLA. That weakens the seniority signal on first pass.",
+              "fix": "Rewrite the strongest TikTok bullet to include one concrete scope metric or ownership boundary alongside the improvement result."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[SHOULD] Add one explicit bridge sentence for Genentech that ties the security / evaluation / replay work to regulated healthcare ML infra.",
+          "[SHOULD] Trim the apparent multi-language surface area by marking which languages were primary versus support / integration languages in each role.",
+          "[SHOULD] Add one Tier 1 scope signal to the TikTok section so the newest experience reads senior enough on first scan.",
+          "[NICE] Remove bold from modifiers and keep the bolding pattern reserved for technologies and high-value metrics."
+        ],
+        "revision_instructions": "",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok and DiDi",
+            "issue": "Several bullets bold qualifying adjectives or ownership markers such as \"team-maintained\", \"intern-owned\", and \"team-owned\". That weakens the visual convention that bold should be reserved for technologies and the most important scale/result signals.",
+            "fix": "Remove bold from modifiers and keep bolding focused on core technologies, key metrics, and scope signals."
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok and DiDi sections",
+            "issue": "The resume tells a strong infra story, but it does not explicitly connect that experience to Genentech's biotech / healthcare context. A reviewer may still have to infer the migration logic from security, marketplace, and food-delivery work.",
+            "fix": "Add one concise bridge sentence in Summary or the most relevant project framing how auditability, privacy-sensitive workflows, and evaluation / replay patterns transfer to regulated healthcare ML infra."
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience",
+            "issue": "The summary and newest role surface six programming languages as if they were all primary daily-stack languages. That reads like stack inflation unless you distinguish core ownership from adjacency or integration work.",
+            "fix": "Reduce each role to 2-3 primary languages and move the rest into supporting notes or project-specific integration details."
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "The newest section leans heavily on latency and percentage improvements, but it does not give a Tier 1 scope anchor such as service scale, team size, request volume, or SLA. That weakens the seniority signal on first pass.",
+            "fix": "Rewrite the strongest TikTok bullet to include one concrete scope metric or ownership boundary alongside the improvement result."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 3,
+          "rule_ids": [
+            "P3B-003",
+            "P3C-011",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P3B-003",
+        "P3C-011",
+        "P3D-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

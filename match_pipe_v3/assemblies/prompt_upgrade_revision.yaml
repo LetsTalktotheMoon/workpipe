@@ -1,0 +1,21 @@
+name: prompt_upgrade_revision
+sections:
+  - part: upgrade_prompt
+    condition: not is_bytedance
+  - part: upgrade_bytedance_special
+    condition: is_bytedance
+  - template_part: upgrade_context
+    vars:
+      resume_md: resume_md
+  - group: format_constraints
+    join: "\n\n"
+    sections:
+      - part: format_constraints_shared_head
+      - part: format_constraints_branch
+        condition: not is_bytedance
+      - part: format_constraints_branch_bytedance
+        condition: is_bytedance
+      - part: format_constraints_shared_mid
+      - part: format_constraints_shared_tail
+  - part: output_contract
+join: "\n\n"

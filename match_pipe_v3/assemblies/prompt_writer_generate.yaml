@@ -1,0 +1,61 @@
+name: prompt_writer_generate
+sections:
+  - group: candidate_context_generic
+    condition: not is_bytedance
+    join: "\n\n"
+    sections:
+      - part: candidate_context_shared_experience
+      - part: candidate_context_generic_tiktok_branch
+      - part: candidate_context_shared_education
+      - part: candidate_context_shared_achievements
+
+  - group: candidate_context_bytedance
+    condition: is_bytedance
+    join: "\n\n"
+    sections:
+      - part: candidate_context_shared_experience
+      - group: education
+        join: "\n"
+        sections:
+          - part: candidate_context_shared_education
+          - part: candidate_context_bytedance_education_branch
+      - part: candidate_context_shared_achievements
+      - part: candidate_context_bytedance_boundary
+      - part: retarget_bytedance_special
+
+  - template_part: writer_jd_context
+    vars:
+      company: company
+      title: title
+      role_type: role_type
+      seniority: seniority
+      team_direction: team_direction
+      tech_required: tech_required
+      tech_preferred: tech_preferred
+      or_group: or_group
+      soft_required: soft_required
+
+  - group: writer_user_header
+    join: "\n\n"
+    sections:
+      - part: writer_plan_shared_intro
+      - part: writer_plan_generic_tiktok_branch
+        condition: not is_bytedance
+      - part: writer_plan_shared_didi_temu
+      - part: writer_plan_shared_gt_coursework
+      - part: writer_plan_shared_tail
+
+  - group: format_constraints
+    join: "\n\n"
+    sections:
+      - part: format_constraints_shared_head
+      - part: format_constraints_branch
+        condition: not is_bytedance
+      - part: format_constraints_branch_bytedance
+        condition: is_bytedance
+      - part: format_constraints_shared_mid
+      - part: format_constraints_shared_tail
+
+  - part: output_contract
+
+join: "\n\n"

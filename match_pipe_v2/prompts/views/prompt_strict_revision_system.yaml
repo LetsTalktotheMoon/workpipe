@@ -1,0 +1,8 @@
+view_id: prompt_strict_revision_system
+title: Strict Revision System Prompt
+pipeline: match_pipe
+stage: retarget / strict revise
+role: writer
+description: seed retarget 和严格修稿时走这段 system prompt。
+system_block: strict_revision_system
+user_blocks: []

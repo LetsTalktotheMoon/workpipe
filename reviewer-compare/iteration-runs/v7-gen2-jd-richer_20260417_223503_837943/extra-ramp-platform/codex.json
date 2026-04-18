@@ -1,0 +1,165 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:46:22",
+  "completed_at": "2026-04-17T22:47:30",
+  "duration_seconds": 68.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Summary / Experience bullets",
+          "issue": "Most of the salient quantitative anchors and scope signals are left unbolded, so the resume emphasizes technologies but not the numbers that carry the strongest scan value. Examples include latency deltas, percentage lifts, time savings, and team/squad size.",
+          "fix": "Bold the key impact numbers already present, especially the first bullet in each experience and the most important scope line, e.g. **4.8s -> 2.9s**, **24%**, **33%**, **46 min -> 21 min**, **13-person**, and **20+ city**."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience",
+          "issue": "The newest and most relevant experience is dominated by tier-2 improvement metrics, but it does not surface a tier-1 scope anchor early enough. The bullets show good technical execution, yet the opening reads more like a sequence of localized optimizations than a larger infrastructure ownership story.",
+          "fix": "Add one concrete scope/ownership signal to the first or second TikTok bullet, such as the number of services, environments, analysts, documents, or event volumes involved, while keeping the existing latency and reliability deltas."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Add one tier-1 scope/ownership anchor to the TikTok experience so the newest role opens with scale, not only optimization deltas.",
+      "[SHOULD] Bold the most important impact numbers and scope signals in the Summary and top bullets so the first scan lands on scale as well as stack.",
+      "[NICE] Keep the current stack breadth; it already matches Ramp's infra requirements well."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 98.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Add one tier-1 scope/ownership anchor to the TikTok experience so the newest role opens with scale, not only optimization deltas.",
+      "[SHOULD] Bold the most important impact numbers and scope signals in the Summary and top bullets so the first scan lands on scale as well as stack.",
+      "[NICE] Keep the current stack breadth; it already matches Ramp's infra requirements well."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Summary / Experience bullets",
+            "issue": "Most of the salient quantitative anchors and scope signals are left unbolded, so the resume emphasizes technologies but not the numbers that carry the strongest scan value. Examples include latency deltas, percentage lifts, time savings, and team/squad size.",
+            "fix": "Bold the key impact numbers already present, especially the first bullet in each experience and the most important scope line, e.g. **4.8s -> 2.9s**, **24%**, **33%**, **46 min -> 21 min**, **13-person**, and **20+ city**."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "The newest and most relevant experience is dominated by tier-2 improvement metrics, but it does not surface a tier-1 scope anchor early enough. The bullets show good technical execution, yet the opening reads more like a sequence of localized optimizations than a larger infrastructure ownership story.",
+            "fix": "Add one concrete scope/ownership signal to the first or second TikTok bullet, such as the number of services, environments, analysts, documents, or event volumes involved, while keeping the existing latency and reliability deltas."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Add one tier-1 scope/ownership anchor to the TikTok experience so the newest role opens with scale, not only optimization deltas.",
+        "[SHOULD] Bold the most important impact numbers and scope signals in the Summary and top bullets so the first scan lands on scale as well as stack.",
+        "[NICE] Keep the current stack breadth; it already matches Ramp's infra requirements well."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Summary / Experience bullets",
+          "issue": "Most of the salient quantitative anchors and scope signals are left unbolded, so the resume emphasizes technologies but not the numbers that carry the strongest scan value. Examples include latency deltas, percentage lifts, time savings, and team/squad size.",
+          "fix": "Bold the key impact numbers already present, especially the first bullet in each experience and the most important scope line, e.g. **4.8s -> 2.9s**, **24%**, **33%**, **46 min -> 21 min**, **13-person**, and **20+ city**."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience",
+          "issue": "The newest and most relevant experience is dominated by tier-2 improvement metrics, but it does not surface a tier-1 scope anchor early enough. The bullets show good technical execution, yet the opening reads more like a sequence of localized optimizations than a larger infrastructure ownership story.",
+          "fix": "Add one concrete scope/ownership signal to the first or second TikTok bullet, such as the number of services, environments, analysts, documents, or event volumes involved, while keeping the existing latency and reliability deltas."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

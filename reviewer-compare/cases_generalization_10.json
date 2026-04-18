@@ -1,0 +1,52 @@
+[
+  {
+    "label": "gen2/Discord-DBInfra",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93",
+    "historical": {}
+  },
+  {
+    "label": "gen2/AppliedIntuition-CloudInfra",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/applied-intuition/2026-04-04/68cd5f0ce23def7af55b9117",
+    "historical": {}
+  },
+  {
+    "label": "gen2/Fireblocks-SRE",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82",
+    "historical": {}
+  },
+  {
+    "label": "gen2/ChildrensHospital-Azure",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a",
+    "historical": {}
+  },
+  {
+    "label": "gen2/CapitalOne-Manager2",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a",
+    "historical": {}
+  },
+  {
+    "label": "gen2/Fanduel-AnalyticsManager",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b",
+    "historical": {}
+  },
+  {
+    "label": "gen2/Geico-SWE2",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e",
+    "historical": {}
+  },
+  {
+    "label": "gen2/Doordash-Backend",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b",
+    "historical": {}
+  },
+  {
+    "label": "gen2/Cisco-NetworkingSenior",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/cisco/2026-04-06/69d3d5cacdb525785fbc37af",
+    "historical": {}
+  },
+  {
+    "label": "gen2/Genentech-MLInfra",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43",
+    "historical": {}
+  }
+]

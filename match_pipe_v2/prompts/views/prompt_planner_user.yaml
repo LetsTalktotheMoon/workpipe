@@ -1,0 +1,9 @@
+view_id: prompt_planner_user
+title: Planner User Prompt
+pipeline: match_pipe
+stage: planner user
+role: planner
+description: planner-only 的 user prompt。
+user_blocks:
+- planner_user
+- planner_context

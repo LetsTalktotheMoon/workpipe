@@ -1,0 +1,162 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:41:00",
+  "completed_at": "2026-04-17T20:41:48",
+  "duration_seconds": 48.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary and Experience bullets",
+          "issue": "Several limiting or qualifying phrases are bolded in the body, including terms like **team-maintained**, **existing**, and **internal**. The rule allows bolding technical nouns and scale signals, but not modifiers/qualifiers.",
+          "fix": "Remove bold styling from qualifiers and keep bold only on technical nouns, system names, and quantifiable scope signals."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Summary, sentence 3",
+          "issue": "The header **Structured Problem Solver** is understandable, but it is generic and does not foreground a sharper backend/security judgment signal on first read.",
+          "fix": "Replace it with a stronger cognition header such as **Systems Judgment:** or **Decision-Making:**, while keeping the supporting text aligned to backend execution."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Remove bolding from qualifying modifiers in the body bullets; keep bolding limited to technical nouns and scope signals.",
+      "[SHOULD] Rewrite Summary sentence 3 to use a stronger cognition header that reads more senior and more backend-oriented.",
+      "[NICE] If you want slightly stronger seniority signaling, add one explicit scope or scale anchor to the most relevant backend bullet."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 98.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Remove bolding from qualifying modifiers in the body bullets; keep bolding limited to technical nouns and scope signals.",
+      "[SHOULD] Rewrite Summary sentence 3 to use a stronger cognition header that reads more senior and more backend-oriented.",
+      "[NICE] If you want slightly stronger seniority signaling, add one explicit scope or scale anchor to the most relevant backend bullet."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary and Experience bullets",
+            "issue": "Several limiting or qualifying phrases are bolded in the body, including terms like **team-maintained**, **existing**, and **internal**. The rule allows bolding technical nouns and scale signals, but not modifiers/qualifiers.",
+            "fix": "Remove bold styling from qualifiers and keep bold only on technical nouns, system names, and quantifiable scope signals."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Summary, sentence 3",
+            "issue": "The header **Structured Problem Solver** is understandable, but it is generic and does not foreground a sharper backend/security judgment signal on first read.",
+            "fix": "Replace it with a stronger cognition header such as **Systems Judgment:** or **Decision-Making:**, while keeping the supporting text aligned to backend execution."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Remove bolding from qualifying modifiers in the body bullets; keep bolding limited to technical nouns and scope signals.",
+        "[SHOULD] Rewrite Summary sentence 3 to use a stronger cognition header that reads more senior and more backend-oriented.",
+        "[NICE] If you want slightly stronger seniority signaling, add one explicit scope or scale anchor to the most relevant backend bullet."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary and Experience bullets",
+          "issue": "Several limiting or qualifying phrases are bolded in the body, including terms like **team-maintained**, **existing**, and **internal**. The rule allows bolding technical nouns and scale signals, but not modifiers/qualifiers.",
+          "fix": "Remove bold styling from qualifiers and keep bold only on technical nouns, system names, and quantifiable scope signals."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Summary, sentence 3",
+          "issue": "The header **Structured Problem Solver** is understandable, but it is generic and does not foreground a sharper backend/security judgment signal on first read.",
+          "fix": "Replace it with a stronger cognition header such as **Systems Judgment:** or **Decision-Making:**, while keeping the supporting text aligned to backend execution."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-010"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-010"
+    ],
+    "high_or_critical": []
+  }
+}

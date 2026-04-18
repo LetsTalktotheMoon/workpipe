@@ -1,0 +1,244 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:03:28",
+  "completed_at": "2026-04-17T23:04:18",
+  "duration_seconds": 50.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary, third sentence header (`Structured Problem Solver`)",
+          "issue": "The header is understandable but generic; it reads more like a soft trait than a high-signal backend/systems framing term.",
+          "fix": "Replace it with a sharper cognition header such as `Systems judgment:` or `Decision-making:` and anchor it to backend architecture, distributed systems, or API reliability."
+        },
+        {
+          "rule_id": "P2-020",
+          "severity": "low",
+          "field": "TikTok · Security, first bullet",
+          "issue": "The first bullet opens with a Tier 2 percentage lift and does not immediately surface the clearest scope/ownership signal for the newest experience.",
+          "fix": "Lead this bullet with the service boundary and owned workflow first, then keep the % result; if you have a real Tier 1 metric, surface it here."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok · Security, bullets 1-4",
+          "issue": "This section stacks multiple usage-level technologies in one internship scope: Go, Python, Java, Scala, Kafka, PostgreSQL, Elasticsearch, Docker, Kubernetes, AWS Bedrock, RAG, and S3. It reads as breadth-heavy stack display rather than a single coherent ownership story.",
+          "fix": "Compress the section around one primary ownership axis and keep only the technologies that directly support that axis; tie each remaining stack item to a distinct task, interface, or artifact."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "The newest/relevant experience relies mostly on percentage improvements, with no hard Tier 1 scale signal such as request volume, event rate, latency SLA, or service count.",
+          "fix": "Add one concrete scope metric to the most relevant bullet or project: request volume, event throughput, p95/p99 latency, dataset size, or number of services owned."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "DiDi · IBG · Food",
+          "issue": "The senior analyst section also leans heavily on percentage lifts and process speedups, so the scope signal is softer than it should be for a backend-targeted senior resume.",
+          "fix": "Surface one operating scale metric for this role, such as team scope, city coverage, event volume, or system boundary, so the business impact reads as more defensible."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the TikTok intern section to center one coherent ownership story instead of spreading across many language and infra families.",
+      "[MUST] Add at least one genuine Tier 1 scope metric to the newest backend-relevant experience or project.",
+      "[SHOULD] Replace `Structured Problem Solver` with a more specific cognition header tied to backend systems judgment.",
+      "[NICE] Move the strongest scope/ownership clause to the first TikTok bullet before any percentage lift."
+    ],
+    "revision_instructions": "[MUST] Rewrite the TikTok intern section so the bullets cluster around one primary ownership area (for example security retrieval, API serving, or event processing) instead of spreading across Go/Python, Java/Scala, Kafka, and Bedrock all at once. Keep JD coverage, but tie each technology to a distinct owned task. [MUST] Add one real Tier 1 scope metric to the most relevant backend section: request volume, event rate, latency/SLA, service count, dataset size, or team scope. If no such metric exists, do not invent one. [SHOULD] Replace `Structured Problem Solver` with a more specific header such as `Systems judgment:` or `Decision-making:`. [NICE] Reorder the first TikTok bullet so scope and ownership come before any percentage lift.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.8,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 1,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the TikTok intern section to center one coherent ownership story instead of spreading across many language and infra families.",
+      "[MUST] Add at least one genuine Tier 1 scope metric to the newest backend-relevant experience or project.",
+      "[SHOULD] Replace `Structured Problem Solver` with a more specific cognition header tied to backend systems judgment.",
+      "[NICE] Move the strongest scope/ownership clause to the first TikTok bullet before any percentage lift."
+    ],
+    "revision_instructions": "[MUST] Rewrite the TikTok intern section so the bullets cluster around one primary ownership area (for example security retrieval, API serving, or event processing) instead of spreading across Go/Python, Java/Scala, Kafka, and Bedrock all at once. Keep JD coverage, but tie each technology to a distinct owned task. [MUST] Add one real Tier 1 scope metric to the most relevant backend section: request volume, event rate, latency/SLA, service count, dataset size, or team scope. If no such metric exists, do not invent one. [SHOULD] Replace `Structured Problem Solver` with a more specific header such as `Systems judgment:` or `Decision-making:`. [NICE] Reorder the first TikTok bullet so scope and ownership come before any percentage lift.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary, third sentence header (`Structured Problem Solver`)",
+            "issue": "The header is understandable but generic; it reads more like a soft trait than a high-signal backend/systems framing term.",
+            "fix": "Replace it with a sharper cognition header such as `Systems judgment:` or `Decision-making:` and anchor it to backend architecture, distributed systems, or API reliability."
+          },
+          {
+            "rule_id": "P2-020",
+            "severity": "low",
+            "field": "TikTok · Security, first bullet",
+            "issue": "The first bullet opens with a Tier 2 percentage lift and does not immediately surface the clearest scope/ownership signal for the newest experience.",
+            "fix": "Lead this bullet with the service boundary and owned workflow first, then keep the % result; if you have a real Tier 1 metric, surface it here."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok · Security, bullets 1-4",
+            "issue": "This section stacks multiple usage-level technologies in one internship scope: Go, Python, Java, Scala, Kafka, PostgreSQL, Elasticsearch, Docker, Kubernetes, AWS Bedrock, RAG, and S3. It reads as breadth-heavy stack display rather than a single coherent ownership story.",
+            "fix": "Compress the section around one primary ownership axis and keep only the technologies that directly support that axis; tie each remaining stack item to a distinct task, interface, or artifact."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security",
+            "issue": "The newest/relevant experience relies mostly on percentage improvements, with no hard Tier 1 scale signal such as request volume, event rate, latency SLA, or service count.",
+            "fix": "Add one concrete scope metric to the most relevant bullet or project: request volume, event throughput, p95/p99 latency, dataset size, or number of services owned."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "DiDi · IBG · Food",
+            "issue": "The senior analyst section also leans heavily on percentage lifts and process speedups, so the scope signal is softer than it should be for a backend-targeted senior resume.",
+            "fix": "Surface one operating scale metric for this role, such as team scope, city coverage, event volume, or system boundary, so the business impact reads as more defensible."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the TikTok intern section to center one coherent ownership story instead of spreading across many language and infra families.",
+        "[MUST] Add at least one genuine Tier 1 scope metric to the newest backend-relevant experience or project.",
+        "[SHOULD] Replace `Structured Problem Solver` with a more specific cognition header tied to backend systems judgment.",
+        "[NICE] Move the strongest scope/ownership clause to the first TikTok bullet before any percentage lift."
+      ],
+      "revision_instructions": "[MUST] Rewrite the TikTok intern section so the bullets cluster around one primary ownership area (for example security retrieval, API serving, or event processing) instead of spreading across Go/Python, Java/Scala, Kafka, and Bedrock all at once. Keep JD coverage, but tie each technology to a distinct owned task. [MUST] Add one real Tier 1 scope metric to the most relevant backend section: request volume, event rate, latency/SLA, service count, dataset size, or team scope. If no such metric exists, do not invent one. [SHOULD] Replace `Structured Problem Solver` with a more specific header such as `Systems judgment:` or `Decision-making:`. [NICE] Reorder the first TikTok bullet so scope and ownership come before any percentage lift.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok · Security, bullets 1-4",
+          "issue": "This section stacks multiple usage-level technologies in one internship scope: Go, Python, Java, Scala, Kafka, PostgreSQL, Elasticsearch, Docker, Kubernetes, AWS Bedrock, RAG, and S3. It reads as breadth-heavy stack display rather than a single coherent ownership story.",
+          "fix": "Compress the section around one primary ownership axis and keep only the technologies that directly support that axis; tie each remaining stack item to a distinct task, interface, or artifact."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary, third sentence header (`Structured Problem Solver`)",
+          "issue": "The header is understandable but generic; it reads more like a soft trait than a high-signal backend/systems framing term.",
+          "fix": "Replace it with a sharper cognition header such as `Systems judgment:` or `Decision-making:` and anchor it to backend architecture, distributed systems, or API reliability."
+        },
+        {
+          "rule_id": "P2-020",
+          "severity": "low",
+          "field": "TikTok · Security, first bullet",
+          "issue": "The first bullet opens with a Tier 2 percentage lift and does not immediately surface the clearest scope/ownership signal for the newest experience.",
+          "fix": "Lead this bullet with the service boundary and owned workflow first, then keep the % result; if you have a real Tier 1 metric, surface it here."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "The newest/relevant experience relies mostly on percentage improvements, with no hard Tier 1 scale signal such as request volume, event rate, latency SLA, or service count.",
+          "fix": "Add one concrete scope metric to the most relevant bullet or project: request volume, event throughput, p95/p99 latency, dataset size, or number of services owned."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "DiDi · IBG · Food",
+          "issue": "The senior analyst section also leans heavily on percentage lifts and process speedups, so the scope signal is softer than it should be for a backend-targeted senior resume.",
+          "fix": "Surface one operating scale metric for this role, such as team scope, city coverage, event volume, or system boundary, so the business impact reads as more defensible."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-010",
+          "P2-020"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3C-010",
+          "P3D-001",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-010",
+      "P2-020",
+      "P3C-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ TikTok · Security, bullets 1-4"
+    ]
+  }
+}

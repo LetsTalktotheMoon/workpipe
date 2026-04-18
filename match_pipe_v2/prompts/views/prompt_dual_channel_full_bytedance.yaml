@@ -1,0 +1,19 @@
+view_id: prompt_dual_channel_full_bytedance
+title: Dual-channel Retarget Prompt（ByteDance 分支）
+pipeline: match_pipe
+stage: new_dual_channel / writer / bytedance
+role: writer
+description: dual-channel 的 ByteDance 路径在 retarget 主干外叠加专用分支。
+system_block: strict_revision_system
+user_blocks:
+- retarget_prompt
+- retarget_bytedance_special
+- retarget_same_company_bytedance
+- retarget_project_pool
+- retarget_context
+- format_constraints_shared_head
+- format_constraints_branch_bytedance
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract
+- dual_channel_overlay

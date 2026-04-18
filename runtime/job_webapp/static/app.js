@@ -1,5 +1,5 @@
 const AUTO_REFRESH_MS = 60_000;
-const FILTER_ORDER = ["company_size", "salary", "company", "title", "yoe", "review", "discovered", "published"];
+const FILTER_ORDER = ["company_size", "salary", "company", "title", "yoe", "review", "status", "discovered", "published"];
 
 function companySizeLabel(job) {
   if (job.company_size_label) return job.company_size_label;
@@ -86,6 +86,16 @@ const FILTERS = {
     getValue: (job) => job.review_status || "未review",
     sort: (a, b) => {
       const order = ["pass", "conditional_pass", "fail", "reject", "未review", "无简历"];
+      const ia = order.indexOf(a) === -1 ? 99 : order.indexOf(a);
+      const ib = order.indexOf(b) === -1 ? 99 : order.indexOf(b);
+      return ia - ib;
+    },
+  },
+  status: {
+    label: "Status",
+    getValue: (job) => normalizeApplyUrlStatus(job),
+    sort: (a, b) => {
+      const order = ["open", "closed", "unknown"];
       const ia = order.indexOf(a) === -1 ? 99 : order.indexOf(a);
       const ib = order.indexOf(b) === -1 ? 99 : order.indexOf(b);
       return ia - ib;
@@ -605,6 +615,26 @@ function renderReviewCell(job) {
   `;
 }
 
+function normalizeApplyUrlStatus(job) {
+  const raw = String(job.apply_url_status || "").trim().toLowerCase();
+  if (raw === "open" || raw === "closed" || raw === "unknown") return raw;
+  if (job.closed) return "closed";
+  return "unknown";
+}
+
+function renderApplyUrlCell(job) {
+  if (!job.apply_url) return "";
+  const urlStatus = normalizeApplyUrlStatus(job);
+  const linkText = urlStatus === "closed" ? "Closed" : urlStatus === "unknown" ? "Open?" : "Open";
+  return `<a
+    class="apply-url-link apply-url-status-${escapeHtml(urlStatus)}"
+    data-apply-url-status="${escapeHtml(urlStatus)}"
+    href="${escapeHtml(job.apply_url)}"
+    target="_blank"
+    rel="noreferrer"
+  >${escapeHtml(linkText)}</a>`;
+}
+
 function renderSortIndicators() {
   sortButtons.forEach((button) => {
     const key = button.dataset.sortKey;
@@ -664,13 +694,7 @@ function renderTable() {
           <td>${escapeHtml(job.yoe_label)}</td>
           <td>${escapeHtml(job.discovered_at)}</td>
           <td>${escapeHtml(job.publish_at)}</td>
-          <td>
-            ${
-              job.apply_url
-                ? `<a href="${escapeHtml(job.apply_url)}" target="_blank" rel="noreferrer">Open</a>`
-                : ""
-            }
-          </td>
+          <td>${renderApplyUrlCell(job)}</td>
           <td>
             ${
               job.resume_dir

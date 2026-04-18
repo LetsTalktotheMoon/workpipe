@@ -1,0 +1,914 @@
+[
+  {
+    "canonical_skill": "Python",
+    "category": "Programming Languages",
+    "introduction": "Python 是一种通用编程语言，广泛用于后端服务、数据流程、自动化脚本和应用型机器学习开发。",
+    "business_scenario": "团队可以用 Python 编写 ETL 任务、内部 API 和模型评估脚本，支持日常运营、分析与报表流程。"
+  },
+  {
+    "canonical_skill": "Go",
+    "category": "Programming Languages",
+    "introduction": "Go 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 Go 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "Java",
+    "category": "Programming Languages",
+    "introduction": "Java 是成熟的生产级编程语言，广泛用于后端服务、企业系统和大型代码库开发。",
+    "business_scenario": "团队可以用 Java 实现订单路由、账户流程或需要长期维护的集成服务。"
+  },
+  {
+    "canonical_skill": "JavaScript",
+    "category": "Programming Languages",
+    "introduction": "JavaScript 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 JavaScript 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "C++",
+    "category": "Programming Languages",
+    "introduction": "C++ 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 C++ 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "Scala",
+    "category": "Programming Languages",
+    "introduction": "Scala 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 Scala 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "TypeScript",
+    "category": "Programming Languages",
+    "introduction": "TypeScript 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 TypeScript 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "R",
+    "category": "Programming Languages",
+    "introduction": "R 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 R 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "C#",
+    "category": "Programming Languages",
+    "introduction": "C# 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 C# 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "PHP",
+    "category": "Programming Languages",
+    "introduction": "PHP 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 PHP 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "Ruby",
+    "category": "Programming Languages",
+    "introduction": "Ruby 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 Ruby 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "Rust",
+    "category": "Programming Languages",
+    "introduction": "Rust 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 Rust 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "Kotlin",
+    "category": "Programming Languages",
+    "introduction": "Kotlin 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 Kotlin 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "Swift",
+    "category": "Programming Languages",
+    "introduction": "Swift 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 Swift 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "MATLAB",
+    "category": "Programming Languages",
+    "introduction": "MATLAB 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 MATLAB 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "VB.NET",
+    "category": "Programming Languages",
+    "introduction": "VB.NET 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。",
+    "business_scenario": "团队可以用 VB.NET 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。"
+  },
+  {
+    "canonical_skill": "REST APIs",
+    "category": "Backend & APIs",
+    "introduction": "REST APIs 是基于 HTTP 的接口形式，便于不同应用以标准化方式交换数据和触发业务动作。",
+    "business_scenario": "团队可以用 REST APIs 打通订单、计费、CRM 和客服系统，让关键业务更新自动在多系统间流转。"
+  },
+  {
+    "canonical_skill": "gRPC",
+    "category": "Backend & APIs",
+    "introduction": "gRPC 是高性能的远程调用框架，适合后端系统之间进行类型明确、低延迟的通信。",
+    "business_scenario": "团队可以用 gRPC 连接搜索、推荐或风控等内部微服务，支撑对实时性要求较高的业务流程。"
+  },
+  {
+    "canonical_skill": "Microservices",
+    "category": "Backend & APIs",
+    "introduction": "Microservices 是一种架构模式，把系统拆分成多个可以独立部署和扩展的小服务。",
+    "business_scenario": "团队可以用微服务拆开计费、身份、搜索和通知模块，让不同业务能力独立演进和扩容。"
+  },
+  {
+    "canonical_skill": "Flask",
+    "category": "Backend & APIs",
+    "introduction": "Flask 是轻量级 Python Web 框架，适合快速搭建 API 和内部服务。",
+    "business_scenario": "团队可以用 Flask 上线内部审核工具或指标查询接口，服务运营和分析同学的日常工作。"
+  },
+  {
+    "canonical_skill": "Node.js",
+    "category": "Backend & APIs",
+    "introduction": "Node.js 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 Node.js 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "Spring Boot",
+    "category": "Backend & APIs",
+    "introduction": "Spring Boot 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 Spring Boot 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "Spring",
+    "category": "Backend & APIs",
+    "introduction": "Spring 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 Spring 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "Express",
+    "category": "Backend & APIs",
+    "introduction": "Express 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 Express 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": ".NET",
+    "category": "Backend & APIs",
+    "introduction": ".NET 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 .NET 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "ASP.NET",
+    "category": "Backend & APIs",
+    "introduction": "ASP.NET 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 ASP.NET 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "Rails",
+    "category": "Backend & APIs",
+    "introduction": "Rails 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 Rails 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "GraphQL",
+    "category": "Backend & APIs",
+    "introduction": "GraphQL 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 GraphQL 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "FastAPI",
+    "category": "Backend & APIs",
+    "introduction": "FastAPI 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 FastAPI 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "Django",
+    "category": "Backend & APIs",
+    "introduction": "Django 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 Django 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "NestJS",
+    "category": "Backend & APIs",
+    "introduction": "NestJS 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 NestJS 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": ".NET / C#",
+    "category": "Backend & APIs",
+    "introduction": ".NET / C# 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 .NET / C# 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "ASP.NET MVC",
+    "category": "Backend & APIs",
+    "introduction": "ASP.NET MVC 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。",
+    "business_scenario": "团队可以用 ASP.NET MVC 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。"
+  },
+  {
+    "canonical_skill": "React",
+    "category": "Frontend & UI",
+    "introduction": "React 是用于构建交互式界面的前端库，强调组件化开发和页面状态管理。",
+    "business_scenario": "团队可以用 React 搭建内部运营门户，让用户查看账户、处理告警并执行操作动作。"
+  },
+  {
+    "canonical_skill": "Angular",
+    "category": "Frontend & UI",
+    "introduction": "Angular 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Angular 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "CSS",
+    "category": "Frontend & UI",
+    "introduction": "CSS 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 CSS 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "HTML",
+    "category": "Frontend & UI",
+    "introduction": "HTML 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 HTML 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Vue",
+    "category": "Frontend & UI",
+    "introduction": "Vue 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Vue 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "HTML5",
+    "category": "Frontend & UI",
+    "introduction": "HTML5 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 HTML5 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Vite",
+    "category": "Frontend & UI",
+    "introduction": "Vite 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Vite 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "CSS3",
+    "category": "Frontend & UI",
+    "introduction": "CSS3 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 CSS3 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Next.js",
+    "category": "Frontend & UI",
+    "introduction": "Next.js 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Next.js 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Android SDK",
+    "category": "Frontend & UI",
+    "introduction": "Android SDK 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Android SDK 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Jetpack Compose",
+    "category": "Frontend & UI",
+    "introduction": "Jetpack Compose 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Jetpack Compose 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Material Design",
+    "category": "Frontend & UI",
+    "introduction": "Material Design 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Material Design 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Tailwind",
+    "category": "Frontend & UI",
+    "introduction": "Tailwind 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Tailwind 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "Webpack",
+    "category": "Frontend & UI",
+    "introduction": "Webpack 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。",
+    "business_scenario": "团队可以用 Webpack 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。"
+  },
+  {
+    "canonical_skill": "SQL",
+    "category": "Data & Analytics",
+    "introduction": "SQL 是关系型系统中最核心的查询语言，用于提取、聚合和校验结构化数据。",
+    "business_scenario": "团队可以用 SQL 做结算对账、漏斗转化分析，或生成财务和运营每天要看的 KPI 明细表。"
+  },
+  {
+    "canonical_skill": "Pandas",
+    "category": "Data & Analytics",
+    "introduction": "Pandas 是 Python 生态中的表格数据处理库，适合做清洗、合并和分析。",
+    "business_scenario": "团队可以用 Pandas 准备周度业务复盘、校验新指标口径，或在进入正式数据管道前先排查异常。"
+  },
+  {
+    "canonical_skill": "Spark SQL",
+    "category": "Data & Analytics",
+    "introduction": "Spark SQL 是面向大规模结构化数据的分布式查询引擎，支持类 SQL 方式处理海量数据。",
+    "business_scenario": "团队可以用 Spark SQL 汇总点击流、物流或交易数据，为每日经营报表提供基础结果。"
+  },
+  {
+    "canonical_skill": "Hive",
+    "category": "Data & Analytics",
+    "introduction": "Hive 是常见的数据仓库技术，用于在分布式存储上组织和查询大规模数据集。",
+    "business_scenario": "团队可以用 Hive 构建供给、增长或商家表现分析所需的批量数据表。"
+  },
+  {
+    "canonical_skill": "ETL",
+    "category": "Data & Analytics",
+    "introduction": "ETL 是抽取、转换、加载数据的流程，用于把原始数据整理成下游系统可直接使用的形式。",
+    "business_scenario": "团队可以用 ETL 将订单、商家或财务原始记录加工成看板、报表和管控系统可用的数据表。"
+  },
+  {
+    "canonical_skill": "A/B Testing",
+    "category": "Data & Analytics",
+    "introduction": "A/B Testing 是一种实验方法，用于比较不同方案并判断哪种改动在业务指标上表现更好。",
+    "business_scenario": "团队可以用 A/B Testing 验证新注册流程、排序模型或促销策略，再决定是否全量上线。"
+  },
+  {
+    "canonical_skill": "Airflow",
+    "category": "Data & Analytics",
+    "introduction": "Airflow 是工作流编排工具，可以用代码方式管理定时任务和上下游依赖。",
+    "business_scenario": "团队可以用 Airflow 驱动收入看板刷新、异常检查和下游通知等日常数据作业。"
+  },
+  {
+    "canonical_skill": "Jupyter",
+    "category": "Data & Analytics",
+    "introduction": "Jupyter 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Jupyter 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Spark",
+    "category": "Data & Analytics",
+    "introduction": "Spark 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Spark 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Tableau",
+    "category": "Data & Analytics",
+    "introduction": "Tableau 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Tableau 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Data Pipelines",
+    "category": "Data & Analytics",
+    "introduction": "Data Pipelines 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Data Pipelines 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Matplotlib",
+    "category": "Data & Analytics",
+    "introduction": "Matplotlib 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Matplotlib 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Snowflake",
+    "category": "Data & Analytics",
+    "introduction": "Snowflake 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Snowflake 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Databricks",
+    "category": "Data & Analytics",
+    "introduction": "Databricks 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Databricks 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "BigQuery",
+    "category": "Data & Analytics",
+    "introduction": "BigQuery 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 BigQuery 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "NumPy",
+    "category": "Data & Analytics",
+    "introduction": "NumPy 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 NumPy 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Power BI",
+    "category": "Data & Analytics",
+    "introduction": "Power BI 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Power BI 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "dbt",
+    "category": "Data & Analytics",
+    "introduction": "dbt 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 dbt 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Hadoop",
+    "category": "Data & Analytics",
+    "introduction": "Hadoop 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Hadoop 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Anomaly Detection",
+    "category": "Data & Analytics",
+    "introduction": "Anomaly Detection 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Anomaly Detection 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Dashboard Automation",
+    "category": "Data & Analytics",
+    "introduction": "Dashboard Automation 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Dashboard Automation 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Experiment Design",
+    "category": "Data & Analytics",
+    "introduction": "Experiment Design 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Experiment Design 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Forecasting",
+    "category": "Data & Analytics",
+    "introduction": "Forecasting 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Forecasting 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "KPI Measurement",
+    "category": "Data & Analytics",
+    "introduction": "KPI Measurement 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 KPI Measurement 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Looker",
+    "category": "Data & Analytics",
+    "introduction": "Looker 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Looker 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "Time Series Analysis",
+    "category": "Data & Analytics",
+    "introduction": "Time Series Analysis 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。",
+    "business_scenario": "团队可以用 Time Series Analysis 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。"
+  },
+  {
+    "canonical_skill": "RAG",
+    "category": "AI / ML",
+    "introduction": "RAG 将检索与生成结合起来，让模型基于知识库或文档内容给出有依据的回答。",
+    "business_scenario": "团队可以用 RAG 帮助分析师检索制度、合同或历史工单，并生成带引用依据的答复草稿。"
+  },
+  {
+    "canonical_skill": "AWS Bedrock",
+    "category": "AI / ML",
+    "introduction": "AWS Bedrock 提供对基础模型及相关组件的托管访问能力，适合企业级生成式 AI 场景。",
+    "business_scenario": "团队可以用 AWS Bedrock 搭建内部 Copilot，用于文档总结、制度问答或审核流程辅助。"
+  },
+  {
+    "canonical_skill": "LLM",
+    "category": "AI / ML",
+    "introduction": "LLM 指大语言模型，能够处理生成、分类、总结和改写等自然语言任务。",
+    "business_scenario": "团队可以用 LLM 总结工单、起草调查记录，或帮助员工更快检索大量文档资料。"
+  },
+  {
+    "canonical_skill": "scikit-learn",
+    "category": "AI / ML",
+    "introduction": "scikit-learn 是 Python 中常用的机器学习库，适合做传统模型训练、特征处理和效果评估。",
+    "business_scenario": "团队可以用 scikit-learn 预测流失风险、识别异常，或在上线前评估一个新的分类模型。"
+  },
+  {
+    "canonical_skill": "Machine Learning",
+    "category": "AI / ML",
+    "introduction": "Machine Learning 是利用数据训练模型，从而完成预测、排序或自动化决策的方法。",
+    "business_scenario": "团队可以用机器学习做需求预测、线索排序、欺诈识别或客服队列优先级分配。"
+  },
+  {
+    "canonical_skill": "PyTorch",
+    "category": "AI / ML",
+    "introduction": "PyTorch 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 PyTorch 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "TensorFlow",
+    "category": "AI / ML",
+    "introduction": "TensorFlow 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 TensorFlow 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Deep Learning",
+    "category": "AI / ML",
+    "introduction": "Deep Learning 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Deep Learning 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Generative AI",
+    "category": "AI / ML",
+    "introduction": "Generative AI 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Generative AI 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "NLP",
+    "category": "AI / ML",
+    "introduction": "NLP 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 NLP 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Model Deployment",
+    "category": "AI / ML",
+    "introduction": "Model Deployment 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Model Deployment 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "ML Infrastructure",
+    "category": "AI / ML",
+    "introduction": "ML Infrastructure 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 ML Infrastructure 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Prompt Engineering",
+    "category": "AI / ML",
+    "introduction": "Prompt Engineering 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Prompt Engineering 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Computer Vision",
+    "category": "AI / ML",
+    "introduction": "Computer Vision 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Computer Vision 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Keras",
+    "category": "AI / ML",
+    "introduction": "Keras 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Keras 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "OpenAI",
+    "category": "AI / ML",
+    "introduction": "OpenAI 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 OpenAI 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Context Engineering",
+    "category": "AI / ML",
+    "introduction": "Context Engineering 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Context Engineering 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Embeddings",
+    "category": "AI / ML",
+    "introduction": "Embeddings 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Embeddings 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "OpenAI API",
+    "category": "AI / ML",
+    "introduction": "OpenAI API 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 OpenAI API 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Azure OpenAI",
+    "category": "AI / ML",
+    "introduction": "Azure OpenAI 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Azure OpenAI 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "LLM Application Development",
+    "category": "AI / ML",
+    "introduction": "LLM Application Development 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 LLM Application Development 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "LangChain",
+    "category": "AI / ML",
+    "introduction": "LangChain 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 LangChain 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "MLOps",
+    "category": "AI / ML",
+    "introduction": "MLOps 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 MLOps 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Retrieval Evaluation",
+    "category": "AI / ML",
+    "introduction": "Retrieval Evaluation 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。",
+    "business_scenario": "团队可以用 Retrieval Evaluation 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。"
+  },
+  {
+    "canonical_skill": "Docker",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Docker 通过容器封装应用及其依赖，使软件能在不同环境中保持一致运行。",
+    "business_scenario": "团队可以用 Docker 把同一个服务镜像从本地测试一路部署到预发和生产，减少环境不一致导致的问题。"
+  },
+  {
+    "canonical_skill": "Kubernetes",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Kubernetes 是容器编排平台，负责处理部署、扩缩容、健康检查和服务发现。",
+    "business_scenario": "团队可以用 Kubernetes 保障内部 API 或批处理平台在流量变化和定时任务波动下依旧稳定运行。"
+  },
+  {
+    "canonical_skill": "AWS",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "AWS 是云平台，提供计算、存储、网络和各类托管服务，适合承载生产应用。",
+    "business_scenario": "团队可以用 AWS 托管 API、定时数据任务和对象存储，支撑日常业务系统运行。"
+  },
+  {
+    "canonical_skill": "CI/CD",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "CI/CD 用于自动化完成代码校验与部署，让变更可以更稳定地进入发布流程。",
+    "business_scenario": "团队可以用 CI/CD 在每次提交后自动跑测试，并把通过验证的构建按节奏推到预发和生产环境。"
+  },
+  {
+    "canonical_skill": "GitHub Actions",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "GitHub Actions 是基于代码仓库的工作流自动化平台，适合执行测试、检查和部署步骤。",
+    "business_scenario": "团队可以用 GitHub Actions 在 PR 合并后自动完成代码检查、集成测试和发布产物生成。"
+  },
+  {
+    "canonical_skill": "Azure",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Azure 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Azure 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "Linux",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Linux 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Linux 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "GCP",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "GCP 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 GCP 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "Shell",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Shell 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Shell 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "Jenkins",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Jenkins 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Jenkins 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "Terraform",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Terraform 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Terraform 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "Bash",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Bash 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Bash 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "Prometheus",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Prometheus 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Prometheus 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "ECS",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "ECS 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 ECS 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "GitLab CI",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "GitLab CI 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 GitLab CI 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "Ansible",
+    "category": "Cloud / DevOps / Infrastructure",
+    "introduction": "Ansible 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。",
+    "business_scenario": "团队可以用 Ansible 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。"
+  },
+  {
+    "canonical_skill": "PostgreSQL",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "PostgreSQL 是常见的关系型数据库，适合承载事务数据、复杂查询和稳定的应用存储。",
+    "business_scenario": "团队可以用 PostgreSQL 存储账户信息、流程状态和审计记录，支撑内部运营系统的核心能力。"
+  },
+  {
+    "canonical_skill": "Kafka",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "Kafka 是分布式事件流平台，用于发布、缓冲和消费高吞吐的数据流。",
+    "business_scenario": "团队可以用 Kafka 把订单、支付或风控事件从源系统送入监控、告警和分析链路中。"
+  },
+  {
+    "canonical_skill": "Redis",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "Redis 是内存型数据存储，常用于缓存、队列、会话状态和高频键值查询。",
+    "business_scenario": "团队可以用 Redis 加速看板加载、限流控制或面向客户平台中的流程状态读取。"
+  },
+  {
+    "canonical_skill": "MySQL",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "MySQL 是常用的关系型数据库，适合存储事务型应用和内部工具的数据。",
+    "business_scenario": "团队可以用 MySQL 支撑运营看板，实时记录案件、任务和审核结果等业务信息。"
+  },
+  {
+    "canonical_skill": "S3",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "S3 是 AWS 的对象存储服务，适合长期保存文件、数据集备份和各类产物。",
+    "business_scenario": "团队可以用 S3 存储简历、发票、日志或模型文件，供下游任务持续读取和处理。"
+  },
+  {
+    "canonical_skill": "MongoDB",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "MongoDB 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 MongoDB 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "NoSQL",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "NoSQL 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 NoSQL 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "Cassandra",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "Cassandra 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 Cassandra 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "Flink",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "Flink 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 Flink 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "Elasticsearch",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "Elasticsearch 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 Elasticsearch 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "DynamoDB",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "DynamoDB 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 DynamoDB 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "Redshift",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "Redshift 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 Redshift 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "Azure Blob Storage",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "Azure Blob Storage 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 Azure Blob Storage 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "DB2",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "DB2 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 DB2 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "SSMS",
+    "category": "Databases / Storage / Streaming",
+    "introduction": "SSMS 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。",
+    "business_scenario": "团队可以用 SSMS 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。"
+  },
+  {
+    "canonical_skill": "Algorithms",
+    "category": "Architecture / Systems",
+    "introduction": "Algorithms 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Algorithms 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "Data Structures",
+    "category": "Architecture / Systems",
+    "introduction": "Data Structures 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Data Structures 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "Distributed Systems",
+    "category": "Architecture / Systems",
+    "introduction": "Distributed Systems 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Distributed Systems 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "System Design",
+    "category": "Architecture / Systems",
+    "introduction": "System Design 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 System Design 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "Embedded Systems",
+    "category": "Architecture / Systems",
+    "introduction": "Embedded Systems 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Embedded Systems 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "Networking",
+    "category": "Architecture / Systems",
+    "introduction": "Networking 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Networking 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "Network Protocol",
+    "category": "Architecture / Systems",
+    "introduction": "Network Protocol 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Network Protocol 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "Large-Scale Systems",
+    "category": "Architecture / Systems",
+    "introduction": "Large-Scale Systems 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。",
+    "business_scenario": "团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Large-Scale Systems 来做技术取舍。"
+  },
+  {
+    "canonical_skill": "Git",
+    "category": "Quality & Workflow",
+    "introduction": "Git 是版本控制系统，用于追踪代码变更并支持团队协作开发。",
+    "business_scenario": "团队可以用 Git 管理功能开发、隔离缺陷修复，并保留一份清晰可靠的生产变更历史。"
+  },
+  {
+    "canonical_skill": "Scrum",
+    "category": "Quality & Workflow",
+    "introduction": "Scrum 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Scrum 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Unit Testing",
+    "category": "Quality & Workflow",
+    "introduction": "Unit Testing 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Unit Testing 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Jira",
+    "category": "Quality & Workflow",
+    "introduction": "Jira 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Jira 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "TDD",
+    "category": "Quality & Workflow",
+    "introduction": "TDD 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 TDD 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Agile",
+    "category": "Quality & Workflow",
+    "introduction": "Agile 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Agile 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "pytest",
+    "category": "Quality & Workflow",
+    "introduction": "pytest 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 pytest 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "JUnit",
+    "category": "Quality & Workflow",
+    "introduction": "JUnit 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 JUnit 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Code Review",
+    "category": "Quality & Workflow",
+    "introduction": "Code Review 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Code Review 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Playwright",
+    "category": "Quality & Workflow",
+    "introduction": "Playwright 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Playwright 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Software Test Engineering",
+    "category": "Quality & Workflow",
+    "introduction": "Software Test Engineering 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Software Test Engineering 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Selenium",
+    "category": "Quality & Workflow",
+    "introduction": "Selenium 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Selenium 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Design Review",
+    "category": "Quality & Workflow",
+    "introduction": "Design Review 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Design Review 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Cypress",
+    "category": "Quality & Workflow",
+    "introduction": "Cypress 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Cypress 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Jest",
+    "category": "Quality & Workflow",
+    "introduction": "Jest 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Jest 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  },
+  {
+    "canonical_skill": "Visual Studio",
+    "category": "Quality & Workflow",
+    "introduction": "Visual Studio 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。",
+    "business_scenario": "团队可以用 Visual Studio 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。"
+  }
+]

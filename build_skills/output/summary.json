@@ -1,0 +1,55 @@
+{
+  "generated_at_utc": "2026-04-13T16:18:43+00:00",
+  "resume_summary": {
+    "source": "resume",
+    "catalog_record_count": 616,
+    "record_count": 616,
+    "skill_mentions": 16902,
+    "unique_canonical_skills": 152,
+    "unique_categories": 9
+  },
+  "jd_summary": {
+    "source": "jd",
+    "catalog_record_count": 3999,
+    "record_count": 3942,
+    "skill_mentions": 68141,
+    "unique_canonical_skills": 159,
+    "unique_categories": 9
+  },
+  "combined_overview": [
+    {
+      "scope": "resume",
+      "unique_skills": 152
+    },
+    {
+      "scope": "jd",
+      "unique_skills": 159
+    },
+    {
+      "scope": "overlap",
+      "unique_skills": 149
+    },
+    {
+      "scope": "union",
+      "unique_skills": 162
+    },
+    {
+      "scope": "resume_only",
+      "unique_skills": 3
+    },
+    {
+      "scope": "jd_only",
+      "unique_skills": 10
+    }
+  ],
+  "jd_non_tech_frequency_summary": {
+    "catalog_record_count": 3999,
+    "accepted_rows": 20968,
+    "final_title_count": 33,
+    "bucket_title_counts": {
+      "generalized_tech": 9,
+      "business_domain": 20,
+      "soft_skill": 4
+    }
+  }
+}

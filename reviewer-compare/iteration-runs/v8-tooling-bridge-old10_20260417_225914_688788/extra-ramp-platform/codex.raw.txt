@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary; TikTok Experience bullets 3-4; DiDi Experience bullets 1-2",
+        "issue": "正文中有多处修饰语/限定词被加粗，例如 `**team-maintained**`、`**existing**`、`**internal**`。这会稀释技术栈和量化信号的视觉权重，不符合该简历的加粗规则。",
+        "fix": "取消这些修饰语的加粗，只保留技术名词、关键系统名和量化结果加粗；把视觉强调集中在技术栈、规模、延迟、吞吐和结果上。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 去掉正文里修饰语/限定词的加粗，保留技术栈和量化结果的加粗权重。",
+    "[NICE] 统一全篇的强调策略，让首屏更聚焦在技术栈、系统边界和量化结果上。"
+  ],
+  "revision_instructions": ""
+}

@@ -1,0 +1,45 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Summary / Experience bullets",
+        "issue": "多处把限定词和修饰语加粗，例如 `team-maintained`、`existing`、`internal`、`team-owned`，视觉权重被分散，容易稀释真正该被抓住的关键词。",
+        "fix": "取消这些限定词的加粗，只保留技术栈、角色名和关键结果数字加粗。"
+      },
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience bullets",
+        "issue": "多处关键量化信号和规模锚点没有做视觉强调，例如 `13-person`、`20+ cities`、`31%`、`43%` 这类首屏抓手未加粗。",
+        "fix": "把每段里最强的 1 个 scope/impact 数字加粗，优先保留团队规模、覆盖城市数、SLA 或最核心的结果指标。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security experience",
+        "issue": "最新经历的 4 条 bullet 几乎都在写效率/精度百分比，没有 Tier 1 规模锚点，作为 `Senior Enterprise Data Analyst` 的首屏说服力偏弱。",
+        "fix": "在最相关的一条 bullet 里补一个可追问的规模信号，例如日处理量、case volume、dataset rows、团队规模或 SLA，再保留现有百分比结果。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 在 TikTok 经验补一个 Tier 1 scope 锚点，不要只靠百分比结果支撑首屏。",
+    "[SHOULD] 收敛加粗策略，去掉限定词加粗，并把最强的量化数字突出出来。",
+    "[NICE] 如果要更贴近 AMH，可在 Summary 或 DiDi 项目里补一句 enterprise ops / stakeholder reporting 的迁移桥接。"
+  ],
+  "revision_instructions": ""
+}

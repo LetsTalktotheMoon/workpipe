@@ -1,0 +1,174 @@
+raw_skill,canonical_skill,total_mentions,resume_count,source_labels,categories
+Python,Python,616,616,"APIs, Data, Programming",Programming Languages
+SQL,SQL,616,616,"AI/ML, APIs, Cloud, Data, Programming",Data & Analytics
+Docker,Docker,606,606,Cloud,Cloud / DevOps / Infrastructure
+Kubernetes,Kubernetes,596,596,"Cloud, Systems",Cloud / DevOps / Infrastructure
+PostgreSQL,PostgreSQL,584,584,"Cloud, Systems",Databases / Storage / Streaming
+Go,Go,574,574,"APIs, Programming",Programming Languages
+Kafka,Kafka,574,574,"Cloud, Programming, Systems",Databases / Storage / Streaming
+Pandas,Pandas,569,569,"AI/ML, Data, Programming",Data & Analytics
+Spark SQL,Spark SQL,568,568,"AI/ML, APIs, Analytics, Cloud, Data",Data & Analytics
+Hive,Hive,559,559,"AI/ML, APIs, Analytics, Data, Programming",Data & Analytics
+Java,Java,530,530,"APIs, Programming",Programming Languages
+gRPC,gRPC,526,526,"APIs, Programming",Backend & APIs
+REST,REST APIs,503,503,"APIs, Programming",Backend & APIs
+AWS,AWS,497,497,Cloud,Cloud / DevOps / Infrastructure
+Redis,Redis,484,484,"Cloud, Programming, Systems",Databases / Storage / Streaming
+RAG,RAG,462,462,"AI/ML, Analytics, Cloud, Data",AI / ML
+AWS Bedrock,AWS Bedrock,456,456,"AI/ML, Analytics, Cloud, Data",AI / ML
+ETL,ETL,450,450,"Analytics, Data, Programming",Data & Analytics
+MySQL,MySQL,401,401,"Cloud, Programming, Systems",Databases / Storage / Streaming
+A/B Testing,A/B Testing,389,389,"Analytics, Data",Data & Analytics
+S3,S3,370,370,"Cloud, Systems",Databases / Storage / Streaming
+Airflow,Airflow,355,355,"APIs, Analytics, Data, Programming",Data & Analytics
+CI/CD,CI/CD,343,343,"Cloud, Systems",Cloud / DevOps / Infrastructure
+GitHub Actions,GitHub Actions,333,333,"Cloud, Systems",Cloud / DevOps / Infrastructure
+Microservices,Microservices,326,326,"Cloud, Programming, Systems",Backend & APIs
+Flask,Flask,319,319,"APIs, Programming",Backend & APIs
+LLM,LLM,173,173,"AI/ML, Analytics, Cloud, Data",AI / ML
+JavaScript,JavaScript,169,169,"APIs, Programming",Programming Languages
+scikit-learn,scikit-learn,167,167,"AI/ML, Analytics, Cloud, Data",AI / ML
+Machine Learning,Machine Learning,164,164,"AI/ML, Analytics, Cloud, Data",AI / ML
+Git,Git,160,160,"APIs, Programming",Quality & Workflow
+C++,C++,146,146,Programming,Programming Languages
+Scala,Scala,146,146,"APIs, Programming",Programming Languages
+React,React,140,140,"APIs, Programming",Frontend & UI
+Algorithms,Algorithms,130,130,"APIs, Programming",Architecture / Systems
+Azure,Azure,124,124,Cloud,Cloud / DevOps / Infrastructure
+Data Structures,Data Structures,124,124,"APIs, Programming",Architecture / Systems
+TypeScript,TypeScript,124,124,Programming,Programming Languages
+Scrum,Scrum,114,114,"APIs, Programming",Quality & Workflow
+PyTorch,PyTorch,96,96,"APIs, Programming",AI / ML
+Linux,Linux,95,95,"APIs, Programming",Cloud / DevOps / Infrastructure
+RESTful,REST APIs,80,80,"APIs, Programming",Backend & APIs
+Distributed Systems,Distributed Systems,79,79,"APIs, Programming",Architecture / Systems
+MongoDB,MongoDB,78,78,"APIs, Programming",Databases / Storage / Streaming
+Shell,Shell,78,78,"APIs, Programming",Cloud / DevOps / Infrastructure
+GCP,GCP,73,73,Cloud,Cloud / DevOps / Infrastructure
+Jupyter,Jupyter,73,73,"Analytics, Data",Data & Analytics
+NoSQL,NoSQL,65,65,"APIs, Programming",Databases / Storage / Streaming
+TensorFlow,TensorFlow,64,64,"APIs, Programming",AI / ML
+Jenkins,Jenkins,60,60,"APIs, Programming",Cloud / DevOps / Infrastructure
+Angular,Angular,51,51,"APIs, Programming",Frontend & UI
+Deep Learning,Deep Learning,49,49,"APIs, Programming",AI / ML
+Generative AI,Generative AI,48,48,"AI/ML, Analytics, Data",AI / ML
+Unit Testing,Unit Testing,48,48,"APIs, Programming",Quality & Workflow
+R,R,46,46,"AI/ML, Data",Programming Languages
+Css,CSS,43,43,"APIs, Programming",Frontend & UI
+Spark,Spark,43,43,"APIs, Programming",Data & Analytics
+Html,HTML,42,42,"APIs, Programming",Frontend & UI
+Node.js,Node.js,42,42,Programming,Backend & APIs
+Tableau,Tableau,42,42,"Analytics, Data",Data & Analytics
+Data Pipelines,Data Pipelines,41,41,"APIs, Programming",Data & Analytics
+System Design,System Design,41,41,"APIs, Programming",Architecture / Systems
+NLP,NLP,40,40,"AI/ML, Data",AI / ML
+Terraform,Terraform,40,40,Cloud,Cloud / DevOps / Infrastructure
+Spring Boot,Spring Boot,36,36,Programming,Backend & APIs
+Matplotlib,Matplotlib,35,35,Data,Data & Analytics
+Spring,Spring,35,35,Programming,Backend & APIs
+Jira,Jira,34,34,"APIs, Programming",Quality & Workflow
+TDD,TDD,34,34,"APIs, Programming",Quality & Workflow
+Snowflake,Snowflake,33,33,"APIs, Programming",Data & Analytics
+Bash,Bash,29,29,Programming,Cloud / DevOps / Infrastructure
+C#,C#,28,28,Programming,Programming Languages
+Express,Express,28,28,Programming,Backend & APIs
+Prometheus,Prometheus,28,28,"APIs, Programming",Cloud / DevOps / Infrastructure
+Agile,Agile,27,27,"APIs, Programming",Quality & Workflow
+ECS,ECS,27,27,"APIs, Programming",Cloud / DevOps / Infrastructure
+Databricks,Databricks,26,26,"APIs, Programming",Data & Analytics
+.NET,.NET,24,24,Programming,Backend & APIs
+Cassandra,Cassandra,24,24,"APIs, Programming",Databases / Storage / Streaming
+Embedded,Embedded Systems,24,24,"APIs, Programming",Architecture / Systems
+ASP.NET,ASP.NET,23,23,Programming,Backend & APIs
+BigQuery,BigQuery,21,21,Programming,Data & Analytics
+NumPy,NumPy,21,21,"APIs, Programming",Data & Analytics
+Power Bi,Power BI,20,20,"APIs, Programming",Data & Analytics
+Google Cloud,GCP,18,18,"APIs, Programming",Cloud / DevOps / Infrastructure
+Model Deployment,Model Deployment,18,18,"AI/ML, Data",AI / ML
+Pytest,pytest,18,18,"APIs, Programming",Quality & Workflow
+DBT,dbt,17,17,Programming,Data & Analytics
+Vue,Vue,17,17,Programming,Frontend & UI
+Junit,JUnit,16,16,"APIs, Programming",Quality & Workflow
+Rails,Rails,16,16,Programming,Backend & APIs
+Code Review,Code Review,13,13,"APIs, Programming",Quality & Workflow
+Hadoop,Hadoop,13,13,"APIs, Programming",Data & Analytics
+ML Infrastructure,ML Infrastructure,13,13,"APIs, Programming",AI / ML
+Php,PHP,12,12,Programming,Programming Languages
+Playwright,Playwright,12,12,"APIs, Programming",Quality & Workflow
+Ruby,Ruby,12,12,Programming,Programming Languages
+Rust,Rust,12,12,Programming,Programming Languages
+Networking,Networking,11,11,"APIs, Programming",Architecture / Systems
+GraphQL,GraphQL,10,10,Programming,Backend & APIs
+Kotlin,Kotlin,10,10,Programming,Programming Languages
+Prompt Engineering,Prompt Engineering,9,9,Programming,AI / ML
+Computer Vision,Computer Vision,8,8,"APIs, Programming",AI / ML
+FastAPI,FastAPI,8,8,Programming,Backend & APIs
+Software Test Engineering,Software Test Engineering,8,8,"APIs, Programming",Quality & Workflow
+Flink,Flink,6,6,"APIs, Programming",Databases / Storage / Streaming
+Elasticsearch,Elasticsearch,5,5,"APIs, Programming",Databases / Storage / Streaming
+Swift,Swift,5,5,Programming,Programming Languages
+Design Review,Design Review,4,4,Programming,Quality & Workflow
+Django,Django,4,4,Programming,Backend & APIs
+Gitlab Ci,GitLab CI,4,4,"APIs, Programming",Cloud / DevOps / Infrastructure
+Html5,HTML5,4,4,Programming,Frontend & UI
+Keras,Keras,4,4,"APIs, Programming",AI / ML
+OpenAI,OpenAI,4,4,"AI/ML, Data",AI / ML
+Selenium,Selenium,4,4,APIs,Quality & Workflow
+Vite,Vite,4,4,Programming,Frontend & UI
+Apache Flink,Flink,3,3,APIs,Databases / Storage / Streaming
+CSS,CSS,3,3,Programming,Frontend & UI
+Css3,CSS3,3,3,Programming,Frontend & UI
+GitLab CI,GitLab CI,3,3,"APIs, Programming",Cloud / DevOps / Infrastructure
+Network Protocol,Network Protocol,3,3,"APIs, Programming",Architecture / Systems
+Next.js,Next.js,3,3,Programming,Frontend & UI
+Redshift,Redshift,3,3,Programming,Databases / Storage / Streaming
+Restful Apis,REST APIs,3,3,Programming,Backend & APIs
+Ansible,Ansible,2,2,"APIs, Programming",Cloud / DevOps / Infrastructure
+Context Engineering,Context Engineering,2,2,Programming,AI / ML
+Cypress,Cypress,2,2,"APIs, Programming",Quality & Workflow
+Dynamodb,DynamoDB,2,2,Programming,Databases / Storage / Streaming
+JUnit,JUnit,2,2,Programming,Quality & Workflow
+Jest,Jest,2,2,APIs,Quality & Workflow
+Matlab,MATLAB,2,2,Data,Programming Languages
+NestJS,NestJS,2,2,Programming,Backend & APIs
+REST APIs,REST APIs,2,2,Programming,Backend & APIs
+ASP.NET MVC,ASP.NET MVC,1,1,Programming,Backend & APIs
+Android Sdk,Android SDK,1,1,Programming,Frontend & UI
+Apache Airflow,Airflow,1,1,APIs,Data & Analytics
+Azure Blob Storage,Azure Blob Storage,1,1,APIs,Databases / Storage / Streaming
+Azure OpenAI,Azure OpenAI,1,1,APIs,AI / ML
+C#/.Net,.NET / C#,1,1,APIs,Backend & APIs
+Dashboard Automation,Dashboard Automation,1,1,Data,Data & Analytics
+Db2,DB2,1,1,Programming,Databases / Storage / Streaming
+DynamoDB,DynamoDB,1,1,APIs,Databases / Storage / Streaming
+Embedded Systems,Embedded Systems,1,1,Programming,Architecture / Systems
+Embeddings,Embeddings,1,1,Programming,AI / ML
+Experiment Design,Experiment Design,1,1,Data,Data & Analytics
+Forecasting,Forecasting,1,1,Data,Data & Analytics
+Genai,Generative AI,1,1,Programming,AI / ML
+HTML5,HTML5,1,1,Programming,Frontend & UI
+Java 17,Java,1,1,Programming,Programming Languages
+Jetpack Compose,Jetpack Compose,1,1,Programming,Frontend & UI
+K8S,Kubernetes,1,1,Programming,Cloud / DevOps / Infrastructure
+KPI Measurement,KPI Measurement,1,1,Data,Data & Analytics
+LLM Application Development,LLM Application Development,1,1,Programming,AI / ML
+Langchain,LangChain,1,1,Programming,AI / ML
+Large-Scale Systems,Large-Scale Systems,1,1,Programming,Architecture / Systems
+Looker,Looker,1,1,Data,Data & Analytics
+Material Design,Material Design,1,1,Programming,Frontend & UI
+Mlops,MLOps,1,1,Programming,AI / ML
+OpenAI API,OpenAI API,1,1,Programming,AI / ML
+Openai Api,OpenAI API,1,1,Programming,AI / ML
+RESTful APIs,REST APIs,1,1,Programming,Backend & APIs
+React 16+,React,1,1,Programming,Frontend & UI
+Retrieval Evaluation,Retrieval Evaluation,1,1,Programming,AI / ML
+Selenium Webdriver,Selenium,1,1,Programming,Quality & Workflow
+Ssms,SSMS,1,1,Programming,Databases / Storage / Streaming
+Tailwind,Tailwind,1,1,Programming,Frontend & UI
+Vb.Net,VB.NET,1,1,Programming,Programming Languages
+Vector Embeddings,Embeddings,1,1,Programming,AI / ML
+Visual Studio,Visual Studio,1,1,Programming,Quality & Workflow
+Webpack,Webpack,1,1,Programming,Frontend & UI
+anomaly detection,Anomaly Detection,1,1,Programming,Data & Analytics
+pytest,pytest,1,1,APIs,Quality & Workflow
+time-series analysis,Time Series Analysis,1,1,Programming,Data & Analytics

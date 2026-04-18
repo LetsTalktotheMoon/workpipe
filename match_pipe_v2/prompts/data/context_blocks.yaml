@@ -1,0 +1,80 @@
+sources:
+  seed:
+    heading: ' ## Seed 简历'
+    template: ' {{ seed_resume_md }}'
+  original:
+    heading: ' ## 原始简历'
+    template: ' {{ resume_md }}'
+  jd:
+    heading: |
+      ## 目标 JD
+    template: |
+      公司: {{ company }} | 岗位: {{ title }} | 角色类型: {{ role_type }} | 职级: {{ seniority }}
+      必须技术栈: {{ tech_required }}
+      加分技术栈: {{ tech_preferred }}
+      团队方向: {{ team_direction }}
+
+      不可变字段（必须与此完全一致）:
+      {{ immutable_block }}
+  planner:
+    heading: ' ## Planner 输入'
+    template: |
+      - 目标模式: {{ mode }}
+      - 公司: {{ company }}
+      - 职位: {{ title }}
+      - role_type: {{ role_type }}
+      - seniority: {{ seniority }}
+      - must-have 技术: {{ tech_required }}
+      - preferred 技术: {{ tech_preferred }}
+
+      ## Matcher Packet
+      {{ data.sentences.json }}
+      {{ matcher_block }}
+      {{ data.sentences.code_fence_close }}
+
+      ## Starter Resume
+      {{ data.sentences.md }}
+      {{ starter_block }}
+      {{ data.sentences.code_fence_close }}
+  planner_writer:
+    heading: ' ## Planner Decision'
+    template: |
+      {{ data.sentences.json }}
+      {{ planner_json }}
+      {{ data.sentences.code_fence_close }}
+
+      ## Matcher Evidence
+      {{ data.sentences.json }}
+      {{ matcher_json }}
+      {{ data.sentences.code_fence_close }}
+
+      ## Historical Starter Resume
+      {{ data.sentences.md }}
+      {{ starter_block }}
+      {{ data.sentences.code_fence_close }}
+  planner_revision:
+    heading: ' ## Planner-first Revision Context'
+    template: |
+      - 当前版本评分: {{ weighted_score }}/100
+      - 当前是否通过: {{ passed }}
+      - 当前 reviewer 是否要求继续修改: {{ needs_revision }}
+
+      ## Planner Carry-over
+      {{ planner_notes }}
+
+      ## Planner Risks
+      {{ risk_notes }}
+
+      ## Reviewer Priority
+      {{ priority }}
+
+      ## Reviewer Findings
+      {{ findings_block }}
+
+      ## Must-have Tech
+      - {{ must_have }}
+
+      ## Existing Resume Draft To Revise
+      {{ data.sentences.md }}
+      {{ current_resume_md }}
+      {{ data.sentences.code_fence_close }}

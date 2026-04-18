@@ -1,0 +1,153 @@
+canonical_skill,category,total_mentions,resume_count,raw_variants
+Python,Programming Languages,616,616,Python
+Go,Programming Languages,574,574,Go
+Java,Programming Languages,531,531,"Java, Java 17"
+JavaScript,Programming Languages,169,169,JavaScript
+C++,Programming Languages,146,146,C++
+Scala,Programming Languages,146,146,Scala
+TypeScript,Programming Languages,124,124,TypeScript
+R,Programming Languages,46,46,R
+C#,Programming Languages,28,28,C#
+PHP,Programming Languages,12,12,Php
+Ruby,Programming Languages,12,12,Ruby
+Rust,Programming Languages,12,12,Rust
+Kotlin,Programming Languages,10,10,Kotlin
+Swift,Programming Languages,5,5,Swift
+MATLAB,Programming Languages,2,2,Matlab
+VB.NET,Programming Languages,1,1,Vb.Net
+REST APIs,Backend & APIs,589,572,"REST, REST APIs, RESTful, RESTful APIs, Restful Apis"
+gRPC,Backend & APIs,526,526,gRPC
+Microservices,Backend & APIs,326,326,Microservices
+Flask,Backend & APIs,319,319,Flask
+Node.js,Backend & APIs,42,42,Node.js
+Spring Boot,Backend & APIs,36,36,Spring Boot
+Spring,Backend & APIs,35,35,Spring
+Express,Backend & APIs,28,28,Express
+.NET,Backend & APIs,24,24,.NET
+ASP.NET,Backend & APIs,23,23,ASP.NET
+Rails,Backend & APIs,16,16,Rails
+GraphQL,Backend & APIs,10,10,GraphQL
+FastAPI,Backend & APIs,8,8,FastAPI
+Django,Backend & APIs,4,4,Django
+NestJS,Backend & APIs,2,2,NestJS
+.NET / C#,Backend & APIs,1,1,C#/.Net
+ASP.NET MVC,Backend & APIs,1,1,ASP.NET MVC
+React,Frontend & UI,141,140,"React, React 16+"
+Angular,Frontend & UI,51,51,Angular
+CSS,Frontend & UI,46,46,"CSS, Css"
+HTML,Frontend & UI,42,42,Html
+Vue,Frontend & UI,17,17,Vue
+HTML5,Frontend & UI,5,5,"HTML5, Html5"
+Vite,Frontend & UI,4,4,Vite
+CSS3,Frontend & UI,3,3,Css3
+Next.js,Frontend & UI,3,3,Next.js
+Android SDK,Frontend & UI,1,1,Android Sdk
+Jetpack Compose,Frontend & UI,1,1,Jetpack Compose
+Material Design,Frontend & UI,1,1,Material Design
+Tailwind,Frontend & UI,1,1,Tailwind
+Webpack,Frontend & UI,1,1,Webpack
+SQL,Data & Analytics,616,616,SQL
+Pandas,Data & Analytics,569,569,Pandas
+Spark SQL,Data & Analytics,568,568,Spark SQL
+Hive,Data & Analytics,559,559,Hive
+ETL,Data & Analytics,450,450,ETL
+A/B Testing,Data & Analytics,389,389,A/B Testing
+Airflow,Data & Analytics,356,356,"Airflow, Apache Airflow"
+Jupyter,Data & Analytics,73,73,Jupyter
+Spark,Data & Analytics,43,43,Spark
+Tableau,Data & Analytics,42,42,Tableau
+Data Pipelines,Data & Analytics,41,41,Data Pipelines
+Matplotlib,Data & Analytics,35,35,Matplotlib
+Snowflake,Data & Analytics,33,33,Snowflake
+Databricks,Data & Analytics,26,26,Databricks
+BigQuery,Data & Analytics,21,21,BigQuery
+NumPy,Data & Analytics,21,21,NumPy
+Power BI,Data & Analytics,20,20,Power Bi
+dbt,Data & Analytics,17,17,DBT
+Hadoop,Data & Analytics,13,13,Hadoop
+Anomaly Detection,Data & Analytics,1,1,anomaly detection
+Dashboard Automation,Data & Analytics,1,1,Dashboard Automation
+Experiment Design,Data & Analytics,1,1,Experiment Design
+Forecasting,Data & Analytics,1,1,Forecasting
+KPI Measurement,Data & Analytics,1,1,KPI Measurement
+Looker,Data & Analytics,1,1,Looker
+Time Series Analysis,Data & Analytics,1,1,time-series analysis
+RAG,AI / ML,462,462,RAG
+AWS Bedrock,AI / ML,456,456,AWS Bedrock
+LLM,AI / ML,173,173,LLM
+scikit-learn,AI / ML,167,167,scikit-learn
+Machine Learning,AI / ML,164,164,Machine Learning
+PyTorch,AI / ML,96,96,PyTorch
+TensorFlow,AI / ML,64,64,TensorFlow
+Deep Learning,AI / ML,49,49,Deep Learning
+Generative AI,AI / ML,49,49,"Genai, Generative AI"
+NLP,AI / ML,40,40,NLP
+Model Deployment,AI / ML,18,18,Model Deployment
+ML Infrastructure,AI / ML,13,13,ML Infrastructure
+Prompt Engineering,AI / ML,9,9,Prompt Engineering
+Computer Vision,AI / ML,8,8,Computer Vision
+Keras,AI / ML,4,4,Keras
+OpenAI,AI / ML,4,4,OpenAI
+Context Engineering,AI / ML,2,2,Context Engineering
+Embeddings,AI / ML,2,2,"Embeddings, Vector Embeddings"
+OpenAI API,AI / ML,2,2,"OpenAI API, Openai Api"
+Azure OpenAI,AI / ML,1,1,Azure OpenAI
+LLM Application Development,AI / ML,1,1,LLM Application Development
+LangChain,AI / ML,1,1,Langchain
+MLOps,AI / ML,1,1,Mlops
+Retrieval Evaluation,AI / ML,1,1,Retrieval Evaluation
+Docker,Cloud / DevOps / Infrastructure,606,606,Docker
+Kubernetes,Cloud / DevOps / Infrastructure,597,596,"K8S, Kubernetes"
+AWS,Cloud / DevOps / Infrastructure,497,497,AWS
+CI/CD,Cloud / DevOps / Infrastructure,343,343,CI/CD
+GitHub Actions,Cloud / DevOps / Infrastructure,333,333,GitHub Actions
+Azure,Cloud / DevOps / Infrastructure,124,124,Azure
+Linux,Cloud / DevOps / Infrastructure,95,95,Linux
+GCP,Cloud / DevOps / Infrastructure,91,91,"GCP, Google Cloud"
+Shell,Cloud / DevOps / Infrastructure,78,78,Shell
+Jenkins,Cloud / DevOps / Infrastructure,60,60,Jenkins
+Terraform,Cloud / DevOps / Infrastructure,40,40,Terraform
+Bash,Cloud / DevOps / Infrastructure,29,29,Bash
+Prometheus,Cloud / DevOps / Infrastructure,28,28,Prometheus
+ECS,Cloud / DevOps / Infrastructure,27,27,ECS
+GitLab CI,Cloud / DevOps / Infrastructure,7,7,"GitLab CI, Gitlab Ci"
+Ansible,Cloud / DevOps / Infrastructure,2,2,Ansible
+PostgreSQL,Databases / Storage / Streaming,584,584,PostgreSQL
+Kafka,Databases / Storage / Streaming,574,574,Kafka
+Redis,Databases / Storage / Streaming,484,484,Redis
+MySQL,Databases / Storage / Streaming,401,401,MySQL
+S3,Databases / Storage / Streaming,370,370,S3
+MongoDB,Databases / Storage / Streaming,78,78,MongoDB
+NoSQL,Databases / Storage / Streaming,65,65,NoSQL
+Cassandra,Databases / Storage / Streaming,24,24,Cassandra
+Flink,Databases / Storage / Streaming,9,6,"Apache Flink, Flink"
+Elasticsearch,Databases / Storage / Streaming,5,5,Elasticsearch
+DynamoDB,Databases / Storage / Streaming,3,3,"DynamoDB, Dynamodb"
+Redshift,Databases / Storage / Streaming,3,3,Redshift
+Azure Blob Storage,Databases / Storage / Streaming,1,1,Azure Blob Storage
+DB2,Databases / Storage / Streaming,1,1,Db2
+SSMS,Databases / Storage / Streaming,1,1,Ssms
+Algorithms,Architecture / Systems,130,130,Algorithms
+Data Structures,Architecture / Systems,124,124,Data Structures
+Distributed Systems,Architecture / Systems,79,79,Distributed Systems
+System Design,Architecture / Systems,41,41,System Design
+Embedded Systems,Architecture / Systems,25,25,"Embedded, Embedded Systems"
+Networking,Architecture / Systems,11,11,Networking
+Network Protocol,Architecture / Systems,3,3,Network Protocol
+Large-Scale Systems,Architecture / Systems,1,1,Large-Scale Systems
+Git,Quality & Workflow,160,160,Git
+Scrum,Quality & Workflow,114,114,Scrum
+Unit Testing,Quality & Workflow,48,48,Unit Testing
+Jira,Quality & Workflow,34,34,Jira
+TDD,Quality & Workflow,34,34,TDD
+Agile,Quality & Workflow,27,27,Agile
+pytest,Quality & Workflow,19,19,"Pytest, pytest"
+JUnit,Quality & Workflow,18,18,"JUnit, Junit"
+Code Review,Quality & Workflow,13,13,Code Review
+Playwright,Quality & Workflow,12,12,Playwright
+Software Test Engineering,Quality & Workflow,8,8,Software Test Engineering
+Selenium,Quality & Workflow,5,5,"Selenium, Selenium Webdriver"
+Design Review,Quality & Workflow,4,4,Design Review
+Cypress,Quality & Workflow,2,2,Cypress
+Jest,Quality & Workflow,2,2,Jest
+Visual Studio,Quality & Workflow,1,1,Visual Studio

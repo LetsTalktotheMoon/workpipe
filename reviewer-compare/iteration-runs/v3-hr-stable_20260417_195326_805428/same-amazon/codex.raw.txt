@@ -1,0 +1,63 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience and project bullets across TikTok / DiDi / Temu",
+        "issue": "Key scope and impact numbers are not consistently bolded, so the visual hierarchy is weaker than the template expects.",
+        "fix": "Bold the leading metric or scope token in each bullet, especially high-signal numbers such as `11 minutes`, `24%`, `13-person`, `20+ city`, `620 ms`, and `15 minutes`."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The lead framing still reads as a transition story (`transitioning from analytics`) rather than a direct ML-engineer pitch, which weakens the first scan.",
+        "fix": "Start with the target role and ML customization scope, then mention analytics background as supporting context."
+      },
+      {
+        "rule_id": "P2-030",
+        "severity": "medium",
+        "field": "Skills, first line",
+        "issue": "The first Skills category is `Programming`, but the JD's core signal is `Machine Learning`, so the most relevant capability is not front-loaded.",
+        "fix": "Reorder Skills so `AI/ML` or `Machine Learning` comes first, followed by `Programming`, then `Data` and `Cloud`."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok experience section",
+        "issue": "The internship reads like broad stack dumping: the role claims hands-on use of Go, Java, C++, Python, PyTorch, AWS Bedrock, Kafka, Docker, and Kubernetes across multiple bullets, which dilutes the ownership story.",
+        "fix": "Keep one primary stack and one outcome per bullet; trim secondary technologies unless they are essential to explain the result."
+      },
+      {
+        "rule_id": "P3E-013",
+        "sub_area": "3E",
+        "severity": "medium",
+        "field": "TikTok experience, first and third bullets",
+        "issue": "Security-team bullets mention AWS Bedrock / external inference integration, but the boundary language never explicitly says `internal`, `sandbox`, or `no user/production data`, so a compliance reviewer may pause even though this is not a hard violation.",
+        "fix": "Add an explicit boundary qualifier on the Bedrock path, e.g. `internal evaluation workflow`, `shadow sandbox`, or `no user/production data involved`.",
+        "note": "[合规边界]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add explicit boundary language to the TikTok Bedrock / RAG bullets so the Security-team work is clearly internal and non-user-data-facing.",
+    "[MUST] Tighten TikTok bullets to one primary stack per bullet and remove nonessential tech names to avoid a stack-dumping read.",
+    "[SHOULD] Reorder Summary and Skills so ML customization is front-loaded before the analytics transition and generic programming line.",
+    "[NICE] Bold the main scope and impact numbers so the strongest signals pop on first scan."
+  ],
+  "revision_instructions": "First, rewrite the TikTok Bedrock and RAG bullets to state the boundary explicitly: internal evaluation/sandbox, no user or production data involved. Second, compress each TikTok bullet so it centers on one primary language or stack and one measurable outcome; keep only the technologies needed to explain the result. Third, move the Summary opening to a direct ML-engineer / LLM-customization framing, with the analytics background as secondary context. Fourth, reorder Skills to front-load AI/ML before Programming. Preserve all immutable fields and the existing timeline."
+}

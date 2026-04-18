@@ -1,0 +1,274 @@
+{
+  "label": "gen2/Discord-DBInfra",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Discord-DBInfra",
+    "company": "Discord",
+    "title": "Software Engineer- Database Infrastructure",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "Discord is a platform used by over 200 million people for gaming communication and interaction",
+    "tech_required": [
+      "Java",
+      "C++",
+      "Distributed Systems",
+      "Rust",
+      "Go"
+    ],
+    "tech_preferred": [
+      "Linux",
+      "Elasticsearch",
+      "PostgreSQL",
+      "Cassandra",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 84.5,
+      "overall_verdict": "fail",
+      "passed": false,
+      "critical_count": 0,
+      "high_count": 1,
+      "needs_revision": true,
+      "revision_priority": [
+        "Add genuine Rust evidence or remove this resume from consideration for this JD because Rust is mandatory.",
+        "Rewrite one core experience bullet to show explicit database-infrastructure ownership instead of broad backend/data collaboration."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 6.0,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 8.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 8.0,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 1
+        }
+      },
+      "final_score": 84.5,
+      "verdict": "fail",
+      "seed_label": "Google Cloud Infra Anchor",
+      "route_mode": "retarget",
+      "revised": false,
+      "main_failure_reason": "Add genuine Rust evidence or remove this resume from consideration for this JD because Rust is mandatory.",
+      "failure_bucket": "true_outlier",
+      "repaired_at": "2026-04-07T16:57:20",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:59:14",
+    "completed_at": "2026-04-17T23:00:06",
+    "duration_seconds": 52.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "## Professional Summary / TikTok Experience",
+            "issue": "This is a specialized Database Infrastructure role, but the resume currently proves only adjacent backend/data experience: Go/Java/C++ services, PostgreSQL usage, Kafka, Docker, Kubernetes, and Linux. It does not explicitly show database-infrastructure ownership such as reliability, HA/failover, replication, query-path debugging, storage primitives, or on-call production debugging, so a recruiter has to infer the fit.",
+            "fix": "Add one bullet in the most relevant experience that explicitly names the database surface you owned and the operational work you did, for example PostgreSQL reliability, failover or rollback validation, replication lag debugging, schema migration safety, or query-path troubleshooting, plus one concrete outcome. If that work is not real, this resume is not yet a strong fit for Discord Database Infrastructure.",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] In the most relevant experience, add one explicit database-infrastructure ownership bullet so the resume proves Database Infrastructure fit instead of only adjacent backend/platform work.",
+        "[MUST] Reframe the summary to foreground database infrastructure and operational reliability, not just general backend/data experience.",
+        "[SHOULD] If Rust or PostgreSQL HA/replication work is real, surface it once in the same most-relevant bullet rather than leaving it implicit.",
+        "[NICE] Keep the existing stack breadth, but reduce reliance on inference by naming the exact DB surface, operational action, and measured result in one place."
+      ],
+      "revision_instructions": "Keep all immutable fields unchanged. Rework one TikTok bullet, or the TikTok project bullet, so it explicitly names real database-infrastructure ownership: PostgreSQL reliability, failover/rollback validation, replication or query-path debugging, schema migration safety, or storage-related debugging. Pair that with one concrete outcome. Then tighten the summary so the first two sentences clearly signal backend/database infrastructure rather than generic backend/data work. Do not add Rust unless it is a true part of the experience.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 10.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 94.4,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 0,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] In the most relevant experience, add one explicit database-infrastructure ownership bullet so the resume proves Database Infrastructure fit instead of only adjacent backend/platform work.",
+        "[MUST] Reframe the summary to foreground database infrastructure and operational reliability, not just general backend/data experience.",
+        "[SHOULD] If Rust or PostgreSQL HA/replication work is real, surface it once in the same most-relevant bullet rather than leaving it implicit.",
+        "[NICE] Keep the existing stack breadth, but reduce reliance on inference by naming the exact DB surface, operational action, and measured result in one place."
+      ],
+      "revision_instructions": "Keep all immutable fields unchanged. Rework one TikTok bullet, or the TikTok project bullet, so it explicitly names real database-infrastructure ownership: PostgreSQL reliability, failover/rollback validation, replication or query-path debugging, schema migration safety, or storage-related debugging. Pair that with one concrete outcome. Then tighten the summary so the first two sentences clearly signal backend/database infrastructure rather than generic backend/data work. Do not add Rust unless it is a true part of the experience.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-012",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "## Professional Summary / TikTok Experience",
+              "issue": "This is a specialized Database Infrastructure role, but the resume currently proves only adjacent backend/data experience: Go/Java/C++ services, PostgreSQL usage, Kafka, Docker, Kubernetes, and Linux. It does not explicitly show database-infrastructure ownership such as reliability, HA/failover, replication, query-path debugging, storage primitives, or on-call production debugging, so a recruiter has to infer the fit.",
+              "fix": "Add one bullet in the most relevant experience that explicitly names the database surface you owned and the operational work you did, for example PostgreSQL reliability, failover or rollback validation, replication lag debugging, schema migration safety, or query-path troubleshooting, plus one concrete outcome. If that work is not real, this resume is not yet a strong fit for Discord Database Infrastructure.",
+              "note": "[结构性错配]"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] In the most relevant experience, add one explicit database-infrastructure ownership bullet so the resume proves Database Infrastructure fit instead of only adjacent backend/platform work.",
+          "[MUST] Reframe the summary to foreground database infrastructure and operational reliability, not just general backend/data experience.",
+          "[SHOULD] If Rust or PostgreSQL HA/replication work is real, surface it once in the same most-relevant bullet rather than leaving it implicit.",
+          "[NICE] Keep the existing stack breadth, but reduce reliance on inference by naming the exact DB surface, operational action, and measured result in one place."
+        ],
+        "revision_instructions": "Keep all immutable fields unchanged. Rework one TikTok bullet, or the TikTok project bullet, so it explicitly names real database-infrastructure ownership: PostgreSQL reliability, failover/rollback validation, replication or query-path debugging, schema migration safety, or storage-related debugging. Pair that with one concrete outcome. Then tighten the summary so the first two sentences clearly signal backend/database infrastructure rather than generic backend/data work. Do not add Rust unless it is a true part of the experience.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "## Professional Summary / TikTok Experience",
+            "issue": "This is a specialized Database Infrastructure role, but the resume currently proves only adjacent backend/data experience: Go/Java/C++ services, PostgreSQL usage, Kafka, Docker, Kubernetes, and Linux. It does not explicitly show database-infrastructure ownership such as reliability, HA/failover, replication, query-path debugging, storage primitives, or on-call production debugging, so a recruiter has to infer the fit.",
+            "fix": "Add one bullet in the most relevant experience that explicitly names the database surface you owned and the operational work you did, for example PostgreSQL reliability, failover or rollback validation, replication lag debugging, schema migration safety, or query-path troubleshooting, plus one concrete outcome. If that work is not real, this resume is not yet a strong fit for Discord Database Infrastructure.",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 1,
+          "rule_ids": [
+            "P3B-012"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P3B-012"
+      ],
+      "high_or_critical": [
+        "P3B-012 @ ## Professional Summary / TikTok Experience"
+      ]
+    }
+  }
+}

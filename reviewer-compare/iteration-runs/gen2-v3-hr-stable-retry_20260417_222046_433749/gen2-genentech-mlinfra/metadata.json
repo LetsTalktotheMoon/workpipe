@@ -1,0 +1,119 @@
+{
+  "label": "gen2/Genentech-MLInfra",
+  "company": "Genentech",
+  "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Infra",
+  "role_type": "mle",
+  "seniority": "senior",
+  "team_direction": "Genentech is a leading biotechnology company focused on innovation and healthcare access",
+  "tech_required": [
+    "Scala",
+    "Go",
+    "Git",
+    "Python",
+    "Rust",
+    "C++",
+    "AWS"
+  ],
+  "tech_preferred": [
+    "ML Infrastructure",
+    "PyTorch"
+  ],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/review.json",
+  "historical": {},
+  "portfolio_review": {
+    "weighted_score": 94.5,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r2_jd_fitness": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.9,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.5,
+    "verdict": "pass",
+    "seed_label": "Amazon AGI/LLM Anchor",
+    "route_mode": "retarget",
+    "revised": true,
+    "revision_instructions": "",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T21:54:04",
+    "rereview_rounds": 1,
+    "rereview_revised": true,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_achievement"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.9,
+    "previous_verdict": "pass"
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, bullet 1",
+        "issue": "首句把自己写成了 transition profile，先讲“从 analytics 转过来”，会弱化 6-8 秒首扫时的 backend 角色锚点。",
+        "fix": "把首句改成角色先行的写法，例如先写“Backend engineer with hands-on Java/C++/Go experience across security and internal systems”，再把转型背景放到后半句。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3E-013",
+        "sub_area": "3E",
+        "severity": "medium",
+        "field": "TikTok · Security | Project: Security Investigation Retrieval Assistant, bullet 2",
+        "issue": "在安全场景里写了 AWS Bedrock + RAG 工作流，但没有明确说明是否使用了 redacted prompts、sandbox evaluation、no user data 或 no production data。对 HR 来说边界还不够清楚。",
+        "fix": "补一个明确的数据边界限定语，例如“evaluated on redacted internal prompts in a sandbox; no user or production data involved.”",
+        "note": "[合规边界]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rewrite Summary sentence 1 to lead with backend role and domain signal instead of transition framing.",
+    "[SHOULD] Add an explicit data-boundary qualifier to the TikTok Bedrock/RAG project bullet.",
+    "[NICE] Keep the rest of the structure; it already maps well to the AWS backend brief."
+  ],
+  "revision_instructions": ""
+}

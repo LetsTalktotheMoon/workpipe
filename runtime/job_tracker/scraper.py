@@ -273,6 +273,7 @@ def scrape_all(session_id: str, max_pages: int = 50, lookback_hours: int | None 
 if __name__ == "__main__":
     import os
     import argparse as _ap
+    from pathlib import Path
 
     p = _ap.ArgumentParser()
     p.add_argument("--lookback-hours", type=int, default=None,
@@ -290,3 +291,14 @@ if __name__ == "__main__":
     with open(out, "w", encoding="utf-8") as f:
         json.dump(jobs, f, ensure_ascii=False, indent=2)
     print(f"💾  Saved {len(jobs)} jobs → {out}")
+
+    runtime_root = Path(__file__).resolve().parents[1]
+    if str(runtime_root) not in sys.path:
+        sys.path.insert(0, str(runtime_root))
+    from automation.jobs_catalog import merge_rows_into_catalog
+
+    catalog_summary = merge_rows_into_catalog(jobs)
+    print(
+        f"🗂️  Catalog updated → {catalog_summary['catalog_path']} "
+        f"({catalog_summary['catalog_count']} rows / {catalog_summary['unique_job_ids']} unique job_id)"
+    )

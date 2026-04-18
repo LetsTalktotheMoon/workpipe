@@ -1,0 +1,38 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Summary / Experience / Project bullets",
+        "issue": "The resume uses many quantified outcomes and scope markers, but the numbers themselves are not visually emphasized, so the strongest evidence is harder to scan quickly.",
+        "fix": "Bold the key metrics and scope markers in each high-value bullet, for example `**28%**`, `**13-person**`, `**45 minutes to 12 minutes**`, and similar result numbers."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Summary, third sentence",
+        "issue": "The header `Structured Problem Solver` is understandable but generic, so it does not add much senior-level differentiation on first scan.",
+        "fix": "Replace it with a more role-specific cognition header such as `Systems judgment:` or `Decision-making:` and tie it to backend tradeoff work."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Replace the third Summary header `Structured Problem Solver` with a more role-specific cognition header tied to backend systems judgment.",
+    "[SHOULD] Bold the most persuasive metrics and scope markers in Experience and Project bullets so the strongest evidence stands out on first scan.",
+    "[NICE] Tighten the Summary wording to surface backend + distributed systems positioning even earlier.",
+    "[NICE] If you want a stronger first-screen bridge to Dataminr, mention event-driven or risk/alerting context once in the Summary."
+  ],
+  "revision_instructions": ""
+}

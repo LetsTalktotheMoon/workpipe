@@ -1,0 +1,38 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1 and 3",
+        "issue": "Modifier text such as `team-maintained` is bolded. The format rules reserve bold for technologies and quantification signals, not qualifiers.",
+        "fix": "Remove bold from qualifiers like `team-maintained` and keep bold only on technologies, systems, and metrics."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first sentence",
+        "issue": "The lead framing centers on a transition from analytics rather than an immediate backend/security identity, which weakens the first-screen hook.",
+        "fix": "Rewrite the first summary chunk to start with a direct role anchor, such as `Backend engineer` or `Security-focused backend engineer`, and move the transition language later or drop it."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rewrite the first Summary chunk to lead with a direct backend/security role identity instead of `transitioning from analytics`.",
+    "[SHOULD] Unbold qualifier words like `team-maintained`; keep bolding for technologies and metrics only.",
+    "[NICE] If you want a stronger AWS Builder Experience fit, add one explicit scope signal in the latest role or project (team size, event volume, SLA, or review/rollout scope).",
+    "[NICE] Keep the rest of the structure unchanged; the experience ordering and immutable fields are already consistent."
+  ],
+  "revision_instructions": ""
+}

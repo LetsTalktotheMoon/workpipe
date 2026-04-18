@@ -1,0 +1,227 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:52:07",
+  "completed_at": "2026-04-17T22:53:09",
+  "duration_seconds": 62.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience / Projects bullets",
+          "issue": "大量关键量化结果和scope信号未做加粗，导致首屏视觉重心不够集中；例如百分比、时间缩短、城市数、团队规模等都以普通文本呈现。",
+          "fix": "把每条经历里最重要的结果数字加粗，优先加粗 `31%`、`26%`、`18%`、`43%`、`27%`、`35%`、`20+ cities`、`13-person`、`3.8 hours`、`2.1 hours`、`4 partner integrations`、`34%` 这类高信息量信号。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary 第一句",
+          "issue": "首句用 `Data Analysis Candidate` 作为 framing，偏“候选人/状态描述”，不是强角色锚点，首屏识别度不够。",
+          "fix": "把第一句 header 改成更直接的角色锚点，例如 `Data Analyst` 或 `Data/Platform Analyst`，保留后面的 Python/SQL/Spark/AWS 叙事。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Summary / DiDi experience",
+          "issue": "JD 明确是 Manager 且强调带团队、培养分析师和 people management，但简历只给出 cross-functional lead / coordination 级别信号，没有直接的人带人、辅导、分工、绩效或招聘证据。",
+          "fix": "如果真实做过人员管理，在 DiDi 段补一条明确的 leadership bullet，例如 mentoring junior analysts、分工 review cadence、带新人上线或项目分派；如果没有真实 people-management 经验，这个 JD 的管理门槛不匹配，建议改投 senior IC data analyst 类岗位。",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / 全文",
+          "issue": "JD Core Skills 明确包含 `R`，但简历正文和 Skills 都没有任何 `R` 的使用证据；对这个岗位来说，这是可被 ATS 直接识别的核心关键词缺口。",
+          "fix": "如果确实用过 R，就在最相关的数据分析经历里补一条真实的 R 使用 bullet，并把 `R` 加进 Skills；如果没有真实经验，不要硬补，这个 JD 的核心技能存在硬缺口。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补齐或承认 `R` 的核心技能缺口：如果真实用过，就在 Temu 或 DiDi 的最相关 bullet 里加入一条 R 的实际使用证据；如果没有，就不要硬匹配这个 JD。",
+      "[MUST] 补出明确 people-management 证据：当前只有 lead/coordination，没有带人、辅导、分工、绩效或招聘信号，和 Manager 岗位存在结构性错配。",
+      "[SHOULD] 把 Summary 第一行改成角色锚点，去掉 `Candidate` framing，改为 `Data Analyst` / `Data/Platform Analyst`。",
+      "[NICE] 把每段经历和项目里的关键量化结果加粗，增强首屏抓手。"
+    ],
+    "revision_instructions": "[结构性错配] 先把 Summary 第一行改成角色锚点，例如 `**Data Analyst:**` 或 `**Data/Platform Analyst:**`，不要用 `Candidate` 作为首屏 framing。然后处理两个硬缺口：1) 如果真实用过 R，就在 Temu 或 DiDi 最相关的 bullet 里补一条 R 的实际分析/建模/报表使用证据，并把 `R` 放回 Skills；2) 如果真实带过人，在 DiDi 段补一条明确 people-management 证据（mentor junior analysts / task delegation / review cadence / onboarding / hiring input）。如果这两项都不存在，不要硬修这份简历去追这个 Manager JD，应该改投 senior IC data analyst 类岗位。最后把各段最重要的结果数字加粗，提升首屏可读性。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 6.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 86.3,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补齐或承认 `R` 的核心技能缺口：如果真实用过，就在 Temu 或 DiDi 的最相关 bullet 里加入一条 R 的实际使用证据；如果没有，就不要硬匹配这个 JD。",
+      "[MUST] 补出明确 people-management 证据：当前只有 lead/coordination，没有带人、辅导、分工、绩效或招聘信号，和 Manager 岗位存在结构性错配。",
+      "[SHOULD] 把 Summary 第一行改成角色锚点，去掉 `Candidate` framing，改为 `Data Analyst` / `Data/Platform Analyst`。",
+      "[NICE] 把每段经历和项目里的关键量化结果加粗，增强首屏抓手。"
+    ],
+    "revision_instructions": "[结构性错配] 先把 Summary 第一行改成角色锚点，例如 `**Data Analyst:**` 或 `**Data/Platform Analyst:**`，不要用 `Candidate` 作为首屏 framing。然后处理两个硬缺口：1) 如果真实用过 R，就在 Temu 或 DiDi 最相关的 bullet 里补一条 R 的实际分析/建模/报表使用证据，并把 `R` 放回 Skills；2) 如果真实带过人，在 DiDi 段补一条明确 people-management 证据（mentor junior analysts / task delegation / review cadence / onboarding / hiring input）。如果这两项都不存在，不要硬修这份简历去追这个 Manager JD，应该改投 senior IC data analyst 类岗位。最后把各段最重要的结果数字加粗，提升首屏可读性。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience / Projects bullets",
+            "issue": "大量关键量化结果和scope信号未做加粗，导致首屏视觉重心不够集中；例如百分比、时间缩短、城市数、团队规模等都以普通文本呈现。",
+            "fix": "把每条经历里最重要的结果数字加粗，优先加粗 `31%`、`26%`、`18%`、`43%`、`27%`、`35%`、`20+ cities`、`13-person`、`3.8 hours`、`2.1 hours`、`4 partner integrations`、`34%` 这类高信息量信号。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary 第一句",
+            "issue": "首句用 `Data Analysis Candidate` 作为 framing，偏“候选人/状态描述”，不是强角色锚点，首屏识别度不够。",
+            "fix": "把第一句 header 改成更直接的角色锚点，例如 `Data Analyst` 或 `Data/Platform Analyst`，保留后面的 Python/SQL/Spark/AWS 叙事。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Summary / DiDi experience",
+            "issue": "JD 明确是 Manager 且强调带团队、培养分析师和 people management，但简历只给出 cross-functional lead / coordination 级别信号，没有直接的人带人、辅导、分工、绩效或招聘证据。",
+            "fix": "如果真实做过人员管理，在 DiDi 段补一条明确的 leadership bullet，例如 mentoring junior analysts、分工 review cadence、带新人上线或项目分派；如果没有真实 people-management 经验，这个 JD 的管理门槛不匹配，建议改投 senior IC data analyst 类岗位。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / 全文",
+            "issue": "JD Core Skills 明确包含 `R`，但简历正文和 Skills 都没有任何 `R` 的使用证据；对这个岗位来说，这是可被 ATS 直接识别的核心关键词缺口。",
+            "fix": "如果确实用过 R，就在最相关的数据分析经历里补一条真实的 R 使用 bullet，并把 `R` 加进 Skills；如果没有真实经验，不要硬补，这个 JD 的核心技能存在硬缺口。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 补齐或承认 `R` 的核心技能缺口：如果真实用过，就在 Temu 或 DiDi 的最相关 bullet 里加入一条 R 的实际使用证据；如果没有，就不要硬匹配这个 JD。",
+        "[MUST] 补出明确 people-management 证据：当前只有 lead/coordination，没有带人、辅导、分工、绩效或招聘信号，和 Manager 岗位存在结构性错配。",
+        "[SHOULD] 把 Summary 第一行改成角色锚点，去掉 `Candidate` framing，改为 `Data Analyst` / `Data/Platform Analyst`。",
+        "[NICE] 把每段经历和项目里的关键量化结果加粗，增强首屏抓手。"
+      ],
+      "revision_instructions": "[结构性错配] 先把 Summary 第一行改成角色锚点，例如 `**Data Analyst:**` 或 `**Data/Platform Analyst:**`，不要用 `Candidate` 作为首屏 framing。然后处理两个硬缺口：1) 如果真实用过 R，就在 Temu 或 DiDi 最相关的 bullet 里补一条 R 的实际分析/建模/报表使用证据，并把 `R` 放回 Skills；2) 如果真实带过人，在 DiDi 段补一条明确 people-management 证据（mentor junior analysts / task delegation / review cadence / onboarding / hiring input）。如果这两项都不存在，不要硬修这份简历去追这个 Manager JD，应该改投 senior IC data analyst 类岗位。最后把各段最重要的结果数字加粗，提升首屏可读性。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience / Projects bullets",
+          "issue": "大量关键量化结果和scope信号未做加粗，导致首屏视觉重心不够集中；例如百分比、时间缩短、城市数、团队规模等都以普通文本呈现。",
+          "fix": "把每条经历里最重要的结果数字加粗，优先加粗 `31%`、`26%`、`18%`、`43%`、`27%`、`35%`、`20+ cities`、`13-person`、`3.8 hours`、`2.1 hours`、`4 partner integrations`、`34%` 这类高信息量信号。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Summary / DiDi experience",
+          "issue": "JD 明确是 Manager 且强调带团队、培养分析师和 people management，但简历只给出 cross-functional lead / coordination 级别信号，没有直接的人带人、辅导、分工、绩效或招聘证据。",
+          "fix": "如果真实做过人员管理，在 DiDi 段补一条明确的 leadership bullet，例如 mentoring junior analysts、分工 review cadence、带新人上线或项目分派；如果没有真实 people-management 经验，这个 JD 的管理门槛不匹配，建议改投 senior IC data analyst 类岗位。",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / 全文",
+          "issue": "JD Core Skills 明确包含 `R`，但简历正文和 Skills 都没有任何 `R` 的使用证据；对这个岗位来说，这是可被 ATS 直接识别的核心关键词缺口。",
+          "fix": "如果确实用过 R，就在最相关的数据分析经历里补一条真实的 R 使用 bullet，并把 `R` 加进 Skills；如果没有真实经验，不要硬补，这个 JD 的核心技能存在硬缺口。"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary 第一句",
+          "issue": "首句用 `Data Analysis Candidate` 作为 framing，偏“候选人/状态描述”，不是强角色锚点，首屏识别度不够。",
+          "fix": "把第一句 header 改成更直接的角色锚点，例如 `Data Analyst` 或 `Data/Platform Analyst`，保留后面的 Python/SQL/Spark/AWS 叙事。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-010",
+          "P3B-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-001",
+      "P3B-001",
+      "P3B-010"
+    ],
+    "high_or_critical": [
+      "P3B-010 @ Summary / DiDi experience",
+      "P3B-001 @ Skills / 全文"
+    ]
+  }
+}

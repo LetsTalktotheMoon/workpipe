@@ -1,0 +1,45 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "Professional Summary",
+        "issue": "The three summary bullets are noun-phrase led rather than strong-verb led, so the section reads more like descriptors than action statements under the resume's own format rules.",
+        "fix": "Rewrite each summary item so the text after the bold header starts with a verb, for example: 'Builds backend-leaning ML systems...', 'Delivers infra with...', 'Makes systems judgments...' while keeping the same three-bullet structure."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1, 3, 5; DiDi Experience bullet 3",
+        "issue": "Several modifier/qualifier words are bolded, such as 'team-maintained', 'intern-owned', 'team-owned', and 'existing', which violates the style rule that bold outside Skills should be reserved for technologies and scale/scope signals.",
+        "fix": "Remove bolding from descriptive modifiers and keep bold only on technologies, metrics, and scope signals."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-004",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary and first experience block",
+        "issue": "The narrative does not explicitly bridge the candidate's security/marketplace/food-delivery infra background to Genentech's biotech and healthcare-access context, so a hiring manager may need to infer the migration logic on their own.",
+        "fix": "Add one short bridge sentence in the summary or the TikTok bullet set that ties privacy-sensitive evaluation, audit-friendly replay, and regulated-workflow infrastructure to healthcare/biotech data platforms."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rewrite the three Summary bullets into verb-led predicates while preserving the current three-header structure.",
+    "[SHOULD] Add one explicit bridge to Genentech's biotech/healthcare context, using the existing privacy-sensitive and audit-friendly infra story.",
+    "[NICE] Remove bolding from modifiers like 'team-maintained', 'intern-owned', 'team-owned', and 'existing'; keep bold on technologies and measurable scope only."
+  ],
+  "revision_instructions": ""
+}

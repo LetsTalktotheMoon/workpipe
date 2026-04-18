@@ -1,0 +1,52 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-014",
+        "severity": "low",
+        "field": "Experience / Temu · R&D",
+        "issue": "该段经历缺少 `> ` 开头的背景说明行，和 TikTok、DiDi 两段的结构不一致。",
+        "fix": "在 Temu 职位标题下补一行简短背景，例如说明这是 pricing / conversion / experiment reporting 相关的 R&D 分析工作。"
+      },
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience 与 Projects 全文",
+        "issue": "关键量化信号大多没有加粗，导致最有分量的结果在首屏扫读时不够突出。",
+        "fix": "把每条 bullet 里最核心的结果数字加粗，优先处理 before/after、团队规模、时长、回退率、regression 数量等指标。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary / 第一句",
+        "issue": "首句以 “Backend Transition Profile” 和“从 analytics 转向 backend”开头，首屏首先看到的是转向叙事，而不是稳定的角色定位。",
+        "fix": "把开头改成 role-first，例如直接以 “Backend engineer:” 或 “Security-focused backend engineer:” 起句，把转向背景放到后半句。"
+      },
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary / 第三句",
+        "issue": "第三句的 header 是 “GenAI Systems Context”，信息偏泛，认知类信号没有被首屏直接点亮。",
+        "fix": "把 header 改成更强的 cognition header，例如 “Pattern recognition:” 或 “Systems judgment:”，并让这句更明确表达结构化分析能力。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 把 Summary 第一句改成角色先行的 backend/security 定位，去掉首屏的“transitioning from analytics”主叙事。",
+    "[SHOULD] 把 Summary 第三句的 header 改成更强的认知型标题，例如 Pattern recognition / Systems judgment。",
+    "[SHOULD] 给 Experience 和 Projects 的关键结果数字加粗，尤其是 before/after、团队规模和时长类指标。",
+    "[NICE] 给 Temu 段补一行简短背景说明，保持与其他经历的结构一致。"
+  ],
+  "revision_instructions": ""
+}

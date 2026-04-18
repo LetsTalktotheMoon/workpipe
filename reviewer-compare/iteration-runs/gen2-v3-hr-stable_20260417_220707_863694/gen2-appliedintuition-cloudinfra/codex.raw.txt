@@ -1,0 +1,78 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Professional Summary / Experience",
+        "issue": "The strongest quantitative signals are not visually surfaced. Metrics like 11 minutes -> 3 minutes, 28%, 31%, 13-person, 20+ city, and $420K are left unbolded, so the first scan misses the impact.",
+        "fix": "Bold the primary metric or scope token in each high-signal bullet, for example **11 minutes -> 3 minutes**, **28%**, **13-person**, **20+ city**, and **$420K**.",
+      },
+      {
+        "rule_id": "P1-062",
+        "severity": "low",
+        "field": "Professional Summary / Achievements",
+        "issue": "The Go achievement line bolds the year text inside the phrase (`2022`, `2023`) instead of keeping the years plain.",
+        "fix": "Keep only `2-dan` and `champion` bold; leave `2022` and `2023` unbolded.",
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary sentence 1",
+        "issue": "The first sentence still leads with a transition narrative (`Transitioning from data analysis to software engineering`) instead of a direct cloud-infra role anchor, so the first impression is slightly diluted.",
+        "fix": "Rewrite it to start with role/domain first, then place the transition context later or drop it.",
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Skills / Programming",
+        "issue": "This line reads like breadth stacking: Go, Java, Python, C++, React, gRPC, REST, and Prometheus are all grouped as one primary line, which makes the resume look horizontally overloaded on the first pass.",
+        "fix": "Split into narrower subcategories or trim to the 4-6 highest-signal backend tools for the target role.",
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Skills / Cloud",
+        "issue": "The cloud line also bundles AWS, Azure, Docker, Kubernetes, CI/CD, Kafka, GitHub Actions, PostgreSQL, MySQL, and Redis. That many adjacent production tools in one line reads like stack stuffing.",
+        "fix": "Separate cloud/platform, messaging, and datastores, or keep only the core infra tools most relevant to cloud infrastructure.",
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok experience",
+        "issue": "The latest role is dominated by improvement percentages and time reductions, with no Tier-1 scale signal such as traffic, service count, or team scope.",
+        "fix": "Add one concrete scope metric to the first bullet or project line, then keep the percent lifts as supporting proof.",
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "DiDi experience",
+        "issue": "The second key experience is also mostly percentage-based outcomes, so the strongest numbers are optimization deltas rather than operating scope.",
+        "fix": "Surface one or two scope anchors like city count, service volume, weekly release cadence, or squad ownership in the most relevant bullet.",
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rebuild Skills into narrower, less noisy categories so the backend/cloud infra core is visible at a glance.",
+    "[MUST] Re-balance quantification in the TikTok and DiDi bullets by bolding the key scope/result metrics and adding at least one Tier-1 scope signal where available.",
+    "[SHOULD] Rewrite the first Summary sentence into a direct cloud-infra framing and keep the transition story secondary.",
+    "[NICE] Fix the Achievement formatting so the years are not bolded."
+  ],
+  "revision_instructions": "Keep all immutable fields unchanged. Rewrite Summary sentence 1 to lead with a direct infrastructure role anchor, then optionally mention the transition from data analysis. Rework Skills into narrower groups (for example Languages, Backend/Interfaces, Data/Pipelines, Cloud/Infra) and remove the catch-all feel from the first two lines. In the TikTok and DiDi bullets, bold the main metric or scope token in each strongest bullet and add at least one concrete scope anchor where possible. In Achievements, keep only `2-dan` and `champion` bold; leave the years plain."
+}

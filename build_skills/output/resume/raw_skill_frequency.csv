@@ -1,0 +1,174 @@
+raw_skill,canonical_skill,total_mentions,record_count,source_labels,source_scopes,categories
+Python,Python,616,616,"APIs, Data, Programming",resume,Programming Languages
+SQL,SQL,616,616,"AI/ML, APIs, Cloud, Data, Programming",resume,Data & Analytics
+Docker,Docker,606,606,Cloud,resume,Cloud / DevOps / Infrastructure
+Kubernetes,Kubernetes,596,596,"Cloud, Systems",resume,Cloud / DevOps / Infrastructure
+PostgreSQL,PostgreSQL,584,584,"Cloud, Systems",resume,Databases / Storage / Streaming
+Go,Go,574,574,"APIs, Programming",resume,Programming Languages
+Kafka,Kafka,574,574,"Cloud, Programming, Systems",resume,Databases / Storage / Streaming
+Pandas,Pandas,569,569,"AI/ML, Data, Programming",resume,Data & Analytics
+Spark SQL,Spark SQL,568,568,"AI/ML, APIs, Analytics, Cloud, Data",resume,Data & Analytics
+Hive,Hive,559,559,"AI/ML, APIs, Analytics, Data, Programming",resume,Data & Analytics
+Java,Java,530,530,"APIs, Programming",resume,Programming Languages
+gRPC,gRPC,526,526,"APIs, Programming",resume,Backend & APIs
+REST,REST APIs,503,503,"APIs, Programming",resume,Backend & APIs
+AWS,AWS,497,497,Cloud,resume,Cloud / DevOps / Infrastructure
+Redis,Redis,484,484,"Cloud, Programming, Systems",resume,Databases / Storage / Streaming
+RAG,RAG,462,462,"AI/ML, Analytics, Cloud, Data",resume,AI / ML
+AWS Bedrock,AWS Bedrock,456,456,"AI/ML, Analytics, Cloud, Data",resume,AI / ML
+ETL,ETL,450,450,"Analytics, Data, Programming",resume,Data & Analytics
+MySQL,MySQL,401,401,"Cloud, Programming, Systems",resume,Databases / Storage / Streaming
+A/B Testing,A/B Testing,389,389,"Analytics, Data",resume,Data & Analytics
+S3,S3,370,370,"Cloud, Systems",resume,Databases / Storage / Streaming
+Airflow,Airflow,355,355,"APIs, Analytics, Data, Programming",resume,Data & Analytics
+CI/CD,CI/CD,343,343,"Cloud, Systems",resume,Cloud / DevOps / Infrastructure
+GitHub Actions,GitHub Actions,333,333,"Cloud, Systems",resume,Cloud / DevOps / Infrastructure
+Microservices,Microservices,326,326,"Cloud, Programming, Systems",resume,Backend & APIs
+Flask,Flask,319,319,"APIs, Programming",resume,Backend & APIs
+LLM,LLM,173,173,"AI/ML, Analytics, Cloud, Data",resume,AI / ML
+JavaScript,JavaScript,169,169,"APIs, Programming",resume,Programming Languages
+scikit-learn,scikit-learn,167,167,"AI/ML, Analytics, Cloud, Data",resume,AI / ML
+Machine Learning,Machine Learning,164,164,"AI/ML, Analytics, Cloud, Data",resume,AI / ML
+Git,Git,160,160,"APIs, Programming",resume,Quality & Workflow
+C++,C++,146,146,Programming,resume,Programming Languages
+Scala,Scala,146,146,"APIs, Programming",resume,Programming Languages
+React,React,140,140,"APIs, Programming",resume,Frontend & UI
+Algorithms,Algorithms,130,130,"APIs, Programming",resume,Architecture / Systems
+Azure,Azure,124,124,Cloud,resume,Cloud / DevOps / Infrastructure
+Data Structures,Data Structures,124,124,"APIs, Programming",resume,Architecture / Systems
+TypeScript,TypeScript,124,124,Programming,resume,Programming Languages
+Scrum,Scrum,114,114,"APIs, Programming",resume,Quality & Workflow
+PyTorch,PyTorch,96,96,"APIs, Programming",resume,AI / ML
+Linux,Linux,95,95,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+RESTful,REST APIs,80,80,"APIs, Programming",resume,Backend & APIs
+Distributed Systems,Distributed Systems,79,79,"APIs, Programming",resume,Architecture / Systems
+MongoDB,MongoDB,78,78,"APIs, Programming",resume,Databases / Storage / Streaming
+Shell,Shell,78,78,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+GCP,GCP,73,73,Cloud,resume,Cloud / DevOps / Infrastructure
+Jupyter,Jupyter,73,73,"Analytics, Data",resume,Data & Analytics
+NoSQL,NoSQL,65,65,"APIs, Programming",resume,Databases / Storage / Streaming
+TensorFlow,TensorFlow,64,64,"APIs, Programming",resume,AI / ML
+Jenkins,Jenkins,60,60,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+Angular,Angular,51,51,"APIs, Programming",resume,Frontend & UI
+Deep Learning,Deep Learning,49,49,"APIs, Programming",resume,AI / ML
+Generative AI,Generative AI,48,48,"AI/ML, Analytics, Data",resume,AI / ML
+Unit Testing,Unit Testing,48,48,"APIs, Programming",resume,Quality & Workflow
+R,R,46,46,"AI/ML, Data",resume,Programming Languages
+Css,CSS,43,43,"APIs, Programming",resume,Frontend & UI
+Spark,Spark,43,43,"APIs, Programming",resume,Data & Analytics
+Html,HTML,42,42,"APIs, Programming",resume,Frontend & UI
+Node.js,Node.js,42,42,Programming,resume,Backend & APIs
+Tableau,Tableau,42,42,"Analytics, Data",resume,Data & Analytics
+Data Pipelines,Data Pipelines,41,41,"APIs, Programming",resume,Data & Analytics
+System Design,System Design,41,41,"APIs, Programming",resume,Architecture / Systems
+NLP,NLP,40,40,"AI/ML, Data",resume,AI / ML
+Terraform,Terraform,40,40,Cloud,resume,Cloud / DevOps / Infrastructure
+Spring Boot,Spring Boot,36,36,Programming,resume,Backend & APIs
+Matplotlib,Matplotlib,35,35,Data,resume,Data & Analytics
+Spring,Spring,35,35,Programming,resume,Backend & APIs
+Jira,Jira,34,34,"APIs, Programming",resume,Quality & Workflow
+TDD,TDD,34,34,"APIs, Programming",resume,Quality & Workflow
+Snowflake,Snowflake,33,33,"APIs, Programming",resume,Data & Analytics
+Bash,Bash,29,29,Programming,resume,Cloud / DevOps / Infrastructure
+C#,C#,28,28,Programming,resume,Programming Languages
+Express,Express,28,28,Programming,resume,Backend & APIs
+Prometheus,Prometheus,28,28,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+Agile,Agile,27,27,"APIs, Programming",resume,Quality & Workflow
+ECS,ECS,27,27,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+Databricks,Databricks,26,26,"APIs, Programming",resume,Data & Analytics
+.NET,.NET,24,24,Programming,resume,Backend & APIs
+Cassandra,Cassandra,24,24,"APIs, Programming",resume,Databases / Storage / Streaming
+Embedded,Embedded Systems,24,24,"APIs, Programming",resume,Architecture / Systems
+ASP.NET,ASP.NET,23,23,Programming,resume,Backend & APIs
+BigQuery,BigQuery,21,21,Programming,resume,Data & Analytics
+NumPy,NumPy,21,21,"APIs, Programming",resume,Data & Analytics
+Power Bi,Power BI,20,20,"APIs, Programming",resume,Data & Analytics
+Google Cloud,GCP,18,18,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+Model Deployment,Model Deployment,18,18,"AI/ML, Data",resume,AI / ML
+Pytest,pytest,18,18,"APIs, Programming",resume,Quality & Workflow
+DBT,dbt,17,17,Programming,resume,Data & Analytics
+Vue,Vue,17,17,Programming,resume,Frontend & UI
+Junit,JUnit,16,16,"APIs, Programming",resume,Quality & Workflow
+Rails,Rails,16,16,Programming,resume,Backend & APIs
+Code Review,Code Review,13,13,"APIs, Programming",resume,Quality & Workflow
+Hadoop,Hadoop,13,13,"APIs, Programming",resume,Data & Analytics
+ML Infrastructure,ML Infrastructure,13,13,"APIs, Programming",resume,AI / ML
+Php,PHP,12,12,Programming,resume,Programming Languages
+Playwright,Playwright,12,12,"APIs, Programming",resume,Quality & Workflow
+Ruby,Ruby,12,12,Programming,resume,Programming Languages
+Rust,Rust,12,12,Programming,resume,Programming Languages
+Networking,Networking,11,11,"APIs, Programming",resume,Architecture / Systems
+GraphQL,GraphQL,10,10,Programming,resume,Backend & APIs
+Kotlin,Kotlin,10,10,Programming,resume,Programming Languages
+Prompt Engineering,Prompt Engineering,9,9,Programming,resume,AI / ML
+Computer Vision,Computer Vision,8,8,"APIs, Programming",resume,AI / ML
+FastAPI,FastAPI,8,8,Programming,resume,Backend & APIs
+Software Test Engineering,Software Test Engineering,8,8,"APIs, Programming",resume,Quality & Workflow
+Flink,Flink,6,6,"APIs, Programming",resume,Databases / Storage / Streaming
+Elasticsearch,Elasticsearch,5,5,"APIs, Programming",resume,Databases / Storage / Streaming
+Swift,Swift,5,5,Programming,resume,Programming Languages
+Design Review,Design Review,4,4,Programming,resume,Quality & Workflow
+Django,Django,4,4,Programming,resume,Backend & APIs
+Gitlab Ci,GitLab CI,4,4,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+Html5,HTML5,4,4,Programming,resume,Frontend & UI
+Keras,Keras,4,4,"APIs, Programming",resume,AI / ML
+OpenAI,OpenAI,4,4,"AI/ML, Data",resume,AI / ML
+Selenium,Selenium,4,4,APIs,resume,Quality & Workflow
+Vite,Vite,4,4,Programming,resume,Frontend & UI
+Apache Flink,Flink,3,3,APIs,resume,Databases / Storage / Streaming
+CSS,CSS,3,3,Programming,resume,Frontend & UI
+Css3,CSS3,3,3,Programming,resume,Frontend & UI
+GitLab CI,GitLab CI,3,3,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+Network Protocol,Network Protocol,3,3,"APIs, Programming",resume,Architecture / Systems
+Next.js,Next.js,3,3,Programming,resume,Frontend & UI
+Redshift,Redshift,3,3,Programming,resume,Databases / Storage / Streaming
+Restful Apis,REST APIs,3,3,Programming,resume,Backend & APIs
+Ansible,Ansible,2,2,"APIs, Programming",resume,Cloud / DevOps / Infrastructure
+Context Engineering,Context Engineering,2,2,Programming,resume,AI / ML
+Cypress,Cypress,2,2,"APIs, Programming",resume,Quality & Workflow
+Dynamodb,DynamoDB,2,2,Programming,resume,Databases / Storage / Streaming
+JUnit,JUnit,2,2,Programming,resume,Quality & Workflow
+Jest,Jest,2,2,APIs,resume,Quality & Workflow
+Matlab,MATLAB,2,2,Data,resume,Programming Languages
+NestJS,NestJS,2,2,Programming,resume,Backend & APIs
+REST APIs,REST APIs,2,2,Programming,resume,Backend & APIs
+ASP.NET MVC,ASP.NET MVC,1,1,Programming,resume,Backend & APIs
+Android Sdk,Android SDK,1,1,Programming,resume,Frontend & UI
+Apache Airflow,Airflow,1,1,APIs,resume,Data & Analytics
+Azure Blob Storage,Azure Blob Storage,1,1,APIs,resume,Databases / Storage / Streaming
+Azure OpenAI,Azure OpenAI,1,1,APIs,resume,AI / ML
+C#/.Net,.NET / C#,1,1,APIs,resume,Backend & APIs
+Dashboard Automation,Dashboard Automation,1,1,Data,resume,Data & Analytics
+Db2,DB2,1,1,Programming,resume,Databases / Storage / Streaming
+DynamoDB,DynamoDB,1,1,APIs,resume,Databases / Storage / Streaming
+Embedded Systems,Embedded Systems,1,1,Programming,resume,Architecture / Systems
+Embeddings,Embeddings,1,1,Programming,resume,AI / ML
+Experiment Design,Experiment Design,1,1,Data,resume,Data & Analytics
+Forecasting,Forecasting,1,1,Data,resume,Data & Analytics
+Genai,Generative AI,1,1,Programming,resume,AI / ML
+HTML5,HTML5,1,1,Programming,resume,Frontend & UI
+Java 17,Java,1,1,Programming,resume,Programming Languages
+Jetpack Compose,Jetpack Compose,1,1,Programming,resume,Frontend & UI
+K8S,Kubernetes,1,1,Programming,resume,Cloud / DevOps / Infrastructure
+KPI Measurement,KPI Measurement,1,1,Data,resume,Data & Analytics
+LLM Application Development,LLM Application Development,1,1,Programming,resume,AI / ML
+Langchain,LangChain,1,1,Programming,resume,AI / ML
+Large-Scale Systems,Large-Scale Systems,1,1,Programming,resume,Architecture / Systems
+Looker,Looker,1,1,Data,resume,Data & Analytics
+Material Design,Material Design,1,1,Programming,resume,Frontend & UI
+Mlops,MLOps,1,1,Programming,resume,AI / ML
+OpenAI API,OpenAI API,1,1,Programming,resume,AI / ML
+Openai Api,OpenAI API,1,1,Programming,resume,AI / ML
+RESTful APIs,REST APIs,1,1,Programming,resume,Backend & APIs
+React 16+,React,1,1,Programming,resume,Frontend & UI
+Retrieval Evaluation,Retrieval Evaluation,1,1,Programming,resume,AI / ML
+Selenium Webdriver,Selenium,1,1,Programming,resume,Quality & Workflow
+Ssms,SSMS,1,1,Programming,resume,Databases / Storage / Streaming
+Tailwind,Tailwind,1,1,Programming,resume,Frontend & UI
+Vb.Net,VB.NET,1,1,Programming,resume,Programming Languages
+Vector Embeddings,Embeddings,1,1,Programming,resume,AI / ML
+Visual Studio,Visual Studio,1,1,Programming,resume,Quality & Workflow
+Webpack,Webpack,1,1,Programming,resume,Frontend & UI
+anomaly detection,Anomaly Detection,1,1,Programming,resume,Data & Analytics
+pytest,pytest,1,1,APIs,resume,Quality & Workflow
+time-series analysis,Time Series Analysis,1,1,Programming,resume,Data & Analytics

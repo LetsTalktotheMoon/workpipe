@@ -1,0 +1,33 @@
+boundary:
+  writer:
+    heading: ' ### ByteDance 特殊写作边界'
+    rules:
+    - '- 不得写入或提及 TikTok / ByteDance intern 这段经历'
+    - '- 目标岗位只能使用 DiDi、Temu 和 Georgia Tech CS coursework/projects 作为证据池；GT 教育主干仍按共享教育块保留，ByteDance
+      只是进一步加权 GT coursework/projects。'
+  retarget:
+    heading: ' ## ByteDance 目标公司特殊模式'
+    rules:
+    - '- 对 ByteDance 目标岗位，候选人证据池中不得出现 TikTok / ByteDance intern 这段经历，也不得在 Summary、Skills、Experience、Project
+      baseline 或 bullets 中提及它'
+    - '- 只允许从以下三类材料出发构建简历：DiDi 全职经历、Temu 全职经历、Georgia Tech CS coursework/projects'
+    - '- 当 JD 需要更强的软件工程或系统实现信号时，优先把 Georgia Tech CS coursework/projects 提升为主要技术证据；GT
+      教育主干仍是共享材料，而不是把缺口强行塞回 ByteDance/TikTok intern'
+    - '- seed 若包含 TikTok / ByteDance intern，只能作为弱参考；你必须主动删掉这段经历，再按新的证据池重写'
+  upgrade:
+    heading: ' ## ByteDance 特殊要求'
+    rules:
+    - '- 删除任何 TikTok / ByteDance intern 内容，不要把它当作可修补素材'
+    - '- 证据池仅限 DiDi、Temu、Georgia Tech CS coursework/projects'
+    - '- 若旧稿因为 seed 骨架保留了 TikTok / ByteDance intern，必须直接推翻该部分并重写'
+  reviewer:
+    heading: ' ## ByteDance 特殊审查要求'
+    rules:
+    - '- 对 ByteDance 目标岗位，TikTok / ByteDance intern 这段经历必须完全不存在'
+    - '- 若简历仍引用了 TikTok / ByteDance intern，视为 critical，并要求删除后仅用 DiDi / Temu / Georgia
+      Tech CS coursework/projects 重写；GT 教育主干仍按共享材料保留'
+reviewer_user: |-
+  R0: TikTok / ByteDance intern 这段经历如果出现 = CRITICAL（ByteDance 目标岗位必须完全删掉）
+  R1: 是否出现任何 TikTok / ByteDance intern 段落？若出现 = critical
+  R3: 是否错误地重新引入了 ByteDance / TikTok intern，以规避工作经历和课程项目证据不足？
+  R5: Experience 顺序是否严格倒序（DiDi（2022-2024）→ Temu（2021-2022））？

@@ -1,0 +1,220 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:38:44",
+  "completed_at": "2026-04-17T20:40:00",
+  "duration_seconds": 76.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1/3/4; DiDi Experience bullet 3; TikTok Project bullet 1/4",
+          "issue": "Modifier phrases like `team-maintained`, `intern-owned`, and `team-owned` are bolded. The formatting rule reserves bold for technical nouns and scope/scale signals, not generic descriptors.",
+          "fix": "Remove bold from those modifiers and keep bold only on the core technology terms and the main impact metrics."
+        },
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets across TikTok / DiDi / Temu",
+          "issue": "Most result numbers are left unbolded, including `11 minutes`, `4 minutes`, `31%`, `18%`, `10 minutes`, `33%`, `27%`, `41%`, `15 minutes`, `2 hours`, `14%`, and `5 hours`. That weakens skim readability under the stated emphasis rule.",
+          "fix": "Bold the single most important metric in each bullet, especially latency, coverage, defect, and time-saved figures."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary sentence 1",
+          "issue": "The opening frames the candidate as someone `transitioning from analytics` before leading with the target ML/backend identity. That reads more like a career-change story than a clear first-screen fit for MLE.",
+          "fix": "Rewrite the sentence to start with the role and domain signal first, then mention the analytics background as supporting context."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary sentence 1; TikTok Experience bullets 1-4",
+          "issue": "The resume presents `Go`, `Python`, `Java`, `C++`, `PyTorch`, `AWS Bedrock`, `Kafka`, `Docker`, and `Kubernetes` as a broad hands-on stack inside one internship segment. That reads like stack pile-up unless the core stack is narrowed and the rest are clearly scoped to the specific bullets that need them.",
+          "fix": "Keep only the 1-2 primary languages plus the core ML stack in the Summary, and let the remaining tools appear only in the bullets where they are essential."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite Summary sentence 1 to lead with the target ML/backend role, then mention the analytics transition later.",
+      "[MUST] Narrow the apparent primary stack in the TikTok internship so it does not read like one broad daily-use language/tool pile-up.",
+      "[SHOULD] Remove bold from modifier phrases like `team-maintained` and `team-owned`, and reserve bold for tech nouns plus the strongest metrics.",
+      "[NICE] Standardize metric emphasis so each bullet highlights one headline result clearly."
+    ],
+    "revision_instructions": "Rewrite the first Summary sentence as role-first, e.g. `Backend-leaning ML engineer with 2.5+ years...`, then add the analytics background as context later in the sentence. In the TikTok internship, avoid presenting Go/Python/Java/C++/PyTorch/Bedrock/Kafka/Docker/Kubernetes as one uniform primary stack; keep the summary to the core languages and ML focus, and leave supporting tools in the specific bullets that need them. Remove bold from descriptive modifiers such as team-maintained/team-owned/intern-owned, and bold only the main technologies and the most important result numbers.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.8,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite Summary sentence 1 to lead with the target ML/backend role, then mention the analytics transition later.",
+      "[MUST] Narrow the apparent primary stack in the TikTok internship so it does not read like one broad daily-use language/tool pile-up.",
+      "[SHOULD] Remove bold from modifier phrases like `team-maintained` and `team-owned`, and reserve bold for tech nouns plus the strongest metrics.",
+      "[NICE] Standardize metric emphasis so each bullet highlights one headline result clearly."
+    ],
+    "revision_instructions": "Rewrite the first Summary sentence as role-first, e.g. `Backend-leaning ML engineer with 2.5+ years...`, then add the analytics background as context later in the sentence. In the TikTok internship, avoid presenting Go/Python/Java/C++/PyTorch/Bedrock/Kafka/Docker/Kubernetes as one uniform primary stack; keep the summary to the core languages and ML focus, and leave supporting tools in the specific bullets that need them. Remove bold from descriptive modifiers such as team-maintained/team-owned/intern-owned, and bold only the main technologies and the most important result numbers.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1/3/4; DiDi Experience bullet 3; TikTok Project bullet 1/4",
+            "issue": "Modifier phrases like `team-maintained`, `intern-owned`, and `team-owned` are bolded. The formatting rule reserves bold for technical nouns and scope/scale signals, not generic descriptors.",
+            "fix": "Remove bold from those modifiers and keep bold only on the core technology terms and the main impact metrics."
+          },
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok / DiDi / Temu",
+            "issue": "Most result numbers are left unbolded, including `11 minutes`, `4 minutes`, `31%`, `18%`, `10 minutes`, `33%`, `27%`, `41%`, `15 minutes`, `2 hours`, `14%`, and `5 hours`. That weakens skim readability under the stated emphasis rule.",
+            "fix": "Bold the single most important metric in each bullet, especially latency, coverage, defect, and time-saved figures."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary sentence 1",
+            "issue": "The opening frames the candidate as someone `transitioning from analytics` before leading with the target ML/backend identity. That reads more like a career-change story than a clear first-screen fit for MLE.",
+            "fix": "Rewrite the sentence to start with the role and domain signal first, then mention the analytics background as supporting context."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary sentence 1; TikTok Experience bullets 1-4",
+            "issue": "The resume presents `Go`, `Python`, `Java`, `C++`, `PyTorch`, `AWS Bedrock`, `Kafka`, `Docker`, and `Kubernetes` as a broad hands-on stack inside one internship segment. That reads like stack pile-up unless the core stack is narrowed and the rest are clearly scoped to the specific bullets that need them.",
+            "fix": "Keep only the 1-2 primary languages plus the core ML stack in the Summary, and let the remaining tools appear only in the bullets where they are essential."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary sentence 1 to lead with the target ML/backend role, then mention the analytics transition later.",
+        "[MUST] Narrow the apparent primary stack in the TikTok internship so it does not read like one broad daily-use language/tool pile-up.",
+        "[SHOULD] Remove bold from modifier phrases like `team-maintained` and `team-owned`, and reserve bold for tech nouns plus the strongest metrics.",
+        "[NICE] Standardize metric emphasis so each bullet highlights one headline result clearly."
+      ],
+      "revision_instructions": "Rewrite the first Summary sentence as role-first, e.g. `Backend-leaning ML engineer with 2.5+ years...`, then add the analytics background as context later in the sentence. In the TikTok internship, avoid presenting Go/Python/Java/C++/PyTorch/Bedrock/Kafka/Docker/Kubernetes as one uniform primary stack; keep the summary to the core languages and ML focus, and leave supporting tools in the specific bullets that need them. Remove bold from descriptive modifiers such as team-maintained/team-owned/intern-owned, and bold only the main technologies and the most important result numbers.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1/3/4; DiDi Experience bullet 3; TikTok Project bullet 1/4",
+          "issue": "Modifier phrases like `team-maintained`, `intern-owned`, and `team-owned` are bolded. The formatting rule reserves bold for technical nouns and scope/scale signals, not generic descriptors.",
+          "fix": "Remove bold from those modifiers and keep bold only on the core technology terms and the main impact metrics."
+        },
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets across TikTok / DiDi / Temu",
+          "issue": "Most result numbers are left unbolded, including `11 minutes`, `4 minutes`, `31%`, `18%`, `10 minutes`, `33%`, `27%`, `41%`, `15 minutes`, `2 hours`, `14%`, and `5 hours`. That weakens skim readability under the stated emphasis rule.",
+          "fix": "Bold the single most important metric in each bullet, especially latency, coverage, defect, and time-saved figures."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary sentence 1; TikTok Experience bullets 1-4",
+          "issue": "The resume presents `Go`, `Python`, `Java`, `C++`, `PyTorch`, `AWS Bedrock`, `Kafka`, `Docker`, and `Kubernetes` as a broad hands-on stack inside one internship segment. That reads like stack pile-up unless the core stack is narrowed and the rest are clearly scoped to the specific bullets that need them.",
+          "fix": "Keep only the 1-2 primary languages plus the core ML stack in the Summary, and let the remaining tools appear only in the bullets where they are essential."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary sentence 1",
+          "issue": "The opening frames the candidate as someone `transitioning from analytics` before leading with the target ML/backend identity. That reads more like a career-change story than a clear first-screen fit for MLE.",
+          "fix": "Rewrite the sentence to start with the role and domain signal first, then mention the analytics background as supporting context."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-042",
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3C-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P1-042",
+      "P2-001",
+      "P3C-010"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ Professional Summary sentence 1; TikTok Experience bullets 1-4"
+    ]
+  }
+}

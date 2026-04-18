@@ -1,0 +1,40 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first sentence",
+        "issue": "首句以“Data Analysis Candidate”开头，首屏更像候选人状态说明，而不是明确的岗位方向锚点。对 HR 扫读来说，角色定位感被削弱。",
+        "fix": "把首句改成直接的岗位锚点，例如“Data Analytics Professional:”或“Data Analyst / Analytics Engineer:”，并保留 Python、SQL、Spark、数据规模或业务场景信号。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Professional Summary / Experience / Education",
+        "issue": "JD 是 Manager 级别，并明确要求至少 4 年专业 data analysis 经验；简历纸面上只写了 3+ years，且直接可见的数据分析经历大约只有 2021-2024 这条线，没有明确 people management、hiring、performance review 或稳定的团队管理证据。",
+        "fix": "如果确有真实的项目/人员管理经历，把最相关一段经历改写成明确的 project lead / mentor / cross-functional owner 证据；如果没有真实管理经历，这个 JD 更适合降级投递到 senior IC analytics 角色，不要强行包装成 Manager。 ",
+        "note": "[结构性错配]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 解决 Manager JD 与简历纸面资历的结构性错配：当前只显式写出 3+ years，且没有可见 people-management 证据；若事实成立，应转投非 Manager 的 analytics 岗位。",
+    "[MUST] 重写 Summary 首句，去掉“Candidate”式自我定位，改为直接的 data analytics / Python / SQL / Spark 岗位锚点。",
+    "[SHOULD] 如果真实存在项目管理、带人、导师式协作或跨团队 owner 证据，把它补到最相关经历里，专门服务 JD 的 Manager 叙事。",
+    "[NICE] 去掉对修饰语的加粗，把加粗保留给技术名词和量化结果，提升首屏可读性。"
+  ],
+  "revision_instructions": "[结构性错配] 这版简历在纸面上不满足该 JD 的 Manager 预期：Summary 只写了 3+ years，直接可见的数据分析年限也不足 4 年，且没有明确 people-management 证据。若这些事实都是真实的，只能在最相关经历里补充真实的 project lead / mentor / cross-functional owner 证据，并把 Summary 改成直接的 data analytics 定位；否则更适合投递 senior IC analytics 岗位，而不是继续硬贴 Manager。"
+}

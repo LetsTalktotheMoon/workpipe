@@ -1,0 +1,321 @@
+{
+  "label": "gen2/CapitalOne-Manager2",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/CapitalOne-Manager2",
+    "company": "Capital One",
+    "title": "Manager, Data Analysis - Card Services",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Capital One is a leader in data-driven decision-making and is seeking a Manager for Data Analysis in their Card Services division",
+    "tech_required": [],
+    "tech_preferred": [
+      "Tableau",
+      "R",
+      "SQL",
+      "AWS",
+      "Python",
+      "Spark"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 89.5,
+      "overall_verdict": "fail",
+      "passed": false,
+      "critical_count": 0,
+      "high_count": 1,
+      "needs_revision": true,
+      "revision_priority": [
+        "Rewrite Professional Summary into exactly 3 bold-headed sentences.",
+        "Add defensible R/Tableau evidence in Skills and one body bullet if those tools were actually used."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 7.4,
+          "weight": 0.15,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 8.6,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.4,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.0,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 89.5,
+      "verdict": "conditional_pass",
+      "seed_label": "Qualified Health Data Engineer",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "Keep all immutable fields exactly as-is. First, convert Professional Summary from 3 bullets into exactly 3 sentences, each with a bold header and no bullet markers; the third sentence should emphasize pattern recognition / systems judgment rather than teamwork. Second, if `R` and `Tableau` are real skills, add them to Skills and support them with one concrete bullet in DiDi or Temu that shows actual analysis or dashboard usage; do not invent unsupported tools. Preserve the existing experience chronology, titles, dates, and location strings.",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T18:31:03",
+      "rereview_rounds": 1,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 93.0,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:45:44",
+    "completed_at": "2026-04-17T23:46:48",
+    "duration_seconds": 64.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary / Sentence 1",
+            "issue": "首句用 `Candidate` 作 framing，首屏读起来更像求职标签而不是直接的角色锚点，削弱了数据分析经理岗的第一眼匹配度。",
+            "fix": "把第一句改成直接角色锚点，例如 `Data analytics professional:` 或 `Data analyst:`，保留 `Python / SQL / Spark / AWS` 的具体信号，但去掉 `Candidate`。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall profile vs. JD minimum qualifications",
+            "issue": "JD 明确指向 `Manager` 级别，并要求 BS+6 或 MS+4 的数据分析经验、4 年 professional data analysis、4 年 programming，以及 people/project management 预期；简历可见时间线只有约 3 年级别相关经验，且没有可见的人管证据。",
+            "fix": "如果你确实有真实的 leadership / mentoring / project ownership 证据，只能把它补到最相关的 DiDi 经验里；否则这份简历对该 JD 属于结构性错配，应改投 IC/data analyst 类岗位，不要硬写成 Manager。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience + Project",
+            "issue": "最新部分主要由百分比改进构成，缺少 Tier 1 规模信号（如数据量、case/day、query volume、team size、SLA），对 Manager 型数据分析岗的首屏支撑不够。",
+            "fix": "在 TikTok 最重要的 1-2 条 bullet 里补充真实可核验的规模信息，例如支持的 analyst 数、每日 case/query/job 量、数据集规模、review cadence 或 SLA；保留百分比结果作为次级证据。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 删除 Summary 首句里的 `Candidate` framing，改成直接的 data analytics 角色锚点。",
+        "[MUST] 这份简历目前不满足 `Manager` / `6+ years` / people management 预期；如果没有真实领导证据，就不要把它包装成管理岗匹配。",
+        "[SHOULD] 在最新的 TikTok 段补 1-2 个真实规模信号，提升首屏可信度。",
+        "[NICE] 如果确实有 `Tableau` / `R`，再补进 Skills 和最相关经历。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历当前更像 3 年级别的 data/backend 混合型 IC，不足以支撑该 JD 的 Manager 定位。若仍要投这个岗位，只做真实补强：1) 把 Summary 首句改成直接角色锚点，删除 `Candidate`；2) 仅在最相关经历里补充真实的 project leadership / mentoring / cross-team ownership 证据；3) 在 TikTok 的关键 bullet 中加入可核验的规模信息（team size、daily volume、SLA、dataset size 等）。不要虚构 people management，也不要把 internship 夸成管理岗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 91.4,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 删除 Summary 首句里的 `Candidate` framing，改成直接的 data analytics 角色锚点。",
+        "[MUST] 这份简历目前不满足 `Manager` / `6+ years` / people management 预期；如果没有真实领导证据，就不要把它包装成管理岗匹配。",
+        "[SHOULD] 在最新的 TikTok 段补 1-2 个真实规模信号，提升首屏可信度。",
+        "[NICE] 如果确实有 `Tableau` / `R`，再补进 Skills 和最相关经历。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历当前更像 3 年级别的 data/backend 混合型 IC，不足以支撑该 JD 的 Manager 定位。若仍要投这个岗位，只做真实补强：1) 把 Summary 首句改成直接角色锚点，删除 `Candidate`；2) 仅在最相关经历里补充真实的 project leadership / mentoring / cross-team ownership 证据；3) 在 TikTok 的关键 bullet 中加入可核验的规模信息（team size、daily volume、SLA、dataset size 等）。不要虚构 people management，也不要把 internship 夸成管理岗。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary / Sentence 1",
+              "issue": "首句用 `Candidate` 作 framing，首屏读起来更像求职标签而不是直接的角色锚点，削弱了数据分析经理岗的第一眼匹配度。",
+              "fix": "把第一句改成直接角色锚点，例如 `Data analytics professional:` 或 `Data analyst:`，保留 `Python / SQL / Spark / AWS` 的具体信号，但去掉 `Candidate`。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Overall profile vs. JD minimum qualifications",
+              "issue": "JD 明确指向 `Manager` 级别，并要求 BS+6 或 MS+4 的数据分析经验、4 年 professional data analysis、4 年 programming，以及 people/project management 预期；简历可见时间线只有约 3 年级别相关经验，且没有可见的人管证据。",
+              "fix": "如果你确实有真实的 leadership / mentoring / project ownership 证据，只能把它补到最相关的 DiDi 经验里；否则这份简历对该 JD 属于结构性错配，应改投 IC/data analyst 类岗位，不要硬写成 Manager。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Experience + Project",
+              "issue": "最新部分主要由百分比改进构成，缺少 Tier 1 规模信号（如数据量、case/day、query volume、team size、SLA），对 Manager 型数据分析岗的首屏支撑不够。",
+              "fix": "在 TikTok 最重要的 1-2 条 bullet 里补充真实可核验的规模信息，例如支持的 analyst 数、每日 case/query/job 量、数据集规模、review cadence 或 SLA；保留百分比结果作为次级证据。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 删除 Summary 首句里的 `Candidate` framing，改成直接的 data analytics 角色锚点。",
+          "[MUST] 这份简历目前不满足 `Manager` / `6+ years` / people management 预期；如果没有真实领导证据，就不要把它包装成管理岗匹配。",
+          "[SHOULD] 在最新的 TikTok 段补 1-2 个真实规模信号，提升首屏可信度。",
+          "[NICE] 如果确实有 `Tableau` / `R`，再补进 Skills 和最相关经历。"
+        ],
+        "revision_instructions": "[结构性错配] 这份简历当前更像 3 年级别的 data/backend 混合型 IC，不足以支撑该 JD 的 Manager 定位。若仍要投这个岗位，只做真实补强：1) 把 Summary 首句改成直接角色锚点，删除 `Candidate`；2) 仅在最相关经历里补充真实的 project leadership / mentoring / cross-team ownership 证据；3) 在 TikTok 的关键 bullet 中加入可核验的规模信息（team size、daily volume、SLA、dataset size 等）。不要虚构 people management，也不要把 internship 夸成管理岗。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall profile vs. JD minimum qualifications",
+            "issue": "JD 明确指向 `Manager` 级别，并要求 BS+6 或 MS+4 的数据分析经验、4 年 professional data analysis、4 年 programming，以及 people/project management 预期；简历可见时间线只有约 3 年级别相关经验，且没有可见的人管证据。",
+            "fix": "如果你确实有真实的 leadership / mentoring / project ownership 证据，只能把它补到最相关的 DiDi 经验里；否则这份简历对该 JD 属于结构性错配，应改投 IC/data analyst 类岗位，不要硬写成 Manager。"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary / Sentence 1",
+            "issue": "首句用 `Candidate` 作 framing，首屏读起来更像求职标签而不是直接的角色锚点，削弱了数据分析经理岗的第一眼匹配度。",
+            "fix": "把第一句改成直接角色锚点，例如 `Data analytics professional:` 或 `Data analyst:`，保留 `Python / SQL / Spark / AWS` 的具体信号，但去掉 `Candidate`。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience + Project",
+            "issue": "最新部分主要由百分比改进构成，缺少 Tier 1 规模信号（如数据量、case/day、query volume、team size、SLA），对 Manager 型数据分析岗的首屏支撑不够。",
+            "fix": "在 TikTok 最重要的 1-2 条 bullet 里补充真实可核验的规模信息，例如支持的 analyst 数、每日 case/query/job 量、数据集规模、review cadence 或 SLA；保留百分比结果作为次级证据。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P3B-010",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-010 @ Overall profile vs. JD minimum qualifications"
+      ]
+    }
+  }
+}

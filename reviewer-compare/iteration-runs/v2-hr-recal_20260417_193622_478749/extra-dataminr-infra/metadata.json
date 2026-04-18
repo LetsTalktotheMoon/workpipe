@@ -1,0 +1,126 @@
+{
+  "label": "extra/Dataminr-Infra",
+  "company": "Dataminr",
+  "title": "Senior Software Engineer, Backend",
+  "role_type": "swe_backend",
+  "seniority": "senior",
+  "team_direction": "Dataminr is a mission-driven company that provides organizations with AI-powered intelligence to respond to emerging risks and events",
+  "tech_required": [
+    "Data Structures",
+    "Java",
+    "Algorithms",
+    "Kafka",
+    "Scala",
+    "Elasticsearch",
+    "Distributed Systems",
+    "Go",
+    "Microservices",
+    "Redis",
+    "Python",
+    "PostgreSQL"
+  ],
+  "tech_preferred": [],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/review.json",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "portfolio_review": {
+    "weighted_score": 94.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.5,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.0,
+    "verdict": "pass",
+    "seed_label": "Google Cloud Infra Anchor",
+    "route_mode": "retarget",
+    "revised": true,
+    "repaired_at": "2026-04-07T16:57:20",
+    "repair_changes": [
+      "normalized_go_achievement",
+      "normalized_didi_scope_note"
+    ],
+    "repair_issue_codes_before": [],
+    "repair_issue_codes_after": []
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+output_contract: |-
+  ## 输出格式（header 拼写必须完全一致）
+
+  ## Professional Summary
+  {{ data.sentences.output_header_bullet }}
+  {{ data.sentences.output_header_bullet }}
+  {{ data.sentences.output_header_bullet }}
+
+  ## Skills
+  {{ data.sentences.output_skill_line }}
+  {{ data.sentences.output_skill_line }}
+
+  ## Experience
+  {{ data.sentences.output_title_line }}
+  {{ data.sentences.output_dates_line }}
+  > Optional cross-functional note
+
+  {{ data.sentences.output_bullet }}
+  {{ data.sentences.output_bullet }}
+  {{ data.sentences.output_bullet }}
+  {{ data.sentences.output_bullet }}
+
+  **Project: Project Title**
+  > One-line project baseline (business pain point / context for what follows).
+  {{ data.sentences.output_bullet }}
+  {{ data.sentences.output_bullet }}
+  {{ data.sentences.output_bullet }}
+  {{ data.sentences.output_bullet }}
+
+  {{ data.sentences.output_title_line }}
+  {{ data.sentences.output_dates_line }}
+
+  {{ data.sentences.output_bullet }}
+
+  ## Education
+  ### Degree | School
+  *Dates*
+
+  ## Achievements
+  * China national certified Go **2-dan** — city **champion** (2022) and third place (2023).
+
+  **Header 拼写规则:**
+  - `## Experience`（不是 `## Professional Experience`）
+  - `## Skills`（不是 `## Technical Skills`）
+  - `## Achievements`（不是 `## Achievement`）
+  - 项目必须在对应经历下方，不单独成 section
+  - 只输出简历正文，不要解释、注释、分析

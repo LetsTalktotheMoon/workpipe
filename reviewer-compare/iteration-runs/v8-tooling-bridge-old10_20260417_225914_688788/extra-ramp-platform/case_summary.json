@@ -1,0 +1,279 @@
+{
+  "label": "extra/Ramp-Platform",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/Ramp-Platform",
+    "company": "Ramp",
+    "title": "Software Engineer, Infrastructure",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Ramp is building the smart infrastructure for finance teams, automating how over $100B in annualized spend flows in and out of 50,000+ companies",
+    "tech_required": [
+      "Terraform",
+      "MySQL",
+      "GCP",
+      "Redis",
+      "PostgreSQL",
+      "AWS",
+      "SQL",
+      "Azure",
+      "Kafka",
+      "Flask",
+      "Kubernetes"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.6,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.8,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.6,
+      "verdict": "pass",
+      "seed_label": "TRIMEDX Platform Multicloud",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T22:14:13",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 94.2,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:06:59",
+    "completed_at": "2026-04-17T23:07:44",
+    "duration_seconds": 45.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience bullets 3-4; DiDi Experience bullets 1-2",
+            "issue": "正文中有多处修饰语/限定词被加粗，例如 `**team-maintained**`、`**existing**`、`**internal**`。这会稀释技术栈和量化信号的视觉权重，不符合该简历的加粗规则。",
+            "fix": "取消这些修饰语的加粗，只保留技术名词、关键系统名和量化结果加粗；把视觉强调集中在技术栈、规模、延迟、吞吐和结果上。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 去掉正文里修饰语/限定词的加粗，保留技术栈和量化结果的加粗权重。",
+        "[NICE] 统一全篇的强调策略，让首屏更聚焦在技术栈、系统边界和量化结果上。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 10.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 99.5,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 去掉正文里修饰语/限定词的加粗，保留技术栈和量化结果的加粗权重。",
+        "[NICE] 统一全篇的强调策略，让首屏更聚焦在技术栈、系统边界和量化结果上。"
+      ],
+      "revision_instructions": "",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Professional Summary; TikTok Experience bullets 3-4; DiDi Experience bullets 1-2",
+              "issue": "正文中有多处修饰语/限定词被加粗，例如 `**team-maintained**`、`**existing**`、`**internal**`。这会稀释技术栈和量化信号的视觉权重，不符合该简历的加粗规则。",
+              "fix": "取消这些修饰语的加粗，只保留技术名词、关键系统名和量化结果加粗；把视觉强调集中在技术栈、规模、延迟、吞吐和结果上。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": []
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[SHOULD] 去掉正文里修饰语/限定词的加粗，保留技术栈和量化结果的加粗权重。",
+          "[NICE] 统一全篇的强调策略，让首屏更聚焦在技术栈、系统边界和量化结果上。"
+        ],
+        "revision_instructions": "",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience bullets 3-4; DiDi Experience bullets 1-2",
+            "issue": "正文中有多处修饰语/限定词被加粗，例如 `**team-maintained**`、`**existing**`、`**internal**`。这会稀释技术栈和量化信号的视觉权重，不符合该简历的加粗规则。",
+            "fix": "取消这些修饰语的加粗，只保留技术名词、关键系统名和量化结果加粗；把视觉强调集中在技术栈、规模、延迟、吞吐和结果上。"
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

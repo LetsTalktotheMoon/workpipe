@@ -1,0 +1,196 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:04:50",
+  "completed_at": "2026-04-17T20:05:49",
+  "duration_seconds": 59.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing leads with 'transitioning from data analytics to backend engineering', so the first read is a career-change story rather than a backend/distributed-systems hook.",
+          "fix": "Rewrite the opening to start with the target role direction and core backend scope, then mention the analytics transition later as supporting context."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary + TikTok · Security experience",
+          "issue": "The summary and TikTok bullets present 6 programming languages plus several infra technologies as active delivery scope in one internship segment, which reads as stack inflation rather than a clear primary ownership surface.",
+          "fix": "Center the segment on 2-3 primary technologies that were truly core to the work, and describe the rest as supporting integration or validation tools."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "The latest experience is dominated by percentage improvements, while the only concrete scope anchors are relatively small internal signals; a hiring manager may not get a fast sense of scale.",
+          "fix": "Add one concrete scope metric to the first TikTok bullet or project bullet, such as reviewer volume, alert throughput, service count, or weekly case load, so the scale reads before the percentages."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite Summary sentence 1 to lead with backend/distributed systems, not the transition narrative.",
+      "[MUST] Decompress the TikTok segment: keep a small primary stack and move supporting languages/tools into integration context.",
+      "[SHOULD] Add one first-screen scale metric to TikTok to replace pure percentage-delta signaling.",
+      "[NICE] Keep Skills as-is unless you need to trim secondary tools after the rewrite."
+    ],
+    "revision_instructions": "Rewrite the first Summary sentence to foreground backend/distributed-systems scope, and move the data-analytics-to-backend transition out of the opening. In TikTok, keep Go/gRPC/Kafka/PostgreSQL as the primary stack and mention Java/C#/C++/JavaScript/Python only where they are supporting integrations, tests, or UI work. Add one concrete scope number to the first TikTok bullet or project bullet, such as reviewer volume, alert throughput, case count, or service count. Leave immutable titles, dates, and locations unchanged.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.8,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite Summary sentence 1 to lead with backend/distributed systems, not the transition narrative.",
+      "[MUST] Decompress the TikTok segment: keep a small primary stack and move supporting languages/tools into integration context.",
+      "[SHOULD] Add one first-screen scale metric to TikTok to replace pure percentage-delta signaling.",
+      "[NICE] Keep Skills as-is unless you need to trim secondary tools after the rewrite."
+    ],
+    "revision_instructions": "Rewrite the first Summary sentence to foreground backend/distributed-systems scope, and move the data-analytics-to-backend transition out of the opening. In TikTok, keep Go/gRPC/Kafka/PostgreSQL as the primary stack and mention Java/C#/C++/JavaScript/Python only where they are supporting integrations, tests, or UI work. Add one concrete scope number to the first TikTok bullet or project bullet, such as reviewer volume, alert throughput, case count, or service count. Leave immutable titles, dates, and locations unchanged.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The opening framing leads with 'transitioning from data analytics to backend engineering', so the first read is a career-change story rather than a backend/distributed-systems hook.",
+            "fix": "Rewrite the opening to start with the target role direction and core backend scope, then mention the analytics transition later as supporting context."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary + TikTok · Security experience",
+            "issue": "The summary and TikTok bullets present 6 programming languages plus several infra technologies as active delivery scope in one internship segment, which reads as stack inflation rather than a clear primary ownership surface.",
+            "fix": "Center the segment on 2-3 primary technologies that were truly core to the work, and describe the rest as supporting integration or validation tools."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "The latest experience is dominated by percentage improvements, while the only concrete scope anchors are relatively small internal signals; a hiring manager may not get a fast sense of scale.",
+            "fix": "Add one concrete scope metric to the first TikTok bullet or project bullet, such as reviewer volume, alert throughput, service count, or weekly case load, so the scale reads before the percentages."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary sentence 1 to lead with backend/distributed systems, not the transition narrative.",
+        "[MUST] Decompress the TikTok segment: keep a small primary stack and move supporting languages/tools into integration context.",
+        "[SHOULD] Add one first-screen scale metric to TikTok to replace pure percentage-delta signaling.",
+        "[NICE] Keep Skills as-is unless you need to trim secondary tools after the rewrite."
+      ],
+      "revision_instructions": "Rewrite the first Summary sentence to foreground backend/distributed-systems scope, and move the data-analytics-to-backend transition out of the opening. In TikTok, keep Go/gRPC/Kafka/PostgreSQL as the primary stack and mention Java/C#/C++/JavaScript/Python only where they are supporting integrations, tests, or UI work. Add one concrete scope number to the first TikTok bullet or project bullet, such as reviewer volume, alert throughput, case count, or service count. Leave immutable titles, dates, and locations unchanged.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary + TikTok · Security experience",
+          "issue": "The summary and TikTok bullets present 6 programming languages plus several infra technologies as active delivery scope in one internship segment, which reads as stack inflation rather than a clear primary ownership surface.",
+          "fix": "Center the segment on 2-3 primary technologies that were truly core to the work, and describe the rest as supporting integration or validation tools."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing leads with 'transitioning from data analytics to backend engineering', so the first read is a career-change story rather than a backend/distributed-systems hook.",
+          "fix": "Rewrite the opening to start with the target role direction and core backend scope, then mention the analytics transition later as supporting context."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "The latest experience is dominated by percentage improvements, while the only concrete scope anchors are relatively small internal signals; a hiring manager may not get a fast sense of scale.",
+          "fix": "Add one concrete scope metric to the first TikTok bullet or project bullet, such as reviewer volume, alert throughput, service count, or weekly case load, so the scale reads before the percentages."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3C-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3C-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ Professional Summary + TikTok · Security experience"
+    ]
+  }
+}

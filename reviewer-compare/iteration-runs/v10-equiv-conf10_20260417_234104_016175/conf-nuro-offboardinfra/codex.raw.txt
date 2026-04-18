@@ -1,0 +1,38 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience / Project bullets",
+        "issue": "正文里的关键量化结果和范围信号大多未加粗，例如 28%、19%、31%、24%、7.8 seconds、5.6 seconds、18%、24 hours、13-person、40% 等，和模板要求的“技术栈名词 + 规模/scope 量化信号”高亮不完全一致。",
+        "fix": "把每条 bullet 的主结果数字或 scope 词加粗，优先高亮首屏可扫读的指标，例如 `**28%**`, `**13-person**`, `**24 hours**`, `**40%**`，并保持同一段内风格一致。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary / TikTok and DiDi top bullets",
+        "issue": "简历主线现在更像“backend + security/data + infrastructure”，但没有把这条线明确桥接到 Nuro 的 offboard infrastructure / simulation / autonomy 方向；HR 可能需要额外猜测你的迁移逻辑。",
+        "fix": "在 Summary 第一或第二句加一条明确桥接，或在 TikTok 第一条 bullet 前补一句，把 distributed systems、CI/CD、storage、data processing 这些经验直接映射到 large-scale offboard infrastructure / simulation workflows。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 在 Summary 或 TikTok 首条 bullet 里补一条面向 Nuro offboard infrastructure / simulation 的迁移桥接，明确说明 distributed systems、CI/CD、storage、data processing 如何对应目标方向。",
+    "[SHOULD] 把 Experience 里的主结果数字和 scope 词做一致性加粗，提升首屏扫读效率。",
+    "[NICE] 其余结构基本干净，保持当前 Skills 和项目拆分方式即可。"
+  ],
+  "revision_instructions": ""
+}

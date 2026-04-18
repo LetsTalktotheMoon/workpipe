@@ -1,0 +1,47 @@
+shared_experience: |-
+  ## 候选人经历框架（⚡=不可变字段，其余可由 Writer 决定）
+
+  ### Temu — Data Analyst (不可变)
+  - ⚡公司: Temu | ⚡部门: R&D | ⚡职称: Data Analyst
+  - ⚡时间: Jun 2021 – Feb 2022 | ⚡地点: Shanghai
+  - 时长: 8个月 | 级别: junior
+  - 禁用动词: Led, Architected, Drove, Spearheaded, Directed
+  - Scope上限: individual contributor, 8个月短期经历
+  - 自然技术栈 core（几乎必然使用）: Hive, Pandas, Python, SQL, Spark SQL
+  - 自然技术栈 extended（合理推断可能接触）: A/B Testing, Airflow, Jupyter, Matplotlib, NumPy, scikit-learn
+  - 自然技术栈 stretch（特定场景可能接触，需叙事支撑）: ETL, Flask, HiveQL, Kafka, Redis...
+
+  ### DiDi — Senior Data Analyst (不可变)
+  - ⚡公司: DiDi | ⚡部门: IBG · Food | ⚡职称: Senior Data Analyst
+  - ⚡时间: Sep 2022 – May 2024 | ⚡地点: Beijing/Mexico
+  - 时长: 20个月 | 级别: mid_senior
+  - 允许动词: Led, Coordinated, Represented, Drove
+  - Scope上限: data lead within a 13-person cross-functional squad; may represent the headquarters data organization in biweekly global operating reviews, with recommendations adopted by management and LATAM frontline teams
+  - 领导力: 13人跨职能团队acting lead（前端, 后端, 全栈, 移动端, PM 等）
+  - 全球汇报: 每两周全球会议代表北京数据中台总部发言
+  - 决策传导: 数据决策直接进入管理层和一线
+  - 自然技术栈 core（几乎必然使用）: ETL, Flask, Kafka, Python, REST, SQL
+  - 自然技术栈 extended（合理推断可能接触）: Airflow, Docker, Java, MySQL, Pandas, React, Redis
+  - 自然技术栈 stretch（特定场景可能接触，需叙事支撑）: Go, Kubernetes, Microservices, MongoDB, TypeScript, gRPC...
+shared_education: |-
+  ### 教育经历（可根据 JD 方向选择列哪些）
+  - M.S. Computer Science | Georgia Institute of Technology | Expected May 2026
+    → 当 UIUC MSIM 出现时写为 M.S. Computer Science (OMSCS)；  仅出现GT时直接写 M.S. Computer Science
+  - M.S. Information Management (MSIM) | University of Illinois Urbana-Champaign | Expected May 2026 — 保留当: Data方向/PM方向/信息管理相关岗位 | 可省略当: 纯SWE后端且与信息管理无关
+  - M.S. International Business | Beijing International Studies University | Sep 2018 – Jun 2021 — 保留当: FinTech/国际业务/金融数据方向 | 可省略当: 与目标岗位完全无关且简历空间紧张
+  - B.A. Philosophy & Psychology | Beijing Normal University | Sep 2014 – Jun 2018 — 保留当: TechPM(认知科学角度)/NLP(语言学角度)/UX Research | 可省略当: 大多数纯技术岗位
+shared_achievements: |-
+  ### 成就（融入 Summary 第3句）
+  - 中国国家认证围棋二段棋手，2022年度市赛第一，2023年度市赛第三
+generic_tiktok_branch: |-
+  ### TikTok — Software Engineer Intern (不可变)
+  - ⚡公司: TikTok | ⚡部门: Security | ⚡职称: Software Engineer Intern
+  - ⚡时间: Jun 2025 – Dec 2025 | ⚡地点: San Jose, USA
+  - 时长: 6个月 | 级别: intern
+  - 禁用动词: Led, Architected, Drove, Spearheaded, Managed
+  - Scope上限: intern, 6个月, 不可声称领导/架构决策
+  - 自然技术栈 core（几乎必然使用）: Docker, Go, Kafka, Kubernetes, PostgreSQL, Python, gRPC
+  - 自然技术栈 extended（合理推断可能接触）: AWS, Bedrock, CI/CD, ECS, GitHub Actions, Java, LLM, Linux, OpenAI, Prometheus, RAG, REST, Redis, S3
+  - 自然技术栈 stretch（特定场景可能接触，需叙事支撑）: Elasticsearch, Flink, GraphQL, LangChain, Microservices, MongoDB, React, Spring Boot, TensorFlow, Terraform, TypeScript...
+bytedance_education_branch: → GT 教育主干对所有线路共享；ByteDance 目标岗位中，Georgia Tech CS coursework/projects
+  可以进一步提升为主要软件工程/系统实现证据来源。

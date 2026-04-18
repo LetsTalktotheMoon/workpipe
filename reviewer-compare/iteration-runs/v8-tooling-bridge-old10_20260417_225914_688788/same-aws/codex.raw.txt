@@ -1,0 +1,29 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "high",
+        "field": "Professional Summary, 第一句",
+        "issue": "首屏 framing 以“Backend Transition Profile / transitioning from analytics”开场，重点放在转型过程而不是岗位方向与领域锚点，6-8 秒扫读时会削弱对 backend / distributed / security 方向的即时判断。",
+        "fix": "把第一句改成直接的角色锚点，例如“Security-focused backend engineer”或“Distributed systems engineer”，再补上 Java / C++ / Embedded 和 internal tooling / code review readiness 这类与 JD 更贴近的信号，避免先讲转型再讲能力。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 重写 Summary 第一句，去掉“transitioning from analytics / candidate”这类转场开场，改为直接的 backend / distributed / security 角色锚点，并保留 Java、C++、Embedded 和 code review readiness 的核心信号。",
+    "[SHOULD] 如果版面允许，把首段最前面的经历/项目再向 code review infrastructure、release safety、internal tooling 靠拢一点，让首屏更贴近 AWS CRUX 方向。",
+    "[NICE] 将 Summary 里的“GenAI Systems Context”保持为辅助信号，不要让它盖过 backend 与 builder experience 主线。"
+  ],
+  "revision_instructions": "[MUST] Rewrite Summary 第一句，去掉“transitioning from analytics / candidate”这类转场表述，改成直接的角色锚点（例如 security-focused backend engineer / distributed systems engineer），并保留 Java、C++、Embedded、internal tooling 和 code review readiness 的核心信号。"
+}

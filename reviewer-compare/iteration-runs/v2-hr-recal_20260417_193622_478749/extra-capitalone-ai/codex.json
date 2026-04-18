@@ -1,0 +1,221 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T19:43:07",
+  "completed_at": "2026-04-17T19:43:58",
+  "duration_seconds": 51.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok / DiDi Experience bullets",
+          "issue": "Modifier phrases such as `team-maintained`, `existing`, `internal`, and `team-owned` are bolded inside bullets, which violates the rule that bolding should stay on technologies and scale signals.",
+          "fix": "Keep bolding for technologies and quant signals only; remove bold from descriptive modifiers and ownership qualifiers."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing starts with `Data Analysis Candidate`, which reads as a self-description instead of an immediate role/field anchor on first scan.",
+          "fix": "Rewrite the first sentence to start with a direct role anchor such as `Data analyst` or `Data/Platform analyst`, then keep the `3+ years / Python / SQL / Spark / ETL` signal."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary; overall experience narrative",
+          "issue": "The resume does not explicitly bridge security and consumer-ops analytics work to card-services-style transactional, reconciliation, or risk analytics, so the target domain still feels like a leap on first read.",
+          "fix": "Add one bridge sentence in the Summary or topmost relevant experience that connects your work to high-volume operational analytics, reconciliation, partner support, or decision support in a card-services context."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "The latest experience is dominated by percentage improvements without a concrete scale anchor such as cases/day, analysts supported, dataset size, QPS, SLA, or team size.",
+          "fix": "Add one Tier 1 scope metric or a clearer ownership boundary to the first bullet, such as daily case volume, analyst count, dataset size, or service traffic."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Reframe the Summary opening so it leads with a direct data-analysis role anchor instead of `Data Analysis Candidate`.",
+      "[SHOULD] Add one sentence that bridges prior security/consumer operations analytics work to card-services-style transactional or reconciliation analytics.",
+      "[SHOULD] Add a concrete Tier 1 scale anchor to the latest TikTok experience so the opening section reads as scope-heavy, not only percent-heavy.",
+      "[NICE] Remove bold formatting from descriptive modifiers like `team-maintained`, `existing`, and `internal`."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 9.5,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.2,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Reframe the Summary opening so it leads with a direct data-analysis role anchor instead of `Data Analysis Candidate`.",
+      "[SHOULD] Add one sentence that bridges prior security/consumer operations analytics work to card-services-style transactional or reconciliation analytics.",
+      "[SHOULD] Add a concrete Tier 1 scale anchor to the latest TikTok experience so the opening section reads as scope-heavy, not only percent-heavy.",
+      "[NICE] Remove bold formatting from descriptive modifiers like `team-maintained`, `existing`, and `internal`."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok / DiDi Experience bullets",
+            "issue": "Modifier phrases such as `team-maintained`, `existing`, `internal`, and `team-owned` are bolded inside bullets, which violates the rule that bolding should stay on technologies and scale signals.",
+            "fix": "Keep bolding for technologies and quant signals only; remove bold from descriptive modifiers and ownership qualifiers."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The opening framing starts with `Data Analysis Candidate`, which reads as a self-description instead of an immediate role/field anchor on first scan.",
+            "fix": "Rewrite the first sentence to start with a direct role anchor such as `Data analyst` or `Data/Platform analyst`, then keep the `3+ years / Python / SQL / Spark / ETL` signal."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary; overall experience narrative",
+            "issue": "The resume does not explicitly bridge security and consumer-ops analytics work to card-services-style transactional, reconciliation, or risk analytics, so the target domain still feels like a leap on first read.",
+            "fix": "Add one bridge sentence in the Summary or topmost relevant experience that connects your work to high-volume operational analytics, reconciliation, partner support, or decision support in a card-services context."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "The latest experience is dominated by percentage improvements without a concrete scale anchor such as cases/day, analysts supported, dataset size, QPS, SLA, or team size.",
+            "fix": "Add one Tier 1 scope metric or a clearer ownership boundary to the first bullet, such as daily case volume, analyst count, dataset size, or service traffic."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Reframe the Summary opening so it leads with a direct data-analysis role anchor instead of `Data Analysis Candidate`.",
+        "[SHOULD] Add one sentence that bridges prior security/consumer operations analytics work to card-services-style transactional or reconciliation analytics.",
+        "[SHOULD] Add a concrete Tier 1 scale anchor to the latest TikTok experience so the opening section reads as scope-heavy, not only percent-heavy.",
+        "[NICE] Remove bold formatting from descriptive modifiers like `team-maintained`, `existing`, and `internal`."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok / DiDi Experience bullets",
+          "issue": "Modifier phrases such as `team-maintained`, `existing`, `internal`, and `team-owned` are bolded inside bullets, which violates the rule that bolding should stay on technologies and scale signals.",
+          "fix": "Keep bolding for technologies and quant signals only; remove bold from descriptive modifiers and ownership qualifiers."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary; overall experience narrative",
+          "issue": "The resume does not explicitly bridge security and consumer-ops analytics work to card-services-style transactional, reconciliation, or risk analytics, so the target domain still feels like a leap on first read.",
+          "fix": "Add one bridge sentence in the Summary or topmost relevant experience that connects your work to high-volume operational analytics, reconciliation, partner support, or decision support in a card-services context."
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing starts with `Data Analysis Candidate`, which reads as a self-description instead of an immediate role/field anchor on first scan.",
+          "fix": "Rewrite the first sentence to start with a direct role anchor such as `Data analyst` or `Data/Platform analyst`, then keep the `3+ years / Python / SQL / Spark / ETL` signal."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "The latest experience is dominated by percentage improvements without a concrete scale anchor such as cases/day, analysts supported, dataset size, QPS, SLA, or team size.",
+          "fix": "Add one Tier 1 scope metric or a clearer ownership boundary to the first bullet, such as daily case volume, analyst count, dataset size, or service traffic."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-003",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3B-003",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

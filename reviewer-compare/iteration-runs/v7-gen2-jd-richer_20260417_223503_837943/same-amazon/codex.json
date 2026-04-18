@@ -1,0 +1,220 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:36:30",
+  "completed_at": "2026-04-17T22:37:26",
+  "duration_seconds": 56.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "首句以“transitioning from analytics”作为叙事起点，首屏给人的第一印象是转型过程而不是目标岗位方向；对 6-8 秒扫读不够聚焦。",
+          "fix": "把首句改成直接的角色定位和领域信号，例如先写“Backend-leaning ML Engineer”与“LLM customization / retrieval systems”，再把“from analytics”的迁移背景移到后句或删掉。"
+        },
+        {
+          "rule_id": "P2-030",
+          "severity": "medium",
+          "field": "Skills section, first line",
+          "issue": "Skills 第一行以“Programming”开头，但 JD 的核心信号是 Machine Learning / LLM customization；首屏技能锚点没有先把 ML 放上来。",
+          "fix": "把 Skills 顺序调整为先 AI/ML，再 Programming，例如先列“AI/ML: Machine Learning, LLM, PyTorch, RAG, AWS Bedrock”，再放通用编程栈。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary + Experience chronology",
+          "issue": "JD 明确要求 3+ years non-internship professional software development experience，但简历当前只明确给出 2.5+ years 的非实习经历，肉眼可见低于门槛。",
+          "fix": "如果存在未列出的全职/合同经历，把它补进 Experience 并重新排序；如果没有遗漏经历，这份简历不应继续投这个 JD。若确有更多可计入的非实习月份，改为精确累计月数并确保达到 3+ years。"
+        },
+        {
+          "rule_id": "P3C-011",
+          "sub_area": "3C",
+          "severity": "medium",
+          "field": "TikTok experience section",
+          "issue": "同一段实习经历里同时铺开 Go、Python、Java、C++ 四种编程语言，读起来像单段经历主责过多语言栈，容易被认为堆砌。",
+          "fix": "收敛为一条主语言线，再把其他语言写成支持性集成技术，例如保留 1-2 个主语言，其余语言只在最关键的集成/迁移动作里出现。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 解决 3+ years 门槛与当前 2.5+ years 非实习经验之间的结构性错配；如果没有遗漏经历，这份简历不应继续投这个 JD。",
+      "[MUST] 把 Summary 第一句改成直接的 ML/backend 角色定位，去掉“transitioning from analytics”的首屏转型感。",
+      "[SHOULD] 调整 Skills 顺序，先突出 AI/ML，再放通用编程栈；同时压缩 TikTok 段落里的多语言堆砌感。",
+      "[NICE] 保留现有量化结果，但让每段的主线更单一，减少首屏认知负担。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历当前只明确证明 2.5+ 年非实习经验，低于 JD 的 3+ 年门槛；如果没有遗漏经历，建议更换更低年限的目标岗位。若存在未列出的全职/合同经历，补到 Experience 顶部并按时间重排。同步把 Summary 第一句改为直接的 ML/backend 定位，去掉“transitioning from analytics”的首屏转型感；Skills 先放 AI/ML，再放 Programming。TikTok 段落里把 4 种编程语言收敛成 1 个主语言加少量支持性技术，避免单段经历看起来过宽。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 9.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 90.8,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 解决 3+ years 门槛与当前 2.5+ years 非实习经验之间的结构性错配；如果没有遗漏经历，这份简历不应继续投这个 JD。",
+      "[MUST] 把 Summary 第一句改成直接的 ML/backend 角色定位，去掉“transitioning from analytics”的首屏转型感。",
+      "[SHOULD] 调整 Skills 顺序，先突出 AI/ML，再放通用编程栈；同时压缩 TikTok 段落里的多语言堆砌感。",
+      "[NICE] 保留现有量化结果，但让每段的主线更单一，减少首屏认知负担。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历当前只明确证明 2.5+ 年非实习经验，低于 JD 的 3+ 年门槛；如果没有遗漏经历，建议更换更低年限的目标岗位。若存在未列出的全职/合同经历，补到 Experience 顶部并按时间重排。同步把 Summary 第一句改为直接的 ML/backend 定位，去掉“transitioning from analytics”的首屏转型感；Skills 先放 AI/ML，再放 Programming。TikTok 段落里把 4 种编程语言收敛成 1 个主语言加少量支持性技术，避免单段经历看起来过宽。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "首句以“transitioning from analytics”作为叙事起点，首屏给人的第一印象是转型过程而不是目标岗位方向；对 6-8 秒扫读不够聚焦。",
+            "fix": "把首句改成直接的角色定位和领域信号，例如先写“Backend-leaning ML Engineer”与“LLM customization / retrieval systems”，再把“from analytics”的迁移背景移到后句或删掉。"
+          },
+          {
+            "rule_id": "P2-030",
+            "severity": "medium",
+            "field": "Skills section, first line",
+            "issue": "Skills 第一行以“Programming”开头，但 JD 的核心信号是 Machine Learning / LLM customization；首屏技能锚点没有先把 ML 放上来。",
+            "fix": "把 Skills 顺序调整为先 AI/ML，再 Programming，例如先列“AI/ML: Machine Learning, LLM, PyTorch, RAG, AWS Bedrock”，再放通用编程栈。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary + Experience chronology",
+            "issue": "JD 明确要求 3+ years non-internship professional software development experience，但简历当前只明确给出 2.5+ years 的非实习经历，肉眼可见低于门槛。",
+            "fix": "如果存在未列出的全职/合同经历，把它补进 Experience 并重新排序；如果没有遗漏经历，这份简历不应继续投这个 JD。若确有更多可计入的非实习月份，改为精确累计月数并确保达到 3+ years。"
+          },
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok experience section",
+            "issue": "同一段实习经历里同时铺开 Go、Python、Java、C++ 四种编程语言，读起来像单段经历主责过多语言栈，容易被认为堆砌。",
+            "fix": "收敛为一条主语言线，再把其他语言写成支持性集成技术，例如保留 1-2 个主语言，其余语言只在最关键的集成/迁移动作里出现。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 解决 3+ years 门槛与当前 2.5+ years 非实习经验之间的结构性错配；如果没有遗漏经历，这份简历不应继续投这个 JD。",
+        "[MUST] 把 Summary 第一句改成直接的 ML/backend 角色定位，去掉“transitioning from analytics”的首屏转型感。",
+        "[SHOULD] 调整 Skills 顺序，先突出 AI/ML，再放通用编程栈；同时压缩 TikTok 段落里的多语言堆砌感。",
+        "[NICE] 保留现有量化结果，但让每段的主线更单一，减少首屏认知负担。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历当前只明确证明 2.5+ 年非实习经验，低于 JD 的 3+ 年门槛；如果没有遗漏经历，建议更换更低年限的目标岗位。若存在未列出的全职/合同经历，补到 Experience 顶部并按时间重排。同步把 Summary 第一句改为直接的 ML/backend 定位，去掉“transitioning from analytics”的首屏转型感；Skills 先放 AI/ML，再放 Programming。TikTok 段落里把 4 种编程语言收敛成 1 个主语言加少量支持性技术，避免单段经历看起来过宽。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary + Experience chronology",
+          "issue": "JD 明确要求 3+ years non-internship professional software development experience，但简历当前只明确给出 2.5+ years 的非实习经历，肉眼可见低于门槛。",
+          "fix": "如果存在未列出的全职/合同经历，把它补进 Experience 并重新排序；如果没有遗漏经历，这份简历不应继续投这个 JD。若确有更多可计入的非实习月份，改为精确累计月数并确保达到 3+ years。"
+        }
+      ],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-011",
+          "sub_area": "3C",
+          "severity": "medium",
+          "field": "TikTok experience section",
+          "issue": "同一段实习经历里同时铺开 Go、Python、Java、C++ 四种编程语言，读起来像单段经历主责过多语言栈，容易被认为堆砌。",
+          "fix": "收敛为一条主语言线，再把其他语言写成支持性集成技术，例如保留 1-2 个主语言，其余语言只在最关键的集成/迁移动作里出现。"
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "首句以“transitioning from analytics”作为叙事起点，首屏给人的第一印象是转型过程而不是目标岗位方向；对 6-8 秒扫读不够聚焦。",
+          "fix": "把首句改成直接的角色定位和领域信号，例如先写“Backend-leaning ML Engineer”与“LLM customization / retrieval systems”，再把“from analytics”的迁移背景移到后句或删掉。"
+        },
+        {
+          "rule_id": "P2-030",
+          "severity": "medium",
+          "field": "Skills section, first line",
+          "issue": "Skills 第一行以“Programming”开头，但 JD 的核心信号是 Machine Learning / LLM customization；首屏技能锚点没有先把 ML 放上来。",
+          "fix": "把 Skills 顺序调整为先 AI/ML，再 Programming，例如先列“AI/ML: Machine Learning, LLM, PyTorch, RAG, AWS Bedrock”，再放通用编程栈。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-001",
+          "P2-030"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-010",
+          "P3C-011"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P2-030",
+      "P3B-010",
+      "P3C-011"
+    ],
+    "high_or_critical": [
+      "P3B-010 @ Professional Summary + Experience chronology"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+view_id: prompt_reviewer_system
+title: Reviewer System Prompt
+pipeline: match_pipe
+stage: reviewer system
+role: reviewer
+description: reviewer 的统一 system prompt。
+system_block: reviewer_system
+user_blocks: []

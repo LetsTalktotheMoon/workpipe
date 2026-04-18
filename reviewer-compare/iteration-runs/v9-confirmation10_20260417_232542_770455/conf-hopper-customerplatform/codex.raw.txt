@@ -1,0 +1,37 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "## Professional Summary bullets 1-3",
+        "issue": "The Summary bullets are noun-phrase led rather than verb-led, so they do not meet the resume-parser expectation that bullets start with a strong action verb.",
+        "fix": "Rewrite each Summary bullet to start with an action verb or action-oriented role clause, for example 'Builds backend systems...' or 'Designs platform delivery...' while keeping the three-bullet structure."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "## Professional Summary, first bullet",
+        "issue": "The opening framing is still transition-led ('transitioning from analytics'), which weakens first-scan role clarity even though the backend direction is present.",
+        "fix": "Lead with a direct role anchor such as 'Backend engineer' or 'Customer-experience platform engineer', then place the analytics-transition context in the second clause."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rewrite the first Summary bullet to lead with a backend/customer-experience role anchor instead of 'transitioning from analytics'.",
+    "[SHOULD] Make all three Summary bullets verb-led so the top section reads like an engineering resume, not a profile statement.",
+    "[NICE] Keep the current technical breadth and experience ordering; the stack coverage itself is already aligned with the JD."
+  ],
+  "revision_instructions": ""
+}

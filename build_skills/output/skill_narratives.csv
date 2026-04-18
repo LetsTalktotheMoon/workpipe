@@ -1,0 +1,153 @@
+canonical_skill,category,introduction,business_scenario
+Python,Programming Languages,Python 是一种通用编程语言，广泛用于后端服务、数据流程、自动化脚本和应用型机器学习开发。,团队可以用 Python 编写 ETL 任务、内部 API 和模型评估脚本，支持日常运营、分析与报表流程。
+Go,Programming Languages,Go 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 Go 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+Java,Programming Languages,Java 是成熟的生产级编程语言，广泛用于后端服务、企业系统和大型代码库开发。,团队可以用 Java 实现订单路由、账户流程或需要长期维护的集成服务。
+JavaScript,Programming Languages,JavaScript 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 JavaScript 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+C++,Programming Languages,C++ 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 C++ 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+Scala,Programming Languages,Scala 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 Scala 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+TypeScript,Programming Languages,TypeScript 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 TypeScript 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+R,Programming Languages,R 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 R 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+C#,Programming Languages,C# 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 C# 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+PHP,Programming Languages,PHP 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 PHP 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+Ruby,Programming Languages,Ruby 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 Ruby 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+Rust,Programming Languages,Rust 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 Rust 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+Kotlin,Programming Languages,Kotlin 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 Kotlin 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+Swift,Programming Languages,Swift 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 Swift 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+MATLAB,Programming Languages,MATLAB 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 MATLAB 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+VB.NET,Programming Languages,VB.NET 是一种编程语言，通常用于实现业务逻辑、自动化流程和生产环境应用代码。,团队可以用 VB.NET 开发处理交易、用户事件或内部运营数据的服务与批处理任务，支撑日常业务运转。
+REST APIs,Backend & APIs,REST APIs 是基于 HTTP 的接口形式，便于不同应用以标准化方式交换数据和触发业务动作。,团队可以用 REST APIs 打通订单、计费、CRM 和客服系统，让关键业务更新自动在多系统间流转。
+gRPC,Backend & APIs,gRPC 是高性能的远程调用框架，适合后端系统之间进行类型明确、低延迟的通信。,团队可以用 gRPC 连接搜索、推荐或风控等内部微服务，支撑对实时性要求较高的业务流程。
+Microservices,Backend & APIs,Microservices 是一种架构模式，把系统拆分成多个可以独立部署和扩展的小服务。,团队可以用微服务拆开计费、身份、搜索和通知模块，让不同业务能力独立演进和扩容。
+Flask,Backend & APIs,Flask 是轻量级 Python Web 框架，适合快速搭建 API 和内部服务。,团队可以用 Flask 上线内部审核工具或指标查询接口，服务运营和分析同学的日常工作。
+Node.js,Backend & APIs,Node.js 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 Node.js 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+Spring Boot,Backend & APIs,Spring Boot 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 Spring Boot 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+Spring,Backend & APIs,Spring 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 Spring 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+Express,Backend & APIs,Express 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 Express 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+.NET,Backend & APIs,.NET 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 .NET 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+ASP.NET,Backend & APIs,ASP.NET 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 ASP.NET 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+Rails,Backend & APIs,Rails 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 Rails 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+GraphQL,Backend & APIs,GraphQL 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 GraphQL 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+FastAPI,Backend & APIs,FastAPI 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 FastAPI 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+Django,Backend & APIs,Django 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 Django 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+NestJS,Backend & APIs,NestJS 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 NestJS 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+.NET / C#,Backend & APIs,.NET / C# 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 .NET / C# 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+ASP.NET MVC,Backend & APIs,ASP.NET MVC 是一种后端技术，常用于提供服务接口、打通系统之间的数据流，并组织应用执行流程。,团队可以用 ASP.NET MVC 连接支付、账户、库存或工单系统，让多个业务平台之间的数据与操作保持同步。
+React,Frontend & UI,React 是用于构建交互式界面的前端库，强调组件化开发和页面状态管理。,团队可以用 React 搭建内部运营门户，让用户查看账户、处理告警并执行操作动作。
+Angular,Frontend & UI,Angular 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Angular 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+CSS,Frontend & UI,CSS 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 CSS 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+HTML,Frontend & UI,HTML 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 HTML 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Vue,Frontend & UI,Vue 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Vue 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+HTML5,Frontend & UI,HTML5 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 HTML5 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Vite,Frontend & UI,Vite 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Vite 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+CSS3,Frontend & UI,CSS3 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 CSS3 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Next.js,Frontend & UI,Next.js 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Next.js 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Android SDK,Frontend & UI,Android SDK 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Android SDK 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Jetpack Compose,Frontend & UI,Jetpack Compose 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Jetpack Compose 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Material Design,Frontend & UI,Material Design 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Material Design 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Tailwind,Frontend & UI,Tailwind 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Tailwind 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+Webpack,Frontend & UI,Webpack 是一种前端或客户端技术，主要用于构建用户直接交互的页面和界面。,团队可以用 Webpack 搭建内部看板或面向客户的操作页面，让用户查看记录、提交动作并跟踪状态变化。
+SQL,Data & Analytics,SQL 是关系型系统中最核心的查询语言，用于提取、聚合和校验结构化数据。,团队可以用 SQL 做结算对账、漏斗转化分析，或生成财务和运营每天要看的 KPI 明细表。
+Pandas,Data & Analytics,Pandas 是 Python 生态中的表格数据处理库，适合做清洗、合并和分析。,团队可以用 Pandas 准备周度业务复盘、校验新指标口径，或在进入正式数据管道前先排查异常。
+Spark SQL,Data & Analytics,Spark SQL 是面向大规模结构化数据的分布式查询引擎，支持类 SQL 方式处理海量数据。,团队可以用 Spark SQL 汇总点击流、物流或交易数据，为每日经营报表提供基础结果。
+Hive,Data & Analytics,Hive 是常见的数据仓库技术，用于在分布式存储上组织和查询大规模数据集。,团队可以用 Hive 构建供给、增长或商家表现分析所需的批量数据表。
+ETL,Data & Analytics,ETL 是抽取、转换、加载数据的流程，用于把原始数据整理成下游系统可直接使用的形式。,团队可以用 ETL 将订单、商家或财务原始记录加工成看板、报表和管控系统可用的数据表。
+A/B Testing,Data & Analytics,A/B Testing 是一种实验方法，用于比较不同方案并判断哪种改动在业务指标上表现更好。,团队可以用 A/B Testing 验证新注册流程、排序模型或促销策略，再决定是否全量上线。
+Airflow,Data & Analytics,Airflow 是工作流编排工具，可以用代码方式管理定时任务和上下游依赖。,团队可以用 Airflow 驱动收入看板刷新、异常检查和下游通知等日常数据作业。
+Jupyter,Data & Analytics,Jupyter 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Jupyter 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Spark,Data & Analytics,Spark 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Spark 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Tableau,Data & Analytics,Tableau 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Tableau 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Data Pipelines,Data & Analytics,Data Pipelines 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Data Pipelines 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Matplotlib,Data & Analytics,Matplotlib 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Matplotlib 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Snowflake,Data & Analytics,Snowflake 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Snowflake 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Databricks,Data & Analytics,Databricks 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Databricks 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+BigQuery,Data & Analytics,BigQuery 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 BigQuery 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+NumPy,Data & Analytics,NumPy 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 NumPy 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Power BI,Data & Analytics,Power BI 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Power BI 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+dbt,Data & Analytics,dbt 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 dbt 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Hadoop,Data & Analytics,Hadoop 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Hadoop 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Anomaly Detection,Data & Analytics,Anomaly Detection 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Anomaly Detection 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Dashboard Automation,Data & Analytics,Dashboard Automation 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Dashboard Automation 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Experiment Design,Data & Analytics,Experiment Design 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Experiment Design 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Forecasting,Data & Analytics,Forecasting 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Forecasting 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+KPI Measurement,Data & Analytics,KPI Measurement 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 KPI Measurement 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Looker,Data & Analytics,Looker 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Looker 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+Time Series Analysis,Data & Analytics,Time Series Analysis 是一种数据与分析工具，常用于处理、检查和汇报运营或产品数据。,团队可以用 Time Series Analysis 产出 KPI 报表、完成交易对账，或生成周期性分析结果来支持业务决策。
+RAG,AI / ML,RAG 将检索与生成结合起来，让模型基于知识库或文档内容给出有依据的回答。,团队可以用 RAG 帮助分析师检索制度、合同或历史工单，并生成带引用依据的答复草稿。
+AWS Bedrock,AI / ML,AWS Bedrock 提供对基础模型及相关组件的托管访问能力，适合企业级生成式 AI 场景。,团队可以用 AWS Bedrock 搭建内部 Copilot，用于文档总结、制度问答或审核流程辅助。
+LLM,AI / ML,LLM 指大语言模型，能够处理生成、分类、总结和改写等自然语言任务。,团队可以用 LLM 总结工单、起草调查记录，或帮助员工更快检索大量文档资料。
+scikit-learn,AI / ML,scikit-learn 是 Python 中常用的机器学习库，适合做传统模型训练、特征处理和效果评估。,团队可以用 scikit-learn 预测流失风险、识别异常，或在上线前评估一个新的分类模型。
+Machine Learning,AI / ML,Machine Learning 是利用数据训练模型，从而完成预测、排序或自动化决策的方法。,团队可以用机器学习做需求预测、线索排序、欺诈识别或客服队列优先级分配。
+PyTorch,AI / ML,PyTorch 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 PyTorch 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+TensorFlow,AI / ML,TensorFlow 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 TensorFlow 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Deep Learning,AI / ML,Deep Learning 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Deep Learning 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Generative AI,AI / ML,Generative AI 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Generative AI 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+NLP,AI / ML,NLP 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 NLP 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Model Deployment,AI / ML,Model Deployment 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Model Deployment 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+ML Infrastructure,AI / ML,ML Infrastructure 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 ML Infrastructure 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Prompt Engineering,AI / ML,Prompt Engineering 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Prompt Engineering 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Computer Vision,AI / ML,Computer Vision 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Computer Vision 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Keras,AI / ML,Keras 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Keras 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+OpenAI,AI / ML,OpenAI 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 OpenAI 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Context Engineering,AI / ML,Context Engineering 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Context Engineering 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Embeddings,AI / ML,Embeddings 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Embeddings 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+OpenAI API,AI / ML,OpenAI API 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 OpenAI API 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Azure OpenAI,AI / ML,Azure OpenAI 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Azure OpenAI 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+LLM Application Development,AI / ML,LLM Application Development 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 LLM Application Development 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+LangChain,AI / ML,LangChain 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 LangChain 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+MLOps,AI / ML,MLOps 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 MLOps 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Retrieval Evaluation,AI / ML,Retrieval Evaluation 是一种 AI 或机器学习技术，常用于模型训练、推理执行，或提升检索与生成效果。,团队可以用 Retrieval Evaluation 做工单分类、搜索排序、文档总结，或辅助运营人员更快处理大量业务案例。
+Docker,Cloud / DevOps / Infrastructure,Docker 通过容器封装应用及其依赖，使软件能在不同环境中保持一致运行。,团队可以用 Docker 把同一个服务镜像从本地测试一路部署到预发和生产，减少环境不一致导致的问题。
+Kubernetes,Cloud / DevOps / Infrastructure,Kubernetes 是容器编排平台，负责处理部署、扩缩容、健康检查和服务发现。,团队可以用 Kubernetes 保障内部 API 或批处理平台在流量变化和定时任务波动下依旧稳定运行。
+AWS,Cloud / DevOps / Infrastructure,AWS 是云平台，提供计算、存储、网络和各类托管服务，适合承载生产应用。,团队可以用 AWS 托管 API、定时数据任务和对象存储，支撑日常业务系统运行。
+CI/CD,Cloud / DevOps / Infrastructure,CI/CD 用于自动化完成代码校验与部署，让变更可以更稳定地进入发布流程。,团队可以用 CI/CD 在每次提交后自动跑测试，并把通过验证的构建按节奏推到预发和生产环境。
+GitHub Actions,Cloud / DevOps / Infrastructure,GitHub Actions 是基于代码仓库的工作流自动化平台，适合执行测试、检查和部署步骤。,团队可以用 GitHub Actions 在 PR 合并后自动完成代码检查、集成测试和发布产物生成。
+Azure,Cloud / DevOps / Infrastructure,Azure 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Azure 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+Linux,Cloud / DevOps / Infrastructure,Linux 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Linux 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+GCP,Cloud / DevOps / Infrastructure,GCP 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 GCP 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+Shell,Cloud / DevOps / Infrastructure,Shell 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Shell 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+Jenkins,Cloud / DevOps / Infrastructure,Jenkins 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Jenkins 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+Terraform,Cloud / DevOps / Infrastructure,Terraform 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Terraform 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+Bash,Cloud / DevOps / Infrastructure,Bash 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Bash 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+Prometheus,Cloud / DevOps / Infrastructure,Prometheus 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Prometheus 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+ECS,Cloud / DevOps / Infrastructure,ECS 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 ECS 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+GitLab CI,Cloud / DevOps / Infrastructure,GitLab CI 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 GitLab CI 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+Ansible,Cloud / DevOps / Infrastructure,Ansible 是一种基础设施或交付技术，主要用于部署、运维和扩展生产系统。,团队可以用 Ansible 自动化发布流程、配置运行环境，或保障关键业务服务在流量高峰期依然稳定运行。
+PostgreSQL,Databases / Storage / Streaming,PostgreSQL 是常见的关系型数据库，适合承载事务数据、复杂查询和稳定的应用存储。,团队可以用 PostgreSQL 存储账户信息、流程状态和审计记录，支撑内部运营系统的核心能力。
+Kafka,Databases / Storage / Streaming,Kafka 是分布式事件流平台，用于发布、缓冲和消费高吞吐的数据流。,团队可以用 Kafka 把订单、支付或风控事件从源系统送入监控、告警和分析链路中。
+Redis,Databases / Storage / Streaming,Redis 是内存型数据存储，常用于缓存、队列、会话状态和高频键值查询。,团队可以用 Redis 加速看板加载、限流控制或面向客户平台中的流程状态读取。
+MySQL,Databases / Storage / Streaming,MySQL 是常用的关系型数据库，适合存储事务型应用和内部工具的数据。,团队可以用 MySQL 支撑运营看板，实时记录案件、任务和审核结果等业务信息。
+S3,Databases / Storage / Streaming,S3 是 AWS 的对象存储服务，适合长期保存文件、数据集备份和各类产物。,团队可以用 S3 存储简历、发票、日志或模型文件，供下游任务持续读取和处理。
+MongoDB,Databases / Storage / Streaming,MongoDB 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 MongoDB 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+NoSQL,Databases / Storage / Streaming,NoSQL 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 NoSQL 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+Cassandra,Databases / Storage / Streaming,Cassandra 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 Cassandra 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+Flink,Databases / Storage / Streaming,Flink 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 Flink 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+Elasticsearch,Databases / Storage / Streaming,Elasticsearch 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 Elasticsearch 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+DynamoDB,Databases / Storage / Streaming,DynamoDB 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 DynamoDB 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+Redshift,Databases / Storage / Streaming,Redshift 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 Redshift 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+Azure Blob Storage,Databases / Storage / Streaming,Azure Blob Storage 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 Azure Blob Storage 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+DB2,Databases / Storage / Streaming,DB2 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 DB2 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+SSMS,Databases / Storage / Streaming,SSMS 是一种存储或数据流转技术，常用于持久化业务记录、支持查询访问，或在系统之间传递事件数据。,团队可以用 SSMS 保存应用状态、归档业务文件，或把运营事件实时传给下游监控与处理流程。
+Algorithms,Architecture / Systems,Algorithms 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Algorithms 来做技术取舍。
+Data Structures,Architecture / Systems,Data Structures 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Data Structures 来做技术取舍。
+Distributed Systems,Architecture / Systems,Distributed Systems 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Distributed Systems 来做技术取舍。
+System Design,Architecture / Systems,System Design 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 System Design 来做技术取舍。
+Embedded Systems,Architecture / Systems,Embedded Systems 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Embedded Systems 来做技术取舍。
+Networking,Architecture / Systems,Networking 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Networking 来做技术取舍。
+Network Protocol,Architecture / Systems,Network Protocol 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Network Protocol 来做技术取舍。
+Large-Scale Systems,Architecture / Systems,Large-Scale Systems 是一种系统设计相关能力，用于构建可靠软件并分析系统在规模增长时的运行行为。,团队在设计需要兼顾性能、准确性和可维护性的业务平台时，通常会应用 Large-Scale Systems 来做技术取舍。
+Git,Quality & Workflow,Git 是版本控制系统，用于追踪代码变更并支持团队协作开发。,团队可以用 Git 管理功能开发、隔离缺陷修复，并保留一份清晰可靠的生产变更历史。
+Scrum,Quality & Workflow,Scrum 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Scrum 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Unit Testing,Quality & Workflow,Unit Testing 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Unit Testing 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Jira,Quality & Workflow,Jira 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Jira 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+TDD,Quality & Workflow,TDD 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 TDD 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Agile,Quality & Workflow,Agile 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Agile 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+pytest,Quality & Workflow,pytest 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 pytest 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+JUnit,Quality & Workflow,JUnit 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 JUnit 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Code Review,Quality & Workflow,Code Review 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Code Review 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Playwright,Quality & Workflow,Playwright 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Playwright 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Software Test Engineering,Quality & Workflow,Software Test Engineering 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Software Test Engineering 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Selenium,Quality & Workflow,Selenium 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Selenium 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Design Review,Quality & Workflow,Design Review 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Design Review 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Cypress,Quality & Workflow,Cypress 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Cypress 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Jest,Quality & Workflow,Jest 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Jest 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。
+Visual Studio,Quality & Workflow,Visual Studio 是一种质量保障或交付协作实践，用于提升研发执行效率并减少缺陷。,团队可以用 Visual Studio 做代码评审、发布验证，或组织日常交付流程，让产品与运营需求更稳定地落地。

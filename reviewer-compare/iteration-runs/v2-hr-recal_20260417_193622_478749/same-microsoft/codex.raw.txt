@@ -1,0 +1,63 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary bullet 2; TikTok Experience bullets 1-2; TikTok project intro line",
+        "issue": "存在将描述性限定词加粗的情况，例如 `team-maintained` 和 `existing`。这会稀释技术栈与量化信号的视觉权重。",
+        "fix": "取消这些限定词的加粗，只保留技术名词、规模和结果数字加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary sentence 1",
+        "issue": "首句虽然有 `Backend Engineering Alignment`，但主体仍然是 `transitioning from data analytics to backend engineering`，首屏仍偏转岗叙事，弱化了后端方向的即刻判断。",
+        "fix": "把首句改成直接的后端/分布式系统定位，把转岗背景压到后半句或下一句。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills; Professional Summary; TikTok Experience",
+        "issue": "JD 必须项里有 `Distributed Systems`，但简历只用 `Microservices`、`Kafka`、`gRPC` 等间接表达，Skills 里没有把这个核心概念明确立住，ATS 和招聘方首扫都可能读不出硬覆盖。",
+        "fix": "在最相关的后端经历里补一条明确的分布式系统证据，并在 Skills 或 Summary 中显式写出 `Distributed Systems` / `distributed systems`，让 JD 匹配一眼可见。"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Professional Summary; TikTok Experience",
+        "issue": "最近经历把 `Go`、`Python`、`Java`、`C#`、`JavaScript` 等多种语言都写成使用级证据，容易读成语言堆砌而不是一个清晰的主栈。",
+        "fix": "每段经历保留 1-2 个主语言，其余语言只在必要的集成或调用场景里顺带提及，避免让同一段看起来像同时日常主用五六种语言。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience",
+        "issue": "最新且最相关的 TikTok 段落首条 bullet 主要是百分比提升，规模/边界/ownership 信号不在第一眼位置，量化抓手偏弱。",
+        "fix": "把一个具体的系统规模或 ownership 指标前置到第一条 bullet，例如服务边界、队列规模、请求量、延迟/SLA 或处理链路范围，再把百分比结果放在后半句。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把 TikTok 首条 bullet 改成真正的后端/分布式系统抓手，前置一个具体 scale 或 ownership 指标，别让首屏先看到一串百分比。",
+    "[MUST] 显式写出 `Distributed Systems`，并在最相关的后端经历里补足可追问的系统边界证据，确保 Azure Storage 的 JD 匹配一眼可见。",
+    "[MUST] 收敛 TikTok 段的语言栈表述，每段只保留 1-2 个主语言，其余语言只作为集成或调用背景出现。",
+    "[SHOULD] 去掉 `team-maintained`、`existing` 这类描述词的加粗，只保留技术名词和量化结果加粗。"
+  ],
+  "revision_instructions": "[MUST] 重写 TikTok Summary 第一句和第一条 bullet：首句直接定位为后端/分布式系统方向，不要以“transitioning from data analytics”开头；第一条 bullet 前置一个可追问的系统规模或 ownership 指标（服务边界、请求量、队列规模、SLA、延迟等），把百分比结果放后面。 [MUST] 在最相关的后端经历里显式补 `Distributed Systems` 证据，并让 Skills/Summary 也能一眼看出这个 JD 必须项，而不是只靠 `Microservices/Kafka/gRPC` 间接暗示。 [MUST] 收敛 TikTok 段的语言栈，每段保留 1-2 个主语言，其他语言只作为集成调用背景出现，避免“多语言堆砌”观感。 [SHOULD] 取消 `team-maintained`、`existing` 等描述词加粗，保留技术名词和量化数字加粗即可。"
+}

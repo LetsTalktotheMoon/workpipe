@@ -1,0 +1,376 @@
+{
+  "label": "extra/HealthEquity-DotNet",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/HealthEquity-DotNet",
+    "company": "HealthEquity",
+    "title": "Software Engineer II",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "HealthEquity is dedicated to saving and improving lives by empowering healthcare consumers",
+    "tech_required": [
+      "Spark",
+      "Scrum",
+      "MongoDB",
+      "SQL",
+      "Scala",
+      "Azure",
+      "Databricks",
+      "Angular",
+      "Python",
+      "JavaScript",
+      "Css",
+      "Html",
+      "Git",
+      "Agile"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.3,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [
+        "Compress the Skills section so each category stays within the 4-8 item density rule.",
+        "Remove bolding from qualifier words like `team-maintained` and add a clearer healthcare-domain bridge in the summary."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.2,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.4,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.3,
+      "verdict": "pass",
+      "seed_label": "Generalist DotNet Enterprise",
+      "route_mode": "retarget",
+      "revised": false,
+      "repaired_at": "2026-04-07T16:57:27",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:57:20",
+    "completed_at": "2026-04-17T23:58:40",
+    "duration_seconds": 80.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok, DiDi, and Temu",
+            "issue": "Primary result metrics and scope tokens are not consistently bolded, so the scan path is dominated by technology names rather than the outcome/scope signals the structure rules want to foreground.",
+            "fix": "Bold the most important metric or scope token in each result line, for example `**32%**`, `**18%**`, `**13-person**`, `**20+ city**`, and `**45 minutes**`, while keeping the existing tech-token bolding."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "high",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The first sentence opens with transition framing (`software engineer transitioning from data analytics`) instead of a direct role/stack anchor, so HR has to infer the target fit after the first clause.",
+            "fix": "Rewrite the first sentence to lead with the target role and strongest technical domain, then place the transition story second, e.g. `Backend engineer with X years building...`."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / overall timeline",
+            "issue": "The JD requires minimum 6 years of software development experience, but the visible timeline only supports roughly 4.5 years from the first role through the TikTok internship, and the summary itself claims only 3+ years. That is a hard leveling mismatch for Software Engineer II.",
+            "fix": "If earlier full-time SWE experience exists, surface it explicitly with dates and scope; otherwise this JD is structurally too senior for the current timeline and should be redirected to a lower-level opening.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3B-011",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / DiDi Experience",
+            "issue": "The JD repeatedly calls for named Azure services and Azure DevOps depth (`Azure App Service`, `API Management`, `Service Bus`, `Application Insights`, `Gateway`, `Event Grid`, `Key Vault`, `Azure SQL`, `Azure DevOps Services`), but the resume only shows generic `Azure` mentions and no direct ownership evidence for those services.",
+            "fix": "Add the exact Azure services actually used in the most relevant experience bullet and describe what you owned; if those services were not used, this is a structural fit problem for the role."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Resolve the 6-year Microsoft/Azure leveling gap: either surface earlier full-time SWE experience with dates and scope, or treat this JD as structurally too senior.",
+        "[MUST] Add exact Azure service and Azure DevOps evidence in the most relevant bullet if those services were truly used; `Azure` alone is too generic for this JD.",
+        "[SHOULD] Rewrite the first Summary sentence to a role-first backend/platform framing instead of a transition-first framing.",
+        "[NICE] Bold the primary metric/scope token in each result line to improve first-pass scanability."
+      ],
+      "revision_instructions": "[结构性错配] 先确认这份经历是否真的能满足 JD 的 6+ 年 Microsoft/Azure 门槛；如果有更早 full-time SWE 经验，把它补进最相关经历并写清年月与 scope，否则应换更低级别岗位。然后在最相关的 DiDi/TikTok bullet 里补出你实际用过的 Azure App Service / API Management / Service Bus / Azure DevOps 等命名服务证据，只写 `Azure` 不够。最后把 Summary 第一句改成 role-first 的 backend/platform framing，并给每条结果里的主指标和 scope token 加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 6.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 8.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 84.3,
+      "critical_count": 0,
+      "high_count": 3,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Resolve the 6-year Microsoft/Azure leveling gap: either surface earlier full-time SWE experience with dates and scope, or treat this JD as structurally too senior.",
+        "[MUST] Add exact Azure service and Azure DevOps evidence in the most relevant bullet if those services were truly used; `Azure` alone is too generic for this JD.",
+        "[SHOULD] Rewrite the first Summary sentence to a role-first backend/platform framing instead of a transition-first framing.",
+        "[NICE] Bold the primary metric/scope token in each result line to improve first-pass scanability."
+      ],
+      "revision_instructions": "[结构性错配] 先确认这份经历是否真的能满足 JD 的 6+ 年 Microsoft/Azure 门槛；如果有更早 full-time SWE 经验，把它补进最相关经历并写清年月与 scope，否则应换更低级别岗位。然后在最相关的 DiDi/TikTok bullet 里补出你实际用过的 Azure App Service / API Management / Service Bus / Azure DevOps 等命名服务证据，只写 `Azure` 不够。最后把 Summary 第一句改成 role-first 的 backend/platform framing，并给每条结果里的主指标和 scope token 加粗。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Experience bullets across TikTok, DiDi, and Temu",
+              "issue": "Primary result metrics and scope tokens are not consistently bolded, so the scan path is dominated by technology names rather than the outcome/scope signals the structure rules want to foreground.",
+              "fix": "Bold the most important metric or scope token in each result line, for example `**32%**`, `**18%**`, `**13-person**`, `**20+ city**`, and `**45 minutes**`, while keeping the existing tech-token bolding."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "high",
+              "field": "Professional Summary, sentence 1",
+              "issue": "The first sentence opens with transition framing (`software engineer transitioning from data analytics`) instead of a direct role/stack anchor, so HR has to infer the target fit after the first clause.",
+              "fix": "Rewrite the first sentence to lead with the target role and strongest technical domain, then place the transition story second, e.g. `Backend engineer with X years building...`."
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Professional Summary / overall timeline",
+              "issue": "The JD requires minimum 6 years of software development experience, but the visible timeline only supports roughly 4.5 years from the first role through the TikTok internship, and the summary itself claims only 3+ years. That is a hard leveling mismatch for Software Engineer II.",
+              "fix": "If earlier full-time SWE experience exists, surface it explicitly with dates and scope; otherwise this JD is structurally too senior for the current timeline and should be redirected to a lower-level opening.",
+              "note": "[结构性错配]"
+            },
+            {
+              "rule_id": "P3B-011",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Skills / DiDi Experience",
+              "issue": "The JD repeatedly calls for named Azure services and Azure DevOps depth (`Azure App Service`, `API Management`, `Service Bus`, `Application Insights`, `Gateway`, `Event Grid`, `Key Vault`, `Azure SQL`, `Azure DevOps Services`), but the resume only shows generic `Azure` mentions and no direct ownership evidence for those services.",
+              "fix": "Add the exact Azure services actually used in the most relevant experience bullet and describe what you owned; if those services were not used, this is a structural fit problem for the role."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Resolve the 6-year Microsoft/Azure leveling gap: either surface earlier full-time SWE experience with dates and scope, or treat this JD as structurally too senior.",
+          "[MUST] Add exact Azure service and Azure DevOps evidence in the most relevant bullet if those services were truly used; `Azure` alone is too generic for this JD.",
+          "[SHOULD] Rewrite the first Summary sentence to a role-first backend/platform framing instead of a transition-first framing.",
+          "[NICE] Bold the primary metric/scope token in each result line to improve first-pass scanability."
+        ],
+        "revision_instructions": "[结构性错配] 先确认这份经历是否真的能满足 JD 的 6+ 年 Microsoft/Azure 门槛；如果有更早 full-time SWE 经验，把它补进最相关经历并写清年月与 scope，否则应换更低级别岗位。然后在最相关的 DiDi/TikTok bullet 里补出你实际用过的 Azure App Service / API Management / Service Bus / Azure DevOps 等命名服务证据，只写 `Azure` 不够。最后把 Summary 第一句改成 role-first 的 backend/platform framing，并给每条结果里的主指标和 scope token 加粗。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok, DiDi, and Temu",
+            "issue": "Primary result metrics and scope tokens are not consistently bolded, so the scan path is dominated by technology names rather than the outcome/scope signals the structure rules want to foreground.",
+            "fix": "Bold the most important metric or scope token in each result line, for example `**32%**`, `**18%**`, `**13-person**`, `**20+ city**`, and `**45 minutes**`, while keeping the existing tech-token bolding."
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / overall timeline",
+            "issue": "The JD requires minimum 6 years of software development experience, but the visible timeline only supports roughly 4.5 years from the first role through the TikTok internship, and the summary itself claims only 3+ years. That is a hard leveling mismatch for Software Engineer II.",
+            "fix": "If earlier full-time SWE experience exists, surface it explicitly with dates and scope; otherwise this JD is structurally too senior for the current timeline and should be redirected to a lower-level opening.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3B-011",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / DiDi Experience",
+            "issue": "The JD repeatedly calls for named Azure services and Azure DevOps depth (`Azure App Service`, `API Management`, `Service Bus`, `Application Insights`, `Gateway`, `Event Grid`, `Key Vault`, `Azure SQL`, `Azure DevOps Services`), but the resume only shows generic `Azure` mentions and no direct ownership evidence for those services.",
+            "fix": "Add the exact Azure services actually used in the most relevant experience bullet and describe what you owned; if those services were not used, this is a structural fit problem for the role."
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "high",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The first sentence opens with transition framing (`software engineer transitioning from data analytics`) instead of a direct role/stack anchor, so HR has to infer the target fit after the first clause.",
+            "fix": "Rewrite the first sentence to lead with the target role and strongest technical domain, then place the transition story second, e.g. `Backend engineer with X years building...`."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-040"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-010",
+            "P3B-011"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P2-001",
+        "P3B-010",
+        "P3B-011"
+      ],
+      "high_or_critical": [
+        "P2-001 @ Professional Summary, sentence 1",
+        "P3B-010 @ Professional Summary / overall timeline",
+        "P3B-011 @ Skills / DiDi Experience"
+      ]
+    }
+  }
+}

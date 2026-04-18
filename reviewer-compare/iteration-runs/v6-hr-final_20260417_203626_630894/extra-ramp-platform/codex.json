@@ -1,0 +1,194 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:44:49",
+  "completed_at": "2026-04-17T20:45:28",
+  "duration_seconds": 39.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary and Experience bullets",
+          "issue": "Body copy bolds qualifiers and limiting phrases such as **team-maintained**, **existing**, and **internal**. This violates the styling rule and dilutes the visual emphasis meant for technologies and quantified scope.",
+          "fix": "Remove bold from modifiers and keep bolding for technologies, system nouns, and quantified outcomes only."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary, Skills, and cloud-related bullets across TikTok and DiDi",
+          "issue": "The resume presents AWS, Azure, and GCP as simultaneously core, plus Docker/Kubernetes/Terraform, which reads like same-category stack breadth without enough weighting. This is a stack-stuffing risk even though the individual mentions are supported.",
+          "fix": "Anchor each cloud platform to the specific role that used it and reduce the simultaneous emphasis in Summary/Skills. Keep the broad cloud list out of the headline framing and let the relevant experience bullets carry the evidence."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience section",
+          "issue": "The most recent experience relies heavily on latency and percentage deltas, but does not provide a Tier 1 scope anchor such as corpus size, request volume, number of services, or team scale. That makes the infra ownership look thinner than the technical detail suggests.",
+          "fix": "Add one concrete scope metric to the lead TikTok bullet or project background, such as evaluation set size, number of services integrated, release cadence, or analyst/user volume."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Reframe the cloud story so AWS/Azure/GCP are tied to the exact role or bullet where they were used, instead of being presented as one broad simultaneous core stack.",
+      "[MUST] Add one Tier 1 scale/scope anchor to the latest TikTok experience so the section does not read as pure outcome-percent polish.",
+      "[SHOULD] Remove bold from modifiers like internal/team-maintained/existing and reserve bold for technologies and quantified outcomes."
+    ],
+    "revision_instructions": "Keep the immutable role lines unchanged. Tighten the headline framing by splitting cloud evidence by role: TikTok can carry AWS, DiDi can carry Azure/GCP, and the Summary should stop reading like a broad multi-cloud bundle. Add one concrete Tier 1 scope metric to the TikTok lead bullet or its project background so the latest role has a real scale anchor, not just latency and percentage deltas. Clean up formatting by unbolding modifiers and leaving bold only for technologies, scope nouns, and quantified outcomes.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 97.3,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Reframe the cloud story so AWS/Azure/GCP are tied to the exact role or bullet where they were used, instead of being presented as one broad simultaneous core stack.",
+      "[MUST] Add one Tier 1 scale/scope anchor to the latest TikTok experience so the section does not read as pure outcome-percent polish.",
+      "[SHOULD] Remove bold from modifiers like internal/team-maintained/existing and reserve bold for technologies and quantified outcomes."
+    ],
+    "revision_instructions": "Keep the immutable role lines unchanged. Tighten the headline framing by splitting cloud evidence by role: TikTok can carry AWS, DiDi can carry Azure/GCP, and the Summary should stop reading like a broad multi-cloud bundle. Add one concrete Tier 1 scope metric to the TikTok lead bullet or its project background so the latest role has a real scale anchor, not just latency and percentage deltas. Clean up formatting by unbolding modifiers and leaving bold only for technologies, scope nouns, and quantified outcomes.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary and Experience bullets",
+            "issue": "Body copy bolds qualifiers and limiting phrases such as **team-maintained**, **existing**, and **internal**. This violates the styling rule and dilutes the visual emphasis meant for technologies and quantified scope.",
+            "fix": "Remove bold from modifiers and keep bolding for technologies, system nouns, and quantified outcomes only."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary, Skills, and cloud-related bullets across TikTok and DiDi",
+            "issue": "The resume presents AWS, Azure, and GCP as simultaneously core, plus Docker/Kubernetes/Terraform, which reads like same-category stack breadth without enough weighting. This is a stack-stuffing risk even though the individual mentions are supported.",
+            "fix": "Anchor each cloud platform to the specific role that used it and reduce the simultaneous emphasis in Summary/Skills. Keep the broad cloud list out of the headline framing and let the relevant experience bullets carry the evidence."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience section",
+            "issue": "The most recent experience relies heavily on latency and percentage deltas, but does not provide a Tier 1 scope anchor such as corpus size, request volume, number of services, or team scale. That makes the infra ownership look thinner than the technical detail suggests.",
+            "fix": "Add one concrete scope metric to the lead TikTok bullet or project background, such as evaluation set size, number of services integrated, release cadence, or analyst/user volume."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Reframe the cloud story so AWS/Azure/GCP are tied to the exact role or bullet where they were used, instead of being presented as one broad simultaneous core stack.",
+        "[MUST] Add one Tier 1 scale/scope anchor to the latest TikTok experience so the section does not read as pure outcome-percent polish.",
+        "[SHOULD] Remove bold from modifiers like internal/team-maintained/existing and reserve bold for technologies and quantified outcomes."
+      ],
+      "revision_instructions": "Keep the immutable role lines unchanged. Tighten the headline framing by splitting cloud evidence by role: TikTok can carry AWS, DiDi can carry Azure/GCP, and the Summary should stop reading like a broad multi-cloud bundle. Add one concrete Tier 1 scope metric to the TikTok lead bullet or its project background so the latest role has a real scale anchor, not just latency and percentage deltas. Clean up formatting by unbolding modifiers and leaving bold only for technologies, scope nouns, and quantified outcomes.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary and Experience bullets",
+          "issue": "Body copy bolds qualifiers and limiting phrases such as **team-maintained**, **existing**, and **internal**. This violates the styling rule and dilutes the visual emphasis meant for technologies and quantified scope.",
+          "fix": "Remove bold from modifiers and keep bolding for technologies, system nouns, and quantified outcomes only."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary, Skills, and cloud-related bullets across TikTok and DiDi",
+          "issue": "The resume presents AWS, Azure, and GCP as simultaneously core, plus Docker/Kubernetes/Terraform, which reads like same-category stack breadth without enough weighting. This is a stack-stuffing risk even though the individual mentions are supported.",
+          "fix": "Anchor each cloud platform to the specific role that used it and reduce the simultaneous emphasis in Summary/Skills. Keep the broad cloud list out of the headline framing and let the relevant experience bullets carry the evidence."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience section",
+          "issue": "The most recent experience relies heavily on latency and percentage deltas, but does not provide a Tier 1 scope anchor such as corpus size, request volume, number of services, or team scale. That makes the infra ownership look thinner than the technical detail suggests.",
+          "fix": "Add one concrete scope metric to the lead TikTok bullet or project background, such as evaluation set size, number of services integrated, release cadence, or analyst/user volume."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3C-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P3C-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ Professional Summary, Skills, and cloud-related bullets across TikTok and DiDi"
+    ]
+  }
+}

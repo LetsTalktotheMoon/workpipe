@@ -1,0 +1,125 @@
+{
+  "label": "gen2/Cisco-NetworkingSenior",
+  "company": "Cisco",
+  "title": "Senior Software Engineer- Networking Technologies",
+  "role_type": "swe_backend",
+  "seniority": "senior",
+  "team_direction": "Cisco is a leading technology company that is revolutionizing how data and infrastructure connect and protect organizations",
+  "tech_required": [
+    "Linux",
+    "Networking",
+    "C++",
+    "Python"
+  ],
+  "tech_preferred": [
+    "Code Review",
+    "Jira",
+    "Git",
+    "CI/CD",
+    "Scala",
+    "Jenkins"
+  ],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/cisco/2026-04-06/69d3d5cacdb525785fbc37af/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/cisco/2026-04-06/69d3d5cacdb525785fbc37af/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/cisco/2026-04-06/69d3d5cacdb525785fbc37af/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/cisco/2026-04-06/69d3d5cacdb525785fbc37af/review.json",
+  "historical": {},
+  "portfolio_review": {
+    "weighted_score": 91.1,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 0,
+    "high_count": 1,
+    "needs_revision": true,
+    "revision_priority": [
+      "Rewrite the Professional Summary into exactly 3 sentence-style lines with bold headers, keeping the same content but removing the bullet format.",
+      "Add one explicit networking-systems cue in the TikTok section so Cisco sees direct networking evidence instead of only adjacent release-validation language."
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 7.0,
+        "weight": 0.15,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.1,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.2,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.4,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 91.1,
+    "verdict": "conditional_pass",
+    "seed_label": "AWS Support Backend Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "revision_instructions": "1) Replace the current `## Professional Summary` bullet list with exactly 3 standalone sentences. Each sentence should begin with a bold header and a colon, and each should end with a period. Keep the existing claims about Java/Go/C++/Python, Linux, gRPC/Kafka/CI/CD, and the Go pattern-recognition line; this is a formatting fix, not a content rewrite. 2) In the TikTok experience, edit one of the first two bullets so the networking work is explicit at the systems level. Use wording such as packet parsing, socket/protocol edge cases, or state-machine validation, while keeping the same scope and metrics. Do not remove C++, Linux, Python, or Networking from Skills; the fix should be additive and surgical.",
+    "rereview_version": "historical_rereview_v1",
+    "rereviewed_at": "2026-04-07T21:58:26",
+    "rereview_rounds": 1,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 93.8,
+    "previous_verdict": "pass"
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

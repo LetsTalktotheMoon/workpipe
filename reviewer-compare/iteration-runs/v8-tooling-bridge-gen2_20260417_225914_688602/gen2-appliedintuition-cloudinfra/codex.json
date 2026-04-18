@@ -1,0 +1,226 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:00:06",
+  "completed_at": "2026-04-17T23:01:22",
+  "duration_seconds": 76.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary and multiple experience bullets",
+          "issue": "正文里把限定词和修饰语加粗了，例如 `**team-maintained**`、`**internal**` 这类非实体词会抢走技术和结果信号。",
+          "fix": "取消对限定词/修饰语的加粗，只保留技术名词、系统名词和量化结果加粗。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句以“Transitioning from data analysis to software engineering”开头，首屏更像转型叙事而不是直接的 cloud / backend / platform 方向锚点。",
+          "fix": "把首句改成直接的角色定位，例如先写 cloud/platform/infrastructure SWE，再补充 3+ 年 Go/Java/Python 与 Kubernetes/Docker 的证据。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills > Cloud; TikTok / DiDi experience",
+          "issue": "JD 明确把 AWS、GCP、Azure 作为核心多云信号，但简历只实证了 AWS 和 Azure，没有任何 GCP 交付或运维证据，云家族覆盖对这个岗位来说是部分匹配。",
+          "fix": "如果确实做过 GCP 相关部署、运维或排障，把它补进最相关的云/发布 bullet；如果没有真实 GCP 经验，这份 JD 只能算部分匹配。",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "最新经历的量化主要是本地效率改善和百分比提升，缺少更硬的规模锚点，容易被读成团队内流程优化而不是云基础设施规模信号。",
+          "fix": "在最相关的 TikTok bullet 里补一个可追问的规模维度，例如服务数、发布频率、告警量、review throughput、团队规模或环境规模。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补齐或显式承认 GCP 证据缺口；这是这个云基础设施 JD 的主要多云门槛。",
+      "[MUST] 把 Summary 首句改成直接的 cloud / platform / infrastructure SWE 定位，别以“Transitioning”开头。",
+      "[SHOULD] 去掉 `team-maintained`、`internal` 这类限定词的加粗，只保留技术名词和量化结果加粗。",
+      "[SHOULD] 在 TikTok 最新经历里补一个更硬的规模锚点，避免只剩局部效率提升。"
+    ],
+    "revision_instructions": "[结构性错配] 当前简历只把 AWS/Azure 讲实，缺 GCP 证据；如果你确实做过 GCP 部署/运维，把它补到最相关的云/发布 bullet。同步把 Summary 第一条改成直接的 cloud/platform SWE 定位，不要以“Transitioning”开头。再去掉 `team-maintained`、`internal` 这类限定词的加粗，只保留技术名词和量化结果加粗，并在 TikTok 最新经历里补一个更硬的规模锚点（服务数、发布频率、客户数、QPS 或团队规模）。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 90.9,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补齐或显式承认 GCP 证据缺口；这是这个云基础设施 JD 的主要多云门槛。",
+      "[MUST] 把 Summary 首句改成直接的 cloud / platform / infrastructure SWE 定位，别以“Transitioning”开头。",
+      "[SHOULD] 去掉 `team-maintained`、`internal` 这类限定词的加粗，只保留技术名词和量化结果加粗。",
+      "[SHOULD] 在 TikTok 最新经历里补一个更硬的规模锚点，避免只剩局部效率提升。"
+    ],
+    "revision_instructions": "[结构性错配] 当前简历只把 AWS/Azure 讲实，缺 GCP 证据；如果你确实做过 GCP 部署/运维，把它补到最相关的云/发布 bullet。同步把 Summary 第一条改成直接的 cloud/platform SWE 定位，不要以“Transitioning”开头。再去掉 `team-maintained`、`internal` 这类限定词的加粗，只保留技术名词和量化结果加粗，并在 TikTok 最新经历里补一个更硬的规模锚点（服务数、发布频率、客户数、QPS 或团队规模）。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary and multiple experience bullets",
+            "issue": "正文里把限定词和修饰语加粗了，例如 `**team-maintained**`、`**internal**` 这类非实体词会抢走技术和结果信号。",
+            "fix": "取消对限定词/修饰语的加粗，只保留技术名词、系统名词和量化结果加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“Transitioning from data analysis to software engineering”开头，首屏更像转型叙事而不是直接的 cloud / backend / platform 方向锚点。",
+            "fix": "把首句改成直接的角色定位，例如先写 cloud/platform/infrastructure SWE，再补充 3+ 年 Go/Java/Python 与 Kubernetes/Docker 的证据。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills > Cloud; TikTok / DiDi experience",
+            "issue": "JD 明确把 AWS、GCP、Azure 作为核心多云信号，但简历只实证了 AWS 和 Azure，没有任何 GCP 交付或运维证据，云家族覆盖对这个岗位来说是部分匹配。",
+            "fix": "如果确实做过 GCP 相关部署、运维或排障，把它补进最相关的云/发布 bullet；如果没有真实 GCP 经验，这份 JD 只能算部分匹配。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "最新经历的量化主要是本地效率改善和百分比提升，缺少更硬的规模锚点，容易被读成团队内流程优化而不是云基础设施规模信号。",
+            "fix": "在最相关的 TikTok bullet 里补一个可追问的规模维度，例如服务数、发布频率、告警量、review throughput、团队规模或环境规模。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 补齐或显式承认 GCP 证据缺口；这是这个云基础设施 JD 的主要多云门槛。",
+        "[MUST] 把 Summary 首句改成直接的 cloud / platform / infrastructure SWE 定位，别以“Transitioning”开头。",
+        "[SHOULD] 去掉 `team-maintained`、`internal` 这类限定词的加粗，只保留技术名词和量化结果加粗。",
+        "[SHOULD] 在 TikTok 最新经历里补一个更硬的规模锚点，避免只剩局部效率提升。"
+      ],
+      "revision_instructions": "[结构性错配] 当前简历只把 AWS/Azure 讲实，缺 GCP 证据；如果你确实做过 GCP 部署/运维，把它补到最相关的云/发布 bullet。同步把 Summary 第一条改成直接的 cloud/platform SWE 定位，不要以“Transitioning”开头。再去掉 `team-maintained`、`internal` 这类限定词的加粗，只保留技术名词和量化结果加粗，并在 TikTok 最新经历里补一个更硬的规模锚点（服务数、发布频率、客户数、QPS 或团队规模）。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary and multiple experience bullets",
+          "issue": "正文里把限定词和修饰语加粗了，例如 `**team-maintained**`、`**internal**` 这类非实体词会抢走技术和结果信号。",
+          "fix": "取消对限定词/修饰语的加粗，只保留技术名词、系统名词和量化结果加粗。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills > Cloud; TikTok / DiDi experience",
+          "issue": "JD 明确把 AWS、GCP、Azure 作为核心多云信号，但简历只实证了 AWS 和 Azure，没有任何 GCP 交付或运维证据，云家族覆盖对这个岗位来说是部分匹配。",
+          "fix": "如果确实做过 GCP 相关部署、运维或排障，把它补进最相关的云/发布 bullet；如果没有真实 GCP 经验，这份 JD 只能算部分匹配。",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句以“Transitioning from data analysis to software engineering”开头，首屏更像转型叙事而不是直接的 cloud / backend / platform 方向锚点。",
+          "fix": "把首句改成直接的角色定位，例如先写 cloud/platform/infrastructure SWE，再补充 3+ 年 Go/Java/Python 与 Kubernetes/Docker 的证据。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "最新经历的量化主要是本地效率改善和百分比提升，缺少更硬的规模锚点，容易被读成团队内流程优化而不是云基础设施规模信号。",
+          "fix": "在最相关的 TikTok bullet 里补一个可追问的规模维度，例如服务数、发布频率、告警量、review throughput、团队规模或环境规模。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-001",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3B-001",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills > Cloud; TikTok / DiDi experience"
+    ]
+  }
+}

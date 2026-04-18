@@ -1,0 +1,155 @@
+retarget_prompt: |-
+  你正在基于一份已经通过高标准审查的 seed resume，为新的 JD 生成派生简历。
+
+  目标：尽可能少改动，在保留 seed 叙事骨架、结构质量和可信 scope 的前提下，让简历对齐目标 JD。
+
+  当前命中的 seed: {seed_label}
+  路由模式: retarget
+  目标岗位: {title} @ {company}
+
+
+
+  ## Retarget 原则
+  1. 这是在现有 seed 上微调，不是从零重写
+  2. 总改动预算控制在约 35%
+  3. 优先保留已成熟的 summary phrasing、经历骨架、项目结构和量化风格
+  4. 先改 Summary、Skills、最相关经历与对应项目，再考虑其余段落
+  5. 所有不可变字段（公司/部门/职称/时间/地点）必须完全不变
+  6. 经历顺序必须保持 {experience_order}
+  7. 必须把 JD 必需技术写到正文里有真实使用出处，不能只堆在 SKILLS
+  8. 不要为了补技术而把 scope 夸大；intern/junior 一律保持 team-contributed framing
+  9. 若 route_mode = reuse，默认只做轻改；若 route_mode = retarget，可做中等幅度改动，但仍不得改写候选人的核心职业叙事
+  10. 如果目标 JD 带有行业语境（如 fintech / healthcare / security / devops），优先通过 summary 和项目业务 framing 对齐，而不是凭空新增不可信 ownership
+  11. 如果进入同公司一致性模式，优先复用现有 team/domain/project 骨架；把变化理解为“同项目换一种表述”，而不是“换了一套完全不同的工作内容”
+  12. 保留合法的 DiDi senior scope，不要把它机械压缩成 generic collaboration phrasing；是否把该 scope 提到 summary/bullet，由目标 JD 决定
+  13. 如果目标 JD 属于自动驾驶 / physical AI / robotics / spatial-sensor systems 等陌生行业，优先在 Summary 或项目 baseline 中写“transferable infrastructure / pipeline / reliability patterns”，不要假装已有 perception、planning、simulation 或 robotics 本体 ownership
+
+  ## 目标 JD 关键信息
+  - Role type: {role_type}
+  - Seniority: {seniority}
+  - Must-have tech: {tech_required}
+  - Preferred tech: {tech_preferred}
+  - 当前路由识别的主要缺口: {missing_required}
+retarget_project_pool: |-
+  ## 经验公司项目池（硬约束）
+  - 单篇简历最多保留 2 个项目。
+  - 项目只能从下面的公司主池里选，不允许发明新项目或把同一项目改写成完全不同的业务逻辑。
+  - 同一项目可以换强调角度，但 team / domain / scope ceiling / ownership ceiling 不可越界。
+
+  ### TikTok / ByteDance
+  {{ data.sentences.公司池上限__2 }}
+  - 说明: Internship company. Keep scope explicitly team-contributed and avoid multiplying independent project universes.
+  - `tiktok_security_retrieval_console`
+    时间: 2025-06 -> 2025-09
+    团队: Security Investigation Tooling
+    业务域: Security knowledge retrieval and analyst tooling
+    目标: Reduce manual context gathering for policy and incident investigations through retrieval-assisted internal tooling.
+    scope ceiling: Feature delivery inside a team-maintained retrieval assistant, evaluator, or analyst console; not end-to-end ownership of a standalone platform.
+    ownership ceiling: Implement handlers, evaluators, ingestion utilities, replay hooks, lightweight UI surfaces, and deployment checks for a bounded intern-owned slice.
+    allowed tech surface: Go, Python, Java, JavaScript, TypeScript, PostgreSQL, Kafka, gRPC, REST, Docker, Kubernetes, AWS, S3, AWS Bedrock, RAG, LLM
+    allowed role lenses: backend, data, swe, mle, analyst
+    {{ data.sentences.scope_note__需要_1 }}
+    notes: Use for retrieval assistant, policy search, evaluation, or analyst-console variants. The business logic stays anchored in security knowledge retrieval.
+  - `tiktok_security_release_hardening`
+    时间: 2025-10 -> 2025-12
+    团队: Security Platform Release and Replay
+    业务域: Security telemetry replay, release safety, and validation
+    目标: Improve release confidence and replay fidelity for security event-processing and retrieval-adjacent services.
+    scope ceiling: Tooling and reliability work around existing services, replay sandboxes, CI gates, and device/parser validation; not ownership of the core product roadmap.
+    ownership ceiling: Implement parsers, replay fixtures, CI/CD gates, deployment automation, Linux validation harnesses, and bounded reliability fixes with teammate guidance.
+    allowed tech surface: Go, Python, Java, C++, Linux, Kafka, PostgreSQL, Docker, Kubernetes, GitHub Actions, CI/CD, Model Deployment, Network Protocol, Embedded
+    allowed role lenses: backend, platform, swe, data
+    {{ data.sentences.scope_note__需要_1 }}
+    notes: Use for replay sandbox, release hardening, device-feed validation, or regression-gating variants without changing the underlying security-platform context.
+
+  ### DiDi Food
+  - 公司池上限: 4
+  - 说明: Longer tenure allows multiple sequential projects, but their time windows must not overlap or read like unrelated parallel careers.
+  - `didi_merchant_incident_workbench`
+    时间: 2022-09 -> 2023-03
+    团队: Merchant Support and Exception Operations
+    业务域: Merchant incident triage, support routing, and exception handling
+    目标: Replace spreadsheet-heavy merchant support workflows with auditable services and operator tooling.
+    scope ceiling: Cross-functional delivery of internal support tooling, routing APIs, and dashboards used by regional operations; not sole ownership of the full merchant platform.
+    ownership ceiling: Translate analyst requirements, build validation scripts and service slices, coordinate release checks, and ship operator-facing views with backend/frontend partners.
+    allowed tech surface: Java, Python, Flask, REST, SQL, MySQL, Redis, Kafka, Airflow, Docker, React, TypeScript, Jira
+    allowed role lenses: analyst, backend, fullstack, pm, swe
+    {{ data.sentences.scope_note__通常不需要_1 }}
+    notes: Use for merchant incident console, exception workbench, refund-resolution workflow, or issue-routing variants.
+  - `didi_pricing_rules_migration`
+    时间: 2023-04 -> 2023-09
+    团队: Pricing and Promotion Infrastructure
+    业务域: Pricing, dispatch rules, and promotion eligibility services
+    目标: Move frequently changed pricing and dispatch logic from analyst-managed processes into release-managed backend services.
+    scope ceiling: Service migration, rule validation, release-readiness checks, and ops tooling for pricing/dispatch workflows; not ownership of company-wide pricing strategy.
+    ownership ceiling: Build backfills, rule validators, microservice modules, data parity checks, and rollout coordination with backend and ops partners.
+    allowed tech surface: Java, Python, SQL, MySQL, Redis, Kafka, Airflow, REST, Microservices, Docker, Git, Jira
+    {{ data.sentences.allowed_role_lenses__analyst__backend__data__pm__s }}
+    {{ data.sentences.scope_note__通常不需要_1 }}
+    notes: Use for merchant offer rules, pricing rules migration, dispatch rules service, or rule-evaluation service variants.
+  - `didi_supply_eta_service`
+    时间: 2023-10 -> 2024-02
+    团队: Supply Planning and Dispatch Analytics
+    业务域: Courier ETA, supply-demand planning, and anomaly monitoring
+    目标: Improve city-level planning speed and operational visibility through reusable ETA and supply monitoring services.
+    scope ceiling: Internal feature services and planning workflows for ops teams, backed by ETL and event-driven updates; not a standalone customer-facing product.
+    ownership ceiling: Build feature pipelines, anomaly checks, service adapters, cached reads, and planning diagnostics with partner engineering teams.
+    allowed tech surface: Java, Python, SQL, MySQL, Redis, Kafka, Airflow, REST, Flask, Docker, ETL
+    {{ data.sentences.allowed_role_lenses__analyst__backend__data__pm__s }}
+    {{ data.sentences.scope_note__通常不需要_1 }}
+    notes: Use for courier ETA feature service, capacity planning service, merchant supply exception monitoring, or outage diagnostics.
+  - `didi_campaign_ops_console`
+    时间: 2024-03 -> 2024-05
+    团队: Promotion Operations and Experimentation
+    业务域: Campaign launch tooling, experimentation, and promotion audits
+    目标: Give operators a shared console to configure, launch, and audit promotion campaigns with fewer errors.
+    scope ceiling: Internal launch-console and experimentation workflows tied to existing backend services and data refresh jobs; not ownership of company-wide growth product strategy.
+    ownership ceiling: Build validation logic, console flows, sync jobs, audit tables, and release coordination with product/frontend/backend partners.
+    allowed tech surface: Java, Python, TypeScript, JavaScript, Flask, REST, SQL, Redis, Kafka, Airflow, ETL, Docker
+    allowed role lenses: analyst, fullstack, pm, backend, swe
+    {{ data.sentences.scope_note__通常不需要_1 }}
+    notes: Use for campaign operations console, regional promotion console, or experiment-setup workflow variants.
+
+  ### Temu R&D
+  {{ data.sentences.公司池上限__2 }}
+  - 说明: Shorter tenure. Keep Temu scoped to analytics and experimentation support rather than turning it into a large standalone engineering program.
+  - `temu_checkout_funnel_diagnostics`
+    时间: 2021-06 -> 2021-10
+    团队: Growth and Funnel Analytics
+    业务域: Checkout funnel, assortment, and conversion diagnostics
+    目标: Identify conversion friction and prioritize product fixes through repeatable diagnostics and experiment readouts.
+    scope ceiling: Analytics workflows, readouts, and lightweight modeling for product and R&D reviews; not ownership of the core product roadmap.
+    ownership ceiling: Build SQL/Hive/Spark analyses, notebooks, and experiment slices that inform product decisions and monitoring.
+    allowed tech surface: SQL, Hive, Spark SQL, Python, Pandas, A/B Testing, scikit-learn
+    {{ data.sentences.allowed_role_lenses__analyst__data__pm_1 }}
+    {{ data.sentences.scope_note__通常不需要_1 }}
+    notes: Use for checkout funnel, conversion diagnostics, retention slices, or experiment-readout variants.
+  - `temu_promo_reporting_automation`
+    时间: 2021-11 -> 2022-02
+    团队: Merchant and Promotion Analytics
+    业务域: Merchant reporting, promotion monitoring, and recurring analytics automation
+    目标: Reduce repetitive reporting and improve visibility for merchant performance and promotion operations.
+    scope ceiling: Recurring analytics automation, anomaly checks, and lightweight modeling; not full-stack product development.
+    ownership ceiling: Automate reports, reconcile datasets, build monitoring tables, and provide decision support for experiments and merchant reviews.
+    allowed tech surface: Python, Pandas, SQL, Hive, Spark SQL, Airflow, A/B Testing, scikit-learn
+    {{ data.sentences.allowed_role_lenses__analyst__data__pm_1 }}
+    {{ data.sentences.scope_note__通常不需要_1 }}
+    notes: Use for reporting automation, merchant quality reviews, promotion monitoring, or cohort-analysis variants.
+retarget_same_company: |-
+  ## 同公司一致性模式（最高优先级）
+  - 当前目标岗位与 seed 同属 **ExampleCorp**
+  {{ data.sentences.这是该公司的公司内锚点_seed }}
+  {{ data.sentences.seed_来源岗位__已登记公司内来源 }}
+  - 把公司内的 team / domain / 项目池视为“准不可变骨架”，不要写成完全不同的人做了完全不同的事
+  - 允许调整的只有：Summary 侧重点、Skills 少量技术取舍、同一项目的不同强调角度、少量 bullet 技术细节
+  - 不允许把业务方向改成明显不同的另一条线，不允许引入与现有公司版本完全无关的新项目池
+  - 同一公司家族下，全部版本合计最多保留 4 个项目；TikTok/Bytedance 实习项目最多 2 个
+  - 写法目标是：读者能自然感觉“同一个人在讲同一批经历，只是针对不同岗位换了强调方式”
+retarget_same_company_bytedance: |-
+  ## ByteDance seed 参考模式（覆盖同公司微调规则）
+  - 当前目标岗位命中了 ByteDance 同公司 seed，但该 seed 只能作为弱参考
+  {{ data.sentences.这是该公司的公司内锚点_seed }}
+  {{ data.sentences.seed_来源岗位__已登记公司内来源 }}
+  - 不得继承 seed 中的 TikTok / ByteDance intern 叙事骨架、项目或 bullet
+  - 只允许借用 seed 中仍然适用于 DiDi、Temu、Georgia Tech CS coursework/projects 的技术 framing
+  - 任何与 TikTok / ByteDance intern 绑定的内容都必须删掉，再重写成新的两段全职经历 + GT CS 项目版本

@@ -1,0 +1,70 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience blocks, especially DiDi section",
+        "issue": "Several scope/result numbers that should carry scan weight are left in plain text, including `20+ cities`, `4 partner integrations`, `11 hours/week`, and `2 quarters`.",
+        "fix": "Bold the most decision-relevant scope/result figures in each bullet so the strongest signals pop on first scan."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok and DiDi bullets",
+        "issue": "Ownership qualifiers that define scope boundaries, such as `team-maintained`, `existing`, `internal`, and `team-owned`, are not bolded.",
+        "fix": "Bold the ownership/scoping qualifiers in the opening clause of each bullet to make internal vs team-owned scope obvious."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The lead framing is `Transitioning from analytics...`, which reads like a move-in-progress rather than a direct Analytics Manager / analytics-engineering value proposition.",
+        "fix": "Recast the sentence to start with a role/domain anchor, then remove the transition wording."
+      },
+      {
+        "rule_id": "P2-030",
+        "severity": "medium",
+        "field": "Skills, Programming line",
+        "issue": "The first Skills row is `Programming`, so the JD core signal `SQL` is not surfaced in the first scan.",
+        "fix": "Put `SQL` and the analytics stack in the first Skills line, or rename the first row to `Data / Analytics`."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience, overall",
+        "issue": "The newest relevant block has four outcome bullets but no Tier-1 scope signal such as users, rows, QPS, SLA, team size, or dataset volume; the top bullet is mainly a 31% improvement claim.",
+        "fix": "Add one concrete scope metric to the first TikTok bullet or project opener, such as case volume, alert volume, dataset size, or analyst count, so the block reads like operational ownership rather than just uplift."
+      },
+      {
+        "rule_id": "P3E-013",
+        "sub_area": "3E",
+        "severity": "medium",
+        "field": "TikTok Experience, bullet 4 / Security Knowledge Retrieval Acceleration, bullet 1",
+        "issue": "A Security-team RAG/Bedrock workflow is described as internal, but the bullet does not explicitly say it used sandbox/internal docs or excluded user/production data, so the compliance boundary is vague.",
+        "fix": "Add an explicit boundary qualifier such as `internal runbooks`, `team-owned docs`, `sandbox evaluation`, or `no user/production data`.",
+        "note": "[合规边界]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rewrite Summary sentence 1 so it starts with a direct role/domain anchor instead of `Transitioning from...`.",
+    "[SHOULD] Move `SQL` and the analytics stack into the first Skills row so the first scan matches the JD.",
+    "[SHOULD] Add one concrete scope metric to the latest TikTok bullet or project opener.",
+    "[NICE] Add an explicit internal/no-user-data qualifier to the TikTok Bedrock/RAG bullet, and bold the strongest scope/ownership markers."
+  ],
+  "revision_instructions": ""
+}

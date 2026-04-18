@@ -1,0 +1,361 @@
+{
+  "label": "gen2/ChildrensHospital-Azure",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/ChildrensHospital-Azure",
+    "company": "Children's Hospital Colorado",
+    "title": "Azure Software Engineer Professional",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Children's Hospital Colorado is seeking an Azure Software Engineer Professional to contribute to systems analysis, design, and applications programming",
+    "tech_required": [],
+    "tech_preferred": [
+      "Angular",
+      "Node.js",
+      "Azure",
+      "React"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 72.0,
+      "overall_verdict": "fail",
+      "passed": false,
+      "critical_count": 1,
+      "high_count": 0,
+      "needs_revision": true,
+      "revision_priority": [
+        "删除 Achievements 中的中文字符，确保整份英文简历完全英文化。",
+        "补一条真实可自证的 Azure 相关经历，或调整叙事避免把简历包装成 Azure 背景。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 3.0,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r1_writing_standard": {
+          "score": 8.3,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 7.7,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.1,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 8.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 8.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 8.8,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 72.0,
+      "verdict": "fail",
+      "seed_label": "Egen Fullstack Node",
+      "route_mode": "retarget",
+      "revised": false,
+      "main_failure_reason": "删除 Achievements 中的中文字符，确保整份英文简历完全英文化。",
+      "failure_bucket": "writer_fixable",
+      "repaired_at": "2026-04-07T16:57:15",
+      "repair_changes": [
+        "normalized_go_achievement",
+        "normalized_didi_scope_note"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:10:54",
+    "completed_at": "2026-04-17T22:12:10",
+    "duration_seconds": 76.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok and DiDi experience bullets; project bullets",
+            "issue": "正文中把多处限定语/修饰语加粗了，例如 `team-maintained`、`existing`、`internal`、`team-owned`、`shared` 这类词。按模板规则，粗体应主要留给技术名词和规模/结果信号，修饰语加粗会让版面显得刻意。",
+            "fix": "取消这些修饰语的加粗，只保留技术栈名、数字和少量真正的信号词加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first bullet",
+            "issue": "首句以 `transitioning from analytics` 开场，首屏先讲转型过程而不是岗位方向，会削弱 6-8 秒扫读时的 backend/SWE 判断。",
+            "fix": "把开头改成岗位锚点优先的表达，例如先落在 `backend-focused software engineer` / `internal workflow systems`，再补充 analytics 背景。"
+          },
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary, third bullet",
+            "issue": "第三句标题 `Team Fit` 信息量偏弱，属于泛化合作型 framing，不能给 HR 提供强认知抓手。",
+            "fix": "把标题换成更有判断力的 cognition header，例如 `Systems judgment`、`Operational reasoning` 或 `Delivery discipline`。"
+          },
+          {
+            "rule_id": "P2-030",
+            "severity": "medium",
+            "field": "Skills, first line",
+            "issue": "第一行用 `Programming` 过于泛化，不能第一眼突出 Azure/backend 方向；对这个岗位来说，顶部技能行没有把最相关的能力先抛出来。",
+            "fix": "把第一行改成更贴近岗位的类别名，例如 `Backend` / `Runtime` / `Service Development`，并把最相关的后端与云运行时技能放在该行前半段。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "DiDi · IBG · Food experience and related project bullets",
+            "issue": "同一类前端技术在正文里形成了明显的堆叠感：React、Angular、Vue 都以使用级证据出现，而且分散在多段经历与项目中。对一个 backend/Azure 岗位来说，这容易被读成 stack stuffing，而不是必要的工作背景。",
+            "fix": "把前端证据收敛到每段经历里最能自证 ownership 的 1-2 个框架；其余框架只在确有直接职责时保留，并改写成更场景化的表述，而不是并列罗列。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 重写 Summary 的首句和第三句标题：首句先给 backend/SWE 角色锚点，第三句把 `Team Fit` 换成认知型标题。",
+        "[MUST] 去掉正文里对修饰语/限定语的加粗，只保留技术名词、数字和少量真正的结果信号加粗。",
+        "[MUST] 收敛 DiDi 段的前端框架呈现方式，避免 React/Angular/Vue 作为并列堆叠信号出现。",
+        "[SHOULD] 重新组织 Skills 首行，让它更直接地服务 Azure/backend 首筛，而不是停留在泛化的 `Programming`。"
+      ],
+      "revision_instructions": "把 Summary 改成“岗位方向优先”的首屏叙事：第一句先落到 backend / internal workflow systems，再补 analytics 背景；第三句把 `Team Fit` 换成 cognition header。同步清理正文里所有修饰语加粗，只保留技术名词和量化结果加粗。最后压缩 DiDi 段的前端框架呈现，避免 React/Angular/Vue 看起来像堆栈清单；Skills 首行也要更像 Azure backend 岗位的入口，而不是泛化 Programming。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 8.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 94.3,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 重写 Summary 的首句和第三句标题：首句先给 backend/SWE 角色锚点，第三句把 `Team Fit` 换成认知型标题。",
+        "[MUST] 去掉正文里对修饰语/限定语的加粗，只保留技术名词、数字和少量真正的结果信号加粗。",
+        "[MUST] 收敛 DiDi 段的前端框架呈现方式，避免 React/Angular/Vue 作为并列堆叠信号出现。",
+        "[SHOULD] 重新组织 Skills 首行，让它更直接地服务 Azure/backend 首筛，而不是停留在泛化的 `Programming`。"
+      ],
+      "revision_instructions": "把 Summary 改成“岗位方向优先”的首屏叙事：第一句先落到 backend / internal workflow systems，再补 analytics 背景；第三句把 `Team Fit` 换成 cognition header。同步清理正文里所有修饰语加粗，只保留技术名词和量化结果加粗。最后压缩 DiDi 段的前端框架呈现，避免 React/Angular/Vue 看起来像堆栈清单；Skills 首行也要更像 Azure backend 岗位的入口，而不是泛化 Programming。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Professional Summary; TikTok and DiDi experience bullets; project bullets",
+              "issue": "正文中把多处限定语/修饰语加粗了，例如 `team-maintained`、`existing`、`internal`、`team-owned`、`shared` 这类词。按模板规则，粗体应主要留给技术名词和规模/结果信号，修饰语加粗会让版面显得刻意。",
+              "fix": "取消这些修饰语的加粗，只保留技术栈名、数字和少量真正的信号词加粗。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, first bullet",
+              "issue": "首句以 `transitioning from analytics` 开场，首屏先讲转型过程而不是岗位方向，会削弱 6-8 秒扫读时的 backend/SWE 判断。",
+              "fix": "把开头改成岗位锚点优先的表达，例如先落在 `backend-focused software engineer` / `internal workflow systems`，再补充 analytics 背景。"
+            },
+            {
+              "rule_id": "P2-010",
+              "severity": "medium",
+              "field": "Professional Summary, third bullet",
+              "issue": "第三句标题 `Team Fit` 信息量偏弱，属于泛化合作型 framing，不能给 HR 提供强认知抓手。",
+              "fix": "把标题换成更有判断力的 cognition header，例如 `Systems judgment`、`Operational reasoning` 或 `Delivery discipline`。"
+            },
+            {
+              "rule_id": "P2-030",
+              "severity": "medium",
+              "field": "Skills, first line",
+              "issue": "第一行用 `Programming` 过于泛化，不能第一眼突出 Azure/backend 方向；对这个岗位来说，顶部技能行没有把最相关的能力先抛出来。",
+              "fix": "把第一行改成更贴近岗位的类别名，例如 `Backend` / `Runtime` / `Service Development`，并把最相关的后端与云运行时技能放在该行前半段。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "DiDi · IBG · Food experience and related project bullets",
+              "issue": "同一类前端技术在正文里形成了明显的堆叠感：React、Angular、Vue 都以使用级证据出现，而且分散在多段经历与项目中。对一个 backend/Azure 岗位来说，这容易被读成 stack stuffing，而不是必要的工作背景。",
+              "fix": "把前端证据收敛到每段经历里最能自证 ownership 的 1-2 个框架；其余框架只在确有直接职责时保留，并改写成更场景化的表述，而不是并列罗列。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 重写 Summary 的首句和第三句标题：首句先给 backend/SWE 角色锚点，第三句把 `Team Fit` 换成认知型标题。",
+          "[MUST] 去掉正文里对修饰语/限定语的加粗，只保留技术名词、数字和少量真正的结果信号加粗。",
+          "[MUST] 收敛 DiDi 段的前端框架呈现方式，避免 React/Angular/Vue 作为并列堆叠信号出现。",
+          "[SHOULD] 重新组织 Skills 首行，让它更直接地服务 Azure/backend 首筛，而不是停留在泛化的 `Programming`。"
+        ],
+        "revision_instructions": "把 Summary 改成“岗位方向优先”的首屏叙事：第一句先落到 backend / internal workflow systems，再补 analytics 背景；第三句把 `Team Fit` 换成 cognition header。同步清理正文里所有修饰语加粗，只保留技术名词和量化结果加粗。最后压缩 DiDi 段的前端框架呈现，避免 React/Angular/Vue 看起来像堆栈清单；Skills 首行也要更像 Azure backend 岗位的入口，而不是泛化 Programming。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok and DiDi experience bullets; project bullets",
+            "issue": "正文中把多处限定语/修饰语加粗了，例如 `team-maintained`、`existing`、`internal`、`team-owned`、`shared` 这类词。按模板规则，粗体应主要留给技术名词和规模/结果信号，修饰语加粗会让版面显得刻意。",
+            "fix": "取消这些修饰语的加粗，只保留技术栈名、数字和少量真正的信号词加粗。"
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "DiDi · IBG · Food experience and related project bullets",
+            "issue": "同一类前端技术在正文里形成了明显的堆叠感：React、Angular、Vue 都以使用级证据出现，而且分散在多段经历与项目中。对一个 backend/Azure 岗位来说，这容易被读成 stack stuffing，而不是必要的工作背景。",
+            "fix": "把前端证据收敛到每段经历里最能自证 ownership 的 1-2 个框架；其余框架只在确有直接职责时保留，并改写成更场景化的表述，而不是并列罗列。"
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first bullet",
+            "issue": "首句以 `transitioning from analytics` 开场，首屏先讲转型过程而不是岗位方向，会削弱 6-8 秒扫读时的 backend/SWE 判断。",
+            "fix": "把开头改成岗位锚点优先的表达，例如先落在 `backend-focused software engineer` / `internal workflow systems`，再补充 analytics 背景。"
+          },
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary, third bullet",
+            "issue": "第三句标题 `Team Fit` 信息量偏弱，属于泛化合作型 framing，不能给 HR 提供强认知抓手。",
+            "fix": "把标题换成更有判断力的 cognition header，例如 `Systems judgment`、`Operational reasoning` 或 `Delivery discipline`。"
+          },
+          {
+            "rule_id": "P2-030",
+            "severity": "medium",
+            "field": "Skills, first line",
+            "issue": "第一行用 `Programming` 过于泛化，不能第一眼突出 Azure/backend 方向；对这个岗位来说，顶部技能行没有把最相关的能力先抛出来。",
+            "fix": "把第一行改成更贴近岗位的类别名，例如 `Backend` / `Runtime` / `Service Development`，并把最相关的后端与云运行时技能放在该行前半段。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 3,
+          "rule_ids": [
+            "P2-001",
+            "P2-010",
+            "P2-030"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 1,
+          "rule_ids": [
+            "P3C-010"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-001",
+        "P2-010",
+        "P2-030",
+        "P3C-010"
+      ],
+      "high_or_critical": [
+        "P3C-010 @ DiDi · IBG · Food experience and related project bullets"
+      ]
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:12:44",
+  "completed_at": "2026-04-17T22:13:30",
+  "duration_seconds": 46.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok Experience bullets; DiDi Experience bullets",
+          "issue": "Several modifier words are bolded (`team-maintained`, `existing`, `intern-owned`, `team-owned`, `shared`). The template wants bold emphasis reserved for technical nouns, scope numbers, or section headers, not adjectival qualifiers.",
+          "fix": "Unbold qualifier words and keep bolding for role headers, technologies, scope metrics, and other signal-bearing nouns only."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing is transition-first (`Backend Engineer Transitioning from Analytics`), which weakens the first-screen role signal for a backend opening.",
+          "fix": "Rewrite the first sentence to lead with a direct target-role framing, e.g. `Security/Backend Engineer:` or `Backend Engineer:`, then keep the analytics background as supporting context."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security | Software Engineer Intern | Jun 2025 – Dec 2025",
+          "issue": "The latest/relevant experience is dominated by percentage lifts (`28%`, `19%`, `31%`, `18%`) without any concrete Tier 1 scope anchors such as request volume, analyst count, event throughput, release cadence, or team size.",
+          "fix": "Add 1-2 concrete scope signals to the lead bullets or project bullets, such as number of analysts supported, requests/day, Kafka event volume, release frequency, or SLA/latency baseline."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "Temu · R&D | Data Analyst | Jun 2021 – Feb 2022",
+          "issue": "This early experience is almost entirely expressed as time saved or percentage improvement, with no Tier 1 scale signal to anchor the scope of the work.",
+          "fix": "Add a concrete scope anchor to one bullet, such as reporting audience size, query volume, batch frequency, data scale, or the size of the product/research surface."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opening to be role-first rather than transition-first, so the resume reads as an immediately credible backend/security profile.",
+      "[MUST] Add concrete Tier 1 scope anchors to the TikTok and Temu bullets to avoid a resume that is mostly percentage deltas without scale.",
+      "[SHOULD] Remove bolding from modifier words like `team-maintained`, `existing`, and `shared`; keep emphasis on technologies and scope signals."
+    ],
+    "revision_instructions": "Rewrite the first Summary sentence to lead with a direct backend/security role framing, not a transition narrative. Add 1-2 concrete scope anchors to the TikTok and Temu bullets or project bullets (requests/day, analysts supported, Kafka event volume, release cadence, SLA, or team size). Then reduce bolding on modifier words and keep emphasis on technologies, scope, and metrics.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opening to be role-first rather than transition-first, so the resume reads as an immediately credible backend/security profile.",
+      "[MUST] Add concrete Tier 1 scope anchors to the TikTok and Temu bullets to avoid a resume that is mostly percentage deltas without scale.",
+      "[SHOULD] Remove bolding from modifier words like `team-maintained`, `existing`, and `shared`; keep emphasis on technologies and scope signals."
+    ],
+    "revision_instructions": "Rewrite the first Summary sentence to lead with a direct backend/security role framing, not a transition narrative. Add 1-2 concrete scope anchors to the TikTok and Temu bullets or project bullets (requests/day, analysts supported, Kafka event volume, release cadence, SLA, or team size). Then reduce bolding on modifier words and keep emphasis on technologies, scope, and metrics.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience bullets; DiDi Experience bullets",
+            "issue": "Several modifier words are bolded (`team-maintained`, `existing`, `intern-owned`, `team-owned`, `shared`). The template wants bold emphasis reserved for technical nouns, scope numbers, or section headers, not adjectival qualifiers.",
+            "fix": "Unbold qualifier words and keep bolding for role headers, technologies, scope metrics, and other signal-bearing nouns only."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The opening framing is transition-first (`Backend Engineer Transitioning from Analytics`), which weakens the first-screen role signal for a backend opening.",
+            "fix": "Rewrite the first sentence to lead with a direct target-role framing, e.g. `Security/Backend Engineer:` or `Backend Engineer:`, then keep the analytics background as supporting context."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security | Software Engineer Intern | Jun 2025 – Dec 2025",
+            "issue": "The latest/relevant experience is dominated by percentage lifts (`28%`, `19%`, `31%`, `18%`) without any concrete Tier 1 scope anchors such as request volume, analyst count, event throughput, release cadence, or team size.",
+            "fix": "Add 1-2 concrete scope signals to the lead bullets or project bullets, such as number of analysts supported, requests/day, Kafka event volume, release frequency, or SLA/latency baseline."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Temu · R&D | Data Analyst | Jun 2021 – Feb 2022",
+            "issue": "This early experience is almost entirely expressed as time saved or percentage improvement, with no Tier 1 scale signal to anchor the scope of the work.",
+            "fix": "Add a concrete scope anchor to one bullet, such as reporting audience size, query volume, batch frequency, data scale, or the size of the product/research surface."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the Summary opening to be role-first rather than transition-first, so the resume reads as an immediately credible backend/security profile.",
+        "[MUST] Add concrete Tier 1 scope anchors to the TikTok and Temu bullets to avoid a resume that is mostly percentage deltas without scale.",
+        "[SHOULD] Remove bolding from modifier words like `team-maintained`, `existing`, and `shared`; keep emphasis on technologies and scope signals."
+      ],
+      "revision_instructions": "Rewrite the first Summary sentence to lead with a direct backend/security role framing, not a transition narrative. Add 1-2 concrete scope anchors to the TikTok and Temu bullets or project bullets (requests/day, analysts supported, Kafka event volume, release cadence, SLA, or team size). Then reduce bolding on modifier words and keep emphasis on technologies, scope, and metrics.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok Experience bullets; DiDi Experience bullets",
+          "issue": "Several modifier words are bolded (`team-maintained`, `existing`, `intern-owned`, `team-owned`, `shared`). The template wants bold emphasis reserved for technical nouns, scope numbers, or section headers, not adjectival qualifiers.",
+          "fix": "Unbold qualifier words and keep bolding for role headers, technologies, scope metrics, and other signal-bearing nouns only."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing is transition-first (`Backend Engineer Transitioning from Analytics`), which weakens the first-screen role signal for a backend opening.",
+          "fix": "Rewrite the first sentence to lead with a direct target-role framing, e.g. `Security/Backend Engineer:` or `Backend Engineer:`, then keep the analytics background as supporting context."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security | Software Engineer Intern | Jun 2025 – Dec 2025",
+          "issue": "The latest/relevant experience is dominated by percentage lifts (`28%`, `19%`, `31%`, `18%`) without any concrete Tier 1 scope anchors such as request volume, analyst count, event throughput, release cadence, or team size.",
+          "fix": "Add 1-2 concrete scope signals to the lead bullets or project bullets, such as number of analysts supported, requests/day, Kafka event volume, release frequency, or SLA/latency baseline."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "Temu · R&D | Data Analyst | Jun 2021 – Feb 2022",
+          "issue": "This early experience is almost entirely expressed as time saved or percentage improvement, with no Tier 1 scale signal to anchor the scope of the work.",
+          "fix": "Add a concrete scope anchor to one bullet, such as reporting audience size, query volume, batch frequency, data scale, or the size of the product/research surface."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3D-001",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

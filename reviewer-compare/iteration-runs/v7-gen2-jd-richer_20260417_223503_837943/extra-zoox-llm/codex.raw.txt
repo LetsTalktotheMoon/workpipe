@@ -1,0 +1,57 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience, bullet 1",
+        "issue": "修饰词 `team-maintained` 被加粗了。按规则，加粗应主要保留给技术名词和量化信号，限定词不应抢占视觉权重。",
+        "fix": "去掉 `team-maintained` 的加粗，只保留 Go、gRPC、Kafka、PostgreSQL 和量化结果的加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Professional Summary / Skills / Entire Experience",
+        "issue": "JD 的核心门槛是 3D Vision、3D Reconstruction、Style Transfer、radiance field ML models 和 human-centric 3D 方向；当前简历只证明了 backend ML systems、retrieval、feature extraction 和数据管道，没有任何 3D 视觉或 radiance-field 证据链。",
+        "fix": "如果你确实做过相关工作，把最相关经历里的一条 bullet 重写成 3D vision / reconstruction / radiance-field 证据，写清模型、数据形态、评估指标和你的 ownership；如果没有真实经历，这份简历对 Zoox 3D Simulation 属于结构性错配。",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary / Experience",
+        "issue": "团队方向是 3D simulation 和 production simulator，但简历没有把既有 ML systems、retrieval、或数据管道经验桥接到 simulation fidelity、rendering、synthetic data 或 3D content workflow，上下文迁移逻辑不够明确。",
+        "fix": "补一句明确的迁移桥接，只在真实成立时写成例如从 ML evaluation / data pipeline 迁移到 simulation data workflow 或 generative content pipeline；如果没有这层经历，就不要硬贴这个 JD。",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience, bullets 1-5",
+        "issue": "最新经历几乎全部是相对改进和时间缩短数字，没有任何 Tier 1 规模锚点；首屏看起来更像一组优化结果，而不是有明确 scope 的工程/ML 交付。",
+        "fix": "给最强的一条 bullet 补一个可追问的规模信号，例如请求量、事件量、benchmark 规模、服务数、消费者数量或数据规模，避免整段只靠百分比和分钟数支撑。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 如果你确实有 3D vision / reconstruction / radiance-field 经验，把它前移到 Summary 和最相关经历首条；否则这份简历对 Zoox 3D Simulation 属于结构性错配。",
+    "[MUST] 给 TikTok 最新段补一个真正的规模锚点，例如请求量、事件量、benchmark size 或服务数，不要只留下百分比改进。",
+    "[SHOULD] 去掉 `team-maintained` 这类修饰词的加粗，只保留技术名词和量化信号。",
+    "[NICE] 把 Summary 第三句改成更强的 cognition header，并落到具体判断/取舍方式上。"
+  ],
+  "revision_instructions": "[结构性错配] 这份简历目前没有 Zoox 3D Simulation 的核心证据链。若你确实做过 3D vision / reconstruction / radiance-field / style-transfer 相关工作，把它前移到 Summary 和最相关经历首条，写清模型类型、数据形态、评估指标和你的 ownership；否则建议不要继续硬贴这个 JD，改投 ML systems / platform 类岗位。另：给 TikTok 最新段补一个规模锚点（QPS、事件量、benchmark size、服务数），并把 `team-maintained` 这类修饰词取消加粗。"
+}

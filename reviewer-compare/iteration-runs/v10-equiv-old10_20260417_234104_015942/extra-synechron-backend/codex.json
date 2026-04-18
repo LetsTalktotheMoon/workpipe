@@ -1,0 +1,132 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:48:59",
+  "completed_at": "2026-04-17T23:49:40",
+  "duration_seconds": 41.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience, bullet 1",
+          "issue": "Qualifier text `team-maintained` is bolded, which violates the rule against bolding modifiers/limited scope words in正文.",
+          "fix": "Remove bold from qualifier words such as `team-maintained`; keep bold emphasis for technologies, scope signals, and quantified outcomes only."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Remove bold formatting from qualifier words like `team-maintained` in the TikTok bullet and keep emphasis reserved for technical terms and measurable scope.",
+      "[NICE] Keep bold usage consistent across bullets so the visual emphasis stays on ownership, systems, and outcomes."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 10.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 99.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 1,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Remove bold formatting from qualifier words like `team-maintained` in the TikTok bullet and keep emphasis reserved for technical terms and measurable scope.",
+      "[NICE] Keep bold usage consistent across bullets so the visual emphasis stays on ownership, systems, and outcomes."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience, bullet 1",
+            "issue": "Qualifier text `team-maintained` is bolded, which violates the rule against bolding modifiers/limited scope words in正文.",
+            "fix": "Remove bold from qualifier words such as `team-maintained`; keep bold emphasis for technologies, scope signals, and quantified outcomes only."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Remove bold formatting from qualifier words like `team-maintained` in the TikTok bullet and keep emphasis reserved for technical terms and measurable scope.",
+        "[NICE] Keep bold usage consistent across bullets so the visual emphasis stays on ownership, systems, and outcomes."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience, bullet 1",
+          "issue": "Qualifier text `team-maintained` is bolded, which violates the rule against bolding modifiers/limited scope words in正文.",
+          "fix": "Remove bold from qualifier words such as `team-maintained`; keep bold emphasis for technologies, scope signals, and quantified outcomes only."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042"
+    ],
+    "high_or_critical": []
+  }
+}

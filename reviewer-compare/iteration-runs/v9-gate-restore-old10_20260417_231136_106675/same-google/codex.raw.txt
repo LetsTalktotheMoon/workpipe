@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first bullet",
+        "issue": "首屏 framing 以“transitioning from data analysis to full-stack development”开场，先讲转型过程而不是目标角色与领域信号；6-8 秒扫读时，HR 会先看到转行叙事而不是 Full-stack / backend / platform 定位。",
+        "fix": "把开头改成目标角色+领域信号，例如 `**Full-Stack Software Engineer:**` 或 `**Backend/Platform Engineer:**`，再把“from data analysis to full-stack”移到句尾作为补充背景。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 将 Summary 第一条改成目标角色先行，再补“从数据分析转向全栈”的背景。",
+    "[NICE] 保持其余经历不变；当前项目与经历的技术证据已足够支撑 JD 的核心要求。"
+  ],
+  "revision_instructions": ""
+}

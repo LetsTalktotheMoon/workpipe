@@ -1,0 +1,254 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:34:00",
+  "completed_at": "2026-04-17T23:35:23",
+  "duration_seconds": 83.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience > TikTok · Security bullet 2 and bullet 3",
+          "issue": "正文里有未加粗的核心技术名词 `Bedrock`，而同段其他技术和量化信号已做加粗，视觉强调不一致。",
+          "fix": "把 `Bedrock` 统一加粗，并顺手检查同段是否还有其他核心技术名词未按同一规则处理。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary 第1条",
+          "issue": "首句以“transitioning from data analytics into software engineering”开场，首屏先讲转变过程而不是 AI/ML 方向本身，会削弱 6–8 秒扫读时的角色定位。",
+          "fix": "把开头改成角色前置的表达，例如直接以 `AI/ML engineer` / `LLM systems` / `ML platform` 作为主锚点，再把转型背景放到后半句。"
+        },
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary 第3条",
+          "issue": "`Strategic Problem Solving` 作为围棋句 header 偏泛化，不能像 `Pattern recognition`、`Systems judgment` 那样强化认知型卖点。",
+          "fix": "把第三句 header 改成更具体的认知类标签，例如 `Pattern recognition:`、`Systems judgment:` 或 `Decision-making:`。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3A-002",
+          "sub_area": "3A",
+          "severity": "high",
+          "field": "Experience > TikTok · Security bullet 2/5",
+          "issue": "正文使用了明确命名的产品/平台 `AWS Bedrock`，但 Skills 里没有对应条目，导致正文与技能栈不一致。",
+          "fix": "如果 `Bedrock` 确实是实际使用栈，把它补进 Skills；如果只是写法放大，就改成你能在 Skills 里支撑的更泛化表述。",
+          "note": null
+        },
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "JD Core Skills / Minimum qualifications vs Resume Summary + Experience",
+          "issue": "JD 的核心研究能力信号是 agentic systems、multi-step reasoning、research agents、RLHF/reward modeling/PPO/DPO、world modeling、causal reasoning、pretraining 和 transformer 体系，但简历正文只证明了 LLM 检索/评估和生产集成，没有给出这些研究型能力的可验证证据。",
+          "fix": "在最相关经历里补 1 条可验证的研究型 bullet，至少落到 planning/tool use/memory、alignment/eval、reward modeling、pretraining 或 transformer/PEFT 之一；如果这些经历并不存在，这份简历对该 JD 属于 [结构性错配]，应调整投递方向而不是继续堆词。",
+          "note": "[结构性错配]"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 第一条改成 AI/ML / LLM 研究工程的角色前置开场，不要以“transitioning”起手。",
+      "[MUST] 在 TikTok 最相关经历补一条可验证的 agentic / alignment / pretraining 类证据；如果没有这类经历，这个 JD 对你就是结构性错配。",
+      "[SHOULD] 把正文里的 `Bedrock` 补进 Skills，或把相关表述改成能被 Skills 支撑的更泛化写法。",
+      "[NICE] 把第三条 Summary header 换成更强的认知型标签，并统一处理未加粗的核心技术名词。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历目前更像 applied ML / data-platform 画像，不像该 JD 要的 agentic / RLHF / research-agent 候选人。先把 Summary 第一条改成角色前置的 AI/ML 方向，再在最相关经历里补 1 条可验证的研究型 bullet，明确写 planning/tool use/memory、alignment/eval、reward modeling、pretraining 或 transformer/PEFT 之一；同时把正文出现的 `Bedrock` 补进 Skills 或改成可被 Skills 支撑的更泛化表述。若这些经历本身不存在，建议换投 applied ML / ML platform 岗，而不是继续包装成 research role。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 8.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 87.3,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 第一条改成 AI/ML / LLM 研究工程的角色前置开场，不要以“transitioning”起手。",
+      "[MUST] 在 TikTok 最相关经历补一条可验证的 agentic / alignment / pretraining 类证据；如果没有这类经历，这个 JD 对你就是结构性错配。",
+      "[SHOULD] 把正文里的 `Bedrock` 补进 Skills，或把相关表述改成能被 Skills 支撑的更泛化写法。",
+      "[NICE] 把第三条 Summary header 换成更强的认知型标签，并统一处理未加粗的核心技术名词。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历目前更像 applied ML / data-platform 画像，不像该 JD 要的 agentic / RLHF / research-agent 候选人。先把 Summary 第一条改成角色前置的 AI/ML 方向，再在最相关经历里补 1 条可验证的研究型 bullet，明确写 planning/tool use/memory、alignment/eval、reward modeling、pretraining 或 transformer/PEFT 之一；同时把正文出现的 `Bedrock` 补进 Skills 或改成可被 Skills 支撑的更泛化表述。若这些经历本身不存在，建议换投 applied ML / ML platform 岗，而不是继续包装成 research role。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience > TikTok · Security bullet 2 and bullet 3",
+            "issue": "正文里有未加粗的核心技术名词 `Bedrock`，而同段其他技术和量化信号已做加粗，视觉强调不一致。",
+            "fix": "把 `Bedrock` 统一加粗，并顺手检查同段是否还有其他核心技术名词未按同一规则处理。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary 第1条",
+            "issue": "首句以“transitioning from data analytics into software engineering”开场，首屏先讲转变过程而不是 AI/ML 方向本身，会削弱 6–8 秒扫读时的角色定位。",
+            "fix": "把开头改成角色前置的表达，例如直接以 `AI/ML engineer` / `LLM systems` / `ML platform` 作为主锚点，再把转型背景放到后半句。"
+          },
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary 第3条",
+            "issue": "`Strategic Problem Solving` 作为围棋句 header 偏泛化，不能像 `Pattern recognition`、`Systems judgment` 那样强化认知型卖点。",
+            "fix": "把第三句 header 改成更具体的认知类标签，例如 `Pattern recognition:`、`Systems judgment:` 或 `Decision-making:`。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3A-002",
+            "sub_area": "3A",
+            "severity": "high",
+            "field": "Experience > TikTok · Security bullet 2/5",
+            "issue": "正文使用了明确命名的产品/平台 `AWS Bedrock`，但 Skills 里没有对应条目，导致正文与技能栈不一致。",
+            "fix": "如果 `Bedrock` 确实是实际使用栈，把它补进 Skills；如果只是写法放大，就改成你能在 Skills 里支撑的更泛化表述。",
+            "note": null
+          },
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "JD Core Skills / Minimum qualifications vs Resume Summary + Experience",
+            "issue": "JD 的核心研究能力信号是 agentic systems、multi-step reasoning、research agents、RLHF/reward modeling/PPO/DPO、world modeling、causal reasoning、pretraining 和 transformer 体系，但简历正文只证明了 LLM 检索/评估和生产集成，没有给出这些研究型能力的可验证证据。",
+            "fix": "在最相关经历里补 1 条可验证的研究型 bullet，至少落到 planning/tool use/memory、alignment/eval、reward modeling、pretraining 或 transformer/PEFT 之一；如果这些经历并不存在，这份简历对该 JD 属于 [结构性错配]，应调整投递方向而不是继续堆词。",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 Summary 第一条改成 AI/ML / LLM 研究工程的角色前置开场，不要以“transitioning”起手。",
+        "[MUST] 在 TikTok 最相关经历补一条可验证的 agentic / alignment / pretraining 类证据；如果没有这类经历，这个 JD 对你就是结构性错配。",
+        "[SHOULD] 把正文里的 `Bedrock` 补进 Skills，或把相关表述改成能被 Skills 支撑的更泛化写法。",
+        "[NICE] 把第三条 Summary header 换成更强的认知型标签，并统一处理未加粗的核心技术名词。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历目前更像 applied ML / data-platform 画像，不像该 JD 要的 agentic / RLHF / research-agent 候选人。先把 Summary 第一条改成角色前置的 AI/ML 方向，再在最相关经历里补 1 条可验证的研究型 bullet，明确写 planning/tool use/memory、alignment/eval、reward modeling、pretraining 或 transformer/PEFT 之一；同时把正文出现的 `Bedrock` 补进 Skills 或改成可被 Skills 支撑的更泛化表述。若这些经历本身不存在，建议换投 applied ML / ML platform 岗，而不是继续包装成 research role。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [
+        {
+          "rule_id": "P3A-002",
+          "sub_area": "3A",
+          "severity": "high",
+          "field": "Experience > TikTok · Security bullet 2/5",
+          "issue": "正文使用了明确命名的产品/平台 `AWS Bedrock`，但 Skills 里没有对应条目，导致正文与技能栈不一致。",
+          "fix": "如果 `Bedrock` 确实是实际使用栈，把它补进 Skills；如果只是写法放大，就改成你能在 Skills 里支撑的更泛化表述。",
+          "note": null
+        }
+      ],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience > TikTok · Security bullet 2 and bullet 3",
+          "issue": "正文里有未加粗的核心技术名词 `Bedrock`，而同段其他技术和量化信号已做加粗，视觉强调不一致。",
+          "fix": "把 `Bedrock` 统一加粗，并顺手检查同段是否还有其他核心技术名词未按同一规则处理。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "JD Core Skills / Minimum qualifications vs Resume Summary + Experience",
+          "issue": "JD 的核心研究能力信号是 agentic systems、multi-step reasoning、research agents、RLHF/reward modeling/PPO/DPO、world modeling、causal reasoning、pretraining 和 transformer 体系，但简历正文只证明了 LLM 检索/评估和生产集成，没有给出这些研究型能力的可验证证据。",
+          "fix": "在最相关经历里补 1 条可验证的研究型 bullet，至少落到 planning/tool use/memory、alignment/eval、reward modeling、pretraining 或 transformer/PEFT 之一；如果这些经历并不存在，这份简历对该 JD 属于 [结构性错配]，应调整投递方向而不是继续堆词。",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary 第1条",
+          "issue": "首句以“transitioning from data analytics into software engineering”开场，首屏先讲转变过程而不是 AI/ML 方向本身，会削弱 6–8 秒扫读时的角色定位。",
+          "fix": "把开头改成角色前置的表达，例如直接以 `AI/ML engineer` / `LLM systems` / `ML platform` 作为主锚点，再把转型背景放到后半句。"
+        },
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary 第3条",
+          "issue": "`Strategic Problem Solving` 作为围棋句 header 偏泛化，不能像 `Pattern recognition`、`Systems judgment` 那样强化认知型卖点。",
+          "fix": "把第三句 header 改成更具体的认知类标签，例如 `Pattern recognition:`、`Systems judgment:` 或 `Decision-making:`。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-001",
+          "P2-010"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3A-002",
+          "P3B-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-001",
+      "P2-010",
+      "P3A-002",
+      "P3B-001"
+    ],
+    "high_or_critical": [
+      "P3A-002 @ Experience > TikTok · Security bullet 2/5",
+      "P3B-001 @ JD Core Skills / Minimum qualifications vs Resume Summary + Experience"
+    ]
+  }
+}

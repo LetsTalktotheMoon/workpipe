@@ -1,0 +1,2301 @@
+{
+  "schema_version": 1,
+  "scope": "project_prompt_review",
+  "generated_at": "2026-04-15T01:40:22-05:00",
+  "source_item_count": 114,
+  "covered_source_item_count": 114,
+  "coverage_ratio": 1.0,
+  "group_count": 39,
+  "block_count": 284,
+  "uncovered": [],
+  "low_confidence": [
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "candidate_context_shared_experience",
+      "confidence": 0.84,
+      "notes": "候选人经历框架的共享经历主干，仅保留 Temu + DiDi 及总标题；TikTok 与 ByteDance 边界已拆成独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "candidate_context_generic_tiktok_branch",
+      "confidence": 0.84,
+      "notes": "通用目标岗位使用的 TikTok 经历分支；ByteDance 不再包含这段。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "candidate_context_shared_education",
+      "confidence": 0.84,
+      "notes": "候选人教育经历的共享主干；GT 教育本体对所有线路可用，ByteDance 仅对 GT coursework/projects 额外加权。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "candidate_context_shared_achievements",
+      "confidence": 0.84,
+      "notes": "候选人成就段的共享主干。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "writer_jd_context",
+      "confidence": 0.84,
+      "notes": "由 build_master_writer_prompt 的 JD 输入段稳定模板化，已去掉 ExampleCorp 固定值。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "writer_plan_shared_intro",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享开头；后续经历规划按 generic/ByteDance 分支拼接。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "writer_plan_generic_tiktok_branch",
+      "confidence": 0.84,
+      "notes": "通用 writer PLAN 中的 TikTok 技术分配分支。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "writer_plan_shared_didi_temu",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中 DiDi + Temu 的共享主体。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "writer_plan_shared_gt_coursework",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中所有线路共享的 Georgia Tech CS coursework/projects 规划块，ByteDance 场景仅进一步提升权重。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "writer_plan_shared_tail",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享结尾，包含 SKILLS 推导、项目规划、教育经历选择与 RESUME 输出外壳。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "candidate_context_shared_experience",
+      "confidence": 0.84,
+      "notes": "候选人经历框架的共享经历主干，仅保留 Temu + DiDi 及总标题；TikTok 与 ByteDance 边界已拆成独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "candidate_context_shared_education",
+      "confidence": 0.84,
+      "notes": "候选人教育经历的共享主干；GT 教育本体对所有线路可用，ByteDance 仅对 GT coursework/projects 额外加权。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "candidate_context_bytedance_education_branch",
+      "confidence": 0.84,
+      "notes": "ByteDance 目标岗位对 Georgia Tech CS coursework/projects 的加权说明，不意味着 GT 教育主干只在 ByteDance 可用。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "candidate_context_shared_achievements",
+      "confidence": 0.84,
+      "notes": "候选人成就段的共享主干。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "candidate_context_bytedance_boundary",
+      "confidence": 0.84,
+      "notes": "ByteDance 特殊写作边界分支，明确禁止 TikTok / ByteDance intern；同时声明 GT 教育主干仍是共享材料。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "retarget_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的特殊公司约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "writer_jd_context",
+      "confidence": 0.84,
+      "notes": "由 build_master_writer_prompt 的 JD 输入段稳定模板化，已去掉 ExampleCorp 固定值。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "writer_plan_shared_intro",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享开头；后续经历规划按 generic/ByteDance 分支拼接。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "writer_plan_shared_didi_temu",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中 DiDi + Temu 的共享主体。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "writer_plan_shared_gt_coursework",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中所有线路共享的 Georgia Tech CS coursework/projects 规划块，ByteDance 场景仅进一步提升权重。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "writer_plan_shared_tail",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享结尾，包含 SKILLS 推导、项目规划、教育经历选择与 RESUME 输出外壳。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::no_starter::writer::bytedance",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "retarget_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的特殊公司约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "retarget_same_company",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的同公司分支拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::same_company",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "retarget_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的特殊公司约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "retarget_same_company_bytedance",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的同公司分支拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::old_match_anchor::writer::bytedance::same_company",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "dual_channel_overlay",
+      "confidence": 0.84,
+      "notes": "与 append_match_pipe_dual_channel_overlay 共用同一模板，不再依赖 override。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "retarget_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的特殊公司约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "dual_channel_overlay",
+      "confidence": 0.84,
+      "notes": "与 append_match_pipe_dual_channel_overlay 共用同一模板，不再依赖 override。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "retarget_same_company",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的同公司分支拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "dual_channel_overlay",
+      "confidence": 0.84,
+      "notes": "与 append_match_pipe_dual_channel_overlay 共用同一模板，不再依赖 override。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::same_company",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "retarget_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_seed_retarget_prompt 稳定模板化，已去掉固定公司名与通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "retarget_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的特殊公司约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "retarget_same_company_bytedance",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的同公司分支拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "retarget_project_pool",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的项目池硬约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "retarget_context",
+      "confidence": 0.84,
+      "notes": "由真实 retarget prompt 的 Seed 输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "dual_channel_overlay",
+      "confidence": 0.84,
+      "notes": "与 append_match_pipe_dual_channel_overlay 共用同一模板，不再依赖 override。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::new_dual_channel::writer::bytedance::same_company",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full",
+      "block_id": "reviewer_user",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer user prompt 拆成共享正文主干；ByteDance 相关 4 处句子与 JSON schema 已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full",
+      "block_id": "reviewer_context",
+      "confidence": 0.84,
+      "notes": "由 build_unified_review_prompt 的 JD/immutable 输入段稳定模板化；共享主干保留 JD 与不可变字段插槽，ByteDance 特殊审查要求拆到独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full",
+      "block_id": "reviewer_output_schema",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer prompt 拆出的输出 schema 与评分校准说明；属于结构说明附录，不应与自然语言正文同级编辑。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full::bytedance",
+      "block_id": "reviewer_user",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer user prompt 拆成共享正文主干；ByteDance 相关 4 处句子与 JSON schema 已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full::bytedance",
+      "block_id": "reviewer_user_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance reviewer 只保留 4 条分支句：R0/R1/R3/R5；共享 reviewer 主干不再复制整块正文。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full::bytedance",
+      "block_id": "reviewer_context",
+      "confidence": 0.84,
+      "notes": "由 build_unified_review_prompt 的 JD/immutable 输入段稳定模板化；共享主干保留 JD 与不可变字段插槽，ByteDance 特殊审查要求拆到独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full::bytedance",
+      "block_id": "reviewer_context_bytedance",
+      "confidence": 0.84,
+      "notes": "只保留 ByteDance reviewer 特有审查附加段，作为共享 reviewer context 之上的分支块。"
+    },
+    {
+      "group_id": "match_pipe::reviewer::full::bytedance",
+      "block_id": "reviewer_output_schema",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer prompt 拆出的输出 schema 与评分校准说明；属于结构说明附录，不应与自然语言正文同级编辑。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer",
+      "block_id": "upgrade_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_upgrade_revision_prompt 稳定模板化，已去掉通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer",
+      "block_id": "upgrade_context",
+      "confidence": 0.84,
+      "notes": "由真实 upgrade prompt 的原始简历输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "upgrade_prompt",
+      "confidence": 0.84,
+      "notes": "由真实 build_upgrade_revision_prompt 稳定模板化，已去掉通用顺序常量。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "upgrade_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance upgrade 的特殊约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "upgrade_context",
+      "confidence": 0.84,
+      "notes": "由真实 upgrade prompt 的原始简历输入段拆出。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::reviewer_followup::writer::bytedance",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::planner::planner",
+      "block_id": "planner_user",
+      "confidence": 0.84,
+      "notes": "planner user 指令本身没有更上游 builder；此处即唯一运行时源。"
+    },
+    {
+      "group_id": "match_pipe::planner::planner",
+      "block_id": "planner_context",
+      "confidence": 0.84,
+      "notes": "由 build_match_pipe_planner_prompt 的实际插槽稳定模板化，直接对应运行时拼接结构。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "candidate_context_shared_experience",
+      "confidence": 0.84,
+      "notes": "候选人经历框架的共享经历主干，仅保留 Temu + DiDi 及总标题；TikTok 与 ByteDance 边界已拆成独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "candidate_context_generic_tiktok_branch",
+      "confidence": 0.84,
+      "notes": "通用目标岗位使用的 TikTok 经历分支；ByteDance 不再包含这段。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "candidate_context_shared_education",
+      "confidence": 0.84,
+      "notes": "候选人教育经历的共享主干；GT 教育本体对所有线路可用，ByteDance 仅对 GT coursework/projects 额外加权。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "candidate_context_shared_achievements",
+      "confidence": 0.84,
+      "notes": "候选人成就段的共享主干。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "writer_jd_context",
+      "confidence": 0.84,
+      "notes": "由 build_master_writer_prompt 的 JD 输入段稳定模板化，已去掉 ExampleCorp 固定值。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "writer_plan_shared_intro",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享开头；后续经历规划按 generic/ByteDance 分支拼接。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "writer_plan_generic_tiktok_branch",
+      "confidence": 0.84,
+      "notes": "通用 writer PLAN 中的 TikTok 技术分配分支。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "writer_plan_shared_didi_temu",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中 DiDi + Temu 的共享主体。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "writer_plan_shared_gt_coursework",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中所有线路共享的 Georgia Tech CS coursework/projects 规划块，ByteDance 场景仅进一步提升权重。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "writer_plan_shared_tail",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享结尾，包含 SKILLS 推导、项目规划、教育经历选择与 RESUME 输出外壳。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "planner_writer_context",
+      "confidence": 0.84,
+      "notes": "由 planner writer 实际运行时输入面稳定模板化，保留真实插槽与区块顺序。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer",
+      "block_id": "planner_writer_overlay",
+      "confidence": 0.84,
+      "notes": "planner-first 写作覆盖规则只在本地 runtime 中定义，无更上游共享 builder。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "candidate_context_shared_experience",
+      "confidence": 0.84,
+      "notes": "候选人经历框架的共享经历主干，仅保留 Temu + DiDi 及总标题；TikTok 与 ByteDance 边界已拆成独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "candidate_context_shared_education",
+      "confidence": 0.84,
+      "notes": "候选人教育经历的共享主干；GT 教育本体对所有线路可用，ByteDance 仅对 GT coursework/projects 额外加权。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "candidate_context_bytedance_education_branch",
+      "confidence": 0.84,
+      "notes": "ByteDance 目标岗位对 Georgia Tech CS coursework/projects 的加权说明，不意味着 GT 教育主干只在 ByteDance 可用。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "candidate_context_shared_achievements",
+      "confidence": 0.84,
+      "notes": "候选人成就段的共享主干。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "candidate_context_bytedance_boundary",
+      "confidence": 0.84,
+      "notes": "ByteDance 特殊写作边界分支，明确禁止 TikTok / ByteDance intern；同时声明 GT 教育主干仍是共享材料。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "retarget_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的特殊公司约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "writer_jd_context",
+      "confidence": 0.84,
+      "notes": "由 build_master_writer_prompt 的 JD 输入段稳定模板化，已去掉 ExampleCorp 固定值。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "writer_plan_shared_intro",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享开头；后续经历规划按 generic/ByteDance 分支拼接。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "writer_plan_shared_didi_temu",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中 DiDi + Temu 的共享主体。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "writer_plan_shared_gt_coursework",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中所有线路共享的 Georgia Tech CS coursework/projects 规划块，ByteDance 场景仅进一步提升权重。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "writer_plan_shared_tail",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享结尾，包含 SKILLS 推导、项目规划、教育经历选择与 RESUME 输出外壳。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "planner_writer_context",
+      "confidence": 0.84,
+      "notes": "由 planner writer 实际运行时输入面稳定模板化，保留真实插槽与区块顺序。"
+    },
+    {
+      "group_id": "match_pipe::planner_write::writer::bytedance",
+      "block_id": "planner_writer_overlay",
+      "confidence": 0.84,
+      "notes": "planner-first 写作覆盖规则只在本地 runtime 中定义，无更上游共享 builder。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer",
+      "block_id": "reviewer_user",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer user prompt 拆成共享正文主干；ByteDance 相关 4 处句子与 JSON schema 已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer",
+      "block_id": "reviewer_context",
+      "confidence": 0.84,
+      "notes": "由 build_unified_review_prompt 的 JD/immutable 输入段稳定模板化；共享主干保留 JD 与不可变字段插槽，ByteDance 特殊审查要求拆到独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer",
+      "block_id": "reviewer_output_schema",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer prompt 拆出的输出 schema 与评分校准说明；属于结构说明附录，不应与自然语言正文同级编辑。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer::bytedance",
+      "block_id": "reviewer_user",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer user prompt 拆成共享正文主干；ByteDance 相关 4 处句子与 JSON schema 已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer::bytedance",
+      "block_id": "reviewer_user_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance reviewer 只保留 4 条分支句：R0/R1/R3/R5；共享 reviewer 主干不再复制整块正文。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer::bytedance",
+      "block_id": "reviewer_context",
+      "confidence": 0.84,
+      "notes": "由 build_unified_review_prompt 的 JD/immutable 输入段稳定模板化；共享主干保留 JD 与不可变字段插槽，ByteDance 特殊审查要求拆到独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer::bytedance",
+      "block_id": "reviewer_context_bytedance",
+      "confidence": 0.84,
+      "notes": "只保留 ByteDance reviewer 特有审查附加段，作为共享 reviewer context 之上的分支块。"
+    },
+    {
+      "group_id": "match_pipe::planner_direct_review::reviewer::bytedance",
+      "block_id": "reviewer_output_schema",
+      "confidence": 0.84,
+      "notes": "由真实 reviewer prompt 拆出的输出 schema 与评分校准说明；属于结构说明附录，不应与自然语言正文同级编辑。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "candidate_context_shared_experience",
+      "confidence": 0.84,
+      "notes": "候选人经历框架的共享经历主干，仅保留 Temu + DiDi 及总标题；TikTok 与 ByteDance 边界已拆成独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "candidate_context_generic_tiktok_branch",
+      "confidence": 0.84,
+      "notes": "通用目标岗位使用的 TikTok 经历分支；ByteDance 不再包含这段。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "candidate_context_shared_education",
+      "confidence": 0.84,
+      "notes": "候选人教育经历的共享主干；GT 教育本体对所有线路可用，ByteDance 仅对 GT coursework/projects 额外加权。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "candidate_context_shared_achievements",
+      "confidence": 0.84,
+      "notes": "候选人成就段的共享主干。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "writer_jd_context",
+      "confidence": 0.84,
+      "notes": "由 build_master_writer_prompt 的 JD 输入段稳定模板化，已去掉 ExampleCorp 固定值。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "writer_plan_shared_intro",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享开头；后续经历规划按 generic/ByteDance 分支拼接。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "writer_plan_generic_tiktok_branch",
+      "confidence": 0.84,
+      "notes": "通用 writer PLAN 中的 TikTok 技术分配分支。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "writer_plan_shared_didi_temu",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中 DiDi + Temu 的共享主体。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "writer_plan_shared_gt_coursework",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中所有线路共享的 Georgia Tech CS coursework/projects 规划块，ByteDance 场景仅进一步提升权重。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "writer_plan_shared_tail",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享结尾，包含 SKILLS 推导、项目规划、教育经历选择与 RESUME 输出外壳。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "format_constraints_branch",
+      "confidence": 0.84,
+      "notes": "通用格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 generic 部分。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "planner_revision_context",
+      "confidence": 0.84,
+      "notes": "由 planner revision 实际运行时插槽稳定模板化，直接对应 writer revision carry-over 结构。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer",
+      "block_id": "planner_revision_overlay",
+      "confidence": 0.84,
+      "notes": "planner-first revision 规则只在本地 runtime 中定义，无更上游 builder。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "candidate_context_shared_experience",
+      "confidence": 0.84,
+      "notes": "候选人经历框架的共享经历主干，仅保留 Temu + DiDi 及总标题；TikTok 与 ByteDance 边界已拆成独立分支块。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "candidate_context_shared_education",
+      "confidence": 0.84,
+      "notes": "候选人教育经历的共享主干；GT 教育本体对所有线路可用，ByteDance 仅对 GT coursework/projects 额外加权。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "candidate_context_bytedance_education_branch",
+      "confidence": 0.84,
+      "notes": "ByteDance 目标岗位对 Georgia Tech CS coursework/projects 的加权说明，不意味着 GT 教育主干只在 ByteDance 可用。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "candidate_context_shared_achievements",
+      "confidence": 0.84,
+      "notes": "候选人成就段的共享主干。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "candidate_context_bytedance_boundary",
+      "confidence": 0.84,
+      "notes": "ByteDance 特殊写作边界分支，明确禁止 TikTok / ByteDance intern；同时声明 GT 教育主干仍是共享材料。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "retarget_bytedance_special",
+      "confidence": 0.84,
+      "notes": "由真实 ByteDance retarget 的特殊公司约束段拆出。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "writer_jd_context",
+      "confidence": 0.84,
+      "notes": "由 build_master_writer_prompt 的 JD 输入段稳定模板化，已去掉 ExampleCorp 固定值。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "writer_plan_shared_intro",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享开头；后续经历规划按 generic/ByteDance 分支拼接。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "writer_plan_shared_didi_temu",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中 DiDi + Temu 的共享主体。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "writer_plan_shared_gt_coursework",
+      "confidence": 0.84,
+      "notes": "Writer PLAN 中所有线路共享的 Georgia Tech CS coursework/projects 规划块，ByteDance 场景仅进一步提升权重。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "writer_plan_shared_tail",
+      "confidence": 0.84,
+      "notes": "Writer PLAN/RESUME 骨架的共享结尾，包含 SKILLS 推导、项目规划、教育经历选择与 RESUME 输出外壳。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "format_constraints_shared_head",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享头部；Experience 顺序和后续不可变字段/Scope 分支已拆到独立块。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "format_constraints_branch_bytedance",
+      "confidence": 0.84,
+      "notes": "ByteDance 格式约束分支，承载 Experience 顺序、不可变字段和 Scope 规则中的 ByteDance 特殊部分。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "format_constraints_shared_mid",
+      "confidence": 0.84,
+      "notes": "格式硬约束在结构与具体分支规则之间的共享中段。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "format_constraints_shared_tail",
+      "confidence": 0.84,
+      "notes": "格式硬约束的共享尾部，包含数字合理性、围棋成就和 Achievements 规范。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "output_contract",
+      "confidence": 0.84,
+      "notes": "直接引用 core.prompt_builder.CANONICAL_OUTPUT_TEMPLATE。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "planner_revision_context",
+      "confidence": 0.84,
+      "notes": "由 planner revision 实际运行时插槽稳定模板化，直接对应 writer revision carry-over 结构。"
+    },
+    {
+      "group_id": "match_pipe::planner_revision::writer::bytedance",
+      "block_id": "planner_revision_overlay",
+      "confidence": 0.84,
+      "notes": "planner-first revision 规则只在本地 runtime 中定义，无更上游 builder。"
+    },
+    {
+      "group_id": "source_reference::inactive_builder::revision_writer",
+      "block_id": "source_reference::inactive_builder::revision_writer::user",
+      "confidence": 0.78,
+      "notes": "Inactive builder reference group, not an active orchestrator receiver."
+    },
+    {
+      "group_id": "source_reference::indirect_runtime::seed_retarget_writer",
+      "block_id": "source_reference::indirect_runtime::seed_retarget_writer::system",
+      "confidence": 0.74,
+      "notes": "Indirect runtime system prompt used by MasterWriter.revise(strict)."
+    },
+    {
+      "group_id": "source_reference::indirect_runtime::seed_retarget_writer",
+      "block_id": "source_reference::indirect_runtime::seed_retarget_writer::user",
+      "confidence": 0.74,
+      "notes": "Indirect runtime user prompt. Present for completeness and backfill planning."
+    },
+    {
+      "group_id": "source_reference::doc::prompt_canonical_review",
+      "block_id": "source_reference::doc::prompt_canonical_review::document",
+      "confidence": 0.7,
+      "notes": "Non-runtime prompt-bearing document included to guarantee project-level coverage."
+    },
+    {
+      "group_id": "source_reference::doc::match_pipe_prompt_review",
+      "block_id": "source_reference::doc::match_pipe_prompt_review::document",
+      "confidence": 0.7,
+      "notes": "Non-runtime prompt-bearing document included to guarantee project-level coverage."
+    },
+    {
+      "group_id": "source_reference::design_guide::task_general_prompt",
+      "block_id": "source_reference::design_guide::task_general_prompt::document",
+      "confidence": 0.68,
+      "notes": "Prompt-bearing design guide retained to keep project-wide coverage explicit."
+    },
+    {
+      "group_id": "source_reference::design_guide::execution_suggestions_prompt",
+      "block_id": "source_reference::design_guide::execution_suggestions_prompt::document",
+      "confidence": 0.68,
+      "notes": "Prompt-bearing design guide retained to keep project-wide coverage explicit."
+    },
+    {
+      "group_id": "source_reference::test_fixture::prompt_merge_equivalence",
+      "block_id": "source_reference::test_fixture::prompt_merge_equivalence::python_source",
+      "confidence": 0.64,
+      "notes": "Prompt-bearing test fixture included for auditability and round-trip search coverage."
+    }
+  ],
+  "duplicate_clusters": [
+    {
+      "duplicate_fingerprint": "sha256:0d681dde36339595c7b7a1a0ce05750d4fefc65bf9be3edb562c79a7ad78f26c",
+      "group_ids": [
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:119bc09b339d9f3f28aab74d419b5eda5ade20b024c9c2424e0aa33b2f805d65",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:14b991dca49c8dfa8d9dba36d6c7593679bbb2033e4a8fa91470c4c02a8752f4",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance",
+        "runtime_main::generate::writer",
+        "runtime_main::generate::writer::bytedance",
+        "runtime_main::upgrade_revision::writer",
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:14f21b216d6de36f13a070f1612df8f193edba6530429f8f82191e405576089a",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:1506d97114df6e7092c7dc32ac565203a1eb634247a895b2e961ba3d278d3709",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:19bec1f1f7383d76dca4fb95b62e310bd262e6e0bc34a4a9fde5e95db4e0a4ac",
+      "group_ids": [
+        "match_pipe::reviewer_followup::writer::bytedance",
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:1b4ae40e94ceb3c9a4c922ca0287d4858b95677dacfd00ef02ce6d0df64b1bcc",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:1f8e71e11ef41e9fe11adc744525075e740c709802980f87f60bf4c66f55d4f6",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:2875e44ed93b0f58c92643405642976f07d492c9cb89445296a8a51b10daf523",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:30d5e05992c319f0ed8c4f7889e18d9fd30d0b5f00160bef48adccf86e7aafe0",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:327cd80ff1df9922833a3e82720a88806c49c57e8df1b3794d6a4bd5dbdc0284",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:36b3f8e81ade309296262ae1cd37cc1a6d06a76499b231ab9078083189669e69",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:36cc7814de7b64dbaf164df6d5e8db97748fade4faffdceae0e1bf3710156074",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:39dea04a9f5b61eb92c64370875b3479d867e03856ad4fe3eed4277c9adb7f09",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:3c479ceb6daf62188b56560cc077bee33ae57c9cb4ec89e979278d7e57cb91e7",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:42b27545e6ab1f6c3b17388c23632bb23bd206494530f30a4719a884fcd56515",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:49b4a7ea95a6d91d8a0a4d09c2740e19a72151d3a4e5089b60b63a4edebd6e23",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "runtime_main::generate::writer",
+        "runtime_main::generate::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:4c656f6daf1e1180850994edb0b1c1fc99a8874b896d0beaf3afbe4a6fad6128",
+      "group_ids": [
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:53d153a521bf73c16a39c1ba42f605df228887148589f6dca3a8ba7b2a83aa26",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance",
+        "runtime_main::generate::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:639148fa47addca7921777bbe32a7deba3c33de876d63339a91856e1493339b7",
+      "group_ids": [
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance",
+        "runtime_main::upgrade_revision::writer",
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:68350a0c0f19fcb8d6935c30b0b31b1fdf3d7e21c87b36cc176866c49ff3e6fe",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:6e5be20e6c84d700af09bf08c6fea6fba07587dc8639e0667f70114b7cb59c63",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "source_reference::indirect_runtime::seed_retarget_writer"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:6e6b0ed4db05c7fafe573a4456a79f9d8dff64c8d561dd7cd6476268ba11a8b9",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer",
+        "runtime_seed_retarget::rewrite_writer::writer"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:7fb81092893af2d9932cbf4730d17724f0752830bee32fe6f8b380b5159472b3",
+      "group_ids": [
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:876266872c7cac3429703077309361577b211f98d6b88bf78688a507d5579907",
+      "group_ids": [
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance",
+        "runtime_main::upgrade_revision::writer",
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:8beca28f3b748c4c886debbd0ccc8e13aa1ca740ccb31f2a8f1213c1d00ae86d",
+      "group_ids": [
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:94074e88d5877554b415f55d4256d79c10f83ab801d17c25b13a65371e3ee506",
+      "group_ids": [
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:9695e1ffb6cd79fd52f6f5ca3355424c0677c7156a8f1b91b1969dc4722f72d7",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance",
+        "runtime_main::full_review::reviewer",
+        "runtime_main::full_review::reviewer::bytedance",
+        "runtime_seed_retarget::rewrite_review::reviewer",
+        "runtime_seed_retarget::rewrite_review::reviewer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:acf165cf2dad4e9f95fc80c075cf99cdbecb8774a54efafcc50b8245374bd934",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:adcb7076d3b0d57e95887c64b159804ab69dc298627f987f03ed0ff467b58281",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_write::writer"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:b5b09f24d545031238033cfca67bf0dc75ed98bdfdc0a096e2fc69715ed94e13",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:b9a284c15046090dc43726acccaf8aa861ba2a7f7633193286368d6753fe2a73",
+      "group_ids": [
+        "runtime_main::full_review::reviewer::bytedance",
+        "runtime_seed_retarget::rewrite_review::reviewer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:c209aada06d9c6856eea0acbfff8afb86e4ef77c824723f00c55b3967f2a7c73",
+      "group_ids": [
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:c802afef5097654b345eb4aa9070073499d46740889199f5752f816cfbddbf31",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:cc97766519e959897c14cbc3a6592b8002991639bf9e5784314c0ce0e05f5a5c",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:cfb20c9e3352eecf44874b4e158d52a1d78df6220980db00949852f6b5187284",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:d10e2536bfd2df41c439937338c679467880e167aa6d0bbf82c72c6b7e61563e",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:d14f2a521e8bbb48989567a25a5ca79f21aabb7649049c7bffb4dbcde88021ec",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:d8da48129975ea47ccd4125711dbb5fa1032e7e2fc5cbf672e5ff114a280abda",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:d9b5679647c520fb686785b2d4422dc4d5ed72fe82b52ac0a1920026abb7aff7",
+      "group_ids": [
+        "runtime_main::full_review::reviewer",
+        "runtime_seed_retarget::rewrite_review::reviewer"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:de46fc784a3fd7ca2c8338b88727ce1ddd91343878ac92e8d5eca004fe92fa7c",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_write::writer"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:e6e3d6ee5ba7466bf64496117e7981f80ced5895f71eef80749ec53ae0637a7b",
+      "group_ids": [
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:e89d30e73f263ecd4bfd0cd52afaaf2b11cb824cd453aa8c584ef5e0bb252304",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_write::writer",
+        "match_pipe::reviewer_followup::writer"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:ed030e441e82d63bcb803bd84bcfcf829f68a1f293c2124b6f9644f5fd9d4061",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "duplicate_fingerprint": "sha256:f70dee0815dcec17e7d4f55ec0e4f85b3efa202f54102d58d79dbd9495dceee0",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    }
+  ],
+  "mirrors": [
+    {
+      "block_id": "candidate_context_bytedance_boundary",
+      "group_ids": [
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "candidate_context_bytedance_education_branch",
+      "group_ids": [
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "candidate_context_generic_tiktok_branch",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_write::writer"
+      ]
+    },
+    {
+      "block_id": "candidate_context_shared_achievements",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "candidate_context_shared_education",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "candidate_context_shared_experience",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "dual_channel_overlay",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company"
+      ]
+    },
+    {
+      "block_id": "format_constraints_branch",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_write::writer",
+        "match_pipe::reviewer_followup::writer"
+      ]
+    },
+    {
+      "block_id": "format_constraints_branch_bytedance",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "format_constraints_shared_head",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "format_constraints_shared_mid",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "format_constraints_shared_tail",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "output_contract",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "planner_revision_context",
+      "group_ids": [
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "planner_revision_overlay",
+      "group_ids": [
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "planner_writer_context",
+      "group_ids": [
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "planner_writer_overlay",
+      "group_ids": [
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "retarget_bytedance_special",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "retarget_context",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "block_id": "retarget_project_pool",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "block_id": "retarget_prompt",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "block_id": "retarget_same_company",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "block_id": "retarget_same_company_bytedance",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company"
+      ]
+    },
+    {
+      "block_id": "reviewer_context",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "block_id": "reviewer_context_bytedance",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "block_id": "reviewer_output_schema",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "block_id": "reviewer_system",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "block_id": "reviewer_user",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer",
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "block_id": "reviewer_user_bytedance",
+      "group_ids": [
+        "match_pipe::planner_direct_review::reviewer::bytedance",
+        "match_pipe::reviewer::full::bytedance"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::bytedance::bytedance",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::bytedance::main",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::bytedance::output_contract",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::bytedance::resume_context",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::bytedance::system",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer::bytedance",
+        "runtime_seed_retarget::rewrite_writer::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::examplecorp::main",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer",
+        "runtime_seed_retarget::rewrite_writer::writer"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::examplecorp::output_contract",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer",
+        "runtime_seed_retarget::rewrite_writer::writer"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::examplecorp::resume_context",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer",
+        "runtime_seed_retarget::rewrite_writer::writer"
+      ]
+    },
+    {
+      "block_id": "standard_upgrade::examplecorp::system",
+      "group_ids": [
+        "runtime_main::upgrade_revision::writer",
+        "runtime_seed_retarget::rewrite_writer::writer"
+      ]
+    },
+    {
+      "block_id": "strict_revision_system",
+      "group_ids": [
+        "match_pipe::new_dual_channel::writer",
+        "match_pipe::new_dual_channel::writer::bytedance",
+        "match_pipe::new_dual_channel::writer::bytedance::same_company",
+        "match_pipe::new_dual_channel::writer::same_company",
+        "match_pipe::old_match_anchor::writer",
+        "match_pipe::old_match_anchor::writer::bytedance",
+        "match_pipe::old_match_anchor::writer::bytedance::same_company",
+        "match_pipe::old_match_anchor::writer::same_company"
+      ]
+    },
+    {
+      "block_id": "upgrade_context",
+      "group_ids": [
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "upgrade_prompt",
+      "group_ids": [
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "upgrade_revision_system",
+      "group_ids": [
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::reviewer_followup::writer",
+        "match_pipe::reviewer_followup::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "writer_jd_context",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "writer_plan_generic_tiktok_branch",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_write::writer"
+      ]
+    },
+    {
+      "block_id": "writer_plan_shared_didi_temu",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "writer_plan_shared_gt_coursework",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "writer_plan_shared_intro",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "writer_plan_shared_tail",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_revision::writer",
+        "match_pipe::planner_revision::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    },
+    {
+      "block_id": "writer_system",
+      "group_ids": [
+        "match_pipe::no_starter::writer",
+        "match_pipe::no_starter::writer::bytedance",
+        "match_pipe::planner_write::writer",
+        "match_pipe::planner_write::writer::bytedance"
+      ]
+    }
+  ],
+  "excluded_non_runtime": []
+}

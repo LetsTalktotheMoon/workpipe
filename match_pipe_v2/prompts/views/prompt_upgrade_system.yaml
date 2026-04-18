@@ -1,0 +1,8 @@
+view_id: prompt_upgrade_system
+title: Upgrade Revision System Prompt
+pipeline: match_pipe
+stage: reviewer 后续改写
+role: writer
+description: review 失败后的升级重写会走这段 system prompt。
+system_block: upgrade_revision_system
+user_blocks: []

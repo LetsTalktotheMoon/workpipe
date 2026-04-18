@@ -1,0 +1,19 @@
+dual_channel_overlay: |-
+  ## Dual-channel continuity note
+  - {{delta_summary_item}}
+  - {{continuity_anchor_if_available}}
+  - Use semantic anchor as the main skeleton. Apply company continuity only when it does not reintroduce hard gaps.
+planner_user: |-
+  请作为 Planner，基于以下信息做流程决策：目标模式、目标 JD、Matcher Packet、Starter Resume。
+
+  返回 JSON，schema 必须包含 decision、fit_label、reuse_ratio_estimate、already_covered、missing_or_weak、risk_flags、role_seniority_guidance、planner_summary、writer_plan、direct_review_rationale。
+
+  规则：no_starter 模式下 decision 只能是 write；starter 高度贴合且 scope/真实性风险低时可以 direct_review；starter 语义相近但仍需改写时选择 write；starter 虽相似但会明显误导 summary、ownership、项目骨架或 scope 时选择 reject_starter；不要把 matcher 的相似度直接等同于可写作适配度。
+planner_writer_overlay: Planner-first Rules：如果给了 starter resume，把它视为可复用参考骨架，而不是必须保留的模板；优先遵循
+  planner 对 coverage、missing、risk、role-seniority framing 的判断；如果 planner 指出了 scope
+  或真实性风险，必须主动改写 summary、ownership 和项目 framing；如果 planner 认为 starter 可高比例复用，可保留高价值证据，但仍以目标
+  JD 为准。
+planner_revision_overlay: Revision Rules：不要保留任何只是因为旧稿已经存在、但不再服务目标 JD 的 summary framing、ownership
+  framing 或 bullet 结构；如果 planner 指出了 starter 的 scope、真实性、角色定位或 seniority 风险，必须优先修正；如果
+  reviewer 指出了 JD 缺口，优先补正文证据，而不是删除 must-have 技术；允许重写 summary、skills 分组、bullet 取舍、project
+  baseline 和经历 framing，但不得破坏不可变字段与职业主线真实性；输出完整简历 Markdown，不要解释。

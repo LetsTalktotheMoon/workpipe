@@ -1,0 +1,194 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:08:34",
+  "completed_at": "2026-04-17T22:09:33",
+  "duration_seconds": 59.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句以“Transitioning from data analysis to software engineering”开场，首屏先传递转向状态，而不是直接给出当前目标角色和领域锚点，削弱了 SRE/backend 画像。",
+          "fix": "把首句改成直接的角色方向+领域信号，例如“Security-focused backend/SRE engineer with 3+ years building Python/Java/Go services and platform tooling”；将“transitioning”移到后半句或删掉。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary / top of Experience",
+          "issue": "简历叙事能说明你做过 security、platform ops 和内部工具，但没有把这些经历明确桥接到 Fireblocks 这类“secure digital assets / blockchain infrastructure”场景，HR 需要额外猜测迁移逻辑。",
+          "fix": "补一条桥接句，明确你做的是 security-sensitive、高完整性、强审计/强发布控制的基础设施或内部系统；把这种经验和目标岗位的安全平台职责直接连起来。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "最新且最相关的经历几乎全部用百分比改善讲结果，没有 Tier 1 规模/范围信号；对 senior SRE 来说，更像局部优化清单，而不是平台级影响。",
+          "fix": "保留百分比结果的同时，至少补一条规模/ownership 信息，例如覆盖多少内部用户、多少服务、多少告警、多少每周发布、多少工作流或多少团队；用一个明确的 scope bullet 抬高首屏可信度。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 第一条改成直接的 SRE/backend/security 角色锚点，删除或后移“transitioning from data analysis”的叙事。",
+      "[MUST] 增加一条明确桥接 Fireblocks 目标场景的句子，说明你做的是 security-sensitive / high-integrity infra、审计化发布或 incident response，而不是泛化的后台开发。",
+      "[MUST] 在 TikTok 段补一个 Tier 1 规模或 ownership 信号，避免整段只剩百分比优化。",
+      "[SHOULD] 如果 DiDi / Temu 里有真实 scope 数据，也用同样方式补一条，增强 senior SRE 的平台深度。"
+    ],
+    "revision_instructions": "[MUST] Rewrite Professional Summary sentence 1 to lead with the target role, not the transition. Example: “Security-focused backend/SRE engineer with 3+ years building Python/Java/Go services and platform tooling...” Move or remove “transitioning from data analysis.” [MUST] Add one explicit bridge to Fireblocks’ secure digital-asset environment in Summary or the first relevant bullet, using truthful language about security-sensitive infra, access-controlled tooling, release hardening, or incident response. [MUST] Replace one percentage-only TikTok bullet with a scope/ownership bullet that states who or what was impacted (services, internal users, alerts, releases, or workflows). [SHOULD] If you have concrete scope numbers for DiDi/Temu, add one more Tier 1-style signal there as well.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 9.5,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.6,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 第一条改成直接的 SRE/backend/security 角色锚点，删除或后移“transitioning from data analysis”的叙事。",
+      "[MUST] 增加一条明确桥接 Fireblocks 目标场景的句子，说明你做的是 security-sensitive / high-integrity infra、审计化发布或 incident response，而不是泛化的后台开发。",
+      "[MUST] 在 TikTok 段补一个 Tier 1 规模或 ownership 信号，避免整段只剩百分比优化。",
+      "[SHOULD] 如果 DiDi / Temu 里有真实 scope 数据，也用同样方式补一条，增强 senior SRE 的平台深度。"
+    ],
+    "revision_instructions": "[MUST] Rewrite Professional Summary sentence 1 to lead with the target role, not the transition. Example: “Security-focused backend/SRE engineer with 3+ years building Python/Java/Go services and platform tooling...” Move or remove “transitioning from data analysis.” [MUST] Add one explicit bridge to Fireblocks’ secure digital-asset environment in Summary or the first relevant bullet, using truthful language about security-sensitive infra, access-controlled tooling, release hardening, or incident response. [MUST] Replace one percentage-only TikTok bullet with a scope/ownership bullet that states who or what was impacted (services, internal users, alerts, releases, or workflows). [SHOULD] If you have concrete scope numbers for DiDi/Temu, add one more Tier 1-style signal there as well.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“Transitioning from data analysis to software engineering”开场，首屏先传递转向状态，而不是直接给出当前目标角色和领域锚点，削弱了 SRE/backend 画像。",
+            "fix": "把首句改成直接的角色方向+领域信号，例如“Security-focused backend/SRE engineer with 3+ years building Python/Java/Go services and platform tooling”；将“transitioning”移到后半句或删掉。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary / top of Experience",
+            "issue": "简历叙事能说明你做过 security、platform ops 和内部工具，但没有把这些经历明确桥接到 Fireblocks 这类“secure digital assets / blockchain infrastructure”场景，HR 需要额外猜测迁移逻辑。",
+            "fix": "补一条桥接句，明确你做的是 security-sensitive、高完整性、强审计/强发布控制的基础设施或内部系统；把这种经验和目标岗位的安全平台职责直接连起来。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "最新且最相关的经历几乎全部用百分比改善讲结果，没有 Tier 1 规模/范围信号；对 senior SRE 来说，更像局部优化清单，而不是平台级影响。",
+            "fix": "保留百分比结果的同时，至少补一条规模/ownership 信息，例如覆盖多少内部用户、多少服务、多少告警、多少每周发布、多少工作流或多少团队；用一个明确的 scope bullet 抬高首屏可信度。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 Summary 第一条改成直接的 SRE/backend/security 角色锚点，删除或后移“transitioning from data analysis”的叙事。",
+        "[MUST] 增加一条明确桥接 Fireblocks 目标场景的句子，说明你做的是 security-sensitive / high-integrity infra、审计化发布或 incident response，而不是泛化的后台开发。",
+        "[MUST] 在 TikTok 段补一个 Tier 1 规模或 ownership 信号，避免整段只剩百分比优化。",
+        "[SHOULD] 如果 DiDi / Temu 里有真实 scope 数据，也用同样方式补一条，增强 senior SRE 的平台深度。"
+      ],
+      "revision_instructions": "[MUST] Rewrite Professional Summary sentence 1 to lead with the target role, not the transition. Example: “Security-focused backend/SRE engineer with 3+ years building Python/Java/Go services and platform tooling...” Move or remove “transitioning from data analysis.” [MUST] Add one explicit bridge to Fireblocks’ secure digital-asset environment in Summary or the first relevant bullet, using truthful language about security-sensitive infra, access-controlled tooling, release hardening, or incident response. [MUST] Replace one percentage-only TikTok bullet with a scope/ownership bullet that states who or what was impacted (services, internal users, alerts, releases, or workflows). [SHOULD] If you have concrete scope numbers for DiDi/Temu, add one more Tier 1-style signal there as well.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary / top of Experience",
+          "issue": "简历叙事能说明你做过 security、platform ops 和内部工具，但没有把这些经历明确桥接到 Fireblocks 这类“secure digital assets / blockchain infrastructure”场景，HR 需要额外猜测迁移逻辑。",
+          "fix": "补一条桥接句，明确你做的是 security-sensitive、高完整性、强审计/强发布控制的基础设施或内部系统；把这种经验和目标岗位的安全平台职责直接连起来。"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句以“Transitioning from data analysis to software engineering”开场，首屏先传递转向状态，而不是直接给出当前目标角色和领域锚点，削弱了 SRE/backend 画像。",
+          "fix": "把首句改成直接的角色方向+领域信号，例如“Security-focused backend/SRE engineer with 3+ years building Python/Java/Go services and platform tooling”；将“transitioning”移到后半句或删掉。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security experience",
+          "issue": "最新且最相关的经历几乎全部用百分比改善讲结果，没有 Tier 1 规模/范围信号；对 senior SRE 来说，更像局部优化清单，而不是平台级影响。",
+          "fix": "保留百分比结果的同时，至少补一条规模/ownership 信息，例如覆盖多少内部用户、多少服务、多少告警、多少每周发布、多少工作流或多少团队；用一个明确的 scope bullet 抬高首屏可信度。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-003",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3B-003",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Professional Summary / Experience bullets",
+        "issue": "Key quantitative claims and scope tokens are left unbolded outside Skills, so the strongest scan signals are less visually salient than the spec expects.",
+        "fix": "Bold the most important numbers and scope markers in the Summary and Experience sections, especially the first bullet of each role and the main outcome metrics such as time reductions, percentages, team size, and release-rate claims."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The opening frames the candidate as a transitioning profile from analytics, which is lower-signal than a direct role-and-domain headline for a 6-8 second ATS scan.",
+        "fix": "Rewrite the first sentence to lead with the target role family and domain, such as a security/backend or Linux/networking-focused headline, and keep the transition story subordinate."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Cisco fit / TikTok Intern experience",
+        "issue": "This is a specialized networking technologies role, but the resume only shows adjacent backend/security/data-flow work and generic network-protocol validation language; it does not show direct IOS-XR, TCP/IP, router/switch, NPU, or kernel-module validation ownership.",
+        "fix": "Add one concrete bullet in the most relevant experience that names the actual networking substrate work you did, if true, such as Linux kernel-module validation, TCP/IP/router/switch/NPU debugging, MACsec, GDB/Valgrind, or fabric/datapath work; otherwise this remains a [结构性错配] for the JD.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok Intern experience",
+        "issue": "The same internship presents four active programming languages (Go, Java, C++, Python) as primary work-stack evidence, which reads like stack piling for a single intern scope.",
+        "fix": "Collapse the language story so one language is clearly primary and the others are supporting tools or validation languages; keep the breadth, but reduce the impression that all four were equally core."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rewrite the Summary opening to lead with a direct role/domain headline instead of 'transitioning from analytics'.",
+    "[MUST] Add direct networking-substrate evidence to the most relevant experience if true; otherwise accept that this is a structural mismatch for Cisco Networking Technologies.",
+    "[MUST] Reduce the appearance of four-primary-language pile-up in the TikTok internship by making one language primary and the rest supporting.",
+    "[SHOULD] Bold the most important numbers and scope tokens in Summary and Experience for faster scanability."
+  ],
+  "revision_instructions": "[结构性错配] 先改首屏叙事：把 Summary 第一条从“transitioning from analytics”改成更直接的角色+领域锚点，例如 security/backend 或 Linux/networking-focused engineer；第二步在 TikTok 最相关 bullet 中补出真实的 networking substrate 证据（TCP/IP、router/switch/NPU、Linux kernel-module validation、MACsec、GDB/Valgrind、fabric/datapath 等，只有真实做过才写），否则这份简历对 Cisco Networking Technologies 仍是结构性不匹配；第三步收敛 TikTok internship 的语言堆叠，把 Go/Java/C++/Python 里 1 个定为主语言，其余写成受限的支持性实现或验证工具；最后把最关键的数字和 scope（如 11->4 minutes、24%、13-person、20+ city、98.7%）加粗，提高首屏扫描效率。"
+}

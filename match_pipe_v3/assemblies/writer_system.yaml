@@ -1,0 +1,4 @@
+name: writer_system
+sections:
+  - part: writer_system
+join: "\n\n"

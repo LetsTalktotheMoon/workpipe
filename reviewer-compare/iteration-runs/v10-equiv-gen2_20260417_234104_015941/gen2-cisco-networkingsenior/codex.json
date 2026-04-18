@@ -1,0 +1,249 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:49:30",
+  "completed_at": "2026-04-17T23:51:10",
+  "duration_seconds": 100.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets and project bullets",
+          "issue": "Key scope/result numbers are left in plain text, so the eye does not land on the strongest evidence quickly enough. Examples include 11 minutes to 4 minutes, 24%, 98.7%, 31%, 13-person, 20+ city, 140+ weekly users, and 7 hours per week.",
+          "fix": "Bold the highest-value metric or scope tokens inside each bullet, especially the before/after numbers and team/user scale markers."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok project baseline; DiDi project baseline",
+          "issue": "Modifier language is being bolded, which the style rule explicitly discourages. `team-maintained` is emphasized in the project background lines.",
+          "fix": "Remove bold from modifiers and keep emphasis on technical nouns, ownership nouns, and measurable results."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening frames the candidate as transitioning from analytics instead of leading with the target role/domain, which weakens first-scan clarity.",
+          "fix": "Rewrite the first sentence to open with a role-led headline such as backend or systems-focused engineering, then mention the analytics background as supporting context."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary; TikTok Software Engineer Intern section",
+          "issue": "Cisco is a specialized networking-technologies role, but the resume only shows adjacent backend/security/data work plus generic networking-adjacent validation language. It does not yet show direct IOS-XR, router/switch, TCP/IP, NPU, or kernel-module ownership evidence.",
+          "fix": "Add one bullet in the most relevant experience that states the actual networking substrate owned, the protocol or validation surface, and the concrete outcome; if that work did not happen, this is a structural mismatch for the target JD.",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Software Engineer Intern section",
+          "issue": "The latest experience is almost entirely tier-2 impact language: time reduction, false-positive reduction, rollback rate, and validation-time reduction. There is no tier-1 scope marker to carry senior networking credibility.",
+          "fix": "If true, add one tier-1 scope signal such as service/event volume, test-surface size, ownership breadth, or team/system scale; otherwise compress one of the percentage claims and foreground the system boundary."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Recast the opening Summary as role-led and domain-led, not transition-led.",
+      "[MUST] Surface direct networking-substrate evidence in the TikTok section, or treat this Cisco role as a structural mismatch.",
+      "[SHOULD] Add one concrete scope/ownership metric to the TikTok internship section if it is true.",
+      "[NICE] Tighten emphasis rules by bolding key metrics and removing bold from modifiers like team-maintained."
+    ],
+    "revision_instructions": "[结构性错配] If the networking work is real, rewrite the strongest TikTok bullet to name the actual Linux/networking substrate owned (protocol path, kernel-module validation, router/switch/NPU-facing checks, or IOS-XR/fabric if applicable) and the concrete validation outcome. Rewrite the Summary opening to lead with the target role/domain instead of \"transitioning from analytics.\" Add one tier-1 scope metric in the TikTok section if true. Remove bold from modifiers like team-maintained and reserve bold for technical nouns and key metrics.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 90.4,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Recast the opening Summary as role-led and domain-led, not transition-led.",
+      "[MUST] Surface direct networking-substrate evidence in the TikTok section, or treat this Cisco role as a structural mismatch.",
+      "[SHOULD] Add one concrete scope/ownership metric to the TikTok internship section if it is true.",
+      "[NICE] Tighten emphasis rules by bolding key metrics and removing bold from modifiers like team-maintained."
+    ],
+    "revision_instructions": "[结构性错配] If the networking work is real, rewrite the strongest TikTok bullet to name the actual Linux/networking substrate owned (protocol path, kernel-module validation, router/switch/NPU-facing checks, or IOS-XR/fabric if applicable) and the concrete validation outcome. Rewrite the Summary opening to lead with the target role/domain instead of \"transitioning from analytics.\" Add one tier-1 scope metric in the TikTok section if true. Remove bold from modifiers like team-maintained and reserve bold for technical nouns and key metrics.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets and project bullets",
+            "issue": "Key scope/result numbers are left in plain text, so the eye does not land on the strongest evidence quickly enough. Examples include 11 minutes to 4 minutes, 24%, 98.7%, 31%, 13-person, 20+ city, 140+ weekly users, and 7 hours per week.",
+            "fix": "Bold the highest-value metric or scope tokens inside each bullet, especially the before/after numbers and team/user scale markers."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok project baseline; DiDi project baseline",
+            "issue": "Modifier language is being bolded, which the style rule explicitly discourages. `team-maintained` is emphasized in the project background lines.",
+            "fix": "Remove bold from modifiers and keep emphasis on technical nouns, ownership nouns, and measurable results."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening frames the candidate as transitioning from analytics instead of leading with the target role/domain, which weakens first-scan clarity.",
+            "fix": "Rewrite the first sentence to open with a role-led headline such as backend or systems-focused engineering, then mention the analytics background as supporting context."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary; TikTok Software Engineer Intern section",
+            "issue": "Cisco is a specialized networking-technologies role, but the resume only shows adjacent backend/security/data work plus generic networking-adjacent validation language. It does not yet show direct IOS-XR, router/switch, TCP/IP, NPU, or kernel-module ownership evidence.",
+            "fix": "Add one bullet in the most relevant experience that states the actual networking substrate owned, the protocol or validation surface, and the concrete outcome; if that work did not happen, this is a structural mismatch for the target JD.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Software Engineer Intern section",
+            "issue": "The latest experience is almost entirely tier-2 impact language: time reduction, false-positive reduction, rollback rate, and validation-time reduction. There is no tier-1 scope marker to carry senior networking credibility.",
+            "fix": "If true, add one tier-1 scope signal such as service/event volume, test-surface size, ownership breadth, or team/system scale; otherwise compress one of the percentage claims and foreground the system boundary."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Recast the opening Summary as role-led and domain-led, not transition-led.",
+        "[MUST] Surface direct networking-substrate evidence in the TikTok section, or treat this Cisco role as a structural mismatch.",
+        "[SHOULD] Add one concrete scope/ownership metric to the TikTok internship section if it is true.",
+        "[NICE] Tighten emphasis rules by bolding key metrics and removing bold from modifiers like team-maintained."
+      ],
+      "revision_instructions": "[结构性错配] If the networking work is real, rewrite the strongest TikTok bullet to name the actual Linux/networking substrate owned (protocol path, kernel-module validation, router/switch/NPU-facing checks, or IOS-XR/fabric if applicable) and the concrete validation outcome. Rewrite the Summary opening to lead with the target role/domain instead of \"transitioning from analytics.\" Add one tier-1 scope metric in the TikTok section if true. Remove bold from modifiers like team-maintained and reserve bold for technical nouns and key metrics.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets and project bullets",
+          "issue": "Key scope/result numbers are left in plain text, so the eye does not land on the strongest evidence quickly enough. Examples include 11 minutes to 4 minutes, 24%, 98.7%, 31%, 13-person, 20+ city, 140+ weekly users, and 7 hours per week.",
+          "fix": "Bold the highest-value metric or scope tokens inside each bullet, especially the before/after numbers and team/user scale markers."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok project baseline; DiDi project baseline",
+          "issue": "Modifier language is being bolded, which the style rule explicitly discourages. `team-maintained` is emphasized in the project background lines.",
+          "fix": "Remove bold from modifiers and keep emphasis on technical nouns, ownership nouns, and measurable results."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary; TikTok Software Engineer Intern section",
+          "issue": "Cisco is a specialized networking-technologies role, but the resume only shows adjacent backend/security/data work plus generic networking-adjacent validation language. It does not yet show direct IOS-XR, router/switch, TCP/IP, NPU, or kernel-module ownership evidence.",
+          "fix": "Add one bullet in the most relevant experience that states the actual networking substrate owned, the protocol or validation surface, and the concrete outcome; if that work did not happen, this is a structural mismatch for the target JD.",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening frames the candidate as transitioning from analytics instead of leading with the target role/domain, which weakens first-scan clarity.",
+          "fix": "Rewrite the first sentence to open with a role-led headline such as backend or systems-focused engineering, then mention the analytics background as supporting context."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Software Engineer Intern section",
+          "issue": "The latest experience is almost entirely tier-2 impact language: time reduction, false-positive reduction, rollback rate, and validation-time reduction. There is no tier-1 scope marker to carry senior networking credibility.",
+          "fix": "If true, add one tier-1 scope signal such as service/event volume, test-surface size, ownership breadth, or team/system scale; otherwise compress one of the percentage claims and foreground the system boundary."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-040",
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-012",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P1-042",
+      "P2-001",
+      "P3B-012",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-012 @ Professional Summary; TikTok Software Engineer Intern section"
+    ]
+  }
+}

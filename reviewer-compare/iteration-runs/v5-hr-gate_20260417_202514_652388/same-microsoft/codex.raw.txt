@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "Opening framing leads with a transition story ('transitioning from data analytics to backend engineering') before the backend/distributed-systems signal, which weakens the first-read positioning.",
+        "fix": "Rewrite the first sentence to open with the target role and domain, e.g. 'Backend engineer building distributed systems...', and move the transition narrative later if you keep it at all."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Professional Summary / Skills / TikTok Experience",
+        "issue": "The resume presents Python, Java, C#, C++, JavaScript, Go, SQL, and multiple cloud/data tools as if they are all primary stacks. That breadth reads as stack stuffing unless the hierarchy is tightened.",
+        "fix": "Keep C++ and the 2-3 most role-relevant supporting technologies in the headline sections; push the rest into the specific bullets where they are actually used."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience, bullets 1-5",
+        "issue": "The latest/relevant section is dominated by percentage/time improvements, with no clear service scale or throughput anchor, so the impact reads smaller than a Microsoft backend role usually expects.",
+        "fix": "Add one concrete tier-1 scope metric where true: alerts/day, reviewer volume, request rate, latency/SLA, or service size. If unavailable, tighten the wording to show ownership boundary more explicitly."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rewrite the first Summary sentence to lead with backend/distributed-systems positioning, not the transition story.",
+    "[MUST] Narrow the headline stack claim so the resume does not read as 6+ languages of primary expertise.",
+    "[SHOULD] Add a tier-1 scope/scale metric to the TikTok section.",
+    "[NICE] Keep the rest of the experience bullets as proof points; do not touch immutable titles, dates, or locations."
+  ],
+  "revision_instructions": "[MUST] Rewrite the first Summary sentence as a backend/distributed-systems opening and move 'transitioning from data analytics' out of the lead. [MUST] Collapse the top-line stack signal to C++ plus the 2-3 most relevant supporting technologies for Azure Storage; keep the other languages only inside the bullets where they are actually used. [SHOULD] Add one tier-1 scope metric in TikTok (throughput, reviewer volume, latency, or service size) to balance the current percent-only impact framing."
+}

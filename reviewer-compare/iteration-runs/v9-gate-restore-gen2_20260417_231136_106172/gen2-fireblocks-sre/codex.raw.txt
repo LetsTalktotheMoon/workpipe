@@ -1,0 +1,38 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "Opening with \"Transitioning from data analysis to software engineering\" makes the first screen read like a pivot story before it reads like an SRE/back-end hireable profile.",
+        "fix": "Reframe the first clause to lead with the target role identity and core infra stack, e.g. \"Reliability-focused backend/SRE engineer with 3+ years building Python, Java, and Go services...\" and move the transition context later or remove it."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-013",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Skills / DiDi and TikTok experience",
+        "issue": "The JD explicitly calls out configuration management / GitOps tools such as Ansible, Chef, Puppet, or ArgoCD, but the resume shows adjacent release and deployment work without naming any config-management tool. That leaves a small but real delivery-tooling gap for an SRE screen.",
+        "fix": "Add one bullet in the most relevant infra-heavy role that names the actual deployment/config tool used, such as an ArgoCD rollout, Ansible-driven config automation, or equivalent GitOps workflow, and tie it to the availability or release outcome."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rewrite the Summary opening so it leads with \"Reliability-focused backend/SRE engineer\" instead of the transition narrative.",
+    "[SHOULD] Add explicit config-management / GitOps evidence (ArgoCD or Ansible equivalent) in the most relevant infra-heavy experience bullet.",
+    "[SHOULD] If true, add one concrete reliability scale anchor to the newest experience so the SRE story reads as operating at material scope, not only local optimization."
+  ],
+  "revision_instructions": ""
+}

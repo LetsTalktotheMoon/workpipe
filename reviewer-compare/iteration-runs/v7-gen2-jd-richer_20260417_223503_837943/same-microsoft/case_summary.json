@@ -1,0 +1,415 @@
+{
+  "label": "same/Microsoft",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293",
+  "historical": {},
+  "metadata": {
+    "label": "same/Microsoft",
+    "company": "Microsoft",
+    "title": "Software Engineer II - Azure Storage",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Microsoft is building a massively scalable cloud storage solution, Azure Storage, and is looking for a Software Engineer II to join their team",
+    "tech_required": [
+      "C++",
+      "Distributed Systems"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 94.4,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": true,
+      "revision_priority": [
+        "在 `## Skills` 里补上 `Distributed Systems`，并在 Summary 或 TikTok 至少一条 bullet 里保留同义的分布式服务证据。",
+        "收紧加粗规则：去掉限定词加粗，修正 `**2 release** cycles` 这类断裂写法，只保留技术名词和数字加粗。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 8.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.8,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.4,
+      "verdict": "pass",
+      "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+      "route_mode": "retarget",
+      "revised": false
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:38:24",
+    "completed_at": "2026-04-17T22:39:39",
+    "duration_seconds": 75.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary / TikTok experience bullets / DiDi experience bullets",
+            "issue": "Modifier words are being bolded in正文, e.g. `team-maintained` and `existing`, which violates the rule that bold should be reserved for technologies and key scope/scale signals outside Skills.",
+            "fix": "Remove bold from adjectives and qualifiers; keep bold only on technologies, metrics, and true scope signals."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The first sentence leads with a transition story from data analytics to backend engineering, which weakens the first-screen role signal for a backend/storage role.",
+            "fix": "Start the Summary with a direct backend/distributed identity and move the transition note later in the sentence or to a later sentence."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills section",
+            "issue": "The JD's must-have `Distributed Systems` signal is only expressed narratively in Summary/body, not as an explicit Skills token, so ATS coverage is weaker than it should be.",
+            "fix": "Add the exact `Distributed Systems` token to Skills and keep the body evidence in the distributed-service bullets."
+          },
+          {
+            "rule_id": "P3B-002",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "TikTok experience / latest backend evidence",
+            "issue": "The JD requires 2+ years of on-call experience, but the resume only says the work was documented for on-call investigators; it does not show the candidate actually owning pager duty, DRI shifts, or incident response.",
+            "fix": "If accurate, add one bullet showing actual on-call ownership, incident triage, rollback approval, or degradation response."
+          },
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall fit for Microsoft Azure Storage",
+            "issue": "Azure Storage is a specialized storage-substrate role, but the resume mainly shows adjacent backend, security, and data-platform work without direct storage-path, replication, durability, consistency, or data-plane ownership evidence.",
+            "fix": "If true, add one concrete bullet in the most relevant backend/security role showing storage-system ownership; otherwise this application is structurally better matched to broader distributed backend roles.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok internship + Skills sections",
+            "issue": "The resume presents too many primary stacks at once: multiple programming languages, cloud/platform tools, and AI/ML tooling are all framed as hands-on core work, which reads like breadth inflation.",
+            "fix": "Concentrate each role on 2-3 core stacks that were truly central, and move the rest into supporting-context phrasing."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Software Engineer Intern section",
+            "issue": "The latest/relevant experience relies almost entirely on percentage/productivity lifts and lacks a concrete scale or operating-scope anchor, so the quantitative signal is weaker than it could be.",
+            "fix": "Add one concrete scale metric such as QPS, queue volume, service count, incident volume, or on-call coverage, or make the system boundary more explicit."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Make the Azure Storage fit explicit by adding direct distributed-systems and storage-substrate evidence in the most relevant backend/security bullet; if that ownership does not exist, this is a structural mismatch for the role.",
+        "[MUST] Add explicit on-call / DRI ownership if true, because the JD requires it and the current wording only implies support for investigators, not shift ownership.",
+        "[MUST] Reduce the TikTok section to the 2-3 core stacks that were actually central so it does not read like breadth inflation.",
+        "[SHOULD] Lead the Summary with backend/distributed identity instead of the transition story, and add one concrete scale metric to the latest experience."
+      ],
+      "revision_instructions": "[结构性错配] If you are truly targeting Azure Storage, add one concrete bullet showing storage-path ownership or reliability work such as replication, durability, partitioning, consistency, or incident recovery. Add the exact `Distributed Systems` token to Skills and one explicit on-call/DRI bullet if you owned shifts. Trim the TikTok internship to 2-3 core stacks per bullet and move the transition note out of the first Summary sentence so the first screen reads backend/distributed first. If storage-domain evidence is not real, this resume is better matched to broader distributed backend/security roles.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 4.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 78.5,
+      "critical_count": 0,
+      "high_count": 4,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Make the Azure Storage fit explicit by adding direct distributed-systems and storage-substrate evidence in the most relevant backend/security bullet; if that ownership does not exist, this is a structural mismatch for the role.",
+        "[MUST] Add explicit on-call / DRI ownership if true, because the JD requires it and the current wording only implies support for investigators, not shift ownership.",
+        "[MUST] Reduce the TikTok section to the 2-3 core stacks that were actually central so it does not read like breadth inflation.",
+        "[SHOULD] Lead the Summary with backend/distributed identity instead of the transition story, and add one concrete scale metric to the latest experience."
+      ],
+      "revision_instructions": "[结构性错配] If you are truly targeting Azure Storage, add one concrete bullet showing storage-path ownership or reliability work such as replication, durability, partitioning, consistency, or incident recovery. Add the exact `Distributed Systems` token to Skills and one explicit on-call/DRI bullet if you owned shifts. Trim the TikTok internship to 2-3 core stacks per bullet and move the transition note out of the first Summary sentence so the first screen reads backend/distributed first. If storage-domain evidence is not real, this resume is better matched to broader distributed backend/security roles.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Summary / TikTok experience bullets / DiDi experience bullets",
+              "issue": "Modifier words are being bolded in正文, e.g. `team-maintained` and `existing`, which violates the rule that bold should be reserved for technologies and key scope/scale signals outside Skills.",
+              "fix": "Remove bold from adjectives and qualifiers; keep bold only on technologies, metrics, and true scope signals."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "The first sentence leads with a transition story from data analytics to backend engineering, which weakens the first-screen role signal for a backend/storage role.",
+              "fix": "Start the Summary with a direct backend/distributed identity and move the transition note later in the sentence or to a later sentence."
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-001",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Skills section",
+              "issue": "The JD's must-have `Distributed Systems` signal is only expressed narratively in Summary/body, not as an explicit Skills token, so ATS coverage is weaker than it should be.",
+              "fix": "Add the exact `Distributed Systems` token to Skills and keep the body evidence in the distributed-service bullets."
+            },
+            {
+              "rule_id": "P3B-002",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "TikTok experience / latest backend evidence",
+              "issue": "The JD requires 2+ years of on-call experience, but the resume only says the work was documented for on-call investigators; it does not show the candidate actually owning pager duty, DRI shifts, or incident response.",
+              "fix": "If accurate, add one bullet showing actual on-call ownership, incident triage, rollback approval, or degradation response."
+            },
+            {
+              "rule_id": "P3B-012",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Overall fit for Microsoft Azure Storage",
+              "issue": "Azure Storage is a specialized storage-substrate role, but the resume mainly shows adjacent backend, security, and data-platform work without direct storage-path, replication, durability, consistency, or data-plane ownership evidence.",
+              "fix": "If true, add one concrete bullet in the most relevant backend/security role showing storage-system ownership; otherwise this application is structurally better matched to broader distributed backend roles.",
+              "note": "[结构性错配]"
+            },
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "TikTok internship + Skills sections",
+              "issue": "The resume presents too many primary stacks at once: multiple programming languages, cloud/platform tools, and AI/ML tooling are all framed as hands-on core work, which reads like breadth inflation.",
+              "fix": "Concentrate each role on 2-3 core stacks that were truly central, and move the rest into supporting-context phrasing."
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Software Engineer Intern section",
+              "issue": "The latest/relevant experience relies almost entirely on percentage/productivity lifts and lacks a concrete scale or operating-scope anchor, so the quantitative signal is weaker than it could be.",
+              "fix": "Add one concrete scale metric such as QPS, queue volume, service count, incident volume, or on-call coverage, or make the system boundary more explicit."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Make the Azure Storage fit explicit by adding direct distributed-systems and storage-substrate evidence in the most relevant backend/security bullet; if that ownership does not exist, this is a structural mismatch for the role.",
+          "[MUST] Add explicit on-call / DRI ownership if true, because the JD requires it and the current wording only implies support for investigators, not shift ownership.",
+          "[MUST] Reduce the TikTok section to the 2-3 core stacks that were actually central so it does not read like breadth inflation.",
+          "[SHOULD] Lead the Summary with backend/distributed identity instead of the transition story, and add one concrete scale metric to the latest experience."
+        ],
+        "revision_instructions": "[结构性错配] If you are truly targeting Azure Storage, add one concrete bullet showing storage-path ownership or reliability work such as replication, durability, partitioning, consistency, or incident recovery. Add the exact `Distributed Systems` token to Skills and one explicit on-call/DRI bullet if you owned shifts. Trim the TikTok internship to 2-3 core stacks per bullet and move the transition note out of the first Summary sentence so the first screen reads backend/distributed first. If storage-domain evidence is not real, this resume is better matched to broader distributed backend/security roles.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary / TikTok experience bullets / DiDi experience bullets",
+            "issue": "Modifier words are being bolded in正文, e.g. `team-maintained` and `existing`, which violates the rule that bold should be reserved for technologies and key scope/scale signals outside Skills.",
+            "fix": "Remove bold from adjectives and qualifiers; keep bold only on technologies, metrics, and true scope signals."
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills section",
+            "issue": "The JD's must-have `Distributed Systems` signal is only expressed narratively in Summary/body, not as an explicit Skills token, so ATS coverage is weaker than it should be.",
+            "fix": "Add the exact `Distributed Systems` token to Skills and keep the body evidence in the distributed-service bullets."
+          },
+          {
+            "rule_id": "P3B-002",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "TikTok experience / latest backend evidence",
+            "issue": "The JD requires 2+ years of on-call experience, but the resume only says the work was documented for on-call investigators; it does not show the candidate actually owning pager duty, DRI shifts, or incident response.",
+            "fix": "If accurate, add one bullet showing actual on-call ownership, incident triage, rollback approval, or degradation response."
+          },
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall fit for Microsoft Azure Storage",
+            "issue": "Azure Storage is a specialized storage-substrate role, but the resume mainly shows adjacent backend, security, and data-platform work without direct storage-path, replication, durability, consistency, or data-plane ownership evidence.",
+            "fix": "If true, add one concrete bullet in the most relevant backend/security role showing storage-system ownership; otherwise this application is structurally better matched to broader distributed backend roles.",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok internship + Skills sections",
+            "issue": "The resume presents too many primary stacks at once: multiple programming languages, cloud/platform tools, and AI/ML tooling are all framed as hands-on core work, which reads like breadth inflation.",
+            "fix": "Concentrate each role on 2-3 core stacks that were truly central, and move the rest into supporting-context phrasing."
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The first sentence leads with a transition story from data analytics to backend engineering, which weakens the first-screen role signal for a backend/storage role.",
+            "fix": "Start the Summary with a direct backend/distributed identity and move the transition note later in the sentence or to a later sentence."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Software Engineer Intern section",
+            "issue": "The latest/relevant experience relies almost entirely on percentage/productivity lifts and lacks a concrete scale or operating-scope anchor, so the quantitative signal is weaker than it could be.",
+            "fix": "Add one concrete scale metric such as QPS, queue volume, service count, incident volume, or on-call coverage, or make the system boundary more explicit."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 5,
+          "rule_ids": [
+            "P3B-001",
+            "P3B-002",
+            "P3B-012",
+            "P3C-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-001",
+        "P3B-001",
+        "P3B-002",
+        "P3B-012",
+        "P3C-010",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-001 @ Skills section",
+        "P3B-002 @ TikTok experience / latest backend evidence",
+        "P3B-012 @ Overall fit for Microsoft Azure Storage",
+        "P3C-010 @ TikTok internship + Skills sections"
+      ]
+    }
+  }
+}

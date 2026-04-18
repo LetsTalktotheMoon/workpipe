@@ -1,0 +1,15 @@
+name: prompt_planner_user
+sections:
+  - part: planner_user
+  - template_part: planner_context
+    vars:
+      mode: mode
+      company: company
+      title: title
+      role_type: role_type
+      seniority: seniority
+      tech_required: tech_required
+      tech_preferred: tech_preferred
+      matcher_block: matcher_block
+      starter_block: starter_block
+join: "\n\n"

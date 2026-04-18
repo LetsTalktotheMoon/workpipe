@@ -1,0 +1,38 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first bullet",
+        "issue": "首句以“Backend Engineer in Transition”开场，首屏先强调转型而不是后端角色方向与领域信号，6-8 秒扫读时会削弱岗位匹配感。",
+        "fix": "把首句改成“Backend Engineer”或“Security/Marketplace Backend Engineer”开头，把“transitioning from analytics”移到句末作为背景补充，保留转型信息但不要抢首屏焦点。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security Experience",
+        "issue": "最新且最相关的经历主要靠时间缩短、百分比提升和内部评估结果支撑，缺少一个更硬的 tier-1 规模/scope 信号来托住首屏可信度。",
+        "fix": "在第一条或第二条 bullet 里补一个可追问的规模锚点，例如处理的告警/文档量、服务数、分析师人数、日均请求量、P99/吞吐，优先放在最靠前的 bullet。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 把 Summary 第一条从“转型叙事”改成“后端角色叙事”，把转型信息后移。",
+    "[SHOULD] 在 TikTok 经历最前面的 bullet 补一个可核验的规模或 scope 锚点，提升首屏抓手。",
+    "[NICE] 若要增强 DoorDash 匹配感，可在 Summary 或 DiDi 段补一句物流/marketplace/restaurant ops 语境桥接。"
+  ],
+  "revision_instructions": ""
+}

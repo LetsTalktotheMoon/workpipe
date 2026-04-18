@@ -1,0 +1,37 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience | TikTok bullet 4",
+        "issue": "这一条里 `GitHub Actions` 没有加粗，`11 minutes -> 4 minutes` 这类首屏关键量化信号也没有用同一套加粗规则突出，破坏了正文中技术栈和关键指标的视觉一致性。",
+        "fix": "把该 bullet 的核心技术名词和主结果统一加粗，例如将 `GitHub Actions`、`11 minutes`、`4 minutes` 用与其他 bullets 一致的方式突出。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills | `APIs` category",
+        "issue": "`APIs` 作为类别名信息量偏低，而且该行内容实际包含的是 `NoSQL`、`Gitlab CI`、`Jenkins`、`Agile` 等平台/流程能力，不是 API 本身。",
+        "fix": "把该类别改成更具体的名称，例如 `Platform / DevOps` 或 `Workflow / DevOps`，让 HR 扫读时更快理解这一组技能。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 把 `Skills` 里的 `APIs` 类别改成更准确的 `Platform / DevOps` 或 `Workflow / DevOps`。",
+    "[SHOULD] 统一强化 TikTok bullet 4 的视觉层级，把 `GitHub Actions` 和主结果指标加粗。",
+    "[NICE] 保持其余结构不变，当前内容主线已经能过 ATS 和首屏扫读。"
+  ],
+  "revision_instructions": ""
+}

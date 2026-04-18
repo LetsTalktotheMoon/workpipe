@@ -1,0 +1,225 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:11:41",
+  "completed_at": "2026-04-17T20:12:40",
+  "duration_seconds": 59.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary 第1句（Data Analysis Candidate）",
+          "issue": "首句用“Candidate”作为主 framing，虽然有数据分析和技术信息，但首屏角色方向不够硬，HR 需要多读几行才能确认你到底是 data / backend / security 哪条线。",
+          "fix": "把首句改成“角色方向 + 领域 + 年限”的写法，例如以 `Data analysis-focused engineer`、`Backend/data engineer` 或 `Security-focused SWE` 开头，再保留 3+ years 和 Python/SQL/Spark 作为支撑。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Summary / 全文经历",
+          "issue": "目标岗位是 `Manager, Data Analysis - Card Services`，但简历只呈现个人交付与项目推进，没有 people management、mentoring、hiring、performance review 或明确的 portfolio ownership 证据，HR 会直接质疑层级匹配。",
+          "fix": "如果真实经历里有管理或带人 scope，就在最相关经历补 1 条明确的团队/项目 ownership bullet；如果没有，建议把投递目标收敛到 IC / Lead 级别，不要继续包装成 Manager。",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3B-004",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Summary + Experience（整体迁移逻辑）",
+          "issue": "从 TikTok security、DiDi food operations、Temu R&D 迁移到 Capital One card services 的桥接语不够明确，面试官需要自己推断你如何迁移到受监管、偏分析驱动的金融业务场景。",
+          "fix": "在 Summary 或最相关经历里加一句迁移桥接，把 `audit-friendly reconciliation`、`operational analytics`、`cross-market data workflows` 明确映射到 card-services / financial operations 的可迁移能力。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience 全段（尤其前 4 条 bullet）",
+          "issue": "最新经历几乎全部依赖百分比提效和时长缩短，缺少 Tier 1 级别的规模/scope 信号来撑首屏可信度，叙事更像结果清单而不是可追问的 ownership 证明。",
+          "fix": "在 TikTok 第一条或项目背景里前置 1 个可核验的 scope 信号，例如团队维护对象、日处理量、case volume、dataset size、service boundary，别只堆百分比结果。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 如果没有真实 people-management 经验，不要把这份简历继续投向 Manager；若有真实经历，在最相关经历里补 1 条团队/项目 ownership 证据。",
+      "[MUST] 把 Summary 第一句改成角色方向 + 领域信号，去掉 `Candidate` 式 framing。",
+      "[MUST] 在 TikTok 最新经历前置一个可追问的规模/边界信号，不要只靠百分比。",
+      "[SHOULD] 增加一条面向 Card Services 的迁移桥接，把 security / ops / reconciliation 经验翻成金融分析语境。"
+    ],
+    "revision_instructions": "[结构性错配] 若目标真是 `Manager, Data Analysis`，需要在最相关经历里补足 people-management / portfolio ownership 证据；否则建议把目标收敛到 IC / Lead。优先改 1) Summary 首句，改成角色方向 + 领域信号，去掉 `Candidate` 语气；2) TikTok 最新经历前置一个规模或边界指标，避免全靠百分比；3) 加一条 bridge，把 security / ops / reconciliation 经验明确映射到 card-services analytics。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 7.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 88.6,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 如果没有真实 people-management 经验，不要把这份简历继续投向 Manager；若有真实经历，在最相关经历里补 1 条团队/项目 ownership 证据。",
+      "[MUST] 把 Summary 第一句改成角色方向 + 领域信号，去掉 `Candidate` 式 framing。",
+      "[MUST] 在 TikTok 最新经历前置一个可追问的规模/边界信号，不要只靠百分比。",
+      "[SHOULD] 增加一条面向 Card Services 的迁移桥接，把 security / ops / reconciliation 经验翻成金融分析语境。"
+    ],
+    "revision_instructions": "[结构性错配] 若目标真是 `Manager, Data Analysis`，需要在最相关经历里补足 people-management / portfolio ownership 证据；否则建议把目标收敛到 IC / Lead。优先改 1) Summary 首句，改成角色方向 + 领域信号，去掉 `Candidate` 语气；2) TikTok 最新经历前置一个规模或边界指标，避免全靠百分比；3) 加一条 bridge，把 security / ops / reconciliation 经验明确映射到 card-services analytics。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary 第1句（Data Analysis Candidate）",
+            "issue": "首句用“Candidate”作为主 framing，虽然有数据分析和技术信息，但首屏角色方向不够硬，HR 需要多读几行才能确认你到底是 data / backend / security 哪条线。",
+            "fix": "把首句改成“角色方向 + 领域 + 年限”的写法，例如以 `Data analysis-focused engineer`、`Backend/data engineer` 或 `Security-focused SWE` 开头，再保留 3+ years 和 Python/SQL/Spark 作为支撑。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Summary / 全文经历",
+            "issue": "目标岗位是 `Manager, Data Analysis - Card Services`，但简历只呈现个人交付与项目推进，没有 people management、mentoring、hiring、performance review 或明确的 portfolio ownership 证据，HR 会直接质疑层级匹配。",
+            "fix": "如果真实经历里有管理或带人 scope，就在最相关经历补 1 条明确的团队/项目 ownership bullet；如果没有，建议把投递目标收敛到 IC / Lead 级别，不要继续包装成 Manager。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3B-004",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Summary + Experience（整体迁移逻辑）",
+            "issue": "从 TikTok security、DiDi food operations、Temu R&D 迁移到 Capital One card services 的桥接语不够明确，面试官需要自己推断你如何迁移到受监管、偏分析驱动的金融业务场景。",
+            "fix": "在 Summary 或最相关经历里加一句迁移桥接，把 `audit-friendly reconciliation`、`operational analytics`、`cross-market data workflows` 明确映射到 card-services / financial operations 的可迁移能力。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience 全段（尤其前 4 条 bullet）",
+            "issue": "最新经历几乎全部依赖百分比提效和时长缩短，缺少 Tier 1 级别的规模/scope 信号来撑首屏可信度，叙事更像结果清单而不是可追问的 ownership 证明。",
+            "fix": "在 TikTok 第一条或项目背景里前置 1 个可核验的 scope 信号，例如团队维护对象、日处理量、case volume、dataset size、service boundary，别只堆百分比结果。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 如果没有真实 people-management 经验，不要把这份简历继续投向 Manager；若有真实经历，在最相关经历里补 1 条团队/项目 ownership 证据。",
+        "[MUST] 把 Summary 第一句改成角色方向 + 领域信号，去掉 `Candidate` 式 framing。",
+        "[MUST] 在 TikTok 最新经历前置一个可追问的规模/边界信号，不要只靠百分比。",
+        "[SHOULD] 增加一条面向 Card Services 的迁移桥接，把 security / ops / reconciliation 经验翻成金融分析语境。"
+      ],
+      "revision_instructions": "[结构性错配] 若目标真是 `Manager, Data Analysis`，需要在最相关经历里补足 people-management / portfolio ownership 证据；否则建议把目标收敛到 IC / Lead。优先改 1) Summary 首句，改成角色方向 + 领域信号，去掉 `Candidate` 语气；2) TikTok 最新经历前置一个规模或边界指标，避免全靠百分比；3) 加一条 bridge，把 security / ops / reconciliation 经验明确映射到 card-services analytics。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Summary / 全文经历",
+          "issue": "目标岗位是 `Manager, Data Analysis - Card Services`，但简历只呈现个人交付与项目推进，没有 people management、mentoring、hiring、performance review 或明确的 portfolio ownership 证据，HR 会直接质疑层级匹配。",
+          "fix": "如果真实经历里有管理或带人 scope，就在最相关经历补 1 条明确的团队/项目 ownership bullet；如果没有，建议把投递目标收敛到 IC / Lead 级别，不要继续包装成 Manager。",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3B-004",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Summary + Experience（整体迁移逻辑）",
+          "issue": "从 TikTok security、DiDi food operations、Temu R&D 迁移到 Capital One card services 的桥接语不够明确，面试官需要自己推断你如何迁移到受监管、偏分析驱动的金融业务场景。",
+          "fix": "在 Summary 或最相关经历里加一句迁移桥接，把 `audit-friendly reconciliation`、`operational analytics`、`cross-market data workflows` 明确映射到 card-services / financial operations 的可迁移能力。"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary 第1句（Data Analysis Candidate）",
+          "issue": "首句用“Candidate”作为主 framing，虽然有数据分析和技术信息，但首屏角色方向不够硬，HR 需要多读几行才能确认你到底是 data / backend / security 哪条线。",
+          "fix": "把首句改成“角色方向 + 领域 + 年限”的写法，例如以 `Data analysis-focused engineer`、`Backend/data engineer` 或 `Security-focused SWE` 开头，再保留 3+ years 和 Python/SQL/Spark 作为支撑。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience 全段（尤其前 4 条 bullet）",
+          "issue": "最新经历几乎全部依赖百分比提效和时长缩短，缺少 Tier 1 级别的规模/scope 信号来撑首屏可信度，叙事更像结果清单而不是可追问的 ownership 证明。",
+          "fix": "在 TikTok 第一条或项目背景里前置 1 个可核验的 scope 信号，例如团队维护对象、日处理量、case volume、dataset size、service boundary，别只堆百分比结果。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-010",
+          "P3B-004",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3B-004",
+      "P3B-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-010 @ Summary / 全文经历"
+    ]
+  }
+}

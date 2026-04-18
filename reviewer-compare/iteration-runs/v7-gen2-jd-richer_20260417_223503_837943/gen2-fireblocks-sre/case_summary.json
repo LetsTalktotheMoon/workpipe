@@ -1,0 +1,327 @@
+{
+  "label": "gen2/Fireblocks-SRE",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Fireblocks-SRE",
+    "company": "Fireblocks",
+    "title": "Site Reliability Engineer",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "Fireblocks is a leader in providing secure solutions for digital assets and blockchain technology",
+    "tech_required": [
+      "Python",
+      "AWS",
+      "Git",
+      "Bash",
+      "Shell",
+      "Linux",
+      "JavaScript",
+      "Kubernetes",
+      "Azure",
+      "Docker"
+    ],
+    "tech_preferred": [
+      "C++",
+      "R",
+      "Scala",
+      "MySQL"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "jd_id": "candidate_fireblocks_sre",
+      "company": "Fireblocks",
+      "title": "Site Reliability Engineer",
+      "role_type": "swe_backend",
+      "verdict": "pass",
+      "final_score": 94.5,
+      "revised": false,
+      "weighted_score": 94.5,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [
+        "补一条明确指向 Fireblocks 业务语境的安全/高可用基础设施叙事，避免简历看起来只是通用后端与平台经验。",
+        "在 DiDi 和 TikTok 的角色说明中再补 scope 限定语，降低“分析岗却承担工程 ownership”带来的可信度追问。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "repaired_at": "2026-04-07T16:57:23",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:49:46",
+    "completed_at": "2026-04-17T22:51:02",
+    "duration_seconds": 76.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句把主叙事放在“Transitioning from data analysis to software engineering”，首屏更像转行说明而不是直接的 SRE/backend 定位，削弱了 6-8 秒扫读时的角色判断。",
+            "fix": "把句首改成直接角色锚点，例如先写“Reliability-focused backend/SRE engineer”，再把转型背景放到后半句或删掉。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills + most relevant experience bullets",
+            "issue": "JD 明确要求 Kubernetes/Helm 以及配置管理家族（Ansible/Chef/Puppet/ArgoCD），而简历只证明了 Kubernetes/Docker/Prometheus/AWS/Azure，没有给出 Helm 或任何配置管理工具的实质使用证据，部署层覆盖不完整。",
+            "fix": "如果真实使用过 Helm 或 ArgoCD/Ansible，把它补到最相关的 TikTok 或 DiDi 经验 bullet 里，写成“在 Helm/ArgoCD 上交付/发布/回滚/配置管理”的具体动作；如果没有真实经历，就不要硬写，改投更贴近现有栈的岗位。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "最新经历的四条主 bullet 主要是分钟数和百分比改进，缺少 alert volume、service count、incident count、traffic 或 on-call 规模这类 Tier 1 scope 信号，SRE 可信度更多靠“做了什么”，而不是“管多大”。",
+            "fix": "在最相关的一条 bullet 里补一个可追问的规模指标，例如每周告警量、服务数、流水线数量、review volume、incident frequency 或 on-call 覆盖范围。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关经历里补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据，或者确认该 JD 不应作为主投方向。",
+        "[MUST] 重写 Summary 第一条，先给出 SRE/backend 定位，再处理“transitioning from data analysis”的背景句。",
+        "[SHOULD] 给最新经历补一个 Tier-1 规模信号，避免整段只剩时间/百分比改进。",
+        "[NICE] 如果真实存在，再补一句把 security / incident-response / observability 迁移到更受监管的基础设施场景。"
+      ],
+      "revision_instructions": "[MUST] 把 Summary 第一句改成直接的 SRE/backend 定位，移除或后置“Transitioning from data analysis...”。[MUST] 在最相关的经验 bullet 中补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据；这是当前 JD 匹配的主要缺口。[SHOULD] 在最新经历里加入一个可追问的规模指标（alerts/day、services owned、incidents、traffic、on-call load 等），让首屏不只看到百分比改进。[NICE] 若属实，补一句把 security/observability/incident work 与更受监管的基础设施场景衔接起来。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 91.4,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关经历里补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据，或者确认该 JD 不应作为主投方向。",
+        "[MUST] 重写 Summary 第一条，先给出 SRE/backend 定位，再处理“transitioning from data analysis”的背景句。",
+        "[SHOULD] 给最新经历补一个 Tier-1 规模信号，避免整段只剩时间/百分比改进。",
+        "[NICE] 如果真实存在，再补一句把 security / incident-response / observability 迁移到更受监管的基础设施场景。"
+      ],
+      "revision_instructions": "[MUST] 把 Summary 第一句改成直接的 SRE/backend 定位，移除或后置“Transitioning from data analysis...”。[MUST] 在最相关的经验 bullet 中补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据；这是当前 JD 匹配的主要缺口。[SHOULD] 在最新经历里加入一个可追问的规模指标（alerts/day、services owned、incidents、traffic、on-call load 等），让首屏不只看到百分比改进。[NICE] 若属实，补一句把 security/observability/incident work 与更受监管的基础设施场景衔接起来。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "首句把主叙事放在“Transitioning from data analysis to software engineering”，首屏更像转行说明而不是直接的 SRE/backend 定位，削弱了 6-8 秒扫读时的角色判断。",
+              "fix": "把句首改成直接角色锚点，例如先写“Reliability-focused backend/SRE engineer”，再把转型背景放到后半句或删掉。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-001",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Skills + most relevant experience bullets",
+              "issue": "JD 明确要求 Kubernetes/Helm 以及配置管理家族（Ansible/Chef/Puppet/ArgoCD），而简历只证明了 Kubernetes/Docker/Prometheus/AWS/Azure，没有给出 Helm 或任何配置管理工具的实质使用证据，部署层覆盖不完整。",
+              "fix": "如果真实使用过 Helm 或 ArgoCD/Ansible，把它补到最相关的 TikTok 或 DiDi 经验 bullet 里，写成“在 Helm/ArgoCD 上交付/发布/回滚/配置管理”的具体动作；如果没有真实经历，就不要硬写，改投更贴近现有栈的岗位。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok · Security experience",
+              "issue": "最新经历的四条主 bullet 主要是分钟数和百分比改进，缺少 alert volume、service count、incident count、traffic 或 on-call 规模这类 Tier 1 scope 信号，SRE 可信度更多靠“做了什么”，而不是“管多大”。",
+              "fix": "在最相关的一条 bullet 里补一个可追问的规模指标，例如每周告警量、服务数、流水线数量、review volume、incident frequency 或 on-call 覆盖范围。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 在最相关经历里补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据，或者确认该 JD 不应作为主投方向。",
+          "[MUST] 重写 Summary 第一条，先给出 SRE/backend 定位，再处理“transitioning from data analysis”的背景句。",
+          "[SHOULD] 给最新经历补一个 Tier-1 规模信号，避免整段只剩时间/百分比改进。",
+          "[NICE] 如果真实存在，再补一句把 security / incident-response / observability 迁移到更受监管的基础设施场景。"
+        ],
+        "revision_instructions": "[MUST] 把 Summary 第一句改成直接的 SRE/backend 定位，移除或后置“Transitioning from data analysis...”。[MUST] 在最相关的经验 bullet 中补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据；这是当前 JD 匹配的主要缺口。[SHOULD] 在最新经历里加入一个可追问的规模指标（alerts/day、services owned、incidents、traffic、on-call load 等），让首屏不只看到百分比改进。[NICE] 若属实，补一句把 security/observability/incident work 与更受监管的基础设施场景衔接起来。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills + most relevant experience bullets",
+            "issue": "JD 明确要求 Kubernetes/Helm 以及配置管理家族（Ansible/Chef/Puppet/ArgoCD），而简历只证明了 Kubernetes/Docker/Prometheus/AWS/Azure，没有给出 Helm 或任何配置管理工具的实质使用证据，部署层覆盖不完整。",
+            "fix": "如果真实使用过 Helm 或 ArgoCD/Ansible，把它补到最相关的 TikTok 或 DiDi 经验 bullet 里，写成“在 Helm/ArgoCD 上交付/发布/回滚/配置管理”的具体动作；如果没有真实经历，就不要硬写，改投更贴近现有栈的岗位。"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句把主叙事放在“Transitioning from data analysis to software engineering”，首屏更像转行说明而不是直接的 SRE/backend 定位，削弱了 6-8 秒扫读时的角色判断。",
+            "fix": "把句首改成直接角色锚点，例如先写“Reliability-focused backend/SRE engineer”，再把转型背景放到后半句或删掉。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "最新经历的四条主 bullet 主要是分钟数和百分比改进，缺少 alert volume、service count、incident count、traffic 或 on-call 规模这类 Tier 1 scope 信号，SRE 可信度更多靠“做了什么”，而不是“管多大”。",
+            "fix": "在最相关的一条 bullet 里补一个可追问的规模指标，例如每周告警量、服务数、流水线数量、review volume、incident frequency 或 on-call 覆盖范围。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-001",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P3B-001",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-001 @ Skills + most relevant experience bullets"
+      ]
+    }
+  }
+}

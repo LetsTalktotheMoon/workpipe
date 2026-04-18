@@ -1,0 +1,10 @@
+view_id: prompt_reviewer_full
+title: 主 Reviewer Prompt
+pipeline: match_pipe
+stage: all reviewer steps
+role: reviewer
+description: 所有 full review 路径共用的 Reviewer user prompt。
+user_blocks:
+- reviewer_user
+- reviewer_context
+- reviewer_output_schema

@@ -1,0 +1,159 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:14:28",
+  "completed_at": "2026-04-17T23:15:23",
+  "duration_seconds": 55.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok Experience bullets 1, 3; TikTok project bullets 1, 4",
+          "issue": "Modifiers and qualifiers such as \"team-maintained\" and \"existing\" are bolded, which weakens the emphasis discipline the format expects.",
+          "fix": "Remove bold from non-noun qualifiers like team-maintained and existing. Keep bold reserved for technical nouns, systems, and measurable scope."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The lead framing is transition-first: \"Backend Transition Profile\" and \"transitioning from analytics\" make the top of the resume read like a career pivot rather than a backend SDE profile.",
+          "fix": "Rewrite the first Summary sentence to lead with a backend identity and domain signal first, then mention the analytics background later as context."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rewrite the first Summary sentence to lead with a backend/security identity instead of a transition frame.",
+      "[SHOULD] Unbold modifiers like team-maintained and existing so emphasis stays on technical nouns and scope."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 97.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rewrite the first Summary sentence to lead with a backend/security identity instead of a transition frame.",
+      "[SHOULD] Unbold modifiers like team-maintained and existing so emphasis stays on technical nouns and scope."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience bullets 1, 3; TikTok project bullets 1, 4",
+            "issue": "Modifiers and qualifiers such as \"team-maintained\" and \"existing\" are bolded, which weakens the emphasis discipline the format expects.",
+            "fix": "Remove bold from non-noun qualifiers like team-maintained and existing. Keep bold reserved for technical nouns, systems, and measurable scope."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The lead framing is transition-first: \"Backend Transition Profile\" and \"transitioning from analytics\" make the top of the resume read like a career pivot rather than a backend SDE profile.",
+            "fix": "Rewrite the first Summary sentence to lead with a backend identity and domain signal first, then mention the analytics background later as context."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Rewrite the first Summary sentence to lead with a backend/security identity instead of a transition frame.",
+        "[SHOULD] Unbold modifiers like team-maintained and existing so emphasis stays on technical nouns and scope."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok Experience bullets 1, 3; TikTok project bullets 1, 4",
+          "issue": "Modifiers and qualifiers such as \"team-maintained\" and \"existing\" are bolded, which weakens the emphasis discipline the format expects.",
+          "fix": "Remove bold from non-noun qualifiers like team-maintained and existing. Keep bold reserved for technical nouns, systems, and measurable scope."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The lead framing is transition-first: \"Backend Transition Profile\" and \"transitioning from analytics\" make the top of the resume read like a career pivot rather than a backend SDE profile.",
+          "fix": "Rewrite the first Summary sentence to lead with a backend identity and domain signal first, then mention the analytics background later as context."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001"
+    ],
+    "high_or_critical": []
+  }
+}

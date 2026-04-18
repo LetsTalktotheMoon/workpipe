@@ -1,0 +1,194 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:07:07",
+  "completed_at": "2026-04-17T22:08:18",
+  "duration_seconds": 71.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullet 1, bullet 3, and project bullet 1",
+          "issue": "Modifiers such as team-maintained and team-owned are bolded, which dilutes emphasis that should be reserved for technologies, scale, and outcomes.",
+          "fix": "Remove bold from modifiers like team-maintained and team-owned; keep bold only on core tech, scope, and results."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills and all experience sections",
+          "issue": "JD must-have Rust is absent from the resume entirely, so the required backend stack is incomplete for this role.",
+          "fix": "If Rust is real, add it to Skills and support it with one concrete bullet in the most relevant backend/infrastructure experience; otherwise this resume is not a true match for the role."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience section",
+          "issue": "The latest experience leans on percentage improvements without any Tier 1 scope signal such as request volume, service count, team size, or SLA, so the infra story is weaker than it could be for a senior backend role.",
+          "fix": "Add one concrete scope metric to the most relevant TikTok bullet, then keep the percentage as secondary evidence."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add Rust evidence if it is genuinely supported by your work, ideally in the most relevant backend or infrastructure bullet.",
+      "[MUST] Add one concrete Tier 1 scope signal to the TikTok experience so the latest role reads as scale-aware, not only improvement-aware.",
+      "[SHOULD] Remove bold from modifiers like team-maintained and team-owned; keep emphasis on technologies, scope, and outcomes."
+    ],
+    "revision_instructions": "Add Rust only if you can support it with real work evidence, preferably in the most relevant backend or infrastructure bullet; otherwise the JD's must-have stack remains incomplete. Add one concrete scope metric to the TikTok experience so the latest role carries a Tier 1 signal, not just percentage deltas. Reduce bolding on modifiers such as team-maintained and team-owned and reserve emphasis for technologies and outcomes only.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 92.9,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add Rust evidence if it is genuinely supported by your work, ideally in the most relevant backend or infrastructure bullet.",
+      "[MUST] Add one concrete Tier 1 scope signal to the TikTok experience so the latest role reads as scale-aware, not only improvement-aware.",
+      "[SHOULD] Remove bold from modifiers like team-maintained and team-owned; keep emphasis on technologies, scope, and outcomes."
+    ],
+    "revision_instructions": "Add Rust only if you can support it with real work evidence, preferably in the most relevant backend or infrastructure bullet; otherwise the JD's must-have stack remains incomplete. Add one concrete scope metric to the TikTok experience so the latest role carries a Tier 1 signal, not just percentage deltas. Reduce bolding on modifiers such as team-maintained and team-owned and reserve emphasis for technologies and outcomes only.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullet 1, bullet 3, and project bullet 1",
+            "issue": "Modifiers such as team-maintained and team-owned are bolded, which dilutes emphasis that should be reserved for technologies, scale, and outcomes.",
+            "fix": "Remove bold from modifiers like team-maintained and team-owned; keep bold only on core tech, scope, and results."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills and all experience sections",
+            "issue": "JD must-have Rust is absent from the resume entirely, so the required backend stack is incomplete for this role.",
+            "fix": "If Rust is real, add it to Skills and support it with one concrete bullet in the most relevant backend/infrastructure experience; otherwise this resume is not a true match for the role."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience section",
+            "issue": "The latest experience leans on percentage improvements without any Tier 1 scope signal such as request volume, service count, team size, or SLA, so the infra story is weaker than it could be for a senior backend role.",
+            "fix": "Add one concrete scope metric to the most relevant TikTok bullet, then keep the percentage as secondary evidence."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add Rust evidence if it is genuinely supported by your work, ideally in the most relevant backend or infrastructure bullet.",
+        "[MUST] Add one concrete Tier 1 scope signal to the TikTok experience so the latest role reads as scale-aware, not only improvement-aware.",
+        "[SHOULD] Remove bold from modifiers like team-maintained and team-owned; keep emphasis on technologies, scope, and outcomes."
+      ],
+      "revision_instructions": "Add Rust only if you can support it with real work evidence, preferably in the most relevant backend or infrastructure bullet; otherwise the JD's must-have stack remains incomplete. Add one concrete scope metric to the TikTok experience so the latest role carries a Tier 1 signal, not just percentage deltas. Reduce bolding on modifiers such as team-maintained and team-owned and reserve emphasis for technologies and outcomes only.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullet 1, bullet 3, and project bullet 1",
+          "issue": "Modifiers such as team-maintained and team-owned are bolded, which dilutes emphasis that should be reserved for technologies, scale, and outcomes.",
+          "fix": "Remove bold from modifiers like team-maintained and team-owned; keep bold only on core tech, scope, and results."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills and all experience sections",
+          "issue": "JD must-have Rust is absent from the resume entirely, so the required backend stack is incomplete for this role.",
+          "fix": "If Rust is real, add it to Skills and support it with one concrete bullet in the most relevant backend/infrastructure experience; otherwise this resume is not a true match for the role."
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience section",
+          "issue": "The latest experience leans on percentage improvements without any Tier 1 scope signal such as request volume, service count, team size, or SLA, so the infra story is weaker than it could be for a senior backend role.",
+          "fix": "Add one concrete scope metric to the most relevant TikTok bullet, then keep the percentage as secondary evidence."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-001",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P3B-001",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills and all experience sections"
+    ]
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "category_order": [
+    "Programming Languages",
+    "Backend & APIs",
+    "Frontend & UI",
+    "Data & Analytics",
+    "AI / ML",
+    "Cloud / DevOps / Infrastructure",
+    "Databases / Storage / Streaming",
+    "Architecture / Systems",
+    "Quality & Workflow"
+  ],
+  "skill_aliases": {
+    "API": "APIs",
+    "Android Sdk": "Android SDK",
+    "Apache Airflow": "Airflow",
+    "Apache Flink": "Flink",
+    "Api": "APIs",
+    "C#/.Net": ".NET / C#",
+    "CSS": "CSS",
+    "Css": "CSS",
+    "Css3": "CSS3",
+    "DBT": "dbt",
+    "Data structures": "Data Structures",
+    "Db2": "DB2",
+    "Distributed systems": "Distributed Systems",
+    "Dynamodb": "DynamoDB",
+    "Embedded": "Embedded Systems",
+    "Embedded Systems": "Embedded Systems",
+    "Genai": "Generative AI",
+    "GitLab CI": "GitLab CI",
+    "Gitlab Ci": "GitLab CI",
+    "Golang": "Go",
+    "Google Cloud": "GCP",
+    "HTML5": "HTML5",
+    "Html": "HTML",
+    "Html5": "HTML5",
+    "JUnit": "JUnit",
+    "Java 17": "Java",
+    "Junit": "JUnit",
+    "K8S": "Kubernetes",
+    "Langchain": "LangChain",
+    "Large Language Models": "LLM",
+    "Large Language Models (LLMs)": "LLM",
+    "Large language models (LLMs)": "LLM",
+    "Matlab": "MATLAB",
+    "Mlops": "MLOps",
+    "Natural Language Processing": "NLP",
+    "NoSQL databases": "NoSQL",
+    "Object-oriented programming": "Object-Oriented Programming",
+    "Openai Api": "OpenAI API",
+    "Php": "PHP",
+    "Power Bi": "Power BI",
+    "Programming languages - C": "C",
+    "Programming languages - C#": "C#",
+    "Programming languages - C++": "C++",
+    "Programming languages - Java": "Java",
+    "Programming languages - JavaScript": "JavaScript",
+    "Programming languages - Python": "Python",
+    "Pytest": "pytest",
+    "REST": "REST APIs",
+    "REST APIs": "REST APIs",
+    "REST web services": "REST APIs",
+    "RESTful": "REST APIs",
+    "RESTful APIs": "REST APIs",
+    "React 16+": "React",
+    "Relational databases": "Relational Databases",
+    "Restful Apis": "REST APIs",
+    "Selenium Webdriver": "Selenium",
+    "Ssms": "SSMS",
+    "Typescript": "TypeScript",
+    "Vb.Net": "VB.NET",
+    "Vector Embeddings": "Embeddings",
+    "anomaly detection": "Anomaly Detection",
+    "pytest": "pytest",
+    "time-series analysis": "Time Series Analysis"
+  },
+  "category_to_skills": {
+    "Programming Languages": [
+      "C",
+      "C#",
+      "C++",
+      "Go",
+      "Java",
+      "JavaScript",
+      "Kotlin",
+      "MATLAB",
+      "PHP",
+      "Python",
+      "R",
+      "Ruby",
+      "Rust",
+      "Scala",
+      "Swift",
+      "TypeScript",
+      "VB.NET"
+    ],
+    "Backend & APIs": [
+      ".NET",
+      ".NET / C#",
+      "APIs",
+      "ASP.NET",
+      "ASP.NET MVC",
+      "Backend Development",
+      "Django",
+      "Express",
+      "FastAPI",
+      "Flask",
+      "Full-Stack Development",
+      "GraphQL",
+      "Microservices",
+      "NestJS",
+      "Node.js",
+      "REST APIs",
+      "Rails",
+      "Spring",
+      "Spring Boot",
+      "Web Development",
+      "gRPC"
+    ],
+    "Frontend & UI": [
+      "Android SDK",
+      "Angular",
+      "CSS",
+      "CSS3",
+      "HTML",
+      "HTML5",
+      "Jetpack Compose",
+      "Material Design",
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vite",
+      "Vue",
+      "Webpack"
+    ],
+    "Data & Analytics": [
+      "A/B Testing",
+      "Airflow",
+      "Anomaly Detection",
+      "BigQuery",
+      "Dashboard Automation",
+      "Data Pipelines",
+      "Data Science",
+      "Databricks",
+      "ETL",
+      "Experiment Design",
+      "Forecasting",
+      "Hadoop",
+      "Hive",
+      "Jupyter",
+      "KPI Measurement",
+      "Looker",
+      "Matplotlib",
+      "NumPy",
+      "Pandas",
+      "Power BI",
+      "SQL",
+      "Snowflake",
+      "Spark",
+      "Spark SQL",
+      "Tableau",
+      "Time Series Analysis",
+      "dbt"
+    ],
+    "AI / ML": [
+      "AWS Bedrock",
+      "Azure OpenAI",
+      "Computer Vision",
+      "Context Engineering",
+      "Deep Learning",
+      "Embeddings",
+      "Generative AI",
+      "Keras",
+      "LLM",
+      "LLM Application Development",
+      "LangChain",
+      "ML Infrastructure",
+      "MLOps",
+      "Machine Learning",
+      "Model Deployment",
+      "NLP",
+      "OpenAI",
+      "OpenAI API",
+      "Prompt Engineering",
+      "PyTorch",
+      "RAG",
+      "Retrieval Evaluation",
+      "TensorFlow",
+      "scikit-learn"
+    ],
+    "Cloud / DevOps / Infrastructure": [
+      "AWS",
+      "Ansible",
+      "Azure",
+      "Bash",
+      "CI/CD",
+      "Docker",
+      "ECS",
+      "GCP",
+      "GitHub Actions",
+      "GitLab CI",
+      "Jenkins",
+      "Kubernetes",
+      "Linux",
+      "Prometheus",
+      "Shell",
+      "Terraform"
+    ],
+    "Databases / Storage / Streaming": [
+      "Azure Blob Storage",
+      "Cassandra",
+      "DB2",
+      "DynamoDB",
+      "Elasticsearch",
+      "Flink",
+      "Kafka",
+      "MongoDB",
+      "MySQL",
+      "NoSQL",
+      "PostgreSQL",
+      "Redis",
+      "Redshift",
+      "Relational Databases",
+      "S3",
+      "SSMS"
+    ],
+    "Architecture / Systems": [
+      "Algorithms",
+      "Data Structures",
+      "Distributed Systems",
+      "Embedded Systems",
+      "Large-Scale Systems",
+      "Network Protocol",
+      "Networking",
+      "Object-Oriented Programming",
+      "System Design"
+    ],
+    "Quality & Workflow": [
+      "Agile",
+      "Code Review",
+      "Cypress",
+      "Design Review",
+      "Git",
+      "JUnit",
+      "Jest",
+      "Jira",
+      "Playwright",
+      "Scrum",
+      "Selenium",
+      "Software Test Engineering",
+      "Software Testing",
+      "TDD",
+      "Unit Testing",
+      "Version Control",
+      "Visual Studio",
+      "pytest"
+    ]
+  },
+  "alias_groups": {
+    ".NET / C#": [
+      "C#/.Net"
+    ],
+    "APIs": [
+      "API",
+      "Api"
+    ],
+    "Airflow": [
+      "Apache Airflow"
+    ],
+    "Android SDK": [
+      "Android Sdk"
+    ],
+    "Anomaly Detection": [
+      "anomaly detection"
+    ],
+    "C": [
+      "Programming languages - C"
+    ],
+    "C#": [
+      "Programming languages - C#"
+    ],
+    "C++": [
+      "Programming languages - C++"
+    ],
+    "CSS": [
+      "CSS",
+      "Css"
+    ],
+    "CSS3": [
+      "Css3"
+    ],
+    "DB2": [
+      "Db2"
+    ],
+    "Data Structures": [
+      "Data structures"
+    ],
+    "Distributed Systems": [
+      "Distributed systems"
+    ],
+    "DynamoDB": [
+      "Dynamodb"
+    ],
+    "Embedded Systems": [
+      "Embedded",
+      "Embedded Systems"
+    ],
+    "Embeddings": [
+      "Vector Embeddings"
+    ],
+    "Flink": [
+      "Apache Flink"
+    ],
+    "GCP": [
+      "Google Cloud"
+    ],
+    "Generative AI": [
+      "Genai"
+    ],
+    "GitLab CI": [
+      "GitLab CI",
+      "Gitlab Ci"
+    ],
+    "Go": [
+      "Golang"
+    ],
+    "HTML": [
+      "Html"
+    ],
+    "HTML5": [
+      "HTML5",
+      "Html5"
+    ],
+    "JUnit": [
+      "JUnit",
+      "Junit"
+    ],
+    "Java": [
+      "Java 17",
+      "Programming languages - Java"
+    ],
+    "JavaScript": [
+      "Programming languages - JavaScript"
+    ],
+    "Kubernetes": [
+      "K8S"
+    ],
+    "LLM": [
+      "Large Language Models",
+      "Large Language Models (LLMs)",
+      "Large language models (LLMs)"
+    ],
+    "LangChain": [
+      "Langchain"
+    ],
+    "MATLAB": [
+      "Matlab"
+    ],
+    "MLOps": [
+      "Mlops"
+    ],
+    "NLP": [
+      "Natural Language Processing"
+    ],
+    "NoSQL": [
+      "NoSQL databases"
+    ],
+    "Object-Oriented Programming": [
+      "Object-oriented programming"
+    ],
+    "OpenAI API": [
+      "Openai Api"
+    ],
+    "PHP": [
+      "Php"
+    ],
+    "Power BI": [
+      "Power Bi"
+    ],
+    "Python": [
+      "Programming languages - Python"
+    ],
+    "REST APIs": [
+      "REST",
+      "REST APIs",
+      "REST web services",
+      "RESTful",
+      "RESTful APIs",
+      "Restful Apis"
+    ],
+    "React": [
+      "React 16+"
+    ],
+    "Relational Databases": [
+      "Relational databases"
+    ],
+    "SSMS": [
+      "Ssms"
+    ],
+    "Selenium": [
+      "Selenium Webdriver"
+    ],
+    "Time Series Analysis": [
+      "time-series analysis"
+    ],
+    "TypeScript": [
+      "Typescript"
+    ],
+    "VB.NET": [
+      "Vb.Net"
+    ],
+    "dbt": [
+      "DBT"
+    ],
+    "pytest": [
+      "Pytest",
+      "pytest"
+    ]
+  }
+}

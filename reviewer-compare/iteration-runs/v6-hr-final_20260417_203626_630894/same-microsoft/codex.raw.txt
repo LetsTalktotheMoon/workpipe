@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "首句以“transitioning from data analytics to backend engineering”作为主 framing，首屏先传达的是转型状态而不是直接的后端/分布式系统定位，削弱了 6–8 秒扫读时的岗位匹配感。",
+        "fix": "把首句改成直接角色锚点先行，例如先写“Backend engineer focused on distributed systems and C++/gRPC-based services”，再把从数据分析转向后端的叙事放到后半句。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills；Professional Summary；TikTok Experience",
+        "issue": "JD must-have 的“Distributed Systems”没有在 Skills 中被明确列出，只能通过 Microservices / Kafka / gRPC 和 Summary 里的“distributed backend systems”间接推断；对 ATS 来说这比直接命名弱，容易丢掉 Azure Storage 的核心匹配信号。",
+        "fix": "在最相关的后端经历里补一条明确的 distributed systems 证据，最好落在 TikTok 第一条 bullet 或 Summary 首句中，同时在 Skills 里保留 C++ 并补出“Distributed Systems”这个命名信号。"
+      },
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "TikTok Experience",
+        "issue": "这一段把 Go、Python、Java、C#、JavaScript 作为同一实习经历的主要使用语言呈现出来，读起来像 5 门语言都是主工作栈，容易被认为语言堆砌。",
+        "fix": "把这一段收敛成 1-2 个主语言，其余语言改写为集成、脚本、验证或联调工具；例如让 Go/Python 成为主线，Java/C#/JavaScript 只保留在特定子任务里。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 在最相关的后端经历里补出“Distributed Systems”这个命名信号，并让它和 C++/gRPC/Kafka 的证据同框出现。",
+    "[MUST] 把 Summary 第一句改成直接的后端/分布式系统定位，把“从数据分析转向后端”放到后半句。",
+    "[SHOULD] 收敛 TikTok 实习段的语言栈叙事，避免 5 门语言看起来都像主工作栈。",
+    "[NICE] 其余量化保持即可，优先让首屏更快读出“Azure Storage 相关的分布式后端工程师”信号。"
+  ],
+  "revision_instructions": "把 Summary 第一句改成“Backend engineer focused on distributed systems and C++/gRPC-based services...”这种直接岗位锚点，再把转型叙事放到后半句。随后在最相关的后端经历里明确写出“distributed systems”而不是只写 microservices / distributed backend systems，让 JD 的 must-have 直接命中。最后收敛 TikTok 段的语言栈，把 Go/Python 设为主线，其余语言改成集成、脚本或验证工具，避免单段经历看起来像多语言主责。不要改不可变字段。"
+}

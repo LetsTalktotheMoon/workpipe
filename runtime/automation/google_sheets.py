@@ -115,8 +115,18 @@ class GoogleSheetJobStore:
         *,
         statuses: Sequence[str] | None = None,
         sort_by_publish_time: bool = False,
+        sync_catalog: bool = True,
     ) -> list[dict]:
         rows = self._fetch_rows()
+        if sync_catalog:
+            from runtime.automation.jobs_catalog import rebuild_catalog_from_rows
+
+            rebuild_catalog_from_rows(
+                rows,
+                include_existing_catalog=True,
+                include_local_scrape=True,
+                include_portfolio_history=True,
+            )
         if statuses:
             rows = filter_rows_by_status(rows, statuses)
         if sort_by_publish_time:
@@ -183,7 +193,7 @@ class GoogleSheetJobStore:
                 payload = response.read().decode("utf-8")
         except Exception:
             completed = subprocess.run(
-                ["curl", "-sS", "-L", url],
+                ["curl", "--http1.1", "-sS", "-L", url],
                 capture_output=True,
                 text=True,
                 check=False,

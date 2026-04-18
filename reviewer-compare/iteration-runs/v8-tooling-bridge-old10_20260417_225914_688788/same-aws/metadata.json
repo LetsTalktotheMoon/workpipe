@@ -1,0 +1,121 @@
+{
+  "label": "same/AWS",
+  "company": "Amazon Web Services (AWS)",
+  "title": "Software Development Engineer II - Builder Experience, GenAI, GenAI, Codex",
+  "role_type": "swe_backend",
+  "seniority": "entry",
+  "team_direction": "Amazon Web Services (AWS) is seeking an experienced Software Development Engineer II to join the CRUX team within the Software Builder Experience organization",
+  "tech_required": [
+    "C++",
+    "Java",
+    "Embedded"
+  ],
+  "tech_preferred": [
+    "Scala",
+    "Code Review"
+  ],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/review.json",
+  "historical": {
+    "official_score": 95.1,
+    "official_verdict": "pass",
+    "official_notes": [
+      "Old report baseline only; official and Claude largely converged on this case.",
+      "Shared themes in the old report: mild concern about senior/backend ownership framing, formatting cleanup, and denser C++ or Embedded evidence."
+    ],
+    "claude_score": 94.5,
+    "claude_verdict": "pass",
+    "claude_notes": [
+      "Mild concern about senior/backend ownership framing.",
+      "Formatting cleanup suggestions.",
+      "C++ or Embedded evidence could be denser."
+    ],
+    "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+  },
+  "portfolio_review": {
+    "weighted_score": 95.3,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [
+      "把 Summary 第3句标题改成更高信号的认知标签，例如 `Systems Judgment` 或 `Pattern Recognition`，并保留 Go 2-dan 作为支撑证据。",
+      "在 TikTok 实习段补一句 workstream/rotation 说明，解释为什么同一段经历同时覆盖 backend、Embedded 和 RAG 两类工作。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 95.3,
+    "verdict": "pass",
+    "seed_label": "AWS Support Backend Anchor",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills / Summary / Experience",
+        "issue": "JD explicitly signals Rust in responsibilities and preferred stack, but the resume never shows Rust in Skills or bullets.",
+        "fix": "If the candidate actually used Rust, surface it in the most relevant infrastructure bullet (preferably the backend/reliability work) with the exact component and outcome; otherwise Rust remains a real screening gap for this JD."
+      },
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Summary + TikTok/DiDi Experience",
+        "issue": "Database Infrastructure is a specialized substrate role, but the resume only shows adjacent backend/data/platform work and no direct database-infrastructure artifact, such as HA, replication, query-path, storage-path, or production DB ownership.",
+        "fix": "Add one bullet in the most relevant role that names true database-infrastructure ownership, for example PostgreSQL HA/replication/recovery, query-path debugging, storage or lock/concurrency work, or production DB reliability validation.",
+        "note": "[结构性错配]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add a direct database-infrastructure bullet in the most relevant experience, not just adjacent backend/data work, and name the actual DB responsibility and outcome.",
+    "[MUST] Surface Rust only if it was truly used; otherwise this JD remains a language-signal gap.",
+    "[SHOULD] Shorten the Skills lines so each category stays under 14 words while keeping the same three categories.",
+    "[NICE] Reduce the all-percentage cadence in the newest experience by adding one scope or ownership clause to the strongest bullet."
+  ],
+  "revision_instructions": "[结构性错配] 优先在 TikTok 或 DiDi 里补一条真正的 database-infrastructure 证据：PostgreSQL HA/replication/recovery、query-path debugging、storage/lock/concurrency，或生产 DB reliability validation。若确实写过 Rust，把它放进同一条最相关 bullet，不要只放技能表；若没有 Rust 实操，这个 JD 仍然是明显弱匹配。最后把 Skills 三行压缩到每行 14 词以内，保留当前三类不变。"
+}

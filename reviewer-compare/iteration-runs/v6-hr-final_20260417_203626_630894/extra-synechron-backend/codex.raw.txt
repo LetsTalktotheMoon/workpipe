@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills section, `APIs` category",
+        "issue": "The category title `APIs` is too vague for a first-scan read and mixes unrelated items (`NoSQL`, `Gitlab Ci`, `Jenkins`, `Agile`). It reduces parsing clarity for a fullstack backend JD.",
+        "fix": "Rename this bucket to a more informative label such as `Delivery`, `Platform`, or split it into function-based buckets like `Data/Storage` and `CI/CD`."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rename the `APIs` skills bucket to a more specific category so the first scan reads as backend/fullstack rather than miscellaneous tooling.",
+    "[NICE] If you want cleaner ATS parsing, split `NoSQL`, `Jenkins`, `Gitlab Ci`, and `Agile` into function-based groups instead of one mixed bucket."
+  ],
+  "revision_instructions": ""
+}

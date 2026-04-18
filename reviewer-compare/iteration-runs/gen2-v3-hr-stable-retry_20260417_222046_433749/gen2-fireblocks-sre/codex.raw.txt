@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Summary 第1句",
+        "issue": "开头先写“Transitioning from data analysis to software engineering”，先讲转型再给角色定位，首屏的 backend / security 识别信号被削弱。",
+        "fix": "把首句改成角色方向优先的写法，先给出“Security-focused backend engineer”或“Backend/SRE-focused engineer”，再把转型背景放到句末或第二句。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 重写 Summary 第一句，改成角色方向和领域信号先行，避免“Transitioning from ...”抢占首屏。",
+    "[NICE] 如果要增强 senior SRE 叙事，把一个更强的系统/规模信号前置到首屏。"
+  ],
+  "revision_instructions": ""
+}

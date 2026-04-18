@@ -1,0 +1,81 @@
+{
+  "weighted_score": 71.5,
+  "overall_verdict": "fail",
+  "passed": false,
+  "critical_count": 0,
+  "high_count": 4,
+  "needs_revision": true,
+  "revision_priority": [
+    "Add genuine Scala, .NET, and explicit Algorithms evidence in the body and Skills; without that, this resume does not meet the Netflix JD.",
+    "Rewrite the Professional Summary into exactly 3 labeled sentences and move the ML/LLM/retrieval signal to the front.",
+    "Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary."
+  ],
+  "scores": {
+    "r0_authenticity": {
+      "score": 10.0,
+      "weight": 0.2,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r1_writing_standard": {
+      "score": 6.5,
+      "weight": 0.15,
+      "verdict": "fail",
+      "findings_count": 1
+    },
+    "r2_jd_fitness": {
+      "score": 4.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 3
+    },
+    "r3_overqualification": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r4_rationality": {
+      "score": 6.0,
+      "weight": 0.2,
+      "verdict": "fail",
+      "findings_count": 2
+    },
+    "r5_logic": {
+      "score": 9.0,
+      "weight": 0.1,
+      "verdict": "pass",
+      "findings_count": 0
+    },
+    "r6_competitiveness": {
+      "score": 7.5,
+      "weight": 0.05,
+      "verdict": "pass",
+      "findings_count": 0
+    }
+  },
+  "final_score": 71.5,
+  "verdict": "pending",
+  "seed_label": "LinkedIn MLE Foundation",
+  "route_mode": "reuse",
+  "revised": false,
+  "rewrite_adopted": false,
+  "content_changed": true,
+  "revision_instructions": "Keep the immutable company/title/date/location fields unchanged. Replace the current Professional Summary bullets with exactly 3 labeled sentences: 1) lead with ML/LLM/content-understanding or retrieval/evaluation fit, 2) summarize the strongest production systems evidence, 3) keep the Go competition line only as a judgment signal. Then surface real Scala and .NET usage in the most relevant work or project bullets and add them to Skills; if those technologies were not actually used, do not publish this version for Netflix. Add one concrete Algorithms bullet with measurable model, ranking, optimization, or evaluation tradeoffs in Temu or DiDi, and mirror that capability in Skills. Do not remove the existing ML, LLM, or Generative AI evidence; strengthen it.",
+  "rereview_version": "historical_rereview_v1",
+  "rereviewed_at": "2026-04-16T10:06:52",
+  "rereview_rounds": 0,
+  "rereview_revised": false,
+  "normalized_before_review": true,
+  "normalize_changes": [
+    "normalized_tiktok_title",
+    "normalized_go_summary",
+    "normalized_go_achievement",
+    "normalized_skills_layout",
+    "normalized_didi_scope_note",
+    "normalized_keyword_bolding"
+  ],
+  "deterministic_issue_codes_after": [],
+  "previous_final_score": 0.0,
+  "previous_verdict": ""
+}

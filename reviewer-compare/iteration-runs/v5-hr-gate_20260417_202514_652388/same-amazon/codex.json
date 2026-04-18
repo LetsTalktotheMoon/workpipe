@@ -1,0 +1,197 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:27:11",
+  "completed_at": "2026-04-17T20:28:12",
+  "duration_seconds": 61.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1-4 and related project bullets",
+          "issue": "正文中把限定性修饰词加粗了，例如 `team-maintained`、`intern-owned`、`team-owned`。这会分散技术和量化信号的注意力，且不符合只突出技术栈/结果的规则。",
+          "fix": "取消这些限定词的加粗，只保留技术名词、系统名词和量化结果加粗；如果需要强调 ownership，用句子本身表达，不用字体强调。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-030",
+          "severity": "medium",
+          "field": "Skills section first line",
+          "issue": "第一行是 `Programming`，没有先把 JD 的核心需求 `Machine Learning / LLM` 置于首屏。对 MLE II / AGI Customization 来说，这个排序削弱了第一眼匹配度。",
+          "fix": "把 `AI/ML` 提到 Skills 第一行，或拆成更前置的 `Machine Learning / LLM / RAG`，再放 `Programming`。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok · Security Experience bullets 1-4",
+          "issue": "同一段实习经历里用到了 4 种编程语言的使用级证据：Go、Python、Java、C++。虽然每条都有场景，但整体读起来像在堆栈展示，容易让人怀疑 intern scope 被写得过宽。",
+          "fix": "把这段收敛成 1-2 个主语言，其他语言只在确实是接口/集成/迁移需要时出现，并明确它们是支持性工作而不是主职责。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 收敛 TikTok 实习段的语言栈表述：保留 1-2 个主语言，把其余语言改写成支持性集成/适配工作，避免像四语言堆砌。",
+      "[MUST] 把 Skills 的首行改成 AI/ML / Machine Learning / LLM / RAG，让首屏直接对齐 MLE II / AGI Customization。",
+      "[SHOULD] 取消 `team-maintained`、`intern-owned`、`team-owned` 这类限定词的加粗，只保留技术和量化结果加粗。",
+      "[NICE] 若后续重排版，再顺手检查背景行里的 scope 数字是否保持视觉一致，但不要改不可变字段。"
+    ],
+    "revision_instructions": "保持不可变字段完全不动。优先重写 TikTok 实习段，让叙事像一个 intern 在同一条检索/评测链路上做了少数几项相关工作，而不是横跨 Go/Python/Java/C++ 的全栈展示；把不必要的语言收进支持性说明里。把 Skills 第一行改成 AI/ML 相关内容，直接对齐 Machine Learning / LLM / RAG。最后去掉限定词加粗，只保留技术名词和量化结果的加粗。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 97.3,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 收敛 TikTok 实习段的语言栈表述：保留 1-2 个主语言，把其余语言改写成支持性集成/适配工作，避免像四语言堆砌。",
+      "[MUST] 把 Skills 的首行改成 AI/ML / Machine Learning / LLM / RAG，让首屏直接对齐 MLE II / AGI Customization。",
+      "[SHOULD] 取消 `team-maintained`、`intern-owned`、`team-owned` 这类限定词的加粗，只保留技术和量化结果加粗。",
+      "[NICE] 若后续重排版，再顺手检查背景行里的 scope 数字是否保持视觉一致，但不要改不可变字段。"
+    ],
+    "revision_instructions": "保持不可变字段完全不动。优先重写 TikTok 实习段，让叙事像一个 intern 在同一条检索/评测链路上做了少数几项相关工作，而不是横跨 Go/Python/Java/C++ 的全栈展示；把不必要的语言收进支持性说明里。把 Skills 第一行改成 AI/ML 相关内容，直接对齐 Machine Learning / LLM / RAG。最后去掉限定词加粗，只保留技术名词和量化结果的加粗。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-4 and related project bullets",
+            "issue": "正文中把限定性修饰词加粗了，例如 `team-maintained`、`intern-owned`、`team-owned`。这会分散技术和量化信号的注意力，且不符合只突出技术栈/结果的规则。",
+            "fix": "取消这些限定词的加粗，只保留技术名词、系统名词和量化结果加粗；如果需要强调 ownership，用句子本身表达，不用字体强调。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-030",
+            "severity": "medium",
+            "field": "Skills section first line",
+            "issue": "第一行是 `Programming`，没有先把 JD 的核心需求 `Machine Learning / LLM` 置于首屏。对 MLE II / AGI Customization 来说，这个排序削弱了第一眼匹配度。",
+            "fix": "把 `AI/ML` 提到 Skills 第一行，或拆成更前置的 `Machine Learning / LLM / RAG`，再放 `Programming`。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok · Security Experience bullets 1-4",
+            "issue": "同一段实习经历里用到了 4 种编程语言的使用级证据：Go、Python、Java、C++。虽然每条都有场景，但整体读起来像在堆栈展示，容易让人怀疑 intern scope 被写得过宽。",
+            "fix": "把这段收敛成 1-2 个主语言，其他语言只在确实是接口/集成/迁移需要时出现，并明确它们是支持性工作而不是主职责。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 收敛 TikTok 实习段的语言栈表述：保留 1-2 个主语言，把其余语言改写成支持性集成/适配工作，避免像四语言堆砌。",
+        "[MUST] 把 Skills 的首行改成 AI/ML / Machine Learning / LLM / RAG，让首屏直接对齐 MLE II / AGI Customization。",
+        "[SHOULD] 取消 `team-maintained`、`intern-owned`、`team-owned` 这类限定词的加粗，只保留技术和量化结果加粗。",
+        "[NICE] 若后续重排版，再顺手检查背景行里的 scope 数字是否保持视觉一致，但不要改不可变字段。"
+      ],
+      "revision_instructions": "保持不可变字段完全不动。优先重写 TikTok 实习段，让叙事像一个 intern 在同一条检索/评测链路上做了少数几项相关工作，而不是横跨 Go/Python/Java/C++ 的全栈展示；把不必要的语言收进支持性说明里。把 Skills 第一行改成 AI/ML 相关内容，直接对齐 Machine Learning / LLM / RAG。最后去掉限定词加粗，只保留技术名词和量化结果的加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1-4 and related project bullets",
+          "issue": "正文中把限定性修饰词加粗了，例如 `team-maintained`、`intern-owned`、`team-owned`。这会分散技术和量化信号的注意力，且不符合只突出技术栈/结果的规则。",
+          "fix": "取消这些限定词的加粗，只保留技术名词、系统名词和量化结果加粗；如果需要强调 ownership，用句子本身表达，不用字体强调。"
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok · Security Experience bullets 1-4",
+          "issue": "同一段实习经历里用到了 4 种编程语言的使用级证据：Go、Python、Java、C++。虽然每条都有场景，但整体读起来像在堆栈展示，容易让人怀疑 intern scope 被写得过宽。",
+          "fix": "把这段收敛成 1-2 个主语言，其他语言只在确实是接口/集成/迁移需要时出现，并明确它们是支持性工作而不是主职责。"
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-030",
+          "severity": "medium",
+          "field": "Skills section first line",
+          "issue": "第一行是 `Programming`，没有先把 JD 的核心需求 `Machine Learning / LLM` 置于首屏。对 MLE II / AGI Customization 来说，这个排序削弱了第一眼匹配度。",
+          "fix": "把 `AI/ML` 提到 Skills 第一行，或拆成更前置的 `Machine Learning / LLM / RAG`，再放 `Programming`。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-030"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3C-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-030",
+      "P3C-010"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ TikTok · Security Experience bullets 1-4"
+    ]
+  }
+}

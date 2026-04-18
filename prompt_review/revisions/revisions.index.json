@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "project_prompt_review",
+  "head_revision_id": "rev-20260415T014022-0002",
+  "revisions": [
+    {
+      "revision_id": "rev-20260415T014022-0001",
+      "timestamp": "2026-04-15T01:40:22-05:00",
+      "parent_revision_id": "",
+      "edited_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/revisions/rev-20260415T014022-0001.json",
+      "patch_ids": [],
+      "trigger": "canonical_reseed_from_legacy",
+      "group_count": 39,
+      "block_count": 284
+    },
+    {
+      "revision_id": "rev-20260415T014022-0002",
+      "timestamp": "2026-04-15T01:40:22-05:00",
+      "parent_revision_id": "rev-20260415T014022-0001",
+      "edited_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/prompt_review/revisions/rev-20260415T014022-0002.json",
+      "patch_ids": [
+        "patch-20260415T014022-0001"
+      ],
+      "trigger": "user_save"
+    }
+  ]
+}

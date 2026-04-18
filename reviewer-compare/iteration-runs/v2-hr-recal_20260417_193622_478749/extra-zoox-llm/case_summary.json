@@ -1,0 +1,334 @@
+{
+  "label": "extra/Zoox-LLM",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/Zoox-LLM",
+    "company": "Zoox",
+    "title": "Machine Learning Engineer, 3D Simulation",
+    "role_type": "mle",
+    "seniority": "senior",
+    "team_direction": "Zoox is developing the first ground-up, fully autonomous vehicle fleet and the supporting ecosystem required to bring this technology to market",
+    "tech_required": [
+      "C++",
+      "Python"
+    ],
+    "tech_preferred": [
+      "Scala",
+      "Distributed Systems",
+      "Machine Learning"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 93.5,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": true,
+      "revision_priority": [
+        "Normalize the Skills section so every category has 4-8 items, especially the sparse `Cloud & Delivery` bucket.",
+        "Strengthen the connection to Zoox's `3D Simulation` work by making the replay/validation story more explicit in the Summary and first internship bullets."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.4,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 93.5,
+      "verdict": "pass",
+      "seed_label": "Amazon AGI/LLM Anchor",
+      "route_mode": "retarget",
+      "revised": false,
+      "repaired_at": "2026-04-07T16:57:56",
+      "repair_changes": [
+        "normalized_go_achievement",
+        "normalized_didi_scope_note"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T19:41:32",
+    "completed_at": "2026-04-17T19:42:16",
+    "duration_seconds": 44.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Summary 第三句 `**Technical Range:**`",
+            "issue": "这个标题只有“宽度”信息，没有把第三句做成更强的认知/判断力信号；首屏读起来偏泛。",
+            "fix": "把第三句标题改成更具体的系统判断类 framing，例如 `**Systems judgment:**`、`**Architecture depth:**` 或 `**Production rigor:**`，并让后半句继续围绕可靠性、取舍或落地质量展开。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok · Security Experience 全段",
+            "issue": "这一段把 Go、Python、C++、Java、gRPC、PyTorch、Docker、Kubernetes、Kafka 同时堆进一个 6 个月 intern 经历里，像是在展示栈广度而不是清晰 ownership；招聘方会怀疑哪些技术是主责、哪些只是协作接触。",
+            "fix": "收敛为 1-2 个主语言和 1 个主系统边界，把其他技术降为配合背景；每条 bullet 只保留你真正独立实现/优化的部分，并明确哪些是 paired work、哪些是团队现有系统上的增量。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security Experience 前两条 bullet",
+            "issue": "最新相关经历主要是百分比提升和延迟改善，但缺少更强的 tier1 scope 锚点，例如事件量、QPS、服务规模、团队边界或每日处理量；首条 bullet 也偏结果而非规模。",
+            "fix": "补一条具体 scope 信息到最相关的 TikTok bullet 里，例如每秒请求量、日事件量、服务数、review 流水线覆盖范围或 team-owned surface area，再保留 1 个高质量结果指标。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 收敛 TikTok intern 段的技术栈展示，避免 4 种编程语言 + 多个基础设施/ML 框架同时铺开，改成更清晰的主责叙事。",
+        "[MUST] 给 TikTok 最新经历补一个可追问的规模/scope 锚点，让最上方经验不只是百分比结果，而是系统边界 + 结果一起成立。",
+        "[SHOULD] 把 Summary 第三句的 `Technical Range` 换成更具体的系统判断类标题。",
+        "[NICE] 如果要更贴 Zoox 的 3D simulation 方向，可以在 replay sandbox 项目里再强化“simulation / evaluation infrastructure”的表述。"
+      ],
+      "revision_instructions": "[MUST] 把 TikTok · Security 这一段改成“少而准”的 ownership 叙事：保留 1-2 个主语言和 1 个主系统边界，其余技术只在确实有独立实现时保留。不要把 Go/Python/C++/Java/PyTorch/Docker/Kubernetes/Kafka 全部平铺成主工作栈。 [MUST] 在 TikTok 最相关的 1-2 条 bullet 里补一个可追问的规模或 scope 锚点（如事件量、QPS、服务数、处理链路覆盖范围、团队边界），让结果指标有上下文支撑。 [SHOULD] 将 Summary 第三句从泛化的 `Technical Range` 改成更具体的系统判断类 framing，并让句子继续围绕生产落地、取舍或架构判断展开。 [NICE] 如需更贴 Zoox 3D simulation JD，可把 replay sandbox 项目进一步写成 simulation/evaluation infrastructure，而不是只写成通用 replay 工具。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 96.8,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 收敛 TikTok intern 段的技术栈展示，避免 4 种编程语言 + 多个基础设施/ML 框架同时铺开，改成更清晰的主责叙事。",
+        "[MUST] 给 TikTok 最新经历补一个可追问的规模/scope 锚点，让最上方经验不只是百分比结果，而是系统边界 + 结果一起成立。",
+        "[SHOULD] 把 Summary 第三句的 `Technical Range` 换成更具体的系统判断类标题。",
+        "[NICE] 如果要更贴 Zoox 的 3D simulation 方向，可以在 replay sandbox 项目里再强化“simulation / evaluation infrastructure”的表述。"
+      ],
+      "revision_instructions": "[MUST] 把 TikTok · Security 这一段改成“少而准”的 ownership 叙事：保留 1-2 个主语言和 1 个主系统边界，其余技术只在确实有独立实现时保留。不要把 Go/Python/C++/Java/PyTorch/Docker/Kubernetes/Kafka 全部平铺成主工作栈。 [MUST] 在 TikTok 最相关的 1-2 条 bullet 里补一个可追问的规模或 scope 锚点（如事件量、QPS、服务数、处理链路覆盖范围、团队边界），让结果指标有上下文支撑。 [SHOULD] 将 Summary 第三句从泛化的 `Technical Range` 改成更具体的系统判断类 framing，并让句子继续围绕生产落地、取舍或架构判断展开。 [NICE] 如需更贴 Zoox 3D simulation JD，可把 replay sandbox 项目进一步写成 simulation/evaluation infrastructure，而不是只写成通用 replay 工具。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-010",
+              "severity": "medium",
+              "field": "Summary 第三句 `**Technical Range:**`",
+              "issue": "这个标题只有“宽度”信息，没有把第三句做成更强的认知/判断力信号；首屏读起来偏泛。",
+              "fix": "把第三句标题改成更具体的系统判断类 framing，例如 `**Systems judgment:**`、`**Architecture depth:**` 或 `**Production rigor:**`，并让后半句继续围绕可靠性、取舍或落地质量展开。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "TikTok · Security Experience 全段",
+              "issue": "这一段把 Go、Python、C++、Java、gRPC、PyTorch、Docker、Kubernetes、Kafka 同时堆进一个 6 个月 intern 经历里，像是在展示栈广度而不是清晰 ownership；招聘方会怀疑哪些技术是主责、哪些只是协作接触。",
+              "fix": "收敛为 1-2 个主语言和 1 个主系统边界，把其他技术降为配合背景；每条 bullet 只保留你真正独立实现/优化的部分，并明确哪些是 paired work、哪些是团队现有系统上的增量。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok · Security Experience 前两条 bullet",
+              "issue": "最新相关经历主要是百分比提升和延迟改善，但缺少更强的 tier1 scope 锚点，例如事件量、QPS、服务规模、团队边界或每日处理量；首条 bullet 也偏结果而非规模。",
+              "fix": "补一条具体 scope 信息到最相关的 TikTok bullet 里，例如每秒请求量、日事件量、服务数、review 流水线覆盖范围或 team-owned surface area，再保留 1 个高质量结果指标。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 收敛 TikTok intern 段的技术栈展示，避免 4 种编程语言 + 多个基础设施/ML 框架同时铺开，改成更清晰的主责叙事。",
+          "[MUST] 给 TikTok 最新经历补一个可追问的规模/scope 锚点，让最上方经验不只是百分比结果，而是系统边界 + 结果一起成立。",
+          "[SHOULD] 把 Summary 第三句的 `Technical Range` 换成更具体的系统判断类标题。",
+          "[NICE] 如果要更贴 Zoox 的 3D simulation 方向，可以在 replay sandbox 项目里再强化“simulation / evaluation infrastructure”的表述。"
+        ],
+        "revision_instructions": "[MUST] 把 TikTok · Security 这一段改成“少而准”的 ownership 叙事：保留 1-2 个主语言和 1 个主系统边界，其余技术只在确实有独立实现时保留。不要把 Go/Python/C++/Java/PyTorch/Docker/Kubernetes/Kafka 全部平铺成主工作栈。 [MUST] 在 TikTok 最相关的 1-2 条 bullet 里补一个可追问的规模或 scope 锚点（如事件量、QPS、服务数、处理链路覆盖范围、团队边界），让结果指标有上下文支撑。 [SHOULD] 将 Summary 第三句从泛化的 `Technical Range` 改成更具体的系统判断类 framing，并让句子继续围绕生产落地、取舍或架构判断展开。 [NICE] 如需更贴 Zoox 3D simulation JD，可把 replay sandbox 项目进一步写成 simulation/evaluation infrastructure，而不是只写成通用 replay 工具。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok · Security Experience 全段",
+            "issue": "这一段把 Go、Python、C++、Java、gRPC、PyTorch、Docker、Kubernetes、Kafka 同时堆进一个 6 个月 intern 经历里，像是在展示栈广度而不是清晰 ownership；招聘方会怀疑哪些技术是主责、哪些只是协作接触。",
+            "fix": "收敛为 1-2 个主语言和 1 个主系统边界，把其他技术降为配合背景；每条 bullet 只保留你真正独立实现/优化的部分，并明确哪些是 paired work、哪些是团队现有系统上的增量。"
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Summary 第三句 `**Technical Range:**`",
+            "issue": "这个标题只有“宽度”信息，没有把第三句做成更强的认知/判断力信号；首屏读起来偏泛。",
+            "fix": "把第三句标题改成更具体的系统判断类 framing，例如 `**Systems judgment:**`、`**Architecture depth:**` 或 `**Production rigor:**`，并让后半句继续围绕可靠性、取舍或落地质量展开。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security Experience 前两条 bullet",
+            "issue": "最新相关经历主要是百分比提升和延迟改善，但缺少更强的 tier1 scope 锚点，例如事件量、QPS、服务规模、团队边界或每日处理量；首条 bullet 也偏结果而非规模。",
+            "fix": "补一条具体 scope 信息到最相关的 TikTok bullet 里，例如每秒请求量、日事件量、服务数、review 流水线覆盖范围或 team-owned surface area，再保留 1 个高质量结果指标。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-010"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3C-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-010",
+        "P3C-010",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3C-010 @ TikTok · Security Experience 全段"
+      ]
+    }
+  }
+}

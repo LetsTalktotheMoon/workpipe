@@ -1,0 +1,223 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:25:42",
+  "completed_at": "2026-04-17T23:26:47",
+  "duration_seconds": 65.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary - first sentence",
+          "issue": "开头仍然偏“analytics-to-engineering profile”的转型叙事，首屏角色锚点不够直接，HR 6-8 秒扫读时更像在读经历背景而不是明确的后端候选人定位。",
+          "fix": "把第一句改成更直接的角色方向句，例如 `Backend engineer:` 开头，并把 `Go / SQL / distributed systems` 放进同一句里，减少“转型”措辞。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills - Cloud / Summary",
+          "issue": "JD 必须项 `Distributed Systems` 只被间接暗示为 `distributed service environment`，没有被明确写进 Skills，ATS 解析时会丢失一个核心匹配词。",
+          "fix": "在 Skills 中显式补上 `Distributed Systems`，并在最相关的后端经历 bullet 里再落一次同词证据，确保不是只靠 `Microservices` 近义覆盖。"
+        },
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary / TikTok、DiDi 首屏 bullets",
+          "issue": "简历目前能证明后端和数据系统能力，但没有把这些经历和 FlexTrade 的 `high performance execution / order management` 方向桥接起来，读起来像通用后端而不是面向交易/低延迟业务的候选人。",
+          "fix": "在 Summary 或最前面的工作 bullet 增加一条迁移桥接句，把你的工作明确写成 `latency-sensitive`, `release-controlled`, `distributed service` 场景下的后端交付，而不是只停留在通用业务系统叙事。"
+        },
+        {
+          "rule_id": "P3E-013",
+          "sub_area": "3E",
+          "severity": "medium",
+          "field": "TikTok · Security - bullet 2",
+          "issue": "`AWS Bedrock` + `RAG` 出现在 Security 团队语境里本身不违规，但当前写法没有明确 `internal evaluation` / `sandbox` / `no user data` / `no production data` 边界，容易让 HR 误读为触碰受保护数据边界。",
+          "fix": "如果属实，在这条 bullet 里补上明确边界限定语，例如 `internal evaluation workflow`, `sandbox`, `no user data involved`; 如果不方便写细节，就把表述收窄到内部评测和文档检索，不要让人联想到生产数据外传。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在 Skills 和最相关的后端 bullet 中显式补出 `Distributed Systems`，不要只靠 `Microservices` / `distributed service environment` 近义覆盖。",
+      "[MUST] 重写 Summary 第一行，改成角色先行的后端定位，去掉过重的 `analytics-to-engineering` 转型开场。",
+      "[SHOULD] 补一条面向 FlexTrade 的桥接句，把你的经历明确映射到 `latency-sensitive`, `release-controlled`, `distributed` 后端场景。",
+      "[SHOULD] 视真实情况为 TikTok 的 Bedrock/RAG bullet 加上 `internal evaluation` / `sandbox` / `no user data` 之类边界限定。"
+    ],
+    "revision_instructions": "把首屏改得更像后端候选人而不是转型叙事：Summary 第一行直接写 `Backend engineer`，并把 `Go / SQL / Distributed Systems` 放在同一句里。其次，把 `Distributed Systems` 作为显式关键词加入 Skills，并在最强的 TikTok 或 DiDi bullet 再写一次同词证据。再补一条面向 FlexTrade 的桥接句，明确你做的是 `latency-sensitive`、`release-controlled`、`distributed` 后端系统，而不是泛业务系统。最后，如果 TikTok 的 Bedrock/RAG 确实只用于内部评测或无用户数据场景，就把边界限定语写出来。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 7.5,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 9.5,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 90.6,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在 Skills 和最相关的后端 bullet 中显式补出 `Distributed Systems`，不要只靠 `Microservices` / `distributed service environment` 近义覆盖。",
+      "[MUST] 重写 Summary 第一行，改成角色先行的后端定位，去掉过重的 `analytics-to-engineering` 转型开场。",
+      "[SHOULD] 补一条面向 FlexTrade 的桥接句，把你的经历明确映射到 `latency-sensitive`, `release-controlled`, `distributed` 后端场景。",
+      "[SHOULD] 视真实情况为 TikTok 的 Bedrock/RAG bullet 加上 `internal evaluation` / `sandbox` / `no user data` 之类边界限定。"
+    ],
+    "revision_instructions": "把首屏改得更像后端候选人而不是转型叙事：Summary 第一行直接写 `Backend engineer`，并把 `Go / SQL / Distributed Systems` 放在同一句里。其次，把 `Distributed Systems` 作为显式关键词加入 Skills，并在最强的 TikTok 或 DiDi bullet 再写一次同词证据。再补一条面向 FlexTrade 的桥接句，明确你做的是 `latency-sensitive`、`release-controlled`、`distributed` 后端系统，而不是泛业务系统。最后，如果 TikTok 的 Bedrock/RAG 确实只用于内部评测或无用户数据场景，就把边界限定语写出来。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary - first sentence",
+            "issue": "开头仍然偏“analytics-to-engineering profile”的转型叙事，首屏角色锚点不够直接，HR 6-8 秒扫读时更像在读经历背景而不是明确的后端候选人定位。",
+            "fix": "把第一句改成更直接的角色方向句，例如 `Backend engineer:` 开头，并把 `Go / SQL / distributed systems` 放进同一句里，减少“转型”措辞。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills - Cloud / Summary",
+            "issue": "JD 必须项 `Distributed Systems` 只被间接暗示为 `distributed service environment`，没有被明确写进 Skills，ATS 解析时会丢失一个核心匹配词。",
+            "fix": "在 Skills 中显式补上 `Distributed Systems`，并在最相关的后端经历 bullet 里再落一次同词证据，确保不是只靠 `Microservices` 近义覆盖。"
+          },
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary / TikTok、DiDi 首屏 bullets",
+            "issue": "简历目前能证明后端和数据系统能力，但没有把这些经历和 FlexTrade 的 `high performance execution / order management` 方向桥接起来，读起来像通用后端而不是面向交易/低延迟业务的候选人。",
+            "fix": "在 Summary 或最前面的工作 bullet 增加一条迁移桥接句，把你的工作明确写成 `latency-sensitive`, `release-controlled`, `distributed service` 场景下的后端交付，而不是只停留在通用业务系统叙事。"
+          },
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok · Security - bullet 2",
+            "issue": "`AWS Bedrock` + `RAG` 出现在 Security 团队语境里本身不违规，但当前写法没有明确 `internal evaluation` / `sandbox` / `no user data` / `no production data` 边界，容易让 HR 误读为触碰受保护数据边界。",
+            "fix": "如果属实，在这条 bullet 里补上明确边界限定语，例如 `internal evaluation workflow`, `sandbox`, `no user data involved`; 如果不方便写细节，就把表述收窄到内部评测和文档检索，不要让人联想到生产数据外传。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在 Skills 和最相关的后端 bullet 中显式补出 `Distributed Systems`，不要只靠 `Microservices` / `distributed service environment` 近义覆盖。",
+        "[MUST] 重写 Summary 第一行，改成角色先行的后端定位，去掉过重的 `analytics-to-engineering` 转型开场。",
+        "[SHOULD] 补一条面向 FlexTrade 的桥接句，把你的经历明确映射到 `latency-sensitive`, `release-controlled`, `distributed` 后端场景。",
+        "[SHOULD] 视真实情况为 TikTok 的 Bedrock/RAG bullet 加上 `internal evaluation` / `sandbox` / `no user data` 之类边界限定。"
+      ],
+      "revision_instructions": "把首屏改得更像后端候选人而不是转型叙事：Summary 第一行直接写 `Backend engineer`，并把 `Go / SQL / Distributed Systems` 放在同一句里。其次，把 `Distributed Systems` 作为显式关键词加入 Skills，并在最强的 TikTok 或 DiDi bullet 再写一次同词证据。再补一条面向 FlexTrade 的桥接句，明确你做的是 `latency-sensitive`、`release-controlled`、`distributed` 后端系统，而不是泛业务系统。最后，如果 TikTok 的 Bedrock/RAG 确实只用于内部评测或无用户数据场景，就把边界限定语写出来。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills - Cloud / Summary",
+          "issue": "JD 必须项 `Distributed Systems` 只被间接暗示为 `distributed service environment`，没有被明确写进 Skills，ATS 解析时会丢失一个核心匹配词。",
+          "fix": "在 Skills 中显式补上 `Distributed Systems`，并在最相关的后端经历 bullet 里再落一次同词证据，确保不是只靠 `Microservices` 近义覆盖。"
+        },
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary / TikTok、DiDi 首屏 bullets",
+          "issue": "简历目前能证明后端和数据系统能力，但没有把这些经历和 FlexTrade 的 `high performance execution / order management` 方向桥接起来，读起来像通用后端而不是面向交易/低延迟业务的候选人。",
+          "fix": "在 Summary 或最前面的工作 bullet 增加一条迁移桥接句，把你的工作明确写成 `latency-sensitive`, `release-controlled`, `distributed service` 场景下的后端交付，而不是只停留在通用业务系统叙事。"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary - first sentence",
+          "issue": "开头仍然偏“analytics-to-engineering profile”的转型叙事，首屏角色锚点不够直接，HR 6-8 秒扫读时更像在读经历背景而不是明确的后端候选人定位。",
+          "fix": "把第一句改成更直接的角色方向句，例如 `Backend engineer:` 开头，并把 `Go / SQL / distributed systems` 放进同一句里，减少“转型”措辞。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [
+        {
+          "rule_id": "P3E-013",
+          "sub_area": "3E",
+          "severity": "medium",
+          "field": "TikTok · Security - bullet 2",
+          "issue": "`AWS Bedrock` + `RAG` 出现在 Security 团队语境里本身不违规，但当前写法没有明确 `internal evaluation` / `sandbox` / `no user data` / `no production data` 边界，容易让 HR 误读为触碰受保护数据边界。",
+          "fix": "如果属实，在这条 bullet 里补上明确边界限定语，例如 `internal evaluation workflow`, `sandbox`, `no user data involved`; 如果不方便写细节，就把表述收窄到内部评测和文档检索，不要让人联想到生产数据外传。"
+        }
+      ],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-001",
+          "P3B-003",
+          "P3E-013"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3B-001",
+      "P3B-003",
+      "P3E-013"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills - Cloud / Summary"
+    ]
+  }
+}

@@ -1,0 +1,1126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>match_pipe 多层级匹配系统评估整理</title>
+  <style>
+    :root {
+      --bg: #f3efe7;
+      --panel: rgba(255,255,255,0.82);
+      --panel-strong: #fffdf8;
+      --ink: #1c1c1a;
+      --muted: #5e5b57;
+      --line: rgba(28,28,26,0.12);
+      --accent: #9d3b2f;
+      --accent-soft: rgba(157,59,47,0.10);
+      --ok: #216869;
+      --warn: #8a5a00;
+      --shadow: 0 16px 48px rgba(28, 28, 26, 0.10);
+      --radius: 18px;
+      --mono: "SFMono-Regular", "Consolas", "Menlo", monospace;
+      --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      --sans: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(157,59,47,0.16), transparent 28rem),
+        radial-gradient(circle at 85% 20%, rgba(33,104,105,0.14), transparent 24rem),
+        linear-gradient(180deg, #f8f3eb 0%, #efe7da 48%, #f4efe7 100%);
+      line-height: 1.65;
+    }
+    .page {
+      width: min(1180px, calc(100vw - 32px));
+      margin: 28px auto 80px;
+    }
+    .hero {
+      background: linear-gradient(145deg, rgba(255,253,248,0.90), rgba(255,255,255,0.74));
+      border: 1px solid rgba(28,28,26,0.08);
+      border-radius: 28px;
+      padding: 34px 34px 28px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -60px;
+      top: -80px;
+      width: 280px;
+      height: 280px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(157,59,47,0.16), rgba(157,59,47,0.02) 70%, transparent 72%);
+      pointer-events: none;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(157,59,47,0.12);
+    }
+    h1, h2, h3 {
+      font-family: var(--serif);
+      line-height: 1.15;
+      margin: 0;
+    }
+    h1 {
+      margin-top: 14px;
+      font-size: clamp(34px, 4vw, 52px);
+      letter-spacing: -0.03em;
+      max-width: 10em;
+    }
+    .subtitle {
+      margin-top: 14px;
+      max-width: 70ch;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .top-meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .meta-card {
+      background: rgba(255,255,255,0.66);
+      border: 1px solid rgba(28,28,26,0.08);
+      border-radius: 16px;
+      padding: 14px 16px;
+    }
+    .meta-card .k {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .meta-card .v {
+      margin-top: 6px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: 22px;
+      margin-top: 24px;
+      align-items: start;
+    }
+    .toc {
+      position: sticky;
+      top: 18px;
+      background: rgba(255,253,248,0.82);
+      border: 1px solid rgba(28,28,26,0.08);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+    .toc h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .toc a {
+      display: block;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 7px 0;
+      border-bottom: 1px solid rgba(28,28,26,0.06);
+      font-size: 14px;
+    }
+    .toc a:last-child { border-bottom: 0; }
+    .toc a:hover { color: var(--accent); }
+    .content {
+      display: grid;
+      gap: 18px;
+    }
+    .section {
+      background: var(--panel);
+      border: 1px solid rgba(28,28,26,0.08);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+    .section h2 {
+      font-size: 30px;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    .section h3 {
+      font-size: 22px;
+      margin-top: 18px;
+      margin-bottom: 10px;
+    }
+    p { margin: 10px 0 0; }
+    ul, ol { margin: 10px 0 0 20px; }
+    li + li { margin-top: 5px; }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 22px 0;
+    }
+    code {
+      font-family: var(--mono);
+      background: rgba(28,28,26,0.06);
+      padding: 0.14em 0.38em;
+      border-radius: 6px;
+      font-size: 0.94em;
+    }
+    pre {
+      margin: 14px 0 0;
+      padding: 18px;
+      overflow: auto;
+      border-radius: 16px;
+      background: #171715;
+      color: #f8f3eb;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
+    }
+    pre code {
+      background: transparent;
+      padding: 0;
+      color: inherit;
+    }
+    .note, .risk, .success {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid transparent;
+    }
+    .note {
+      background: rgba(33,104,105,0.08);
+      border-color: rgba(33,104,105,0.14);
+    }
+    .risk {
+      background: rgba(138,90,0,0.09);
+      border-color: rgba(138,90,0,0.18);
+    }
+    .success {
+      background: rgba(52,114,60,0.09);
+      border-color: rgba(52,114,60,0.18);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 14px;
+      background: var(--panel-strong);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    th, td {
+      border-bottom: 1px solid rgba(28,28,26,0.08);
+      padding: 12px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: rgba(28,28,26,0.04);
+      font-weight: 700;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .mini {
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.74);
+      border: 1px solid rgba(28,28,26,0.08);
+    }
+    .mini .label {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .mini .value {
+      margin-top: 8px;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    .footer {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    @media (max-width: 980px) {
+      .layout { grid-template-columns: 1fr; }
+      .toc { position: relative; top: 0; }
+    }
+    @media (max-width: 640px) {
+      .page { width: min(100vw - 18px, 100%); margin-top: 10px; }
+      .hero, .section { padding: 18px; border-radius: 18px; }
+      table { display: block; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <div class="eyebrow">match_pipe Review</div>
+      <h1>多层级匹配系统评估整理</h1>
+      <p class="subtitle">这是一份把本次聊天中已经确认的结论、规则、指标、公式表和 Disney JD 示例整理为浏览器可读文档的页面。省略了命令行指令与中间推理，仅保留你真正需要复查的内容。</p>
+      <div class="top-meta">
+        <div class="meta-card">
+          <div class="k">更新时间</div>
+          <div class="v">2026-04-12</div>
+        </div>
+        <div class="meta-card">
+          <div class="k">核心主题</div>
+          <div class="v">规则系统、benchmark、公式、案例分析</div>
+        </div>
+        <div class="meta-card">
+          <div class="k">当前重点</div>
+          <div class="v">benchmark 纯度、must/preferred、parent-child 风险</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="layout">
+      <nav class="toc">
+        <h2>目录</h2>
+        <a href="#sec-1">一、系统结论</a>
+        <a href="#sec-2">二、系统主流程</a>
+        <a href="#sec-3">三、训练设计</a>
+        <a href="#sec-4">四、指标体系</a>
+        <a href="#sec-5">五、指标风险</a>
+        <a href="#sec-6">六、benchmark 结果</a>
+        <a href="#sec-7">七、Student 蒸馏</a>
+        <a href="#sec-8">八、打分公式</a>
+        <a href="#sec-9">九、Disney JD 匹配路径</a>
+        <a href="#sec-10">十、Disney JD requirement_units 表</a>
+        <a href="#sec-11">十一、下游业务观察</a>
+        <a href="#sec-12">十二、最终判断</a>
+        <a href="#sec-13">十三、附录A：第九部分 canonical 抽取逐项详解</a>
+        <a href="#sec-14">十四、附录B：第十部分 requirement_units 表逐字段释义与逐项判分说明</a>
+        <a href="#sec-15">十五、附录C：第十二部分三类风险的细化解释与案例映射</a>
+      </nav>
+
+      <main class="content">
+        <section class="section" id="sec-1">
+          <h2>一、系统结论</h2>
+          <p>当前 <code>match_pipe</code> 中“正在测试的多层级匹配系统”，核心可分为两层：</p>
+          <ol>
+            <li>纯语义匹配层：把 JD 结构化为 <code>requirement_units</code>，基于 unit 逻辑、层级、约束类型和语义召回进行候选检索与打分。</li>
+            <li>双通道 starter 选择层：在纯语义最优锚点之外，再单独保留“同公司连续性锚点”，供 downstream writer/planner 参考。</li>
+          </ol>
+          <p>从当前代码和报告看，这套设计已经不是简单关键词匹配，而是一个“结构化 requirement matching + 双通道复用”的系统。</p>
+        </section>
+
+        <section class="section" id="sec-2">
+          <h2>二、系统主流程</h2>
+          <h3>1. 新 JD 进入系统后的路径</h3>
+          <pre><code>新 JD / 新职位
+  -&gt; loader 读入 row/raw_text
+  -&gt; units.build_structured_job
+       - 文本切块
+       - alias 命中 taxonomy
+       - 识别 SINGLE / OR / AND / AT_LEAST_K / PARENT_ANY_CHILD
+       - 生成 requirement_units / pattern_signature / recall_keys
+  -&gt; MatchEngine._candidate_pool
+       - pattern_exact
+       - hard_unit
+       - hierarchy_expand
+       - combo
+       - 必要时 surface / fallback
+  -&gt; MatchEngine._score_candidate
+       - 逐 unit 打分
+       - 聚合 requirement_score / hard_requirement_score
+       - 对 hard requirement 缺口进行惩罚
+  -&gt; StarterSelector.select
+       - semantic_best_anchor
+       - semantic_positive_cluster
+       - company_best_anchor
+       - writer_input.primary_anchor / continuity_anchor
+  -&gt; downstream writer / planner</code></pre>
+
+          <h3>2. 当前匹配规则的核心</h3>
+          <ul>
+            <li>JD 会被拆成 title、summary、core skills、must-have、preferred、responsibilities、metadata 等块。</li>
+            <li>每个块会映射到 canonical ids。</li>
+            <li>系统显式识别逻辑关系：<code>SINGLE</code>、<code>OR</code>、<code>AND</code>、<code>AT_LEAST_K</code>、<code>PARENT_ANY_CHILD</code>。</li>
+            <li>每个 requirement unit 都有权重，<code>must_have &gt; strong_preference &gt; preferred &gt; background</code>。</li>
+            <li>召回时会结合 pattern exact、hard unit、hierarchy expand、combo、surface、same company。</li>
+            <li>冻结后的 <code>teacher_b_pure_semantic</code> 会关闭 <code>surface/same_company/duplicate/metadata</code> 的主导作用，用来审计“纯语义能力”。</li>
+          </ul>
+        </section>
+
+        <section class="section" id="sec-3">
+          <h2>三、训练设计</h2>
+          <p><code>match_pipe</code> 里的“训练”不是神经网络式训练，没有 <code>loss/epoch/val_loss</code>。它更接近一个工程化训练流程：</p>
+          <ol>
+            <li>构造 benchmark case</li>
+            <li>跑 teacher / student 检索</li>
+            <li>在 holdout 上评估</li>
+            <li>做小规模权重搜索 / 蒸馏</li>
+            <li>做 purity audit 和 freeze 判断</li>
+            <li>再做 downstream 流程验证</li>
+          </ol>
+
+          <h3>1. benchmark 分层</h3>
+          <ul>
+            <li><code>standard_cases</code>：偏“同公司、同标题、重复 JD”的旧世界命中。</li>
+            <li><code>hard_cases</code>：标题更泛化一点，但仍大量受 duplicate/same-company 影响。</li>
+            <li><code>rebuilt_hard_cases</code>：更纯语义的难例集，强调跨公司结构相似、OR/AND、parent-child、must vs preferred。</li>
+            <li><code>semantic_gold</code>：小规模高置信金标，带人工 adjudication 和边界案例。</li>
+          </ul>
+
+          <h3>2. teacher / student 关系</h3>
+          <ul>
+            <li><code>teacher_b_pure_semantic</code>：纯语义 teacher，用来定义真正的语义上限。</li>
+            <li><code>student</code>：在线检索的轻量近似器，用 teacher trace 做蒸馏。</li>
+          </ul>
+
+          <div class="note">训练的最终目标不是把单个指标刷高，而是同时满足：在 <code>rebuilt_hard</code> 和 <code>semantic_gold</code> 上稳定命中、能力主要来自语义而非 duplicate 偏置、并能转化为下游 writer/planner 的业务收益。</div>
+        </section>
+
+        <section class="section" id="sec-4">
+          <h2>四、指标体系</h2>
+          <h3>1. benchmark 层核心指标</h3>
+          <table>
+            <thead>
+              <tr><th>指标</th><th>含义</th><th>计算方式</th><th>主要用途</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>case_count</code></td><td>样本数</td><td><code>len(case_list)</code></td><td>给所有比例指标提供分母</td></tr>
+              <tr><td><code>hit_at_1</code></td><td>Top1 是否命中正例</td><td>最佳正例排名 <code>&lt;=1</code> 的比例</td><td>最核心检索指标</td></tr>
+              <tr><td><code>hit_at_3</code></td><td>Top3 是否包含正例</td><td>最佳正例排名 <code>&lt;=3</code> 的比例</td><td>看 rerank / fallback 空间</td></tr>
+              <tr><td><code>hit_at_5</code></td><td>Top5 是否包含正例</td><td>最佳正例排名 <code>&lt;=5</code> 的比例</td><td>看候选池是否包含可用解</td></tr>
+              <tr><td><code>mean_reciprocal_rank</code></td><td>平均倒数排名</td><td><code>mean(1/best_rank)</code>，未命中记 0</td><td>排名连续质量</td></tr>
+              <tr><td><code>median_positive_rank</code></td><td>正例中位排名</td><td>正例最佳 rank 的中位数</td><td>抗极端值</td></tr>
+              <tr><td><code>avg_runtime_ms</code></td><td>平均耗时</td><td>每条 query 平均耗时</td><td>部署成本</td></tr>
+              <tr><td><code>avg_candidate_pool_size</code></td><td>平均候选池大小</td><td>候选池规模均值</td><td>看召回宽度和噪音</td></tr>
+              <tr><td><code>misses</code></td><td>失败样本列表</td><td>TopK 未命中的案例</td><td>误差分析</td></tr>
+            </tbody>
+          </table>
+
+          <h3>2. benchmark 质量审计指标</h3>
+          <table>
+            <thead>
+              <tr><th>指标</th><th>含义</th><th>主要风险</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>same_company_positive_ratio</code></td><td>正例中同公司的比例</td><td>过高说明 benchmark 被公司偏置污染</td></tr>
+              <tr><td><code>exact_title_positive_ratio</code></td><td>正例中 exact title 的比例</td><td>过高说明 benchmark 只是标题重复命中</td></tr>
+            </tbody>
+          </table>
+
+          <h3>3. category 指标</h3>
+          <p>这组指标不是看整体命中率，而是看“哪类规则最脆弱”。典型类别包括 <code>or_and_mixed</code>、<code>must_vs_preferred_confusing</code>、<code>parent_child_conflict</code>、<code>title_same_business_different</code> 和 <code>cross_company_structure_similar</code>。</p>
+        </section>
+
+        <section class="section" id="sec-5">
+          <h2>五、指标风险</h2>
+          <div class="risk">
+            旧 benchmark 的高分不等于纯语义强。<code>standard</code> 与 <code>hard</code> 两层大量受 same-company 和 exact-title 影响，如果只看这些分数，很容易高估系统的真实能力。
+          </div>
+          <h3>1. 旧 benchmark 高分不代表纯语义强</h3>
+          <ul>
+            <li><code>standard.same_company_positive_ratio = 1.0</code></li>
+            <li><code>hard.same_company_positive_ratio = 1.0</code></li>
+            <li><code>standard.exact_title_positive_ratio = 1.0</code></li>
+            <li><code>hard.exact_title_positive_ratio = 1.0</code></li>
+          </ul>
+          <p>这意味着旧 benchmark 很容易被“同公司 + 同标题 + repost duplicate”刷高。</p>
+
+          <h3>2. rebuilt_hard / semantic_gold 更可信，但样本偏小</h3>
+          <ul>
+            <li><code>rebuilt_hard_case_count = 33</code></li>
+            <li><code>semantic_gold.case_count = 29</code></li>
+          </ul>
+
+          <h3>3. <code>median_positive_rank=1</code> 很容易造成错觉</h3>
+          <p>如果一半以上样本都排在第一，<code>median_positive_rank</code> 就会等于 1。它会掩盖长尾失败，不能单独作为“系统很好”的证据。</p>
+
+          <h3>4. capability attribution 不是严格因果分解</h3>
+          <p><code>semantic_absolute / duplicate_absolute / same_company_absolute</code> 更像审计指标，不是严格可加的因果真值。</p>
+        </section>
+
+        <section class="section" id="sec-6">
+          <h2>六、benchmark 结果</h2>
+          <h3>1. benchmark 基本盘</h3>
+          <table>
+            <thead>
+              <tr><th>指标</th><th>当前值</th><th>风险解释</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>standard_case_count</code></td><td>208</td><td>旧基准大，但偏 duplicate/same-company</td></tr>
+              <tr><td><code>hard_case_count</code></td><td>68</td><td>仍有很重标题与公司偏置</td></tr>
+              <tr><td><code>rebuilt_hard_case_count</code></td><td>33</td><td>更可信，但样本太小</td></tr>
+              <tr><td><code>semantic_gold.case_count</code></td><td>29</td><td>金标可信，但样本仍小</td></tr>
+              <tr><td><code>same_company_positive_ratio</code></td><td>standard=1.0, hard=1.0, rebuilt_hard=0.0</td><td>旧 benchmark 严重污染</td></tr>
+              <tr><td><code>exact_title_positive_ratio</code></td><td>standard=1.0, hard=1.0, rebuilt_hard=0.26</td><td>rebuilt_hard 纯度明显更高</td></tr>
+            </tbody>
+          </table>
+
+          <h3>2. teacher / freeze 关键结果</h3>
+          <table>
+            <thead>
+              <tr><th>数据集</th><th>Hit@1</th><th>Hit@3</th><th>MRR</th><th>备注</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>旧 standard teacher</td><td>0.9459</td><td>0.9730</td><td>高</td><td>容易被 duplicate 偏置刷高</td></tr>
+              <tr><td>旧 hard teacher</td><td>0.8182</td><td>0.9091</td><td>高</td><td>同样受旧 benchmark 偏置影响</td></tr>
+              <tr><td><code>teacher_b</code> rebuilt_hard</td><td>0.7273</td><td>0.8788</td><td>0.7980</td><td>更能代表纯语义能力</td></tr>
+              <tr><td><code>teacher_b</code> semantic_gold</td><td>0.7586</td><td>0.9310</td><td>0.8391</td><td>更接近冻结判断依据</td></tr>
+            </tbody>
+          </table>
+          <div class="success">冻结报告结论：<code>passed = true</code>，<code>frozen_version = teacher_b_semantic_v1</code>。</div>
+
+          <h3>3. 当前最危险的 category 风险</h3>
+          <table>
+            <thead>
+              <tr><th>类别</th><th>Hit@1</th><th>Hit@3</th><th>风险说明</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>must_vs_preferred_confusing</code></td><td>0.3333</td><td>0.6667</td><td>对 must-have 与 preferred 的区分仍偏弱</td></tr>
+              <tr><td><code>parent_child_conflict</code></td><td>0.5000</td><td>0.8333</td><td>parent-child 结构仍有误判空间</td></tr>
+              <tr><td><code>title_same_business_different</code></td><td>0.6667</td><td>0.8333</td><td>同业务相近 title 仍可能误判</td></tr>
+              <tr><td><code>cross_company_structure_similar</code></td><td>1.0000</td><td>1.0000</td><td>这类能力反而较强</td></tr>
+              <tr><td><code>or_and_mixed</code></td><td>1.0000</td><td>1.0000</td><td>OR/AND 在样本内表现稳定</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section" id="sec-7">
+          <h2>七、Student 蒸馏</h2>
+          <h3>1. 旧 student</h3>
+          <p>旧 student 更依赖平面 overlap 和 metadata：</p>
+          <ul>
+            <li><code>required_overlap</code></li>
+            <li><code>all_overlap</code></li>
+            <li><code>domain_overlap</code></li>
+            <li><code>title_overlap</code></li>
+            <li><code>role_score</code></li>
+            <li><code>seniority_score</code></li>
+          </ul>
+          <pre><code>score = hit_at_1 + 0.5 * hit_at_3 + 0.25 * MRR</code></pre>
+
+          <h3>2. 新 semantic student</h3>
+          <p>新 student 更接近语义 teacher，显式引入 must/preferred/background、canonical、hierarchy、logic 等特征。</p>
+          <pre><code>0.54 * hit_at_1
++ 0.24 * hit_at_3
++ 0.12 * MRR
++ 0.10 * teacher_trace_alignment</code></pre>
+
+          <h3>3. 当前蒸馏规模</h3>
+          <table>
+            <thead>
+              <tr><th>指标</th><th>当前值</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>train_case_count</code></td><td>50</td></tr>
+              <tr><td><code>trace_count</code></td><td>228</td></tr>
+              <tr><td><code>rebuilt_hard_train</code></td><td>27</td></tr>
+              <tr><td><code>rebuilt_hard_holdout</code></td><td>6</td></tr>
+              <tr><td><code>semantic_gold_train</code></td><td>23</td></tr>
+              <tr><td><code>semantic_gold_holdout</code></td><td>6</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section" id="sec-8">
+          <h2>八、打分公式</h2>
+          <table>
+            <thead>
+              <tr><th>字段</th><th>公式 / 规则</th><th>含义</th><th>主要风险</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>SurfaceElement.confidence</code></td><td>无命中时 <code>0.12</code>；否则 <code>min(0.55 + 0.1 * len(members), 0.96)</code></td><td>文本结构化置信度</td><td>启发式，不是最终排序主信号</td></tr>
+              <tr><td><code>RequirementUnit.unit_weight</code></td><td><code>min(base_constraint + content_bonus + section_bonus + logic_bonus, 1.35)</code></td><td>unit 重要性</td><td>tech item 很多时会把分散要求堆高</td></tr>
+              <tr><td><code>RequirementUnit.member_weights</code></td><td><code>experience=1.08</code>，父节点 <code>0.82</code>，子节点 <code>1.04</code>，其他 <code>1.0</code></td><td>unit 内成员重要性</td><td>会放大 child 技能</td></tr>
+              <tr><td><code>_member_match_score</code></td><td>exact / descendant 命中给高分；ancestor 命中给低分；exact element 可退化命中</td><td>单成员匹配分</td><td>ancestor 奖励低，parent-child 类可能保守</td></tr>
+              <tr><td><code>_best_structure_alignment</code></td><td>overlap 乘以 <code>(0.58 + 0.22*logic_alignment + 0.2*content_alignment)</code></td><td>结构对齐度</td><td>floor 会让错配也保留一定分数</td></tr>
+              <tr><td><code>UnitMatchDetail.score</code> for <code>SINGLE</code></td><td><code>max(member_scores)</code></td><td>单项命中度</td><td>容易被单个强命中支撑</td></tr>
+              <tr><td><code>UnitMatchDetail.score</code> for <code>OR</code></td><td><code>max(member_scores)</code>，多 exact 命中有 bonus，上限 <code>1.08</code></td><td>任一满足即可</td><td>OR 容忍度较高</td></tr>
+              <tr><td><code>UnitMatchDetail.score</code> for <code>AND</code></td><td><code>weighted_hits / total_weight - 0.14 * missing_ratio</code></td><td>必须同时满足</td><td>缺一部分时仍可能保留中分</td></tr>
+              <tr><td><code>UnitMatchDetail.score</code> for <code>AT_LEAST_K</code></td><td>前 <code>k</code> 个加权命中 / 所需权重</td><td>至少 K 项满足</td><td>K 小时偏宽松</td></tr>
+              <tr><td><code>UnitMatchDetail.score</code> for <code>PARENT_ANY_CHILD</code></td><td>任一 child 高命中可直接高分</td><td>父类命中任一子类即可</td><td>较宽</td></tr>
+              <tr><td><code>_semantic_specificity(unit)</code></td><td>基于 IDF 的归一化，再按 constraint type 微调</td><td>稀有 requirement 更值钱</td><td>依赖当前索引分布</td></tr>
+              <tr><td><code>weighted_requirement</code></td><td><code>sum(effective_weight * unit_score) / sum(effective_weight)</code></td><td>整体 requirement 命中</td><td>强依赖拆分质量</td></tr>
+              <tr><td><code>semantic_band_score</code></td><td><code>0.52*must + 0.20*strong + 0.18*preferred + 0.10*background</code></td><td>分层 requirement 质量</td><td>强偏 must-have</td></tr>
+              <tr><td><code>requirement_score</code></td><td><code>0.58 * weighted_requirement + 0.42 * semantic_band_score</code></td><td>总 requirement 分</td><td>同时受全局与 band 影响</td></tr>
+              <tr><td><code>hard_requirement_score</code></td><td><code>0.76 * must_score + 0.24 * strong_score</code></td><td>硬要求覆盖度</td><td>是惩罚门槛核心</td></tr>
+              <tr><td><code>surface_score</code></td><td><code>0.45*token_overlap + 0.35*title_overlap + 0.2*title_exact</code></td><td>表层相似度</td><td>纯语义 teacher 中关闭</td></tr>
+              <tr><td><code>metadata_score</code></td><td><code>0.34*role + 0.22*seniority + 0.18*domain + 0.26*same_company</code></td><td>元数据相似度</td><td>纯语义 teacher 中关闭</td></tr>
+              <tr><td><code>duplicate_score</code></td><td><code>0.35*same_company + 0.30*title_exact + 0.20*title_overlap + 0.15*surface_overlap</code></td><td>duplicate 偏置分</td><td>纯语义 teacher 中关闭</td></tr>
+              <tr><td><code>total_score</code></td><td><code>0.64*requirement + 0.14*hard + 0.08*surface + 0.06*metadata + 0.08*duplicate</code></td><td>最终排序分</td><td>mixed teacher 容易吃 duplicate 红利</td></tr>
+              <tr><td><code>low-hard penalty</code></td><td><code>hard&lt;0.45</code> 乘 <code>0.72</code>；<code>hard&lt;0.6</code> 乘 <code>0.86</code></td><td>限制硬要求缺口</td><td>0.6 附近很敏感</td></tr>
+              <tr><td><code>reuse_readiness</code></td><td><code>0.72*requirement_score + 0.28*hard_requirement_score</code></td><td>starter 可复用度</td><td>比 total 更偏内容可写性</td></tr>
+              <tr><td><code>starter_priority_score</code></td><td><code>0.48*historical_quality + 0.32*reuse_readiness + 0.20*match.total_score</code></td><td>semantic cluster 里选最终 starter</td><td>会受历史质量影响</td></tr>
+              <tr><td><code>company_consistency_score</code></td><td><code>0.46*semantic_reuse + 0.34*title_exact + 0.10*title_overlap + continuity</code></td><td>同公司连续性分</td><td>不能混入纯语义 teacher</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section" id="sec-9">
+          <h2>九、Disney JD 匹配路径</h2>
+          <p>这里选用一条真实 JD：</p>
+          <ul>
+            <li><code>job_id = 69da933b9f97a42dc9c2a057</code></li>
+            <li><code>company = The Walt Disney Company</code></li>
+            <li><code>title = Software Engineer II</code></li>
+          </ul>
+
+          <h3>1. 原始输入字段</h3>
+          <p>系统使用的核心输入包括 <code>job_title</code>、<code>job_summary</code>、<code>core_skills</code>、<code>must_have_quals</code>、<code>preferred_quals</code>、<code>core_responsibilities</code>、<code>work_model</code>、<code>job_location</code>、<code>job_seniority</code>、<code>min_years_experience</code>、<code>taxonomy_v3</code>。</p>
+
+          <h3>2. canonical 抽取结果</h3>
+          <p>核心 canonical ids 包括：</p>
+          <pre><code>CONSTRAINT_ONSITE
+RESP_SOFTWARE_DEVELOPMENT
+CONSTRAINT_ENGINEERING_FIELD
+TECH_SCALA
+TECH_JAVA
+TECH_CPP
+TECH_C
+RESP_FULLSTACK_DEVELOPMENT
+TECH_CSHARP
+TECH_PYTHON
+TECH_SQL
+EXP_YOE_3_5
+TECH_AIRFLOW
+TECH_DATABRICKS
+TECH_SNOWFLAKE
+TECH_SPARK
+TECH_API
+TECH_DATABASE
+TECH_MYSQL
+TECH_MONGODB
+TECH_DYNAMODB
+CONSTRAINT_COMPUTER_SCIENCE</code></pre>
+
+          <h3>3. recall keys</h3>
+          <pre><code>OR(TECH_DATABRICKS,TECH_SNOWFLAKE)
+OR(TECH_AIRFLOW,TECH_SCALA)
+AND(TECH_API,TECH_SQL)
+AND(RESP_FULLSTACK_DEVELOPMENT,RESP_SOFTWARE_DEVELOPMENT)
+TECH_SCALA
+TECH_JAVA</code></pre>
+
+          <h3>4. 核心理解</h3>
+          <p>这个流程的关键不是“哪个词重合最多”，而是：这条 JD 被拆成了哪些结构化 requirement、每个 requirement 的逻辑关系是什么、candidate 是否命中了这些结构化约束，以及 must-have 的缺口是否大到需要整体惩罚。</p>
+        </section>
+
+        <section class="section" id="sec-10">
+          <h2>十、Disney JD requirement_units 表</h2>
+          <div class="note">
+            下面这张表使用当前本地可直接复现的纯 benchmark 配置：
+            <code>teacher_b_pure_semantic</code> + <code>include_scraped=True</code> + <code>include_portfolio=False</code>。
+            在这个配置下，这条 Disney JD 的 top1 为 <code>Amazon | Data Engineer II, Amazon Payment Products</code>。
+          </div>
+
+          <div class="mini-grid">
+            <div class="mini">
+              <div class="label">Top1 Candidate</div>
+              <div class="value">Amazon</div>
+              <div>Data Engineer II, Amazon Payment Products</div>
+            </div>
+            <div class="mini">
+              <div class="label">Total Score</div>
+              <div class="value">0.4940</div>
+            </div>
+            <div class="mini">
+              <div class="label">Requirement Score</div>
+              <div class="value">0.6372</div>
+            </div>
+            <div class="mini">
+              <div class="label">Hard Requirement</div>
+              <div class="value">0.6155</div>
+            </div>
+          </div>
+
+          <p><code>weight(unit/effective)</code> 中，<code>unit</code> = <code>unit_weight</code>，<code>effective</code> = <code>unit_weight * semantic_specificity</code>；<code>top1命中分</code> = 该 unit 对当前 top1 的 <code>_score_unit</code> 结果。</p>
+
+          <h3>原句：Software Engineering, Scala, Java, C++, C</h3>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th></tr></thead>
+            <tbody>
+              <tr><td><code>RESP_SOFTWARE_DEVELOPMENT</code></td><td><code>SINGLE</code></td><td>0.9400 / 1.0076</td><td>0.5800</td></tr>
+              <tr><td><code>CONSTRAINT_ENGINEERING_FIELD</code></td><td><code>SINGLE</code></td><td>0.9200 / 0.9676</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_SCALA</code></td><td><code>SINGLE</code></td><td>0.9800 / 1.1172</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_JAVA</code></td><td><code>SINGLE</code></td><td>0.9800 / 1.0650</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_CPP</code></td><td><code>SINGLE</code></td><td>0.9800 / 1.0737</td><td>0.1800</td></tr>
+              <tr><td><code>TECH_C</code></td><td><code>SINGLE</code></td><td>0.9800 / 1.1026</td><td>0.1800</td></tr>
+            </tbody>
+          </table>
+
+          <h3>原句：3+ years of hands-on software engineering experience, Designing, building, and maintaining full stack codes utilizing various technical languages e.g. Scala, Java, C++, C, C#, Python, SQL</h3>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th></tr></thead>
+            <tbody>
+              <tr><td><code>RESP_SOFTWARE_DEVELOPMENT, RESP_FULLSTACK_DEVELOPMENT</code></td><td><code>AND</code></td><td>1.2200 / 1.2550</td><td>0.1387</td></tr>
+              <tr><td><code>CONSTRAINT_ENGINEERING_FIELD</code></td><td><code>SINGLE</code></td><td>1.1600 / 1.1771</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_SCALA</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2688</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_JAVA</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2502</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_CPP</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2533</td><td>0.1800</td></tr>
+              <tr><td><code>TECH_C</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2636</td><td>0.1800</td></tr>
+              <tr><td><code>TECH_CSHARP</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2649</td><td>0.1800</td></tr>
+              <tr><td><code>TECH_PYTHON</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2402</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_SQL</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2528</td><td>1.0000</td></tr>
+              <tr><td><code>EXP_YOE_3_5</code></td><td><code>SINGLE</code></td><td>1.2000 / 1.2219</td><td>1.0000</td></tr>
+            </tbody>
+          </table>
+
+          <h3>原句：Troubleshooting code for bugs using various tools available in the IDE and/or logging, Write production-grade, maintainable code primarily for data pipelines leveraging Airflow, Databricks Asset Bundles, or Snowflake in Scala</h3>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th></tr></thead>
+            <tbody>
+              <tr><td><code>TECH_DATABRICKS, TECH_SNOWFLAKE</code></td><td><code>OR</code></td><td>1.2600 / 1.3104</td><td>0.1198</td></tr>
+              <tr><td><code>TECH_AIRFLOW, TECH_SCALA</code></td><td><code>OR</code></td><td>1.2600 / 1.3104</td><td>0.9244</td></tr>
+            </tbody>
+          </table>
+
+          <h3>原句：Implement complex data transformations using Spark Structured streaming, Spark SQL and core Spark APIs</h3>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th></tr></thead>
+            <tbody>
+              <tr><td><code>TECH_SQL, TECH_API</code></td><td><code>AND</code></td><td>1.2600 / 1.2925</td><td>0.4078</td></tr>
+              <tr><td><code>TECH_SPARK</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2670</td><td>0.7200</td></tr>
+            </tbody>
+          </table>
+
+          <h3>原句：Designing and implementing relational and non-relational database schemas e.g. MySql, Mongodb, Dynamodb</h3>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th></tr></thead>
+            <tbody>
+              <tr><td><code>TECH_DATABASE</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2514</td><td>1.0000</td></tr>
+              <tr><td><code>TECH_MYSQL</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2688</td><td>0.1296</td></tr>
+              <tr><td><code>TECH_MONGODB</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2688</td><td>0.1296</td></tr>
+              <tr><td><code>TECH_DYNAMODB</code></td><td><code>SINGLE</code></td><td>1.2200 / 1.2688</td><td>0.7200</td></tr>
+            </tbody>
+          </table>
+
+          <h3>原句：Bachelor's Degree in Computer Science or relevant technical field</h3>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th></tr></thead>
+            <tbody>
+              <tr><td><code>CONSTRAINT_COMPUTER_SCIENCE</code></td><td><code>SINGLE</code></td><td>1.1600 / 1.1825</td><td>0.7200</td></tr>
+            </tbody>
+          </table>
+
+          <h3>原句：Onsite</h3>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th></tr></thead>
+            <tbody>
+              <tr><td><code>CONSTRAINT_ONSITE</code></td><td><code>SINGLE</code></td><td>0.3000 / 0.3040</td><td>1.0000</td></tr>
+            </tbody>
+          </table>
+
+          <h3>这张表怎么读</h3>
+          <p>这条 Disney JD 被 top1 拉高分的部分主要是 <code>Scala</code>、<code>Java</code>、<code>Python</code>、<code>SQL</code>、<code>YOE</code>、<code>Engineering field</code>、<code>Database</code>、<code>Onsite</code>；真正拖分的部分主要是 <code>full stack AND</code>、<code>Databricks | Snowflake</code>、<code>MySQL</code>、<code>MongoDB</code>、<code>C / C++ / C#</code>。</p>
+        </section>
+
+        <section class="section" id="sec-11">
+          <h2>十一、下游业务观察</h2>
+          <table>
+            <thead>
+              <tr><th>flow</th><th>avg_final_score</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>no_starter</code></td><td>94.4</td></tr>
+              <tr><td><code>old_match_anchor</code></td><td>94.7</td></tr>
+              <tr><td><code>new_dual_channel_anchor</code></td><td>94.45</td></tr>
+            </tbody>
+          </table>
+          <p>现阶段真正未收敛的点不是“能不能找到语义相似候选”，而是：<code>semantic_best</code> 是否等于最佳可写 starter、<code>company continuity</code> 什么时候应该加或降级、以及 planner 什么时候介入才真正带来收益。</p>
+        </section>
+
+        <section class="section" id="sec-12">
+          <h2>十二、最终判断</h2>
+          <h3>1. 当前系统的优点</h3>
+          <ul>
+            <li>已具备比关键词匹配更强的结构化语义能力。</li>
+            <li>能区分 must / preferred / background。</li>
+            <li>能处理 OR / AND / 层级扩展。</li>
+            <li>有独立的 purity audit，可防止被 same-company / duplicate 偏置误导。</li>
+          </ul>
+
+          <h3>2. 当前系统最值得警惕的风险</h3>
+          <ul>
+            <li>旧 benchmark 过度奖励 duplicate 和 same-company。</li>
+            <li>纯语义 hard 集与 gold 集规模仍偏小。</li>
+            <li>must vs preferred 与 parent-child 仍是最脆弱的规则层。</li>
+            <li>下游 writer/planner 的收益尚未稳定转化。</li>
+          </ul>
+
+          <h3>3. 一句话总结</h3>
+          <p><code>match_pipe</code> 已经从“表层相似匹配器”演化为“结构化 requirement 匹配器 + 双通道复用系统”；当前最关键的问题不再是“有没有匹配能力”，而是“benchmark 是否足够纯、规则是否足够稳、以及语义命中是否真的能转化为更好的可写 starter”。</p>
+        </section>
+
+        <section class="section" id="sec-13">
+          <h2>十三、附录A：第九部分 canonical 抽取逐项详解</h2>
+          <p>说明：</p>
+          <ul>
+            <li>下面的 <code>source block</code> 指 <code>build_structured_job()</code> 里切出来的文本块，不是原始 JSON 行号。</li>
+            <li>下面的 <code>识别逻辑</code> 指当前代码里的实际机制：<code>alias pattern</code>、<code>experience bucket</code>、<code>metadata constraint</code>，以及 <code>build_structured_job()</code> 的 split / connector grouping。</li>
+            <li>Disney 这条 JD 的 <code>canonical_elements</code> 一共 22 个，以下逐一覆盖，不遗漏。</li>
+          </ul>
+
+          <h3>A1. 逐 canonical id 表</h3>
+          <table>
+            <thead>
+              <tr><th>canonical_id</th><th>中文介绍</th><th>触发短语</th><th>识别逻辑</th><th>source block</th><th>备注</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>RESP_SOFTWARE_DEVELOPMENT</code></td><td>软件开发 / 软件工程职责</td><td><code>Software Engineering</code>；<code>software engineering experience</code></td><td><code>alias pattern</code>，taxonomy 里责任类别的别名命中；同一 canonical 在多个块重复命中后去重保留</td><td><code>core_skills</code>；<code>must_have_quals#1</code></td><td>这不是 title 推断，而是文本别名命中</td></tr>
+              <tr><td><code>CONSTRAINT_ENGINEERING_FIELD</code></td><td>工程类背景 / 工程相关字段</td><td><code>Software Engineering</code>；<code>software engineering experience</code></td><td><code>alias pattern</code>，taxonomy 里的约束类别别名 <code>engineering</code> 命中；随后被去重</td><td><code>core_skills</code>；<code>must_have_quals#1</code></td><td>这条 JD 里没有从 <code>relevant technical field</code> 直接命中，而是从更宽的 <code>engineering</code> 片段吸入</td></tr>
+              <tr><td><code>TECH_SCALA</code></td><td>Scala</td><td><code>Scala</code></td><td><code>alias pattern</code>，taxonomy 对 Scala 的直接别名命中</td><td><code>core_skills</code>；<code>must_have_quals#1</code>；<code>must_have_quals#2</code></td><td>同一 canonical 在多个块出现，最终只保留一次</td></tr>
+              <tr><td><code>TECH_JAVA</code></td><td>Java</td><td><code>Java</code></td><td><code>alias pattern</code>，直接命中</td><td><code>core_skills</code>；<code>must_have_quals#1</code></td><td>直接语言名命中</td></tr>
+              <tr><td><code>TECH_CPP</code></td><td>C++</td><td><code>C++</code></td><td><code>alias pattern</code>，taxonomy 里 <code>c++</code> / <code>c / c++</code> / <code>c/c++</code> 命中</td><td><code>core_skills</code>；<code>must_have_quals#1</code></td><td>这是规范化后的直接 token 命中</td></tr>
+              <tr><td><code>TECH_C</code></td><td>C 语言</td><td><code>C</code></td><td><code>alias pattern</code>，taxonomy 里 <code> c </code> 命中</td><td><code>core_skills</code>；<code>must_have_quals#1</code></td><td>受 <code>_normalize_text()</code> 和词边界处理影响，仍能识别出单字母语言</td></tr>
+              <tr><td><code>RESP_FULLSTACK_DEVELOPMENT</code></td><td>全栈开发职责</td><td><code>full stack codes</code></td><td><code>alias pattern</code>，taxonomy 里 <code>full stack</code> 别名命中</td><td><code>must_have_quals#1</code></td><td>是职责类 canonical，不是技能类 canonical</td></tr>
+              <tr><td><code>TECH_CSHARP</code></td><td>C#</td><td><code>C#</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#1</code></td><td>直接语言名命中</td></tr>
+              <tr><td><code>TECH_PYTHON</code></td><td>Python</td><td><code>Python</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#1</code></td><td>直接语言名命中</td></tr>
+              <tr><td><code>TECH_SQL</code></td><td>SQL</td><td><code>SQL</code>；<code>Spark SQL</code></td><td><code>alias pattern</code>，直接命中；同一块里既可来自显式 SQL，也可来自 Spark SQL</td><td><code>must_have_quals#1</code>；<code>must_have_quals#3</code></td><td>这是一个典型的多块重复命中 canonical</td></tr>
+              <tr><td><code>EXP_YOE_3_5</code></td><td>3 到 5 年经验</td><td><code>3+ years</code></td><td><code>experience bucket</code>，由 <code>_detect_experience_bucket()</code> 抽取</td><td><code>must_have_quals#1</code></td><td>这是唯一一个明显的经验桶 canonical</td></tr>
+              <tr><td><code>TECH_AIRFLOW</code></td><td>Airflow</td><td><code>Airflow</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#2</code></td><td>来自数据管道那条要求</td></tr>
+              <tr><td><code>TECH_DATABRICKS</code></td><td>Databricks</td><td><code>Databricks Asset Bundles</code></td><td><code>alias pattern</code>，taxonomy 只认 <code>databricks</code>，不认 <code>Asset Bundles</code> 本身</td><td><code>must_have_quals#2</code></td><td>这是“部分触发”，只抽到了 Databricks，没有抽出 Asset Bundles</td></tr>
+              <tr><td><code>TECH_SNOWFLAKE</code></td><td>Snowflake</td><td><code>Snowflake</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#2</code></td><td>直接命中</td></tr>
+              <tr><td><code>TECH_SPARK</code></td><td>Spark</td><td><code>Spark Structured streaming</code>；<code>Spark SQL</code>；<code>core Spark APIs</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#3</code></td><td>只抽出 Spark，不把 <code>Structured streaming</code> 单独当 canonical</td></tr>
+              <tr><td><code>TECH_API</code></td><td>API</td><td><code>core Spark APIs</code></td><td><code>alias pattern</code>，taxonomy 里 <code>api</code> / <code>apis</code> 命中</td><td><code>must_have_quals#3</code></td><td>来自复数 <code>APIs</code> 的规范化命中</td></tr>
+              <tr><td><code>TECH_DATABASE</code></td><td>Database</td><td><code>relational and non-relational database schemas</code></td><td><code>alias pattern</code>，taxonomy 里 <code>database</code> / <code>databases</code> 命中</td><td><code>must_have_quals#5</code></td><td>这是父类 canonical，下面的 MySQL / MongoDB / DynamoDB 会进一步细化</td></tr>
+              <tr><td><code>TECH_MYSQL</code></td><td>MySQL</td><td><code>MySql</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#5</code></td><td>直接数据库技术名命中</td></tr>
+              <tr><td><code>TECH_MONGODB</code></td><td>MongoDB</td><td><code>Mongodb</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#5</code></td><td>直接数据库技术名命中</td></tr>
+              <tr><td><code>TECH_DYNAMODB</code></td><td>DynamoDB</td><td><code>Dynamodb</code></td><td><code>alias pattern</code>，直接命中</td><td><code>must_have_quals#5</code></td><td>直接数据库技术名命中</td></tr>
+              <tr><td><code>CONSTRAINT_COMPUTER_SCIENCE</code></td><td>计算机科学学位 / CS 背景</td><td><code>Computer Science</code></td><td><code>alias pattern</code>，taxonomy 里 <code>computer science</code> 命中</td><td><code>must_have_quals#7</code></td><td>这里抽到了 CS，但没有抽到 <code>Bachelor's Degree</code> 本身</td></tr>
+              <tr><td><code>CONSTRAINT_ONSITE</code></td><td>到岗 / onsite 约束</td><td><code>Onsite</code></td><td><code>metadata constraint</code>，由 <code>_detect_metadata_constraints()</code> 根据 <code>work_model</code> 识别</td><td><code>metadata(work_model)</code></td><td>这是元数据约束，不是语义 alias</td></tr>
+            </tbody>
+          </table>
+
+          <h3>A2. 为什么这些 canonical 会出现，而别的词不会</h3>
+          <ul>
+            <li>在 <code>taxonomy.py</code> 里有显式 alias。</li>
+            <li>命中经验桶规则，比如 <code>3+ years -&gt; EXP_YOE_3_5</code>。</li>
+            <li>命中 metadata 规则，比如 <code>work_model = onsite -&gt; CONSTRAINT_ONSITE</code>。</li>
+            <li>通过 <code>_build_units_for_block()</code> 把一个句子里多个 alias 按 <code>and</code> / <code>or</code> / <code>plus</code> 组合成 unit。</li>
+          </ul>
+
+          <h3>A3. 未被抽取的重要短语 / 子句表</h3>
+          <table>
+            <thead>
+              <tr><th>原句</th><th>短语 / 子句</th><th>未抽取原因</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>Software Engineer II</code></td><td><code>Software Engineer II</code></td><td>title 只用于 <code>role_family</code> / <code>seniority</code>，当前 taxonomy 没有把这个职位名作为 canonical alias</td></tr>
+              <tr><td><code>The Walt Disney Company is a global leader in media and entertainment...</code></td><td>整段公司介绍</td><td>这是背景描述，不属于当前 taxonomy 的 canonical 词表</td></tr>
+              <tr><td><code>...join their Media and Session Data Product team...</code></td><td><code>Media and Session Data Product team</code></td><td>没有对应 domain alias；<code>data product</code>、<code>session data</code> 不在 taxonomy 中</td></tr>
+              <tr><td><code>...building data pipelines and datasets...</code></td><td><code>data pipelines and datasets</code></td><td>这是任务描述，但当前 taxonomy 没有 <code>data pipeline</code> / <code>dataset</code> 的 canonical</td></tr>
+              <tr><td><code>...scale their streaming services</code></td><td><code>streaming services</code></td><td>属于业务语境描述，不是当前 taxonomy 可抽的 canonical</td></tr>
+              <tr><td><code>Own the end-to-end lifecycle of data products from ingestion, transformation, orchestration, to consumption by analytics, ML, and reporting teams</code></td><td>整句</td><td>这是职责性叙述，当前 taxonomy 没有“端到端生命周期 / 摄取 / 编排 / 消费”这类 canonical</td></tr>
+              <tr><td><code>Using basic and advanced features of code management tools e.g. GitHub</code></td><td><code>GitHub</code></td><td>当前 taxonomy 没有 <code>GitHub</code> 这个 canonical；<code>code management tools</code> 过于泛化</td></tr>
+              <tr><td><code>Develops, documents, implements and test features within existing systems</code></td><td>整句</td><td>这是通用职责句，没有 alias 命中</td></tr>
+              <tr><td><code>Presents technical issues, solutions and project status...</code></td><td>整句</td><td>通用职责句，没有 alias 命中</td></tr>
+              <tr><td><code>Serves as escalation point for technical problems and maintenance</code></td><td>整句</td><td>通用职责句，没有 alias 命中</td></tr>
+              <tr><td><code>Actively contributes to architectural direction, code reviews, design documents, and planning...</code></td><td>整句</td><td>当前 taxonomy 没有把这些动词化职责拆成 canonical</td></tr>
+              <tr><td><code>Able to break down features into prioritized tasks</code></td><td>整句</td><td>通用能力描述，没有 alias 命中</td></tr>
+              <tr><td><code>Mentors others in areas they have experience in</code></td><td>整句</td><td>通用软技能描述，没有 alias 命中</td></tr>
+              <tr><td><code>Seattle, WA</code></td><td><code>Seattle, WA</code></td><td><code>job_location</code> 目前只被保留为 metadata 文本，不参与 canonical constraint 抽取</td></tr>
+              <tr><td><code>Bachelor's Degree in Computer Science or relevant technical field</code></td><td><code>Bachelor's Degree</code></td><td><code>taxonomy.py</code> 有 <code>CONSTRAINT_BACHELORS</code>，但当前文本经 <code>_normalize_text()</code> 后会把撇号打散，导致 <code>bachelor's degree</code> 这个 alias 很容易漏掉</td></tr>
+              <tr><td><code>Bachelor's Degree in Computer Science or relevant technical field</code></td><td><code>relevant technical field</code></td><td>没有直接 alias；这条 JD 里的“技术相关领域”只被更宽泛的 <code>CONSTRAINT_ENGINEERING_FIELD</code> 在其他块吸收，而不是这一句单独抽出</td></tr>
+              <tr><td><code>Troubleshooting code for bugs using various tools available in the IDE and/or logging</code></td><td>整句</td><td>这是过程描述，没有具体 canonical alias</td></tr>
+              <tr><td><code>...leveraging Airflow, Databricks Asset Bundles, or Snowflake in Scala</code></td><td><code>Asset Bundles</code></td><td>当前 taxonomy 只有 <code>Databricks</code>，没有 <code>Asset Bundles</code></td></tr>
+              <tr><td><code>Implement complex data transformations using Spark Structured streaming, Spark SQL and core Spark APIs</code></td><td><code>Structured streaming</code></td><td>当前 taxonomy 只有 <code>Spark</code>，没有把 <code>Structured streaming</code> 单独做 canonical</td></tr>
+              <tr><td><code>Implement complex data transformations using Spark Structured streaming, Spark SQL and core Spark APIs</code></td><td><code>core</code></td><td>形容词，不是 canonical</td></tr>
+              <tr><td><code>Designing and implementing relational and non-relational database schemas e.g. MySql, Mongodb, Dynamodb</code></td><td><code>relational</code> / <code>non-relational</code></td><td>当前 taxonomy 没有把这两个数据库范式单独建模，只抽了 <code>Database</code> 父类和具体数据库名</td></tr>
+            </tbody>
+          </table>
+
+          <h3>A4. 完整性评估</h3>
+          <h4>已覆盖</h4>
+          <ul>
+            <li>这条 JD 里最核心、最具体的技术栈基本都被抽到了：<code>Scala / Java / C++ / C / C# / Python / SQL / Airflow / Databricks / Snowflake / Spark / API / Database / MySQL / MongoDB / DynamoDB</code>。</li>
+            <li>约束类也覆盖了关键部分：<code>3+ years</code>、<code>Computer Science</code>、<code>Onsite</code>。</li>
+            <li><code>build_structured_job()</code> 的切块行为在这条 JD 上是有效的，且对重复 canonical 做了去重。</li>
+          </ul>
+          <h4>部分覆盖</h4>
+          <ul>
+            <li><code>Bachelor's Degree in Computer Science or relevant technical field</code> 这一句只部分覆盖：<code>Computer Science</code> 被抽到了，但 <code>Bachelor's Degree</code> 本身没进 canonical；<code>relevant technical field</code> 也没有作为独立 canonical 被抽出来。</li>
+            <li><code>Databricks Asset Bundles</code>、<code>Spark Structured streaming</code>、<code>core Spark APIs</code> 这类复合短语，只抽到了其中的核心 canonical，没把修饰性子短语单独建模。</li>
+            <li><code>CONSTRAINT_ENGINEERING_FIELD</code> 是从更宽泛的 <code>engineering</code> alias 吸入的，因此它对 “technical field” 的语义覆盖是间接的，不是直达的。</li>
+          </ul>
+          <h4>未覆盖</h4>
+          <ul>
+            <li>所有“职责说明型”长句基本没进 canonical，只留在 <code>pending_surface_texts</code> 里。</li>
+            <li>公司介绍、团队介绍、地点、GitHub 工具、端到端生命周期、code review、architectural direction 等，都没有专门的 canonical。</li>
+            <li>这不是本次抽取失败，而是 taxonomy 本身没有为这些表达建立可匹配的 canonical。</li>
+          </ul>
+          <h4>结论</h4>
+          <ul>
+            <li>如果以“核心技术和硬约束是否被覆盖”为标准，这条 JD 的 canonical 抽取是<strong>高覆盖但不完全</strong>。</li>
+            <li>如果以“整段 JD 的语义都应该 canonical 化”为标准，这条 JD 的 canonical 抽取是<strong>不完整</strong>的，缺口主要在职责描述、过程描述和部分学位措辞上。</li>
+            <li>这个结论不需要额外案例就能成立；但若要专门验证 <code>Bachelor's Degree</code> 的撇号归一化问题，最小额外案例就是任意一条显式写了 <code>Bachelor's Degree</code> 的 JD。</li>
+          </ul>
+
+          <h3>A5. 关键代码依据</h3>
+          <table>
+            <thead><tr><th>位置</th><th>作用</th></tr></thead>
+            <tbody>
+              <tr><td><code>match_pipe/units.py:94-122</code></td><td><code>_text_blocks()</code>，决定 title / summary / core_skills / must_have_quals / preferred_quals / core_responsibilities / metadata 怎么切块。</td></tr>
+              <tr><td><code>match_pipe/units.py:125-160</code></td><td><code>_normalize_text()</code>、<code>_find_alias_hits()</code>，决定别名如何被标准化并匹配到 canonical。</td></tr>
+              <tr><td><code>match_pipe/units.py:163-193</code></td><td><code>_detect_experience_bucket()</code>、<code>_detect_metadata_constraints()</code>，决定 <code>3+ years</code>、<code>Onsite</code> 这类结构化约束如何抽取。</td></tr>
+              <tr><td><code>match_pipe/units.py:196-210</code></td><td><code>_infer_logic_type()</code>，决定一个 unit 是 <code>SINGLE / OR / AND / PARENT_ANY_CHILD</code>。</td></tr>
+              <tr><td><code>match_pipe/units.py:228-262</code></td><td><code>_guess_content_type()</code>、<code>_unit_weight()</code>，决定 unit 属于什么内容类型，以及权重如何计算。</td></tr>
+              <tr><td><code>match_pipe/units.py:265-281</code></td><td><code>_member_weight()</code>、<code>_surface_confidence()</code>，决定成员权重和 surface 置信度。</td></tr>
+              <tr><td><code>match_pipe/units.py:526-661</code></td><td><code>_build_units_for_block()</code>，决定一个 block 如何被拆成多个 requirement_units。</td></tr>
+              <tr><td><code>match_pipe/units.py:684-780</code></td><td><code>build_structured_job()</code>，决定 canonical_elements / expanded_elements / requirement_units / pending_surface_texts 如何最终汇总。</td></tr>
+              <tr><td><code>match_pipe/taxonomy.py:26-297</code></td><td>canonical 定义和 alias 表，决定“什么词能被抽成什么 canonical”。</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section" id="sec-14">
+          <h2>十四、附录B：第十部分 requirement_units 表逐字段释义与逐项判分说明</h2>
+          <p>基于当前文档第十部分采用的纯 benchmark 配置：<code>teacher_b_pure_semantic + include_scraped=True + include_portfolio=False</code>。这条 Disney JD 的 top1 候选在该配置下为：</p>
+          <table>
+            <thead><tr><th>项目</th><th>值</th></tr></thead>
+            <tbody>
+              <tr><td>top1 candidate</td><td><code>Amazon | Data Engineer II, Amazon Payment Products</code></td></tr>
+              <tr><td><code>total_score</code></td><td><code>0.4940</code></td></tr>
+              <tr><td><code>requirement_score</code></td><td><code>0.6372</code></td></tr>
+              <tr><td><code>hard_requirement_score</code></td><td><code>0.6155</code></td></tr>
+            </tbody>
+          </table>
+
+          <h3>1. 字段/分数总表</h3>
+          <table>
+            <thead><tr><th>字段</th><th>这是什么</th><th>计算什么</th><th>为什么算</th><th>公式</th></tr></thead>
+            <tbody>
+              <tr><td><code>unit</code></td><td>一个结构化 requirement，通常来自一个原句或一个切块后的逻辑片段</td><td>把 JD 拆成可单独比较的约束单元</td><td>避免把整段文本当成一个黑盒</td><td>由 <code>build_structured_job()</code> 生成</td></tr>
+              <tr><td><code>logic</code></td><td>这个 unit 的逻辑类型</td><td>表达“必须全满足 / 满足任一 / 至少满足 K 个 / 父类任一子类”等关系</td><td>不同逻辑应使用不同判分法</td><td><code>SINGLE / OR / AND / AT_LEAST_K / PARENT_ANY_CHILD</code></td></tr>
+              <tr><td><code>weight(unit)</code></td><td>unit 自身的重要性权重</td><td>反映这个 requirement 在 JD 中有多重要</td><td>让 must-have、核心技能、标题等对总分影响更大</td><td><code>min(base_constraint + content_bonus + section_bonus + logic_bonus, 1.35)</code></td></tr>
+              <tr><td><code>weight(effective)</code></td><td>unit 的有效权重</td><td>在 <code>unit_weight</code> 基础上再乘语义稀缺度</td><td>让更稀有、更关键的 requirement 更重要</td><td><code>unit_weight * semantic_specificity(unit)</code></td></tr>
+              <tr><td><code>top1命中分</code></td><td>该 unit 对当前 top1 候选的命中分</td><td>看这个 unit 在候选上到底匹配得多好</td><td>这是逐项解释总分的基本粒度</td><td><code>_score_unit(unit, candidate).score</code></td></tr>
+              <tr><td><code>requirement_score</code></td><td>requirement 层总分</td><td>汇总所有 unit 的 weighted 命中质量</td><td>比单个 unit 更稳定</td><td><code>0.58 * weighted_requirement + 0.42 * semantic_band_score</code></td></tr>
+              <tr><td><code>hard_requirement_score</code></td><td>硬要求层总分</td><td>只强调 must-have / strong_preference 的覆盖</td><td>防止“表面像但硬要求缺很多”的候选排太前</td><td><code>0.76 * must_score + 0.24 * strong_score</code></td></tr>
+              <tr><td><code>total_score</code></td><td>最终排序分</td><td>决定候选最终名次</td><td>把 requirement、hard、surface、metadata、duplicate 合在一起</td><td><code>0.64*requirement + 0.14*hard + 0.08*surface + 0.06*metadata + 0.08*duplicate</code></td></tr>
+            </tbody>
+          </table>
+
+          <h3>2. 这些分数为什么要这样算</h3>
+          <p><code>unit_weight</code> 是“这条 requirement 值不值得重视”；<code>effective_weight</code> 是“这条 requirement 在整个 corpus 里是不是稀缺、是不是更该被放大”。<code>top1命中分</code> 则是“候选在这一条 requirement 上到底命中几分”。</p>
+          <p><code>requirement_score</code> 和 <code>hard_requirement_score</code> 是不同层面的聚合：</p>
+          <ul>
+            <li><code>requirement_score</code> 看整体语义覆盖，适合衡量“像不像这份 JD”。</li>
+            <li><code>hard_requirement_score</code> 专门盯硬条件，避免只靠标题、职责、泛化词把分刷高。</li>
+            <li><code>total_score</code> 是最终排序分；在当前纯语义配置里，<code>surface_score / metadata_score / duplicate_score</code> 被关闭，所以这条 Disney 的 <code>total_score</code> 数值上主要来自 <code>requirement_score</code> 和 <code>hard_requirement_score</code>。</li>
+          </ul>
+
+          <h3>3. 单项判分的核心公式</h3>
+          <table>
+            <thead><tr><th>组件</th><th>公式</th><th>含义</th></tr></thead>
+            <tbody>
+              <tr><td><code>semantic_specificity(unit)</code></td><td><code>1 + bump(normalized_idf)</code></td><td>稀有 requirement 更值钱</td></tr>
+              <tr><td><code>normalized_idf</code></td><td><code>clamp(avg_idf / 3.5, 0, 1)</code></td><td>把稀有度压到 0 到 1</td></tr>
+              <tr><td><code>avg_idf</code></td><td><code>mean(log((corpus_size + 1) / (df + 1)) + 1)</code></td><td>统计这个 member 在语料中有多稀有</td></tr>
+              <tr><td><code>SINGLE</code></td><td><code>max(member_scores)</code></td><td>任一成员命中即可</td></tr>
+              <tr><td><code>OR</code></td><td><code>max(member_scores)</code>，多个 exact 命中再加 bonus</td><td>满足任一成员即可</td></tr>
+              <tr><td><code>AND</code></td><td><code>weighted_hits / total_weight - 0.14 * missing_weight / total_weight</code></td><td>必须尽量同时满足</td></tr>
+              <tr><td><code>AT_LEAST_K</code></td><td>前 <code>k</code> 个加权命中 / 所需权重</td><td>至少满足 K 个</td></tr>
+              <tr><td><code>PARENT_ANY_CHILD</code></td><td>任一 child 高命中则直接高分</td><td>父类命中任一子类即可</td></tr>
+            </tbody>
+          </table>
+          <p><code>member_match_score</code> 决定单个 member 的命中分，核心是：</p>
+          <table>
+            <thead><tr><th>情况</th><th>结果</th></tr></thead>
+            <tbody>
+              <tr><td>query member 在 candidate unit 中精确出现</td><td><code>1.0 * constraint_alignment</code></td></tr>
+              <tr><td>query member 的 descendant 在 candidate unit 中出现</td><td><code>1.0 * constraint_alignment</code></td></tr>
+              <tr><td>query member 的 ancestor 在 candidate unit 中出现</td><td><code>0.18 * constraint_alignment</code></td></tr>
+              <tr><td>以上都没有，但 query member 在 candidate exact elements 中</td><td><code>background</code> 档或 <code>0.12</code></td></tr>
+              <tr><td>都没有</td><td><code>0.0</code></td></tr>
+            </tbody>
+          </table>
+          <p><code>constraint_alignment</code> 则把“强约束对强约束”与“强约束对背景”区分开。例如：<code>must_have -&gt; must_have = 1.0</code>，<code>must_have -&gt; preferred = 0.72</code>，<code>must_have -&gt; background = 0.44</code>，<code>strong_preference -&gt; background = 0.58</code>。</p>
+
+          <h3>4. 逐项判分说明</h3>
+          <h4>原句：Software Engineering, Scala, Java, C++, C</h4>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th><th>为什么是这个分</th></tr></thead>
+            <tbody>
+              <tr><td><code>RESP_SOFTWARE_DEVELOPMENT</code></td><td><code>SINGLE</code></td><td><code>0.9400 / 1.0076</code></td><td><code>0.5800</code></td><td>候选有软件开发职责的弱对齐，但不是强精确命中，所以只拿到 <code>strong_preference -&gt; background</code> 一类的中等分。</td></tr>
+              <tr><td><code>CONSTRAINT_ENGINEERING_FIELD</code></td><td><code>SINGLE</code></td><td><code>0.9200 / 0.9676</code></td><td><code>1.0000</code></td><td>候选也有工程背景约束，member_match 是精确/等价命中，因此满分。</td></tr>
+              <tr><td><code>TECH_SCALA</code></td><td><code>SINGLE</code></td><td><code>0.9800 / 1.1172</code></td><td><code>1.0000</code></td><td>Scala 是强精确命中，且 query 还是强约束，<code>constraint_alignment</code> 不降权。</td></tr>
+              <tr><td><code>TECH_JAVA</code></td><td><code>SINGLE</code></td><td><code>0.9800 / 1.0650</code></td><td><code>1.0000</code></td><td>Java 同样是精确命中。</td></tr>
+              <tr><td><code>TECH_CPP</code></td><td><code>SINGLE</code></td><td><code>0.9800 / 1.0737</code></td><td><code>0.1800</code></td><td>没有精确 C++，只有更上位的编程语言层级或泛化语言信号，所以落到 ancestor 弱分。</td></tr>
+              <tr><td><code>TECH_C</code></td><td><code>SINGLE</code></td><td><code>0.9800 / 1.1026</code></td><td><code>0.1800</code></td><td>和 C++ 类似，只拿到泛化语言层级的弱命中。</td></tr>
+            </tbody>
+          </table>
+
+          <h4>原句：3+ years of hands-on software engineering experience, Designing, building, and maintaining full stack codes utilizing various technical languages e.g. Scala, Java, C++, C, C#, Python, SQL</h4>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th><th>为什么是这个分</th></tr></thead>
+            <tbody>
+              <tr><td><code>RESP_SOFTWARE_DEVELOPMENT, RESP_FULLSTACK_DEVELOPMENT</code></td><td><code>AND</code></td><td><code>1.2200 / 1.2550</code></td><td><code>0.1387</code></td><td><code>AND</code> 要同时满足两个 member，但候选只对其中一部分有弱支持，另一部分缺失，<code>missing_weight</code> 直接拉低分数，再乘结构因子后更低。</td></tr>
+              <tr><td><code>CONSTRAINT_ENGINEERING_FIELD</code></td><td><code>SINGLE</code></td><td><code>1.1600 / 1.1771</code></td><td><code>1.0000</code></td><td>工程背景是硬命中。</td></tr>
+              <tr><td><code>TECH_SCALA</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2688</code></td><td><code>1.0000</code></td><td>精确命中。</td></tr>
+              <tr><td><code>TECH_JAVA</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2502</code></td><td><code>1.0000</code></td><td>精确命中。</td></tr>
+              <tr><td><code>TECH_CPP</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2533</code></td><td><code>0.1800</code></td><td>仍然只有祖先级别弱命中。</td></tr>
+              <tr><td><code>TECH_C</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2636</code></td><td><code>0.1800</code></td><td>同上。</td></tr>
+              <tr><td><code>TECH_CSHARP</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2649</code></td><td><code>0.1800</code></td><td>同上。</td></tr>
+              <tr><td><code>TECH_PYTHON</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2402</code></td><td><code>1.0000</code></td><td>精确命中。</td></tr>
+              <tr><td><code>TECH_SQL</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2528</code></td><td><code>1.0000</code></td><td>精确命中。</td></tr>
+              <tr><td><code>EXP_YOE_3_5</code></td><td><code>SINGLE</code></td><td><code>1.2000 / 1.2219</code></td><td><code>1.0000</code></td><td>经验桶正好命中 3 到 5 年。</td></tr>
+            </tbody>
+          </table>
+
+          <h4>原句：Troubleshooting code for bugs using various tools available in the IDE and/or logging, Write production-grade, maintainable code primarily for data pipelines leveraging Airflow, Databricks Asset Bundles, or Snowflake in Scala</h4>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th><th>为什么是这个分</th></tr></thead>
+            <tbody>
+              <tr><td><code>TECH_DATABRICKS, TECH_SNOWFLAKE</code></td><td><code>OR</code></td><td><code>1.2600 / 1.3104</code></td><td><code>0.1198</code></td><td>两个成员都没有形成强精确命中，只剩很弱的相关数据平台信号，所以 OR 取到的 max 也很低。</td></tr>
+              <tr><td><code>TECH_AIRFLOW, TECH_SCALA</code></td><td><code>OR</code></td><td><code>1.2600 / 1.3104</code></td><td><code>0.9244</code></td><td>Scala 是强命中，OR 只要有一个成员满足即可，所以这个 unit 被显著抬高。</td></tr>
+            </tbody>
+          </table>
+
+          <h4>原句：Implement complex data transformations using Spark Structured streaming, Spark SQL and core Spark APIs</h4>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th><th>为什么是这个分</th></tr></thead>
+            <tbody>
+              <tr><td><code>TECH_SQL, TECH_API</code></td><td><code>AND</code></td><td><code>1.2600 / 1.2925</code></td><td><code>0.4078</code></td><td>SQL 命中强，但 API 不完整，AND 会把缺失成员的权重扣掉，所以是中分而不是高分。</td></tr>
+              <tr><td><code>TECH_SPARK</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2670</code></td><td><code>0.7200</code></td><td>不是完整的 Spark API 精确覆盖，但有较强的数据处理/流式/分析邻近信号，所以得到中高分。</td></tr>
+            </tbody>
+          </table>
+
+          <h4>原句：Designing and implementing relational and non-relational database schemas e.g. MySql, Mongodb, Dynamodb</h4>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th><th>为什么是这个分</th></tr></thead>
+            <tbody>
+              <tr><td><code>TECH_DATABASE</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2514</code></td><td><code>1.0000</code></td><td>候选在数据库/schema 这个层面有直接命中。</td></tr>
+              <tr><td><code>TECH_MYSQL</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2688</code></td><td><code>0.1296</code></td><td>没有 MySQL 的精确命中，只剩祖先或弱相关数据库信号，所以非常低。</td></tr>
+              <tr><td><code>TECH_MONGODB</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2688</code></td><td><code>0.1296</code></td><td>和 MySQL 一样，只有弱相关的存储/数据库家族信号。</td></tr>
+              <tr><td><code>TECH_DYNAMODB</code></td><td><code>SINGLE</code></td><td><code>1.2200 / 1.2688</code></td><td><code>0.7200</code></td><td>比 MySQL/MongoDB 强一些，说明候选有更接近的 NoSQL / datastore 相关信号，但还不是完全精确命中。</td></tr>
+            </tbody>
+          </table>
+
+          <h4>原句：Bachelor's Degree in Computer Science or relevant technical field</h4>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th><th>为什么是这个分</th></tr></thead>
+            <tbody>
+              <tr><td><code>CONSTRAINT_COMPUTER_SCIENCE</code></td><td><code>SINGLE</code></td><td><code>1.1600 / 1.1825</code></td><td><code>0.7200</code></td><td>不是绝对精确覆盖，但有技术学位/相关学科的较强对齐，因此拿到中高分。</td></tr>
+            </tbody>
+          </table>
+
+          <h4>原句：Onsite</h4>
+          <table>
+            <thead><tr><th>unit</th><th>logic</th><th>weight(unit/effective)</th><th>top1命中分</th><th>为什么是这个分</th></tr></thead>
+            <tbody>
+              <tr><td><code>CONSTRAINT_ONSITE</code></td><td><code>SINGLE</code></td><td><code>0.3000 / 0.3040</code></td><td><code>1.0000</code></td><td>work model 完全对上，但这个 unit 的权重很低，所以它是“满分但影响小”。</td></tr>
+            </tbody>
+          </table>
+
+          <h3>5. 这张表怎么读</h3>
+          <p>这张表不是在看“哪个词出现最多”，而是在看“哪个结构化 requirement 对最终排序贡献最大”。先看 <code>weight(effective)</code>，再看 <code>top1命中分</code>。</p>
+          <p>在这条 Disney JD 里，拉高分的部分主要是 <code>TECH_SCALA</code>、<code>TECH_JAVA</code>、<code>TECH_PYTHON</code>、<code>TECH_SQL</code>、<code>EXP_YOE_3_5</code>、<code>CONSTRAINT_ENGINEERING_FIELD</code>、<code>TECH_DATABASE</code>、<code>CONSTRAINT_ONSITE</code>。原因是它们要么是精确 member 命中，要么是非常强的约束对齐，而且很多都属于 <code>must_have</code>，所以同时具备高 <code>unit_weight</code> 和高 <code>effective_weight</code>。例如 <code>TECH_SQL</code> 和 <code>TECH_PYTHON</code> 的 effective weight 都在 <code>1.24</code> 到 <code>1.25</code> 左右，命中分又是 <code>1.0</code>，它们对 <code>weighted_requirement</code> 和 <code>must_score</code> 的抬升非常明显。<code>CONSTRAINT_ONSITE</code> 虽然也是 <code>1.0</code>，但它的权重只有 <code>0.3000 / 0.3040</code>，所以“满分但不太改变总盘”。</p>
+          <p>拖分的部分主要是 <code>RESP_SOFTWARE_DEVELOPMENT, RESP_FULLSTACK_DEVELOPMENT</code> 这个 <code>AND</code>、<code>TECH_DATABRICKS, TECH_SNOWFLAKE</code> 这个 <code>OR</code>、<code>TECH_MYSQL</code>、<code>TECH_MONGODB</code>、<code>TECH_CPP</code>、<code>TECH_C</code>、<code>TECH_CSHARP</code>。原因有三类：<code>AND</code> 逻辑更严格；<code>OR</code> 逻辑虽然宽松，但前提是要有一个成员真的强；C / C++ / C#、MySQL、MongoDB 这类 unit 都是高权重 must-have，但 candidate 只给了祖先级别或弱对齐，一旦 <code>member_match_score</code> 只剩 <code>0.18</code> 或 <code>0.1296</code>，而 unit 本身权重又高，这些项会明显拖低 <code>weighted_requirement</code> 和 <code>hard_requirement_score</code>。</p>
+
+          <h3>6. 关键代码依据</h3>
+          <table>
+            <thead><tr><th>位置</th><th>作用</th></tr></thead>
+            <tbody>
+              <tr><td><code>match_pipe/units.py:94</code></td><td><code>_text_blocks</code>，把 JD 拆成 title / summary / core_skills / must_have / preferred / responsibilities / metadata</td></tr>
+              <tr><td><code>match_pipe/units.py:196</code></td><td><code>_infer_logic_type</code>，识别 <code>SINGLE / OR / AND / AT_LEAST_K / PARENT_ANY_CHILD</code></td></tr>
+              <tr><td><code>match_pipe/units.py:239</code></td><td><code>_unit_weight</code>，计算 <code>unit_weight</code></td></tr>
+              <tr><td><code>match_pipe/units.py:265</code></td><td><code>_member_weight</code>，计算 unit 内成员权重</td></tr>
+              <tr><td><code>match_pipe/matcher.py:402</code></td><td><code>_score_candidate</code>，把各 unit 分合成最终候选分</td></tr>
+              <tr><td><code>match_pipe/matcher.py:508</code></td><td><code>_semantic_specificity</code>，用 IDF 估计稀缺度并放大有效权重</td></tr>
+              <tr><td><code>match_pipe/matcher.py:526</code></td><td><code>_score_unit</code>，计算单个 requirement unit 的命中分</td></tr>
+              <tr><td><code>match_pipe/matcher.py:588</code></td><td><code>_member_match_score</code>，计算单个 member 的 exact / ancestor / background 命中分</td></tr>
+              <tr><td><code>match_pipe/matcher.py:619</code></td><td><code>_best_structure_alignment</code>，计算结构对齐度并影响 OR / AND / AT_LEAST_K / PARENT_ANY_CHILD</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section" id="sec-15">
+          <h2>十五、附录C：第十二部分三类风险的细化解释与案例映射</h2>
+          <h3>1. 旧 benchmark 过度奖励 <code>duplicate</code> 和 <code>same-company</code></h3>
+          <p>这句话的意思不是“系统只能看公司名”，而是 <code>benchmark</code> 的正例构造本身太偏旧世界的重复样本，所以一个 matcher 只要会吃到同公司、同标题、近重复的红利，就能拿到很高分。</p>
+          <table>
+            <thead><tr><th>当前字段</th><th>当前数值</th><th>真实含义</th></tr></thead>
+            <tbody>
+              <tr><td><code>benchmark_audit.standard.case_count</code></td><td><code>208</code></td><td>旧标准集样本多，但构造偏重复</td></tr>
+              <tr><td><code>benchmark_audit.standard.same_company_positive_ratio</code></td><td><code>1.0</code></td><td>正例全部同公司</td></tr>
+              <tr><td><code>benchmark_audit.standard.exact_title_positive_ratio</code></td><td><code>1.0</code></td><td>正例全部同标题重复</td></tr>
+              <tr><td><code>benchmark_audit.hard.case_count</code></td><td><code>68</code></td><td>旧 hard 集仍然不纯</td></tr>
+              <tr><td><code>benchmark_audit.hard.same_company_positive_ratio</code></td><td><code>1.0</code></td><td>仍然完全吃 same-company 偏置</td></tr>
+              <tr><td><code>benchmark_audit.hard.exact_title_positive_ratio</code></td><td><code>1.0</code></td><td>仍然完全吃 exact-title 偏置</td></tr>
+              <tr><td><code>benchmark_audit.rebuilt_hard.case_count</code></td><td><code>33</code></td><td>只有这个集合开始接近纯语义</td></tr>
+              <tr><td><code>benchmark_audit.rebuilt_hard.same_company_positive_ratio</code></td><td><code>0.0</code></td><td>终于去掉 same-company 主导</td></tr>
+              <tr><td><code>benchmark_audit.rebuilt_hard.exact_title_positive_ratio</code></td><td><code>0.26</code></td><td>只剩少量标题重复</td></tr>
+            </tbody>
+          </table>
+          <p>这里的实现不是隐式的，<code>purity_audit_runner.py</code> 把 <code>duplicate_near_duplicate</code> 和 <code>same_company</code> 单独列成特征，<code>benchmark.py:351-373</code> 还直接统计 <code>same_company_positive_ratio</code> 和 <code>exact_title_positive_ratio</code>。<code>matcher.py:652-669</code> 的 <code>_metadata_score()</code> / <code>_duplicate_score()</code> 又把 <code>same_company</code>、<code>title_exact</code>、<code>title_overlap</code> 直接放进最终打分，所以这类 bias 会真实抬分，不只是“报告上看起来像”。</p>
+          <p>对 Disney 这个例子来说，它<strong>不能直接证明</strong> same-company bias，因为当前 top1 是跨公司候选 <code>Amazon | Data Engineer II, Amazon Payment Products</code>，不是同公司结果。Disney 这个单例能说明的是：在 <code>teacher_b_pure_semantic</code> 下，系统仍然可以依靠结构化语义把跨公司候选推到第一；但“旧 benchmark 过度奖励 duplicate/same-company”这件事，要靠上面的 audit 字段来证明，而不是靠 Disney 单例本身。</p>
+          <p>最小额外证据可以直接引用 <code>output/analysis/match_pipe_purity_audit.json</code> 里的 audit 字段，以及 <code>match_pipe/matcher.py:146-160</code> 里 <code>teacher_b_pure_semantic</code> 关闭 <code>same_company</code> / <code>duplicate</code> 相关能力的配置。</p>
+
+          <h3>2. 纯语义 <code>hard</code> 集与 <code>gold</code> 集规模仍偏小</h3>
+          <p>这句话的意思是：现在 benchmark 终于更纯了，但样本量还不足以稳定刻画尾部错误，尤其是分类边界、parent-child、must/preferred 这类细粒度问题。一个样本的得失会明显改变比例。</p>
+          <table>
+            <thead><tr><th>当前字段</th><th>当前数值</th><th>含义</th></tr></thead>
+            <tbody>
+              <tr><td><code>benchmark_suite.rebuilt_hard_case_count</code></td><td><code>33</code></td><td>纯语义 hard 集只有 33 条</td></tr>
+              <tr><td><code>semantic_freeze_report.semantic_gold.case_count</code></td><td><code>29</code></td><td>人工/半人工 gold 也只有 29 条</td></tr>
+              <tr><td><code>semantic_freeze_runner._build_gold_set().category_limits</code></td><td><code>6/4/5/5/5/5</code></td><td>每个类别都被强行限额，说明不是大规模金标</td></tr>
+              <tr><td><code>semantic_freeze_report.boundary_policy.active_boundary_case_count</code></td><td><code>1</code></td><td>当前只有 1 条 active boundary case</td></tr>
+              <tr><td><code>semantic_freeze_runner._freeze_decision().criteria.rebuilt_hard_hit_at_1_min</code></td><td><code>0.55</code></td><td>冻结门槛本身就建立在小集合上</td></tr>
+              <tr><td><code>semantic_freeze_runner._freeze_decision().criteria.gold_hit_at_1_min</code></td><td><code>0.68</code></td><td>gold 门槛同样基于小样本</td></tr>
+            </tbody>
+          </table>
+          <p>这不是抽象担忧，而是直接的统计稳定性问题。<code>33</code> 条样本里，单条样本就会让 <code>hit@1</code> 变化约 <code>3.03%</code>；<code>29</code> 条 gold 里单条样本会让 <code>hit@1</code> 变化约 <code>3.45%</code>。而类别级别只有 <code>6</code> 条时，单条样本就会让类别 <code>hit@1</code> 变化 <code>16.67%</code>。这就是为什么当前报告里 <code>critical_category_hit_at_3_min = 0.5</code> 这种阈值能过，但你仍然不能把它当成“大样本已收敛”。</p>
+          <p>Disney 单例在这里也<strong>不足以直接证明</strong>这个风险，因为它只展示了一条 query 的局部行为，不能说明 benchmark 的方差是否足够小。真正说明问题的是 <code>semantic_freeze_runner.py:118-190</code> 里的 <code>_build_gold_set()</code> 和 <code>category_limits</code>，以及 <code>semantic_freeze_runner.py:462-476</code> 里的 freeze criteria。换句话说，Disney 只能当案例，不能当统计结论。</p>
+          <p>如果要补一个最小额外案例，<code>output/analysis/match_pipe_semantic_freeze_report.json</code> 里这条最合适：<code>69d83774869c7e25d859479c::must_vs_preferred_confusing</code>，它的 rationale 已经说明 generic-title query 可能对应多个 acceptable positives，所以 gold 集必须允许 boundary / multi-positive，而不能硬压成单解。</p>
+
+          <h3>3. <code>must vs preferred</code> 与 <code>parent-child</code> 仍是最脆弱的规则层</h3>
+          <p>这句话的意思是两类问题最容易把“语义上差一点”的候选排到“应该更优”的候选前面。</p>
+          <table>
+            <thead><tr><th>当前字段</th><th>当前数值</th><th>含义</th></tr></thead>
+            <tbody>
+              <tr><td><code>semantic_freeze_report.category_metrics.must_vs_preferred_confusing.case_count</code></td><td><code>6</code></td><td>这类样本只有 6 条</td></tr>
+              <tr><td><code>semantic_freeze_report.category_metrics.must_vs_preferred_confusing.hit_at_1</code></td><td><code>0.3333</code></td><td>Top1 只有 1/3 正确</td></tr>
+              <tr><td><code>semantic_freeze_report.category_metrics.must_vs_preferred_confusing.hit_at_3</code></td><td><code>0.6667</code></td><td>Top3 也只是中等</td></tr>
+              <tr><td><code>semantic_freeze_report.category_metrics.parent_child_conflict.case_count</code></td><td><code>6</code></td><td>parent-child 冲突同样只有 6 条</td></tr>
+              <tr><td><code>semantic_freeze_report.category_metrics.parent_child_conflict.hit_at_1</code></td><td><code>0.5</code></td><td>Top1 只有一半正确</td></tr>
+              <tr><td><code>semantic_freeze_report.category_metrics.parent_child_conflict.hit_at_3</code></td><td><code>0.8333</code></td><td>Top3 仍有漏失</td></tr>
+              <tr><td><code>semantic_freeze_runner._freeze_decision().criteria.critical_category_hit_at_3_min</code></td><td><code>0.5</code></td><td>这些类别正是 freeze 的硬门槛之一</td></tr>
+            </tbody>
+          </table>
+          <p><code>must vs preferred</code> 的真实含义是：系统把“应该是必须项”的信号，误让位给了“只是偏好项”的表层重合。<code>parent-child</code> 的真实含义是：taxonomy 里的父节点、兄弟节点、或更泛化的祖先节点，抢走了真正 child 节点的排名。</p>
+          <p>代码上，<code>match_pipe/matcher.py:588-642</code> 的 <code>_member_match_score()</code> 和 <code>_best_structure_alignment()</code> 已经把这个问题写进去了：exact / descendant 命中给满分，ancestor 只给 <code>0.18</code> 倍；同时还要乘上 <code>logic_alignment</code> 和 <code>content_alignment</code>。这意味着一旦 taxonomy 粗、候选又有父级泛化覆盖，分数就可能看起来“还不错”，但其实漏掉了真正该命中的 child。</p>
+          <p>Disney 这个例子里，<code>parent-child</code> 风险是可以<strong>部分体现</strong>的：<code>TECH_DATABASE = 1.0000</code>，但 <code>TECH_MYSQL = 0.1296</code>、<code>TECH_MONGODB = 0.1296</code>、<code>TECH_DYNAMODB = 0.7200</code>。这说明候选对“数据库父类概念”命中很强，但对具体 child 节点并不均匀，正是 parent-child 结构容易出问题的典型形态。但 Disney <strong>不能直接体现</strong> <code>must vs preferred</code>，因为这个 JD 里没有显式的 <code>preferred_quals</code> 主导冲突；它更像是 <code>must_have</code> 和 <code>strong_preference</code> 混合的结构化 JD。要看 <code>must vs preferred</code> 的直接样本，应该引用：<code>69d83774869c7e25d859479c::must_vs_preferred_confusing</code>，其 rationale 明确写着 “Must-have alignment should outrank preferred-only overlap.” 要看 <code>parent-child</code> 的直接样本，可以引用：<code>69d83b10f4ea471a51fe4be1::parent_child_conflict</code>，其 rationale 明确写着更具体的 child units 应该压过更宽的兄弟/父级角色。</p>
+          <h3>代码与报告依据</h3>
+          <table>
+            <thead><tr><th>依据</th><th>位置</th></tr></thead>
+            <tbody>
+              <tr><td><code>benchmark.py</code> 旧 benchmark 审计</td><td><code>match_pipe/benchmark.py:351-373</code></td></tr>
+              <tr><td><code>purity_audit_runner.py</code> 特征归因</td><td><code>match_pipe/purity_audit_runner.py:107-165</code></td></tr>
+              <tr><td><code>semantic_freeze_runner.py</code> gold 构造</td><td><code>match_pipe/semantic_freeze_runner.py:118-190</code></td></tr>
+              <tr><td><code>semantic_freeze_runner.py</code> freeze 门槛</td><td><code>match_pipe/semantic_freeze_runner.py:462-476</code></td></tr>
+              <tr><td><code>semantic_freeze_runner.py</code> boundary policy</td><td><code>match_pipe/semantic_freeze_runner.py:690-694</code></td></tr>
+              <tr><td><code>units.py</code> 切块 / 逻辑识别 / 权重</td><td><code>match_pipe/units.py:94-120, 196-210, 239-275, 383-444</code></td></tr>
+              <tr><td><code>matcher.py</code> 语义 specificity / unit score / hierarchy</td><td><code>match_pipe/matcher.py:508-642, 652-669</code></td></tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+
+    <div class="footer">文件基于本次聊天内容整理生成，用于浏览器复查与汇报展示。</div>
+  </div>
+</body>
+</html>

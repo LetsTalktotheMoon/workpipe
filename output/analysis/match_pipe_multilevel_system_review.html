@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>match_pipe 多层级匹配系统评估</title>
+  <style>
+    :root {
+      --bg: #f6f3eb;
+      --panel: #fffdf8;
+      --ink: #1d2a24;
+      --muted: #617166;
+      --line: #d8d2c3;
+      --accent: #0e7c66;
+      --accent-soft: #d9f0e9;
+      --warn: #8f5b00;
+      --warn-soft: #fff1cb;
+      --rose: #7c2d3a;
+      --rose-soft: #f8dde2;
+      --shadow: 0 18px 40px rgba(31, 45, 38, 0.08);
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      --sans: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, rgba(14, 124, 102, 0.08), transparent 28%),
+        radial-gradient(circle at top right, rgba(143, 91, 0, 0.08), transparent 24%),
+        var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.55;
+    }
+
+    .wrap {
+      width: min(1200px, calc(100vw - 32px));
+      margin: 24px auto 72px;
+    }
+
+    .hero, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      line-height: 1.15;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 920px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 18px;
+    }
+
+    .panel {
+      padding: 22px;
+    }
+
+    .span-12 { grid-column: span 12; }
+    .span-8 { grid-column: span 8; }
+    .span-6 { grid-column: span 6; }
+    .span-4 { grid-column: span 4; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 17px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .kpi {
+      padding: 14px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, #fff, #faf7f0);
+    }
+
+    .kpi .label {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .kpi .value {
+      margin-top: 4px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 7px 11px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    .ok { background: var(--accent-soft); color: var(--accent); border-color: rgba(14, 124, 102, 0.18); }
+    .warn { background: var(--warn-soft); color: var(--warn); border-color: rgba(143, 91, 0, 0.18); }
+    .risk { background: var(--rose-soft); color: var(--rose); border-color: rgba(124, 45, 58, 0.18); }
+
+    .flow {
+      display: grid;
+      gap: 12px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 42px 1fr 42px 1fr;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .node {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+      padding: 14px;
+      min-height: 92px;
+    }
+
+    .node strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .node small {
+      color: var(--muted);
+      display: block;
+    }
+
+    .arrow {
+      text-align: center;
+      color: var(--accent);
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .stack {
+      display: grid;
+      gap: 10px;
+    }
+
+    .chip {
+      border-left: 5px solid var(--accent);
+      background: #fbfffd;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      padding: 12px 14px;
+    }
+
+    .chip.alt {
+      border-left-color: var(--warn);
+      background: #fffdfa;
+    }
+
+    .chip.risk {
+      border-left-color: var(--rose);
+      background: #fffafb;
+    }
+
+    code, pre {
+      font-family: var(--mono);
+    }
+
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      background: #18221d;
+      color: #e9f3ef;
+      padding: 16px;
+      border-radius: 18px;
+      overflow: auto;
+      font-size: 13px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 980px) {
+      .span-8, .span-6, .span-4 { grid-column: span 12; }
+      .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .row { grid-template-columns: 1fr; }
+      .arrow { transform: rotate(90deg); }
+      .columns { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>match_pipe 多层级匹配系统评估</h1>
+      <p>
+        当前系统不是单一的“相似 JD 检索器”，而是一个分层语义匹配器 + 双通道 starter 选择器 + 下游 writer/reviewer/planner 验证链。
+        语义 teacher 已冻结为 <code>teacher_b_semantic_v1</code>，重点测试正在从“找得准”转向“如何把匹配结果更稳定地用进简历生成”。
+      </p>
+      <div class="badge-row">
+        <span class="badge ok">teacher frozen = true</span>
+        <span class="badge ok">student ready = true</span>
+        <span class="badge warn">双通道下游收益尚未稳定单边领先</span>
+        <span class="badge ok">支持增量入库</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="panel span-12">
+        <h2>1. 当前状态总览</h2>
+        <div class="kpis">
+          <div class="kpi">
+            <div class="label">Teacher Standard Hit@1</div>
+            <div class="value">94.59%</div>
+          </div>
+          <div class="kpi">
+            <div class="label">Teacher Hard Hit@1</div>
+            <div class="value">81.82%</div>
+          </div>
+          <div class="kpi">
+            <div class="label">Teacher Avg Runtime</div>
+            <div class="value">~1.0s</div>
+          </div>
+          <div class="kpi">
+            <div class="label">Recommended Deployment</div>
+            <div class="value" style="font-size:20px">student online + teacher audit</div>
+          </div>
+        </div>
+        <div class="badge-row">
+          <span class="badge ok">冻结条件全部通过</span>
+          <span class="badge ok">回归测试通过</span>
+          <span class="badge ok">双通道架构通过 go-live 条件</span>
+        </div>
+      </section>
+
+      <section class="panel span-12">
+        <h2>2. 系统主链路图</h2>
+        <div class="flow">
+          <div class="row">
+            <div class="node">
+              <strong>输入 JD / 新职位</strong>
+              从 scraped job 或 portfolio history 载入原始文本与结构化字段。
+              <small>来源：<code>match_pipe/loader.py</code></small>
+            </div>
+            <div class="arrow">→</div>
+            <div class="node">
+              <strong>结构化解析</strong>
+              切块、别名识别、经验年限桶、逻辑识别、unit 建模、pattern/recall key 生成。
+              <small>核心：<code>build_structured_job</code></small>
+            </div>
+            <div class="arrow">→</div>
+            <div class="node">
+              <strong>语义召回 + 打分</strong>
+              用 pattern/member/hierarchy/combo 等召回候选，再按 requirement/hard-gap 计算总分。
+              <small>核心：<code>MatchEngine.match</code></small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="node">
+              <strong>语义通道</strong>
+              找全局最可复用 starter。
+              <small>只看 requirement-unit 语义，不引入 same-company 偏置</small>
+            </div>
+            <div class="arrow">⇄</div>
+            <div class="node">
+              <strong>公司连续性通道</strong>
+              如果同公司有历史简历，单独评估 title continuity + semantic reuse。
+              <small>作为辅助约束，而不是 teacher 核心</small>
+            </div>
+            <div class="arrow">→</div>
+            <div class="node">
+              <strong>writer_input</strong>
+              输出 <code>primary_anchor</code> + 可选 <code>continuity_anchor</code> + guidance。
+              <small>供 writer / planner 下游直接消费</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="node">
+              <strong>旧流</strong>
+              <code>old_match_anchor</code>：基于 seed registry 的 route reuse/retarget。
+            </div>
+            <div class="arrow">↘</div>
+            <div class="node">
+              <strong>新流</strong>
+              <code>new_dual_channel_anchor</code>：从 semantic anchor 出发，加 continuity overlay。
+            </div>
+            <div class="arrow">→</div>
+            <div class="node">
+              <strong>review / planner 验证</strong>
+              reviewer 打分，planner 决定 reject_starter / direct_review / write。
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel span-8">
+        <h2>3. 匹配规则分层</h2>
+        <div class="stack">
+          <div class="chip">
+            <strong>第 0 层：文本切块</strong>
+            标题、summary、core_skills、must_have_quals、preferred_quals、core_responsibilities、metadata 被拆成 block，不同 block 自带不同约束权重。
+          </div>
+          <div class="chip">
+            <strong>第 1 层：canonical alias 识别</strong>
+            文本先映射到 taxonomy canonical id，例如 <code>TECH_PYTHON</code>、<code>TECH_AWS</code>、<code>RESP_SOFTWARE_DEVELOPMENT</code>。
+          </div>
+          <div class="chip">
+            <strong>第 2 层：逻辑结构识别</strong>
+            系统显式识别 <code>SINGLE</code>、<code>OR</code>、<code>AND</code>、<code>AT_LEAST_K</code>、<code>PARENT_ANY_CHILD</code>。
+          </div>
+          <div class="chip">
+            <strong>第 3 层：unit 权重</strong>
+            <code>must_have &gt; strong_preference &gt; preferred &gt; background</code>，并叠加内容类型、section、logic bonus。
+          </div>
+          <div class="chip">
+            <strong>第 4 层：召回</strong>
+            候选来源是 <code>pattern_exact</code>、<code>hard_unit</code>、<code>hierarchy_expand</code>、<code>combo</code>，必要时还有 surface/fallback。
+          </div>
+          <div class="chip alt">
+            <strong>第 5 层：语义打分</strong>
+            总分核心是 <code>requirement_score</code> 和 <code>hard_requirement_score</code>；硬缺口低于阈值会触发惩罚。
+          </div>
+          <div class="chip alt">
+            <strong>第 6 层：双通道选 starter</strong>
+            semantic channel 负责“最像、最可复用”；company channel 负责“同公司连续性”。
+          </div>
+        </div>
+      </section>
+
+      <section class="panel span-4">
+        <h2>4. 关键公式</h2>
+        <table>
+          <tr><th>规则</th><th>说明</th></tr>
+          <tr><td><code>requirement_score</code></td><td><code>0.58 * weighted_requirement + 0.42 * semantic_band_score</code></td></tr>
+          <tr><td><code>hard_requirement_score</code></td><td>Must-have 76% + strong-preference 24%</td></tr>
+          <tr><td><code>total_score</code></td><td><code>0.64*requirement + 0.14*hard + 0.08*surface + 0.06*metadata + 0.08*duplicate</code></td></tr>
+          <tr><td>低硬匹配惩罚</td><td><code>hard &lt; 0.45</code> 乘 0.72；<code>hard &lt; 0.6</code> 乘 0.86</td></tr>
+          <tr><td><code>reuse_readiness</code></td><td><code>0.72 * requirement + 0.28 * hard</code></td></tr>
+          <tr><td>company continuity</td><td><code>0.46 * semantic_reuse + 0.34 * title_exact + 0.10 * title_overlap + continuity</code></td></tr>
+        </table>
+      </section>
+
+      <section class="panel span-12">
+        <h2>5. “一份新简历/新职位打进来”时的实际匹配路径</h2>
+        <pre>新职位进入
+  -> loader 读取 row / raw_text
+  -> units.build_structured_job:
+       - block 拆分
+       - alias 命中 canonical ids
+       - 识别 OR / AND / AT_LEAST_K / PARENT_ANY_CHILD
+       - 生成 requirement_units / pattern_signature / recall_keys
+  -> MatchEngine._candidate_pool:
+       - pattern_exact
+       - hard_unit
+       - hierarchy_expand
+       - combo
+       - (teacher_a/c 可选 surface / same_company)
+  -> MatchEngine._score_candidate:
+       - 每个 requirement unit 打分
+       - 聚合 requirement_score / hard_requirement_score
+       - 若 must gap 大，整体降权
+  -> StarterSelector.select:
+       - semantic_best_anchor
+       - semantic_positive_cluster（若 generic-title 且多阳性可接受）
+       - company_best_anchor
+       - writer_input.primary_anchor / continuity_anchor
+  -> downstream writer / planner:
+       - no_starter / old_match / new_dual_channel 对比实验
+       - reviewer 打分
+       - planner 决定 direct_review / write / reject_starter</pre>
+        <p class="small">
+          如果你说的“新简历打进来”是“新生成的简历成为后续可复用 anchor”，那它不是直接进 semantic teacher 规则层，而是先以 portfolio artifact 的形式被 loader 重新纳入历史池，之后才会在后续 job 匹配中作为候选 starter 被复用。
+        </p>
+      </section>
+
+      <section class="panel span-6">
+        <h2>6. 当前系统的优点</h2>
+        <div class="stack">
+          <div class="chip">
+            <strong>优点 1：语义 teacher 很克制</strong>
+            冻结版 <code>teacher_b_pure_semantic</code> 明确关掉 same-company、surface、metadata、duplicate shortcut，避免检索器被“公司名/标题重合”污染。
+          </div>
+          <div class="chip">
+            <strong>优点 2：显式建模逻辑结构</strong>
+            它不是只比关键词重合，还区分 AND/OR/至少 K 个命中，这一点对岗位要求很关键。
+          </div>
+          <div class="chip">
+            <strong>优点 3：把公司连续性拆成辅助通道</strong>
+            同公司历史价值被保留，但不混进 semantic teacher 核心，这是架构上正确的边界。
+          </div>
+          <div class="chip">
+            <strong>优点 4：支持增量增长</strong>
+            新 job 可即时写入 index，低信号项会 quarantine，未知 surface token 会进入 alias candidate 队列。
+          </div>
+        </div>
+      </section>
+
+      <section class="panel span-6">
+        <h2>7. 当前风险与限制</h2>
+        <div class="stack">
+          <div class="chip risk">
+            <strong>风险 1：downstream 收益不稳定</strong>
+            小样本里 <code>new_dual_channel_anchor</code> 平均分 94.45，略低于 <code>old_match_anchor</code> 的 94.7，而且 token 成本更高。
+          </div>
+          <div class="chip risk">
+            <strong>风险 2：semantic best 可能不可写</strong>
+            有案例里 semantic best 本身没有 resume artifact，于是 writer 最终退回到 semantic top-k 里第一个可写 anchor，说明“最佳匹配”和“最佳 starter”仍是两件事。
+          </div>
+          <div class="chip risk">
+            <strong>风险 3：generic title 仍难</strong>
+            boundary pool 目前只有 1 个 case，说明“多阳性可接受”机制已经存在，但边界样本仍偏少。
+          </div>
+          <div class="chip risk">
+            <strong>风险 4：planner 还未稳定优于直接 writer</strong>
+            planner dual-channel 在个别 case 上提升明显，但也有 case 低于历史 no-starter/old-match。
+          </div>
+        </div>
+      </section>
+
+      <section class="panel span-12">
+        <h2>8. 两个真实样例</h2>
+        <table>
+          <tr>
+            <th>样例</th>
+            <th>系统行为</th>
+            <th>结论</th>
+          </tr>
+          <tr>
+            <td><strong>Color / New Grad Software Engineer</strong></td>
+            <td>
+              旧路由命中 <code>AWS Generalist Embedded</code>；新双通道的 semantic best 是 <code>Suffolk Construction / AI Engineer</code>，
+              没有 company anchor，最终按单 anchor 写。
+            </td>
+            <td>
+              旧流 94.9 分，新双通道 94.0 分。这个例子说明 semantic best 不一定比成熟 seed 更适合作为写作起点。
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Centene / Application Development Engineer II</strong></td>
+            <td>
+              semantic best 是没有现成 resume 的 <code>HealthPartners / Data Engineer Senior</code>，
+              但 writer 实际选了可写的 <code>AWS / SDE II Builder Experience</code> 作为 semantic writer anchor。
+            </td>
+            <td>
+              新双通道 94.9 分，高于旧流 94.5。这个例子说明“语义判别”和“可写锚点选择”分离后是有收益的。
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="panel span-12">
+        <h2>9. 我对当前系统的判断</h2>
+        <div class="columns">
+          <div>
+            <h3>架构判断</h3>
+            <p>
+              这套设计方向是对的。语义 teacher 保持纯净，company continuity 被下沉到 reranker / writer 约束层，避免检索器过拟合历史公司与标题重复。
+              这比“把 same_company 直接混进主分”更稳。
+            </p>
+          </div>
+          <div>
+            <h3>落地判断</h3>
+            <p>
+              真正还没完全收敛的是“如何把 semantic 结果变成最优 starter”。当前系统已经意识到 semantic-best、semantic-starter、semantic-writer-anchor 是三个不同角色，
+              但这层还在试验，尤其是在 generic title 和 artifact 缺失场景下。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel span-12">
+        <h2>10. 下一步最值得补强的点</h2>
+        <div class="stack">
+          <div class="chip alt">
+            <strong>补强 1：把 “best match” 和 “best writable anchor” 分开打分</strong>
+            现在已经部分这么做了，但还可以更显式：在 selector 输出里直接区分 semantic_judge_best / semantic_resume_best / writer_best。
+          </div>
+          <div class="chip alt">
+            <strong>补强 2：扩边界池</strong>
+            generic-title、same-company-structure-different、must-vs-preferred-confusing 这几类都应该补更多 case。
+          </div>
+          <div class="chip alt">
+            <strong>补强 3：把 planner 的收益条件化</strong>
+            不要默认 planner 一定介入，而应该在 semantic score、hard gap、artifact quality 达到阈值时才走 planner-heavy 路线。
+          </div>
+          <div class="chip alt">
+            <strong>补强 4：把新历史简历的入池质量门槛显式化</strong>
+            不是所有新生成简历都应直接成为后续 anchor，最好加一个 review_final_score / pass gate。
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

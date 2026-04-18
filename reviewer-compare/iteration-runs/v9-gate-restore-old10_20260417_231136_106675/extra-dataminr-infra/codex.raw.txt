@@ -1,0 +1,56 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1-4",
+        "issue": "Multiple qualifying adjectives are bolded, including \"team-maintained\", \"existing\", \"internal\", and \"team-owned\". The bolding rule is meant to emphasize technical nouns and scale/scope signals, not modifiers.",
+        "fix": "Remove bold from those qualifiers and reserve emphasis for the actual technologies and measurable outcomes."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Professional Summary + overall experience timeline",
+        "issue": "The resume only visibly establishes one clearly hands-on backend stint, while the Summary itself says \"3+ years\". That does not clearly satisfy Dataminr's explicit 4+ years building backend services/applications requirement.",
+        "fix": "If the candidate truly has 4+ years of backend ownership, move that evidence into the first bullets of the most relevant roles with concrete API/data-model/service work; otherwise this is a structural mismatch for this JD.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1-4",
+        "issue": "The newest relevant experience relies heavily on percentage improvements and benchmark deltas, with no Tier-1 scope marker in the first bullet. That weakens first-pass credibility for a senior backend role.",
+        "fix": "Add one concrete scope anchor before the percentages, such as request volume, service boundary, team ownership, SLA, or data scale."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "DiDi Experience bullets 1-5",
+        "issue": "This role also leans on multiple percentage lifts without enough Tier-1 scale or production-scope context, so the quantified impact reads softer than the JD expects.",
+        "fix": "Foreground one or two concrete scope signals, such as number of services, request volume, city coverage, or ownership boundary, before the percentage claims."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Resolve the senior-backend tenure gap by surfacing truthful backend ownership evidence in the most relevant roles, or treat this as a structural mismatch for Dataminr Senior Backend.",
+    "[MUST] Add one concrete scope anchor to the newest backend-relevant bullets so the resume is not read as percent-lift heavy and scope-light.",
+    "[SHOULD] Remove bold from qualifiers like team-maintained/internal/existing/team-owned and keep emphasis on technologies and measurable signals.",
+    "[NICE] If you want a stronger first impression, make the Summary's third sentence more cognition-forward and less generic."
+  ],
+  "revision_instructions": "[结构性错配] 先解决这份简历对 Dataminr Senior Backend 的可见 backend tenure 不足问题：如果事实允许，把 DiDi/Temu 中与生产服务、事件流、缓存、API、数据模型直接相关的工作前置到各段第一条 bullet，并明确总 backend 相关年限；如果不允许，这份简历更适合偏数据平台/分析工程的岗位。其次，为 TikTok 和 DiDi 的最新相关 bullets 各补一个可追问的 scope 锚点（请求量、服务边界、城市范围、SLA、团队 ownership），避免只剩百分比结果。最后，去掉 team-maintained/internal/existing/team-owned 这类修饰语的加粗，保留技术名词和关键量化信号的强调。"
+}

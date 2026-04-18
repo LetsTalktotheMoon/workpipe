@@ -1,0 +1,4 @@
+name: prompt_upgrade_system
+sections:
+  - part: upgrade_revision_system
+join: "\n\n"

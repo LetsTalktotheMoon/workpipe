@@ -1,0 +1,241 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T19:42:16",
+  "completed_at": "2026-04-17T19:43:07",
+  "duration_seconds": 51.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets and project bullets (especially TikTok and DiDi)",
+          "issue": "Many key outcome metrics and scope markers are not bolded, even though the resume uses bold extensively for technologies. Examples include `11 minutes to 4 minutes`, `24%`, `31%`, `28%`, `5 days to 2 days`, `20+ city`, `38%`, `42%`, `33%`, `13-person`, and `96%`.",
+          "fix": "Bold the metric phrase or scope noun in each bullet so the scan path surfaces the result faster; keep bold reserved for technology names and decisive scope signals."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok and DiDi experience bullets",
+          "issue": "Several non-substantive modifiers are bolded, such as `team-maintained` and similar adjective-style emphasis. This weakens the visual hierarchy because bold should highlight tech or scope, not filler adjectives.",
+          "fix": "Remove bold from modifiers and keep emphasis on technologies, scale, and results only."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing starts with `Fullstack Delivery`, which reads like a capability label instead of a direct role-direction anchor. The role signal is present, but it is not the strongest possible first read.",
+          "fix": "Rewrite the first header to lead with the target role and domain, e.g. `**Python Fullstack Engineer:**` or `**Backend/Fullstack Engineer:**`, while keeping the rest of the sentence."
+        },
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills > APIs",
+          "issue": "The category title `APIs` is too vague for a first-scan skills block and does not help ATS or a recruiter understand the grouping.",
+          "fix": "Rename it to something more informative like `Backend`, `Integration`, or `Frameworks` while keeping the same items."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience",
+          "issue": "The newest segment is dominated by Tier-2 improvement metrics, so it does not immediately establish the scale of the work. A recruiter has to infer scope from `team-maintained` and `internal` wording rather than seeing a concrete ownership boundary or volume signal.",
+          "fix": "Add one explicit scope marker to the first TikTok bullet or project bullet, such as number of analysts/users, request volume, dataset size, or service count, so the opening read is scope-first instead of percentage-first."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opening so the first impression is a direct role-direction anchor, not a generic capability label.",
+      "[MUST] Add one concrete scope marker to the newest TikTok bullets so the top experience reads as ownership-heavy rather than only efficiency-improvement-heavy.",
+      "[SHOULD] Normalize bolding: keep emphasis on technologies and results, remove bold from filler adjectives, and bold the key metric phrases.",
+      "[NICE] Rename the `APIs` skills bucket to a more informative category label."
+    ],
+    "revision_instructions": "Keep the immutable job history unchanged. Reframe the Summary opening around `Python Fullstack Engineer` or `Backend/Fullstack Engineer` so the first line is role-forward. In the newest TikTok segment, add one concrete scope signal in the first or second bullet, such as team size, analyst count, request volume, or dataset size, so the section does not read as only percent-improvement driven. Then clean up emphasis rules: bold technologies and key outcomes, not adjectives like `team-maintained`. Finally, rename the `APIs` skills bucket to a more informative label without changing the underlying skills.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 9.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.0,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 5,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opening so the first impression is a direct role-direction anchor, not a generic capability label.",
+      "[MUST] Add one concrete scope marker to the newest TikTok bullets so the top experience reads as ownership-heavy rather than only efficiency-improvement-heavy.",
+      "[SHOULD] Normalize bolding: keep emphasis on technologies and results, remove bold from filler adjectives, and bold the key metric phrases.",
+      "[NICE] Rename the `APIs` skills bucket to a more informative category label."
+    ],
+    "revision_instructions": "Keep the immutable job history unchanged. Reframe the Summary opening around `Python Fullstack Engineer` or `Backend/Fullstack Engineer` so the first line is role-forward. In the newest TikTok segment, add one concrete scope signal in the first or second bullet, such as team size, analyst count, request volume, or dataset size, so the section does not read as only percent-improvement driven. Then clean up emphasis rules: bold technologies and key outcomes, not adjectives like `team-maintained`. Finally, rename the `APIs` skills bucket to a more informative label without changing the underlying skills.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets and project bullets (especially TikTok and DiDi)",
+            "issue": "Many key outcome metrics and scope markers are not bolded, even though the resume uses bold extensively for technologies. Examples include `11 minutes to 4 minutes`, `24%`, `31%`, `28%`, `5 days to 2 days`, `20+ city`, `38%`, `42%`, `33%`, `13-person`, and `96%`.",
+            "fix": "Bold the metric phrase or scope noun in each bullet so the scan path surfaces the result faster; keep bold reserved for technology names and decisive scope signals."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok and DiDi experience bullets",
+            "issue": "Several non-substantive modifiers are bolded, such as `team-maintained` and similar adjective-style emphasis. This weakens the visual hierarchy because bold should highlight tech or scope, not filler adjectives.",
+            "fix": "Remove bold from modifiers and keep emphasis on technologies, scale, and results only."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The opening framing starts with `Fullstack Delivery`, which reads like a capability label instead of a direct role-direction anchor. The role signal is present, but it is not the strongest possible first read.",
+            "fix": "Rewrite the first header to lead with the target role and domain, e.g. `**Python Fullstack Engineer:**` or `**Backend/Fullstack Engineer:**`, while keeping the rest of the sentence."
+          },
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills > APIs",
+            "issue": "The category title `APIs` is too vague for a first-scan skills block and does not help ATS or a recruiter understand the grouping.",
+            "fix": "Rename it to something more informative like `Backend`, `Integration`, or `Frameworks` while keeping the same items."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "The newest segment is dominated by Tier-2 improvement metrics, so it does not immediately establish the scale of the work. A recruiter has to infer scope from `team-maintained` and `internal` wording rather than seeing a concrete ownership boundary or volume signal.",
+            "fix": "Add one explicit scope marker to the first TikTok bullet or project bullet, such as number of analysts/users, request volume, dataset size, or service count, so the opening read is scope-first instead of percentage-first."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the Summary opening so the first impression is a direct role-direction anchor, not a generic capability label.",
+        "[MUST] Add one concrete scope marker to the newest TikTok bullets so the top experience reads as ownership-heavy rather than only efficiency-improvement-heavy.",
+        "[SHOULD] Normalize bolding: keep emphasis on technologies and results, remove bold from filler adjectives, and bold the key metric phrases.",
+        "[NICE] Rename the `APIs` skills bucket to a more informative category label."
+      ],
+      "revision_instructions": "Keep the immutable job history unchanged. Reframe the Summary opening around `Python Fullstack Engineer` or `Backend/Fullstack Engineer` so the first line is role-forward. In the newest TikTok segment, add one concrete scope signal in the first or second bullet, such as team size, analyst count, request volume, or dataset size, so the section does not read as only percent-improvement driven. Then clean up emphasis rules: bold technologies and key outcomes, not adjectives like `team-maintained`. Finally, rename the `APIs` skills bucket to a more informative label without changing the underlying skills.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets and project bullets (especially TikTok and DiDi)",
+          "issue": "Many key outcome metrics and scope markers are not bolded, even though the resume uses bold extensively for technologies. Examples include `11 minutes to 4 minutes`, `24%`, `31%`, `28%`, `5 days to 2 days`, `20+ city`, `38%`, `42%`, `33%`, `13-person`, and `96%`.",
+          "fix": "Bold the metric phrase or scope noun in each bullet so the scan path surfaces the result faster; keep bold reserved for technology names and decisive scope signals."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok and DiDi experience bullets",
+          "issue": "Several non-substantive modifiers are bolded, such as `team-maintained` and similar adjective-style emphasis. This weakens the visual hierarchy because bold should highlight tech or scope, not filler adjectives.",
+          "fix": "Remove bold from modifiers and keep emphasis on technologies, scale, and results only."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opening framing starts with `Fullstack Delivery`, which reads like a capability label instead of a direct role-direction anchor. The role signal is present, but it is not the strongest possible first read.",
+          "fix": "Rewrite the first header to lead with the target role and domain, e.g. `**Python Fullstack Engineer:**` or `**Backend/Fullstack Engineer:**`, while keeping the rest of the sentence."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience",
+          "issue": "The newest segment is dominated by Tier-2 improvement metrics, so it does not immediately establish the scale of the work. A recruiter has to infer scope from `team-maintained` and `internal` wording rather than seeing a concrete ownership boundary or volume signal.",
+          "fix": "Add one explicit scope marker to the first TikTok bullet or project bullet, such as number of analysts/users, request volume, dataset size, or service count, so the opening read is scope-first instead of percentage-first."
+        }
+      ],
+      "r5_logic": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills > APIs",
+          "issue": "The category title `APIs` is too vague for a first-scan skills block and does not help ATS or a recruiter understand the grouping.",
+          "fix": "Rename it to something more informative like `Backend`, `Integration`, or `Frameworks` while keeping the same items."
+        }
+      ],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-040",
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-001",
+          "P2-040"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P1-042",
+      "P2-001",
+      "P2-040",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

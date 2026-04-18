@@ -1,0 +1,46 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, bullet 1",
+        "issue": "首句以“transitioning from data analysis to full-stack development”作框架，首屏先讲转型过程而不是目标角色与领域锚点，6-8 秒扫读时会削弱 full-stack / security / platform 的判断效率。",
+        "fix": "把第一句改成先落到目标角色和领域，再补转型背景，例如先写“Full-stack engineer building internal security and workflow systems in Java, TypeScript, Node.js, Python”之类的角色锚点，再用从 data analysis 迁移过来的背景作补充。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3A-002",
+        "sub_area": "3A",
+        "severity": "high",
+        "field": "TikTok · Security / Project: Security Knowledge Retrieval Assistant, bullet 1",
+        "issue": "正文明确写了 \"AWS Bedrock\"，但 Skills 里没有对应技术名，导致技术-叙事映射不完整；ATS 会把它视为正文出现了一个未被技能栏支撑的具体平台。",
+        "fix": "把 `AWS Bedrock` 补进 `Skills > Cloud`，并保留该 project bullet 不变；如果你想压缩 Skills，就把这一服务名放进最相关的项目 bullet 里继续作为证据，不要直接删掉。"
+      },
+      {
+        "rule_id": "P3E-013",
+        "sub_area": "3E",
+        "severity": "medium",
+        "field": "TikTok · Security / Project: Security Knowledge Retrieval Assistant, bullet 1",
+        "issue": "该 bullet 使用了外部云/LLM 服务，但只写了内部知识检索与文档场景，没有明确限定数据边界。对安全团队语境来说，HR 可能会追问是否涉及用户数据或生产数据。",
+        "fix": "在同一条 bullet 里补一句边界限定，例如“internal policy and incident docs, no user/production data, evaluation-only”，把它明确锚定为内部评估或团队自用流程。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 在 `Skills > Cloud` 中补上 `AWS Bedrock`，让 TikTok 项目里出现的具体平台名有技能栏支撑。",
+    "[SHOULD] 给 TikTok 的知识检索项目补一条数据边界限定语，明确是 internal docs / no user data / no production data。",
+    "[SHOULD] 重写 Summary 第一句，先落到 full-stack / security / platform 角色锚点，再写从 data analysis 的迁移背景。"
+  ],
+  "revision_instructions": "[MUST] 在 `Skills > Cloud` 补上 `AWS Bedrock`，并保持 TikTok 项目原文里对 Bedrock 的使用描述。 [SHOULD] 在 TikTok 的知识检索项目 bullet 加上边界限定词，明确是内部文档、非用户数据、非生产数据、evaluation-only。 [SHOULD] 把 Summary 第一条改成先讲目标角色与领域，再讲从 data analysis 向 full-stack 的迁移背景。"
+}

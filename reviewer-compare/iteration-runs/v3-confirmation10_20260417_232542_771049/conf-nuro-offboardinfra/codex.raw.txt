@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-010",
+        "severity": "high",
+        "field": "Professional Summary, sentence 3",
+        "issue": "第三句标题是“Applied ML Collaborator”，首屏 framing 偏协作身份而不是能力/方向信号，HR 读起来会把它当成弱头衔而非强卖点。",
+        "fix": "把标题改成能力导向，例如“Applied ML engineer:”或“Retrieval systems builder:”，后面的 RAG / evaluation 细节保留不变。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary + TikTok Experience",
+        "issue": "简历展示了 backend、distributed systems、ML 和 security 经验，但没有把这些经历明确桥接到 Nuro 的 offboard infrastructure / autonomy 场景，HR 需要自己补迁移逻辑。",
+        "fix": "在 Summary 或 TikTok 第一条 bullet 里补一句迁移桥接，说明这些 distributed backend / data / evaluation 经验如何服务于 reliability-sensitive infrastructure、safety workflows 或 autonomy tooling。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience + Security Knowledge Retrieval Assistant project",
+        "issue": "最新相关经历几乎都用百分比 lift 叙事，缺少 request volume、dataset size、internal users、service boundary 这类 Tier 1 规模/范围信号，量化抓手偏弱。",
+        "fix": "至少在 1 到 2 条最前面的 bullet 中补 1 个具体 scope 信号，例如日请求量、数据量、内部用户数或服务边界，再保留现有改善百分比。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把 Summary 第 3 句改成能力导向标题，避免“Collaborator”式弱 framing。",
+    "[MUST] 在 Summary 或 TikTok 首条 bullet 里补一条明确的迁移桥接，说明为什么这份 backend / infra 经验适合 Nuro 的 offboard infrastructure。",
+    "[SHOULD] 给 TikTok 最新经历补 1 个 Tier 1 规模或边界信号，降低整段对百分比结果的依赖。",
+    "[NICE] 如果版面允许，继续把最相关经历的首条 bullet 写得更像“范围 + 责任 + 结果”，少一点泛化成效描述。"
+  ],
+  "revision_instructions": "把 Summary 第 3 句改成能力导向标题；在 Summary 或 TikTok 第一条 bullet 里补一条明确的迁移桥接，说明这些 distributed backend / data / evaluation 经验如何服务于 Nuro 的 offboard infrastructure；再给 TikTok 最新经历补 1 个 Tier 1 规模或边界信号，例如 internal users、request volume、dataset size 或 service ownership，同时保留现有百分比结果。"
+}

@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "## Professional Summary",
+        "issue": "The 3 summary bullets are noun-led descriptors rather than verb-led bullets, so they read like labels instead of action-oriented summary statements.",
+        "fix": "Keep the 3-sentence structure, but rewrite each line so the clause after the header starts with a strong verb, e.g. Built/Developed/Applied."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "## Professional Summary; TikTok Experience; DiDi Project baselines",
+        "issue": "Descriptive qualifiers are bolded repeatedly (team-maintained, existing, internal, team-owned, intern-owned, shared), which dilutes the intended bold signal reserved for technologies and quantified outcomes.",
+        "fix": "Reserve bold for technologies, scope nouns, and quantified results; unbold descriptive modifiers."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills / all Experience sections",
+        "issue": "The JD must-have Rust is missing from both Skills and the body, so the resume does not visibly cover the full required stack.",
+        "fix": "If Rust experience is real, add one concrete Rust-based backend bullet in the most relevant experience with the specific component and outcome; otherwise this is a structural mismatch for this JD.",
+        "note": "[结构性错配]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add Rust evidence or treat the Discord JD as a structural mismatch.",
+    "[MUST] Remove bolding from qualifiers; keep bold only for technologies and metrics.",
+    "[SHOULD] Rework the Summary into verb-led clauses while preserving the 3-sentence structure.",
+    "[NICE] Add one explicit database/storage ownership signal in the most relevant backend bullet to sharpen the infra story."
+  ],
+  "revision_instructions": "[结构性错配] If you have real Rust work, add one concrete Rust bullet in the most relevant backend experience with the module, stack, and outcome. If not, this Discord role is a poor fit on paper. Also remove bold from descriptive modifiers like team-maintained/internal/existing and keep bold for technologies and metrics. Rewrite the 3 Summary lines so each header is followed by a verb-led clause."
+}

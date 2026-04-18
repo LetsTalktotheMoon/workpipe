@@ -1,0 +1,197 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:14:14",
+  "completed_at": "2026-04-17T22:15:14",
+  "duration_seconds": 60.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok bullets; DiDi bullets",
+          "issue": "正文里把修饰语和限定词也加粗了，例如 `team-maintained`、`existing`、`internal`、`team-owned`、`intern-owned`、`shared`。这会稀释真正该被扫读的技术词和规模词。",
+          "fix": "取消这些修饰语的加粗，只保留技术栈名词、规模/scope 数字和真正的 ownership 关键词加粗。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "首句虽然有 `Backend Engineer`，但被 `Transitioning from Analytics` 这种转段叙事放在前面，首屏更像“转型中的候选人”而不是“已就位的后端候选人”。",
+          "fix": "把首句改成直接的角色锚点，例如 `Security-focused Backend Engineer:` 或 `Backend Engineer:`，并把从 analytics 迁移的说明移到后半句。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary; TikTok Experience; DiDi Experience",
+          "issue": "程序语言叙事过宽：Summary 里一次列出 `Python, Go, Java, C++, Scala`，而 TikTok 段又同时用 Go、Python、C++、Java，容易被读成“多语言堆栈展示”而不是清晰的主语言故事。",
+          "fix": "把 Summary 收敛成 2-3 个最核心语言，主线写成 `Go/Python-led backend` 或类似表达；其余语言只在对应 bullet 里保留直接证据，避免让人误读为主工作栈无边界扩张。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 重写 Summary 第一句，改成直接的 backend/security 角色锚点，把“Transitioning from Analytics”降到次级信息。",
+      "[MUST] 去掉修饰语加粗，只保留技术栈、规模数字、真正的 ownership 词加粗。",
+      "[MUST] 收敛程序语言叙事，Summary 只保留 2-3 个核心语言，避免被读成堆栈炫技。",
+      "[SHOULD] 在 Summary 或最近经历里补一小句迁移桥接，让 analytics -> backend 的路径更像“有意识的转向”而不是“广泛接触过很多技术”。"
+    ],
+    "revision_instructions": "[MUST] 把首句改成直接的 backend/security 角色定位，弱化“Transitioning from Analytics”的首屏存在感。[MUST] 取消 team-maintained/existing/internal/team-owned/intern-owned/shared 这类修饰语的加粗，只保留技术和规模词。[MUST] 将 Summary 的语言栈收敛到 2-3 个核心语言，其他语言只在对应经历里保留直接证据，避免多语言堆栈印象。[SHOULD] 补一句迁移桥接，说明 analytics 背景如何支撑 backend 工作。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.3,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 重写 Summary 第一句，改成直接的 backend/security 角色锚点，把“Transitioning from Analytics”降到次级信息。",
+      "[MUST] 去掉修饰语加粗，只保留技术栈、规模数字、真正的 ownership 词加粗。",
+      "[MUST] 收敛程序语言叙事，Summary 只保留 2-3 个核心语言，避免被读成堆栈炫技。",
+      "[SHOULD] 在 Summary 或最近经历里补一小句迁移桥接，让 analytics -> backend 的路径更像“有意识的转向”而不是“广泛接触过很多技术”。"
+    ],
+    "revision_instructions": "[MUST] 把首句改成直接的 backend/security 角色定位，弱化“Transitioning from Analytics”的首屏存在感。[MUST] 取消 team-maintained/existing/internal/team-owned/intern-owned/shared 这类修饰语的加粗，只保留技术和规模词。[MUST] 将 Summary 的语言栈收敛到 2-3 个核心语言，其他语言只在对应经历里保留直接证据，避免多语言堆栈印象。[SHOULD] 补一句迁移桥接，说明 analytics 背景如何支撑 backend 工作。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok bullets; DiDi bullets",
+            "issue": "正文里把修饰语和限定词也加粗了，例如 `team-maintained`、`existing`、`internal`、`team-owned`、`intern-owned`、`shared`。这会稀释真正该被扫读的技术词和规模词。",
+            "fix": "取消这些修饰语的加粗，只保留技术栈名词、规模/scope 数字和真正的 ownership 关键词加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "首句虽然有 `Backend Engineer`，但被 `Transitioning from Analytics` 这种转段叙事放在前面，首屏更像“转型中的候选人”而不是“已就位的后端候选人”。",
+            "fix": "把首句改成直接的角色锚点，例如 `Security-focused Backend Engineer:` 或 `Backend Engineer:`，并把从 analytics 迁移的说明移到后半句。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary; TikTok Experience; DiDi Experience",
+            "issue": "程序语言叙事过宽：Summary 里一次列出 `Python, Go, Java, C++, Scala`，而 TikTok 段又同时用 Go、Python、C++、Java，容易被读成“多语言堆栈展示”而不是清晰的主语言故事。",
+            "fix": "把 Summary 收敛成 2-3 个最核心语言，主线写成 `Go/Python-led backend` 或类似表达；其余语言只在对应 bullet 里保留直接证据，避免让人误读为主工作栈无边界扩张。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 重写 Summary 第一句，改成直接的 backend/security 角色锚点，把“Transitioning from Analytics”降到次级信息。",
+        "[MUST] 去掉修饰语加粗，只保留技术栈、规模数字、真正的 ownership 词加粗。",
+        "[MUST] 收敛程序语言叙事，Summary 只保留 2-3 个核心语言，避免被读成堆栈炫技。",
+        "[SHOULD] 在 Summary 或最近经历里补一小句迁移桥接，让 analytics -> backend 的路径更像“有意识的转向”而不是“广泛接触过很多技术”。"
+      ],
+      "revision_instructions": "[MUST] 把首句改成直接的 backend/security 角色定位，弱化“Transitioning from Analytics”的首屏存在感。[MUST] 取消 team-maintained/existing/internal/team-owned/intern-owned/shared 这类修饰语的加粗，只保留技术和规模词。[MUST] 将 Summary 的语言栈收敛到 2-3 个核心语言，其他语言只在对应经历里保留直接证据，避免多语言堆栈印象。[SHOULD] 补一句迁移桥接，说明 analytics 背景如何支撑 backend 工作。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok bullets; DiDi bullets",
+          "issue": "正文里把修饰语和限定词也加粗了，例如 `team-maintained`、`existing`、`internal`、`team-owned`、`intern-owned`、`shared`。这会稀释真正该被扫读的技术词和规模词。",
+          "fix": "取消这些修饰语的加粗，只保留技术栈名词、规模/scope 数字和真正的 ownership 关键词加粗。"
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Professional Summary; TikTok Experience; DiDi Experience",
+          "issue": "程序语言叙事过宽：Summary 里一次列出 `Python, Go, Java, C++, Scala`，而 TikTok 段又同时用 Go、Python、C++、Java，容易被读成“多语言堆栈展示”而不是清晰的主语言故事。",
+          "fix": "把 Summary 收敛成 2-3 个最核心语言，主线写成 `Go/Python-led backend` 或类似表达；其余语言只在对应 bullet 里保留直接证据，避免让人误读为主工作栈无边界扩张。"
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "首句虽然有 `Backend Engineer`，但被 `Transitioning from Analytics` 这种转段叙事放在前面，首屏更像“转型中的候选人”而不是“已就位的后端候选人”。",
+          "fix": "把首句改成直接的角色锚点，例如 `Security-focused Backend Engineer:` 或 `Backend Engineer:`，并把从 analytics 迁移的说明移到后半句。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3C-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3C-010"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ Professional Summary; TikTok Experience; DiDi Experience"
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "label": "gen2/CapitalOne-Manager2",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/CapitalOne-Manager2",
+    "company": "Capital One",
+    "title": "Manager, Data Analysis - Card Services",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Capital One is a leader in data-driven decision-making and is seeking a Manager for Data Analysis in their Card Services division",
+    "tech_required": [],
+    "tech_preferred": [
+      "R",
+      "Spark",
+      "SQL",
+      "Python",
+      "AWS",
+      "Tableau"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-07/69d50a7b891d7b11cfcff19a/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 89.5,
+      "overall_verdict": "fail",
+      "passed": false,
+      "critical_count": 0,
+      "high_count": 1,
+      "needs_revision": true,
+      "revision_priority": [
+        "Rewrite Professional Summary into exactly 3 bold-headed sentences.",
+        "Add defensible R/Tableau evidence in Skills and one body bullet if those tools were actually used."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 7.4,
+          "weight": 0.15,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 8.6,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.4,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.0,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 89.5,
+      "verdict": "conditional_pass",
+      "seed_label": "Qualified Health Data Engineer",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "Keep all immutable fields exactly as-is. First, convert Professional Summary from 3 bullets into exactly 3 sentences, each with a bold header and no bullet markers; the third sentence should emphasize pattern recognition / systems judgment rather than teamwork. Second, if `R` and `Tableau` are real skills, add them to Skills and support them with one concrete bullet in DiDi or Temu that shows actual analysis or dashboard usage; do not invent unsupported tools. Preserve the existing experience chronology, titles, dates, and location strings.",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T18:31:03",
+      "rereview_rounds": 1,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 93.0,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:16:26",
+    "completed_at": "2026-04-17T23:17:41",
+    "duration_seconds": 75.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Experience / TikTok · Security bullets",
+            "issue": "正文里把修饰语和限定词加粗了，例如 `team-maintained`、`existing`，这会稀释对技术名词和规模信号的强调。",
+            "fix": "取消这些限定词的加粗，只保留技术栈名、规模数字和明确实体的加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "第一句用 `Data Analysis Candidate` 作为标题，首屏读感更像泛化求职者，而不是明确的角色方向 + 领域信号。",
+            "fix": "把首句标题改成角色导向的表述，例如 `Data Analytics Leader`、`Data/Platform Analytics Professional` 这类，保持 3 句结构不变。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall experience timeline / seniority signal",
+            "issue": "按可见时间线，候选人可用的 full-time 专业数据分析经验明显低于 JD 要求的 4+ years；同时简历里也没有明确的 people-management 证据，而 JD 明确要求 Manager / lead analysts scope。",
+            "fix": "这是结构性错配：若真实背景中有更早的全职分析或管理经历，必须前置到最相关经历里；否则建议转投更低 seniority 的 analytics IC 岗位。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "这一段几乎全部是百分比和时间节省结果，没有给出任何可追问的 tier-1 规模/scope 信号，作为简历最前面的最新经历，抓手偏弱。",
+            "fix": "如果真实存在，补一个具体 scope 指标到首条 bullet，例如支持的分析师人数、每日 case 数、数据表/记录量、或 workflow 覆盖范围。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 先处理 Capital One 这个 Manager / 4+ years 门槛的结构性不匹配：当前可见 full-time 数据分析经验不足，且 people-management 证据不明确。",
+        "[MUST] 把 Summary 第一句改成角色导向的首屏表述，不要用 `Candidate` 作为主标题。",
+        "[SHOULD] 给 TikTok 最前面的 bullet 补一个真实的 scope 数字，降低纯百分比叙事的弱抓手问题。",
+        "[SHOULD] 取消修饰语加粗，只保留技术名、规模数字和明确实体的加粗。"
+      ],
+      "revision_instructions": "[结构性错配] 建议优先重新选择更贴近当前年限的 JD，而不是继续重写后端文案。若确有更早的全职数据分析/管理经历，必须把它前置到最相关经历里，并补出明确的 people-management 或 analyst-mentoring 证据。与此同时，把 Summary 第一句改成角色导向标题，并在 TikTok 首条 bullet 增加一个真实 scope 数字。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 90.9,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 先处理 Capital One 这个 Manager / 4+ years 门槛的结构性不匹配：当前可见 full-time 数据分析经验不足，且 people-management 证据不明确。",
+        "[MUST] 把 Summary 第一句改成角色导向的首屏表述，不要用 `Candidate` 作为主标题。",
+        "[SHOULD] 给 TikTok 最前面的 bullet 补一个真实的 scope 数字，降低纯百分比叙事的弱抓手问题。",
+        "[SHOULD] 取消修饰语加粗，只保留技术名、规模数字和明确实体的加粗。"
+      ],
+      "revision_instructions": "[结构性错配] 建议优先重新选择更贴近当前年限的 JD，而不是继续重写后端文案。若确有更早的全职数据分析/管理经历，必须把它前置到最相关经历里，并补出明确的 people-management 或 analyst-mentoring 证据。与此同时，把 Summary 第一句改成角色导向标题，并在 TikTok 首条 bullet 增加一个真实 scope 数字。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Experience / TikTok · Security bullets",
+              "issue": "正文里把修饰语和限定词加粗了，例如 `team-maintained`、`existing`，这会稀释对技术名词和规模信号的强调。",
+              "fix": "取消这些限定词的加粗，只保留技术栈名、规模数字和明确实体的加粗。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "第一句用 `Data Analysis Candidate` 作为标题，首屏读感更像泛化求职者，而不是明确的角色方向 + 领域信号。",
+              "fix": "把首句标题改成角色导向的表述，例如 `Data Analytics Leader`、`Data/Platform Analytics Professional` 这类，保持 3 句结构不变。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Overall experience timeline / seniority signal",
+              "issue": "按可见时间线，候选人可用的 full-time 专业数据分析经验明显低于 JD 要求的 4+ years；同时简历里也没有明确的 people-management 证据，而 JD 明确要求 Manager / lead analysts scope。",
+              "fix": "这是结构性错配：若真实背景中有更早的全职分析或管理经历，必须前置到最相关经历里；否则建议转投更低 seniority 的 analytics IC 岗位。",
+              "note": "[结构性错配]"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok · Security experience",
+              "issue": "这一段几乎全部是百分比和时间节省结果，没有给出任何可追问的 tier-1 规模/scope 信号，作为简历最前面的最新经历，抓手偏弱。",
+              "fix": "如果真实存在，补一个具体 scope 指标到首条 bullet，例如支持的分析师人数、每日 case 数、数据表/记录量、或 workflow 覆盖范围。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 先处理 Capital One 这个 Manager / 4+ years 门槛的结构性不匹配：当前可见 full-time 数据分析经验不足，且 people-management 证据不明确。",
+          "[MUST] 把 Summary 第一句改成角色导向的首屏表述，不要用 `Candidate` 作为主标题。",
+          "[SHOULD] 给 TikTok 最前面的 bullet 补一个真实的 scope 数字，降低纯百分比叙事的弱抓手问题。",
+          "[SHOULD] 取消修饰语加粗，只保留技术名、规模数字和明确实体的加粗。"
+        ],
+        "revision_instructions": "[结构性错配] 建议优先重新选择更贴近当前年限的 JD，而不是继续重写后端文案。若确有更早的全职数据分析/管理经历，必须把它前置到最相关经历里，并补出明确的 people-management 或 analyst-mentoring 证据。与此同时，把 Summary 第一句改成角色导向标题，并在 TikTok 首条 bullet 增加一个真实 scope 数字。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Experience / TikTok · Security bullets",
+            "issue": "正文里把修饰语和限定词加粗了，例如 `team-maintained`、`existing`，这会稀释对技术名词和规模信号的强调。",
+            "fix": "取消这些限定词的加粗，只保留技术栈名、规模数字和明确实体的加粗。"
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall experience timeline / seniority signal",
+            "issue": "按可见时间线，候选人可用的 full-time 专业数据分析经验明显低于 JD 要求的 4+ years；同时简历里也没有明确的 people-management 证据，而 JD 明确要求 Manager / lead analysts scope。",
+            "fix": "这是结构性错配：若真实背景中有更早的全职分析或管理经历，必须前置到最相关经历里；否则建议转投更低 seniority 的 analytics IC 岗位。",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "第一句用 `Data Analysis Candidate` 作为标题，首屏读感更像泛化求职者，而不是明确的角色方向 + 领域信号。",
+            "fix": "把首句标题改成角色导向的表述，例如 `Data Analytics Leader`、`Data/Platform Analytics Professional` 这类，保持 3 句结构不变。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security experience",
+            "issue": "这一段几乎全部是百分比和时间节省结果，没有给出任何可追问的 tier-1 规模/scope 信号，作为简历最前面的最新经历，抓手偏弱。",
+            "fix": "如果真实存在，补一个具体 scope 指标到首条 bullet，例如支持的分析师人数、每日 case 数、数据表/记录量、或 workflow 覆盖范围。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-001",
+        "P3B-010",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-010 @ Overall experience timeline / seniority signal"
+      ]
+    }
+  }
+}

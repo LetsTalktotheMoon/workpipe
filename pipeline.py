@@ -24,7 +24,7 @@ STATE_ROOT = PROJECT_ROOT / "state"
 STATE_FILE = STATE_ROOT / "resume_state.json"
 DATA_ROOT = PROJECT_ROOT / "data"
 
-DEFAULT_JOBS_JSON = DATA_ROOT / "job_tracker" / "scraped_jobs.json"
+DEFAULT_JOBS_JSON = DATA_ROOT / "job_tracker" / "jobs_catalog.json"
 DEFAULT_PORTFOLIO_ROOT = DATA_ROOT / "deliverables" / "resume_portfolio"
 DEFAULT_PROFILES_JSON = DEFAULT_PORTFOLIO_ROOT / "profiles.json"
 
@@ -33,6 +33,7 @@ if str(RESUME_PIPELINE_ROOT) not in sys.path:
 
 from automation.artifacts import compile_markdown_to_pdf
 from automation.job_router import build_job_fingerprint, build_skill_vocab_from_seeds, decide_route
+from automation.jobs_catalog import FULL_JOBS_CATALOG_PATH, LOCAL_SCRAPED_JOBS_PATH, rebuild_catalog
 from automation.job_screen import screen_job_for_pipeline
 from automation.portfolio import publish_job_artifact, rebuild_portfolio_indexes
 from automation.seed_registry import SeedEntry, load_seed_registry
@@ -463,6 +464,7 @@ def run_jobs_step(
     ensure_dir(run_dir)
     log_path = run_dir / "jobs_step.log"
     ensure_dir(jobs_json.parent)
+    ensure_dir(LOCAL_SCRAPED_JOBS_PATH.parent)
 
     if skip_scrape:
         if not jobs_json.exists():
@@ -489,16 +491,30 @@ def run_jobs_step(
 
     runtime_jobs_json = JOB_TRACKER_ROOT / "scraped_jobs.json"
     if runtime_jobs_json.exists():
-        shutil.copyfile(runtime_jobs_json, jobs_json)
+        shutil.copyfile(runtime_jobs_json, LOCAL_SCRAPED_JOBS_PATH)
 
-    used_existing = completed.returncode != 0 and allow_existing_json and jobs_json.exists()
+    used_existing = completed.returncode != 0 and allow_existing_json and FULL_JOBS_CATALOG_PATH.exists()
     if completed.returncode != 0 and not used_existing:
         raise RuntimeError(f"job-tracker scrape failed with code {completed.returncode}; see {log_path}")
+
+    catalog_summary = rebuild_catalog(
+        catalog_path=FULL_JOBS_CATALOG_PATH,
+        include_google_sheet=False,
+        include_existing_catalog=True,
+        include_local_scrape=True,
+        include_portfolio_history=True,
+    )
+    if jobs_json.resolve() != FULL_JOBS_CATALOG_PATH.resolve():
+        shutil.copyfile(FULL_JOBS_CATALOG_PATH, jobs_json)
 
     summary = {
         "step": "jobs",
         "action": "scrape_only",
         "jobs_json": str(jobs_json),
+        "local_scrape_json": str(LOCAL_SCRAPED_JOBS_PATH),
+        "catalog_json": str(FULL_JOBS_CATALOG_PATH),
+        "catalog_count": int(catalog_summary.get("catalog_count", 0) or 0),
+        "catalog_unique_job_ids": int(catalog_summary.get("unique_job_ids", 0) or 0),
         "used_existing_json": used_existing,
         "returncode": completed.returncode,
         "command": cmd,
@@ -1194,7 +1210,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    jobs_parser = subparsers.add_parser("jobs", help="Run or validate local job scraping into scraped_jobs.json.")
+    jobs_parser = subparsers.add_parser("jobs", help="Run local job scraping and refresh jobs_catalog.json.")
     jobs_parser.add_argument("--jobs-json", default=str(DEFAULT_JOBS_JSON))
     jobs_parser.add_argument("--lookback-hours", type=int, default=8)
     jobs_parser.add_argument("--skip-scrape", action="store_true")

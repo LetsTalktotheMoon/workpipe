@@ -1,0 +1,9 @@
+{
+  "version_label": "gen2_v5_hr_gate",
+  "prompt_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v5_hr_gate/Reviewer_4Stage.md",
+  "scorer_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v5_hr_gate/Reviewer_Cal.py",
+  "cases_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/cases_generalization_10.json",
+  "codex_model": "gpt-5.4-mini",
+  "reasoning_effort": "medium",
+  "started_at": "2026-04-17T22:07:07"
+}

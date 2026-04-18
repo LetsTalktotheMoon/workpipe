@@ -1,0 +1,375 @@
+{
+  "label": "extra/Dataminr-Infra",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc",
+  "historical": {},
+  "metadata": {
+    "label": "extra/Dataminr-Infra",
+    "company": "Dataminr",
+    "title": "Senior Software Engineer, Backend",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "Dataminr is a mission-driven company that provides organizations with AI-powered intelligence to respond to emerging risks and events",
+    "tech_required": [
+      "Python",
+      "Go",
+      "Data Structures",
+      "Microservices",
+      "Java",
+      "Redis",
+      "Algorithms",
+      "Scala",
+      "Kafka",
+      "PostgreSQL",
+      "Distributed Systems",
+      "Elasticsearch"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 94.0,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.0,
+      "verdict": "pass",
+      "seed_label": "Google Cloud Infra Anchor",
+      "route_mode": "retarget",
+      "revised": true,
+      "repaired_at": "2026-04-07T16:57:20",
+      "repair_changes": [
+        "normalized_go_achievement",
+        "normalized_didi_scope_note"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:41:06",
+    "completed_at": "2026-04-17T22:42:32",
+    "duration_seconds": 86.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary / Experience / Project baseline lines",
+            "issue": "多处将修饰语或限定词加粗，例如 team-maintained、team-owned、intern-owned、production，这会稀释真正该被扫到的技术词和规模信号。",
+            "fix": "只保留技术栈名词、系统名和量化数字的加粗，把修饰语恢复为普通文本。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary 第3句",
+            "issue": "\"Structured Problem Solver\" 属于通用认知型标题，信息量弱于角色方向和领域锚点，不够像首屏强抓手。",
+            "fix": "改成更贴近后端判断的标题，例如 \"Systems Judgment\"、\"Architecture Judgment\" 或 \"Pattern Recognition\"，并尽量贴近分布式系统/后端可靠性语境。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "整体经历年限 / Professional Summary",
+            "issue": "可见时间线合计只有约 3 年，且包含一段 internship，表面上短于 Dataminr Senior Backend 要求的 4+ 年后端经验门槛。",
+            "fix": "如果时间线就是完整事实，这属于结构性错配；应优先投 3+ 年门槛的后端岗位，而不是试图靠删技术词补救。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok · Security | Software Engineer Intern",
+            "issue": "同一实习段里把 Go、Python、Java、Scala 都写成了使用级证据，外加多层基础设施，容易读成 internship 里技术栈过宽、像炫技堆叠。",
+            "fix": "收敛成 1-2 个主语言 + 关键中间件，把其余语言只保留在明确的辅助工具或团队上下文里。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security / Security Knowledge Retrieval Assistant",
+            "issue": "最近且最相关的一段几乎全是 24-31% 这类改进百分比和时间缩短，没有一个 Tier1 规模锚点来支撑这些结果的分量。",
+            "fix": "补一个同一工作流下的规模指标，例如请求量、文档规模、测试集规模、团队范围或 P99 / 吞吐。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 解决 senior backend 的结构性年限缺口：当前可见经历约 3 年，短于 JD 的 4+ 年门槛；如果时间线准确，不要靠改写词汇硬撑 senior。",
+        "[MUST] 收敛 TikTok 实习段的技术宽度，只保留 1-2 个主语言和最关键的中间件，避免被读成 internship 炫技堆栈。",
+        "[SHOULD] 给最近一段补一个 Tier1 规模锚点，让百分比结果有上下文支撑。",
+        "[NICE] 去掉 team-maintained / team-owned / intern-owned 这类修饰语加粗，只保留技术词和规模数字。"
+      ],
+      "revision_instructions": "[结构性错配] 当前可见经历约 3 年，和 Dataminr 4+ 年后端门槛不完全对齐；如果时间线准确，不要试图用删技术词补救，优先改投更匹配的 3+ 年后端岗位。若仍继续投这个岗位，把 TikTok 段压缩成 1-2 个主语言 + 关键中间件，并补一个明确的 Tier1 scope 数字（如请求量、文档量、测试集规模、团队范围或 P99/吞吐）来支撑百分比结果。最后移除 team-maintained/team-owned/intern-owned 等修饰语加粗，保留技术词和规模信号。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 90.7,
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 解决 senior backend 的结构性年限缺口：当前可见经历约 3 年，短于 JD 的 4+ 年门槛；如果时间线准确，不要靠改写词汇硬撑 senior。",
+        "[MUST] 收敛 TikTok 实习段的技术宽度，只保留 1-2 个主语言和最关键的中间件，避免被读成 internship 炫技堆栈。",
+        "[SHOULD] 给最近一段补一个 Tier1 规模锚点，让百分比结果有上下文支撑。",
+        "[NICE] 去掉 team-maintained / team-owned / intern-owned 这类修饰语加粗，只保留技术词和规模数字。"
+      ],
+      "revision_instructions": "[结构性错配] 当前可见经历约 3 年，和 Dataminr 4+ 年后端门槛不完全对齐；如果时间线准确，不要试图用删技术词补救，优先改投更匹配的 3+ 年后端岗位。若仍继续投这个岗位，把 TikTok 段压缩成 1-2 个主语言 + 关键中间件，并补一个明确的 Tier1 scope 数字（如请求量、文档量、测试集规模、团队范围或 P99/吞吐）来支撑百分比结果。最后移除 team-maintained/team-owned/intern-owned 等修饰语加粗，保留技术词和规模信号。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Summary / Experience / Project baseline lines",
+              "issue": "多处将修饰语或限定词加粗，例如 team-maintained、team-owned、intern-owned、production，这会稀释真正该被扫到的技术词和规模信号。",
+              "fix": "只保留技术栈名词、系统名和量化数字的加粗，把修饰语恢复为普通文本。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-010",
+              "severity": "medium",
+              "field": "Professional Summary 第3句",
+              "issue": "\"Structured Problem Solver\" 属于通用认知型标题，信息量弱于角色方向和领域锚点，不够像首屏强抓手。",
+              "fix": "改成更贴近后端判断的标题，例如 \"Systems Judgment\"、\"Architecture Judgment\" 或 \"Pattern Recognition\"，并尽量贴近分布式系统/后端可靠性语境。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "整体经历年限 / Professional Summary",
+              "issue": "可见时间线合计只有约 3 年，且包含一段 internship，表面上短于 Dataminr Senior Backend 要求的 4+ 年后端经验门槛。",
+              "fix": "如果时间线就是完整事实，这属于结构性错配；应优先投 3+ 年门槛的后端岗位，而不是试图靠删技术词补救。",
+              "note": "[结构性错配]"
+            },
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "TikTok · Security | Software Engineer Intern",
+              "issue": "同一实习段里把 Go、Python、Java、Scala 都写成了使用级证据，外加多层基础设施，容易读成 internship 里技术栈过宽、像炫技堆叠。",
+              "fix": "收敛成 1-2 个主语言 + 关键中间件，把其余语言只保留在明确的辅助工具或团队上下文里。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok · Security / Security Knowledge Retrieval Assistant",
+              "issue": "最近且最相关的一段几乎全是 24-31% 这类改进百分比和时间缩短，没有一个 Tier1 规模锚点来支撑这些结果的分量。",
+              "fix": "补一个同一工作流下的规模指标，例如请求量、文档规模、测试集规模、团队范围或 P99 / 吞吐。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 解决 senior backend 的结构性年限缺口：当前可见经历约 3 年，短于 JD 的 4+ 年门槛；如果时间线准确，不要靠改写词汇硬撑 senior。",
+          "[MUST] 收敛 TikTok 实习段的技术宽度，只保留 1-2 个主语言和最关键的中间件，避免被读成 internship 炫技堆栈。",
+          "[SHOULD] 给最近一段补一个 Tier1 规模锚点，让百分比结果有上下文支撑。",
+          "[NICE] 去掉 team-maintained / team-owned / intern-owned 这类修饰语加粗，只保留技术词和规模数字。"
+        ],
+        "revision_instructions": "[结构性错配] 当前可见经历约 3 年，和 Dataminr 4+ 年后端门槛不完全对齐；如果时间线准确，不要试图用删技术词补救，优先改投更匹配的 3+ 年后端岗位。若仍继续投这个岗位，把 TikTok 段压缩成 1-2 个主语言 + 关键中间件，并补一个明确的 Tier1 scope 数字（如请求量、文档量、测试集规模、团队范围或 P99/吞吐）来支撑百分比结果。最后移除 team-maintained/team-owned/intern-owned 等修饰语加粗，保留技术词和规模信号。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary / Experience / Project baseline lines",
+            "issue": "多处将修饰语或限定词加粗，例如 team-maintained、team-owned、intern-owned、production，这会稀释真正该被扫到的技术词和规模信号。",
+            "fix": "只保留技术栈名词、系统名和量化数字的加粗，把修饰语恢复为普通文本。"
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "整体经历年限 / Professional Summary",
+            "issue": "可见时间线合计只有约 3 年，且包含一段 internship，表面上短于 Dataminr Senior Backend 要求的 4+ 年后端经验门槛。",
+            "fix": "如果时间线就是完整事实，这属于结构性错配；应优先投 3+ 年门槛的后端岗位，而不是试图靠删技术词补救。",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok · Security | Software Engineer Intern",
+            "issue": "同一实习段里把 Go、Python、Java、Scala 都写成了使用级证据，外加多层基础设施，容易读成 internship 里技术栈过宽、像炫技堆叠。",
+            "fix": "收敛成 1-2 个主语言 + 关键中间件，把其余语言只保留在明确的辅助工具或团队上下文里。"
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary 第3句",
+            "issue": "\"Structured Problem Solver\" 属于通用认知型标题，信息量弱于角色方向和领域锚点，不够像首屏强抓手。",
+            "fix": "改成更贴近后端判断的标题，例如 \"Systems Judgment\"、\"Architecture Judgment\" 或 \"Pattern Recognition\"，并尽量贴近分布式系统/后端可靠性语境。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security / Security Knowledge Retrieval Assistant",
+            "issue": "最近且最相关的一段几乎全是 24-31% 这类改进百分比和时间缩短，没有一个 Tier1 规模锚点来支撑这些结果的分量。",
+            "fix": "补一个同一工作流下的规模指标，例如请求量、文档规模、测试集规模、团队范围或 P99 / 吞吐。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-010"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 3,
+          "rule_ids": [
+            "P3B-010",
+            "P3C-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-010",
+        "P3B-010",
+        "P3C-010",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-010 @ 整体经历年限 / Professional Summary",
+        "P3C-010 @ TikTok · Security | Software Engineer Intern"
+      ]
+    }
+  }
+}

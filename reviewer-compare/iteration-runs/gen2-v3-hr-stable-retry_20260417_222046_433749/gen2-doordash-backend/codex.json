@@ -1,0 +1,217 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:28:32",
+  "completed_at": "2026-04-17T22:29:24",
+  "duration_seconds": 52.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok and DiDi experience bullets",
+          "issue": "Key scope numbers and outcome metrics are not consistently bolded outside Skills, so the visual hierarchy is weaker than the content.",
+          "fix": "Bold the main scope or impact numbers in each headline metric, such as team size, city count, and before/after timings, while leaving the rest of the sentence plain."
+        },
+        {
+          "rule_id": "P1-051",
+          "severity": "medium",
+          "field": "Skills",
+          "issue": "All three Skills rows exceed the 14-word limit once the category label is counted.",
+          "fix": "Compress each row to only the highest-signal tools, or move lower-priority items into Experience bullets while keeping the 3-category structure."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening frame leads with 'in transition' instead of immediate backend specialization, so the first screen reads like a change-story rather than a fit-story.",
+          "fix": "Rewrite the first sentence to start with a backend role anchor and domain signal, then mention the analytics transition as a secondary detail."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok experience, first bullet",
+          "issue": "The newest section leans on time reduction and percentage improvement without a Tier 1 scope anchor, so the impact is harder to calibrate quickly.",
+          "fix": "Add one concrete scope signal in the same bullet or the next bullet, such as reviewer volume, signal volume, service footprint, or ownership boundary."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Reframe the opening Summary line so it leads with backend specialization instead of transition language.",
+      "[SHOULD] Add one concrete Tier 1 scope anchor to the TikTok section so the latest experience is easier to calibrate.",
+      "[SHOULD] Compress the Skills rows to keep only the highest-signal stack items and satisfy the line-length cap.",
+      "[NICE] Bold the main scope and impact numbers consistently across Summary and Experience for stronger scanability."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.0,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Reframe the opening Summary line so it leads with backend specialization instead of transition language.",
+      "[SHOULD] Add one concrete Tier 1 scope anchor to the TikTok section so the latest experience is easier to calibrate.",
+      "[SHOULD] Compress the Skills rows to keep only the highest-signal stack items and satisfy the line-length cap.",
+      "[NICE] Bold the main scope and impact numbers consistently across Summary and Experience for stronger scanability."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok and DiDi experience bullets",
+            "issue": "Key scope numbers and outcome metrics are not consistently bolded outside Skills, so the visual hierarchy is weaker than the content.",
+            "fix": "Bold the main scope or impact numbers in each headline metric, such as team size, city count, and before/after timings, while leaving the rest of the sentence plain."
+          },
+          {
+            "rule_id": "P1-051",
+            "severity": "medium",
+            "field": "Skills",
+            "issue": "All three Skills rows exceed the 14-word limit once the category label is counted.",
+            "fix": "Compress each row to only the highest-signal tools, or move lower-priority items into Experience bullets while keeping the 3-category structure."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening frame leads with 'in transition' instead of immediate backend specialization, so the first screen reads like a change-story rather than a fit-story.",
+            "fix": "Rewrite the first sentence to start with a backend role anchor and domain signal, then mention the analytics transition as a secondary detail."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok experience, first bullet",
+            "issue": "The newest section leans on time reduction and percentage improvement without a Tier 1 scope anchor, so the impact is harder to calibrate quickly.",
+            "fix": "Add one concrete scope signal in the same bullet or the next bullet, such as reviewer volume, signal volume, service footprint, or ownership boundary."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Reframe the opening Summary line so it leads with backend specialization instead of transition language.",
+        "[SHOULD] Add one concrete Tier 1 scope anchor to the TikTok section so the latest experience is easier to calibrate.",
+        "[SHOULD] Compress the Skills rows to keep only the highest-signal stack items and satisfy the line-length cap.",
+        "[NICE] Bold the main scope and impact numbers consistently across Summary and Experience for stronger scanability."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok and DiDi experience bullets",
+          "issue": "Key scope numbers and outcome metrics are not consistently bolded outside Skills, so the visual hierarchy is weaker than the content.",
+          "fix": "Bold the main scope or impact numbers in each headline metric, such as team size, city count, and before/after timings, while leaving the rest of the sentence plain."
+        },
+        {
+          "rule_id": "P1-051",
+          "severity": "medium",
+          "field": "Skills",
+          "issue": "All three Skills rows exceed the 14-word limit once the category label is counted.",
+          "fix": "Compress each row to only the highest-signal tools, or move lower-priority items into Experience bullets while keeping the 3-category structure."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening frame leads with 'in transition' instead of immediate backend specialization, so the first screen reads like a change-story rather than a fit-story.",
+          "fix": "Rewrite the first sentence to start with a backend role anchor and domain signal, then mention the analytics transition as a secondary detail."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok experience, first bullet",
+          "issue": "The newest section leans on time reduction and percentage improvement without a Tier 1 scope anchor, so the impact is harder to calibrate quickly.",
+          "fix": "Add one concrete scope signal in the same bullet or the next bullet, such as reviewer volume, signal volume, service footprint, or ownership boundary."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-040",
+          "P1-051"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P1-051",
+      "P2-001",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:27:17",
+  "completed_at": "2026-04-17T23:28:21",
+  "duration_seconds": 64.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "high",
+          "field": "Professional Summary bullet 1",
+          "issue": "首句以“Transitioning from data analytics to software engineering”做主 framing，首屏更像转型叙事而不是目标岗位叙事；6-8 秒扫读时会削弱你作为 WHOOP Sensor Intelligence 候选人的第一判断。",
+          "fix": "把首句改成目标角色 + 领域信号的写法，例如先写“Python/ML engineer with production validation tooling experience...”之类，再把转型背景放到后面或删掉。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary / 全部 Experience",
+          "issue": "简历展示的是通用 ML、数据分析和后端工具能力，但没有明确的 signal processing、time-series analysis、wearable biosignals、FFT / filters / peak detection / windowing，或 C programming 证据。对 WHOOP 这个 Sensor Intelligence 岗来说，核心域桥接缺失，读起来仍像泛化的后端/数据/ML 候选人。",
+          "fix": "在最相关的经历或新增一个真实项目 bullet 中，补一条明确的时间序列/信号处理/传感器噪声/生物信号验证经历，写清数据类型、方法和结果；如果你没有这类真实经历，这份简历对 WHOOP 的匹配度仍然偏结构性不足。",
+          "note": "[结构性错配]"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Professional Summary 第一句改成目标岗位 framing，删除或后置“Transitioning from data analytics to software engineering”的转型叙事。",
+      "[MUST] 在最相关经历里补一条明确的 signal processing / time-series / wearable biosignals 证据；如果没有真实经历，WHOOP 这条线应重新评估。",
+      "[SHOULD] 继续保留现有 ML 与 validation 叙事，但把表述收敛到具体问题和方法，避免看起来像泛化的工具堆叠。"
+    ],
+    "revision_instructions": "[结构性错配] 先重写 Summary 第一条为“目标角色 + 领域信号”的开场，避免以“Transitioning...”作为首屏主线；然后在最相关经历里补一条真正的 time-series / signal-processing / wearable biosignals 验证 bullet，写明数据类型、方法和结果。若没有这类真实经历，这份简历对 WHOOP Sensor Intelligence 的 domain fit 仍然不足。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 90.4,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 0,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Professional Summary 第一句改成目标岗位 framing，删除或后置“Transitioning from data analytics to software engineering”的转型叙事。",
+      "[MUST] 在最相关经历里补一条明确的 signal processing / time-series / wearable biosignals 证据；如果没有真实经历，WHOOP 这条线应重新评估。",
+      "[SHOULD] 继续保留现有 ML 与 validation 叙事，但把表述收敛到具体问题和方法，避免看起来像泛化的工具堆叠。"
+    ],
+    "revision_instructions": "[结构性错配] 先重写 Summary 第一条为“目标角色 + 领域信号”的开场，避免以“Transitioning...”作为首屏主线；然后在最相关经历里补一条真正的 time-series / signal-processing / wearable biosignals 验证 bullet，写明数据类型、方法和结果。若没有这类真实经历，这份简历对 WHOOP Sensor Intelligence 的 domain fit 仍然不足。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "high",
+            "field": "Professional Summary bullet 1",
+            "issue": "首句以“Transitioning from data analytics to software engineering”做主 framing，首屏更像转型叙事而不是目标岗位叙事；6-8 秒扫读时会削弱你作为 WHOOP Sensor Intelligence 候选人的第一判断。",
+            "fix": "把首句改成目标角色 + 领域信号的写法，例如先写“Python/ML engineer with production validation tooling experience...”之类，再把转型背景放到后面或删掉。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / 全部 Experience",
+            "issue": "简历展示的是通用 ML、数据分析和后端工具能力，但没有明确的 signal processing、time-series analysis、wearable biosignals、FFT / filters / peak detection / windowing，或 C programming 证据。对 WHOOP 这个 Sensor Intelligence 岗来说，核心域桥接缺失，读起来仍像泛化的后端/数据/ML 候选人。",
+            "fix": "在最相关的经历或新增一个真实项目 bullet 中，补一条明确的时间序列/信号处理/传感器噪声/生物信号验证经历，写清数据类型、方法和结果；如果你没有这类真实经历，这份简历对 WHOOP 的匹配度仍然偏结构性不足。",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 Professional Summary 第一句改成目标岗位 framing，删除或后置“Transitioning from data analytics to software engineering”的转型叙事。",
+        "[MUST] 在最相关经历里补一条明确的 signal processing / time-series / wearable biosignals 证据；如果没有真实经历，WHOOP 这条线应重新评估。",
+        "[SHOULD] 继续保留现有 ML 与 validation 叙事，但把表述收敛到具体问题和方法，避免看起来像泛化的工具堆叠。"
+      ],
+      "revision_instructions": "[结构性错配] 先重写 Summary 第一条为“目标角色 + 领域信号”的开场，避免以“Transitioning...”作为首屏主线；然后在最相关经历里补一条真正的 time-series / signal-processing / wearable biosignals 验证 bullet，写明数据类型、方法和结果。若没有这类真实经历，这份简历对 WHOOP Sensor Intelligence 的 domain fit 仍然不足。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary / 全部 Experience",
+          "issue": "简历展示的是通用 ML、数据分析和后端工具能力，但没有明确的 signal processing、time-series analysis、wearable biosignals、FFT / filters / peak detection / windowing，或 C programming 证据。对 WHOOP 这个 Sensor Intelligence 岗来说，核心域桥接缺失，读起来仍像泛化的后端/数据/ML 候选人。",
+          "fix": "在最相关的经历或新增一个真实项目 bullet 中，补一条明确的时间序列/信号处理/传感器噪声/生物信号验证经历，写清数据类型、方法和结果；如果你没有这类真实经历，这份简历对 WHOOP 的匹配度仍然偏结构性不足。",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "high",
+          "field": "Professional Summary bullet 1",
+          "issue": "首句以“Transitioning from data analytics to software engineering”做主 framing，首屏更像转型叙事而不是目标岗位叙事；6-8 秒扫读时会削弱你作为 WHOOP Sensor Intelligence 候选人的第一判断。",
+          "fix": "把首句改成目标角色 + 领域信号的写法，例如先写“Python/ML engineer with production validation tooling experience...”之类，再把转型背景放到后面或删掉。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3B-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3B-001"
+    ],
+    "high_or_critical": [
+      "P2-001 @ Professional Summary bullet 1",
+      "P3B-001 @ Professional Summary / 全部 Experience"
+    ]
+  }
+}

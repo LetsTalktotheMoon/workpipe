@@ -150,8 +150,9 @@ cd /Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline
 ./run_job_app.sh
 ```
 
-默认会自动打开 `http://127.0.0.1:8765/`，表格展示当前 `scraped_jobs.json` 中的岗位，
-并与历史 `resume_portfolio` 产物合并成全量岗位池，自动关联已生成简历目录。
+默认会自动打开 `http://127.0.0.1:8765/`，表格优先展示 `data/job_tracker/jobs_catalog.json`
+中的全量岗位，并与历史 `resume_portfolio` 产物合并补齐简历状态。
+`data/job_tracker/scraped_jobs.json` 只保留“本地 scraper 缓存”语义，不再代表全体岗位。
 页面默认每 60 秒自动刷新一次；checkbox 状态持久化到 `state/job_app_status.json`；
 筛选器已移除 seed filter。
 

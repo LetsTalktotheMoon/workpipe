@@ -1,0 +1,343 @@
+{
+  "label": "gen2/Fanduel-AnalyticsManager",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Fanduel-AnalyticsManager",
+    "company": "FanDuel",
+    "title": "Analytics Manager",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "FanDuel is the premier mobile gaming company in the United States and Canada, seeking a Manager of Analytics to lead a team focused on Fraud & Payments within the Security, Risk & Compliance Analytics",
+    "tech_required": [
+      "SQL"
+    ],
+    "tech_preferred": [
+      "Python",
+      "Tableau",
+      "Spark"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fanduel/2026-04-04/69cd481e891d7b11cfcb709b/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 95.4,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.8,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.4,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r6_competitiveness": {
+          "score": 9.1,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 95.4,
+      "verdict": "pass",
+      "seed_label": "Qualified Health Data Engineer",
+      "route_mode": "retarget",
+      "revised": false,
+      "repaired_at": "2026-04-07T16:57:22",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:13:22",
+    "completed_at": "2026-04-17T22:14:14",
+    "duration_seconds": 52.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "high",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“Transitioning from analytics...”开头，首屏更像转型叙事而不是目标岗位定位；对 Analytics Manager 的 6-8 秒扫读来说，这会削弱角色匹配感。",
+            "fix": "把首句改成直接的岗位/领域定位，例如先写“Analytics-focused engineer/analyst with 3+ years building SQL/Python/Spark systems for security and operational decision support.”，再补充迁移到 engineering 的能力线索。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall experience scope for Analytics Manager target",
+            "issue": "简历当前主要呈现的是 IC 交付与跨职能协作，没有明确的人管理、绩效、招聘、团队编制或正式 owner scope 证据；对 Manager 级 JD 来说，这个缺口会被招聘方直接追问。",
+            "fix": "如果事实成立，在 DiDi 最相关段补出一条明确的 leadership/ownership 证据，例如“owned analytics prioritization for the 13-person squad”或“mentored analysts / coordinated cross-functional sign-off”；如果没有这类事实，当前版本更适合 IC 目标而不是 Manager 目标。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience, 4 bullets",
+            "issue": "最新经历几乎全部由百分比改进构成，缺少可追问的规模/范围锚点（例如每天处理多少告警、支持多少分析师、数据集多大、服务多少内部用户）；这会让最近、最相关的证据显得偏“结果数值化”而非“规模可验证”。",
+            "fix": "在 TikTok 第一条或第二条 bullet 里补 1 个 Tier 1 scope 锚点，例如 alerts/day、cases/day、analysts served、dataset size 或 workflow volume，再保留百分比作为次级结果。"
+          },
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok Experience, project \"Security Knowledge Retrieval Acceleration\" / Bedrock-RAG bullets",
+            "issue": "Security 场景下写了 Bedrock/RAG 和内部检索服务，但没有把数据边界说死；虽然没有明示违规，但 HR 很可能追问是否涉及 user data / production data。",
+            "fix": "补一个明确边界限定语，例如“internal docs only”、“no user/production data involved”或“sandbox evaluation”，把它写成内部检索/评估场景而不是泛化的外部 LLM 生产链路。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 Summary 首句改成直接的岗位/领域定位，去掉“Transitioning”式转型叙事。",
+        "[MUST] 补出 Analytics Manager 级别的 leadership/ownership 证据；如果没有这类事实，当前版本更像 senior IC。",
+        "[SHOULD] 在最新的 TikTok 经历里补 1 个可验证的 scope 锚点，替代纯百分比叙事。",
+        "[SHOULD] 给 TikTok 的 Bedrock/RAG 项目补上明确的数据边界限定语，降低安全场景追问风险。"
+      ],
+      "revision_instructions": "[结构性错配] 如果目标仍是 Analytics Manager，请把首屏改成直接的 analytics/security/fraud 定位，并补出 DiDi 段能证明团队 ownership 的事实；否则这份简历当前更像 senior IC。具体修改：1) Summary 第一条去掉“Transitioning from analytics...”，改成直接的岗位定位。2) 在最相关的 DiDi bullet 里补一条可验证的 leadership/ownership 证据（analytics owner、priority coordination、mentoring、cross-functional sign-off），不要凭空写 team management。3) TikTok 最新段至少补一个 scope 锚点（alerts/day、cases/day、analysts served、dataset size），让百分比结果有体量背景。4) TikTok Bedrock/RAG bullet 补“internal docs only / no user data / sandbox evaluation”等边界限定。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 7.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 9.5,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 89.0,
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 2,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 Summary 首句改成直接的岗位/领域定位，去掉“Transitioning”式转型叙事。",
+        "[MUST] 补出 Analytics Manager 级别的 leadership/ownership 证据；如果没有这类事实，当前版本更像 senior IC。",
+        "[SHOULD] 在最新的 TikTok 经历里补 1 个可验证的 scope 锚点，替代纯百分比叙事。",
+        "[SHOULD] 给 TikTok 的 Bedrock/RAG 项目补上明确的数据边界限定语，降低安全场景追问风险。"
+      ],
+      "revision_instructions": "[结构性错配] 如果目标仍是 Analytics Manager，请把首屏改成直接的 analytics/security/fraud 定位，并补出 DiDi 段能证明团队 ownership 的事实；否则这份简历当前更像 senior IC。具体修改：1) Summary 第一条去掉“Transitioning from analytics...”，改成直接的岗位定位。2) 在最相关的 DiDi bullet 里补一条可验证的 leadership/ownership 证据（analytics owner、priority coordination、mentoring、cross-functional sign-off），不要凭空写 team management。3) TikTok 最新段至少补一个 scope 锚点（alerts/day、cases/day、analysts served、dataset size），让百分比结果有体量背景。4) TikTok Bedrock/RAG bullet 补“internal docs only / no user data / sandbox evaluation”等边界限定。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "high",
+              "field": "Professional Summary, sentence 1",
+              "issue": "首句以“Transitioning from analytics...”开头，首屏更像转型叙事而不是目标岗位定位；对 Analytics Manager 的 6-8 秒扫读来说，这会削弱角色匹配感。",
+              "fix": "把首句改成直接的岗位/领域定位，例如先写“Analytics-focused engineer/analyst with 3+ years building SQL/Python/Spark systems for security and operational decision support.”，再补充迁移到 engineering 的能力线索。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Overall experience scope for Analytics Manager target",
+              "issue": "简历当前主要呈现的是 IC 交付与跨职能协作，没有明确的人管理、绩效、招聘、团队编制或正式 owner scope 证据；对 Manager 级 JD 来说，这个缺口会被招聘方直接追问。",
+              "fix": "如果事实成立，在 DiDi 最相关段补出一条明确的 leadership/ownership 证据，例如“owned analytics prioritization for the 13-person squad”或“mentored analysts / coordinated cross-functional sign-off”；如果没有这类事实，当前版本更适合 IC 目标而不是 Manager 目标。",
+              "note": "[结构性错配]"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Experience, 4 bullets",
+              "issue": "最新经历几乎全部由百分比改进构成，缺少可追问的规模/范围锚点（例如每天处理多少告警、支持多少分析师、数据集多大、服务多少内部用户）；这会让最近、最相关的证据显得偏“结果数值化”而非“规模可验证”。",
+              "fix": "在 TikTok 第一条或第二条 bullet 里补 1 个 Tier 1 scope 锚点，例如 alerts/day、cases/day、analysts served、dataset size 或 workflow volume，再保留百分比作为次级结果。"
+            },
+            {
+              "rule_id": "P3E-013",
+              "sub_area": "3E",
+              "severity": "medium",
+              "field": "TikTok Experience, project \"Security Knowledge Retrieval Acceleration\" / Bedrock-RAG bullets",
+              "issue": "Security 场景下写了 Bedrock/RAG 和内部检索服务，但没有把数据边界说死；虽然没有明示违规，但 HR 很可能追问是否涉及 user data / production data。",
+              "fix": "补一个明确边界限定语，例如“internal docs only”、“no user/production data involved”或“sandbox evaluation”，把它写成内部检索/评估场景而不是泛化的外部 LLM 生产链路。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 把 Summary 首句改成直接的岗位/领域定位，去掉“Transitioning”式转型叙事。",
+          "[MUST] 补出 Analytics Manager 级别的 leadership/ownership 证据；如果没有这类事实，当前版本更像 senior IC。",
+          "[SHOULD] 在最新的 TikTok 经历里补 1 个可验证的 scope 锚点，替代纯百分比叙事。",
+          "[SHOULD] 给 TikTok 的 Bedrock/RAG 项目补上明确的数据边界限定语，降低安全场景追问风险。"
+        ],
+        "revision_instructions": "[结构性错配] 如果目标仍是 Analytics Manager，请把首屏改成直接的 analytics/security/fraud 定位，并补出 DiDi 段能证明团队 ownership 的事实；否则这份简历当前更像 senior IC。具体修改：1) Summary 第一条去掉“Transitioning from analytics...”，改成直接的岗位定位。2) 在最相关的 DiDi bullet 里补一条可验证的 leadership/ownership 证据（analytics owner、priority coordination、mentoring、cross-functional sign-off），不要凭空写 team management。3) TikTok 最新段至少补一个 scope 锚点（alerts/day、cases/day、analysts served、dataset size），让百分比结果有体量背景。4) TikTok Bedrock/RAG bullet 补“internal docs only / no user data / sandbox evaluation”等边界限定。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall experience scope for Analytics Manager target",
+            "issue": "简历当前主要呈现的是 IC 交付与跨职能协作，没有明确的人管理、绩效、招聘、团队编制或正式 owner scope 证据；对 Manager 级 JD 来说，这个缺口会被招聘方直接追问。",
+            "fix": "如果事实成立，在 DiDi 最相关段补出一条明确的 leadership/ownership 证据，例如“owned analytics prioritization for the 13-person squad”或“mentored analysts / coordinated cross-functional sign-off”；如果没有这类事实，当前版本更适合 IC 目标而不是 Manager 目标。",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "high",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“Transitioning from analytics...”开头，首屏更像转型叙事而不是目标岗位定位；对 Analytics Manager 的 6-8 秒扫读来说，这会削弱角色匹配感。",
+            "fix": "把首句改成直接的岗位/领域定位，例如先写“Analytics-focused engineer/analyst with 3+ years building SQL/Python/Spark systems for security and operational decision support.”，再补充迁移到 engineering 的能力线索。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience, 4 bullets",
+            "issue": "最新经历几乎全部由百分比改进构成，缺少可追问的规模/范围锚点（例如每天处理多少告警、支持多少分析师、数据集多大、服务多少内部用户）；这会让最近、最相关的证据显得偏“结果数值化”而非“规模可验证”。",
+            "fix": "在 TikTok 第一条或第二条 bullet 里补 1 个 Tier 1 scope 锚点，例如 alerts/day、cases/day、analysts served、dataset size 或 workflow volume，再保留百分比作为次级结果。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok Experience, project \"Security Knowledge Retrieval Acceleration\" / Bedrock-RAG bullets",
+            "issue": "Security 场景下写了 Bedrock/RAG 和内部检索服务，但没有把数据边界说死；虽然没有明示违规，但 HR 很可能追问是否涉及 user data / production data。",
+            "fix": "补一个明确边界限定语，例如“internal docs only”、“no user/production data involved”或“sandbox evaluation”，把它写成内部检索/评估场景而不是泛化的外部 LLM 生产链路。"
+          }
+        ],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 3,
+          "rule_ids": [
+            "P3B-010",
+            "P3D-001",
+            "P3E-013"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P3B-010",
+        "P3D-001",
+        "P3E-013"
+      ],
+      "high_or_critical": [
+        "P2-001 @ Professional Summary, sentence 1",
+        "P3B-010 @ Overall experience scope for Analytics Manager target"
+      ]
+    }
+  }
+}

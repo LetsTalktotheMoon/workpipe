@@ -1,0 +1,61 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary; TikTok Experience bullets 1, 2, 4; DiDi Experience bullets 1, 2, 3, 4, 5; Project blocks",
+        "issue": "多处把修饰语/限定词加粗了，例如 `team-maintained`、`existing`、`internal`。这会稀释技术名词和量化信号的视觉权重。",
+        "fix": "取消对修饰词的加粗，只保留技术栈、系统名、量化结果和必要的 scope 词加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary 第一句",
+        "issue": "首句以“transitioning from analytics”作为主框架，首屏先呈现转变过程而不是明确的角色方向和平台信号，属于低信号 framing。",
+        "fix": "把首句改成角色先行的表达，例如先写“backend-focused software engineer”或“software engineer with analytics-to-platform experience”，再把转向背景放到后半句。"
+      },
+      {
+        "rule_id": "P2-010",
+        "severity": "high",
+        "field": "Professional Summary 第三句",
+        "issue": "“Team Fit” 作为 header 过于泛化，HR 6-8 秒扫读时几乎不给职位方向或能力判断增量，属于弱首屏信号。",
+        "fix": "把 header 换成更有认知含量的标题，例如 `Systems judgment`、`Decision-making` 或 `Structural intuition`，并把句子改写为具体协作/取舍/交付方式。"
+      },
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills 第2行（APIs）",
+        "issue": "`APIs` 这个类别标题信息量偏弱，而且该行内容混入了云平台、系统设计、Scrum、SQL，分类语义不够稳定。",
+        "fix": "把该类目改成更具体的名称，例如 `Backend & Platform` 或 `Platform Delivery`；如果想保持更紧凑，也可以并入 `Programming` 或 `Cloud`。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "DiDi · IBG · Food Experience（尤其 bullets 1, 4, 5；Project: Merchant Ops Control Tower bullets 1, 4）",
+        "issue": "同一段经历里，React、Angular、Vue 都以使用级证据出现，再叠加 Node.js/Express/TypeScript 的全栈叙事，读起来像在一个角色里日常使用 3 个前端框架。对招聘方来说这会触发“堆栈炫技”怀疑。",
+        "fix": "保留最真实、最核心的 1 个前端框架作为主叙事，其余框架改成单独的集成/迁移/维护场景；或者把不同框架明确绑定到不同模块，避免看起来像同一条工作线上的日常广谱使用。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把 Summary 第一句改成角色先行的 backend/software-engineer framing，弱化“transitioning from analytics”的首屏主轴。",
+    "[MUST] 收敛 DiDi 段的前端栈叙事，避免 React/Angular/Vue 在同一角色里同时作为日常使用堆叠出现。",
+    "[SHOULD] 去掉加粗的修饰词，只保留技术名词、系统名和量化结果加粗。",
+    "[SHOULD] 把 Skills 里的 `APIs` 类别改成更具体的名字，提升首读信息量。"
+  ],
+  "revision_instructions": "先改 Summary：第一句用“backend-focused software engineer”或等价表达开头，把 analytics-to-engineering 的迁移放到后半句；第三句把 `Team Fit` 改成 `Systems judgment` / `Decision-making` 一类更有信息量的 header。然后收敛 DiDi 段的前端栈，只保留一个主框架作为主线，其他框架必须绑定到明确模块或迁移场景，避免像广谱堆栈。最后去掉 modifier 的加粗，并把 `APIs` 类别改得更具体。不可变字段不要动。"
+}

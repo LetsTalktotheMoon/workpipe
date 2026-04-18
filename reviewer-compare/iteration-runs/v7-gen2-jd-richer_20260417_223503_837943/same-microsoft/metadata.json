@@ -1,0 +1,102 @@
+{
+  "label": "same/Microsoft",
+  "company": "Microsoft",
+  "title": "Software Engineer II - Azure Storage",
+  "role_type": "swe_backend",
+  "seniority": "entry",
+  "team_direction": "Microsoft is building a massively scalable cloud storage solution, Azure Storage, and is looking for a Software Engineer II to join their team",
+  "tech_required": [
+    "C++",
+    "Distributed Systems"
+  ],
+  "tech_preferred": [],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/review.json",
+  "historical": {},
+  "portfolio_review": {
+    "weighted_score": 94.4,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "在 `## Skills` 里补上 `Distributed Systems`，并在 Summary 或 TikTok 至少一条 bullet 里保留同义的分布式服务证据。",
+      "收紧加粗规则：去掉限定词加粗，修正 `**2 release** cycles` 这类断裂写法，只保留技术名词和数字加粗。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 8.9,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 8.8,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 10.0,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.8,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.3,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.4,
+    "verdict": "pass",
+    "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+    "route_mode": "retarget",
+    "revised": false
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

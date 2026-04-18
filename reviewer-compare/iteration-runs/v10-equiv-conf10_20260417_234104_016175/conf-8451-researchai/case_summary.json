@@ -1,0 +1,407 @@
+{
+  "label": "conf/8451-ResearchAI",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/84-51/2026-04-04/69b4c322569738374139b2e1",
+  "historical": {},
+  "metadata": {
+    "label": "conf/8451-ResearchAI",
+    "company": "84.51˚",
+    "title": "Senior AI/ML Engineer - Research (P4368)",
+    "role_type": "mle",
+    "seniority": "senior",
+    "team_direction": "84.51° is a retail data science, insights and media company",
+    "tech_required": [
+      "Kubernetes",
+      "Scala",
+      "LLM",
+      "Docker",
+      "Machine Learning",
+      "Deep Learning",
+      "Python",
+      "GCP",
+      "Azure",
+      "PyTorch"
+    ],
+    "tech_preferred": [
+      "NLP"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/84-51/2026-04-04/69b4c322569738374139b2e1/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/84-51/2026-04-04/69b4c322569738374139b2e1/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/84-51/2026-04-04/69b4c322569738374139b2e1/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/84-51/2026-04-04/69b4c322569738374139b2e1/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 94.4,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.4,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.4,
+      "verdict": "pass",
+      "seed_label": "H2O AI Engineer",
+      "route_mode": "retarget",
+      "revised": true,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T16:43:40",
+      "rereview_rounds": 1,
+      "rereview_revised": true,
+      "normalized_before_review": true,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 83.0,
+      "previous_verdict": "fail",
+      "repaired_at": "2026-04-07T16:57:06",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:49:50",
+    "completed_at": "2026-04-17T23:50:47",
+    "duration_seconds": 57.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“transitioning from data analytics into software engineering”开头，首屏重心落在转型过程而不是目标角色与领域信号，HR 6-8 秒扫读时会先看到“在转型”，而不是“我已经是合格的 AI/ML 工程师”。",
+            "fix": "把首句改成目标角色前置，例如直接写成“AI/ML engineer building production ML and LLM systems ...”，把转型叙事移到后半句或删掉。"
+          },
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 3",
+            "issue": "\"Strategic Problem Solving\" 作为围棋句 header 信息量偏弱，属于泛化特质表达，不能像 cognition 类 header 那样稳定支撑首屏判断。",
+            "fix": "替换为更强的认知型 header，例如 `Pattern recognition`、`Systems judgment` 或 `Decision-making`，再保留围棋成就作为佐证。"
+          },
+          {
+            "rule_id": "P2-030",
+            "severity": "medium",
+            "field": "Skills, first line",
+            "issue": "Skills 第一行以 `Programming` 开头，核心 AI/ML / LLM 信号没有在第一屏技能区最先出现，不利于 JD 匹配扫描。",
+            "fix": "把 Skills 顺序调整为先 `AI/ML` 或 `LLM`，再放 `Programming`，让首行直接对齐岗位核心需求。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary + TikTok Experience",
+            "issue": "JD 的核心能力家族是 agentic systems、multi-step reasoning、research agents、RLHF / reward modeling / PPO / DPO、world modeling、causal reasoning、pretraining 和 distributed training；简历目前只覆盖了泛化的 LLM / RAG / PyTorch / deep learning，没有给出这些核心研究能力的实质性使用证据，属于岗位主轴缺口。",
+            "fix": "在最相关经历里补 1 条可追问的研究型 bullet，明确写出 internal/sandbox 场景下的 agentic workflow、planning/tool use/memory、reward/preference evaluation、fine-tuning 或 alignment 之一；不要删除现有 ML 词汇，只能补证据。 [结构性错配]"
+          },
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary / DiDi / Temu",
+            "issue": "团队方向是 retail data science, insights and media，但当前叙事主轴更偏 security、mobility 和通用分析，和 retail / commerce decisioning 的桥接不够直接。",
+            "fix": "在 Summary 或 Temu/DiDi 段补一句业务桥接，明确把 marketplace / merchant economics / experimentation / decisioning 与 retail 场景连起来。"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok Experience, first 4 bullets",
+            "issue": "同一段里同时堆叠了 AWS、S3、Bedrock、GCP、Azure、Kubernetes、Docker、Kafka、PostgreSQL、PyTorch、scikit-learn 等大量同类/相邻技术，读起来更像栈堆砌而不是清晰的 ownership 叙事，容易让面试官追问“到底主责哪一层”。",
+            "fix": "按 bullet 收敛技术面：每条只保留 1-2 个真正主责的平台/框架，把云环境、评估环境和部署环境拆开写，删掉没有直接 ownership 的相邻 token。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 重写 Summary 第一句，让 AI/ML 目标角色前置，删除或后移“transitioning”叙事。",
+        "[MUST] 在最相关经历中补一条 agentic / RLHF / reward modeling / pretraining 的实证 bullet，补齐 JD 主轴。",
+        "[MUST] 收敛 TikTok 段的多云与工具堆叠，每条 bullet 只保留真正 owned 的 1-2 个技术面。",
+        "[SHOULD] 把第三句换成更强的 cognition header，并补一条 retail / commerce 业务桥接。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历当前更像 applied ML / data / infra，和 research-agent / RLHF 方向存在明显缺口。优先做三步：1) Summary 第一句改成“AI/ML engineer building production ML and LLM systems ...”，把转型表述移到末句或删掉；2) 在 TikTok 或单独项目里补一条可追问的研究型 bullet，明确写 internal/sandbox 场景下的 agentic workflow、planning/tool use/memory、reward/preference evaluation、fine-tuning 或 alignment 之一；3) 收敛 TikTok 段的 cloud / tool tokens，每条 bullet 只保留实际负责的 1-2 个平台或框架，避免 multi-cloud tool dump。最后把第三句的泛化表述换成更强的 cognition header，并补一条 retail / commerce 业务桥接。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 7.5,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 8.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 87.8,
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 重写 Summary 第一句，让 AI/ML 目标角色前置，删除或后移“transitioning”叙事。",
+        "[MUST] 在最相关经历中补一条 agentic / RLHF / reward modeling / pretraining 的实证 bullet，补齐 JD 主轴。",
+        "[MUST] 收敛 TikTok 段的多云与工具堆叠，每条 bullet 只保留真正 owned 的 1-2 个技术面。",
+        "[SHOULD] 把第三句换成更强的 cognition header，并补一条 retail / commerce 业务桥接。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历当前更像 applied ML / data / infra，和 research-agent / RLHF 方向存在明显缺口。优先做三步：1) Summary 第一句改成“AI/ML engineer building production ML and LLM systems ...”，把转型表述移到末句或删掉；2) 在 TikTok 或单独项目里补一条可追问的研究型 bullet，明确写 internal/sandbox 场景下的 agentic workflow、planning/tool use/memory、reward/preference evaluation、fine-tuning 或 alignment 之一；3) 收敛 TikTok 段的 cloud / tool tokens，每条 bullet 只保留实际负责的 1-2 个平台或框架，避免 multi-cloud tool dump。最后把第三句的泛化表述换成更强的 cognition header，并补一条 retail / commerce 业务桥接。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "首句以“transitioning from data analytics into software engineering”开头，首屏重心落在转型过程而不是目标角色与领域信号，HR 6-8 秒扫读时会先看到“在转型”，而不是“我已经是合格的 AI/ML 工程师”。",
+              "fix": "把首句改成目标角色前置，例如直接写成“AI/ML engineer building production ML and LLM systems ...”，把转型叙事移到后半句或删掉。"
+            },
+            {
+              "rule_id": "P2-010",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 3",
+              "issue": "\"Strategic Problem Solving\" 作为围棋句 header 信息量偏弱，属于泛化特质表达，不能像 cognition 类 header 那样稳定支撑首屏判断。",
+              "fix": "替换为更强的认知型 header，例如 `Pattern recognition`、`Systems judgment` 或 `Decision-making`，再保留围棋成就作为佐证。"
+            },
+            {
+              "rule_id": "P2-030",
+              "severity": "medium",
+              "field": "Skills, first line",
+              "issue": "Skills 第一行以 `Programming` 开头，核心 AI/ML / LLM 信号没有在第一屏技能区最先出现，不利于 JD 匹配扫描。",
+              "fix": "把 Skills 顺序调整为先 `AI/ML` 或 `LLM`，再放 `Programming`，让首行直接对齐岗位核心需求。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-001",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Professional Summary + TikTok Experience",
+              "issue": "JD 的核心能力家族是 agentic systems、multi-step reasoning、research agents、RLHF / reward modeling / PPO / DPO、world modeling、causal reasoning、pretraining 和 distributed training；简历目前只覆盖了泛化的 LLM / RAG / PyTorch / deep learning，没有给出这些核心研究能力的实质性使用证据，属于岗位主轴缺口。",
+              "fix": "在最相关经历里补 1 条可追问的研究型 bullet，明确写出 internal/sandbox 场景下的 agentic workflow、planning/tool use/memory、reward/preference evaluation、fine-tuning 或 alignment 之一；不要删除现有 ML 词汇，只能补证据。 [结构性错配]"
+            },
+            {
+              "rule_id": "P3B-003",
+              "sub_area": "3B",
+              "severity": "medium",
+              "field": "Professional Summary / DiDi / Temu",
+              "issue": "团队方向是 retail data science, insights and media，但当前叙事主轴更偏 security、mobility 和通用分析，和 retail / commerce decisioning 的桥接不够直接。",
+              "fix": "在 Summary 或 Temu/DiDi 段补一句业务桥接，明确把 marketplace / merchant economics / experimentation / decisioning 与 retail 场景连起来。"
+            },
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "TikTok Experience, first 4 bullets",
+              "issue": "同一段里同时堆叠了 AWS、S3、Bedrock、GCP、Azure、Kubernetes、Docker、Kafka、PostgreSQL、PyTorch、scikit-learn 等大量同类/相邻技术，读起来更像栈堆砌而不是清晰的 ownership 叙事，容易让面试官追问“到底主责哪一层”。",
+              "fix": "按 bullet 收敛技术面：每条只保留 1-2 个真正主责的平台/框架，把云环境、评估环境和部署环境拆开写，删掉没有直接 ownership 的相邻 token。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 重写 Summary 第一句，让 AI/ML 目标角色前置，删除或后移“transitioning”叙事。",
+          "[MUST] 在最相关经历中补一条 agentic / RLHF / reward modeling / pretraining 的实证 bullet，补齐 JD 主轴。",
+          "[MUST] 收敛 TikTok 段的多云与工具堆叠，每条 bullet 只保留真正 owned 的 1-2 个技术面。",
+          "[SHOULD] 把第三句换成更强的 cognition header，并补一条 retail / commerce 业务桥接。"
+        ],
+        "revision_instructions": "[结构性错配] 这份简历当前更像 applied ML / data / infra，和 research-agent / RLHF 方向存在明显缺口。优先做三步：1) Summary 第一句改成“AI/ML engineer building production ML and LLM systems ...”，把转型表述移到末句或删掉；2) 在 TikTok 或单独项目里补一条可追问的研究型 bullet，明确写 internal/sandbox 场景下的 agentic workflow、planning/tool use/memory、reward/preference evaluation、fine-tuning 或 alignment 之一；3) 收敛 TikTok 段的 cloud / tool tokens，每条 bullet 只保留实际负责的 1-2 个平台或框架，避免 multi-cloud tool dump。最后把第三句的泛化表述换成更强的 cognition header，并补一条 retail / commerce 业务桥接。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary + TikTok Experience",
+            "issue": "JD 的核心能力家族是 agentic systems、multi-step reasoning、research agents、RLHF / reward modeling / PPO / DPO、world modeling、causal reasoning、pretraining 和 distributed training；简历目前只覆盖了泛化的 LLM / RAG / PyTorch / deep learning，没有给出这些核心研究能力的实质性使用证据，属于岗位主轴缺口。",
+            "fix": "在最相关经历里补 1 条可追问的研究型 bullet，明确写出 internal/sandbox 场景下的 agentic workflow、planning/tool use/memory、reward/preference evaluation、fine-tuning 或 alignment 之一；不要删除现有 ML 词汇，只能补证据。 [结构性错配]"
+          },
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary / DiDi / Temu",
+            "issue": "团队方向是 retail data science, insights and media，但当前叙事主轴更偏 security、mobility 和通用分析，和 retail / commerce decisioning 的桥接不够直接。",
+            "fix": "在 Summary 或 Temu/DiDi 段补一句业务桥接，明确把 marketplace / merchant economics / experimentation / decisioning 与 retail 场景连起来。"
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok Experience, first 4 bullets",
+            "issue": "同一段里同时堆叠了 AWS、S3、Bedrock、GCP、Azure、Kubernetes、Docker、Kafka、PostgreSQL、PyTorch、scikit-learn 等大量同类/相邻技术，读起来更像栈堆砌而不是清晰的 ownership 叙事，容易让面试官追问“到底主责哪一层”。",
+            "fix": "按 bullet 收敛技术面：每条只保留 1-2 个真正主责的平台/框架，把云环境、评估环境和部署环境拆开写，删掉没有直接 ownership 的相邻 token。"
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“transitioning from data analytics into software engineering”开头，首屏重心落在转型过程而不是目标角色与领域信号，HR 6-8 秒扫读时会先看到“在转型”，而不是“我已经是合格的 AI/ML 工程师”。",
+            "fix": "把首句改成目标角色前置，例如直接写成“AI/ML engineer building production ML and LLM systems ...”，把转型叙事移到后半句或删掉。"
+          },
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 3",
+            "issue": "\"Strategic Problem Solving\" 作为围棋句 header 信息量偏弱，属于泛化特质表达，不能像 cognition 类 header 那样稳定支撑首屏判断。",
+            "fix": "替换为更强的认知型 header，例如 `Pattern recognition`、`Systems judgment` 或 `Decision-making`，再保留围棋成就作为佐证。"
+          },
+          {
+            "rule_id": "P2-030",
+            "severity": "medium",
+            "field": "Skills, first line",
+            "issue": "Skills 第一行以 `Programming` 开头，核心 AI/ML / LLM 信号没有在第一屏技能区最先出现，不利于 JD 匹配扫描。",
+            "fix": "把 Skills 顺序调整为先 `AI/ML` 或 `LLM`，再放 `Programming`，让首行直接对齐岗位核心需求。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 3,
+          "rule_ids": [
+            "P2-001",
+            "P2-010",
+            "P2-030"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 3,
+          "rule_ids": [
+            "P3B-001",
+            "P3B-003",
+            "P3C-010"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P2-010",
+        "P2-030",
+        "P3B-001",
+        "P3B-003",
+        "P3C-010"
+      ],
+      "high_or_critical": [
+        "P3B-001 @ Professional Summary + TikTok Experience",
+        "P3C-010 @ TikTok Experience, first 4 bullets"
+      ]
+    }
+  }
+}

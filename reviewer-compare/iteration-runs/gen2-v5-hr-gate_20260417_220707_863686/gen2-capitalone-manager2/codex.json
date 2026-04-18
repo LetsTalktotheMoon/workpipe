@@ -1,0 +1,226 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:10:32",
+  "completed_at": "2026-04-17T22:11:48",
+  "duration_seconds": 76.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets across TikTok / DiDi / Temu",
+          "issue": "Several non-Skills technical tokens and scope cues are left in plain text, which weakens scanability under the resume's own bolding rules.",
+          "fix": "Bold the key non-Skills tech and scope cues consistently, e.g. `**Bedrock**`, `**team-maintained**`, `**13-person**`, `**20+ cities**`, `**4**`, and `**2 quarters**` where they carry the story."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The first summary line is framed as `Data Analysis Candidate`, which reads like generic applicant language rather than an immediate role/domain hook.",
+          "fix": "Rewrite the opening header to a direct role anchor, such as `Data Analysis / Platform:` or `Data Analyst / Data Platform:`, and remove `Candidate` from the first line."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Target role vs. overall experience scope",
+          "issue": "The target is a Manager role, but the resume only shows IC delivery and does not state mentoring, hiring, performance review, roadmap ownership, or other explicit lead scope.",
+          "fix": "If truthful, add one bullet in the most relevant experience that names lead scope; otherwise this application is structurally misaligned for a Manager posting.",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1-4",
+          "issue": "The latest experience is built almost entirely from percentage improvements, so the story lacks a first-class Tier 1 scope signal for a senior/manager read.",
+          "fix": "Add a concrete scale or ownership cue to the first TikTok bullet or project, such as team size, case volume, release cadence, or internal-user count, while keeping the result metric."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add explicit manager/lead scope or retarget the application away from Manager roles.",
+      "[MUST] Rewrite the Summary opener to a direct role/domain hook and remove `Candidate`.",
+      "[SHOULD] Add at least one Tier 1 scale/ownership signal to the latest TikTok line or project.",
+      "[NICE] Standardize bolding for key scope and ownership cues across Experience."
+    ],
+    "revision_instructions": "[结构性错配] 这份简历目前更像 IC data analyst / platform profile，不足以支撑 Capital One 的 Manager, Data Analysis 预筛。若事实属实，优先在 DiDi 段补 1-2 条明确 lead/manager scope（如 roadmap ownership、cross-functional prioritization、mentoring，若适用再写 hiring/performance review）；同时把 Summary 第一条改成直接的 `Data Analysis / Platform` 角色锚点，去掉 `Candidate`。随后给最新经历首条 bullet 补可追问的规模边界信息，并统一加粗关键 scope/ownership 词。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 90.9,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add explicit manager/lead scope or retarget the application away from Manager roles.",
+      "[MUST] Rewrite the Summary opener to a direct role/domain hook and remove `Candidate`.",
+      "[SHOULD] Add at least one Tier 1 scale/ownership signal to the latest TikTok line or project.",
+      "[NICE] Standardize bolding for key scope and ownership cues across Experience."
+    ],
+    "revision_instructions": "[结构性错配] 这份简历目前更像 IC data analyst / platform profile，不足以支撑 Capital One 的 Manager, Data Analysis 预筛。若事实属实，优先在 DiDi 段补 1-2 条明确 lead/manager scope（如 roadmap ownership、cross-functional prioritization、mentoring，若适用再写 hiring/performance review）；同时把 Summary 第一条改成直接的 `Data Analysis / Platform` 角色锚点，去掉 `Candidate`。随后给最新经历首条 bullet 补可追问的规模边界信息，并统一加粗关键 scope/ownership 词。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok / DiDi / Temu",
+            "issue": "Several non-Skills technical tokens and scope cues are left in plain text, which weakens scanability under the resume's own bolding rules.",
+            "fix": "Bold the key non-Skills tech and scope cues consistently, e.g. `**Bedrock**`, `**team-maintained**`, `**13-person**`, `**20+ cities**`, `**4**`, and `**2 quarters**` where they carry the story."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The first summary line is framed as `Data Analysis Candidate`, which reads like generic applicant language rather than an immediate role/domain hook.",
+            "fix": "Rewrite the opening header to a direct role anchor, such as `Data Analysis / Platform:` or `Data Analyst / Data Platform:`, and remove `Candidate` from the first line."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Target role vs. overall experience scope",
+            "issue": "The target is a Manager role, but the resume only shows IC delivery and does not state mentoring, hiring, performance review, roadmap ownership, or other explicit lead scope.",
+            "fix": "If truthful, add one bullet in the most relevant experience that names lead scope; otherwise this application is structurally misaligned for a Manager posting.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-4",
+            "issue": "The latest experience is built almost entirely from percentage improvements, so the story lacks a first-class Tier 1 scope signal for a senior/manager read.",
+            "fix": "Add a concrete scale or ownership cue to the first TikTok bullet or project, such as team size, case volume, release cadence, or internal-user count, while keeping the result metric."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add explicit manager/lead scope or retarget the application away from Manager roles.",
+        "[MUST] Rewrite the Summary opener to a direct role/domain hook and remove `Candidate`.",
+        "[SHOULD] Add at least one Tier 1 scale/ownership signal to the latest TikTok line or project.",
+        "[NICE] Standardize bolding for key scope and ownership cues across Experience."
+      ],
+      "revision_instructions": "[结构性错配] 这份简历目前更像 IC data analyst / platform profile，不足以支撑 Capital One 的 Manager, Data Analysis 预筛。若事实属实，优先在 DiDi 段补 1-2 条明确 lead/manager scope（如 roadmap ownership、cross-functional prioritization、mentoring，若适用再写 hiring/performance review）；同时把 Summary 第一条改成直接的 `Data Analysis / Platform` 角色锚点，去掉 `Candidate`。随后给最新经历首条 bullet 补可追问的规模边界信息，并统一加粗关键 scope/ownership 词。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets across TikTok / DiDi / Temu",
+          "issue": "Several non-Skills technical tokens and scope cues are left in plain text, which weakens scanability under the resume's own bolding rules.",
+          "fix": "Bold the key non-Skills tech and scope cues consistently, e.g. `**Bedrock**`, `**team-maintained**`, `**13-person**`, `**20+ cities**`, `**4**`, and `**2 quarters**` where they carry the story."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Target role vs. overall experience scope",
+          "issue": "The target is a Manager role, but the resume only shows IC delivery and does not state mentoring, hiring, performance review, roadmap ownership, or other explicit lead scope.",
+          "fix": "If truthful, add one bullet in the most relevant experience that names lead scope; otherwise this application is structurally misaligned for a Manager posting.",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The first summary line is framed as `Data Analysis Candidate`, which reads like generic applicant language rather than an immediate role/domain hook.",
+          "fix": "Rewrite the opening header to a direct role anchor, such as `Data Analysis / Platform:` or `Data Analyst / Data Platform:`, and remove `Candidate` from the first line."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1-4",
+          "issue": "The latest experience is built almost entirely from percentage improvements, so the story lacks a first-class Tier 1 scope signal for a senior/manager read.",
+          "fix": "Add a concrete scale or ownership cue to the first TikTok bullet or project, such as team size, case volume, release cadence, or internal-user count, while keeping the result metric."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-001",
+      "P3B-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-010 @ Target role vs. overall experience scope"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary and TikTok Experience bullets 1-3",
+        "issue": "把 `team-maintained`、`existing` 这类限定词也加粗了，视觉层级被噪音占用，弱化了技术栈和结果数字的首屏感知。",
+        "fix": "去掉这些限定词的粗体，只保留技术名词、关键结果数字和真正的 scope 词加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first sentence",
+        "issue": "开头先讲“从数据分析转后端”的转型叙事，首屏主锚更像过渡状态而不是明确岗位方向，HR 扫读时会先感知到“转型中”而不是“已具备后端/分布式系统匹配度”。",
+        "fix": "把首句改成角色方向优先的 framing，例如先写后端/分布式系统/安全后端，再把转型背景放到第二句。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Minimum qualifications / Experience overall",
+        "issue": "JD 明示 2+ 年 distributed systems 和 2+ 年 on-call 经验，但简历没有第一人称的 on-call/incident-response 责任证据；distributed systems 也主要停留在概括性表述，没有落成可追问的 ownership 边界。",
+        "fix": "如果真实做过 pager/on-call/incident response，把 TikTok 或 DiDi 中最相关的一条 bullet 改成明确的 DRI/on-call 证据；同时把 distributed-systems 责任写到最相关经历的正文里，而不是只放在 Summary。"
+      },
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Summary + Experience overall, Azure Storage fit",
+        "issue": "Azure Storage 是 specialized storage substrate 岗，但正文只有通用后端、数据和安全工具链，没有直接的 storage path、replication、durability、partitioning、metadata 或 I/O ownership 证据；现在更像 adjacent backend/platform profile。",
+        "fix": "如果真实经历里有存储子系统或存储可靠性责任，把最相关的一条 TikTok/DiDi bullet 改写成直接的 storage-substrate 证据；如果没有，这份简历更适合投泛后端而不是 Azure Storage。",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "Professional Summary + TikTok Experience",
+        "issue": "一个实习段被写成 Go、Python、Java、C#、JavaScript、SQL 都是 hands-on 主线，容易被 HR 视为语言堆砌，除非团队本来就是多语言系统。",
+        "fix": "把 2-3 个主语言锚定为主线，其余语言改成 adapter、script、validation 或 existing-library integration 的从属用途。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience",
+        "issue": "最新经历几乎全是百分比改进，没有一个 Tier 1 规模或 scope 抓手，读起来更像局部优化而不是可被追问的系统级贡献。",
+        "fix": "在 TikTok 最相关的 bullet 里补一个具体 scope 数字，例如 service QPS、review queue size、alert volume、on-call volume 或明确的 ownership 边界。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把 Summary 首句和最相关经历改成明确的 backend/distributed-systems 锚点，不要先讲“转型中”。",
+    "[MUST] 如果真实有 storage-substrate 经验，立刻在 TikTok 或 DiDi 的最相关 bullet 里补出直接证据；如果没有，这个 JD 本身就是结构性错配。",
+    "[SHOULD] 补一条 first-person on-call / incident-response 证据，因为这是 JD 的最低门槛之一。",
+    "[NICE] 收敛 TikTok 的多语言叙事，并补一个可追问的 scope 数字，提升首屏可信度。"
+  ],
+  "revision_instructions": "[结构性错配] 先把 Summary 第一句改成明确的 backend/distributed-systems 方向，再把最相关的经历改成可追问的 ownership 证据；如果真实做过 storage path/replication/durability/metadata 相关工作，就把它写进 TikTok 或 DiDi 的一条 bullet 里，直接对齐 Azure Storage。补一条 first-person on-call/incident-response 说明（若真实存在），并把 TikTok 的多语言叙事收敛到 2-3 个主语言，其余改成 adapter/script/validation 用途。最后去掉 team-maintained/existing 这类限定词的加粗，提升视觉层级。"
+}

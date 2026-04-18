@@ -1,0 +1,306 @@
+{
+  "label": "same/AWS",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
+  "historical": {
+    "official_score": 95.1,
+    "official_verdict": "pass",
+    "official_notes": [
+      "Old report baseline only; official and Claude largely converged on this case.",
+      "Shared themes in the old report: mild concern about senior/backend ownership framing, formatting cleanup, and denser C++ or Embedded evidence."
+    ],
+    "claude_score": 94.5,
+    "claude_verdict": "pass",
+    "claude_notes": [
+      "Mild concern about senior/backend ownership framing.",
+      "Formatting cleanup suggestions.",
+      "C++ or Embedded evidence could be denser."
+    ],
+    "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+  },
+  "metadata": {
+    "label": "same/AWS",
+    "company": "Amazon Web Services (AWS)",
+    "title": "Software Development Engineer II - Builder Experience, GenAI, GenAI, Codex",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Amazon Web Services (AWS) is seeking an experienced Software Development Engineer II to join the CRUX team within the Software Builder Experience organization",
+    "tech_required": [
+      "C++",
+      "Embedded",
+      "Java"
+    ],
+    "tech_preferred": [
+      "Code Review",
+      "Scala"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045/review.json",
+    "historical": {
+      "official_score": 95.1,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; official and Claude largely converged on this case.",
+        "Shared themes in the old report: mild concern about senior/backend ownership framing, formatting cleanup, and denser C++ or Embedded evidence."
+      ],
+      "claude_score": 94.5,
+      "claude_verdict": "pass",
+      "claude_notes": [
+        "Mild concern about senior/backend ownership framing.",
+        "Formatting cleanup suggestions.",
+        "C++ or Embedded evidence could be denser."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    },
+    "portfolio_review": {
+      "weighted_score": 95.3,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [
+        "把 Summary 第3句标题改成更高信号的认知标签，例如 `Systems Judgment` 或 `Pattern Recognition`，并保留 Go 2-dan 作为支撑证据。",
+        "在 TikTok 实习段补一句 workstream/rotation 说明，解释为什么同一段经历同时覆盖 backend、Embedded 和 RAG 两类工作。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.2,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.7,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 8.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.8,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 95.3,
+      "verdict": "pass",
+      "seed_label": "AWS Support Backend Anchor",
+      "route_mode": "retarget",
+      "revised": false
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T19:56:43",
+    "completed_at": "2026-04-17T19:57:32",
+    "duration_seconds": 49.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1 and 3",
+            "issue": "Modifier text such as `team-maintained` is bolded. The format rules reserve bold for technologies and quantification signals, not qualifiers.",
+            "fix": "Remove bold from qualifiers like `team-maintained` and keep bold only on technologies, systems, and metrics."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The lead framing centers on a transition from analytics rather than an immediate backend/security identity, which weakens the first-screen hook.",
+            "fix": "Rewrite the first summary chunk to start with a direct role anchor, such as `Backend engineer` or `Security-focused backend engineer`, and move the transition language later or drop it."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Rewrite the first Summary chunk to lead with a direct backend/security role identity instead of `transitioning from analytics`.",
+        "[SHOULD] Unbold qualifier words like `team-maintained`; keep bolding for technologies and metrics only.",
+        "[NICE] If you want a stronger AWS Builder Experience fit, add one explicit scope signal in the latest role or project (team size, event volume, SLA, or review/rollout scope).",
+        "[NICE] Keep the rest of the structure unchanged; the experience ordering and immutable fields are already consistent."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 97.5,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 2,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Rewrite the first Summary chunk to lead with a direct backend/security role identity instead of `transitioning from analytics`.",
+        "[SHOULD] Unbold qualifier words like `team-maintained`; keep bolding for technologies and metrics only.",
+        "[NICE] If you want a stronger AWS Builder Experience fit, add one explicit scope signal in the latest role or project (team size, event volume, SLA, or review/rollout scope).",
+        "[NICE] Keep the rest of the structure unchanged; the experience ordering and immutable fields are already consistent."
+      ],
+      "revision_instructions": "",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "TikTok Experience bullets 1 and 3",
+              "issue": "Modifier text such as `team-maintained` is bolded. The format rules reserve bold for technologies and quantification signals, not qualifiers.",
+              "fix": "Remove bold from qualifiers like `team-maintained` and keep bold only on technologies, systems, and metrics."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, first sentence",
+              "issue": "The lead framing centers on a transition from analytics rather than an immediate backend/security identity, which weakens the first-screen hook.",
+              "fix": "Rewrite the first summary chunk to start with a direct role anchor, such as `Backend engineer` or `Security-focused backend engineer`, and move the transition language later or drop it."
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": []
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[SHOULD] Rewrite the first Summary chunk to lead with a direct backend/security role identity instead of `transitioning from analytics`.",
+          "[SHOULD] Unbold qualifier words like `team-maintained`; keep bolding for technologies and metrics only.",
+          "[NICE] If you want a stronger AWS Builder Experience fit, add one explicit scope signal in the latest role or project (team size, event volume, SLA, or review/rollout scope).",
+          "[NICE] Keep the rest of the structure unchanged; the experience ordering and immutable fields are already consistent."
+        ],
+        "revision_instructions": "",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1 and 3",
+            "issue": "Modifier text such as `team-maintained` is bolded. The format rules reserve bold for technologies and quantification signals, not qualifiers.",
+            "fix": "Remove bold from qualifiers like `team-maintained` and keep bold only on technologies, systems, and metrics."
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The lead framing centers on a transition from analytics rather than an immediate backend/security identity, which weakens the first-screen hook.",
+            "fix": "Rewrite the first summary chunk to start with a direct role anchor, such as `Backend engineer` or `Security-focused backend engineer`, and move the transition language later or drop it."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

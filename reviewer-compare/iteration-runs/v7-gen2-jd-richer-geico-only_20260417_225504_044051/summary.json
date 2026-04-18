@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-04-17T22:56:06",
+  "case_count": 1,
+  "cases": [
+    {
+      "label": "gen2/Geico-SWE2",
+      "score": 92.4,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 1,
+      "low_count": 0,
+      "duration_seconds": 62.0,
+      "top_rules": [
+        "P2-001",
+        "P3B-001"
+      ]
+    }
+  ]
+}

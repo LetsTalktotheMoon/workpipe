@@ -1,0 +1,273 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:18:42",
+  "completed_at": "2026-04-17T23:20:09",
+  "duration_seconds": 87.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "TikTok Experience > bullet 3 / TikTok Project > bullet 1",
+          "issue": "核心平台词 `Bedrock` 在正文里出现但没有加粗，而同句里的 `AWS`、`S3`、`RAG` 已加粗，首屏扫读时这个关键信号不够突出。",
+          "fix": "把正文里的 `Bedrock` 统一加粗，和同句里的其他核心技术保持一致；如果还有类似的核心技术词，也按同样规则处理。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary > first sentence",
+          "issue": "首句标题是 `Data Analysis Candidate`，属于“候选人/过渡”式 framing，不如直接角色锚点有利于 6-8 秒首屏判断。",
+          "fix": "把首句标题改成更直接的角色方向，例如 `Data Analyst:`、`Analytics Engineer:` 或 `Data/Analytics Lead:`，然后保留后面的技术与结果描述。"
+        },
+        {
+          "rule_id": "P2-020",
+          "severity": "low",
+          "field": "TikTok Experience > first bullet",
+          "issue": "第一条 bullet 主要是百分比结果，没有把最能代表 scope 的信号放在最前面，首屏抓手偏弱。",
+          "fix": "在第一条 bullet 前半句补一个可追问的 scope 信号，例如团队维护范围、分析对象规模、日常处理量或服务边界，再接结果指标。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / Experience",
+          "issue": "JD Core Skills 明确写了 `R`，但简历正文和 Skills 都没有任何 R 的使用证据；对这个岗位来说这是明确的核心技能缺口。",
+          "fix": "如果真实使用过 R，就在最相关的 Temu 或 DiDi 分段里补一条 R 的分析/建模 bullet，并把 R 加回 Skills；如果没有真实使用，就不要把这份简历作为这类 JD 的主投版本。"
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Education + Experience timeline / Summary",
+          "issue": "按当前可见时间线，数据分析相关经历只有约 3.1 年，且没有明确 people-management 或 project-management 证据；这和 `Manager` / `4+ years` 的门槛不匹配。",
+          "fix": "如果确有真实 mentoring、项目协调或分析团队带教经历，就把它显式写到 DiDi 段落；如果没有，这份简历应优先投 Senior/Lead Data Analyst，而不是 Manager 线。 [结构性错配]"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience",
+          "issue": "最新经历的前几条 bullet 以百分比改进为主，Tier 1 规模/范围信号没有在最前面出现，量化说服力偏结果导向而非规模导向。",
+          "fix": "把一条可追问的规模信号前置到 TikTok 段首条 bullet，例如团队维护边界、日处理量、数据对象规模、或服务覆盖范围，再保留现有改进数字。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补齐 `R` 的真实使用证据，否则这份简历对该 JD 的核心技能覆盖不成立。",
+      "[MUST] 处理 Manager 门槛与可见年限/people-management 的结构性错配；如果没有真实管理经历，优先换目标岗位。",
+      "[SHOULD] 把 TikTok 段首条 bullet 的 scope 信号前置，别让百分比结果承担全部首屏说服力。",
+      "[NICE] 统一加粗正文里的核心技术词，尤其是 `Bedrock` 这类已经出现但没被视觉强调的词。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历按当前可见时间线只有约 3.1 年数据分析相关经历，且没有明确 people-management / project-management 证据，和 `Manager` 门槛不匹配；如果没有真实带人或项目管理经历，优先把目标岗位下调到 Senior/Lead Data Analyst。若 `R` 确有实际使用，请在 Temu 或 DiDi 增补一条 R 分析/建模 bullet，并把 R 留在 Skills；同时把 TikTok 第一条 bullet 前置一个可追问的 scope 信号，最后把正文里未加粗的核心技术词（如 `Bedrock`）统一补强。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 6.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 85.3,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 3,
+    "low_count": 1,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补齐 `R` 的真实使用证据，否则这份简历对该 JD 的核心技能覆盖不成立。",
+      "[MUST] 处理 Manager 门槛与可见年限/people-management 的结构性错配；如果没有真实管理经历，优先换目标岗位。",
+      "[SHOULD] 把 TikTok 段首条 bullet 的 scope 信号前置，别让百分比结果承担全部首屏说服力。",
+      "[NICE] 统一加粗正文里的核心技术词，尤其是 `Bedrock` 这类已经出现但没被视觉强调的词。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历按当前可见时间线只有约 3.1 年数据分析相关经历，且没有明确 people-management / project-management 证据，和 `Manager` 门槛不匹配；如果没有真实带人或项目管理经历，优先把目标岗位下调到 Senior/Lead Data Analyst。若 `R` 确有实际使用，请在 Temu 或 DiDi 增补一条 R 分析/建模 bullet，并把 R 留在 Skills；同时把 TikTok 第一条 bullet 前置一个可追问的 scope 信号，最后把正文里未加粗的核心技术词（如 `Bedrock`）统一补强。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "TikTok Experience > bullet 3 / TikTok Project > bullet 1",
+            "issue": "核心平台词 `Bedrock` 在正文里出现但没有加粗，而同句里的 `AWS`、`S3`、`RAG` 已加粗，首屏扫读时这个关键信号不够突出。",
+            "fix": "把正文里的 `Bedrock` 统一加粗，和同句里的其他核心技术保持一致；如果还有类似的核心技术词，也按同样规则处理。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary > first sentence",
+            "issue": "首句标题是 `Data Analysis Candidate`，属于“候选人/过渡”式 framing，不如直接角色锚点有利于 6-8 秒首屏判断。",
+            "fix": "把首句标题改成更直接的角色方向，例如 `Data Analyst:`、`Analytics Engineer:` 或 `Data/Analytics Lead:`，然后保留后面的技术与结果描述。"
+          },
+          {
+            "rule_id": "P2-020",
+            "severity": "low",
+            "field": "TikTok Experience > first bullet",
+            "issue": "第一条 bullet 主要是百分比结果，没有把最能代表 scope 的信号放在最前面，首屏抓手偏弱。",
+            "fix": "在第一条 bullet 前半句补一个可追问的 scope 信号，例如团队维护范围、分析对象规模、日常处理量或服务边界，再接结果指标。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / Experience",
+            "issue": "JD Core Skills 明确写了 `R`，但简历正文和 Skills 都没有任何 R 的使用证据；对这个岗位来说这是明确的核心技能缺口。",
+            "fix": "如果真实使用过 R，就在最相关的 Temu 或 DiDi 分段里补一条 R 的分析/建模 bullet，并把 R 加回 Skills；如果没有真实使用，就不要把这份简历作为这类 JD 的主投版本。"
+          },
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Education + Experience timeline / Summary",
+            "issue": "按当前可见时间线，数据分析相关经历只有约 3.1 年，且没有明确 people-management 或 project-management 证据；这和 `Manager` / `4+ years` 的门槛不匹配。",
+            "fix": "如果确有真实 mentoring、项目协调或分析团队带教经历，就把它显式写到 DiDi 段落；如果没有，这份简历应优先投 Senior/Lead Data Analyst，而不是 Manager 线。 [结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "最新经历的前几条 bullet 以百分比改进为主，Tier 1 规模/范围信号没有在最前面出现，量化说服力偏结果导向而非规模导向。",
+            "fix": "把一条可追问的规模信号前置到 TikTok 段首条 bullet，例如团队维护边界、日处理量、数据对象规模、或服务覆盖范围，再保留现有改进数字。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 补齐 `R` 的真实使用证据，否则这份简历对该 JD 的核心技能覆盖不成立。",
+        "[MUST] 处理 Manager 门槛与可见年限/people-management 的结构性错配；如果没有真实管理经历，优先换目标岗位。",
+        "[SHOULD] 把 TikTok 段首条 bullet 的 scope 信号前置，别让百分比结果承担全部首屏说服力。",
+        "[NICE] 统一加粗正文里的核心技术词，尤其是 `Bedrock` 这类已经出现但没被视觉强调的词。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历按当前可见时间线只有约 3.1 年数据分析相关经历，且没有明确 people-management / project-management 证据，和 `Manager` 门槛不匹配；如果没有真实带人或项目管理经历，优先把目标岗位下调到 Senior/Lead Data Analyst。若 `R` 确有实际使用，请在 Temu 或 DiDi 增补一条 R 分析/建模 bullet，并把 R 留在 Skills；同时把 TikTok 第一条 bullet 前置一个可追问的 scope 信号，最后把正文里未加粗的核心技术词（如 `Bedrock`）统一补强。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "TikTok Experience > bullet 3 / TikTok Project > bullet 1",
+          "issue": "核心平台词 `Bedrock` 在正文里出现但没有加粗，而同句里的 `AWS`、`S3`、`RAG` 已加粗，首屏扫读时这个关键信号不够突出。",
+          "fix": "把正文里的 `Bedrock` 统一加粗，和同句里的其他核心技术保持一致；如果还有类似的核心技术词，也按同样规则处理。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / Experience",
+          "issue": "JD Core Skills 明确写了 `R`，但简历正文和 Skills 都没有任何 R 的使用证据；对这个岗位来说这是明确的核心技能缺口。",
+          "fix": "如果真实使用过 R，就在最相关的 Temu 或 DiDi 分段里补一条 R 的分析/建模 bullet，并把 R 加回 Skills；如果没有真实使用，就不要把这份简历作为这类 JD 的主投版本。"
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Education + Experience timeline / Summary",
+          "issue": "按当前可见时间线，数据分析相关经历只有约 3.1 年，且没有明确 people-management 或 project-management 证据；这和 `Manager` / `4+ years` 的门槛不匹配。",
+          "fix": "如果确有真实 mentoring、项目协调或分析团队带教经历，就把它显式写到 DiDi 段落；如果没有，这份简历应优先投 Senior/Lead Data Analyst，而不是 Manager 线。 [结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary > first sentence",
+          "issue": "首句标题是 `Data Analysis Candidate`，属于“候选人/过渡”式 framing，不如直接角色锚点有利于 6-8 秒首屏判断。",
+          "fix": "把首句标题改成更直接的角色方向，例如 `Data Analyst:`、`Analytics Engineer:` 或 `Data/Analytics Lead:`，然后保留后面的技术与结果描述。"
+        },
+        {
+          "rule_id": "P2-020",
+          "severity": "low",
+          "field": "TikTok Experience > first bullet",
+          "issue": "第一条 bullet 主要是百分比结果，没有把最能代表 scope 的信号放在最前面，首屏抓手偏弱。",
+          "fix": "在第一条 bullet 前半句补一个可追问的 scope 信号，例如团队维护范围、分析对象规模、日常处理量或服务边界，再接结果指标。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience",
+          "issue": "最新经历的前几条 bullet 以百分比改进为主，Tier 1 规模/范围信号没有在最前面出现，量化说服力偏结果导向而非规模导向。",
+          "fix": "把一条可追问的规模信号前置到 TikTok 段首条 bullet，例如团队维护边界、日处理量、数据对象规模、或服务覆盖范围，再保留现有改进数字。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-001",
+          "P2-020"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-001",
+          "P3B-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-001",
+      "P2-020",
+      "P3B-001",
+      "P3B-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills / Experience",
+      "P3B-010 @ Education + Experience timeline / Summary"
+    ]
+  }
+}

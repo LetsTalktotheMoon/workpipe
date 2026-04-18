@@ -1,0 +1,315 @@
+{
+  "label": "extra/CapitalOne-AI",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/CapitalOne-AI",
+    "company": "Capital One",
+    "title": "Manager, Data Analysis - Card Services",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Capital One is a Fortune 200 company and a leader in data-driven decision-making",
+    "tech_required": [],
+    "tech_preferred": [
+      "Python",
+      "Tableau",
+      "AWS",
+      "Spark",
+      "SQL",
+      "R"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.7,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.5,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.7,
+      "verdict": "pass",
+      "seed_label": "Qualified Health Data Engineer",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T21:27:00",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 95.2,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:06:09",
+    "completed_at": "2026-04-17T23:06:59",
+    "duration_seconds": 50.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "首句以“Data Analysis Candidate”开头，首屏更像候选人状态说明，而不是明确的岗位方向锚点。对 HR 扫读来说，角色定位感被削弱。",
+            "fix": "把首句改成直接的岗位锚点，例如“Data Analytics Professional:”或“Data Analyst / Analytics Engineer:”，并保留 Python、SQL、Spark、数据规模或业务场景信号。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / Experience / Education",
+            "issue": "JD 是 Manager 级别，并明确要求至少 4 年专业 data analysis 经验；简历纸面上只写了 3+ years，且直接可见的数据分析经历大约只有 2021-2024 这条线，没有明确 people management、hiring、performance review 或稳定的团队管理证据。",
+            "fix": "如果确有真实的项目/人员管理经历，把最相关一段经历改写成明确的 project lead / mentor / cross-functional owner 证据；如果没有真实管理经历，这个 JD 更适合降级投递到 senior IC analytics 角色，不要强行包装成 Manager。 ",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 解决 Manager JD 与简历纸面资历的结构性错配：当前只显式写出 3+ years，且没有可见 people-management 证据；若事实成立，应转投非 Manager 的 analytics 岗位。",
+        "[MUST] 重写 Summary 首句，去掉“Candidate”式自我定位，改为直接的 data analytics / Python / SQL / Spark 岗位锚点。",
+        "[SHOULD] 如果真实存在项目管理、带人、导师式协作或跨团队 owner 证据，把它补到最相关经历里，专门服务 JD 的 Manager 叙事。",
+        "[NICE] 去掉对修饰语的加粗，把加粗保留给技术名词和量化结果，提升首屏可读性。"
+      ],
+      "revision_instructions": "[结构性错配] 这版简历在纸面上不满足该 JD 的 Manager 预期：Summary 只写了 3+ years，直接可见的数据分析年限也不足 4 年，且没有明确 people-management 证据。若这些事实都是真实的，只能在最相关经历里补充真实的 project lead / mentor / cross-functional owner 证据，并把 Summary 改成直接的 data analytics 定位；否则更适合投递 senior IC analytics 岗位，而不是继续硬贴 Manager。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 92.4,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 解决 Manager JD 与简历纸面资历的结构性错配：当前只显式写出 3+ years，且没有可见 people-management 证据；若事实成立，应转投非 Manager 的 analytics 岗位。",
+        "[MUST] 重写 Summary 首句，去掉“Candidate”式自我定位，改为直接的 data analytics / Python / SQL / Spark 岗位锚点。",
+        "[SHOULD] 如果真实存在项目管理、带人、导师式协作或跨团队 owner 证据，把它补到最相关经历里，专门服务 JD 的 Manager 叙事。",
+        "[NICE] 去掉对修饰语的加粗，把加粗保留给技术名词和量化结果，提升首屏可读性。"
+      ],
+      "revision_instructions": "[结构性错配] 这版简历在纸面上不满足该 JD 的 Manager 预期：Summary 只写了 3+ years，直接可见的数据分析年限也不足 4 年，且没有明确 people-management 证据。若这些事实都是真实的，只能在最相关经历里补充真实的 project lead / mentor / cross-functional owner 证据，并把 Summary 改成直接的 data analytics 定位；否则更适合投递 senior IC analytics 岗位，而不是继续硬贴 Manager。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, first sentence",
+              "issue": "首句以“Data Analysis Candidate”开头，首屏更像候选人状态说明，而不是明确的岗位方向锚点。对 HR 扫读来说，角色定位感被削弱。",
+              "fix": "把首句改成直接的岗位锚点，例如“Data Analytics Professional:”或“Data Analyst / Analytics Engineer:”，并保留 Python、SQL、Spark、数据规模或业务场景信号。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Professional Summary / Experience / Education",
+              "issue": "JD 是 Manager 级别，并明确要求至少 4 年专业 data analysis 经验；简历纸面上只写了 3+ years，且直接可见的数据分析经历大约只有 2021-2024 这条线，没有明确 people management、hiring、performance review 或稳定的团队管理证据。",
+              "fix": "如果确有真实的项目/人员管理经历，把最相关一段经历改写成明确的 project lead / mentor / cross-functional owner 证据；如果没有真实管理经历，这个 JD 更适合降级投递到 senior IC analytics 角色，不要强行包装成 Manager。 ",
+              "note": "[结构性错配]"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 解决 Manager JD 与简历纸面资历的结构性错配：当前只显式写出 3+ years，且没有可见 people-management 证据；若事实成立，应转投非 Manager 的 analytics 岗位。",
+          "[MUST] 重写 Summary 首句，去掉“Candidate”式自我定位，改为直接的 data analytics / Python / SQL / Spark 岗位锚点。",
+          "[SHOULD] 如果真实存在项目管理、带人、导师式协作或跨团队 owner 证据，把它补到最相关经历里，专门服务 JD 的 Manager 叙事。",
+          "[NICE] 去掉对修饰语的加粗，把加粗保留给技术名词和量化结果，提升首屏可读性。"
+        ],
+        "revision_instructions": "[结构性错配] 这版简历在纸面上不满足该 JD 的 Manager 预期：Summary 只写了 3+ years，直接可见的数据分析年限也不足 4 年，且没有明确 people-management 证据。若这些事实都是真实的，只能在最相关经历里补充真实的 project lead / mentor / cross-functional owner 证据，并把 Summary 改成直接的 data analytics 定位；否则更适合投递 senior IC analytics 岗位，而不是继续硬贴 Manager。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / Experience / Education",
+            "issue": "JD 是 Manager 级别，并明确要求至少 4 年专业 data analysis 经验；简历纸面上只写了 3+ years，且直接可见的数据分析经历大约只有 2021-2024 这条线，没有明确 people management、hiring、performance review 或稳定的团队管理证据。",
+            "fix": "如果确有真实的项目/人员管理经历，把最相关一段经历改写成明确的 project lead / mentor / cross-functional owner 证据；如果没有真实管理经历，这个 JD 更适合降级投递到 senior IC analytics 角色，不要强行包装成 Manager。 ",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "首句以“Data Analysis Candidate”开头，首屏更像候选人状态说明，而不是明确的岗位方向锚点。对 HR 扫读来说，角色定位感被削弱。",
+            "fix": "把首句改成直接的岗位锚点，例如“Data Analytics Professional:”或“Data Analyst / Analytics Engineer:”，并保留 Python、SQL、Spark、数据规模或业务场景信号。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 1,
+          "rule_ids": [
+            "P3B-010"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P3B-010"
+      ],
+      "high_or_critical": [
+        "P3B-010 @ Professional Summary / Experience / Education"
+      ]
+    }
+  }
+}

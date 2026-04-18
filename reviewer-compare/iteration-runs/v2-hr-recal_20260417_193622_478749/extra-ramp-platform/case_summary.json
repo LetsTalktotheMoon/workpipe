@@ -1,0 +1,367 @@
+{
+  "label": "extra/Ramp-Platform",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/Ramp-Platform",
+    "company": "Ramp",
+    "title": "Software Engineer, Infrastructure",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Ramp is building the smart infrastructure for finance teams, automating how over $100B in annualized spend flows in and out of 50,000+ companies",
+    "tech_required": [
+      "Flask",
+      "AWS",
+      "Terraform",
+      "GCP",
+      "PostgreSQL",
+      "SQL",
+      "Kafka",
+      "Kubernetes",
+      "MySQL",
+      "Redis",
+      "Azure"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.6,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.8,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.6,
+      "verdict": "pass",
+      "seed_label": "TRIMEDX Platform Multicloud",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T22:14:13",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 94.2,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T19:43:58",
+    "completed_at": "2026-04-17T19:44:58",
+    "duration_seconds": 60.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Summary and Experience bullets",
+            "issue": "正文里的关键量化信号和规模锚点大多没有加粗，例如 4.8s->2.9s、24%、33%、46 minutes->21 minutes、13-person、20+ city、29%、92% 等。",
+            "fix": "把每条经历里最重要的结果数字和 scope 词加粗，保留正文其余说明为普通文本；重点突出延迟、时间、团队规模、城市覆盖和命中率等抓手。"
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary and Experience bullets",
+            "issue": "修饰语/限定词被加粗得过多，例如 team-maintained、internal、existing，这会稀释技术栈和结果的视觉权重。",
+            "fix": "去掉这些描述性词汇的加粗，只保留技术名词、核心动作和关键指标的加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3E-010",
+            "sub_area": "3E",
+            "severity": "critical",
+            "field": "TikTok · Security | Software Engineer Intern | Jun 2025 – Dec 2025 | Bullet 2",
+            "issue": "在 TikTok Security 场景里，这条 bullet 写了基于 Bedrock 的 RAG investigator assistant，但没有明确说明是 sandbox / evaluation / redacted internal docs / no user data。按当前表述，容易被理解为外部 LLM 处理了受保护或生产相关数据，触碰合规硬边界。",
+            "fix": "如果事实允许，补上硬边界限定语，例如“in a sandbox/evaluation environment on redacted internal docs with no user/production data”；如果不允许补边界，就把 LLM 细节从这条里移到明确的内部评估项目里。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security section",
+            "issue": "最新一段几乎全部是 latency / percentage 改进，没有给出足够的 Tier 1 scope 锚点；HR 会把它读成“结果不少，但规模不清楚”。",
+            "fix": "在 TikTok 段补 1 个可追问的 scope 指标，例如 case volume、corpus size、QPS、SLA、evaluation set size、release cadence 或团队边界，让首屏先看到规模，再看优化结果。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 先修 TikTok Security 的 RAG bullet：明确它只处理 sandbox / redacted / internal-only 数据，避免外部 LLM 触碰受保护数据的合规歧义。",
+        "[MUST] 给 TikTok 段补一个 Tier-1 scope 锚点，避免整段只剩时间/百分比优化。",
+        "[SHOULD] 统一格式：去掉 team-maintained/internal/existing 这类修饰词的加粗，只保留技术和关键指标加粗。",
+        "[NICE] 如果要进一步增强 Ramp 匹配感，可在最相关经历里补一句“reliability-sensitive internal workflows / platform infrastructure”式桥接。"
+      ],
+      "revision_instructions": "先改 TikTok Security 那条 RAG bullet：如果事实成立，补上“sandbox / evaluation / redacted internal docs / no user data or production data”之类的硬边界；否则把外部 LLM 细节移出该条，避免触碰合规红线。然后在 TikTok 段补一个 Tier-1 scope 数字（case volume、corpus size、QPS、SLA、team boundary 任一项），让首屏不只是百分比和时间改进。最后把 team-maintained、internal、existing 这类描述词取消加粗，保留技术名词和关键结果的加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 6.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 95.8,
+      "critical_count": 1,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 先修 TikTok Security 的 RAG bullet：明确它只处理 sandbox / redacted / internal-only 数据，避免外部 LLM 触碰受保护数据的合规歧义。",
+        "[MUST] 给 TikTok 段补一个 Tier-1 scope 锚点，避免整段只剩时间/百分比优化。",
+        "[SHOULD] 统一格式：去掉 team-maintained/internal/existing 这类修饰词的加粗，只保留技术和关键指标加粗。",
+        "[NICE] 如果要进一步增强 Ramp 匹配感，可在最相关经历里补一句“reliability-sensitive internal workflows / platform infrastructure”式桥接。"
+      ],
+      "revision_instructions": "先改 TikTok Security 那条 RAG bullet：如果事实成立，补上“sandbox / evaluation / redacted internal docs / no user data or production data”之类的硬边界；否则把外部 LLM 细节移出该条，避免触碰合规红线。然后在 TikTok 段补一个 Tier-1 scope 数字（case volume、corpus size、QPS、SLA、team boundary 任一项），让首屏不只是百分比和时间改进。最后把 team-maintained、internal、existing 这类描述词取消加粗，保留技术名词和关键结果的加粗。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Summary and Experience bullets",
+              "issue": "正文里的关键量化信号和规模锚点大多没有加粗，例如 4.8s->2.9s、24%、33%、46 minutes->21 minutes、13-person、20+ city、29%、92% 等。",
+              "fix": "把每条经历里最重要的结果数字和 scope 词加粗，保留正文其余说明为普通文本；重点突出延迟、时间、团队规模、城市覆盖和命中率等抓手。"
+            },
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Summary and Experience bullets",
+              "issue": "修饰语/限定词被加粗得过多，例如 team-maintained、internal、existing，这会稀释技术栈和结果的视觉权重。",
+              "fix": "去掉这些描述性词汇的加粗，只保留技术名词、核心动作和关键指标的加粗。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3E-010",
+              "sub_area": "3E",
+              "severity": "critical",
+              "field": "TikTok · Security | Software Engineer Intern | Jun 2025 – Dec 2025 | Bullet 2",
+              "issue": "在 TikTok Security 场景里，这条 bullet 写了基于 Bedrock 的 RAG investigator assistant，但没有明确说明是 sandbox / evaluation / redacted internal docs / no user data。按当前表述，容易被理解为外部 LLM 处理了受保护或生产相关数据，触碰合规硬边界。",
+              "fix": "如果事实允许，补上硬边界限定语，例如“in a sandbox/evaluation environment on redacted internal docs with no user/production data”；如果不允许补边界，就把 LLM 细节从这条里移到明确的内部评估项目里。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok · Security section",
+              "issue": "最新一段几乎全部是 latency / percentage 改进，没有给出足够的 Tier 1 scope 锚点；HR 会把它读成“结果不少，但规模不清楚”。",
+              "fix": "在 TikTok 段补 1 个可追问的 scope 指标，例如 case volume、corpus size、QPS、SLA、evaluation set size、release cadence 或团队边界，让首屏先看到规模，再看优化结果。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 先修 TikTok Security 的 RAG bullet：明确它只处理 sandbox / redacted / internal-only 数据，避免外部 LLM 触碰受保护数据的合规歧义。",
+          "[MUST] 给 TikTok 段补一个 Tier-1 scope 锚点，避免整段只剩时间/百分比优化。",
+          "[SHOULD] 统一格式：去掉 team-maintained/internal/existing 这类修饰词的加粗，只保留技术和关键指标加粗。",
+          "[NICE] 如果要进一步增强 Ramp 匹配感，可在最相关经历里补一句“reliability-sensitive internal workflows / platform infrastructure”式桥接。"
+        ],
+        "revision_instructions": "先改 TikTok Security 那条 RAG bullet：如果事实成立，补上“sandbox / evaluation / redacted internal docs / no user data or production data”之类的硬边界；否则把外部 LLM 细节移出该条，避免触碰合规红线。然后在 TikTok 段补一个 Tier-1 scope 数字（case volume、corpus size、QPS、SLA、team boundary 任一项），让首屏不只是百分比和时间改进。最后把 team-maintained、internal、existing 这类描述词取消加粗，保留技术名词和关键结果的加粗。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Summary and Experience bullets",
+            "issue": "正文里的关键量化信号和规模锚点大多没有加粗，例如 4.8s->2.9s、24%、33%、46 minutes->21 minutes、13-person、20+ city、29%、92% 等。",
+            "fix": "把每条经历里最重要的结果数字和 scope 词加粗，保留正文其余说明为普通文本；重点突出延迟、时间、团队规模、城市覆盖和命中率等抓手。"
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary and Experience bullets",
+            "issue": "修饰语/限定词被加粗得过多，例如 team-maintained、internal、existing，这会稀释技术栈和结果的视觉权重。",
+            "fix": "去掉这些描述性词汇的加粗，只保留技术名词、核心动作和关键指标的加粗。"
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security section",
+            "issue": "最新一段几乎全部是 latency / percentage 改进，没有给出足够的 Tier 1 scope 锚点；HR 会把它读成“结果不少，但规模不清楚”。",
+            "fix": "在 TikTok 段补 1 个可追问的 scope 指标，例如 case volume、corpus size、QPS、SLA、evaluation set size、release cadence 或团队边界，让首屏先看到规模，再看优化结果。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [
+          {
+            "rule_id": "P3E-010",
+            "sub_area": "3E",
+            "severity": "critical",
+            "field": "TikTok · Security | Software Engineer Intern | Jun 2025 – Dec 2025 | Bullet 2",
+            "issue": "在 TikTok Security 场景里，这条 bullet 写了基于 Bedrock 的 RAG investigator assistant，但没有明确说明是 sandbox / evaluation / redacted internal docs / no user data。按当前表述，容易被理解为外部 LLM 处理了受保护或生产相关数据，触碰合规硬边界。",
+            "fix": "如果事实允许，补上硬边界限定语，例如“in a sandbox/evaluation environment on redacted internal docs with no user/production data”；如果不允许补边界，就把 LLM 细节从这条里移到明确的内部评估项目里。"
+          }
+        ],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 2,
+          "rule_ids": [
+            "P1-040",
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3E-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P1-042",
+        "P3D-001",
+        "P3E-010"
+      ],
+      "high_or_critical": [
+        "P3E-010 @ TikTok · Security | Software Engineer Intern | Jun 2025 – Dec 2025 | Bullet 2"
+      ]
+    }
+  }
+}

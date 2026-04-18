@@ -1,0 +1,8 @@
+source_field,jobs_with_content,jobs_with_candidate,raw_match_count,unique_phrases,top_phrases
+must_have_quals,3990,3311,9309,124,Software Engineering、Communication Skills、Software Development、Databases、Analytical
+preferred_quals,2915,1561,2883,122,Databases、Software Development Life Cycle、Enterprise、Software Development、Healthcare
+core_responsibilities,3980,2637,5651,114,Stakeholders、Cross-Functional Teams、Enterprise、Analytical、Leadership
+detailQualifications.mustHave.hardSkill,3985,2329,3780,88,Software Development、Databases、Data Analysis、Software Engineering、Database
+detailQualifications.mustHave.softSkill,2640,2443,6624,56,Problem-Solving、Communication、Collaboration、Attention To Detail、Adaptability
+detailQualifications.preferredHave.hardSkill,2883,1235,1841,90,Software Development Life Cycle、Databases、Healthcare、Data Analysis、Database
+detailQualifications.preferredHave.softSkill,754,571,1120,51,Collaboration、Problem-Solving、Communication、Adaptability、Leadership

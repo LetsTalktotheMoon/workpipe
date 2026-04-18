@@ -1,0 +1,26 @@
+view_id: prompt_planner_revision_full_bytedance
+title: Planner-first Revision Prompt（ByteDance 分支）
+pipeline: match_pipe
+stage: planner revision / bytedance
+role: writer
+description: planner revision 在 ByteDance 目标岗位上会切到专用 writer 分支。
+system_block: upgrade_revision_system
+user_blocks:
+- candidate_context_shared_experience
+- candidate_context_shared_education
+- candidate_context_bytedance_education_branch
+- candidate_context_shared_achievements
+- candidate_context_bytedance_boundary
+- retarget_bytedance_special
+- writer_jd_context
+- writer_plan_shared_intro
+- writer_plan_shared_didi_temu
+- writer_plan_shared_gt_coursework
+- writer_plan_shared_tail
+- format_constraints_shared_head
+- format_constraints_branch_bytedance
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract
+- planner_revision_context
+- planner_revision_overlay

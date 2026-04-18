@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "scope": "project_prompt_review",
+  "frozen": true,
+  "trigger_revision_id": "rev-0001",
+  "reason": "roundtrip_delta_exceeds_threshold",
+  "affected_groups": [
+    "runtime_main::generate::writer::system",
+    "runtime_main::generate::writer::user",
+    "runtime_main::full_review::reviewer::system",
+    "runtime_main::full_review::reviewer::user",
+    "runtime_main::upgrade_revision::writer::system",
+    "runtime_main::upgrade_revision::writer::user",
+    "runtime_seed_retarget::rewrite_review::reviewer::system",
+    "runtime_seed_retarget::rewrite_review::reviewer::user",
+    "runtime_seed_retarget::rewrite_writer::writer::system",
+    "runtime_seed_retarget::rewrite_writer::writer::user",
+    "runtime_reviewer_fallback::json_repair::reviewer_repairer::system",
+    "runtime_reviewer_fallback::json_repair::reviewer_repairer::user",
+    "prompt_writer_system",
+    "prompt_writer_generate",
+    "prompt_writer_generate_bytedance",
+    "prompt_strict_revision_system",
+    "prompt_upgrade_system",
+    "prompt_reviewer_system",
+    "prompt_reviewer_full",
+    "prompt_reviewer_full_bytedance",
+    "prompt_retarget_old_match",
+    "prompt_retarget_same_company",
+    "prompt_retarget_old_match_bytedance",
+    "prompt_upgrade_revision",
+    "prompt_upgrade_revision_bytedance",
+    "prompt_planner_system",
+    "prompt_planner_user",
+    "prompt_planner_writer_full",
+    "prompt_planner_writer_full_bytedance",
+    "prompt_planner_revision_full",
+    "prompt_planner_revision_full_bytedance",
+    "prompt_dual_channel_full",
+    "prompt_dual_channel_full_bytedance"
+  ],
+  "details": [
+    {
+      "diff_ratio": 1.0,
+      "freeze_threshold": 0.25,
+      "overwritten_count": 0,
+      "manual_review_count": 33
+    }
+  ],
+  "next_action": "inspect_roundtrip_report_and_ambiguities",
+  "updated_at": "2026-04-14T14:05:29-05:00"
+}

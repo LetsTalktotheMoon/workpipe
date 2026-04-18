@@ -1,0 +1,221 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:48:09",
+  "completed_at": "2026-04-17T23:49:50",
+  "duration_seconds": 101.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary > sentence 1",
+          "issue": "首句以“trajectory / transitioning from data analytics”作开头，首屏先让人看到的是转变叙事而不是目标角色信号。",
+          "fix": "把首句改成直接的岗位/技术定位，例如先写“Software engineer focused on internal tools and backend delivery across .NET, Angular, TypeScript, SQL, and CI/CD.”，再把转型背景放到后半句。"
+        },
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills > APIs",
+          "issue": "`APIs` 作为独立类别标题过于笼统，扫读时信息量不足，不利于 HR 快速定位你的交付能力。",
+          "fix": "把该类改成更具体的信息标题，例如 `Engineering Practices` / `DevEx` / `Delivery`，并保留 Git、Shell、Scrum、Unit Testing 这组内容。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Summary / Experience",
+          "issue": "简历没有把既有的 security、ops、support workflow 经验桥接到 Veterans United 的 home-loan / customer-operations 方向，行业迁移逻辑需要 HR 自己补。",
+          "fix": "在 Summary 或最相关经历里补一句迁移桥接，例如强调你做过 regulated / customer-facing internal workflow tools，能自然迁移到房贷业务里的运营与协作系统。"
+        },
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Experience > bullets 1-5",
+          "issue": "这一段把多个同类技术家族同时堆进一个实习经历里：后端/分布式栈、RAG/云服务栈、前端栈都各自出现多次，读起来像 stack stuffing，而不是清晰的 intern scope。",
+          "fix": "把每条 bullet 收敛到一个主技术家族 + 一个辅助工具链，保留最能说明贡献的技术，其余放到环境描述或项目背景里，降低“炫技堆栈”感。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 第一句改成直接的角色/技术定位，去掉“trajectory / transitioning”这种转型叙事开头。",
+      "[MUST] 收敛 TikTok 实习段的技术面宽度，让每条 bullet 只保留一个主技术家族和一个辅助工具链，避免被读成 stack stuffing。",
+      "[SHOULD] 补一条把既有 internal workflow / ops / security 经验迁移到 Veterans United 房贷业务的桥接句。",
+      "[NICE] 把 `APIs` 这种泛化技能类别改成更具体的 `Engineering Practices` / `DevEx`。"
+    ],
+    "revision_instructions": "[MUST] 把 Summary 第一句改成直接的岗位定位，而不是“trajectory/transitioning from data analytics”的转型开头。 [MUST] 收敛 TikTok 实习段的技术宽度：每条 bullet 只保留一个主技术家族 + 一个辅助工具链，避免后端、前端、RAG、云服务、DevOps 同时堆叠。 [SHOULD] 在 Summary 或最相关经历里补一句迁移桥接，把 internal workflow / ops / security 经验连到 Veterans United 的房贷业务场景。 [NICE] 把 `APIs` 类别改成更具体的信息标题。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 9.5,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 9.5,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.1,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 第一句改成直接的角色/技术定位，去掉“trajectory / transitioning”这种转型叙事开头。",
+      "[MUST] 收敛 TikTok 实习段的技术面宽度，让每条 bullet 只保留一个主技术家族和一个辅助工具链，避免被读成 stack stuffing。",
+      "[SHOULD] 补一条把既有 internal workflow / ops / security 经验迁移到 Veterans United 房贷业务的桥接句。",
+      "[NICE] 把 `APIs` 这种泛化技能类别改成更具体的 `Engineering Practices` / `DevEx`。"
+    ],
+    "revision_instructions": "[MUST] 把 Summary 第一句改成直接的岗位定位，而不是“trajectory/transitioning from data analytics”的转型开头。 [MUST] 收敛 TikTok 实习段的技术宽度：每条 bullet 只保留一个主技术家族 + 一个辅助工具链，避免后端、前端、RAG、云服务、DevOps 同时堆叠。 [SHOULD] 在 Summary 或最相关经历里补一句迁移桥接，把 internal workflow / ops / security 经验连到 Veterans United 的房贷业务场景。 [NICE] 把 `APIs` 类别改成更具体的信息标题。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary > sentence 1",
+            "issue": "首句以“trajectory / transitioning from data analytics”作开头，首屏先让人看到的是转变叙事而不是目标角色信号。",
+            "fix": "把首句改成直接的岗位/技术定位，例如先写“Software engineer focused on internal tools and backend delivery across .NET, Angular, TypeScript, SQL, and CI/CD.”，再把转型背景放到后半句。"
+          },
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills > APIs",
+            "issue": "`APIs` 作为独立类别标题过于笼统，扫读时信息量不足，不利于 HR 快速定位你的交付能力。",
+            "fix": "把该类改成更具体的信息标题，例如 `Engineering Practices` / `DevEx` / `Delivery`，并保留 Git、Shell、Scrum、Unit Testing 这组内容。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Summary / Experience",
+            "issue": "简历没有把既有的 security、ops、support workflow 经验桥接到 Veterans United 的 home-loan / customer-operations 方向，行业迁移逻辑需要 HR 自己补。",
+            "fix": "在 Summary 或最相关经历里补一句迁移桥接，例如强调你做过 regulated / customer-facing internal workflow tools，能自然迁移到房贷业务里的运营与协作系统。"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok Experience > bullets 1-5",
+            "issue": "这一段把多个同类技术家族同时堆进一个实习经历里：后端/分布式栈、RAG/云服务栈、前端栈都各自出现多次，读起来像 stack stuffing，而不是清晰的 intern scope。",
+            "fix": "把每条 bullet 收敛到一个主技术家族 + 一个辅助工具链，保留最能说明贡献的技术，其余放到环境描述或项目背景里，降低“炫技堆栈”感。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 Summary 第一句改成直接的角色/技术定位，去掉“trajectory / transitioning”这种转型叙事开头。",
+        "[MUST] 收敛 TikTok 实习段的技术面宽度，让每条 bullet 只保留一个主技术家族和一个辅助工具链，避免被读成 stack stuffing。",
+        "[SHOULD] 补一条把既有 internal workflow / ops / security 经验迁移到 Veterans United 房贷业务的桥接句。",
+        "[NICE] 把 `APIs` 这种泛化技能类别改成更具体的 `Engineering Practices` / `DevEx`。"
+      ],
+      "revision_instructions": "[MUST] 把 Summary 第一句改成直接的岗位定位，而不是“trajectory/transitioning from data analytics”的转型开头。 [MUST] 收敛 TikTok 实习段的技术宽度：每条 bullet 只保留一个主技术家族 + 一个辅助工具链，避免后端、前端、RAG、云服务、DevOps 同时堆叠。 [SHOULD] 在 Summary 或最相关经历里补一句迁移桥接，把 internal workflow / ops / security 经验连到 Veterans United 的房贷业务场景。 [NICE] 把 `APIs` 类别改成更具体的信息标题。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Summary / Experience",
+          "issue": "简历没有把既有的 security、ops、support workflow 经验桥接到 Veterans United 的 home-loan / customer-operations 方向，行业迁移逻辑需要 HR 自己补。",
+          "fix": "在 Summary 或最相关经历里补一句迁移桥接，例如强调你做过 regulated / customer-facing internal workflow tools，能自然迁移到房贷业务里的运营与协作系统。"
+        }
+      ],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Experience > bullets 1-5",
+          "issue": "这一段把多个同类技术家族同时堆进一个实习经历里：后端/分布式栈、RAG/云服务栈、前端栈都各自出现多次，读起来像 stack stuffing，而不是清晰的 intern scope。",
+          "fix": "把每条 bullet 收敛到一个主技术家族 + 一个辅助工具链，保留最能说明贡献的技术，其余放到环境描述或项目背景里，降低“炫技堆栈”感。"
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary > sentence 1",
+          "issue": "首句以“trajectory / transitioning from data analytics”作开头，首屏先让人看到的是转变叙事而不是目标角色信号。",
+          "fix": "把首句改成直接的岗位/技术定位，例如先写“Software engineer focused on internal tools and backend delivery across .NET, Angular, TypeScript, SQL, and CI/CD.”，再把转型背景放到后半句。"
+        }
+      ],
+      "r5_logic": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills > APIs",
+          "issue": "`APIs` 作为独立类别标题过于笼统，扫读时信息量不足，不利于 HR 快速定位你的交付能力。",
+          "fix": "把该类改成更具体的信息标题，例如 `Engineering Practices` / `DevEx` / `Delivery`，并保留 Git、Shell、Scrum、Unit Testing 这组内容。"
+        }
+      ],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-001",
+          "P2-040"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-003",
+          "P3C-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P2-040",
+      "P3B-003",
+      "P3C-010"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ TikTok Experience > bullets 1-5"
+    ]
+  }
+}

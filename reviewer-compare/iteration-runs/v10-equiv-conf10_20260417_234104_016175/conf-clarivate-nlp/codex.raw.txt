@@ -1,0 +1,80 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "Professional Summary bullets",
+        "issue": "The three summary bullets are header-led noun phrases rather than verb-led bullets, so they do not meet the strict bullet-initial action framing rule.",
+        "fix": "Rewrite each summary bullet so the text after the bold label starts with a strong action phrase, while keeping the required 3-sentence structure."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The lead frames the candidate as a \"candidate\" with \"transferable\" experience before establishing a direct NLP/ML role identity, which weakens the first-screen hook.",
+        "fix": "Open with a direct role anchor such as NLP-focused data scientist or senior ML/NLP practitioner, then attach the strongest measurable NLP/RAG result."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills / TikTok Security project",
+        "issue": "LangChain and LangGraph are core JD signals, but the resume has no direct Lang-based toolkit evidence in Skills or bullets.",
+        "fix": "Add one concrete bullet in the most relevant NLP/RAG project showing actual LangChain or LangGraph use, chain/graph ownership, or retriever orchestration; if that did not happen, this JD is not a clean match."
+      },
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Visible experience timeline",
+        "issue": "The visible timeline supports roughly 3+ years of relevant work, while the JD requires 5+ years of hands-on NLP and 5+ years of Python experience, so the hard gate is not met on the face of the resume.",
+        "fix": "If there is omitted pre-2021 NLP/Python industry work, add it explicitly; otherwise retarget to a mid-level NLP/ML role instead of Senior Data Scientist (NLP).",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok · Security experience",
+        "issue": "This intern section is breadth-heavy: Python, Go, and Java all appear with direct usage evidence, alongside gRPC, Kafka, PostgreSQL, Docker, Kubernetes, and Bedrock in one short stint, which reads like stack stuffing.",
+        "fix": "Collapse the section around the dominant NLP/RAG toolchain and keep only the secondary technologies that are essential to the story; move the rest into one representative project bullet."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security experience",
+        "issue": "The newest and most relevant experience relies on percentage lifts and latency improvements, with no Tier-1 scale or scope anchor on the lead bullets.",
+        "fix": "Add one concrete scale or ownership anchor if true, such as dataset size, review volume, QPS, team scope, or evaluation size; otherwise let the DiDi section carry the scale story."
+      },
+      {
+        "rule_id": "P3E-013",
+        "sub_area": "3E",
+        "severity": "medium",
+        "field": "TikTok · Security / Threat Knowledge Retrieval Assistant",
+        "issue": "A Security-team bullet uses external Bedrock-based LLM workflows without an explicit internal, sandbox, synthetic-data, or no-user-data qualifier, so an HR reader may still worry about data-boundary compliance.",
+        "fix": "Add a qualifying phrase such as internal evaluation, sandbox, synthetic/redacted data, or no production/user data if that is accurate."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Resolve the JD gate gap: the visible timeline does not satisfy the 5+ year NLP/Python requirement, and LangChain/LangGraph are not evidenced.",
+    "[MUST] Rewrite the Summary lead to be role-first and evidence-first, removing \"candidate/transferable\" framing from the first line.",
+    "[SHOULD] Reduce the TikTok intern section's stack breadth so the story reads as focused NLP/RAG work rather than multi-language stack display.",
+    "[NICE] Add an explicit internal/sandbox/no-user-data qualifier to the Security-team Bedrock bullets if that is true."
+  ],
+  "revision_instructions": "[结构性错配] 当前可见经历只支持约 3+ 年相关经验，达不到 JD 的 5 年 NLP/Python 门槛；如果还有未列出的 pre-2021 NLP/Python 工作，补进最相关经历，否则应把目标调整到中级 NLP/ML 岗位。把 Summary 第一条改成直接的角色方向 + 证据，而不是 \"candidate/transferable\" 叙事，并在最相关的 RAG/NLP bullet 里补 LangChain/LangGraph 或同等 Lang-based toolkit 的实际使用证据。最后收敛 TikTok 段落，保留 1-2 条主链路，减少 Python/Go/Java/Kafka/K8s/Bedrock 同屏堆栈。"
+}

@@ -1,0 +1,993 @@
+{
+  "generated_at": "2026-04-12T19:59:03",
+  "pool_total_jobs": 1258,
+  "jobs_with_apply_url": 1258,
+  "processed_this_run": 40,
+  "status_counts": {
+    "unknown": 16,
+    "open": 24,
+    "missing": 1218
+  },
+  "coverage_ratio": 0.019077901430842606,
+  "top_hosts": {
+    "boards.greenhouse.io": 215,
+    "jobs.ashbyhq.com": 107,
+    "www.linkedin.com": 94,
+    "www.amazon.jobs": 90,
+    "apply.careers.microsoft.com": 53,
+    "jobs.lever.co": 42,
+    "careers.google.com": 29,
+    "jpmorganchase.contacthr.com": 23,
+    "paypal.eightfold.ai": 21,
+    "www.capitalonecareers.com": 18,
+    "tnl2.jometer.com": 16,
+    "careers.adobe.com": 15,
+    "jpmc.fa.oraclecloud.com": 15,
+    "jobs.intuit.com": 10,
+    "hdpc.fa.us2.oraclecloud.com": 10,
+    "careers.qualcomm.com": 9,
+    "jobs.smartrecruiters.com": 9,
+    "jobs.apple.com": 8,
+    "jobs.jobvite.com": 7,
+    "www.disneycareers.com": 6,
+    "recruiting.ultipro.com": 6,
+    "careers.mastercard.com": 5,
+    "careers.medpace.com": 5,
+    "careers-mercuryinsurance.icims.com": 5,
+    "motorolasolutions.wd5.myworkdayjobs.com": 5
+  },
+  "unresolved_hosts": {
+    "boards.greenhouse.io": 213,
+    "jobs.ashbyhq.com": 99,
+    "www.linkedin.com": 90,
+    "www.amazon.jobs": 89,
+    "apply.careers.microsoft.com": 51,
+    "jobs.lever.co": 40,
+    "careers.google.com": 29,
+    "jpmorganchase.contacthr.com": 23,
+    "paypal.eightfold.ai": 21,
+    "www.capitalonecareers.com": 18,
+    "tnl2.jometer.com": 16,
+    "careers.adobe.com": 15,
+    "jpmc.fa.oraclecloud.com": 15,
+    "hdpc.fa.us2.oraclecloud.com": 10,
+    "jobs.intuit.com": 10,
+    "careers.qualcomm.com": 9,
+    "jobs.smartrecruiters.com": 9,
+    "jobs.apple.com": 8,
+    "jobs.jobvite.com": 7,
+    "www.disneycareers.com": 6,
+    "recruiting.ultipro.com": 6,
+    "careers.mastercard.com": 5,
+    "careers.medpace.com": 5,
+    "motorolasolutions.wd5.myworkdayjobs.com": 5,
+    "careers-mercuryinsurance.icims.com": 5
+  },
+  "results": [
+    {
+      "job_id": "69da96ba9f97a42dc9c2ad53",
+      "status": "unknown",
+      "detector": "careers.jobscore.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://careers.jobscore.com/careers/nexonamericainc/jobs/qa-tester-c8jFZAbWriUkTb8L_lpe4A",
+      "final_url": "https://careers.jobscore.com/careers/nexonamericainc/jobs/qa-tester-c8jFZAbWriUkTb8L_lpe4A",
+      "host": "careers.jobscore.com",
+      "http_status": 200,
+      "title": "QA Tester job at Nexon America Inc in El Segundo, CA (Hybrid), powered by JobScore",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:52",
+      "signals": {
+        "title_overlap": [
+          "tester"
+        ],
+        "page_host": "careers.jobscore.com"
+      }
+    },
+    {
+      "job_id": "69c4cf8cd5a1016e98dc2eed",
+      "status": "open",
+      "detector": "stripe.com:title_overlap",
+      "confidence": 0.72,
+      "reason": "Page contains strong title overlap",
+      "requested_url": "https://stripe.com/jobs/listing/backend-api-engineer-billing/7737241?gh_src=73vnei",
+      "final_url": "https://stripe.com/jobs/listing/backend-api-engineer-billing/7737241?gh_src=73vnei",
+      "host": "stripe.com",
+      "http_status": 200,
+      "title": "Backend / API Engineer, Billing",
+      "matched_markers": [
+        "backend",
+        "api",
+        "billing"
+      ],
+      "checked_at": "2026-04-12T19:58:52",
+      "signals": {
+        "page_host": "stripe.com"
+      }
+    },
+    {
+      "job_id": "69da936b738f2f099e8aa099",
+      "status": "unknown",
+      "detector": "www.capitalonecareers.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://www.capitalonecareers.com/job/-/-/234/93806318624?p_sid=7ZGm3Cb&p_uid=myWAwZ86MF&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "final_url": "https://www.capitalonecareers.com/job/-/-/234/93806318624?p_sid=7ZGm3Cb&p_uid=myWAwZ86MF&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "host": "www.capitalonecareers.com",
+      "http_status": 200,
+      "title": "Senior Associate, Data Scientist at Capital One",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:52",
+      "signals": {
+        "title_overlap": [
+          "associate"
+        ],
+        "page_host": "www.capitalonecareers.com"
+      }
+    },
+    {
+      "job_id": "69a2a9be359fe034b1ce002b",
+      "status": "unknown",
+      "detector": "www.capitalonecareers.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://www.capitalonecareers.com/job/-/-/234/92166972144?p_sid=dOiLksb&p_uid=ZGdftLlP4G&source=jobright&ss=paid&utm_campaign=capone_all_jobs_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "final_url": "https://www.capitalonecareers.com/job/-/-/234/92166972144?p_sid=dOiLksb&p_uid=ZGdftLlP4G&source=jobright&ss=paid&utm_campaign=capone_all_jobs_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "host": "www.capitalonecareers.com",
+      "http_status": 200,
+      "title": "Manager, Data Analysis at Capital One",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:52",
+      "signals": {
+        "title_overlap": [
+          "manager",
+          "analysis"
+        ],
+        "page_host": "www.capitalonecareers.com"
+      }
+    },
+    {
+      "job_id": "6985053a8da7a612045f4df2",
+      "status": "open",
+      "detector": "greenhouse:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://boards.greenhouse.io/embed/job_app?token=6738818&utm_source=jobright",
+      "final_url": "https://job-boards.greenhouse.io/embed/job_app?for=doximity&token=6738818&utm_source=jobright",
+      "host": "boards.greenhouse.io",
+      "http_status": 200,
+      "title": "Job Application for Data Analyst at Doximity",
+      "matched_markers": [
+        "\"questions\"",
+        "apply for this job",
+        "submit application"
+      ],
+      "checked_at": "2026-04-12T19:58:52",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "job-boards.greenhouse.io",
+        "open_score": 5
+      }
+    },
+    {
+      "job_id": "69da9348b67cec4f9b0aa0c3",
+      "status": "unknown",
+      "detector": "www.capitalonecareers.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://www.capitalonecareers.com/job/-/-/234/93814762944?p_sid=s3wVIBb&p_uid=HYUofPH0zk&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "final_url": "https://www.capitalonecareers.com/job/-/-/234/93814762944?p_sid=s3wVIBb&p_uid=HYUofPH0zk&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "host": "www.capitalonecareers.com",
+      "http_status": 200,
+      "title": "Manager, Data Science - AI for Data at Capital One",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:52",
+      "signals": {
+        "title_overlap": [
+          "manager",
+          "science"
+        ],
+        "page_host": "www.capitalonecareers.com"
+      }
+    },
+    {
+      "job_id": "69152a726f36db06ef04c4fb",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/Perplexity/8a976851-9bef-4b07-8d36-567fa9540aef/application?utm_source=linkedinpaid",
+      "final_url": "https://jobs.ashbyhq.com/Perplexity/8a976851-9bef-4b07-8d36-567fa9540aef/application?utm_source=linkedinpaid",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "AI Inference Engineer @ Perplexity",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "qualifications"
+      ],
+      "checked_at": "2026-04-12T19:58:52",
+      "signals": {
+        "title_overlap": [
+          "inference"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 7
+      }
+    },
+    {
+      "job_id": "69a273ae359fe034b1cdb7ca",
+      "status": "unknown",
+      "detector": "jobs.armstrong.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://jobs.armstrong.com/job/Remote-AI-Analytics-Engineer-Job-Remo/1368933800/",
+      "final_url": "https://jobs.armstrong.com/job/Remote-AI-Analytics-Engineer-Job-Remo/1368933800/",
+      "host": "jobs.armstrong.com",
+      "http_status": 200,
+      "title": "AI Analytics Engineer Job Job Details | Armstrong World Industries",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [
+          "analytics"
+        ],
+        "page_host": "jobs.armstrong.com"
+      }
+    },
+    {
+      "job_id": "69153198286ccf0a1512c1ae",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/Perplexity/cdbf6ccb-2078-4499-b0a6-af8a04754eee/application?utm_source=linkedinpaid",
+      "final_url": "https://jobs.ashbyhq.com/Perplexity/cdbf6ccb-2078-4499-b0a6-af8a04754eee/application?utm_source=linkedinpaid",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "AI Security Engineer @ Perplexity",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "qualifications",
+        "responsibilities"
+      ],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [
+          "security"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 7
+      }
+    },
+    {
+      "job_id": "69da933b9f97a42dc9c2a057",
+      "status": "unknown",
+      "detector": "www.disneycareers.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://www.disneycareers.com/job/-/-/391/92736320096?source=LINKEDIN_JOB_SLOTS",
+      "final_url": "https://www.disneycareers.com/en/job/-/-/391/92736320096?source=LINKEDIN_JOB_SLOTS",
+      "host": "www.disneycareers.com",
+      "http_status": 200,
+      "title": "Software Engineer II at DISNEY - Disney Careers",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "www.disneycareers.com"
+      }
+    },
+    {
+      "job_id": "69855f36348f733a5c39b938",
+      "status": "unknown",
+      "detector": "icims:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://careers-blackhawknetwork.icims.com/jobs/26081/software-engineer-ii/job?mode=apply&iis=LinkedIn&iisn=LinkedIn",
+      "final_url": "https://careers-blackhawknetwork.icims.com/jobs/26081/software-engineer-ii/job?mode=apply&iis=LinkedIn&iisn=LinkedIn",
+      "host": "careers-blackhawknetwork.icims.com",
+      "http_status": 200,
+      "title": "Careers | Blackhawk Network",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "careers-blackhawknetwork.icims.com"
+      }
+    },
+    {
+      "job_id": "69da8fb89f97a42dc9c29725",
+      "status": "open",
+      "detector": "careers.mckesson.com:title_overlap",
+      "confidence": 0.72,
+      "reason": "Page contains strong title overlap",
+      "requested_url": "https://careers.mckesson.com/en/job/-/-/733/93811081312?source=rd_linkedin",
+      "final_url": "https://careers.mckesson.com/en/job/-/-/733/93811081312?source=rd_linkedin",
+      "host": "careers.mckesson.com",
+      "http_status": 200,
+      "title": "Sr. Associate Business Intelligence Analyst at MCKESSON",
+      "matched_markers": [
+        "associate",
+        "business",
+        "intelligence"
+      ],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "page_host": "careers.mckesson.com"
+      }
+    },
+    {
+      "job_id": "69da8fce738f2f099e8a9b87",
+      "status": "open",
+      "detector": "linkedin:markers",
+      "confidence": 0.8,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://www.linkedin.com/jobs/view/4399345113",
+      "final_url": "https://www.linkedin.com/jobs/view/4399345113",
+      "host": "www.linkedin.com",
+      "http_status": 200,
+      "title": "Tech Consulting hiring Junior Data Analyst in Oklahoma, United States | LinkedIn",
+      "matched_markers": [
+        "applicants",
+        "apply",
+        "qualifications"
+      ],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [
+          "junior"
+        ],
+        "page_host": "www.linkedin.com",
+        "open_score": 4
+      }
+    },
+    {
+      "job_id": "69da8f85869c7e25d85a2a3a",
+      "status": "unknown",
+      "detector": "jobs.appliedmaterials.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://jobs.appliedmaterials.com/job/-/-/95/93828167344?p_sid=4-ir91b&p_uid=3UatR74khT&ss=paid&utm_campaign=engineering_us&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "final_url": "https://jobs.appliedmaterials.com/job/-/-/95/93828167344?p_sid=4-ir91b&p_uid=3UatR74khT&ss=paid&utm_campaign=engineering_us&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "host": "jobs.appliedmaterials.com",
+      "http_status": 200,
+      "title": "Software Engineer II - (E2) at Applied Materials in Santa Clara - 93828167344",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "jobs.appliedmaterials.com"
+      }
+    },
+    {
+      "job_id": "691aa2c545fb6f5ead8ac917",
+      "status": "unknown",
+      "detector": "jobs.sap.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://jobs.sap.com/job/Palo-Alto-Senior-AIML-Applied-Scientist-Generative-AI-CA-94304/1252649801/?feedId=384233&utm_campaign=SAP_Linkedin&utm_source=LinkedinJobPostings",
+      "final_url": "https://jobs.sap.com/job/Palo-Alto-Senior-AIML-Applied-Scientist-Generative-AI-CA-94304/1252649801/?feedId=384233&utm_campaign=SAP_Linkedin&utm_source=LinkedinJobPostings",
+      "host": "jobs.sap.com",
+      "http_status": 200,
+      "title": "Senior AI/ML Applied Scientist - Generative AI Job Details | SAP",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [
+          "applied",
+          "generative"
+        ],
+        "page_host": "jobs.sap.com"
+      }
+    },
+    {
+      "job_id": "69da8fa79f97a42dc9c296f5",
+      "status": "open",
+      "detector": "linkedin:markers",
+      "confidence": 0.8,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://www.linkedin.com/jobs/view/4399348093",
+      "final_url": "https://www.linkedin.com/jobs/view/4399348093",
+      "host": "www.linkedin.com",
+      "http_status": 200,
+      "title": "Osmose hiring GIS Analyst in Depew, NY | LinkedIn",
+      "matched_markers": [
+        "applicants",
+        "apply",
+        "qualifications",
+        "responsibilities"
+      ],
+      "checked_at": "2026-04-12T19:58:53",
+      "signals": {
+        "title_overlap": [
+          "gis"
+        ],
+        "page_host": "www.linkedin.com",
+        "open_score": 4
+      }
+    },
+    {
+      "job_id": "69da8f6c5356a60f40fe18a6",
+      "status": "open",
+      "detector": "jobs.appliedmaterials.com:title_overlap",
+      "confidence": 0.72,
+      "reason": "Page contains strong title overlap",
+      "requested_url": "https://jobs.appliedmaterials.com/job/-/-/95/93791087296?p_sid=tanb4Rb&p_uid=nyNPg6WBca&ss=paid&utm_campaign=all+jobs&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "final_url": "https://jobs.appliedmaterials.com/job/-/-/95/93791087296?p_sid=tanb4Rb&p_uid=nyNPg6WBca&ss=paid&utm_campaign=all+jobs&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "host": "jobs.appliedmaterials.com",
+      "http_status": 200,
+      "title": "Algorithm Developer - Image Processing/Machine Learning IV at Applied Materials in Santa Clara - 93791087296",
+      "matched_markers": [
+        "algorithm",
+        "image",
+        "processing"
+      ],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "page_host": "jobs.appliedmaterials.com"
+      }
+    },
+    {
+      "job_id": "69da8f7f869c7e25d85a2a32",
+      "status": "unknown",
+      "detector": "jobs.carrier.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://jobs.carrier.com/job/-/-/29289/93803693920?source=LinkedIn",
+      "final_url": "https://jobs.carrier.com/en/job/-/-/29289/93803693920?source=LinkedIn",
+      "host": "jobs.carrier.com",
+      "http_status": 200,
+      "title": "Manager, AI & Analytics at Carrier",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "title_overlap": [
+          "manager",
+          "analytics"
+        ],
+        "page_host": "jobs.carrier.com"
+      }
+    },
+    {
+      "job_id": "69da8f9e5356a60f40fe1906",
+      "status": "open",
+      "detector": "linkedin:markers",
+      "confidence": 0.8,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://www.linkedin.com/jobs/view/4400932520",
+      "final_url": "https://www.linkedin.com/jobs/view/4400932520",
+      "host": "www.linkedin.com",
+      "http_status": 200,
+      "title": "Veea Inc. hiring Kernel in San Diego Metropolitan Area | LinkedIn",
+      "matched_markers": [
+        "applicants",
+        "apply",
+        "qualifications",
+        "responsibilities"
+      ],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "title_overlap": [
+          "kernel"
+        ],
+        "page_host": "www.linkedin.com",
+        "open_score": 4
+      }
+    },
+    {
+      "job_id": "69adf46f142d5b4265fec0c7",
+      "status": "open",
+      "detector": "lever:markers",
+      "confidence": 0.8,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.lever.co/lendbuzz/93c0a50a-f9a6-40a1-a97f-b39d8f1b6656/apply?utm_source=jobright",
+      "final_url": "https://jobs.lever.co/lendbuzz/93c0a50a-f9a6-40a1-a97f-b39d8f1b6656/apply?utm_source=jobright",
+      "host": "jobs.lever.co",
+      "http_status": 200,
+      "title": "Lendbuzz - Full-Stack Software Engineer (Backend Oriented)",
+      "matched_markers": [
+        "lever",
+        "submit application"
+      ],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "title_overlap": [
+          "full",
+          "stack",
+          "backend",
+          "oriented"
+        ],
+        "page_host": "jobs.lever.co",
+        "open_score": 4
+      }
+    },
+    {
+      "job_id": "69bde652482822729300990c",
+      "status": "open",
+      "detector": "lever:markers",
+      "confidence": 0.8,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.lever.co/bhhc/466864e5-290e-4358-a8f4-db308357dfbe/apply?source=jobright",
+      "final_url": "https://jobs.lever.co/bhhc/466864e5-290e-4358-a8f4-db308357dfbe/apply?source=jobright",
+      "host": "jobs.lever.co",
+      "http_status": 200,
+      "title": "Berkshire Hathaway Homestate Companies - Background & Data Intelligence Analyst",
+      "matched_markers": [
+        "lever",
+        "submit application"
+      ],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "title_overlap": [
+          "background",
+          "intelligence"
+        ],
+        "page_host": "jobs.lever.co",
+        "open_score": 4
+      }
+    },
+    {
+      "job_id": "69bd9b804828227293ffd5fa",
+      "status": "unknown",
+      "detector": "careers.equifax.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://careers.equifax.com/en/jobs/j00174661/system-integration-analyst/?source=Applied_LinkedIn",
+      "final_url": "https://careers.equifax.com/en/jobs/j00174661/system-integration-analyst/?source=Applied_LinkedIn",
+      "host": "careers.equifax.com",
+      "http_status": 403,
+      "title": "Attention Required! | Cloudflare",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "careers.equifax.com"
+      }
+    },
+    {
+      "job_id": "69c8e58aaa3c2c1995e21924",
+      "status": "unknown",
+      "detector": "oracle:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://eexs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/32529/?utm_medium=jobboard&utm_source=linkedin",
+      "final_url": "https://eexs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/AllJobs/job/32529?utm_medium=jobboard&utm_source=linkedin",
+      "host": "eexs.fa.us2.oraclecloud.com",
+      "http_status": 200,
+      "title": "All Jobs",
+      "matched_markers": [
+        "locations"
+      ],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "eexs.fa.us2.oraclecloud.com"
+      }
+    },
+    {
+      "job_id": "69a095cb5218a8167671c693",
+      "status": "open",
+      "detector": "careers.cargill.com:title_overlap",
+      "confidence": 0.72,
+      "reason": "Page contains strong title overlap",
+      "requested_url": "https://careers.cargill.com/en/job/-/-/23251/92137932784",
+      "final_url": "https://careers.cargill.com/en/job/-/-/23251/92137932784",
+      "host": "careers.cargill.com",
+      "http_status": 200,
+      "title": "Senior Consultant, Data Analytics and Reporting at Cargill",
+      "matched_markers": [
+        "consultant",
+        "analytics",
+        "reporting"
+      ],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "page_host": "careers.cargill.com"
+      }
+    },
+    {
+      "job_id": "69175580bcdbf3560c9c6ec9",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/protegrity/3087f986-68c0-4714-8e9f-3d8fb97cb88a?utm_source=Linkedin_Applicant",
+      "final_url": "https://jobs.ashbyhq.com/protegrity/3087f986-68c0-4714-8e9f-3d8fb97cb88a?utm_source=Linkedin_Applicant",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "Senior Software Engineer - Cloud Team 747 @ Protegrity",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "preferred qualifications",
+        "qualifications"
+      ],
+      "checked_at": "2026-04-12T19:58:54",
+      "signals": {
+        "title_overlap": [
+          "cloud",
+          "team",
+          "747"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 8
+      }
+    },
+    {
+      "job_id": "69bfb3c87798f73e35e489eb",
+      "status": "unknown",
+      "detector": "oracle:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://ebxr.fa.us2.oraclecloud.com:443/hcmUI/CandidateExperience/en/job/211520?utm_source=linkedin&utm_medium=jobboard",
+      "final_url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/211520?utm_source=linkedin&utm_medium=jobboard",
+      "host": "ebxr.fa.us2.oraclecloud.com:443",
+      "http_status": 200,
+      "title": "DTCC Candidate Experience Site",
+      "matched_markers": [
+        "locations"
+      ],
+      "checked_at": "2026-04-12T19:58:55",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "ebxr.fa.us2.oraclecloud.com"
+      }
+    },
+    {
+      "job_id": "69a0c91a0836fe79d861c96a",
+      "status": "open",
+      "detector": "linkedin:markers",
+      "confidence": 0.8,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://www.linkedin.com/jobs/view/4378603819",
+      "final_url": "https://www.linkedin.com/jobs/view/4378603819",
+      "host": "www.linkedin.com",
+      "http_status": 200,
+      "title": "Coinbase hiring Software Engineer - Salesforce Platform (EAA) in United States | LinkedIn",
+      "matched_markers": [
+        "applicants",
+        "apply",
+        "job description",
+        "qualifications"
+      ],
+      "checked_at": "2026-04-12T19:58:55",
+      "signals": {
+        "title_overlap": [
+          "salesforce",
+          "eaa"
+        ],
+        "page_host": "www.linkedin.com",
+        "open_score": 5
+      }
+    },
+    {
+      "job_id": "698670b48ca8121a3a68b7f8",
+      "status": "open",
+      "detector": "jobs.citi.com:title_overlap",
+      "confidence": 0.72,
+      "reason": "Page contains strong title overlap",
+      "requested_url": "https://jobs.citi.com/job/-/-/287/91438684080?source=APPLICANT_SOURCE-3-354&utm_medium=job_posting&utm_campaign=nam_experienced&utm_content=social_media&utm_term=393702677&ss=paid&utm_source=jobright",
+      "final_url": "https://jobs.citi.com/job/-/-/287/91438684080?source=APPLICANT_SOURCE-3-354&utm_medium=job_posting&utm_campaign=nam_experienced&utm_content=social_media&utm_term=393702677&ss=paid&utm_source=jobright",
+      "host": "jobs.citi.com",
+      "http_status": 200,
+      "title": "ML Operations Engineer - Associate Vice President | Citi Careers",
+      "matched_markers": [
+        "operations",
+        "associate",
+        "vice",
+        "president"
+      ],
+      "checked_at": "2026-04-12T19:58:55",
+      "signals": {
+        "page_host": "jobs.citi.com"
+      }
+    },
+    {
+      "job_id": "69bd9b884828227293ffd616",
+      "status": "open",
+      "detector": "greenhouse:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://boards.greenhouse.io/embed/job_app?token=7729723&utm_source=jobright",
+      "final_url": "https://job-boards.greenhouse.io/embed/job_app?for=quinstreet&token=7729723&utm_source=jobright",
+      "host": "boards.greenhouse.io",
+      "http_status": 200,
+      "title": "Job Application for Data Analyst at QuinStreet",
+      "matched_markers": [
+        "\"questions\"",
+        "apply for this job",
+        "qualifications"
+      ],
+      "checked_at": "2026-04-12T19:58:55",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "job-boards.greenhouse.io",
+        "open_score": 5
+      }
+    },
+    {
+      "job_id": "69da8f355356a60f40fe1863",
+      "status": "open",
+      "detector": "amazon:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://www.amazon.jobs/jobs/3167774/software-development-engineer-ii-ios-zappos-discovery-tech--mobile-?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid",
+      "final_url": "https://www.amazon.jobs/en/jobs/3167774/software-development-engineer-ii-ios-zappos-discovery-tech-mobile?cmpid=SPLICX0248M&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=linkedin.com",
+      "host": "www.amazon.jobs",
+      "http_status": 200,
+      "title": "Software Development Engineer II, iOS, Zappos Discovery Tech - Mobile - Job ID: 3167774 | Amazon.jobs",
+      "matched_markers": [
+        "basic qualifications",
+        "preferred qualifications",
+        "job details",
+        "apply now"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "development",
+          "ios",
+          "zappos",
+          "discovery",
+          "tech",
+          "mobile"
+        ],
+        "page_host": "www.amazon.jobs",
+        "open_score": 8
+      }
+    },
+    {
+      "job_id": "69be941748282272930154e2",
+      "status": "open",
+      "detector": "microsoft:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://apply.careers.microsoft.com/careers/job/1970393556851470?utm_source=linkedin&domain=microsoft.com&src=LinkedIn",
+      "final_url": "https://apply.careers.microsoft.com/careers/job/1970393556851470?utm_source=linkedin&domain=microsoft.com&src=LinkedIn",
+      "host": "apply.careers.microsoft.com",
+      "http_status": 200,
+      "title": "Member of Technical Staff, Capacity & Efficiency Infrastructure - MAI Superintelligence Team | Microsoft Careers",
+      "matched_markers": [
+        "job number",
+        "apply",
+        "job description"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "member",
+          "technical",
+          "capacity",
+          "efficiency",
+          "infrastructure",
+          "mai"
+        ],
+        "page_host": "apply.careers.microsoft.com",
+        "open_score": 8
+      }
+    },
+    {
+      "job_id": "69a1b4ee0da45516f16b152a",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/creditgenie/6f120198-ca87-4d43-85d2-eff60300e3cd",
+      "final_url": "https://jobs.ashbyhq.com/creditgenie/6f120198-ca87-4d43-85d2-eff60300e3cd",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "Android Engineer @ Credit Genie",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "responsibilities",
+        "what you'll do"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "android"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 7
+      }
+    },
+    {
+      "job_id": "696986291703f05405ab7154",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/Perplexity/9904db61-b8ca-4207-8f93-88ab6f0cd3fd/application?utm_source=linkedinpaid",
+      "final_url": "https://jobs.ashbyhq.com/Perplexity/9904db61-b8ca-4207-8f93-88ab6f0cd3fd/application?utm_source=linkedinpaid",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "Model Behavior Architect @ Perplexity",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "about the role",
+        "responsibilities"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "model",
+          "behavior",
+          "architect"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 8
+      }
+    },
+    {
+      "job_id": "69152679286ccf0a1512bb5b",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/Perplexity/598e1f7d-b802-4de2-99ac-90eb2bc33315/application?utm_source=linkedinpaid",
+      "final_url": "https://jobs.ashbyhq.com/Perplexity/598e1f7d-b802-4de2-99ac-90eb2bc33315/application?utm_source=linkedinpaid",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "AI Infra Engineer @ Perplexity",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "qualifications",
+        "responsibilities"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "infra"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 7
+      }
+    },
+    {
+      "job_id": "6915209f9c388539cbdf0b71",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/Perplexity/8fe61c73-0daf-4432-a47d-44714c1ef764/application?utm_source=linkedinpaid",
+      "final_url": "https://jobs.ashbyhq.com/Perplexity/8fe61c73-0daf-4432-a47d-44714c1ef764/application?utm_source=linkedinpaid",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "AI Researcher @ Perplexity",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "qualifications",
+        "responsibilities"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "researcher"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 7
+      }
+    },
+    {
+      "job_id": "69152c3b286ccf0a1512bf34",
+      "status": "open",
+      "detector": "ashby:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://jobs.ashbyhq.com/Perplexity/f400c8b0-22aa-4952-b24c-4cacda96787e/application?utm_source=linkedinpaid",
+      "final_url": "https://jobs.ashbyhq.com/Perplexity/f400c8b0-22aa-4952-b24c-4cacda96787e/application?utm_source=linkedinpaid",
+      "host": "jobs.ashbyhq.com",
+      "http_status": 200,
+      "title": "Backend Software Engineer - Mobile @ Perplexity",
+      "matched_markers": [
+        "applicationformdefinition",
+        "ashbyhq",
+        "qualifications",
+        "responsibilities"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "backend",
+          "mobile"
+        ],
+        "page_host": "jobs.ashbyhq.com",
+        "open_score": 8
+      }
+    },
+    {
+      "job_id": "69a0e99f0836fe79d861f872",
+      "status": "unknown",
+      "detector": "oracle:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/163594/?utm_medium=jobshare&mode=job&iis=LinkedIn",
+      "final_url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/163594?utm_medium=jobshare&mode=job&iis=LinkedIn",
+      "host": "hdpc.fa.us2.oraclecloud.com",
+      "http_status": 200,
+      "title": "Candidate Experience Site - Lateral",
+      "matched_markers": [
+        "locations"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "hdpc.fa.us2.oraclecloud.com"
+      }
+    },
+    {
+      "job_id": "69d7b81df4ea471a51fe012d",
+      "status": "open",
+      "detector": "microsoft:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://apply.careers.microsoft.com/careers/job/1970393556638528?utm_source=linkedin&domain=microsoft.com&src=LinkedIn",
+      "final_url": "https://apply.careers.microsoft.com/careers/job/1970393556638528?utm_source=linkedin&domain=microsoft.com&src=LinkedIn",
+      "host": "apply.careers.microsoft.com",
+      "http_status": 200,
+      "title": "Software Engineer II - CoreAI | Microsoft Careers",
+      "matched_markers": [
+        "job number",
+        "apply",
+        "job description"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "coreai"
+        ],
+        "page_host": "apply.careers.microsoft.com",
+        "open_score": 7
+      }
+    },
+    {
+      "job_id": "69a2264fb600907a96287304",
+      "status": "unknown",
+      "detector": "oracle:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/158361/?utm_medium=jobshare&mode=job&iis=LinkedIn",
+      "final_url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/158361?utm_medium=jobshare&mode=job&iis=LinkedIn",
+      "host": "hdpc.fa.us2.oraclecloud.com",
+      "http_status": 200,
+      "title": "Candidate Experience Site - Lateral",
+      "matched_markers": [
+        "locations"
+      ],
+      "checked_at": "2026-04-12T19:58:58",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "hdpc.fa.us2.oraclecloud.com"
+      }
+    },
+    {
+      "job_id": "66795aa4dcb1db3fc098da88",
+      "status": "unknown",
+      "detector": "lever:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://jobs.lever.co/palantir/e0ab8226-b928-4e3a-bf87-08fe7b1ea595/apply?lever-source=jobright",
+      "final_url": "https://jobs.lever.co/palantir/e0ab8226-b928-4e3a-bf87-08fe7b1ea595/apply?lever-source=jobright",
+      "host": "jobs.lever.co",
+      "http_status": 200,
+      "title": "Palantir Technologies - Deployment Strategist",
+      "matched_markers": [
+        "lever"
+      ],
+      "checked_at": "2026-04-12T19:59:03",
+      "signals": {
+        "title_overlap": [
+          "deployment",
+          "strategist"
+        ],
+        "page_host": "jobs.lever.co"
+      }
+    }
+  ]
+}

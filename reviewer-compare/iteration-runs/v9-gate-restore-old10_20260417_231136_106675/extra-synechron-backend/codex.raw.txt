@@ -1,0 +1,37 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "Professional Summary (3 bullets)",
+        "issue": "The three summary bullets are noun-led profile statements rather than verb-led achievement bullets, so the top block reads more like a bio than a sharp impact summary.",
+        "fix": "Rewrite each summary bullet to start with a strong action verb or role anchor while keeping the same 3-sentence structure and immutable experience fields."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary bullet 1; TikTok Experience bullets 1-2",
+        "issue": "Non-core qualifiers are bolded in the body, for example `**internal**` and `**team-maintained**`, which dilutes the visual hierarchy that should be reserved for technologies, scope, and quantified impact.",
+        "fix": "Remove bold from ordinary modifiers and keep bold only for technologies, ownership scope, and measurable results."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rewrite the 3 Summary bullets so each starts with a strong action verb or role anchor while preserving the same evidence and the 3-sentence structure.",
+    "[MUST] Remove bold from descriptive qualifiers like `internal` and `team-maintained`; reserve emphasis for technologies, scope, and metrics.",
+    "[SHOULD] Normalize Skills token casing for cleaner ATS parsing, especially `GitLab CI` and `RESTful APIs`.",
+    "[NICE] Keep the current project and experience evidence density; no extra stack breadth is needed."
+  ],
+  "revision_instructions": "Rewrite the three Summary bullets into verb-led sentences without changing the immutable experience fields or the required 3-sentence structure. De-bold ordinary descriptors such as internal/team-maintained and keep bold only on technologies, scope, and quantified outcomes. Optional cleanup: normalize Skills casing and tokenization for ATS readability."
+}

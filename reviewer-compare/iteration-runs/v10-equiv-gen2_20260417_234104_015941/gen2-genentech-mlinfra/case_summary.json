@@ -1,0 +1,264 @@
+{
+  "label": "gen2/Genentech-MLInfra",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Genentech-MLInfra",
+    "company": "Genentech",
+    "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Infra",
+    "role_type": "mle",
+    "seniority": "senior",
+    "team_direction": "Genentech is a leading biotechnology company focused on innovation and healthcare access",
+    "tech_required": [
+      "Go",
+      "Rust",
+      "Git",
+      "AWS",
+      "Python",
+      "C++",
+      "Scala"
+    ],
+    "tech_preferred": [
+      "ML Infrastructure",
+      "PyTorch"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 94.5,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.3,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 8.9,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.5,
+      "verdict": "pass",
+      "seed_label": "Amazon AGI/LLM Anchor",
+      "route_mode": "retarget",
+      "revised": true,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T21:54:04",
+      "rereview_rounds": 1,
+      "rereview_revised": true,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_achievement"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 93.9,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:51:10",
+    "completed_at": "2026-04-17T23:52:22",
+    "duration_seconds": 72.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Sandbox > bullet 4",
+            "issue": "This bullet packs Go, Java, Scala, Rust, and C++ into one ownership claim. For a single intern project, that reads like one person personally owned a very wide multi-language surface area, which is likely to trigger stack-stuffing skepticism.",
+            "fix": "Rewrite the bullet around the primary implementation path you actually owned, keep only 1-2 core languages in the main clause, and relegate the other languages to adjacent integration or validation context if they were truly part of the work. Preserve the latency metric and sandbox/replay framing.",
+            "note": null
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Narrow the TikTok sandbox project bullet so it no longer implies one intern personally owned Go + Java + Scala + Rust + C++ in a single workstream.",
+        "[SHOULD] If you still want to reduce breadth perception, compress Summary bullet 1 to fewer languages and keep the rest distributed across the relevant experience bullets."
+      ],
+      "revision_instructions": "Revise only the TikTok Security Knowledge Retrieval Sandbox bullet that currently stacks Go, Java, Scala, Rust, and C++ in one sentence. Reframe it around the primary language/path you personally implemented, keep at most 1-2 core languages in the main clause, and describe the rest as adjacent integration or validation touchpoints. Preserve the internal/sandbox context, the latency metric, and the retrieval/evaluation narrative. Do not change any immutable experience fields.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 10.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 98.8,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 0,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Narrow the TikTok sandbox project bullet so it no longer implies one intern personally owned Go + Java + Scala + Rust + C++ in a single workstream.",
+        "[SHOULD] If you still want to reduce breadth perception, compress Summary bullet 1 to fewer languages and keep the rest distributed across the relevant experience bullets."
+      ],
+      "revision_instructions": "Revise only the TikTok Security Knowledge Retrieval Sandbox bullet that currently stacks Go, Java, Scala, Rust, and C++ in one sentence. Reframe it around the primary language/path you personally implemented, keep at most 1-2 core languages in the main clause, and describe the rest as adjacent integration or validation touchpoints. Preserve the internal/sandbox context, the latency metric, and the retrieval/evaluation narrative. Do not change any immutable experience fields.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Sandbox > bullet 4",
+              "issue": "This bullet packs Go, Java, Scala, Rust, and C++ into one ownership claim. For a single intern project, that reads like one person personally owned a very wide multi-language surface area, which is likely to trigger stack-stuffing skepticism.",
+              "fix": "Rewrite the bullet around the primary implementation path you actually owned, keep only 1-2 core languages in the main clause, and relegate the other languages to adjacent integration or validation context if they were truly part of the work. Preserve the latency metric and sandbox/replay framing.",
+              "note": null
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Narrow the TikTok sandbox project bullet so it no longer implies one intern personally owned Go + Java + Scala + Rust + C++ in a single workstream.",
+          "[SHOULD] If you still want to reduce breadth perception, compress Summary bullet 1 to fewer languages and keep the rest distributed across the relevant experience bullets."
+        ],
+        "revision_instructions": "Revise only the TikTok Security Knowledge Retrieval Sandbox bullet that currently stacks Go, Java, Scala, Rust, and C++ in one sentence. Reframe it around the primary language/path you personally implemented, keep at most 1-2 core languages in the main clause, and describe the rest as adjacent integration or validation touchpoints. Preserve the internal/sandbox context, the latency metric, and the retrieval/evaluation narrative. Do not change any immutable experience fields.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Sandbox > bullet 4",
+            "issue": "This bullet packs Go, Java, Scala, Rust, and C++ into one ownership claim. For a single intern project, that reads like one person personally owned a very wide multi-language surface area, which is likely to trigger stack-stuffing skepticism.",
+            "fix": "Rewrite the bullet around the primary implementation path you actually owned, keep only 1-2 core languages in the main clause, and relegate the other languages to adjacent integration or validation context if they were truly part of the work. Preserve the latency metric and sandbox/replay framing.",
+            "note": null
+          }
+        ],
+        "r4_rationality": [],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 1,
+          "rule_ids": [
+            "P3C-010"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P3C-010"
+      ],
+      "high_or_critical": [
+        "P3C-010 @ Experience > TikTok · Security > Project: Security Knowledge Retrieval Sandbox > bullet 4"
+      ]
+    }
+  }
+}

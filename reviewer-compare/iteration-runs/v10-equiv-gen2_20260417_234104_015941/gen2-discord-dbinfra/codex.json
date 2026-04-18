@@ -1,0 +1,173 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:41:04",
+  "completed_at": "2026-04-17T23:42:23",
+  "duration_seconds": 79.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / Summary / Experience",
+          "issue": "JD explicitly signals Rust in responsibilities and preferred stack, but the resume never shows Rust in Skills or bullets.",
+          "fix": "If the candidate actually used Rust, surface it in the most relevant infrastructure bullet (preferably the backend/reliability work) with the exact component and outcome; otherwise Rust remains a real screening gap for this JD."
+        },
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Summary + TikTok/DiDi Experience",
+          "issue": "Database Infrastructure is a specialized substrate role, but the resume only shows adjacent backend/data/platform work and no direct database-infrastructure artifact, such as HA, replication, query-path, storage-path, or production DB ownership.",
+          "fix": "Add one bullet in the most relevant role that names true database-infrastructure ownership, for example PostgreSQL HA/replication/recovery, query-path debugging, storage or lock/concurrency work, or production DB reliability validation.",
+          "note": "[结构性错配]"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add a direct database-infrastructure bullet in the most relevant experience, not just adjacent backend/data work, and name the actual DB responsibility and outcome.",
+      "[MUST] Surface Rust only if it was truly used; otherwise this JD remains a language-signal gap.",
+      "[SHOULD] Shorten the Skills lines so each category stays under 14 words while keeping the same three categories.",
+      "[NICE] Reduce the all-percentage cadence in the newest experience by adding one scope or ownership clause to the strongest bullet."
+    ],
+    "revision_instructions": "[结构性错配] 优先在 TikTok 或 DiDi 里补一条真正的 database-infrastructure 证据：PostgreSQL HA/replication/recovery、query-path debugging、storage/lock/concurrency，或生产 DB reliability validation。若确实写过 Rust，把它放进同一条最相关 bullet，不要只放技能表；若没有 Rust 实操，这个 JD 仍然是明显弱匹配。最后把 Skills 三行压缩到每行 14 词以内，保留当前三类不变。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 6.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 10.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 88.8,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 0,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add a direct database-infrastructure bullet in the most relevant experience, not just adjacent backend/data work, and name the actual DB responsibility and outcome.",
+      "[MUST] Surface Rust only if it was truly used; otherwise this JD remains a language-signal gap.",
+      "[SHOULD] Shorten the Skills lines so each category stays under 14 words while keeping the same three categories.",
+      "[NICE] Reduce the all-percentage cadence in the newest experience by adding one scope or ownership clause to the strongest bullet."
+    ],
+    "revision_instructions": "[结构性错配] 优先在 TikTok 或 DiDi 里补一条真正的 database-infrastructure 证据：PostgreSQL HA/replication/recovery、query-path debugging、storage/lock/concurrency，或生产 DB reliability validation。若确实写过 Rust，把它放进同一条最相关 bullet，不要只放技能表；若没有 Rust 实操，这个 JD 仍然是明显弱匹配。最后把 Skills 三行压缩到每行 14 词以内，保留当前三类不变。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / Summary / Experience",
+            "issue": "JD explicitly signals Rust in responsibilities and preferred stack, but the resume never shows Rust in Skills or bullets.",
+            "fix": "If the candidate actually used Rust, surface it in the most relevant infrastructure bullet (preferably the backend/reliability work) with the exact component and outcome; otherwise Rust remains a real screening gap for this JD."
+          },
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Summary + TikTok/DiDi Experience",
+            "issue": "Database Infrastructure is a specialized substrate role, but the resume only shows adjacent backend/data/platform work and no direct database-infrastructure artifact, such as HA, replication, query-path, storage-path, or production DB ownership.",
+            "fix": "Add one bullet in the most relevant role that names true database-infrastructure ownership, for example PostgreSQL HA/replication/recovery, query-path debugging, storage or lock/concurrency work, or production DB reliability validation.",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add a direct database-infrastructure bullet in the most relevant experience, not just adjacent backend/data work, and name the actual DB responsibility and outcome.",
+        "[MUST] Surface Rust only if it was truly used; otherwise this JD remains a language-signal gap.",
+        "[SHOULD] Shorten the Skills lines so each category stays under 14 words while keeping the same three categories.",
+        "[NICE] Reduce the all-percentage cadence in the newest experience by adding one scope or ownership clause to the strongest bullet."
+      ],
+      "revision_instructions": "[结构性错配] 优先在 TikTok 或 DiDi 里补一条真正的 database-infrastructure 证据：PostgreSQL HA/replication/recovery、query-path debugging、storage/lock/concurrency，或生产 DB reliability validation。若确实写过 Rust，把它放进同一条最相关 bullet，不要只放技能表；若没有 Rust 实操，这个 JD 仍然是明显弱匹配。最后把 Skills 三行压缩到每行 14 词以内，保留当前三类不变。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / Summary / Experience",
+          "issue": "JD explicitly signals Rust in responsibilities and preferred stack, but the resume never shows Rust in Skills or bullets.",
+          "fix": "If the candidate actually used Rust, surface it in the most relevant infrastructure bullet (preferably the backend/reliability work) with the exact component and outcome; otherwise Rust remains a real screening gap for this JD."
+        },
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Summary + TikTok/DiDi Experience",
+          "issue": "Database Infrastructure is a specialized substrate role, but the resume only shows adjacent backend/data/platform work and no direct database-infrastructure artifact, such as HA, replication, query-path, storage-path, or production DB ownership.",
+          "fix": "Add one bullet in the most relevant role that names true database-infrastructure ownership, for example PostgreSQL HA/replication/recovery, query-path debugging, storage or lock/concurrency work, or production DB reliability validation.",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-001",
+          "P3B-012"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P3B-001",
+      "P3B-012"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills / Summary / Experience",
+      "P3B-012 @ Summary + TikTok/DiDi Experience"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version_label": "v8_tooling_bridge_old10",
+  "prompt_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v8_tooling_bridge/Reviewer_4Stage.md",
+  "scorer_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v8_tooling_bridge/Reviewer_Cal.py",
+  "cases_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/cases_extended_10.json",
+  "codex_model": "gpt-5.4-mini",
+  "reasoning_effort": "medium",
+  "started_at": "2026-04-17T22:59:14"
+}

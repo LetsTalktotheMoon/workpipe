@@ -1,0 +1,15 @@
+{
+  "boundary_cases": [
+    {
+      "query_id": "69d83774869c7e25d859479c",
+      "category": "must_vs_preferred_confusing",
+      "policy": "multiple_acceptable_or_abstain",
+      "acceptable_positive_ids": [
+        "69ce5e07891d7b11cfcc8020",
+        "69d41bc054f00230c6d2e008"
+      ],
+      "freeze_handling": "count_any_acceptable_positive_as_hit_and exclude_from_forced_single-positive adjudication",
+      "rationale": "Generic-title Amazon SDE query is dominated by generic software-engineering must-haves and lacks a decisive domain anchor. Pure semantic retrieval should allow multiple acceptable positives instead of forcing a single gold answer."
+    }
+  ]
+}

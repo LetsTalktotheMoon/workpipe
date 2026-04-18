@@ -1,0 +1,90 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Programming",
+        "issue": "该行总词数明显超过 14，违反了技能行的紧凑度要求。",
+        "fix": "压缩为更短的类别行，只保留最核心技术词；其余技术移到正文支撑或合并同类项。"
+      },
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > APIs",
+        "issue": "该行总词数明显超过 14，超过了单行技能密度上限。",
+        "fix": "将该行拆得更紧凑，保留最关键的 4-5 个交付工具或框架名。"
+      },
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Data",
+        "issue": "该行总词数明显超过 14，技能行过长。",
+        "fix": "收敛 Data 行，只保留与目标岗位最相关的数据库、SQL、测试数据与分析工具。"
+      },
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Cloud",
+        "issue": "该行总词数明显超过 14，违反技能行长度要求。",
+        "fix": "将 Cloud 行压缩成更短的类别列表，保留云平台、CI/CD、容器和消息队列的核心词。"
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Experience > TikTok / DiDi bullets",
+        "issue": "正文中存在将修饰语或限定词加粗的情况，例如 `team-maintained`、`team-owned`，不符合加粗规则。",
+        "fix": "取消对修饰语的加粗，只保留技术栈名词和规模/量化信号加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary > 第一句",
+        "issue": "首句以“Transitioning from data analytics to software engineering”开场，首屏 framing 偏转型叙事而不是岗位方向叙事。",
+        "fix": "改成角色先行的 framing，例如直接写成 SDET/backend builder，再用一两个关键技术信号承接。"
+      },
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills > APIs",
+        "issue": "类别标题过于笼统，`APIs` 单独作为类名信息量偏低。",
+        "fix": "把类别名改得更有信息量，例如 `Testing / Automation`、`Quality Tooling` 或 `API Testing`。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Experience section",
+        "issue": "JD 明确要求参与或拥有 incident post-mortem 并给出具体预防措施，但简历没有任何可见证据。",
+        "fix": "在最相关经历里补一条关于线上故障复盘、根因分析和预防措施落地的 bullet，优先放在 TikTok 或 DiDi 段。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "Experience > TikTok",
+        "issue": "最新且最相关经历的开头仍偏百分比改善叙事，Tier 1 规模/边界信号不够靠前，首屏可信度主要靠 Tier 2 指标支撑。",
+        "fix": "把最强的系统边界、测试框架 ownership 或服务范围放到该段第一条 bullet，百分比结果保留 1-2 个即可。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 在最相关经历中补一条 incident post-mortem / prevention bullet，满足 JD 的硬性经验信号。",
+    "[MUST] 将 Skills 四行压缩到更短的类别行，避免每行超过 14 个词。",
+    "[SHOULD] 把 Summary 第一语句改成角色方向先行的 SDET/backend framing，去掉转型开场。",
+    "[SHOULD] 重新排序 TikTok 段落，让第一条 bullet 先讲 test ownership / scope，再讲百分比结果。"
+  ],
+  "revision_instructions": "保留不可变经历字段不动。优先补齐一条明确的 incident post-mortem 经验，写清楚你参与的故障、根因、以及落地的预防措施。其次压缩 Skills，每行只保留最相关的 4-5 个词，确保每行不超过 14 词。把 Summary 第一句改成 SDET/backend/QA 方向的首屏 framing，不要以转型叙事开场。最后把 TikTok 段第一条 bullet 改成 test framework / ownership / scope 先行，百分比结果后置；同时取消对 team-maintained、team-owned 这类修饰语的加粗。"
+}

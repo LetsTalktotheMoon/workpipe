@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary / 第1句",
+        "issue": "首句把“transitioning from analytics”放在前台，首屏更像转型说明而不是 backend 定位，削弱 6-8 秒扫读时的角色锚点。",
+        "fix": "把首句改成先写 backend / distributed systems / scalability 的角色锚点，再把 analytics transition 放到第二句，保留迁移逻辑但先给出岗位信号。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 重写 Summary 第一句，先给 backend / distributed systems / scalability 的角色锚点，再保留 analytics 到 backend 的迁移说明。",
+    "[NICE] 若要进一步增强首屏抓手，可让 TikTok 第一条 bullet 更直接体现服务边界或 ownership，而不是先写结果数字。"
+  ],
+  "revision_instructions": ""
+}

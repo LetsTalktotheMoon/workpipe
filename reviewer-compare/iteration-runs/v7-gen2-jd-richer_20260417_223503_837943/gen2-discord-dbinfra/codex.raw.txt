@@ -1,0 +1,48 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Summary / Experience overall",
+        "issue": "This is a specialized Database Infrastructure role, but the resume only demonstrates adjacent backend/data-platform work. There is no direct evidence of DB reliability, replication/failover, query-path, storage-path, or HA ownership.",
+        "fix": "Add one bullet in the most relevant experience that names PostgreSQL/Scylla/Cassandra/HA/replication/query tuning/failover/debugging ownership with a concrete action and result.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Skills / TikTok Experience",
+        "issue": "Rust is explicitly signaled in the JD responsibilities/preferred section, but the resume never shows Rust in Skills or bullets; the systems story is carried by Go/Java/C++ only.",
+        "fix": "If Rust work is real, surface it in Skills and one bullet; if not, do not imply Rust-heavy experience."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok intern experience",
+        "issue": "The newest TikTok segment is almost entirely percentage lifts without any Tier 1 scale/scope anchor, so the opening reads like outcome reporting rather than infra ownership.",
+        "fix": "Add a concrete scale signal to the first bullet or adjacent bullet, such as services touched, requests/day, environments, SLO, release cadence, or data volume."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add one direct database-infrastructure ownership bullet in the most relevant experience, with PostgreSQL/HA/replication/query-path/storage-path evidence.",
+    "[SHOULD] Surface Rust only if it is real; otherwise avoid presenting the resume as Rust-heavy.",
+    "[SHOULD] Add one Tier 1 scale/scope signal to the newest TikTok experience so the opening reads as infrastructure ownership, not only percentage outcomes.",
+    "[NICE] Keep the rest of the quantification, but bias the first bullet of each role toward ownership and system boundary."
+  ],
+  "revision_instructions": "[结构性错配] 先把最相关经历改成数据库基础设施叙事：补一条真实的 PostgreSQL/HA/replication/query-path/slow-query/debugging 证据，让 Discord 这个 Database Infrastructure 岗能一眼看到 substrate ownership。若确有 Rust 经验，把 Rust 明确写进 Skills 和一条正文 bullet；如果没有，就不要继续暗示 Rust-heavy fit。最后，把 TikTok 最新段的第一条 bullet 加上 1 个 Tier 1 规模/边界信号，降低纯百分比结果的观感。"
+}

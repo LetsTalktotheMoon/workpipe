@@ -1,0 +1,44 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Summary sentence 1; Summary sentence 2; TikTok Experience bullet 2; TikTok Experience bullet 5",
+        "issue": "Several scan-critical quantitative and technical tokens are left unbolded, including `3+ years`, `Agile`, and `Bedrock`.",
+        "fix": "Bold those evidence-bearing tokens in place wherever they appear, without changing the wording."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1-4; DiDi Experience bullets 1-4",
+        "issue": "Ownership and scope qualifiers that matter for credibility are plain text, such as `team-maintained`, `internal`, `operator-facing`, and `shared`.",
+        "fix": "Bold the qualifiers that define ownership, boundary, or responsibility when they carry signal value."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Summary sentence 1",
+        "issue": "The opening frame leads with `trajectory` and `transitioning from data analytics` instead of a direct role-and-domain anchor, so the first impression is career shift rather than target fit.",
+        "fix": "Rewrite the header to a direct fit statement such as `Security-focused Backend Software Engineer:` or `Backend Engineer:` and move the transition story later."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Reframe Summary sentence 1 to lead with a direct backend/security role statement instead of a transition narrative.",
+    "[MUST] Bold the missing high-signal tokens in the body and Summary (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`).",
+    "[SHOULD] Keep the rest of the content unchanged; do not remove any technical evidence that supports JD fit."
+  ],
+  "revision_instructions": "[MUST] Rewrite the first Summary sentence so the first impression is a direct backend/security role fit, not a career transition. [MUST] Bold the missing scan-critical signals in place (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`) while preserving the current wording and immutable fields. Keep the rest of the resume intact."
+}

@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience and project bullets (all quantified outcomes)",
+        "issue": "Key scale and impact numbers are present, but they are left in regular text instead of being visually emphasized. The strongest evidence on the page, such as `32%`, `18%`, `13-person`, `20+ city`, `82% -> 94%`, and `6h -> 2h`, is harder to scan quickly.",
+        "fix": "Bold the most important scope and outcome numbers in each role and project bullet, especially the first bullet of each section, while keeping Skills formatting unchanged."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "high",
+        "field": "## Professional Summary, sentence 1",
+        "issue": "The opening framing is transition-led (`trajectory` / `transitioning from data analytics`) instead of role-led, so the first screen reads like a career switch rather than a backend/security engineer profile.",
+        "fix": "Rewrite the first sentence to lead with the target role and domain, such as `Backend-focused software engineer` or `Security-focused software engineer`, and move the transition narrative later in the summary."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience, bullet 1",
+        "issue": "The newest role opens with a latency percentage but no concrete volume or scope anchor, so the top of the resume still leans on tier-2 improvement signal rather than a stronger tier-1 scale signal.",
+        "fix": "Add one concrete scope metric in the same bullet, such as alert volume, reviewer count, queue size, or service footprint, while keeping the latency result."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rewrite the Summary opening to be role-led and domain-led instead of transition-led.",
+    "[MUST] Add one concrete scope metric to the newest TikTok bullet so the top of the page shows scale, not just improvement percentages.",
+    "[SHOULD] Bold the strongest quantified outcomes consistently across Experience so the main evidence is easier to scan.",
+    "[NICE] If you keep the transition narrative, move it to a later Summary sentence rather than the opener."
+  ],
+  "revision_instructions": "Keep all immutable employer/title/date/location lines unchanged. Rewrite Summary sentence 1 to open with a backend/security-oriented role frame instead of `transitioning from data analytics`. Add one concrete scope metric to TikTok bullet 1 or DiDi bullet 1 (reviewer count, alert volume, queue size, service footprint, or similar). Bold the key impact numbers consistently across Experience, but do not change Skills formatting or remove any must-have technologies."
+}

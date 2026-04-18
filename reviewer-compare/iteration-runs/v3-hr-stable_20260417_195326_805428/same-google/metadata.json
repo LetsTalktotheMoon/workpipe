@@ -1,0 +1,138 @@
+{
+  "label": "same/Google",
+  "company": "Google",
+  "title": "Software Engineer III, Full Stack, Google Cloud Platforms",
+  "role_type": "swe_fullstack",
+  "seniority": "entry",
+  "team_direction": "Google is a leading technology company that develops next-generation technologies impacting billions of users",
+  "tech_required": [
+    "JavaScript",
+    "C++",
+    "TypeScript",
+    "Java",
+    "Python",
+    "Node.js"
+  ],
+  "tech_preferred": [
+    "Design Review",
+    "Algorithms",
+    "Data Structures",
+    "Software Test Engineering"
+  ],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/review.json",
+  "historical": {
+    "official_score": 94.0,
+    "official_verdict": "pass",
+    "official_notes": [
+      "Old report baseline only; target side had no revision priority.",
+      "Old report assessment: official reviewer passed the resume as substantively strong."
+    ],
+    "claude_score": 86.3,
+    "claude_verdict": "fail",
+    "claude_notes": [
+      "ATS-like insistence that Looker and semantic-layer signals appear as exact phrases in body text.",
+      "Exact year arithmetic concerns around 3+ years claims.",
+      "Skills taxonomy/category naming quality concerns.",
+      "Summary framing judged too data-modeling-first rather than infrastructure/performance-first."
+    ],
+    "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+  },
+  "portfolio_review": {
+    "weighted_score": 94.0,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 9.5,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 9.1,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 9.3,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.2,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.0,
+    "verdict": "pass",
+    "seed_label": "Google Full Stack",
+    "route_mode": "retarget",
+    "revised": false,
+    "rewrite_adopted": false,
+    "content_changed": false,
+    "revision_instructions": "",
+    "rereview_version": "unified_followup_v1",
+    "rereviewed_at": "2026-04-08T20:10:33",
+    "rereview_rounds": 0,
+    "rereview_revised": false,
+    "normalized_before_review": false,
+    "normalize_changes": [
+      "normalized_go_achievement"
+    ],
+    "deterministic_issue_codes_after": [],
+    "previous_final_score": 82.1,
+    "previous_verdict": "fail"
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

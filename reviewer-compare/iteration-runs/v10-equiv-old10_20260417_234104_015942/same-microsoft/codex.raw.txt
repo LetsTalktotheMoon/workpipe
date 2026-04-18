@@ -1,0 +1,65 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullet 1-2",
+        "issue": "`team-maintained` is bolded as emphasis, but it is a qualifier rather than a technical noun or a scale/scope signal. This weakens the visual hierarchy that should reserve bold for stack, ownership, and measurable impact.",
+        "fix": "Remove bold from qualifiers like `team-maintained`; keep bold only on technologies and quantifiable scope/result tokens."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary sentence 1",
+        "issue": "The opening frame leads with a transition narrative (`transitioning from data analytics to backend engineering`) instead of a direct backend/domain hook, so the first 6-8 seconds do not immediately answer why this candidate fits Azure Storage.",
+        "fix": "Rewrite the first sentence to lead with the target identity first, e.g. `Backend engineer focused on distributed systems...`, then mention the analytics-to-backend transition as secondary context."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall resume vs. Microsoft Azure Storage role",
+        "issue": "This is a specialized storage/substrate role, but the resume only shows adjacent backend, security, and data-work evidence. There is no direct storage-system artifact such as replication, sharding, durability, checkpointing, storage path ownership, or HA/recovery work, so the Azure Storage fit is not yet narratively closed.",
+        "fix": "Add direct storage/distributed-systems evidence in the most relevant backend bullet or project bullet, using only true experience: storage path ownership, persistence/durability, replication, partitioning, failure recovery, or on-call handling for a service at scale.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Intern experience",
+        "issue": "The newest/relevant experience is dominated by percentage lifts, while the strongest concrete scale signal is still limited. For an Azure Storage target, this reads as outcome-heavy but scope-light.",
+        "fix": "Add one concrete scale metric to the most relevant TikTok bullet, such as reviewer volume, queue size, QPS, service count, or on-call footprint, so the result sits in a verifiable operating context."
+      },
+      {
+        "rule_id": "P3E-013",
+        "sub_area": "3E",
+        "severity": "medium",
+        "field": "TikTok Intern bullet 2",
+        "issue": "The bullet mentions external LLM/AWS Bedrock in a security context, but it does not explicitly state the data boundary. That is not a hard violation here, but it is too easy for an HR reader to wonder whether protected data was involved.",
+        "fix": "Add an explicit boundary qualifier such as `internal evaluation`, `sandbox`, `synthetic/public prompts`, or `no user or production data involved` so the compliance boundary is unambiguous.",
+        "note": "[合规边界]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Close the Azure Storage gap by adding direct storage/distributed-systems evidence to the most relevant backend bullet; right now the resume reads adjacent to the role, not native to it.",
+    "[MUST] Rewrite the first Summary sentence so the opening hook is `backend/distributed systems` first, and the data-to-backend transition is secondary.",
+    "[SHOULD] Add one concrete scale metric to the TikTok intern section and make the Bedrock/RAG boundary explicit (`internal` / `sandbox` / `no user data`).",
+    "[NICE] Clean up bolding so qualifiers like `team-maintained` are not emphasized."
+  ],
+  "revision_instructions": "[结构性错配] 保留不可变字段不动。先把 Summary 第一句改成直接的 backend/distributed-systems 定位，再把最相关的一条 TikTok 或项目 bullet 补成真正可追问的 storage/availability/reliability 证据；如果没有真实 storage 经历，就不要继续往 Azure Storage 方向硬拧。同步给 TikTok 的 Bedrock/RAG bullet 加上明确边界词（internal/sandbox/no user data），并补一个可核验的规模数字，最后清理掉对 `team-maintained` 这类修饰语的加粗。"
+}

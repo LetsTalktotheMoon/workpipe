@@ -1,0 +1,71 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary / Experience body",
+        "issue": "多个修饰性限定词被加粗，例如 `team-maintained`、`existing`、`internal`。这类词会抢占视觉权重，削弱技术栈和量化结果的扫描效率。",
+        "fix": "取消这些限定词的加粗，只保留技术名词、规模数字和真正的 ownership 关键词加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary 第一句",
+        "issue": "开头以“from data analytics to backend engineering”的转向叙事为主，首屏更像转岗说明而不是直接的后端分布式系统定位。",
+        "fix": "把首句改成直接角色锚点，例如先写 `Backend engineer building distributed systems...`，再把转向背景放到第二句或删掉。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills / Professional Summary",
+        "issue": "JD 的 must-have `Distributed Systems` 没有在 Skills 中被明确命名，只能靠 `Microservices`、`gRPC`、`Kafka` 这类 umbrella 词间接表达；ATS 侧会弱化匹配。",
+        "fix": "在最相关的 backend/Cloud 技能行里显式加入 `Distributed Systems`，并在 TikTok 最相关 bullet 中保留一条能证明分布式服务边界的证据。"
+      },
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "Professional Summary / TikTok Internship",
+        "issue": "同一段实习和 Summary 里把 Go、Python、Java、C#、C++、JavaScript、SQL 都写成了核心工作栈，读起来像同时日常主责多门语言，容易让面试官怀疑叙事过宽。",
+        "fix": "把 Summary 和 TikTok 里最核心的 2-3 门语言前置，其余语言改写为具体集成/辅助工具语言，只在对应 bullet 中出现。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security",
+        "issue": "最新且最相关的经历几乎全部用百分比改善作结果抓手，缺少一个能快速追问的规模锚点，首屏更像“效果汇报”而不是“系统与责任边界”。",
+        "fix": "在第一或第三条 TikTok bullet 补 1 个具体 scope 指标，例如 cases/day、reviewers、QPS、SLO、P99、队列规模或服务边界，再保留百分比作为次级结果。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "DiDi · IBG · Food",
+        "issue": "这段经历虽然有 13-person squad、20+ city 等 scope，但多条 bullet 仍以百分比提升为主，技术深度和业务规模锚点没有始终压在最前面。",
+        "fix": "把最关键的迁移/triage/接口变更 bullet 先补具体规模或 ownership，再把 37%、29%、25% 这类结果放在后半句作为证明。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把 Summary 第一句改成直接的 backend / distributed systems 定位，删除或后移“transitioning from data analytics”这类转向叙事。",
+    "[MUST] 在 Skills 中显式写出 `Distributed Systems`，并在最相关的 TikTok bullet 里保留一条能证明分布式服务边界的证据。",
+    "[MUST] 给 TikTok 和 DiDi 的最关键 bullet 各补一个可追问的 scope 指标，让百分比结果退居次位。",
+    "[SHOULD] 收敛实习段的语言栈表述，只保留 2-3 门主语言，其余语言放到具体集成场景里；同时去掉 `team-maintained`、`existing`、`internal` 等限定词的加粗。"
+  ],
+  "revision_instructions": "先修首屏叙事，再补 JD 关键词。把 Summary 第一句改成“Backend engineer building distributed systems...”这一类直接定位，把“transitioning from data analytics”放到第二句或删掉。在 Skills 里显式加入 `Distributed Systems`，并在 TikTok 最相关 bullet 中保留 `C++/gRPC/Kafka` 的分布式服务证据。接着为 TikTok 和 DiDi 的主 bullet 各补 1 个具体 scope 指标（cases/day、reviewers、QPS、SLO、cities、lanes 或 pipeline volume），让百分比只做结果证明。最后把实习段看起来像日常主栈的 5-6 门语言收敛到 2-3 门主语言，其余语言只放在具体集成 bullet；同时取消修饰性词语的加粗。"
+}

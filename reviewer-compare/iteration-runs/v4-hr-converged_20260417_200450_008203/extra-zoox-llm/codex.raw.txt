@@ -1,0 +1,54 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience section, especially TikTok and DiDi bullets / blockquote context lines",
+        "issue": "Several scope and scale markers that should help scanning, such as `13-person`, `20+ city`, and other count-based context signals, are not consistently bolded outside Skills.",
+        "fix": "Bold the most informative scope markers in Experience and project context lines, especially team size, geography count, and other concrete scale cues, while keeping Skills formatting unchanged."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Experience bullets",
+        "issue": "Ownership-boundary qualifiers like `team-maintained`, `internal`, `existing`, `team-owned`, and `intern-owned` are not consistently emphasized, which makes the scope of the work harder to scan quickly.",
+        "fix": "Bold only the qualifiers that clarify ownership or boundary, and do it consistently where they materially change how the work should be read."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Summary + project baselines",
+        "issue": "The resume bridges to backend ML evaluation and replay testing, but it does not explicitly connect that work to simulation or 3D-oriented problem structure, so a Zoox reviewer still has to infer the migration logic.",
+        "fix": "Add one sentence in Summary or the first project baseline that makes the transfer explicit, e.g. frame the replay sandbox as simulation-adjacent validation, closed-loop scenario replay, or environment testing for model behavior."
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok · Security intern bullets",
+        "issue": "The internship section spreads usage-level evidence across 4 programming languages plus several infra technologies, which reads more like stack-dumping than one coherent ownership spine for a single internship.",
+        "fix": "Keep C++ and Python foregrounded, then collapse Go/Java/gRPC/Kafka/Kubernetes into supporting integration language where needed so the section reads as one system story instead of four equally weighted language claims."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rework the TikTok intern section so C++ and Python are the primary story, and the other languages/tools are framed as supporting integration rather than equal-weight daily stack claims.",
+    "[SHOULD] Add one explicit bridge sentence that maps the replay/evaluation work to simulation-adjacent validation for Zoox.",
+    "[SHOULD] Bold the clearest scope markers such as `13-person` and `20+ city` to improve scanability.",
+    "[NICE] Use ownership/boundary bolding consistently only where it clarifies scope."
+  ],
+  "revision_instructions": "[MUST] In the TikTok intern section, keep C++ and Python as the main technical spine; rewrite the bullets so Go/Java/gRPC/Kafka/Kubernetes appear as supporting integration or service-layer work, not as four separate primary language claims. [SHOULD] Add one explicit bridge in Summary or the first project baseline that describes the replay/evaluation work as simulation-adjacent validation or closed-loop scenario testing. [SHOULD] Bold the most informative scope markers like `13-person` and `20+ city` for faster HR scanning. Keep immutable fields unchanged."
+}

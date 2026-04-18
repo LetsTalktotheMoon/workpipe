@@ -1,0 +1,194 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:22:02",
+  "completed_at": "2026-04-17T22:23:10",
+  "duration_seconds": 68.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets and project baselines",
+          "issue": "Most quantified outcomes and scope anchors are left unbolded, so the strongest evidence is visually buried inside dense bullets. Examples include time deltas, percentage lifts, dollar exposure, and team/scope cues such as 13-person and 20+ city.",
+          "fix": "Bold the single most important result or scope token in each major bullet or baseline line, such as **11 minutes** to **3 minutes**, **28%**, **31%**, **420K**, **13-person**, and **20+ city**, while keeping the existing tech bolding pattern."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opener leads with a transition narrative instead of immediately foregrounding the target role and domain. A 6-8 second scan sees 'transitioning from data analysis' before the backend/cloud-infra identity is fully established.",
+          "fix": "Rewrite the first summary sentence to start with a direct role/domain framing, then move the transition language later, for example: 'Infrastructure-focused software engineer: 3+ years building Go, Java, and Python services...' and mention the data-analysis background in the second sentence."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Intern and DiDi experience bullets",
+          "issue": "The newest and most relevant experience leans heavily on relative improvements and time cuts without a concrete workload or team-scale anchor, so the senior cloud-infra story depends on inference rather than explicit scope.",
+          "fix": "Add one explicit Tier 1 scope signal to the first TikTok bullet and one to a DiDi bullet, such as requests/day, services, reviewers, deploys/week, or team size, while keeping the percentage outcomes."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opener so it leads with backend/cloud-infra identity instead of the transition story.",
+      "[MUST] Add one concrete Tier 1 scope anchor to the first TikTok bullet and one DiDi bullet so the senior infra narrative is not mostly percentage-based.",
+      "[MUST] Bold the strongest quantified or scope tokens in the major bullets and baselines to surface the best evidence faster.",
+      "[NICE] Keep the current technology set unchanged; the main issue is framing and evidence density, not stack coverage."
+    ],
+    "revision_instructions": "[MUST] Rewrite the first Summary sentence to front-load backend/cloud-infra identity; move 'transitioning from data analysis' into the second sentence or a later clause. [MUST] Add explicit Tier 1 scope anchors to the most recent relevant experience, especially TikTok and one DiDi bullet, such as requests/day, services, reviewers, deploys/week, or team size. [MUST] Bold the strongest quantified result or scope token in each major bullet/baseline line so the best proof points are visible on first scan. Keep titles, dates, required tech, and the two-project structure unchanged.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opener so it leads with backend/cloud-infra identity instead of the transition story.",
+      "[MUST] Add one concrete Tier 1 scope anchor to the first TikTok bullet and one DiDi bullet so the senior infra narrative is not mostly percentage-based.",
+      "[MUST] Bold the strongest quantified or scope tokens in the major bullets and baselines to surface the best evidence faster.",
+      "[NICE] Keep the current technology set unchanged; the main issue is framing and evidence density, not stack coverage."
+    ],
+    "revision_instructions": "[MUST] Rewrite the first Summary sentence to front-load backend/cloud-infra identity; move 'transitioning from data analysis' into the second sentence or a later clause. [MUST] Add explicit Tier 1 scope anchors to the most recent relevant experience, especially TikTok and one DiDi bullet, such as requests/day, services, reviewers, deploys/week, or team size. [MUST] Bold the strongest quantified result or scope token in each major bullet/baseline line so the best proof points are visible on first scan. Keep titles, dates, required tech, and the two-project structure unchanged.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets and project baselines",
+            "issue": "Most quantified outcomes and scope anchors are left unbolded, so the strongest evidence is visually buried inside dense bullets. Examples include time deltas, percentage lifts, dollar exposure, and team/scope cues such as 13-person and 20+ city.",
+            "fix": "Bold the single most important result or scope token in each major bullet or baseline line, such as **11 minutes** to **3 minutes**, **28%**, **31%**, **420K**, **13-person**, and **20+ city**, while keeping the existing tech bolding pattern."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The opener leads with a transition narrative instead of immediately foregrounding the target role and domain. A 6-8 second scan sees 'transitioning from data analysis' before the backend/cloud-infra identity is fully established.",
+            "fix": "Rewrite the first summary sentence to start with a direct role/domain framing, then move the transition language later, for example: 'Infrastructure-focused software engineer: 3+ years building Go, Java, and Python services...' and mention the data-analysis background in the second sentence."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Intern and DiDi experience bullets",
+            "issue": "The newest and most relevant experience leans heavily on relative improvements and time cuts without a concrete workload or team-scale anchor, so the senior cloud-infra story depends on inference rather than explicit scope.",
+            "fix": "Add one explicit Tier 1 scope signal to the first TikTok bullet and one to a DiDi bullet, such as requests/day, services, reviewers, deploys/week, or team size, while keeping the percentage outcomes."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the Summary opener so it leads with backend/cloud-infra identity instead of the transition story.",
+        "[MUST] Add one concrete Tier 1 scope anchor to the first TikTok bullet and one DiDi bullet so the senior infra narrative is not mostly percentage-based.",
+        "[MUST] Bold the strongest quantified or scope tokens in the major bullets and baselines to surface the best evidence faster.",
+        "[NICE] Keep the current technology set unchanged; the main issue is framing and evidence density, not stack coverage."
+      ],
+      "revision_instructions": "[MUST] Rewrite the first Summary sentence to front-load backend/cloud-infra identity; move 'transitioning from data analysis' into the second sentence or a later clause. [MUST] Add explicit Tier 1 scope anchors to the most recent relevant experience, especially TikTok and one DiDi bullet, such as requests/day, services, reviewers, deploys/week, or team size. [MUST] Bold the strongest quantified result or scope token in each major bullet/baseline line so the best proof points are visible on first scan. Keep titles, dates, required tech, and the two-project structure unchanged.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience bullets and project baselines",
+          "issue": "Most quantified outcomes and scope anchors are left unbolded, so the strongest evidence is visually buried inside dense bullets. Examples include time deltas, percentage lifts, dollar exposure, and team/scope cues such as 13-person and 20+ city.",
+          "fix": "Bold the single most important result or scope token in each major bullet or baseline line, such as **11 minutes** to **3 minutes**, **28%**, **31%**, **420K**, **13-person**, and **20+ city**, while keeping the existing tech bolding pattern."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The opener leads with a transition narrative instead of immediately foregrounding the target role and domain. A 6-8 second scan sees 'transitioning from data analysis' before the backend/cloud-infra identity is fully established.",
+          "fix": "Rewrite the first summary sentence to start with a direct role/domain framing, then move the transition language later, for example: 'Infrastructure-focused software engineer: 3+ years building Go, Java, and Python services...' and mention the data-analysis background in the second sentence."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Intern and DiDi experience bullets",
+          "issue": "The newest and most relevant experience leans heavily on relative improvements and time cuts without a concrete workload or team-scale anchor, so the senior cloud-infra story depends on inference rather than explicit scope.",
+          "fix": "Add one explicit Tier 1 scope signal to the first TikTok bullet and one to a DiDi bullet, such as requests/day, services, reviewers, deploys/week, or team size, while keeping the percentage outcomes."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-001",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

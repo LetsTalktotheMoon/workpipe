@@ -1,0 +1,70 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Programming",
+        "issue": "This Skills row is far above the 14-word cap and reads as a dense token dump rather than a compact category line.",
+        "fix": "Split the row into two shorter lines or trim the list so each Skills line stays under the word limit."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Summary, sentence 1",
+        "issue": "The opening frame is 'transitioning from analytics,' which makes the resume read like a career-change story before it reads like an Azure/backend engineer profile.",
+        "fix": "Reframe the first sentence around the target role first, then move the analytics transition to a secondary clause."
+      },
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Summary, sentence 3",
+        "issue": "The header 'Team Fit' is generic and soft; it does not give HR a technical or judgment-based anchor on the first scan.",
+        "fix": "Replace it with a cognition-oriented header such as 'Systems judgment' or 'Pattern recognition'."
+      },
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills > APIs",
+        "issue": "The category title is vague and low-signal for a backend Azure role.",
+        "fix": "Rename the category to something more specific such as 'Backend' or 'Platform'."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "JD core skills vs Summary/Skills/Experience",
+        "issue": "This is an Azure-specific role, but the resume shows only adjacent web/backend experience. There is no C# or Azure delivery evidence to support the JD's primary platform family.",
+        "fix": "Add one concrete bullet in the most relevant experience showing real Azure/C# ownership if that work exists; otherwise this resume is a structural mismatch for this JD.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "DiDi Experience",
+        "issue": "This section stacks React, Angular, Vue, Node.js, Express, Scala, Python, and cloud tooling in one experience, which reads as breadth-heavy stack listing rather than focused ownership.",
+        "fix": "Keep only the 2-3 technologies that are central to the story in the core bullets and push the rest into supporting context."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add a concrete Azure/C# proof point in the most relevant experience, or accept that this resume is structurally misaligned with the target JD.",
+    "[MUST] Reframe Summary to lead with the target role first, not the analytics transition.",
+    "[SHOULD] Tighten Skills so each row is compact and rename vague categories like 'APIs' to something more specific.",
+    "[NICE] Reduce stack breadth in the DiDi section so the core technologies read as ownership, not listing."
+  ],
+  "revision_instructions": "[结构性错配] 这份简历目前缺少 C#/Azure 的直接交付证据，不要继续用通用后端叙事硬贴该 JD。若这些经历真实存在，优先在最相关的一段补 1 条 Azure/C# 具体 bullet（服务名、部署/集成/排障职责、结果），并把 Summary 第一句改成 Azure/backend 定位；第二句再交代 analytics 迁移。同步把 'Team Fit' 改成系统判断类 header，压缩 Skills 的 Programming 行并把 'APIs' 改为更具体的 'Backend/Platform'。DiDi 段再收敛前端框架和语言堆砌，只保留最能支撑目标 JD 的 2-3 个核心技术。"
+}

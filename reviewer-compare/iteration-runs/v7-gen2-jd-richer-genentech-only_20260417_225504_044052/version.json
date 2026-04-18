@@ -1,0 +1,9 @@
+{
+  "version_label": "v7_gen2_jd_richer_genentech_only",
+  "prompt_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v7_gen2_jd_richer/Reviewer_4Stage.md",
+  "scorer_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/iterations/v7_gen2_jd_richer/Reviewer_Cal.py",
+  "cases_file": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/reviewer-compare/cases_20_combined.json",
+  "codex_model": "gpt-5.4-mini",
+  "reasoning_effort": "medium",
+  "started_at": "2026-04-17T22:55:04"
+}

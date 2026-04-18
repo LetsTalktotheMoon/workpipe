@@ -30,12 +30,38 @@ from managed_run import (  # noqa: E402
     spawn_managed_command,
     stop_process,
 )
+from runtime.job_webapp.prompt_library import (  # noqa: E402
+    build_match_pipe_prompt_library,
+    save_match_pipe_paragraph_overrides,
+    save_match_pipe_prompt_overrides,
+)
+from runtime.job_webapp.prompt_review_compiler import (  # noqa: E402
+    regenerate_prompt_review,
+)
+from runtime.job_webapp.prompt_review_roundtrip import (  # noqa: E402
+    run_prompt_review_roundtrip,
+)
+from runtime.job_webapp.prompt_review_writeback import (  # noqa: E402
+    run_writeback,
+)
+from runtime.job_webapp.prompt_review_store import (  # noqa: E402
+    get_prompt_review_ambiguities,
+    get_prompt_review_conflict,
+    get_prompt_review_coverage,
+    get_prompt_review_payload,
+    get_prompt_review_roundtrip_report,
+    list_prompt_review_revisions,
+    restore_prompt_review_revision,
+    save_prompt_review_edit,
+)
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
-SCRAPED_JOBS_PATH = ROOT / "data" / "job_tracker" / "scraped_jobs.json"
+PROMPT_REVIEW_DIR = ROOT / "prompt_review"
+JOBS_CATALOG_PATH = ROOT / "data" / "job_tracker" / "jobs_catalog.json"
 PORTFOLIO_INDEX_PATH = ROOT / "data" / "deliverables" / "resume_portfolio" / "portfolio_index.json"
 STATE_PATH = ROOT / "state" / "job_app_status.json"
 YOE_CACHE_PATH = ROOT / "state" / "job_app_yoe_cache.json"
+BACKFILL_STATUS_PATH = ROOT / "state" / "job_status_backfill.json"
 SINGLE_JOB_ACTION_RUNNER = ROOT / "single_job_action_runner.py"
 
 DATE_TIME_FORMATS = (
@@ -141,6 +167,13 @@ def _normalize_yoe_value(value: Any) -> int | None:
         return max(0, min(int(value), 5))
     except (TypeError, ValueError):
         return None
+
+
+def _normalize_apply_url_status(value: Any) -> str:
+    status = str(value or "").strip().lower()
+    if status in {"open", "closed", "unknown"}:
+        return status
+    return "unknown"
 
 
 _COMPANY_SIZE_TIER: dict[str, str] = {
@@ -593,18 +626,32 @@ class JobAppStore:
             }
         return normalized
 
+    def load_backfill_status_map(self) -> dict[str, dict[str, Any]]:
+        payload = _load_json(BACKFILL_STATUS_PATH, {})
+        if not isinstance(payload, dict):
+            return {}
+        normalized: dict[str, dict[str, Any]] = {}
+        for job_id, value in payload.items():
+            if not isinstance(value, dict):
+                continue
+            normalized[str(job_id)] = {
+                "status": _normalize_apply_url_status(value.get("status")),
+                "updated_at": str(value.get("checked_at", "") or value.get("updated_at", "") or "").strip(),
+            }
+        return normalized
+
     def base_jobs_catalog(self) -> list[dict[str, Any]]:
-        signature = (_safe_mtime(SCRAPED_JOBS_PATH), _safe_mtime(PORTFOLIO_INDEX_PATH))
+        signature = (_safe_mtime(JOBS_CATALOG_PATH), _safe_mtime(PORTFOLIO_INDEX_PATH))
         with self._catalog_lock:
             if self._catalog_signature == signature and self._catalog_jobs:
                 return self._catalog_jobs
 
-            scraped_rows = _load_json(SCRAPED_JOBS_PATH, [])
+            catalog_rows = _load_json(JOBS_CATALOG_PATH, [])
             portfolio_rows = _load_json(PORTFOLIO_INDEX_PATH, [])
 
-            scraped_by_job_id = {
+            catalog_by_job_id = {
                 str(row.get("job_id", "") or "").strip(): row
-                for row in scraped_rows
+                for row in catalog_rows
                 if isinstance(row, dict) and str(row.get("job_id", "") or "").strip()
             }
             portfolio_by_job_id = {
@@ -617,9 +664,9 @@ class JobAppStore:
 
             for job_id, portfolio_record in portfolio_by_job_id.items():
                 sheet_row = _read_sheet_row(portfolio_record)
-                scraped_row = scraped_by_job_id.get(job_id, {})
+                catalog_row = catalog_by_job_id.get(job_id, {})
                 merged_row = dict(sheet_row)
-                merged_row.update(scraped_row)
+                merged_row.update(catalog_row)
 
                 yoe_value = _infer_yoe_value(merged_row or sheet_row)
                 discovered_raw = _normalized_row_value(
@@ -671,7 +718,7 @@ class JobAppStore:
                     "resume_dir_exists": bool(resume_dir and Path(resume_dir).exists()),
                     "seed_label": _seed_label(portfolio_record),
                     "has_generated_resume": bool(resume_dir),
-                    "source_scope": "both" if scraped_row else "portfolio_history",
+                    "source_scope": "both" if catalog_row else "portfolio_history",
                     "review_status": review_status["status"],
                     "review_final_score": review_status["score"],
                     "review_pipeline_state": review_status["pipeline_state"],
@@ -681,21 +728,21 @@ class JobAppStore:
                     "company_generation_blocked": _is_generation_blocked_company(company_name),
                 }
 
-            for job_id, scraped_row in scraped_by_job_id.items():
+            for job_id, catalog_row in catalog_by_job_id.items():
                 if job_id in jobs_by_id:
                     continue
 
-                yoe_value = _infer_yoe_value(scraped_row)
-                discovered_raw = _normalized_row_value(scraped_row.get("discovered_date"))
-                publish_raw = _normalized_row_value(scraped_row.get("publish_time"))
-                company_size = _company_size_value(scraped_row)
-                salary_floor = _salary_floor_value(scraped_row)
+                yoe_value = _infer_yoe_value(catalog_row)
+                discovered_raw = _normalized_row_value(catalog_row.get("discovered_date"))
+                publish_raw = _normalized_row_value(catalog_row.get("publish_time"))
+                company_size = _company_size_value(catalog_row)
+                salary_floor = _salary_floor_value(catalog_row)
 
                 jobs_by_id[job_id] = {
                     "job_id": job_id,
-                    "company_name": _normalized_row_value(scraped_row.get("company_name")),
-                    "title": _normalized_row_value(scraped_row.get("job_title"), scraped_row.get("job_nlp_title")),
-                    "title_class": _infer_title_class(scraped_row),
+                    "company_name": _normalized_row_value(catalog_row.get("company_name")),
+                    "title": _normalized_row_value(catalog_row.get("job_title"), catalog_row.get("job_nlp_title")),
+                    "title_class": _infer_title_class(catalog_row),
                     "company_size": company_size,
                     "company_size_label": _company_size_label({"company_size": company_size}),
                     "min_salary": salary_floor,
@@ -706,12 +753,12 @@ class JobAppStore:
                     "discovered_date": _date_only(discovered_raw),
                     "publish_at": _display_timestamp(publish_raw),
                     "publish_date": _date_only(publish_raw),
-                    "apply_url": _normalized_row_value(scraped_row.get("apply_link")),
+                    "apply_url": _normalized_row_value(catalog_row.get("apply_link")),
                     "resume_dir": "",
                     "resume_dir_exists": False,
                     "seed_label": "No resume generated",
                     "has_generated_resume": False,
-                    "source_scope": "scraped_current",
+                    "source_scope": "catalog_only",
                     "review_status": "无简历",
                     "review_final_score": 0,
                     "review_pipeline_state": "none",
@@ -719,7 +766,7 @@ class JobAppStore:
                     "review_display_value": "无简历",
                     "review_raw_verdict": "",
                     "company_generation_blocked": _is_generation_blocked_company(
-                        _normalized_row_value(scraped_row.get("company_name"))
+                        _normalized_row_value(catalog_row.get("company_name"))
                     ),
                 }
 
@@ -764,6 +811,7 @@ class JobAppStore:
     def build_jobs_payload(self) -> dict[str, Any]:
         status_map = self.load_status_map()
         yoe_cache = self.load_yoe_cache()
+        backfill_status_map = self.load_backfill_status_map()
         jobs: list[dict[str, Any]] = []
         for base_job in self.base_jobs_catalog():
             job_id = str(base_job.get("job_id", "") or "").strip()
@@ -771,12 +819,16 @@ class JobAppStore:
                 job_id,
                 {"applied": False, "abandoned": False, "closed": False, "updated_at": ""},
             )
+            backfill_status = backfill_status_map.get(job_id, {"status": "unknown", "updated_at": ""})
             cached_yoe = yoe_cache.get(job_id, {})
             display_yoe_value = base_job.get("yoe_value")
             display_yoe_source = "original"
             if display_yoe_value is None and cached_yoe:
                 display_yoe_value = cached_yoe.get("yoe_value")
                 display_yoe_source = str(cached_yoe.get("source", "") or "cache")
+            apply_url_status = _normalize_apply_url_status(backfill_status.get("status", "unknown"))
+            if bool(status.get("closed", False)):
+                apply_url_status = "closed"
             jobs.append(
                 {
                     **base_job,
@@ -787,6 +839,8 @@ class JobAppStore:
                     "applied": bool(status.get("applied", False)),
                     "abandoned": bool(status.get("abandoned", False)),
                     "closed": bool(status.get("closed", False)),
+                    "apply_url_status": apply_url_status,
+                    "apply_url_status_updated_at": str(backfill_status.get("updated_at", "") or ""),
                     "processed": bool(
                         status.get("applied", False)
                         or status.get("abandoned", False)
@@ -1067,6 +1121,27 @@ class JobAppHandler(BaseHTTPRequestHandler):
         if parsed.path == "/api/monitor":
             self._send_json(HTTPStatus.OK, self.server.store.build_monitor_payload())
             return
+        if parsed.path == "/api/prompt-library":
+            self._send_json(HTTPStatus.OK, build_match_pipe_prompt_library())
+            return
+        if parsed.path == "/api/prompt-review":
+            self._send_json(HTTPStatus.OK, get_prompt_review_payload())
+            return
+        if parsed.path == "/api/prompt-review/revisions":
+            self._send_json(HTTPStatus.OK, list_prompt_review_revisions())
+            return
+        if parsed.path == "/api/prompt-review/conflicts":
+            self._send_json(HTTPStatus.OK, get_prompt_review_conflict())
+            return
+        if parsed.path == "/api/prompt-review/coverage":
+            self._send_json(HTTPStatus.OK, get_prompt_review_coverage())
+            return
+        if parsed.path == "/api/prompt-review/ambiguities":
+            self._send_json(HTTPStatus.OK, get_prompt_review_ambiguities())
+            return
+        if parsed.path == "/api/prompt-review/roundtrip":
+            self._send_json(HTTPStatus.OK, get_prompt_review_roundtrip_report())
+            return
         if parsed.path == "/api/open-dir":
             params = parse_qs(parsed.query)
             job_id = params.get("job_id", [""])[0]
@@ -1081,7 +1156,18 @@ class JobAppHandler(BaseHTTPRequestHandler):
 
     def do_POST(self) -> None:
         parsed = urlparse(self.path)
-        if parsed.path not in {"/api/status", "/api/process/run", "/api/process/stop", "/api/job-action"}:
+        if parsed.path not in {
+            "/api/status",
+            "/api/process/run",
+            "/api/process/stop",
+            "/api/job-action",
+            "/api/prompt-library/save",
+            "/api/prompt-review/save",
+            "/api/prompt-review/restore",
+            "/api/prompt-review/regenerate",
+            "/api/prompt-review/roundtrip",
+            "/api/prompt-review/writeback",
+        }:
             self._send_json(HTTPStatus.NOT_FOUND, {"error": "not found"})
             return
 
@@ -1142,6 +1228,110 @@ class JobAppHandler(BaseHTTPRequestHandler):
                 self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
                 return
             self._send_json(HTTPStatus.OK, result)
+            return
+
+        if parsed.path == "/api/prompt-library/save":
+            paragraphs = payload.get("paragraphs")
+            if isinstance(paragraphs, dict):
+                try:
+                    result = save_match_pipe_paragraph_overrides(
+                        {str(key): str(value) for key, value in paragraphs.items()}
+                    )
+                except Exception as exc:  # noqa: BLE001
+                    self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
+                    return
+                self._send_json(HTTPStatus.OK, result)
+                return
+            blocks = payload.get("blocks", {})
+            if not isinstance(blocks, dict):
+                self._send_json(
+                    HTTPStatus.BAD_REQUEST,
+                    {"ok": False, "error": "paragraphs or blocks must be an object"},
+                )
+                return
+            try:
+                result = save_match_pipe_prompt_overrides(
+                    {str(key): str(value) for key, value in blocks.items()}
+                )
+            except Exception as exc:  # noqa: BLE001
+                self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
+                return
+            self._send_json(HTTPStatus.OK, result)
+            return
+
+        if parsed.path == "/api/prompt-review/save":
+            group_id = str(payload.get("group_id", "") or "").strip()
+            editable_rich_text = str(payload.get("editable_rich_text", "") or "")
+            display_text = payload.get("display_text")
+            if display_text is not None:
+                display_text = str(display_text)
+            blocks = payload.get("blocks")
+            if blocks is not None and not isinstance(blocks, list):
+                self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": "blocks must be an array"})
+                return
+            try:
+                result = save_prompt_review_edit(
+                    group_id=group_id,
+                    client_revision_id=str(payload.get("client_revision_id", "") or ""),
+                    editable_rich_text=editable_rich_text,
+                    display_text=display_text,
+                    blocks=blocks,
+                    editor_meta=payload.get("editor_meta") if isinstance(payload.get("editor_meta"), dict) else {},
+                )
+            except Exception as exc:  # noqa: BLE001
+                self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
+                return
+            status = HTTPStatus.CONFLICT if not result.get("ok") and result.get("frozen") else HTTPStatus.OK
+            self._send_json(status, result)
+            return
+
+        if parsed.path == "/api/prompt-review/restore":
+            revision_id = str(payload.get("revision_id", "") or "").strip()
+            try:
+                result = restore_prompt_review_revision(
+                    revision_id=revision_id,
+                    client_revision_id=str(payload.get("client_revision_id", "") or ""),
+                )
+            except Exception as exc:  # noqa: BLE001
+                self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
+                return
+            status = HTTPStatus.CONFLICT if not result.get("ok") and result.get("frozen") else HTTPStatus.OK
+            self._send_json(status, result)
+            return
+
+        if parsed.path == "/api/prompt-review/regenerate":
+            try:
+                result = regenerate_prompt_review()
+            except Exception as exc:  # noqa: BLE001
+                self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
+                return
+            self._send_json(HTTPStatus.OK, result)
+            return
+
+        if parsed.path == "/api/prompt-review/roundtrip":
+            raw_threshold = payload.get("freeze_threshold")
+            try:
+                threshold = float(raw_threshold) if raw_threshold is not None else 0.25
+            except (TypeError, ValueError):
+                threshold = 0.25
+            try:
+                report = run_prompt_review_roundtrip(freeze_threshold=threshold)
+            except Exception as exc:  # noqa: BLE001
+                self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
+                return
+            self._send_json(HTTPStatus.OK, {"ok": True, "roundtrip": report})
+            return
+
+        if parsed.path == "/api/prompt-review/writeback":
+            dry_run = bool(payload.get("dry_run", False))
+            force_docs = bool(payload.get("force_docs", False))
+            try:
+                report = run_writeback(dry_run=dry_run, force_docs=force_docs)
+            except Exception as exc:  # noqa: BLE001
+                self._send_json(HTTPStatus.BAD_REQUEST, {"ok": False, "error": str(exc)})
+                return
+            self._send_json(HTTPStatus.OK, report)
+            return
 
     def _send_json(self, status: HTTPStatus, payload: Any) -> None:
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -1152,17 +1342,28 @@ class JobAppHandler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def _serve_static(self, raw_path: str) -> None:
-        relative_path = raw_path.lstrip("/") or "index.html"
-        target = (STATIC_DIR / relative_path).resolve()
+        if raw_path == "/prompt_review":
+            raw_path = "/prompt_review/index.html"
+        if raw_path.startswith("/prompt_review/"):
+            self._serve_from_directory(PROMPT_REVIEW_DIR, raw_path[len("/prompt_review/"):], raw_path)
+            return
+        self._serve_from_directory(STATIC_DIR, raw_path.lstrip("/") or "index.html", raw_path)
+
+    def _serve_from_directory(self, root_dir: Path, relative_path: str, raw_path: str) -> None:
+        if root_dir == PROMPT_REVIEW_DIR:
+            relative_path = relative_path or "index.html"
+        else:
+            relative_path = relative_path or "index.html"
+        target = (root_dir / relative_path).resolve()
         try:
-            target.relative_to(STATIC_DIR.resolve())
+            target.relative_to(root_dir.resolve())
         except ValueError:
             self.send_error(HTTPStatus.FORBIDDEN.value)
             return
 
         if not target.exists() or not target.is_file():
             if raw_path == "/":
-                target = STATIC_DIR / "index.html"
+                target = root_dir / "index.html"
             else:
                 self.send_error(HTTPStatus.NOT_FOUND.value)
                 return

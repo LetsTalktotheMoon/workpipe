@@ -1,0 +1,163 @@
+canonical_skill,category,total_mentions,resume_record_count,jd_record_count,source_coverage,raw_variants
+Python,Programming Languages,5982,616,2508,resume+jd,"Programming Languages - Python, Programming languages - Python, Python"
+Java,Programming Languages,3136,531,1189,resume+jd,"Java, Java 17, Programming Languages - Java, Programming languages - Java"
+C,Programming Languages,2313,0,1072,jd_only,"C, Programming Languages - C, Programming languages - C"
+Go,Programming Languages,1579,574,487,resume+jd,"Go, GoLang, Golang"
+C++,Programming Languages,1765,146,767,resume+jd,"C++, Programming Languages - C++, Programming languages - C++"
+JavaScript,Programming Languages,1673,169,711,resume+jd,"JavaScript, Programming languages - JavaScript"
+TypeScript,Programming Languages,1291,124,573,resume+jd,"TypeScript, Typescript, typescript"
+C#,Programming Languages,1161,28,492,resume+jd,"C#, Programming Languages - C#, Programming languages - C#"
+R,Programming Languages,630,46,328,resume+jd,R
+Scala,Programming Languages,426,146,148,resume+jd,Scala
+Rust,Programming Languages,260,12,124,resume+jd,Rust
+Ruby,Programming Languages,195,12,96,resume+jd,Ruby
+Kotlin,Programming Languages,184,10,87,resume+jd,Kotlin
+Swift,Programming Languages,107,5,60,resume+jd,Swift
+PHP,Programming Languages,105,12,47,resume+jd,"PHP, Php, php"
+MATLAB,Programming Languages,42,2,29,resume+jd,"MATLAB, MatLab, Matlab"
+VB.NET,Programming Languages,25,1,11,resume+jd,"VB.NET, VB.Net, VB.net, Vb.Net"
+APIs,Backend & APIs,2793,0,1349,jd_only,"API, APIs"
+REST APIs,Backend & APIs,1642,572,621,resume+jd,"REST, REST APIs, REST Web Services, REST web services, RESTful, RESTful APIs, Restful APIs, Restful Apis"
+Microservices,Backend & APIs,1001,326,387,resume+jd,Microservices
+gRPC,Backend & APIs,624,526,65,resume+jd,gRPC
+Flask,Backend & APIs,437,319,75,resume+jd,Flask
+Node.js,Backend & APIs,463,42,234,resume+jd,Node.js
+Spring,Backend & APIs,436,35,205,resume+jd,Spring
+.NET,Backend & APIs,397,24,182,resume+jd,.NET
+Spring Boot,Backend & APIs,310,36,143,resume+jd,Spring Boot
+Backend Development,Backend & APIs,253,0,156,jd_only,Backend Development
+GraphQL,Backend & APIs,236,10,139,resume+jd,GraphQL
+Web Development,Backend & APIs,142,0,96,jd_only,Web Development
+FastAPI,Backend & APIs,137,8,80,resume+jd,FastAPI
+Full-Stack Development,Backend & APIs,137,0,77,jd_only,Full-Stack Development
+Django,Backend & APIs,128,4,72,resume+jd,Django
+ASP.NET,Backend & APIs,100,23,38,resume+jd,ASP.NET
+Rails,Backend & APIs,98,16,36,resume+jd,Rails
+Express,Backend & APIs,60,28,20,resume+jd,Express
+.NET / C#,Backend & APIs,43,1,19,resume+jd,"C#/.NET, C#/.Net"
+NestJS,Backend & APIs,22,2,10,resume+jd,NestJS
+ASP.NET MVC,Backend & APIs,18,1,8,resume+jd,ASP.NET MVC
+React,Frontend & UI,1462,140,635,resume+jd,"React, React 16+"
+Angular,Frontend & UI,458,51,224,resume+jd,Angular
+CSS,Frontend & UI,326,46,168,resume+jd,"CSS, Css"
+HTML,Frontend & UI,298,42,150,resume+jd,"HTML, Html"
+Vue,Frontend & UI,147,17,78,resume+jd,Vue
+Next.js,Frontend & UI,161,3,86,resume+jd,Next.js
+HTML5,Frontend & UI,110,5,64,resume+jd,"HTML5, Html5"
+CSS3,Frontend & UI,65,3,41,resume+jd,"CSS3, Css3"
+Webpack,Frontend & UI,25,1,21,resume+jd,Webpack
+Vite,Frontend & UI,26,4,13,resume+jd,Vite
+Tailwind,Frontend & UI,25,1,15,resume+jd,Tailwind
+Android SDK,Frontend & UI,8,1,4,resume+jd,"Android SDK, Android Sdk"
+Jetpack Compose,Frontend & UI,5,1,3,resume+jd,Jetpack Compose
+Material Design,Frontend & UI,2,1,1,resume+jd,Material Design
+SQL,Data & Analytics,3249,616,1334,resume+jd,SQL
+ETL,Data & Analytics,1016,450,290,resume+jd,ETL
+Pandas,Data & Analytics,832,569,157,resume+jd,Pandas
+Hive,Data & Analytics,661,559,65,resume+jd,Hive
+Data Science,Data & Analytics,1127,0,585,jd_only,Data Science
+Spark SQL,Data & Analytics,583,568,9,resume+jd,Spark SQL
+Data Pipelines,Data & Analytics,919,41,498,resume+jd,Data Pipelines
+Airflow,Data & Analytics,592,356,148,resume+jd,"Airflow, Apache Airflow"
+A/B Testing,Data & Analytics,522,389,98,resume+jd,A/B Testing
+Spark,Data & Analytics,568,43,332,resume+jd,Spark
+Tableau,Data & Analytics,468,42,239,resume+jd,Tableau
+Databricks,Data & Analytics,345,26,183,resume+jd,Databricks
+Snowflake,Data & Analytics,360,33,176,resume+jd,Snowflake
+Power BI,Data & Analytics,271,20,140,resume+jd,"Power BI, Power Bi"
+NumPy,Data & Analytics,217,21,117,resume+jd,NumPy
+dbt,Data & Analytics,204,17,104,resume+jd,"DBT, Dbt, dbt"
+Jupyter,Data & Analytics,113,73,28,resume+jd,Jupyter
+Forecasting,Data & Analytics,176,1,99,resume+jd,Forecasting
+BigQuery,Data & Analytics,159,21,78,resume+jd,BigQuery
+Hadoop,Data & Analytics,141,13,84,resume+jd,Hadoop
+Looker,Data & Analytics,135,1,82,resume+jd,Looker
+Matplotlib,Data & Analytics,77,35,30,resume+jd,Matplotlib
+Anomaly Detection,Data & Analytics,79,1,54,resume+jd,"Anomaly Detection, Anomaly detection, anomaly detection"
+Time Series Analysis,Data & Analytics,36,1,24,resume+jd,"Time Series Analysis, Time-series analysis, time-series analysis"
+Experiment Design,Data & Analytics,35,1,22,resume+jd,Experiment Design
+Dashboard Automation,Data & Analytics,1,1,0,resume_only,Dashboard Automation
+KPI Measurement,Data & Analytics,1,1,0,resume_only,KPI Measurement
+Machine Learning,AI / ML,3132,164,1150,resume+jd,Machine Learning
+LLM,AI / ML,1648,173,764,resume+jd,"LLM, Large Language Models, Large Language Models (LLMs), Large language models, Large language models (LLMs), large language models, large language models (LLMs)"
+RAG,AI / ML,934,462,291,resume+jd,RAG
+PyTorch,AI / ML,852,96,475,resume+jd,PyTorch
+Generative AI,AI / ML,1023,49,480,resume+jd,"GenAI, Genai, Generative AI"
+AWS Bedrock,AI / ML,495,456,25,resume+jd,AWS Bedrock
+Deep Learning,AI / ML,779,49,353,resume+jd,Deep Learning
+TensorFlow,AI / ML,576,64,337,resume+jd,TensorFlow
+NLP,AI / ML,649,40,305,resume+jd,"NLP, Natural Language Processing, Natural language processing, natural language processing"
+scikit-learn,AI / ML,395,167,151,resume+jd,scikit-learn
+Prompt Engineering,AI / ML,391,9,253,resume+jd,Prompt Engineering
+OpenAI,AI / ML,261,4,186,resume+jd,OpenAI
+MLOps,AI / ML,287,1,187,resume+jd,"MLOps, Mlops"
+LangChain,AI / ML,260,1,175,resume+jd,"LangChain, Langchain"
+Computer Vision,AI / ML,235,8,112,resume+jd,Computer Vision
+Model Deployment,AI / ML,138,18,85,resume+jd,Model Deployment
+ML Infrastructure,AI / ML,109,13,61,resume+jd,ML Infrastructure
+Embeddings,AI / ML,102,2,70,resume+jd,"Embeddings, Vector Embeddings, vector embeddings"
+Azure OpenAI,AI / ML,50,1,39,resume+jd,Azure OpenAI
+Keras,AI / ML,46,4,30,resume+jd,Keras
+Context Engineering,AI / ML,50,2,28,resume+jd,Context Engineering
+OpenAI API,AI / ML,14,2,9,resume+jd,"OpenAI API, Openai Api"
+LLM Application Development,AI / ML,10,1,8,resume+jd,LLM Application Development
+Retrieval Evaluation,AI / ML,2,1,1,resume+jd,Retrieval Evaluation
+AWS,Cloud / DevOps / Infrastructure,2663,497,1284,resume+jd,AWS
+Kubernetes,Cloud / DevOps / Infrastructure,1591,596,624,resume+jd,"K8S, K8s, Kubernetes"
+CI/CD,Cloud / DevOps / Infrastructure,1704,343,861,resume+jd,CI/CD
+Docker,Cloud / DevOps / Infrastructure,1364,606,535,resume+jd,Docker
+Azure,Cloud / DevOps / Infrastructure,1402,124,803,resume+jd,Azure
+GCP,Cloud / DevOps / Infrastructure,943,91,578,resume+jd,"GCP, Google Cloud"
+GitHub Actions,Cloud / DevOps / Infrastructure,501,333,118,resume+jd,GitHub Actions
+Linux,Cloud / DevOps / Infrastructure,666,95,354,resume+jd,Linux
+Terraform,Cloud / DevOps / Infrastructure,439,40,240,resume+jd,Terraform
+Jenkins,Cloud / DevOps / Infrastructure,325,60,191,resume+jd,Jenkins
+Shell,Cloud / DevOps / Infrastructure,168,78,58,resume+jd,Shell
+Bash,Cloud / DevOps / Infrastructure,146,29,80,resume+jd,Bash
+Prometheus,Cloud / DevOps / Infrastructure,133,28,80,resume+jd,Prometheus
+ECS,Cloud / DevOps / Infrastructure,98,27,56,resume+jd,ECS
+Ansible,Cloud / DevOps / Infrastructure,82,2,57,resume+jd,Ansible
+GitLab CI,Cloud / DevOps / Infrastructure,60,7,39,resume+jd,"GitLab CI, Gitlab Ci"
+Kafka,Databases / Storage / Streaming,968,574,273,resume+jd,Kafka
+PostgreSQL,Databases / Storage / Streaming,913,584,213,resume+jd,PostgreSQL
+Redis,Databases / Storage / Streaming,627,484,101,resume+jd,Redis
+MySQL,Databases / Storage / Streaming,676,401,179,resume+jd,MySQL
+S3,Databases / Storage / Streaming,600,370,154,resume+jd,S3
+NoSQL,Databases / Storage / Streaming,490,65,292,resume+jd,"NoSQL, NoSQL Databases, NoSQL databases"
+Relational Databases,Databases / Storage / Streaming,428,0,282,jd_only,"Relational Databases, Relational databases, relational databases"
+MongoDB,Databases / Storage / Streaming,276,78,137,resume+jd,MongoDB
+DynamoDB,Databases / Storage / Streaming,116,3,87,resume+jd,"DynamoDB, Dynamodb"
+Redshift,Databases / Storage / Streaming,123,3,70,resume+jd,Redshift
+Cassandra,Databases / Storage / Streaming,80,24,41,resume+jd,Cassandra
+Elasticsearch,Databases / Storage / Streaming,76,5,48,resume+jd,Elasticsearch
+Flink,Databases / Storage / Streaming,74,6,47,resume+jd,"Apache Flink, Flink"
+DB2,Databases / Storage / Streaming,31,1,20,resume+jd,"DB2, Db2"
+SSMS,Databases / Storage / Streaming,12,1,5,resume+jd,"SSMS, SSMs, Ssms"
+Azure Blob Storage,Databases / Storage / Streaming,4,1,2,resume+jd,Azure Blob Storage
+Algorithms,Architecture / Systems,1438,130,744,resume+jd,Algorithms
+Distributed Systems,Architecture / Systems,997,79,531,resume+jd,"Distributed Systems, Distributed systems, distributed systems"
+Data Structures,Architecture / Systems,801,124,423,resume+jd,"Data Structures, Data structures, data structures"
+System Design,Architecture / Systems,377,41,217,resume+jd,System Design
+Networking,Architecture / Systems,326,11,193,resume+jd,Networking
+Embedded Systems,Architecture / Systems,253,25,145,resume+jd,"Embedded, Embedded Systems, Embedded systems, embedded systems"
+Object-Oriented Programming,Architecture / Systems,283,0,168,jd_only,"Object-Oriented Programming, Object-Oriented programming, Object-oriented Programming, Object-oriented programming, object-oriented programming"
+Large-Scale Systems,Architecture / Systems,35,1,21,resume+jd,Large-Scale Systems
+Network Protocol,Architecture / Systems,3,3,0,resume_only,Network Protocol
+Agile,Quality & Workflow,1064,27,629,resume+jd,Agile
+Git,Quality & Workflow,843,160,483,resume+jd,Git
+Version Control,Quality & Workflow,429,0,317,jd_only,Version Control
+Scrum,Quality & Workflow,373,114,175,resume+jd,Scrum
+Unit Testing,Quality & Workflow,233,48,133,resume+jd,Unit Testing
+Jira,Quality & Workflow,180,34,116,resume+jd,Jira
+Code Review,Quality & Workflow,165,13,109,resume+jd,Code Review
+TDD,Quality & Workflow,109,34,49,resume+jd,TDD
+Software Testing,Quality & Workflow,94,0,58,jd_only,Software Testing
+JUnit,Quality & Workflow,68,18,39,resume+jd,"JUnit, Junit"
+Playwright,Quality & Workflow,79,12,41,resume+jd,Playwright
+pytest,Quality & Workflow,60,19,27,resume+jd,"PyTest, Pytest, pytest"
+Selenium,Quality & Workflow,72,5,40,resume+jd,"Selenium, Selenium WebDriver, Selenium Webdriver"
+Jest,Quality & Workflow,44,2,34,resume+jd,Jest
+Cypress,Quality & Workflow,46,2,33,resume+jd,Cypress
+Visual Studio,Quality & Workflow,51,1,33,resume+jd,Visual Studio
+Software Test Engineering,Quality & Workflow,31,8,15,resume+jd,Software Test Engineering
+Design Review,Quality & Workflow,16,4,9,resume+jd,Design Review

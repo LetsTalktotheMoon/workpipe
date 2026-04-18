@@ -1,0 +1,257 @@
+{
+  "label": "gen2/Doordash-Backend",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Doordash-Backend",
+    "company": "DoorDash",
+    "title": "Software Engineer, Backend (All Teams)",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "DoorDash is a technology and logistics company focused on empowering local economies through efficient delivery solutions",
+    "tech_required": [
+      "Redis",
+      "NoSQL",
+      "PostgreSQL",
+      "Elasticsearch",
+      "SQL",
+      "REST",
+      "Scala"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/doordash/2026-04-03/67ee0e8efb35b3b96ba75e2b/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 95.6,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.6,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 95.6,
+      "verdict": "pass",
+      "seed_label": "Cisco Backend API",
+      "route_mode": "retarget",
+      "revised": false,
+      "rewrite_adopted": false,
+      "content_changed": false,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-08T03:58:20",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 95.6,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:19:54",
+    "completed_at": "2026-04-17T23:20:59",
+    "duration_seconds": 65.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, bullet 1",
+            "issue": "首句以“Backend Engineer in Transition”开头，先强调转型状态而不是后端角色与领域锚点，削弱了首屏对 DoorDash backend 岗位的即时匹配感。",
+            "fix": "把句首改成直接的角色定位，例如 `Backend Engineer:`，并将“transitioning from analytics”放到句末作为补充说明，而不是主 framing。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 将 Summary 第一句改成直接的 `Backend Engineer` framing，弱化“transitioning from analytics”的首屏占位。",
+        "[NICE] 进一步压缩 Summary 的表述密度，保留 1-2 个最强后端信号，避免首屏信息过载。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 98.0,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 将 Summary 第一句改成直接的 `Backend Engineer` framing，弱化“transitioning from analytics”的首屏占位。",
+        "[NICE] 进一步压缩 Summary 的表述密度，保留 1-2 个最强后端信号，避免首屏信息过载。"
+      ],
+      "revision_instructions": "",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, bullet 1",
+              "issue": "首句以“Backend Engineer in Transition”开头，先强调转型状态而不是后端角色与领域锚点，削弱了首屏对 DoorDash backend 岗位的即时匹配感。",
+              "fix": "把句首改成直接的角色定位，例如 `Backend Engineer:`，并将“transitioning from analytics”放到句末作为补充说明，而不是主 framing。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": []
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[SHOULD] 将 Summary 第一句改成直接的 `Backend Engineer` framing，弱化“transitioning from analytics”的首屏占位。",
+          "[NICE] 进一步压缩 Summary 的表述密度，保留 1-2 个最强后端信号，避免首屏信息过载。"
+        ],
+        "revision_instructions": "",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, bullet 1",
+            "issue": "首句以“Backend Engineer in Transition”开头，先强调转型状态而不是后端角色与领域锚点，削弱了首屏对 DoorDash backend 岗位的即时匹配感。",
+            "fix": "把句首改成直接的角色定位，例如 `Backend Engineer:`，并将“transitioning from analytics”放到句末作为补充说明，而不是主 framing。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

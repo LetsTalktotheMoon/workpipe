@@ -1,0 +1,226 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:36:19",
+  "completed_at": "2026-04-17T23:37:32",
+  "duration_seconds": 73.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening still reads as a transition narrative ('candidate', 'transferable') instead of a direct NLP/ML senior hook, which weakens the first-screen signal.",
+          "fix": "Rewrite the first sentence to start with a role/domain anchor, e.g. 'Senior Data Scientist specializing in NLP and Python-based ML workflows for retrieval and evaluation...'; keep transferability as a secondary clause or remove it."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills > AI/ML; overall body",
+          "issue": "The JD's core Lang-based toolkit family (LangChain / LangGraph) is absent from both Skills and the body, so that required ecosystem coverage is unproven.",
+          "fix": "If true, add one concrete bullet in the most relevant NLP/RAG project showing how LangChain or LangGraph was used (prompt orchestration, retrieval graph, agent routing, or evaluation harness)."
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary / overall experience timeline",
+          "issue": "The resume self-positions as '3+ years' while the JD requires 5+ years of hands-on NLP and Python experience; the visible timeline and bullets do not yet establish the minimum.",
+          "fix": "Only target this JD if you can truthfully add older NLP/Python work that bridges to 5+ years; otherwise this resume is better matched to a lower-seniority NLP/data-science role.",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "Experience > TikTok · Security, bullet 1 and overall latest section",
+          "issue": "The newest section is dominated by percentage lifts without a scale/scope anchor, so the first-page credibility signal is outcome-heavy but not yet clearly senior.",
+          "fix": "Replace one percentage-only TikTok bullet with a concrete scope bullet: internal-user count, case volume, release cadence, or service boundary."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add explicit LangChain/LangGraph evidence in the most relevant NLP/RAG project bullet if true; otherwise the JD's core tool family is unproven.",
+      "[MUST] Fix the experience-depth gap: the resume currently self-states 3+ years while the JD asks for 5+ years of NLP/Python experience.",
+      "[SHOULD] Reframe the summary opening to remove 'candidate/transferable' language and lead with a direct NLP/ML role hook.",
+      "[NICE] Replace one percentage-led bullet in the TikTok section with a scope/ownership bullet."
+    ],
+    "revision_instructions": "[结构性错配] If this resume is meant for Clarivate, it needs a direct senior-NLP story. Add one concrete bullet showing a LangChain or LangGraph workflow, and only keep the JD target if you can truthfully support 5+ years of Python/NLP work; otherwise this role is a stretch. Rewrite the summary to open with role + domain, not 'candidate' or 'transferable', and keep the TikTok section focused on one or two core technologies plus scope context instead of multiple percentage-only outcomes.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 6.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 85.8,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add explicit LangChain/LangGraph evidence in the most relevant NLP/RAG project bullet if true; otherwise the JD's core tool family is unproven.",
+      "[MUST] Fix the experience-depth gap: the resume currently self-states 3+ years while the JD asks for 5+ years of NLP/Python experience.",
+      "[SHOULD] Reframe the summary opening to remove 'candidate/transferable' language and lead with a direct NLP/ML role hook.",
+      "[NICE] Replace one percentage-led bullet in the TikTok section with a scope/ownership bullet."
+    ],
+    "revision_instructions": "[结构性错配] If this resume is meant for Clarivate, it needs a direct senior-NLP story. Add one concrete bullet showing a LangChain or LangGraph workflow, and only keep the JD target if you can truthfully support 5+ years of Python/NLP work; otherwise this role is a stretch. Rewrite the summary to open with role + domain, not 'candidate' or 'transferable', and keep the TikTok section focused on one or two core technologies plus scope context instead of multiple percentage-only outcomes.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening still reads as a transition narrative ('candidate', 'transferable') instead of a direct NLP/ML senior hook, which weakens the first-screen signal.",
+            "fix": "Rewrite the first sentence to start with a role/domain anchor, e.g. 'Senior Data Scientist specializing in NLP and Python-based ML workflows for retrieval and evaluation...'; keep transferability as a secondary clause or remove it."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills > AI/ML; overall body",
+            "issue": "The JD's core Lang-based toolkit family (LangChain / LangGraph) is absent from both Skills and the body, so that required ecosystem coverage is unproven.",
+            "fix": "If true, add one concrete bullet in the most relevant NLP/RAG project showing how LangChain or LangGraph was used (prompt orchestration, retrieval graph, agent routing, or evaluation harness)."
+          },
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / overall experience timeline",
+            "issue": "The resume self-positions as '3+ years' while the JD requires 5+ years of hands-on NLP and Python experience; the visible timeline and bullets do not yet establish the minimum.",
+            "fix": "Only target this JD if you can truthfully add older NLP/Python work that bridges to 5+ years; otherwise this resume is better matched to a lower-seniority NLP/data-science role.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Experience > TikTok · Security, bullet 1 and overall latest section",
+            "issue": "The newest section is dominated by percentage lifts without a scale/scope anchor, so the first-page credibility signal is outcome-heavy but not yet clearly senior.",
+            "fix": "Replace one percentage-only TikTok bullet with a concrete scope bullet: internal-user count, case volume, release cadence, or service boundary."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add explicit LangChain/LangGraph evidence in the most relevant NLP/RAG project bullet if true; otherwise the JD's core tool family is unproven.",
+        "[MUST] Fix the experience-depth gap: the resume currently self-states 3+ years while the JD asks for 5+ years of NLP/Python experience.",
+        "[SHOULD] Reframe the summary opening to remove 'candidate/transferable' language and lead with a direct NLP/ML role hook.",
+        "[NICE] Replace one percentage-led bullet in the TikTok section with a scope/ownership bullet."
+      ],
+      "revision_instructions": "[结构性错配] If this resume is meant for Clarivate, it needs a direct senior-NLP story. Add one concrete bullet showing a LangChain or LangGraph workflow, and only keep the JD target if you can truthfully support 5+ years of Python/NLP work; otherwise this role is a stretch. Rewrite the summary to open with role + domain, not 'candidate' or 'transferable', and keep the TikTok section focused on one or two core technologies plus scope context instead of multiple percentage-only outcomes.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills > AI/ML; overall body",
+          "issue": "The JD's core Lang-based toolkit family (LangChain / LangGraph) is absent from both Skills and the body, so that required ecosystem coverage is unproven.",
+          "fix": "If true, add one concrete bullet in the most relevant NLP/RAG project showing how LangChain or LangGraph was used (prompt orchestration, retrieval graph, agent routing, or evaluation harness)."
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary / overall experience timeline",
+          "issue": "The resume self-positions as '3+ years' while the JD requires 5+ years of hands-on NLP and Python experience; the visible timeline and bullets do not yet establish the minimum.",
+          "fix": "Only target this JD if you can truthfully add older NLP/Python work that bridges to 5+ years; otherwise this resume is better matched to a lower-seniority NLP/data-science role.",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening still reads as a transition narrative ('candidate', 'transferable') instead of a direct NLP/ML senior hook, which weakens the first-screen signal.",
+          "fix": "Rewrite the first sentence to start with a role/domain anchor, e.g. 'Senior Data Scientist specializing in NLP and Python-based ML workflows for retrieval and evaluation...'; keep transferability as a secondary clause or remove it."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "Experience > TikTok · Security, bullet 1 and overall latest section",
+          "issue": "The newest section is dominated by percentage lifts without a scale/scope anchor, so the first-page credibility signal is outcome-heavy but not yet clearly senior.",
+          "fix": "Replace one percentage-only TikTok bullet with a concrete scope bullet: internal-user count, case volume, release cadence, or service boundary."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-001",
+          "P3B-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3B-001",
+      "P3B-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills > AI/ML; overall body",
+      "P3B-010 @ Professional Summary / overall experience timeline"
+    ]
+  }
+}

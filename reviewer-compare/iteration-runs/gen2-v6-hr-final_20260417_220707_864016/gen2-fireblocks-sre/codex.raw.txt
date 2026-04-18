@@ -1,0 +1,45 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "Professional Summary, 3 bullets",
+        "issue": "Summary bullets are positioning statements rather than action-led bullets, so they scan less cleanly under the stated formatting rule.",
+        "fix": "Rewrite each summary line to start with an action verb or role-action phrase, for example: \"Builds reliability-focused backend services...\", \"Operates cloud and platform tooling...\", \"Applies systems judgment to complex analysis...\"."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience project bullets; DiDi Experience project bullets",
+        "issue": "`team-maintained` is bolded in multiple bullets. The bolding rule only allows emphasis on technologies and quantitative signals outside Skills.",
+        "fix": "Remove bold from qualifier words such as `team-maintained`, and keep bold only on stack terms and metrics."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, bullet 1",
+        "issue": "The opening sentence still foregrounds a transition from data analysis to software engineering, so the first-screen framing is weaker than a direct SRE/backend pitch.",
+        "fix": "Lead with `Security-focused backend engineer` or `Reliability-focused backend/SRE engineer`, then move the transition clause later in the sentence or trim it."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rework Professional Summary bullet 1 so it opens with a direct backend/SRE/security identity instead of the career-transition clause.",
+    "[SHOULD] Make the three Summary bullets more action-led for faster scanability.",
+    "[SHOULD] Remove bold from qualifier phrases like `team-maintained` and keep emphasis only on technologies and key metrics.",
+    "[NICE] If you want a stronger Fireblocks fit, add one bridge phrase connecting security ops, auditability, or release hardening to secure infrastructure."
+  ],
+  "revision_instructions": ""
+}

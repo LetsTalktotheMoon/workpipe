@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 3",
+        "issue": "The header 'Structured Problem Solver' is generic and reads more like a soft skill than a strong cognition signal, so it weakens the first-screen hook.",
+        "fix": "Replace it with a sharper cognition header such as 'Systems judgment:' or 'Decision-making:' and keep the Algorithms/Data Structures evidence underneath."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Replace the third Summary header with a stronger cognition label such as 'Systems judgment:' or 'Decision-making:'.",
+    "[NICE] Keep the current TikTok and DiDi bullets as-is; they already provide the needed backend and distributed-systems bridge for Dataminr."
+  ],
+  "revision_instructions": ""
+}

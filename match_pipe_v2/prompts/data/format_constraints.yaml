@@ -1,0 +1,85 @@
+shared_head: |-
+  ## 格式硬约束（违反=直接FAIL）
+
+  **结构规则**
+  - Summary: 恰好 3 句，每句格式：`* **角色定位短语:** 叙述句。`
+experience_order:
+  tiktok:
+  - '- Experience 顺序: **严格倒序** — TikTok（2025）→ DiDi（2022-2024）→ Temu（2021-2022）'
+  bytedance:
+  - '- Experience 顺序: **严格倒序** — DiDi（2022-2024）→ Temu（2021-2022）'
+immutable_fields:
+  heading: '**不可变字段（绝不可修改）**'
+  tiktok: |-
+    - TikTok: Software Engineer Intern | TikTok · Security | Jun 2025 – Dec 2025 | San Jose, USA
+    {{ data.sentences.didi_immutable }}
+    {{ data.sentences.temu_immutable }}
+  bytedance: |-
+    {{ data.sentences.didi_immutable }}
+    {{ data.sentences.temu_immutable }}
+    - TikTok / ByteDance intern experience must be absent for ByteDance target roles.
+scope_rules:
+  heading: '**职级 Scope 规则**'
+  tiktok:
+  - |-
+    - TikTok (intern, 6个月): 禁用 Led/Architected/Drove/Spearheaded/Managed；体现个人贡献，不主张架构决策
+      → bullet 数量建议 **4-5 条**（6个月实习期内独立成就不超过 5 条，超出则可信度下降）
+  bytedance:
+  - '- ByteDance 目标岗位: 不允许出现 TikTok / ByteDance intern；需要更多 SWE 证据时，优先把 Georgia Tech
+    CS coursework/projects 作为主力软件工程/系统实现证据，而不是回填该实习。'
+  didi:
+  - '- DiDi (mid-senior acting lead): 可用 Led/Coordinated/Drove；可展示 13 人跨职能团队领导力'
+  didi_global_bullet: '   {{ data.sentences.represented_the_headquarters_data_organization_in
+    }} '
+  temu:
+  - '- Temu (junior): 禁用 Led/Architected/Drove/Spearheaded；仅体现 individual contributor
+    贡献'
+shared_mid: |-
+  - 每段经历: 4-6 条 bullet，至少 1 条含量化数据
+  - 项目: 恰好 2 个（至少1个来自工作经历），每项目 4-6 条 bullet
+  - 项目位置: 项目紧跟对应经历，不单独设 `## Projects` section
+  - 项目背景行: 每个项目标题下必须紧接一行 `> ` 开头的 blockquote（一句话说明业务痛点/背景，不是重复项目标题），然后才是 bullet 列表
+  - DiDi scope note 若出现，必须是简短身份说明，不承担全部 leadership/decision story；推荐写法：
+    {{ data.sentences.didi_scope_note }}
+
+  **SKILLS 一致性规则（最重要）**
+  - SKILLS 优先分 2-4 个类别；如为满足行宽约束可扩到 5 类
+  - 不允许出现孤行：单个 Skills 类别少于 **4** 个技术栈必须合并到相邻类别
+  - 每行（含类别标题）总词数必须 **≤ 14**；这是硬性标准，超过即 FAIL
+  - SKILLS 中只有分类标题使用 `**加粗**`，分类内技术栈一律纯文本逗号分隔，不要给单个技术栈加粗
+  - SKILLS 中每个技术栈**必须**在至少一条经历 bullet 或项目 bullet 中出现
+  - 经历/项目 bullet 中出现的每个技术栈**必须**在 SKILLS 中出现
+  - Summary 中提及的技术栈也必须在 SKILLS 中
+  - 禁止 SKILLS 中出现正文没有的技术栈（哪怕是 JD 要求的）
+  - 但对目标 JD 的 must-have 技术，不允许通过“删除 SKILLS/summary 中该技术”来规避问题；必须在正文补足实质使用证据
+
+  **内容规则**
+  - 每条 bullet: 强动词开头 + 技术实现 + 业务/量化结果（XYZ格式）
+  - 加粗规则（精确执行，不得扩大）：
+    1. **技术栈名词**：语言/框架/工具/平台（如 Go, React, PostgreSQL, AWS Bedrock）— 必须加粗
+    2. **量化数字及其直接关联词**：数字本身及紧跟的变化描述（如 `**32%**`、`**6** to **2**`、`**18 minutes**`）— 必须加粗
+    3. **业务实体名词**：具名产品/服务/系统（如 `**security evidence service**`、`**merchant onboarding**`、`**City Launch Ops**`）— 必须加粗
+    4. **禁止加粗修饰语**：`team-maintained`、`team-owned`、`intern-owned`、`existing`、`internal`、`our` 等限定词不得加粗
+    5. **禁止加粗动词/结构词**：`workflow`、`pipeline`、`dashboard`、`process` 等纯结构描述词不得加粗（除非是已命名产品名称的一部分）
+  - 所有 bullet 以英文句号 `.` 结尾
+  - 禁止词: Passionate, Dedicated, Highly motivated, Hardworking, Enthusiastic, Self-starter, Detail-oriented, Team player, Results-driven
+  - 跨经历 bullet 叙事结构不得逐条相同，技术栈需有差异化分布
+shared_tail: |-
+  **数字合理性规则（违反 = r4 高风险）**
+  - 改善幅度 > 70%：必须加范围限定语，例如：
+    "within team-owned service" / "on our internal dataset" / "in controlled staging tests"
+  - 改善幅度 > 90%：极为可疑，需降至 80% 以下，或拆分为绝对值表述（如 "from 12 min to 2 min"）
+  - 规模数字（如 1M+、100K+）：必须带来源限定，例如 "within a team-maintained pipeline" / "contributing to a service processing…"
+  - 不可同时在同一 bullet 内堆叠 3 个以上量化数字
+
+  **围棋成就**
+  - 融入 Summary 第 3 句，衔接目标岗位某一必要特质（如模式识别/战略思维/复杂系统决策）
+  - Summary 第 3 句的 header 必须是高价值认知信号，如 `Strategic Pattern Recognition` / `Analytical Decision-Making` / `Systems Judgment`
+  - 禁止把围棋写进 `Collaboration` / `Teamwork` / `Problem Solver` / `Delivery Fit` 一类低信号 header
+  - 措辞（Summary 中）：中国国家认证围棋二段棋手，2022年城市赛冠军，2023年城市赛季军
+
+  **Achievements section 规范（不可变）**
+  - 恰好 1 条 bullet，固定格式：
+    `* China national certified Go **2-dan** — city **champion** (2022) and third place (2023).`
+  - 加粗仅限 `2-dan`（等级凭据）和 `champion`（最高成就）；年份作为括注，不加粗
+  - section header 必须为 `## Achievements`，不得写成 `## Additional Information` 或其他变体

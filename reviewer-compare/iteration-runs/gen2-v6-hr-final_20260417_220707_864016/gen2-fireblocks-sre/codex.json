@@ -1,0 +1,188 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:09:39",
+  "completed_at": "2026-04-17T22:10:54",
+  "duration_seconds": 75.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary, 3 bullets",
+          "issue": "Summary bullets are positioning statements rather than action-led bullets, so they scan less cleanly under the stated formatting rule.",
+          "fix": "Rewrite each summary line to start with an action verb or role-action phrase, for example: \"Builds reliability-focused backend services...\", \"Operates cloud and platform tooling...\", \"Applies systems judgment to complex analysis...\"."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience project bullets; DiDi Experience project bullets",
+          "issue": "`team-maintained` is bolded in multiple bullets. The bolding rule only allows emphasis on technologies and quantitative signals outside Skills.",
+          "fix": "Remove bold from qualifier words such as `team-maintained`, and keep bold only on stack terms and metrics."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, bullet 1",
+          "issue": "The opening sentence still foregrounds a transition from data analysis to software engineering, so the first-screen framing is weaker than a direct SRE/backend pitch.",
+          "fix": "Lead with `Security-focused backend engineer` or `Reliability-focused backend/SRE engineer`, then move the transition clause later in the sentence or trim it."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rework Professional Summary bullet 1 so it opens with a direct backend/SRE/security identity instead of the career-transition clause.",
+      "[SHOULD] Make the three Summary bullets more action-led for faster scanability.",
+      "[SHOULD] Remove bold from qualifier phrases like `team-maintained` and keep emphasis only on technologies and key metrics.",
+      "[NICE] If you want a stronger Fireblocks fit, add one bridge phrase connecting security ops, auditability, or release hardening to secure infrastructure."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 8.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rework Professional Summary bullet 1 so it opens with a direct backend/SRE/security identity instead of the career-transition clause.",
+      "[SHOULD] Make the three Summary bullets more action-led for faster scanability.",
+      "[SHOULD] Remove bold from qualifier phrases like `team-maintained` and keep emphasis only on technologies and key metrics.",
+      "[NICE] If you want a stronger Fireblocks fit, add one bridge phrase connecting security ops, auditability, or release hardening to secure infrastructure."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "Professional Summary, 3 bullets",
+            "issue": "Summary bullets are positioning statements rather than action-led bullets, so they scan less cleanly under the stated formatting rule.",
+            "fix": "Rewrite each summary line to start with an action verb or role-action phrase, for example: \"Builds reliability-focused backend services...\", \"Operates cloud and platform tooling...\", \"Applies systems judgment to complex analysis...\"."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience project bullets; DiDi Experience project bullets",
+            "issue": "`team-maintained` is bolded in multiple bullets. The bolding rule only allows emphasis on technologies and quantitative signals outside Skills.",
+            "fix": "Remove bold from qualifier words such as `team-maintained`, and keep bold only on stack terms and metrics."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, bullet 1",
+            "issue": "The opening sentence still foregrounds a transition from data analysis to software engineering, so the first-screen framing is weaker than a direct SRE/backend pitch.",
+            "fix": "Lead with `Security-focused backend engineer` or `Reliability-focused backend/SRE engineer`, then move the transition clause later in the sentence or trim it."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Rework Professional Summary bullet 1 so it opens with a direct backend/SRE/security identity instead of the career-transition clause.",
+        "[SHOULD] Make the three Summary bullets more action-led for faster scanability.",
+        "[SHOULD] Remove bold from qualifier phrases like `team-maintained` and keep emphasis only on technologies and key metrics.",
+        "[NICE] If you want a stronger Fireblocks fit, add one bridge phrase connecting security ops, auditability, or release hardening to secure infrastructure."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary, 3 bullets",
+          "issue": "Summary bullets are positioning statements rather than action-led bullets, so they scan less cleanly under the stated formatting rule.",
+          "fix": "Rewrite each summary line to start with an action verb or role-action phrase, for example: \"Builds reliability-focused backend services...\", \"Operates cloud and platform tooling...\", \"Applies systems judgment to complex analysis...\"."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience project bullets; DiDi Experience project bullets",
+          "issue": "`team-maintained` is bolded in multiple bullets. The bolding rule only allows emphasis on technologies and quantitative signals outside Skills.",
+          "fix": "Remove bold from qualifier words such as `team-maintained`, and keep bold only on stack terms and metrics."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, bullet 1",
+          "issue": "The opening sentence still foregrounds a transition from data analysis to software engineering, so the first-screen framing is weaker than a direct SRE/backend pitch.",
+          "fix": "Lead with `Security-focused backend engineer` or `Reliability-focused backend/SRE engineer`, then move the transition clause later in the sentence or trim it."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-030",
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-030",
+      "P1-042",
+      "P2-001"
+    ],
+    "high_or_critical": []
+  }
+}

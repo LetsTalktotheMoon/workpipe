@@ -23,6 +23,7 @@
 保留的真实资产：
 
 - `data/deliverables/resume_portfolio` 是已迁入新项目的真实 deliverables 副本
+- `data/job_tracker/jobs_catalog.json` 是项目默认读取的全量岗位 catalog
 - `data/job_tracker/scraped_jobs.json` 是本地抓取缓存
 - `data/seed_sources/` 是已本地化的 promoted seed 来源
 

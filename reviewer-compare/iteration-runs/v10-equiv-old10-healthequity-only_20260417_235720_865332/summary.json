@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-04-17T23:58:41",
+  "case_count": 1,
+  "cases": [
+    {
+      "label": "extra/HealthEquity-DotNet",
+      "score": 84.3,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 3,
+      "medium_count": 1,
+      "low_count": 0,
+      "duration_seconds": 80.0,
+      "top_rules": [
+        "P1-040",
+        "P2-001",
+        "P3B-010",
+        "P3B-011"
+      ]
+    }
+  ]
+}

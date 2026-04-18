@@ -1,0 +1,221 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:55:04",
+  "completed_at": "2026-04-17T22:56:08",
+  "duration_seconds": 64.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "Opening frame is 'Backend Engineer in Transition' and foregrounds a move from analytics instead of a backend ownership signal.",
+          "fix": "Rewrite the first sentence to lead with backend scope and domain, for example: 'Backend engineer building REST and microservice systems for security and delivery workflows, with 3+ years across Java, Go, Python, and Scala.'"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Skills / Summary / Experience",
+          "issue": "Programming-language breadth is presented as core daily stack across Java, Go, Python, and Scala, with use-level evidence in multiple sections. For an entry backend resume, that reads as breadth-heavy stack stuffing unless one primary language is foregrounded.",
+          "fix": "Keep 2 primary backend languages in Summary and Skills, and move the other languages into the specific bullets where they were used so the first screen reads as focused ownership rather than broad language sampling."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "The latest experience relies almost entirely on improvement metrics such as 11 to 4 minutes, 24%, 31%, and 28% without an explicit scale or scope anchor, so the first read does not show system size or ownership boundary.",
+          "fix": "Add one concrete scope signal to the first bullet or project intro, such as team-owned service boundary, request volume, document count, or release cadence, while keeping the current outcome metrics."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "Temu · R&D",
+          "issue": "This section is entirely time or percentage lift based and lacks a scope anchor, so the impact reads as generic analysis optimization rather than system or ownership work.",
+          "fix": "Add one concrete scope signal, such as data volume, number of workflows or dashboards, or the engineering handoff boundary, to at least one bullet."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opening to foreground backend scope and domain, not transition narrative.",
+      "[MUST] Reduce the core language stack in Summary and Skills to 2 primary backend languages, and keep the others only in the bullets where they are proven.",
+      "[SHOULD] Add one explicit scope anchor to the latest quantified bullets, especially TikTok and Temu, so impact is not just percentage or time deltas.",
+      "[NICE] Bold the strongest result numbers in the lead bullets of each experience for faster human scanning."
+    ],
+    "revision_instructions": "[MUST] Replace the first Summary sentence with a backend-first framing that leads with REST/microservices and the target domain, not 'transitioning from analytics'. [MUST] Narrow the headline language stack to 2 primary languages in Summary/Skills; preserve the other languages only in the exact bullets where they were used. [MUST] Add one scope anchor to the latest TikTok bullets and one to Temu, such as service boundary, team size, request volume, data volume, or release cadence, so the resume reads as ownership-driven rather than metric-only. [SHOULD] If you want cleaner scanability, bold the most important numbers in the lead bullet of each role.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.8,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary opening to foreground backend scope and domain, not transition narrative.",
+      "[MUST] Reduce the core language stack in Summary and Skills to 2 primary backend languages, and keep the others only in the bullets where they are proven.",
+      "[SHOULD] Add one explicit scope anchor to the latest quantified bullets, especially TikTok and Temu, so impact is not just percentage or time deltas.",
+      "[NICE] Bold the strongest result numbers in the lead bullets of each experience for faster human scanning."
+    ],
+    "revision_instructions": "[MUST] Replace the first Summary sentence with a backend-first framing that leads with REST/microservices and the target domain, not 'transitioning from analytics'. [MUST] Narrow the headline language stack to 2 primary languages in Summary/Skills; preserve the other languages only in the exact bullets where they were used. [MUST] Add one scope anchor to the latest TikTok bullets and one to Temu, such as service boundary, team size, request volume, data volume, or release cadence, so the resume reads as ownership-driven rather than metric-only. [SHOULD] If you want cleaner scanability, bold the most important numbers in the lead bullet of each role.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "Opening frame is 'Backend Engineer in Transition' and foregrounds a move from analytics instead of a backend ownership signal.",
+            "fix": "Rewrite the first sentence to lead with backend scope and domain, for example: 'Backend engineer building REST and microservice systems for security and delivery workflows, with 3+ years across Java, Go, Python, and Scala.'"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Skills / Summary / Experience",
+            "issue": "Programming-language breadth is presented as core daily stack across Java, Go, Python, and Scala, with use-level evidence in multiple sections. For an entry backend resume, that reads as breadth-heavy stack stuffing unless one primary language is foregrounded.",
+            "fix": "Keep 2 primary backend languages in Summary and Skills, and move the other languages into the specific bullets where they were used so the first screen reads as focused ownership rather than broad language sampling."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security",
+            "issue": "The latest experience relies almost entirely on improvement metrics such as 11 to 4 minutes, 24%, 31%, and 28% without an explicit scale or scope anchor, so the first read does not show system size or ownership boundary.",
+            "fix": "Add one concrete scope signal to the first bullet or project intro, such as team-owned service boundary, request volume, document count, or release cadence, while keeping the current outcome metrics."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Temu · R&D",
+            "issue": "This section is entirely time or percentage lift based and lacks a scope anchor, so the impact reads as generic analysis optimization rather than system or ownership work.",
+            "fix": "Add one concrete scope signal, such as data volume, number of workflows or dashboards, or the engineering handoff boundary, to at least one bullet."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the Summary opening to foreground backend scope and domain, not transition narrative.",
+        "[MUST] Reduce the core language stack in Summary and Skills to 2 primary backend languages, and keep the others only in the bullets where they are proven.",
+        "[SHOULD] Add one explicit scope anchor to the latest quantified bullets, especially TikTok and Temu, so impact is not just percentage or time deltas.",
+        "[NICE] Bold the strongest result numbers in the lead bullets of each experience for faster human scanning."
+      ],
+      "revision_instructions": "[MUST] Replace the first Summary sentence with a backend-first framing that leads with REST/microservices and the target domain, not 'transitioning from analytics'. [MUST] Narrow the headline language stack to 2 primary languages in Summary/Skills; preserve the other languages only in the exact bullets where they were used. [MUST] Add one scope anchor to the latest TikTok bullets and one to Temu, such as service boundary, team size, request volume, data volume, or release cadence, so the resume reads as ownership-driven rather than metric-only. [SHOULD] If you want cleaner scanability, bold the most important numbers in the lead bullet of each role.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Skills / Summary / Experience",
+          "issue": "Programming-language breadth is presented as core daily stack across Java, Go, Python, and Scala, with use-level evidence in multiple sections. For an entry backend resume, that reads as breadth-heavy stack stuffing unless one primary language is foregrounded.",
+          "fix": "Keep 2 primary backend languages in Summary and Skills, and move the other languages into the specific bullets where they were used so the first screen reads as focused ownership rather than broad language sampling."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "Opening frame is 'Backend Engineer in Transition' and foregrounds a move from analytics instead of a backend ownership signal.",
+          "fix": "Rewrite the first sentence to lead with backend scope and domain, for example: 'Backend engineer building REST and microservice systems for security and delivery workflows, with 3+ years across Java, Go, Python, and Scala.'"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "The latest experience relies almost entirely on improvement metrics such as 11 to 4 minutes, 24%, 31%, and 28% without an explicit scale or scope anchor, so the first read does not show system size or ownership boundary.",
+          "fix": "Add one concrete scope signal to the first bullet or project intro, such as team-owned service boundary, request volume, document count, or release cadence, while keeping the current outcome metrics."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "Temu · R&D",
+          "issue": "This section is entirely time or percentage lift based and lacks a scope anchor, so the impact reads as generic analysis optimization rather than system or ownership work.",
+          "fix": "Add one concrete scope signal, such as data volume, number of workflows or dashboards, or the engineering handoff boundary, to at least one bullet."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3C-010",
+          "P3D-001",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3C-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ Skills / Summary / Experience"
+    ]
+  }
+}

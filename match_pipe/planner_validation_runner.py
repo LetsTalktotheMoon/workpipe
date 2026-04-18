@@ -15,27 +15,23 @@ if str(RUNTIME_ROOT) not in sys.path:
     sys.path.insert(0, str(RUNTIME_ROOT))
 
 from core.anthropic_client import LLMUnavailableError, configure_llm_client, get_llm_client
-from core.prompt_builder import (
-    MASTER_WRITER_SYSTEM,
-    build_master_writer_prompt,
-    build_unified_review_prompt,
+from job_webapp.prompt_library import (
+    build_match_pipe_planner_prompt,
+    build_match_pipe_unified_review_prompt,
+    build_match_pipe_writer_prompt_from_planner,
+    build_match_pipe_writer_revision_prompt,
+    match_pipe_planner_system_prompt,
+    match_pipe_reviewer_system_prompt,
+    match_pipe_upgrade_revision_system_prompt,
+    match_pipe_writer_system_prompt,
 )
 from models.jd import JDProfile
 from pipeline.revision_acceptance import should_adopt_revision
-from reviewers.unified_reviewer import UNIFIED_REVIEWER_SYSTEM, UnifiedReviewer
+from reviewers.unified_reviewer import UnifiedReviewer
 from writers.master_writer import MasterWriter
 
 from .loader import load_job_documents
 from .starter_selector import StarterSelector
-
-
-PLANNER_SYSTEM = """你是简历流程里的 Planner。你的职责不是直接写简历，而是基于 JD、matcher 证据和可选历史简历 starter，判断：
-1. 这份 starter 是否适合作为起点；
-2. 是否可以直接送 Reviewer；
-3. 如果需要写作，哪些内容已覆盖、哪些缺失、哪些存在真实性/ownership/scope 风险；
-4. Writer 应如何改写，优先级如何排序。
-
-必须输出 JSON，不要输出解释性文字。不要复述 schema。"""
 
 
 def _estimate_tokens(text: str) -> int:
@@ -58,8 +54,8 @@ def _serialize_review(review) -> dict[str, Any]:
 
 
 def _review_prompt_tokens(jd: JDProfile, resume_md: str, review_summary) -> tuple[int, int]:
-    prompt = build_unified_review_prompt(resume_md, jd, review_scope="full")
-    prompt_tokens = _estimate_tokens(UNIFIED_REVIEWER_SYSTEM) + _estimate_tokens(prompt)
+    prompt = build_match_pipe_unified_review_prompt(resume_md, jd, review_scope="full")
+    prompt_tokens = _estimate_tokens(match_pipe_reviewer_system_prompt()) + _estimate_tokens(prompt)
     call_count = len(review_summary.calibration_scores) if review_summary.calibrated and review_summary.calibration_scores else 1
     output_tokens = _estimate_tokens(review_summary.raw_response) * call_count
     return prompt_tokens * call_count, output_tokens
@@ -118,59 +114,6 @@ def _build_matcher_packet(selector_payload: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def _planner_prompt(
-    *,
-    jd: JDProfile,
-    mode: str,
-    matcher_packet: dict[str, Any] | None = None,
-    starter_resume_md: str = "",
-) -> str:
-    matcher_block = json.dumps(matcher_packet or {}, indent=2, ensure_ascii=False)
-    starter_block = starter_resume_md if starter_resume_md else "（无 starter resume）"
-    return f"""请作为 Planner，基于以下信息做流程决策。
-
-目标模式: {mode}
-
-目标 JD:
-- 公司: {jd.company}
-- 职位: {jd.title}
-- role_type: {jd.role_type}
-- seniority: {jd.seniority}
-- must-have 技术: {jd.tech_required}
-- preferred 技术: {jd.tech_preferred}
-
-Matcher Packet:
-```json
-{matcher_block}
-```
-
-Starter Resume:
-```md
-{starter_block}
-```
-
-返回 JSON，schema 必须包含：
-{{
-  "decision": "write" | "direct_review" | "reject_starter",
-  "fit_label": "high" | "medium" | "low",
-  "reuse_ratio_estimate": 0.0,
-  "already_covered": ["..."],
-  "missing_or_weak": ["..."],
-  "risk_flags": ["..."],
-  "role_seniority_guidance": ["..."],
-  "planner_summary": "...",
-  "writer_plan": ["..."],
-  "direct_review_rationale": "..."
-}}
-
-规则：
-1. no_starter 模式下 decision 只能是 "write"。
-2. 如果 starter 已经高度贴合且 scope/真实性风险低，可以 direct_review。
-3. 如果 starter 语义相近但需要改写，选 write。
-4. 如果 starter 虽相似但会明显误导 summary / ownership / 项目骨架 / scope，选 reject_starter。
-5. 不要把 matcher 的相似度直接等同于可写作适配度。"""
-
-
 def _plan_flow(
     *,
     jd: JDProfile,
@@ -181,102 +124,19 @@ def _plan_flow(
     planner_model: str,
 ) -> tuple[dict[str, Any], int, int]:
     client = get_llm_client()
-    prompt = _planner_prompt(jd=jd, mode=mode, matcher_packet=matcher_packet, starter_resume_md=starter_resume_md)
+    prompt = build_match_pipe_planner_prompt(
+        jd=jd,
+        mode=mode,
+        matcher_packet=matcher_packet,
+        starter_resume_md=starter_resume_md,
+    )
     payload = client.call_json(
         prompt,
         model=planner_model,
         cache_key=client.make_cache_key(jd.jd_id or "unknown", jd.company or "", jd.title or "", cache_key_suffix),
-        system=PLANNER_SYSTEM,
+        system=match_pipe_planner_system_prompt(),
     )
-    return payload, _estimate_tokens(prompt) + _estimate_tokens(PLANNER_SYSTEM), _estimate_tokens(json.dumps(payload, ensure_ascii=False))
-
-
-def _writer_prompt_from_planner(
-    *,
-    jd: JDProfile,
-    planner_payload: dict[str, Any],
-    starter_resume_md: str = "",
-    matcher_packet: dict[str, Any] | None = None,
-) -> str:
-    base = build_master_writer_prompt(jd)
-    planner_json = json.dumps(planner_payload, indent=2, ensure_ascii=False)
-    matcher_json = json.dumps(matcher_packet or {}, indent=2, ensure_ascii=False)
-    starter_block = starter_resume_md if starter_resume_md else "（无 starter resume）"
-    return f"""{base}
-
-## Planner Decision
-```json
-{planner_json}
-```
-
-## Matcher Evidence
-```json
-{matcher_json}
-```
-
-## Historical Starter Resume
-```md
-{starter_block}
-```
-
-## Planner-first Rules
-- 如果给了 starter resume，把它视为可复用参考骨架，而不是必须保留的模板。
-- 优先遵循 planner 对 coverage / missing / risk / role-seniority framing 的判断。
-- 如果 planner 指出了 scope 或真实性风险，必须主动改写 summary、ownership 和项目 framing。
-- 如果 planner 认为 starter 可高比例复用，可保留高价值证据，但仍以目标 JD 为准。
-"""
-
-
-def _writer_revision_prompt(current_resume_md: str, review, jd: JDProfile, planner_payload: dict[str, Any]) -> str:
-    planner_notes = "\n".join(f"- {item}" for item in planner_payload.get("writer_plan", []))
-    risk_notes = "\n".join(f"- {item}" for item in planner_payload.get("risk_flags", []))
-    priority = "\n".join(f"{idx + 1}. {item}" for idx, item in enumerate(review.revision_priority or []))
-    findings: list[str] = []
-    for dim_id, dim in review.dimensions.items():
-        for finding in dim.findings:
-            if finding.get("severity") in {"critical", "high", "medium"}:
-                findings.append(
-                    f"[{dim_id}] [{str(finding.get('severity', '')).upper()}] "
-                    f"{finding.get('field', '')}: {finding.get('issue', '')} -> {finding.get('fix', '')}"
-                )
-    findings_block = "\n".join(f"- {item}" for item in findings) or "- 无结构化高优先发现"
-    must_have = ", ".join(jd.tech_required) if jd.tech_required else "（无明确 must-have）"
-    return f"""{build_master_writer_prompt(jd)}
-
-## Planner-first Revision Context
-- 当前版本评分: {review.weighted_score:.1f}/100
-- 当前是否通过: {"PASS" if review.passed else "FAIL"}
-- 当前 reviewer 是否要求继续修改: {"是" if review.needs_revision else "否"}
-- 当前目标不是保留旧稿，而是基于 reviewer 与 planner 的判断，把简历提升到更稳的 pass。
-
-## Planner Carry-over
-{planner_notes or "- 无额外 writer plan"}
-
-## Planner Risks
-{risk_notes or "- 无额外风险"}
-
-## Reviewer Priority
-{priority or "1. Raise the resume to a stronger pass."}
-
-## Reviewer Findings
-{findings_block}
-
-## Must-have Tech
-- {must_have}
-
-## Existing Resume Draft To Revise
-```md
-{current_resume_md}
-```
-
-## Revision Rules
-- 这是一次以目标 JD 为准的升级式改写任务。
-- 不要保留任何只是因为旧稿已经存在、但不再服务目标 JD 的 summary framing、ownership framing 或 bullet 结构。
-- 如果 planner 指出了 starter 的 scope、真实性、角色定位或 seniority 风险，必须优先修正。
-- 如果 reviewer 指出了 JD 缺口，优先补正文证据，而不是删除 must-have 技术。
-- 允许重写 summary、skills 分组、bullet 取舍、project baseline 和经历 framing，但不得破坏不可变字段与职业主线真实性。
-- 输出完整简历 Markdown，不要解释。
-"""
+    return payload, _estimate_tokens(prompt) + _estimate_tokens(match_pipe_planner_system_prompt()), _estimate_tokens(json.dumps(payload, ensure_ascii=False))
 
 
 def _review_direct_or_written(
@@ -293,7 +153,13 @@ def _review_direct_or_written(
     started_at: float,
     writer_rounds: int,
 ) -> FlowResult:
-    review = reviewer.review(initial_resume_md, jd, mode="full")
+    review = reviewer.review(
+        initial_resume_md,
+        jd,
+        mode="full",
+        prompt_override=build_match_pipe_unified_review_prompt(initial_resume_md, jd, review_scope="full"),
+        system_prompt_override=match_pipe_reviewer_system_prompt(),
+    )
     reviewer_rounds = 1
     total_writer_prompt_tokens = writer_prompt_tokens
     total_writer_output_tokens = _estimate_tokens(initial_resume_md) if writer_rounds else 0
@@ -301,9 +167,21 @@ def _review_direct_or_written(
 
     while not review.passed and review.needs_revision and writer_rounds < 2:
         writer_rounds += 1
-        revision_prompt = _writer_revision_prompt(current_resume_md, review, jd, planner_payload)
-        revised_md = writer.revise(current_resume_md, revision_prompt, jd, rewrite_mode="upgrade")
-        revised_review = reviewer.review(revised_md, jd, mode="full")
+        revision_prompt = build_match_pipe_writer_revision_prompt(current_resume_md, review, jd, planner_payload)
+        revised_md = writer.revise(
+            current_resume_md,
+            revision_prompt,
+            jd,
+            rewrite_mode="upgrade",
+            system_prompt_override=match_pipe_upgrade_revision_system_prompt(),
+        )
+        revised_review = reviewer.review(
+            revised_md,
+            jd,
+            mode="full",
+            prompt_override=build_match_pipe_unified_review_prompt(revised_md, jd, review_scope="full"),
+            system_prompt_override=match_pipe_reviewer_system_prompt(),
+        )
         reviewer_rounds += 1
         adopted = should_adopt_revision(
             score_before=review.weighted_score,
@@ -358,11 +236,11 @@ def _run_no_starter_planner(
         cache_key_suffix="planner_no_starter_v1",
         planner_model=planner_model,
     )
-    writer_prompt = _writer_prompt_from_planner(jd=jd, planner_payload=planner_payload)
+    writer_prompt = build_match_pipe_writer_prompt_from_planner(jd=jd, planner_payload=planner_payload)
     resume_md, _ = writer.write_from_prompt(
         writer_prompt,
         jd=jd,
-        system_prompt=MASTER_WRITER_SYSTEM,
+        system_prompt=match_pipe_writer_system_prompt(),
         cache_key_parts=(jd.jd_id or "unknown", jd.company or "", jd.role_type or "", "planner_no_starter_writer_v1"),
     )
     result = _review_direct_or_written(
@@ -420,7 +298,7 @@ def _run_new_dual_channel_planner(
     }
 
     if planner_payload.get("decision") == "reject_starter":
-        writer_prompt = _writer_prompt_from_planner(
+        writer_prompt = build_match_pipe_writer_prompt_from_planner(
             jd=jd,
             planner_payload=planner_payload,
             starter_resume_md="",
@@ -429,7 +307,7 @@ def _run_new_dual_channel_planner(
         resume_md, _ = writer.write_from_prompt(
             writer_prompt,
             jd=jd,
-            system_prompt=MASTER_WRITER_SYSTEM,
+            system_prompt=match_pipe_writer_system_prompt(),
             cache_key_parts=(jd.jd_id or "unknown", jd.company or "", jd.role_type or "", "planner_dual_reject_writer_v1"),
         )
         result = _review_direct_or_written(
@@ -465,7 +343,7 @@ def _run_new_dual_channel_planner(
         result.mode = "new_dual_channel_planner"
         return result
 
-    writer_prompt = _writer_prompt_from_planner(
+    writer_prompt = build_match_pipe_writer_prompt_from_planner(
         jd=jd,
         planner_payload=planner_payload,
         starter_resume_md=starter_resume_md,
@@ -474,7 +352,7 @@ def _run_new_dual_channel_planner(
     resume_md, _ = writer.write_from_prompt(
         writer_prompt,
         jd=jd,
-        system_prompt=MASTER_WRITER_SYSTEM,
+        system_prompt=match_pipe_writer_system_prompt(),
         cache_key_parts=(jd.jd_id or "unknown", jd.company or "", jd.role_type or "", "planner_dual_writer_v1"),
     )
     result = _review_direct_or_written(

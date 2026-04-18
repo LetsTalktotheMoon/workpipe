@@ -1,0 +1,197 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T19:58:12",
+  "completed_at": "2026-04-17T19:59:18",
+  "duration_seconds": 66.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary bullets 1-3",
+          "issue": "The first two summary bullets are descriptor-led rather than verb-led, so the summary reads more like positioning copy than action-oriented evidence.",
+          "fix": "Rewrite each summary chunk to open with a strong verb or verb phrase while preserving the current content and order."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Skills > Programming; TikTok Experience",
+          "issue": "The resume presents four programming languages (Python, C++, Java, Go) as co-equal core stack, and the TikTok internship uses all four as if they were equally central. That reads like breadth inflation for a senior MLE target.",
+          "fix": "Keep C++ and Python as the primary headline stack; move Java and Go into secondary support context or one supporting bullet so the resume feels focused rather than overstacked."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1-5",
+          "issue": "The newest relevant experience is dominated by percentage/time deltas without a Tier-1 scale anchor, so the impact reads like small optimization work rather than senior-level systems scope.",
+          "fix": "Add one concrete scale signal such as event volume, QPS, service count, or team scope to the first or second bullet; keep one improvement metric but anchor it to scope."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Narrow the headline stack to C++/Python and stop presenting Java/Go as co-equal core languages.",
+      "[MUST] Add one Tier-1 scale anchor to the newest relevant experience so the impact is not only percentage deltas.",
+      "[SHOULD] Rework the summary bullets into verb-led, Zoox-relevant framing instead of descriptor-led positioning copy.",
+      "[NICE] Compress secondary stack words in the TikTok section so the senior MLE signal feels focused."
+    ],
+    "revision_instructions": "[MUST] Reframe the first 10% of the resume around Zoox-relevant C++/Python ML simulation and distributed testing, not broad backend breadth; keep Java/Go as secondary support in the TikTok body rather than headline stack.\n[MUST] Add one concrete Tier-1 scale anchor to the latest relevant experience (events/day, QPS, service count, or team scope) so the impact is not only % deltas.\n[SHOULD] Trim the TikTok intern section so it does not read like 4 equally primary programming languages; keep the most important implementation language in each bullet and compress the rest.\n[NICE] Rewrite the summary bullets to start with action verbs and keep the third sentence more cognitively specific, e.g., systems judgment, evaluation, or simulation.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.8,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Narrow the headline stack to C++/Python and stop presenting Java/Go as co-equal core languages.",
+      "[MUST] Add one Tier-1 scale anchor to the newest relevant experience so the impact is not only percentage deltas.",
+      "[SHOULD] Rework the summary bullets into verb-led, Zoox-relevant framing instead of descriptor-led positioning copy.",
+      "[NICE] Compress secondary stack words in the TikTok section so the senior MLE signal feels focused."
+    ],
+    "revision_instructions": "[MUST] Reframe the first 10% of the resume around Zoox-relevant C++/Python ML simulation and distributed testing, not broad backend breadth; keep Java/Go as secondary support in the TikTok body rather than headline stack.\n[MUST] Add one concrete Tier-1 scale anchor to the latest relevant experience (events/day, QPS, service count, or team scope) so the impact is not only % deltas.\n[SHOULD] Trim the TikTok intern section so it does not read like 4 equally primary programming languages; keep the most important implementation language in each bullet and compress the rest.\n[NICE] Rewrite the summary bullets to start with action verbs and keep the third sentence more cognitively specific, e.g., systems judgment, evaluation, or simulation.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "Professional Summary bullets 1-3",
+            "issue": "The first two summary bullets are descriptor-led rather than verb-led, so the summary reads more like positioning copy than action-oriented evidence.",
+            "fix": "Rewrite each summary chunk to open with a strong verb or verb phrase while preserving the current content and order."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Skills > Programming; TikTok Experience",
+            "issue": "The resume presents four programming languages (Python, C++, Java, Go) as co-equal core stack, and the TikTok internship uses all four as if they were equally central. That reads like breadth inflation for a senior MLE target.",
+            "fix": "Keep C++ and Python as the primary headline stack; move Java and Go into secondary support context or one supporting bullet so the resume feels focused rather than overstacked."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-5",
+            "issue": "The newest relevant experience is dominated by percentage/time deltas without a Tier-1 scale anchor, so the impact reads like small optimization work rather than senior-level systems scope.",
+            "fix": "Add one concrete scale signal such as event volume, QPS, service count, or team scope to the first or second bullet; keep one improvement metric but anchor it to scope."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Narrow the headline stack to C++/Python and stop presenting Java/Go as co-equal core languages.",
+        "[MUST] Add one Tier-1 scale anchor to the newest relevant experience so the impact is not only percentage deltas.",
+        "[SHOULD] Rework the summary bullets into verb-led, Zoox-relevant framing instead of descriptor-led positioning copy.",
+        "[NICE] Compress secondary stack words in the TikTok section so the senior MLE signal feels focused."
+      ],
+      "revision_instructions": "[MUST] Reframe the first 10% of the resume around Zoox-relevant C++/Python ML simulation and distributed testing, not broad backend breadth; keep Java/Go as secondary support in the TikTok body rather than headline stack.\n[MUST] Add one concrete Tier-1 scale anchor to the latest relevant experience (events/day, QPS, service count, or team scope) so the impact is not only % deltas.\n[SHOULD] Trim the TikTok intern section so it does not read like 4 equally primary programming languages; keep the most important implementation language in each bullet and compress the rest.\n[NICE] Rewrite the summary bullets to start with action verbs and keep the third sentence more cognitively specific, e.g., systems judgment, evaluation, or simulation.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary bullets 1-3",
+          "issue": "The first two summary bullets are descriptor-led rather than verb-led, so the summary reads more like positioning copy than action-oriented evidence.",
+          "fix": "Rewrite each summary chunk to open with a strong verb or verb phrase while preserving the current content and order."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Skills > Programming; TikTok Experience",
+          "issue": "The resume presents four programming languages (Python, C++, Java, Go) as co-equal core stack, and the TikTok internship uses all four as if they were equally central. That reads like breadth inflation for a senior MLE target.",
+          "fix": "Keep C++ and Python as the primary headline stack; move Java and Go into secondary support context or one supporting bullet so the resume feels focused rather than overstacked."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience bullets 1-5",
+          "issue": "The newest relevant experience is dominated by percentage/time deltas without a Tier-1 scale anchor, so the impact reads like small optimization work rather than senior-level systems scope.",
+          "fix": "Add one concrete scale signal such as event volume, QPS, service count, or team scope to the first or second bullet; keep one improvement metric but anchor it to scope."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-030"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3C-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-030",
+      "P3C-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ Skills > Programming; TikTok Experience"
+    ]
+  }
+}

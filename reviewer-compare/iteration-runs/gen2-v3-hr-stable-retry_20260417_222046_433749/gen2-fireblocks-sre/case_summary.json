@@ -1,0 +1,263 @@
+{
+  "label": "gen2/Fireblocks-SRE",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Fireblocks-SRE",
+    "company": "Fireblocks",
+    "title": "Site Reliability Engineer",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "Fireblocks is a leader in providing secure solutions for digital assets and blockchain technology",
+    "tech_required": [
+      "Linux",
+      "JavaScript",
+      "Shell",
+      "Kubernetes",
+      "Docker",
+      "Git",
+      "Python",
+      "Bash",
+      "AWS",
+      "Azure"
+    ],
+    "tech_preferred": [
+      "Scala",
+      "R",
+      "C++",
+      "MySQL"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/fireblocks/2026-04-04/6997741fce78e77b4fdbcb82/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "jd_id": "candidate_fireblocks_sre",
+      "company": "Fireblocks",
+      "title": "Site Reliability Engineer",
+      "role_type": "swe_backend",
+      "verdict": "pass",
+      "final_score": 94.5,
+      "revised": false,
+      "weighted_score": 94.5,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [
+        "补一条明确指向 Fireblocks 业务语境的安全/高可用基础设施叙事，避免简历看起来只是通用后端与平台经验。",
+        "在 DiDi 和 TikTok 的角色说明中再补 scope 限定语，降低“分析岗却承担工程 ownership”带来的可信度追问。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "repaired_at": "2026-04-07T16:57:23",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:23:10",
+    "completed_at": "2026-04-17T22:24:06",
+    "duration_seconds": 56.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary 第1句",
+            "issue": "开头先写“Transitioning from data analysis to software engineering”，先讲转型再给角色定位，首屏的 backend / security 识别信号被削弱。",
+            "fix": "把首句改成角色方向优先的写法，先给出“Security-focused backend engineer”或“Backend/SRE-focused engineer”，再把转型背景放到句末或第二句。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 重写 Summary 第一句，改成角色方向和领域信号先行，避免“Transitioning from ...”抢占首屏。",
+        "[NICE] 如果要增强 senior SRE 叙事，把一个更强的系统/规模信号前置到首屏。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 98.0,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 重写 Summary 第一句，改成角色方向和领域信号先行，避免“Transitioning from ...”抢占首屏。",
+        "[NICE] 如果要增强 senior SRE 叙事，把一个更强的系统/规模信号前置到首屏。"
+      ],
+      "revision_instructions": "",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Summary 第1句",
+              "issue": "开头先写“Transitioning from data analysis to software engineering”，先讲转型再给角色定位，首屏的 backend / security 识别信号被削弱。",
+              "fix": "把首句改成角色方向优先的写法，先给出“Security-focused backend engineer”或“Backend/SRE-focused engineer”，再把转型背景放到句末或第二句。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": []
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[SHOULD] 重写 Summary 第一句，改成角色方向和领域信号先行，避免“Transitioning from ...”抢占首屏。",
+          "[NICE] 如果要增强 senior SRE 叙事，把一个更强的系统/规模信号前置到首屏。"
+        ],
+        "revision_instructions": "",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary 第1句",
+            "issue": "开头先写“Transitioning from data analysis to software engineering”，先讲转型再给角色定位，首屏的 backend / security 识别信号被削弱。",
+            "fix": "把首句改成角色方向优先的写法，先给出“Security-focused backend engineer”或“Backend/SRE-focused engineer”，再把转型背景放到句末或第二句。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "TikTok Experience bullet 5; Temu Experience bullet 4",
+        "issue": "Two bullets open with softer verbs (`Participated`, `Supported`) instead of the stronger action verbs expected by the rubric.",
+        "fix": "Rewrite the openers to stronger verbs such as `Reviewed`, `Analyzed`, `Delivered`, `Owned`, or `Drove` while keeping the same scope and facts."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok project baseline line",
+        "issue": "The qualifier `team-maintained` is bolded, which breaks the intended emphasis convention.",
+        "fix": "Remove bold from qualifier words and reserve bolding for technologies, scope nouns, and quantitative metrics only."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The opening frame is an analytics-to-engineering transition, which weakens the first 6-8 seconds for a backend role.",
+        "fix": "Lead with a direct backend/distributed-systems identity and the core stack first, then mention the analytics background later."
+      },
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 3",
+        "issue": "`Decision Discipline` reads like a personal trait header rather than a high-signal cognition framing.",
+        "fix": "Rename the header to a stronger cognition label such as `Pattern recognition`, `Systems judgment`, or `Decision-making`."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary / TikTok intern bullets",
+        "issue": "The resume shows backend tooling and distributed-service work, but it does not explicitly bridge that experience to FlexTrade's high-performance execution and order-management domain, so the target team direction still reads generic.",
+        "fix": "Add one bridge sentence in the summary or the first backend bullet that ties the work to latency-sensitive, event-driven, reliability-critical services, and, if truthful, any transaction/order-style workflow ownership."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [
+  ],
+  "revision_priority": [
+    "[SHOULD] Rewrite Summary sentence 1 to lead with backend/distributed systems rather than the analytics-to-engineering transition.",
+    "[SHOULD] Add one explicit bridge to FlexTrade's latency-sensitive, event-driven backend domain.",
+    "[SHOULD] Rename the third Summary header to a stronger cognition label.",
+    "[NICE] Clean up bullet openers and emphasis rules: replace weak openers like `Participated`/`Supported` and remove bold from modifier words like `team-maintained`."
+  ],
+  "revision_instructions": ""
+}

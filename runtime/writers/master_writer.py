@@ -143,6 +143,7 @@ class MasterWriter:
         jd: Optional[JDProfile] = None,
         *,
         rewrite_mode: str = "strict",
+        system_prompt_override: str | None = None,
     ) -> str:
         """
         按审查结果修改简历，返回修改后的 Markdown。
@@ -150,7 +151,9 @@ class MasterWriter:
         client = get_llm_client()
         logger.info("Master Writer 开始修改简历...")
 
-        if rewrite_mode == "upgrade":
+        if system_prompt_override:
+            system_prompt = system_prompt_override
+        elif rewrite_mode == "upgrade":
             system_prompt = UPGRADE_REVISION_SYSTEM_PROMPT
         else:
             system_prompt = STRICT_REVISION_SYSTEM_PROMPT
@@ -686,6 +689,10 @@ def _jd_profile_for_education_tree(jd: JDProfile) -> dict:
         "swe_frontend": "swe",
         "swe_fullstack": "swe",
         "backend_generalist": "swe",
+        "product_manager": "tech_pm",
+        "program_manager": "tech_pm",
+        "project_manager": "tech_pm",
+        "product_owner": "tech_pm",
         "data_science": "data_scientist",
         "data_analytics": "data_analyst",
         "data_platform": "data_engineer",
@@ -693,11 +700,31 @@ def _jd_profile_for_education_tree(jd: JDProfile) -> dict:
         "ai_ml_swe": "mle",
         "tech_pm": "tech_pm",
     }
+    raw_text = getattr(jd, "raw_text", "") or ""
+    responsibilities = list(getattr(jd, "responsibilities", []) or [])
+    qualifications_required = list(getattr(jd, "qualifications_required", []) or [])
+    qualifications_preferred = list(getattr(jd, "qualifications_preferred", []) or [])
+    tech_required = list(getattr(jd, "tech_required", []) or [])
+    tech_preferred = list(getattr(jd, "tech_preferred", []) or [])
+    tech_or_groups = list(getattr(jd, "tech_or_groups", []) or [])
+    soft_required = list(getattr(jd, "soft_required", []) or [])
+    soft_preferred = list(getattr(jd, "soft_preferred", []) or [])
     return {
         "role_type": role_map.get(jd.role_type, jd.role_type or "swe"),
-        "tech_required": list(getattr(jd, "tech_required", []) or []),
+        "title": getattr(jd, "title", "") or "",
+        "company": getattr(jd, "company", "") or "",
+        "team_direction": getattr(jd, "team_direction", "") or "",
         "business_domain": getattr(jd, "business_domain", "") or "",
         "seniority": getattr(jd, "seniority", "") or "",
+        "raw_text": raw_text,
+        "tech_required": tech_required,
+        "tech_preferred": tech_preferred,
+        "tech_or_groups": tech_or_groups,
+        "soft_required": soft_required,
+        "soft_preferred": soft_preferred,
+        "responsibilities": responsibilities,
+        "qualifications_required": qualifications_required,
+        "qualifications_preferred": qualifications_preferred,
     }
 
 

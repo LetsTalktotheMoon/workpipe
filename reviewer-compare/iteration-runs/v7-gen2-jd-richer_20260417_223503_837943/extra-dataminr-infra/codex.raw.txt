@@ -1,0 +1,64 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Summary / Experience / Project baseline lines",
+        "issue": "多处将修饰语或限定词加粗，例如 team-maintained、team-owned、intern-owned、production，这会稀释真正该被扫到的技术词和规模信号。",
+        "fix": "只保留技术栈名词、系统名和量化数字的加粗，把修饰语恢复为普通文本。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary 第3句",
+        "issue": "\"Structured Problem Solver\" 属于通用认知型标题，信息量弱于角色方向和领域锚点，不够像首屏强抓手。",
+        "fix": "改成更贴近后端判断的标题，例如 \"Systems Judgment\"、\"Architecture Judgment\" 或 \"Pattern Recognition\"，并尽量贴近分布式系统/后端可靠性语境。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "整体经历年限 / Professional Summary",
+        "issue": "可见时间线合计只有约 3 年，且包含一段 internship，表面上短于 Dataminr Senior Backend 要求的 4+ 年后端经验门槛。",
+        "fix": "如果时间线就是完整事实，这属于结构性错配；应优先投 3+ 年门槛的后端岗位，而不是试图靠删技术词补救。",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok · Security | Software Engineer Intern",
+        "issue": "同一实习段里把 Go、Python、Java、Scala 都写成了使用级证据，外加多层基础设施，容易读成 internship 里技术栈过宽、像炫技堆叠。",
+        "fix": "收敛成 1-2 个主语言 + 关键中间件，把其余语言只保留在明确的辅助工具或团队上下文里。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security / Security Knowledge Retrieval Assistant",
+        "issue": "最近且最相关的一段几乎全是 24-31% 这类改进百分比和时间缩短，没有一个 Tier1 规模锚点来支撑这些结果的分量。",
+        "fix": "补一个同一工作流下的规模指标，例如请求量、文档规模、测试集规模、团队范围或 P99 / 吞吐。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 解决 senior backend 的结构性年限缺口：当前可见经历约 3 年，短于 JD 的 4+ 年门槛；如果时间线准确，不要靠改写词汇硬撑 senior。",
+    "[MUST] 收敛 TikTok 实习段的技术宽度，只保留 1-2 个主语言和最关键的中间件，避免被读成 internship 炫技堆栈。",
+    "[SHOULD] 给最近一段补一个 Tier1 规模锚点，让百分比结果有上下文支撑。",
+    "[NICE] 去掉 team-maintained / team-owned / intern-owned 这类修饰语加粗，只保留技术词和规模数字。"
+  ],
+  "revision_instructions": "[结构性错配] 当前可见经历约 3 年，和 Dataminr 4+ 年后端门槛不完全对齐；如果时间线准确，不要试图用删技术词补救，优先改投更匹配的 3+ 年后端岗位。若仍继续投这个岗位，把 TikTok 段压缩成 1-2 个主语言 + 关键中间件，并补一个明确的 Tier1 scope 数字（如请求量、文档量、测试集规模、团队范围或 P99/吞吐）来支撑百分比结果。最后移除 team-maintained/team-owned/intern-owned 等修饰语加粗，保留技术词和规模信号。"
+}

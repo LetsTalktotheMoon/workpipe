@@ -1,0 +1,408 @@
+{
+  "label": "same/Google",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
+  "historical": {},
+  "metadata": {
+    "label": "same/Google",
+    "company": "Google",
+    "title": "Software Engineer III, Full Stack, Google Cloud Platforms",
+    "role_type": "swe_fullstack",
+    "seniority": "entry",
+    "team_direction": "Google is a leading technology company that develops next-generation technologies impacting billions of users",
+    "tech_required": [
+      "Python",
+      "C++",
+      "TypeScript",
+      "Node.js",
+      "Java",
+      "JavaScript"
+    ],
+    "tech_preferred": [
+      "Design Review",
+      "Software Test Engineering",
+      "Data Structures",
+      "Algorithms"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 94.0,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r1_writing_standard": {
+          "score": 9.1,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.0,
+      "verdict": "pass",
+      "seed_label": "Google Full Stack",
+      "route_mode": "retarget",
+      "revised": false,
+      "rewrite_adopted": false,
+      "content_changed": false,
+      "revision_instructions": "",
+      "rereview_version": "unified_followup_v1",
+      "rereviewed_at": "2026-04-08T20:10:33",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_achievement"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 82.1,
+      "previous_verdict": "fail"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:35:03",
+    "completed_at": "2026-04-17T22:36:30",
+    "duration_seconds": 87.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "Professional Summary bullets 1-3",
+            "issue": "The summary bullets are noun-phrase labels rather than verb-led statements, so the top of the resume reads like section headings instead of action-oriented claims.",
+            "fix": "Rewrite each summary sentence to start with a concrete role or action phrase, such as 'Full-stack engineer building...' or 'Security-focused engineer shipping...', while keeping the three-header structure."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening sentence leads with a transition story from data analysis to full-stack work, which weakens first-screen role matching.",
+            "fix": "Lead with the target role/domain first, then mention the transition second, for example: 'Full-stack engineer shipping Java/TypeScript/Node.js systems; previously focused on data analysis.'"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3A-002",
+            "sub_area": "3A",
+            "severity": "high",
+            "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Assistant, bullet 1",
+            "issue": "AWS Bedrock appears in the body but is not listed in Skills, creating a named-platform mismatch between summary/body and the skills section.",
+            "fix": "Add 'AWS Bedrock' to the relevant Skills line, or if the usage was strictly internal/eval-only, label it that way in the bullet and keep the Skills entry consistent."
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary and Experience sections",
+            "issue": "The programming stack is spread across many languages and runtimes with use-level evidence (Java, TypeScript, JavaScript, Node.js, Python, Go, C++), which reads as breadth-stuffing unless one primary lane is clearly foregrounded.",
+            "fix": "Keep 2-3 core languages in the Summary and let secondary languages appear only in the bullets where they are genuinely central to the work."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Experience > TikTok · Security",
+            "issue": "The internship section is dominated by percentage/time deltas and lacks one concrete scope anchor such as analyst volume, request volume, service count, or rollout size.",
+            "fix": "Add one Tier-1 scope metric to the first or second bullet, such as analysts supported, events processed, services owned, or deployments per release window."
+          },
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Assistant, bullet 1",
+            "issue": "A security-team retrieval bullet uses an external LLM platform with only 'internal docs/service' wording; that is allowed, but the boundary language is not explicit enough for a sensitive environment.",
+            "fix": "If accurate, add an explicit qualifier such as 'internal docs only, no user or production data, evaluation environment' to make the scope unambiguous.",
+            "note": "[合规边界]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary sentence 1 to lead with the target role/domain first, not the transition from data analysis.",
+        "[MUST] Add AWS Bedrock to Skills and make the TikTok retrieval bullet explicit about internal-only/no-user-data scope if that is accurate.",
+        "[SHOULD] Add one concrete scope metric to the TikTok Security internship so the quant story is not only percentage/time deltas.",
+        "[NICE] Narrow the opening programming stack to 2-3 primary languages and leave the rest to supporting bullets."
+      ],
+      "revision_instructions": "Rewrite the first Summary sentence so it opens with a clear full-stack/security/platform role anchor, then mention the data-analysis transition second. Add AWS Bedrock to Skills if the TikTok retrieval project stays in the resume, and make that bullet explicitly internal-only/no-user-data if accurate. Add one concrete Tier-1 scope metric to the TikTok internship. Reduce the opening programming stack to the few core languages that best support the Google full-stack target. Preserve the immutable experience fields exactly.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 8.0,
+        "r1_writing_standard": 9.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 9.5,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 90.9,
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary sentence 1 to lead with the target role/domain first, not the transition from data analysis.",
+        "[MUST] Add AWS Bedrock to Skills and make the TikTok retrieval bullet explicit about internal-only/no-user-data scope if that is accurate.",
+        "[SHOULD] Add one concrete scope metric to the TikTok Security internship so the quant story is not only percentage/time deltas.",
+        "[NICE] Narrow the opening programming stack to 2-3 primary languages and leave the rest to supporting bullets."
+      ],
+      "revision_instructions": "Rewrite the first Summary sentence so it opens with a clear full-stack/security/platform role anchor, then mention the data-analysis transition second. Add AWS Bedrock to Skills if the TikTok retrieval project stays in the resume, and make that bullet explicitly internal-only/no-user-data if accurate. Add one concrete Tier-1 scope metric to the TikTok internship. Reduce the opening programming stack to the few core languages that best support the Google full-stack target. Preserve the immutable experience fields exactly.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-030",
+              "severity": "medium",
+              "field": "Professional Summary bullets 1-3",
+              "issue": "The summary bullets are noun-phrase labels rather than verb-led statements, so the top of the resume reads like section headings instead of action-oriented claims.",
+              "fix": "Rewrite each summary sentence to start with a concrete role or action phrase, such as 'Full-stack engineer building...' or 'Security-focused engineer shipping...', while keeping the three-header structure."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "The opening sentence leads with a transition story from data analysis to full-stack work, which weakens first-screen role matching.",
+              "fix": "Lead with the target role/domain first, then mention the transition second, for example: 'Full-stack engineer shipping Java/TypeScript/Node.js systems; previously focused on data analysis.'"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3A-002",
+              "sub_area": "3A",
+              "severity": "high",
+              "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Assistant, bullet 1",
+              "issue": "AWS Bedrock appears in the body but is not listed in Skills, creating a named-platform mismatch between summary/body and the skills section.",
+              "fix": "Add 'AWS Bedrock' to the relevant Skills line, or if the usage was strictly internal/eval-only, label it that way in the bullet and keep the Skills entry consistent."
+            },
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "Professional Summary and Experience sections",
+              "issue": "The programming stack is spread across many languages and runtimes with use-level evidence (Java, TypeScript, JavaScript, Node.js, Python, Go, C++), which reads as breadth-stuffing unless one primary lane is clearly foregrounded.",
+              "fix": "Keep 2-3 core languages in the Summary and let secondary languages appear only in the bullets where they are genuinely central to the work."
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "Experience > TikTok · Security",
+              "issue": "The internship section is dominated by percentage/time deltas and lacks one concrete scope anchor such as analyst volume, request volume, service count, or rollout size.",
+              "fix": "Add one Tier-1 scope metric to the first or second bullet, such as analysts supported, events processed, services owned, or deployments per release window."
+            },
+            {
+              "rule_id": "P3E-013",
+              "sub_area": "3E",
+              "severity": "medium",
+              "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Assistant, bullet 1",
+              "issue": "A security-team retrieval bullet uses an external LLM platform with only 'internal docs/service' wording; that is allowed, but the boundary language is not explicit enough for a sensitive environment.",
+              "fix": "If accurate, add an explicit qualifier such as 'internal docs only, no user or production data, evaluation environment' to make the scope unambiguous.",
+              "note": "[合规边界]"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Rewrite Summary sentence 1 to lead with the target role/domain first, not the transition from data analysis.",
+          "[MUST] Add AWS Bedrock to Skills and make the TikTok retrieval bullet explicit about internal-only/no-user-data scope if that is accurate.",
+          "[SHOULD] Add one concrete scope metric to the TikTok Security internship so the quant story is not only percentage/time deltas.",
+          "[NICE] Narrow the opening programming stack to 2-3 primary languages and leave the rest to supporting bullets."
+        ],
+        "revision_instructions": "Rewrite the first Summary sentence so it opens with a clear full-stack/security/platform role anchor, then mention the data-analysis transition second. Add AWS Bedrock to Skills if the TikTok retrieval project stays in the resume, and make that bullet explicitly internal-only/no-user-data if accurate. Add one concrete Tier-1 scope metric to the TikTok internship. Reduce the opening programming stack to the few core languages that best support the Google full-stack target. Preserve the immutable experience fields exactly.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [
+          {
+            "rule_id": "P3A-002",
+            "sub_area": "3A",
+            "severity": "high",
+            "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Assistant, bullet 1",
+            "issue": "AWS Bedrock appears in the body but is not listed in Skills, creating a named-platform mismatch between summary/body and the skills section.",
+            "fix": "Add 'AWS Bedrock' to the relevant Skills line, or if the usage was strictly internal/eval-only, label it that way in the bullet and keep the Skills entry consistent."
+          }
+        ],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "Professional Summary bullets 1-3",
+            "issue": "The summary bullets are noun-phrase labels rather than verb-led statements, so the top of the resume reads like section headings instead of action-oriented claims.",
+            "fix": "Rewrite each summary sentence to start with a concrete role or action phrase, such as 'Full-stack engineer building...' or 'Security-focused engineer shipping...', while keeping the three-header structure."
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary and Experience sections",
+            "issue": "The programming stack is spread across many languages and runtimes with use-level evidence (Java, TypeScript, JavaScript, Node.js, Python, Go, C++), which reads as breadth-stuffing unless one primary lane is clearly foregrounded.",
+            "fix": "Keep 2-3 core languages in the Summary and let secondary languages appear only in the bullets where they are genuinely central to the work."
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening sentence leads with a transition story from data analysis to full-stack work, which weakens first-screen role matching.",
+            "fix": "Lead with the target role/domain first, then mention the transition second, for example: 'Full-stack engineer shipping Java/TypeScript/Node.js systems; previously focused on data analysis.'"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Experience > TikTok · Security",
+            "issue": "The internship section is dominated by percentage/time deltas and lacks one concrete scope anchor such as analyst volume, request volume, service count, or rollout size.",
+            "fix": "Add one Tier-1 scope metric to the first or second bullet, such as analysts supported, events processed, services owned, or deployments per release window."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "Experience > TikTok · Security > Project: Security Knowledge Retrieval Assistant, bullet 1",
+            "issue": "A security-team retrieval bullet uses an external LLM platform with only 'internal docs/service' wording; that is allowed, but the boundary language is not explicit enough for a sensitive environment.",
+            "fix": "If accurate, add an explicit qualifier such as 'internal docs only, no user or production data, evaluation environment' to make the scope unambiguous.",
+            "note": "[合规边界]"
+          }
+        ],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-030"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 4,
+          "rule_ids": [
+            "P3A-002",
+            "P3C-010",
+            "P3D-001",
+            "P3E-013"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-030",
+        "P2-001",
+        "P3A-002",
+        "P3C-010",
+        "P3D-001",
+        "P3E-013"
+      ],
+      "high_or_critical": [
+        "P3A-002 @ Experience > TikTok · Security > Project: Security Knowledge Retrieval Assistant, bullet 1",
+        "P3C-010 @ Professional Summary and Experience sections"
+      ]
+    }
+  }
+}

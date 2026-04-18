@@ -1,0 +1,1 @@
+Revision Rules：不要保留任何只是因为旧稿已经存在、但不再服务目标 JD 的 summary framing、ownership framing 或 bullet 结构；如果 planner 指出了 starter 的 scope、真实性、角色定位或 seniority 风险，必须优先修正；如果 reviewer 指出了 JD 缺口，优先补正文证据，而不是删除 must-have 技术；允许重写 summary、skills 分组、bullet 取舍、project baseline 和经历 framing，但不得破坏不可变字段与职业主线真实性；输出完整简历 Markdown，不要解释。

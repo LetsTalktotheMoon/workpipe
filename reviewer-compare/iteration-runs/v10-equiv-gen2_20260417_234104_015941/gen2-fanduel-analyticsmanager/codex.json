@@ -1,0 +1,224 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:46:48",
+  "completed_at": "2026-04-17T23:47:54",
+  "duration_seconds": 66.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience > Project: Security Knowledge Retrieval Acceleration > bullet 1",
+          "issue": "Modifier text is bolded in the body (`team-maintained`), which violates the rule that bold should reserve tech names and scale/scope signals, not descriptive qualifiers.",
+          "fix": "Remove bold from the qualifier and keep bold only on technical terms or quant signals; for example, leave `team-maintained` in normal text."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary > bullet 1",
+          "issue": "The opening framing reads as a transition note (`Transitioning from analytics into...`) rather than a direct role-and-domain anchor, so it weakens the first 6-8 seconds of HR scan strength.",
+          "fix": "Rewrite the first summary line to lead with a direct analytics/security/decision-support role anchor and move the transition language later or remove it."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / Experience",
+          "issue": "The JD makes Excel required and data visualization software mandatory, but the resume never shows Excel usage or any explicit visualization tool evidence (such as Tableau or an equivalent BI tool).",
+          "fix": "Add one truthful bullet in the most relevant analytics role showing Excel-based analysis/reporting and name the actual visualization tool used for stakeholder-facing outputs; if Tableau was used, surface it explicitly."
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Overall profile (Summary + Experience chronology)",
+          "issue": "The role requires 5+ years and 1+ years managing/coaching analysts/direct reports, but the visible timeline is closer to 3 years of full-time experience plus an internship, with no people-management evidence. This is a structural mismatch for Analytics Manager.",
+          "fix": "If the target role is fixed, add only truthful coaching/direct-report ownership evidence and make the total experience chronology explicit; otherwise this should be treated as a structural mismatch and retargeted to a senior IC analytics role. [结构性错配]"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补出 Excel 和可视化工具的真实使用证据，最好放在 DiDi 的分析/报表/复盘相关 bullet 里，直接对齐 JD minimum qualifications。",
+      "[MUST] 处理 Analytics Manager 的结构性缺口：当前时间线和经历内容都没有支撑 5+ 年与 people management/coaching scope。",
+      "[SHOULD] 把 Summary 第一行改成直接的 analytics/security 角色锚点，弱化“transitioning”叙事。",
+      "[NICE] 统一正文加粗策略，只保留技术名词和规模信号加粗，去掉修饰语加粗。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历当前更像 3 年左右的 IC analytics profile，不足以支撑 Analytics Manager 的 5+ 年和带人要求。优先在最相关的 DiDi/Temu 经历里补出真实的 Excel 和数据可视化工具证据，并明确写出 coaching / prioritization / direct-report ownership；如果这些经历并不存在，建议改投 senior IC analytics 方向，而不是继续强行包装成 manager。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 6.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 86.3,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 补出 Excel 和可视化工具的真实使用证据，最好放在 DiDi 的分析/报表/复盘相关 bullet 里，直接对齐 JD minimum qualifications。",
+      "[MUST] 处理 Analytics Manager 的结构性缺口：当前时间线和经历内容都没有支撑 5+ 年与 people management/coaching scope。",
+      "[SHOULD] 把 Summary 第一行改成直接的 analytics/security 角色锚点，弱化“transitioning”叙事。",
+      "[NICE] 统一正文加粗策略，只保留技术名词和规模信号加粗，去掉修饰语加粗。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历当前更像 3 年左右的 IC analytics profile，不足以支撑 Analytics Manager 的 5+ 年和带人要求。优先在最相关的 DiDi/Temu 经历里补出真实的 Excel 和数据可视化工具证据，并明确写出 coaching / prioritization / direct-report ownership；如果这些经历并不存在，建议改投 senior IC analytics 方向，而不是继续强行包装成 manager。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience > Project: Security Knowledge Retrieval Acceleration > bullet 1",
+            "issue": "Modifier text is bolded in the body (`team-maintained`), which violates the rule that bold should reserve tech names and scale/scope signals, not descriptive qualifiers.",
+            "fix": "Remove bold from the qualifier and keep bold only on technical terms or quant signals; for example, leave `team-maintained` in normal text."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary > bullet 1",
+            "issue": "The opening framing reads as a transition note (`Transitioning from analytics into...`) rather than a direct role-and-domain anchor, so it weakens the first 6-8 seconds of HR scan strength.",
+            "fix": "Rewrite the first summary line to lead with a direct analytics/security/decision-support role anchor and move the transition language later or remove it."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / Experience",
+            "issue": "The JD makes Excel required and data visualization software mandatory, but the resume never shows Excel usage or any explicit visualization tool evidence (such as Tableau or an equivalent BI tool).",
+            "fix": "Add one truthful bullet in the most relevant analytics role showing Excel-based analysis/reporting and name the actual visualization tool used for stakeholder-facing outputs; if Tableau was used, surface it explicitly."
+          },
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall profile (Summary + Experience chronology)",
+            "issue": "The role requires 5+ years and 1+ years managing/coaching analysts/direct reports, but the visible timeline is closer to 3 years of full-time experience plus an internship, with no people-management evidence. This is a structural mismatch for Analytics Manager.",
+            "fix": "If the target role is fixed, add only truthful coaching/direct-report ownership evidence and make the total experience chronology explicit; otherwise this should be treated as a structural mismatch and retargeted to a senior IC analytics role. [结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 补出 Excel 和可视化工具的真实使用证据，最好放在 DiDi 的分析/报表/复盘相关 bullet 里，直接对齐 JD minimum qualifications。",
+        "[MUST] 处理 Analytics Manager 的结构性缺口：当前时间线和经历内容都没有支撑 5+ 年与 people management/coaching scope。",
+        "[SHOULD] 把 Summary 第一行改成直接的 analytics/security 角色锚点，弱化“transitioning”叙事。",
+        "[NICE] 统一正文加粗策略，只保留技术名词和规模信号加粗，去掉修饰语加粗。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历当前更像 3 年左右的 IC analytics profile，不足以支撑 Analytics Manager 的 5+ 年和带人要求。优先在最相关的 DiDi/Temu 经历里补出真实的 Excel 和数据可视化工具证据，并明确写出 coaching / prioritization / direct-report ownership；如果这些经历并不存在，建议改投 senior IC analytics 方向，而不是继续强行包装成 manager。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience > Project: Security Knowledge Retrieval Acceleration > bullet 1",
+          "issue": "Modifier text is bolded in the body (`team-maintained`), which violates the rule that bold should reserve tech names and scale/scope signals, not descriptive qualifiers.",
+          "fix": "Remove bold from the qualifier and keep bold only on technical terms or quant signals; for example, leave `team-maintained` in normal text."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills / Experience",
+          "issue": "The JD makes Excel required and data visualization software mandatory, but the resume never shows Excel usage or any explicit visualization tool evidence (such as Tableau or an equivalent BI tool).",
+          "fix": "Add one truthful bullet in the most relevant analytics role showing Excel-based analysis/reporting and name the actual visualization tool used for stakeholder-facing outputs; if Tableau was used, surface it explicitly."
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Overall profile (Summary + Experience chronology)",
+          "issue": "The role requires 5+ years and 1+ years managing/coaching analysts/direct reports, but the visible timeline is closer to 3 years of full-time experience plus an internship, with no people-management evidence. This is a structural mismatch for Analytics Manager.",
+          "fix": "If the target role is fixed, add only truthful coaching/direct-report ownership evidence and make the total experience chronology explicit; otherwise this should be treated as a structural mismatch and retargeted to a senior IC analytics role. [结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary > bullet 1",
+          "issue": "The opening framing reads as a transition note (`Transitioning from analytics into...`) rather than a direct role-and-domain anchor, so it weakens the first 6-8 seconds of HR scan strength.",
+          "fix": "Rewrite the first summary line to lead with a direct analytics/security/decision-support role anchor and move the transition language later or remove it."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-001",
+          "P3B-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3B-001",
+      "P3B-010"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills / Experience",
+      "P3B-010 @ Overall profile (Summary + Experience chronology)"
+    ]
+  }
+}

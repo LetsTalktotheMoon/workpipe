@@ -1,0 +1,70 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Professional Summary / bullet 1; Professional Summary / bullet 2; DiDi Experience / bullet 5",
+        "issue": "JD-relevant tech/process terms are not consistently bolded in正文. `Agile` is left plain, and `Spark` is only implicit in `Spark-oriented` rather than being surfaced as a bold tech token.",
+        "fix": "Bold `Agile` wherever it appears in正文, and write `**Spark**` explicitly when referring to Spark-oriented analytics workflows."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary / sentence 1",
+        "issue": "The lead framing is transition-first (`transitioning from data analytics`) rather than role-first, so the first scan reads as a career change before capability.",
+        "fix": "Open with the target direction first, e.g. backend/software-engineering or security-focused delivery, then mention the data-analytics background as supporting context."
+      },
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills / category `APIs`",
+        "issue": "The category title `APIs` is too vague for a first-pass read and looks like a bucket label rather than an informative skill group.",
+        "fix": "Rename it to a more specific label such as `Integration`, `Engineering Practices`, or `Delivery`."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills section",
+        "issue": "JD must-have `Agile` is not listed in Skills, so ATS may miss an exact keyword match even though the term appears in body text.",
+        "fix": "Add `Agile` explicitly to the most relevant Skills line and keep the existing body evidence."
+      },
+      {
+        "rule_id": "P3B-004",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary / DiDi experience",
+        "issue": "The resume does not yet explain why an analytics-to-engineering path is relevant to HealthEquity's healthcare-consumer domain, so the team-direction bridge is weak.",
+        "fix": "Add one bridge clause about auditability, regulated data handling, or consumer-impacting internal workflows."
+      },
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "DiDi Experience",
+        "issue": "The DiDi section reads like sustained daily use of many programming stacks in one role (`C#`, `Python`, `JavaScript`, `Scala` plus `SQL`/`HTML`/`CSS`), which can feel overstated unless qualified as primary vs adjacent work.",
+        "fix": "Separate the primary implementation stack from supporting analytics/frontend work, or explicitly label the adjacent stacks as partnered/integrated rather than daily owned."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add `Agile` explicitly to Skills so the JD match is exact and ATS-safe.",
+    "[MUST] Reframe the Summary opening to be role-first, not transition-first, and add one direct bridge to regulated or consumer-impacting workflows.",
+    "[SHOULD] Qualify the DiDi stack breadth so it reads as primary ownership plus adjacent collaboration, not five-plus daily languages.",
+    "[NICE] Rename the `APIs` Skills bucket to a more informative label."
+  ],
+  "revision_instructions": "Rewrite the Summary opener to lead with the target role direction first, then mention the data-analytics background as supporting context. Add `Agile` explicitly to Skills; if you want stricter ATS matching, also surface `Spark` as an exact token rather than only inside `Spark SQL` or `Spark-oriented`. Add one short bridge phrase tying the work to regulated, auditable, consumer-facing workflows relevant to HealthEquity. If keeping the DiDi section as-is, qualify the language breadth so the primary stack is clear and the adjacent stacks read as partnered integration work rather than daily ownership."
+}

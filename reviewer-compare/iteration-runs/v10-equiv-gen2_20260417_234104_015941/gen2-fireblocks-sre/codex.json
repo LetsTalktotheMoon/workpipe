@@ -1,0 +1,195 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:43:38",
+  "completed_at": "2026-04-17T23:44:46",
+  "duration_seconds": 68.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok bullets; DiDi bullets",
+          "issue": "正文里把限定词/修饰语如 `team-maintained` 加粗了，但同一版式里一些应被强调的 scope 数字如 `13-person`、`20+ city` 没有统一处理，强调层级不一致。",
+          "fix": "把加粗只保留给技术名词和真正的规模/结果信号；取消修饰语的加粗，若要强调 scope，就统一加粗数字短语。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句以 `Transitioning from data analysis to software engineering` 开场，首屏更像转行叙事而不是目标岗位锚点，HR 6-8 秒扫读时会先看到“转变过程”而不是 SRE/backend 方向。",
+          "fix": "把首句改成 `Security-focused backend/SRE engineer:` 或 `Reliability-focused backend engineer:` 这类角色+领域开头，再把转行背景放到第二句或压缩掉。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-004",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok experience; DiDi experience",
+          "issue": "简历展示了稳定性、监控、发布和运营工具能力，但没有把这些经历明确桥接到 Fireblocks 的 secure digital-asset / blockchain 业务场景。对 SRE 首筛来说，迁移逻辑还不够“讲圆”。",
+          "fix": "在 Summary 或最相关的一条 bullet 里补一句桥接表达，例如把经历明确写成 `security-sensitive production systems / incident-heavy workflows / reliability for regulated or high-trust platforms`，只做迁移解释，不要虚构 crypto 经验。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 把 Summary 首句改成目标岗位锚点优先的写法，先给出 SRE/backend + security/reliability 方向，再提转行背景。",
+      "[SHOULD] 统一加粗策略：只强调技术名词和真正的规模/结果信号，去掉 `team-maintained` 这类修饰语的加粗。",
+      "[SHOULD] 补一条 Fireblocks 相关的迁移桥接句，把 security / observability / incident response 经验直接连到高信任生产平台。",
+      "[NICE] 若要进一步增强首屏，可把最强的系统边界和规模信号前置到第一条 TikTok bullet。"
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 9.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 94.7,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 把 Summary 首句改成目标岗位锚点优先的写法，先给出 SRE/backend + security/reliability 方向，再提转行背景。",
+      "[SHOULD] 统一加粗策略：只强调技术名词和真正的规模/结果信号，去掉 `team-maintained` 这类修饰语的加粗。",
+      "[SHOULD] 补一条 Fireblocks 相关的迁移桥接句，把 security / observability / incident response 经验直接连到高信任生产平台。",
+      "[NICE] 若要进一步增强首屏，可把最强的系统边界和规模信号前置到第一条 TikTok bullet。"
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok bullets; DiDi bullets",
+            "issue": "正文里把限定词/修饰语如 `team-maintained` 加粗了，但同一版式里一些应被强调的 scope 数字如 `13-person`、`20+ city` 没有统一处理，强调层级不一致。",
+            "fix": "把加粗只保留给技术名词和真正的规模/结果信号；取消修饰语的加粗，若要强调 scope，就统一加粗数字短语。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以 `Transitioning from data analysis to software engineering` 开场，首屏更像转行叙事而不是目标岗位锚点，HR 6-8 秒扫读时会先看到“转变过程”而不是 SRE/backend 方向。",
+            "fix": "把首句改成 `Security-focused backend/SRE engineer:` 或 `Reliability-focused backend engineer:` 这类角色+领域开头，再把转行背景放到第二句或压缩掉。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-004",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok experience; DiDi experience",
+            "issue": "简历展示了稳定性、监控、发布和运营工具能力，但没有把这些经历明确桥接到 Fireblocks 的 secure digital-asset / blockchain 业务场景。对 SRE 首筛来说，迁移逻辑还不够“讲圆”。",
+            "fix": "在 Summary 或最相关的一条 bullet 里补一句桥接表达，例如把经历明确写成 `security-sensitive production systems / incident-heavy workflows / reliability for regulated or high-trust platforms`，只做迁移解释，不要虚构 crypto 经验。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 把 Summary 首句改成目标岗位锚点优先的写法，先给出 SRE/backend + security/reliability 方向，再提转行背景。",
+        "[SHOULD] 统一加粗策略：只强调技术名词和真正的规模/结果信号，去掉 `team-maintained` 这类修饰语的加粗。",
+        "[SHOULD] 补一条 Fireblocks 相关的迁移桥接句，把 security / observability / incident response 经验直接连到高信任生产平台。",
+        "[NICE] 若要进一步增强首屏，可把最强的系统边界和规模信号前置到第一条 TikTok bullet。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok bullets; DiDi bullets",
+          "issue": "正文里把限定词/修饰语如 `team-maintained` 加粗了，但同一版式里一些应被强调的 scope 数字如 `13-person`、`20+ city` 没有统一处理，强调层级不一致。",
+          "fix": "把加粗只保留给技术名词和真正的规模/结果信号；取消修饰语的加粗，若要强调 scope，就统一加粗数字短语。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-004",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok experience; DiDi experience",
+          "issue": "简历展示了稳定性、监控、发布和运营工具能力，但没有把这些经历明确桥接到 Fireblocks 的 secure digital-asset / blockchain 业务场景。对 SRE 首筛来说，迁移逻辑还不够“讲圆”。",
+          "fix": "在 Summary 或最相关的一条 bullet 里补一句桥接表达，例如把经历明确写成 `security-sensitive production systems / incident-heavy workflows / reliability for regulated or high-trust platforms`，只做迁移解释，不要虚构 crypto 经验。"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句以 `Transitioning from data analysis to software engineering` 开场，首屏更像转行叙事而不是目标岗位锚点，HR 6-8 秒扫读时会先看到“转变过程”而不是 SRE/backend 方向。",
+          "fix": "把首句改成 `Security-focused backend/SRE engineer:` 或 `Reliability-focused backend engineer:` 这类角色+领域开头，再把转行背景放到第二句或压缩掉。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3B-004"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3B-004"
+    ],
+    "high_or_critical": []
+  }
+}

@@ -1,0 +1,1 @@
+→ ByteDance 目标岗位中，Georgia Tech CS coursework/projects 可以作为主要软件工程/硬件/机械工程证据来源，注意scope均为**非工业级**。

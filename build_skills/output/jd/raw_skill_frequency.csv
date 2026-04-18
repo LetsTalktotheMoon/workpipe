@@ -1,0 +1,237 @@
+raw_skill,canonical_skill,total_mentions,record_count,source_labels,source_scopes,categories
+Python,Python,5348,2508,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+Machine Learning,Machine Learning,2968,1150,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+SQL,SQL,2633,1334,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Java,Java,2575,1189,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+C,C,2294,1072,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+AWS,AWS,2166,1284,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+APIs,APIs,1898,1049,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+C++,C++,1605,767,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+JavaScript,JavaScript,1498,711,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+CI/CD,CI/CD,1361,861,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+React,React,1314,634,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Algorithms,Algorithms,1308,744,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+Azure,Azure,1278,803,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Data Science,Data Science,1127,585,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+C#,C#,1126,492,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+TypeScript,TypeScript,1084,543,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+Agile,Agile,1037,629,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Kubernetes,Kubernetes,975,611,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+API,APIs,895,592,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Data Pipelines,Data Pipelines,878,498,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+LLM,LLM,860,534,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Distributed Systems,Distributed Systems,817,503,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+Docker,Docker,758,535,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+PyTorch,PyTorch,756,475,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Deep Learning,Deep Learning,730,353,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Go,Go,720,361,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+Generative AI,Generative AI,701,371,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Git,Git,683,483,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Microservices,Microservices,675,387,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+GCP,GCP,614,452,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+R,R,584,328,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+Linux,Linux,571,354,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+ETL,ETL,566,290,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Spark,Spark,525,332,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Data Structures,Data Structures,524,369,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+TensorFlow,TensorFlow,512,337,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+RAG,RAG,472,291,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Version Control,Version Control,429,317,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Tableau,Tableau,426,239,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Node.js,Node.js,421,234,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Angular,Angular,407,224,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Spring,Spring,401,205,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Terraform,Terraform,399,240,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Kafka,Kafka,394,273,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Prompt Engineering,Prompt Engineering,382,253,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+.NET,.NET,373,182,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Relational Databases,Relational Databases,368,265,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+REST,REST APIs,342,233,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+System Design,System Design,336,217,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+PostgreSQL,PostgreSQL,329,213,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Snowflake,Snowflake,327,176,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Large Language Models,LLM,325,224,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Databricks,Databricks,319,183,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Networking,Networking,315,193,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+RESTful APIs,REST APIs,308,195,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+NLP,NLP,291,202,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+MLOps,MLOps,286,187,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Natural Language Processing,NLP,282,182,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+CSS,CSS,280,168,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Scala,Scala,280,148,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+MySQL,MySQL,275,179,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Spring Boot,Spring Boot,274,143,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Golang,Go,267,135,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+Jenkins,Jenkins,265,191,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Genai,Generative AI,264,166,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Pandas,Pandas,263,157,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Scrum,Scrum,259,175,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+OpenAI,OpenAI,257,186,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+HTML,HTML,256,150,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Backend Development,Backend Development,253,156,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Power BI,Power BI,251,140,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+LangChain,LangChain,249,170,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Rust,Rust,248,124,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+REST APIs,REST APIs,243,154,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Google Cloud,GCP,238,154,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Large Language Models (LLMs),LLM,231,166,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+S3,S3,230,154,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+scikit-learn,scikit-learn,228,151,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Computer Vision,Computer Vision,227,112,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+GraphQL,GraphQL,226,139,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+NoSQL,NoSQL,222,160,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Airflow,Airflow,202,132,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+NoSQL databases,NoSQL,199,140,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+MongoDB,MongoDB,198,137,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Object-Oriented Programming,Object-Oriented Programming,198,143,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+NumPy,NumPy,196,117,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Embedded,Embedded Systems,192,125,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+Unit Testing,Unit Testing,185,133,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Ruby,Ruby,183,96,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+Forecasting,Forecasting,175,99,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Kotlin,Kotlin,174,87,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+GitHub Actions,GitHub Actions,168,118,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Next.js,Next.js,158,86,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Code Review,Code Review,152,109,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+RESTful,REST APIs,149,109,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Jira,Jira,146,116,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Redis,Redis,143,101,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Web Development,Web Development,142,96,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+BigQuery,BigQuery,138,78,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Full-Stack Development,Full-Stack Development,137,77,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+DBT,dbt,136,84,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Looker,Looker,134,82,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+A/B Testing,A/B Testing,133,98,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Vue,Vue,130,78,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+FastAPI,FastAPI,129,80,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Hadoop,Hadoop,128,84,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Django,Django,124,72,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Model Deployment,Model Deployment,120,85,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Redshift,Redshift,120,70,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Flask,Flask,118,75,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Bash,Bash,117,80,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+DynamoDB,DynamoDB,112,86,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+HTML5,HTML5,105,64,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Prometheus,Prometheus,105,80,"core_responsibilities, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Hive,Hive,102,65,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Swift,Swift,102,60,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+gRPC,gRPC,98,65,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+ML Infrastructure,ML Infrastructure,96,61,"core_responsibilities, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Embeddings,Embeddings,94,66,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Software Testing,Software Testing,94,58,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+PHP,PHP,92,46,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+Shell,Shell,90,58,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+data structures,Data Structures,83,82,"core_responsibilities, core_skills, must_have_quals, preferred_quals","both, scraped_current",Architecture / Systems
+Rails,Rails,82,36,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Ansible,Ansible,80,57,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Typescript,TypeScript,80,69,"core_responsibilities, core_skills, must_have_quals, preferred_quals","both, scraped_current",Programming Languages
+ASP.NET,ASP.NET,77,38,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+TDD,TDD,75,49,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+ECS,ECS,71,56,"core_responsibilities, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Elasticsearch,Elasticsearch,71,48,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Object-oriented programming,Object-Oriented Programming,71,70,"core_skills, must_have_quals","both, scraped_current",Architecture / Systems
+Data structures,Data Structures,70,69,"core_skills, must_have_quals","both, scraped_current",Architecture / Systems
+Playwright,Playwright,67,41,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Selenium,Selenium,64,39,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+CSS3,CSS3,62,41,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Distributed systems,Distributed Systems,60,60,"core_skills, must_have_quals, preferred_quals","both, scraped_current",Architecture / Systems
+Cassandra,Cassandra,56,41,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Flink,Flink,56,42,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+Relational databases,Relational Databases,54,54,core_skills,"both, scraped_current",Databases / Storage / Streaming
+GitLab CI,GitLab CI,53,39,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Visual Studio,Visual Studio,50,33,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Anomaly Detection,Anomaly Detection,49,36,"core_responsibilities, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Azure OpenAI,Azure OpenAI,49,39,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+dbt,dbt,49,41,"core_responsibilities, core_skills, must_have_quals, preferred_quals","both, scraped_current",Data & Analytics
+Context Engineering,Context Engineering,48,28,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+JUnit,JUnit,45,35,"core_responsibilities, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Cypress,Cypress,44,33,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Jest,Jest,42,34,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Keras,Keras,42,30,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Matplotlib,Matplotlib,42,30,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+distributed systems,Distributed Systems,41,41,"core_responsibilities, must_have_quals, preferred_quals","both, scraped_current",Architecture / Systems
+Jupyter,Jupyter,40,28,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+AWS Bedrock,AWS Bedrock,39,25,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+Pytest,pytest,36,25,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Apache Airflow,Airflow,34,22,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Experiment Design,Experiment Design,34,22,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Large-Scale Systems,Large-Scale Systems,34,21,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+Express,Express,32,20,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+C#/.Net,.NET / C#,31,16,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Embedded Systems,Embedded Systems,31,21,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Architecture / Systems
+DB2,DB2,30,20,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+anomaly detection,Anomaly Detection,28,28,"core_responsibilities, must_have_quals, preferred_quals","both, scraped_current",Data & Analytics
+Large language models,LLM,27,27,core_skills,"both, scraped_current",AI / ML
+Tailwind,Tailwind,24,15,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Webpack,Webpack,24,21,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Software Test Engineering,Software Test Engineering,23,15,"portfolio_job_md, preferred_quals","both, scraped_current",Quality & Workflow
+Vite,Vite,22,13,"core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+VB.NET,VB.NET,21,11,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+MATLAB,MATLAB,20,15,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Programming Languages
+NestJS,NestJS,20,10,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Backend & APIs
+Time Series Analysis,Time Series Analysis,20,14,"core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Matlab,MATLAB,19,17,"core_skills, must_have_quals, preferred_quals","both, scraped_current",Programming Languages
+GoLang,Go,18,11,"core_skills, must_have_quals, preferred_quals","both, scraped_current",Programming Languages
+K8S,Kubernetes,18,16,"core_responsibilities, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Cloud / DevOps / Infrastructure
+Natural language processing,NLP,18,18,core_skills,"both, scraped_current",AI / ML
+natural language processing,NLP,18,18,"core_responsibilities, must_have_quals, preferred_quals","both, scraped_current",AI / ML
+ASP.NET MVC,ASP.NET MVC,17,8,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md","both, scraped_current",Backend & APIs
+Large language models (LLMs),LLM,17,17,"core_skills, must_have_quals","both, scraped_current",AI / ML
+Programming languages - Java,Java,17,15,"core_skills, portfolio_job_md","both, scraped_current",Programming Languages
+Programming languages - Python,Python,17,15,"core_skills, portfolio_job_md","both, scraped_current",Programming Languages
+Programming languages - C,C,16,15,"core_skills, portfolio_job_md","both, scraped_current",Programming Languages
+Spark SQL,Spark SQL,15,9,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md","both, scraped_current",Data & Analytics
+large language models,LLM,14,14,"core_responsibilities, must_have_quals, preferred_quals","both, scraped_current",AI / ML
+time-series analysis,Time Series Analysis,14,9,"core_responsibilities, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Data & Analytics
+Design Review,Design Review,12,9,"core_responsibilities, must_have_quals, portfolio_job_md","both, scraped_current",Quality & Workflow
+OpenAI API,OpenAI API,12,9,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md","both, scraped_current",AI / ML
+object-oriented programming,Object-Oriented Programming,12,12,"core_responsibilities, must_have_quals, preferred_quals","both, scraped_current",Architecture / Systems
+C#/.NET,.NET / C#,11,9,"core_responsibilities, core_skills, must_have_quals","both, scraped_current",Backend & APIs
+Programming languages - C++,C++,11,11,"core_skills, portfolio_job_md","both, scraped_current",Programming Languages
+Langchain,LangChain,10,10,"core_skills, must_have_quals, preferred_quals","both, scraped_current",AI / ML
+SSMS,SSMS,10,4,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md","both, scraped_current",Databases / Storage / Streaming
+Apache Flink,Flink,9,6,"must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",Databases / Storage / Streaming
+GenAI,Generative AI,9,9,"core_responsibilities, core_skills, must_have_quals","both, scraped_current",AI / ML
+Java 17,Java,9,5,"core_responsibilities, core_skills, job_summary, must_have_quals, portfolio_job_md","both, scraped_current",Programming Languages
+LLM Application Development,LLM Application Development,9,8,"core_responsibilities, core_skills, must_have_quals, portfolio_job_md, preferred_quals","both, scraped_current",AI / ML
+REST web services,REST APIs,8,8,"core_skills, must_have_quals, portfolio_job_md","both, scraped_current",Backend & APIs
+Android SDK,Android SDK,7,4,"core_skills, must_have_quals",scraped_current,Frontend & UI
+React 16+,React,7,3,"core_skills, portfolio_job_md, preferred_quals","both, scraped_current",Frontend & UI
+Programming languages - C#,C#,6,5,"core_skills, portfolio_job_md","both, scraped_current",Programming Languages
+Programming languages - JavaScript,JavaScript,6,6,core_skills,scraped_current,Programming Languages
+relational databases,Relational Databases,6,6,"core_responsibilities, must_have_quals","both, scraped_current",Databases / Storage / Streaming
+Junit,JUnit,5,5,"core_responsibilities, must_have_quals, preferred_quals",scraped_current,Quality & Workflow
+Jetpack Compose,Jetpack Compose,4,3,"core_responsibilities, core_skills, must_have_quals",scraped_current,Frontend & UI
+NoSQL Databases,NoSQL,4,4,core_skills,"both, scraped_current",Databases / Storage / Streaming
+Programming Languages - Java,Java,4,4,core_skills,"both, scraped_current",Programming Languages
+Vector Embeddings,Embeddings,4,4,"core_responsibilities, preferred_quals",scraped_current,AI / ML
+pytest,pytest,4,4,"core_skills, must_have_quals, preferred_quals","both, scraped_current",Quality & Workflow
+Azure Blob Storage,Azure Blob Storage,3,2,"core_responsibilities, must_have_quals, portfolio_job_md","both, scraped_current",Databases / Storage / Streaming
+Embedded systems,Embedded Systems,3,3,core_skills,"both, scraped_current",Architecture / Systems
+Programming Languages - C,C,3,3,core_skills,"both, scraped_current",Programming Languages
+Programming Languages - C++,C++,3,3,core_skills,"both, scraped_current",Programming Languages
+typescript,TypeScript,3,3,"core_responsibilities, must_have_quals, preferred_quals",scraped_current,Programming Languages
+Dbt,dbt,2,2,must_have_quals,scraped_current,Data & Analytics
+Restful APIs,REST APIs,2,2,must_have_quals,"both, scraped_current",Backend & APIs
+Selenium Webdriver,Selenium,2,1,"must_have_quals, portfolio_job_md",both,Quality & Workflow
+VB.Net,VB.NET,2,1,"core_skills, must_have_quals",scraped_current,Programming Languages
+embedded systems,Embedded Systems,2,2,preferred_quals,scraped_current,Architecture / Systems
+vector embeddings,Embeddings,2,2,core_responsibilities,scraped_current,AI / ML
+Anomaly detection,Anomaly Detection,1,1,core_skills,both,Data & Analytics
+Dynamodb,DynamoDB,1,1,must_have_quals,scraped_current,Databases / Storage / Streaming
+K8s,Kubernetes,1,1,must_have_quals,both,Cloud / DevOps / Infrastructure
+MatLab,MATLAB,1,1,preferred_quals,scraped_current,Programming Languages
+Material Design,Material Design,1,1,preferred_quals,scraped_current,Frontend & UI
+Object-Oriented programming,Object-Oriented Programming,1,1,core_skills,scraped_current,Architecture / Systems
+Object-oriented Programming,Object-Oriented Programming,1,1,core_skills,scraped_current,Architecture / Systems
+Programming Languages - C#,C#,1,1,core_skills,scraped_current,Programming Languages
+Programming Languages - Python,Python,1,1,core_skills,scraped_current,Programming Languages
+PyTest,pytest,1,1,must_have_quals,scraped_current,Quality & Workflow
+REST Web Services,REST APIs,1,1,must_have_quals,both,Backend & APIs
+Retrieval Evaluation,Retrieval Evaluation,1,1,preferred_quals,scraped_current,AI / ML
+SSMs,SSMS,1,1,core_responsibilities,scraped_current,Databases / Storage / Streaming
+Selenium WebDriver,Selenium,1,1,core_skills,both,Quality & Workflow
+Time-series analysis,Time Series Analysis,1,1,core_skills,scraped_current,Data & Analytics
+VB.net,VB.NET,1,1,preferred_quals,both,Programming Languages
+large language models (LLMs),LLM,1,1,preferred_quals,both,AI / ML
+php,PHP,1,1,must_have_quals,scraped_current,Programming Languages

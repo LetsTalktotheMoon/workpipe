@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Professional Summary",
+        "issue": "Summary body text contains several unbolded core technical nouns and scope signals, so the first screen loses visual emphasis on the candidate's main fit signal.",
+        "fix": "Bold the key technical nouns and scope signals in the three Summary sentences, for example **Python**, **Go**, **C++**, **SQL**, **Distributed Systems**, **Microservices**, **gRPC**, **Kafka**, **AWS**, **CI/CD**, and **Machine Learning**, while keeping the 3-sentence structure unchanged."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary, third sentence header",
+        "issue": "Applied ML Collaborator is a collaboration-centric header, not a strong cognition or judgment frame for the third summary sentence.",
+        "fix": "Rename the third Summary header to a cognition-oriented label such as **Pattern recognition:**, **Systems judgment:**, or **Model evaluation:**, then keep the ML evidence in the body text."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security experience and project block",
+        "issue": "The newest and most relevant section relies heavily on percentage lifts without a Tier 1 scope anchor, so HR cannot quickly gauge request volume, service ownership size, or traffic scale.",
+        "fix": "Add one concrete scope signal to the first TikTok bullet or the project block, such as team size, daily request volume, data volume, SLA/P99, or rollout breadth, before the improvement percentages."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 给 Professional Summary 的核心技术词和量化信号加粗，恢复首屏视觉抓手。",
+    "[SHOULD] 把第三句 Summary 改成更强的认知型 header，避免 collaborator 这种弱 framing。",
+    "[SHOULD] 给 TikTok 最新经历补一个 Tier 1 scope 锚点，替代纯百分比叙事。",
+    "[NICE] 其余经历结构保持不动，不要改不可变字段或经历顺序。"
+  ],
+  "revision_instructions": ""
+}

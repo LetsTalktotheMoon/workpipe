@@ -1,0 +1,34 @@
+allowed_role_lenses__analyst__backend__data__pm__s: 'allowed role lenses: analyst,
+  backend, data, pm, swe'
+allowed_role_lenses__analyst__data__pm_1: 'allowed role lenses: analyst, data, pm'
+code_fence_close: '```'
+didi_immutable: '- DiDi: Senior Data Analyst | DiDi · IBG · Food | Sep 2022 – May
+  2024 | Beijing/Mexico'
+didi_scope_note: '`> Data lead within a **13-person** cross-functional squad spanning
+  product, backend, frontend, mobile, and ops.`'
+empty: '},'
+empty_1: '}'
+findings_1: '"findings": []'
+json: '```json'
+md: '```md'
+output_bullet: '* Bullet.'
+output_dates_line: '*Dates | Location*'
+output_header_bullet: '* **Header:** Sentence.'
+output_skill_line: '* **Category:** skill1, skill2, skill3'
+output_title_line: '### Title | Company · Department'
+represented_the_headquarters_data_organization_in: '`Represented the headquarters
+  data organization in biweekly global operating reviews, and translated performance
+  signals into two-week recommendations adopted by management and LATAM frontline
+  teams.`'
+scope_note__通常不需要_1: 'scope note: 通常不需要'
+scope_note__需要_1: 'scope note: 需要'
+score____0_10_1: '"score": <0-10>,'
+seed_来源岗位__已登记公司内来源: '- seed 来源岗位: 已登记公司内来源'
+temu_immutable: '- Temu: Data Analyst | Temu · R&D | Jun 2021 – Feb 2022 | Shanghai'
+verdict_____pass_fail_1: '"verdict": "<pass|fail>",'
+weight___0_10_1: '"weight": 0.10,'
+weight___0_20_1: '"weight": 0.20,'
+writer_plan_jd_tech: '必要 JD 技术（放在这里）: [列出]'
+writer_plan_tech_list: '→ 此经历 bullet 将使用的完整技术列表: [最终列表]'
+公司池上限__2: '- 公司池上限: 2'
+这是该公司的公司内锚点_seed: '- 这是该公司的公司内锚点 seed。'

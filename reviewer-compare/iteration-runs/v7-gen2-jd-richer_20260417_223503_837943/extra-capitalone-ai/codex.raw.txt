@@ -1,0 +1,62 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Data",
+        "issue": "The Data skill line is too dense and likely exceeds the 14-word cap once multi-word items are counted.",
+        "fix": "Shorten the line by collapsing or removing one low-priority item so it stays at 14 words or fewer, for example by simplifying \"Spark SQL\" to \"Spark\" or dropping one of the softer tools."
+      },
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "DiDi Experience bullet 1",
+        "issue": "\"20+ cities\" is a scope signal, but it is not bolded, so the scale cue is weaker in a fast skim.",
+        "fix": "Bold the scope phrase, for example: \"across **20+ cities**\", so the geography/scale signal is visually prominent."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok and DiDi Experience bullets",
+        "issue": "Modifiers such as **team-maintained**, **team-owned**, **existing**, and **internal** are bolded in the body, which dilutes the intended emphasis on technologies and scope.",
+        "fix": "Remove bold from descriptive qualifiers and reserve bolding for technologies, ownership scope, and quantified scale."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Summary bullet 1",
+        "issue": "The lead framing uses \"Data Analysis Candidate,\" which reads like a generic label rather than a role-plus-domain hook.",
+        "fix": "Recast the opening toward a role-led framing, such as \"Data analyst:\" or \"Data/Platform analyst:\", and keep the analytical scope upfront."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Summary / overall Experience",
+        "issue": "The JD asks for Manager scope plus 6+ years of analytics experience or MS+4 years, but the resume self-reports only 3+ years and shows no explicit people-management, hiring, or performance-review evidence.",
+        "fix": "If the experience is factual, add one concrete DiDi bullet that shows project leadership, mentoring, or analyst coordination; also make the total years of analytics experience consistent across Summary and Experience. Otherwise this is a structural mismatch for this JD.",
+        "note": "[结构性错配]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] If targeting this JD, add explicit people-management or project-leadership evidence and make the analytics years consistent; otherwise this profile is structurally short of the Manager requirement.",
+    "[MUST] Trim the Skills > Data line to 14 words or fewer and remove bolding from descriptive qualifiers such as team-maintained and internal.",
+    "[SHOULD] Rewrite Summary bullet 1 so the opening reads as a role-led hook instead of \"Data Analysis Candidate\".",
+    "[NICE] Make scale cues like \"20+ cities\" visually prominent and keep future quantification focused on scope, not just percentage lifts."
+  ],
+  "revision_instructions": "[结构性错配] 这份简历当前更像 3-4 年 IC 数据分析/数据工程背景，不足以自然支撑 Capital One 的 Manager, Data Analysis 预期。若这些经历属实，优先在 DiDi 段补 1 条明确的项目管理/跨团队推进/带新人经验，并把 Summary 的年限表述与全段经历统一；否则应改投非 Manager JD。同步压缩 Skills 的 Data 行到 14 词以内，并取消正文里对 team-maintained / team-owned / existing / internal 等限定语的加粗。"
+}

@@ -1,0 +1,39 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The opening frame is a transition story ('Backend Transition Profile' / 'candidate transitioning from analytics') instead of a direct role + domain anchor, so the first-screen signal is weaker than it should be for a senior backend/networking role.",
+        "fix": "Lead with 'Backend/Security SWE' or 'Backend engineer focused on security and Linux-based services,' then mention analytics as prior background in a secondary clause."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok | Software Engineer Intern bullets 1-4",
+        "issue": "This internship section reads like breadth signaling across 4 languages (Go, Java, C++, Python) plus several infra tools (Docker, Kubernetes, AWS, GitHub Actions, pytest). For an intern, that density looks like stack bloat unless the ownership boundary is tightened.",
+        "fix": "Collapse the section into 2 core stacks: one gRPC/backend stack and one C++/Python validation stack. Keep Docker/Kubernetes/GitHub Actions/AWS as support tooling in a single bullet and explicitly mark the workflow as team-maintained/internal."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Narrow the TikTok internship to 2 core stacks and make support infra explicitly auxiliary.",
+    "[SHOULD] Rewrite the opening Summary to lead with backend/security rather than transition language.",
+    "[SHOULD] Add one Tier-1 scope metric near the top of TikTok or DiDi if available.",
+    "[NICE] Keep the rest of the content; it already covers the Cisco must-haves."
+  ],
+  "revision_instructions": "[MUST] Rework the TikTok internship so it reads as one coherent backend/service stack plus one validation stack, not a broad multi-language/multi-infra spread. Keep the technologies, but attach each to one concrete ownership line and make Docker/Kubernetes/AWS/GitHub Actions clearly support tooling in a team-maintained/internal workflow. [SHOULD] Rewrite the first Summary sentence to lead with backend/security direction first, then mention the analytics transition second. [SHOULD] If possible, add one Tier-1 scope signal near the top of the resume (service volume, event volume, team size, or release cadence) so the first impression is not driven mostly by time-reduction percentages."
+}

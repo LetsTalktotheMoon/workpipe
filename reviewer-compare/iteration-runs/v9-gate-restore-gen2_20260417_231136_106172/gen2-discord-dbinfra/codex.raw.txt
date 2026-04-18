@@ -1,0 +1,48 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullet 1",
+        "issue": "The modifier `team-maintained` is bolded. This rule allows bolding technology names and scale/scope signals, but not qualifier words.",
+        "fix": "Remove bold from `team-maintained` and keep bold only on the actual technical tokens and metrics."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall resume / Discord Database Infrastructure target",
+        "issue": "The resume shows solid backend and data work, but it does not yet demonstrate direct database-infrastructure ownership. `PostgreSQL` appears as an embedded dependency, not as a substrate you operated on. For a Database Infrastructure role, HR will expect evidence of HA, replication, failover, query path, storage primitives, or DB service ownership.",
+        "fix": "Add one bullet in the most relevant experience that names the database layer you owned and the production behavior you improved, such as PostgreSQL HA/failover, replication lag, backup/restore, query latency, storage primitives, or Rust/Go DB tooling.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "TikTok Experience + Skills: Programming",
+        "issue": "The TikTok block reads as if Go, Python, C++, and Java were all primary languages in one internship scope. That breadth can look inflated unless you separate primary from supporting usage.",
+        "fix": "State one primary language for the internship, frame the others as integration, validation, or tooling languages, or split the skills into `Primary` and `Additional` language buckets."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add one explicit database-infrastructure bullet to the most relevant experience so the resume matches a Database Infrastructure role instead of only generic backend/data work.",
+    "[MUST] Narrow or reframe the TikTok language stack so Go, Python, C++, and Java do not read like four equally primary languages in one internship.",
+    "[SHOULD] Remove bolding from qualifier words such as `team-maintained`.",
+    "[NICE] If available, add one concrete database-operation metric tied to HA, failover, replication, or query latency."
+  ],
+  "revision_instructions": "[结构性错配] Keep the backend/data narrative, but add one explicit database-infrastructure bullet in the most relevant experience that shows production ownership of PostgreSQL or another database substrate, ideally with HA, failover, replication, query path, or storage behavior. Reframe the TikTok internship so the language stack has a clear primary language and supporting languages, and remove bolding from modifier words like `team-maintained`."
+}

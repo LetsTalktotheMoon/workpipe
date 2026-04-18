@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1-2; Security Retrieval Release Sandbox background line",
+        "issue": "正文里把限定/修饰词 `team-maintained` 加粗了，属于规则明确不建议的加粗对象。",
+        "fix": "取消这些修饰词的加粗，只保留技术栈名词、量化结果和关键 scope 的加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 去掉 TikTok 两条 bullet 和 sandbox 说明里的 `team-maintained` 加粗，保留技术名词与量化指标的加粗。",
+    "[NICE] 其余结构和 JD 覆盖度已经比较完整，不需要重写主线。"
+  ],
+  "revision_instructions": ""
+}

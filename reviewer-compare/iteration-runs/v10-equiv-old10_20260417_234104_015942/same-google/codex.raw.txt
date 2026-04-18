@@ -1,0 +1,38 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary bullet 1",
+        "issue": "首屏 framing 以“transitioning from data analysis to full-stack development”为中心，第一眼更像转型说明而不是目标岗位的角色锚点。",
+        "fix": "把这一句改成角色/领域先行的表述，例如先写“Full-Stack Engineer”或“Backend/Full-Stack Engineer”，再把转型背景放到后半句。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3A-002",
+        "sub_area": "3A",
+        "severity": "high",
+        "field": "TikTok Experience > Project: Security Knowledge Retrieval Assistant bullet 1 / Skills > Cloud",
+        "issue": "正文使用了明确命名的平台 `AWS Bedrock`，但 Skills 里只列了 `AWS` 和 `S3`，没有把这个命名产品显式列出，导致技术栈叙事不闭环。",
+        "fix": "在 `Cloud` 技能行补上 `Bedrock` 或 `AWS Bedrock`，保持该项目的命名产品与 Skills 一致。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 在 `Cloud` 技能行补上 `AWS Bedrock`，因为 TikTok 检索项目正文已经显式使用了这个命名产品。",
+    "[SHOULD] 把 Summary 第一句改成角色/领域先行的写法，避免首屏先讲转型故事。",
+    "[NICE] 其余内容保持不动，重点只做一致性和首屏 framing 的微调。"
+  ],
+  "revision_instructions": "[MUST] 在 `Cloud` 技能行补上 `AWS Bedrock`，因为 TikTok 检索项目正文已经显式使用了这个命名产品；不要删除正文里的 Bedrock 相关内容。[SHOULD] 将 Summary 第一句改成角色先行的写法，例如先锚定 `Full-Stack Engineer` 或 `Backend/Full-Stack Engineer`，再把“从数据分析转向全栈”的说明放到后半句。"
+}

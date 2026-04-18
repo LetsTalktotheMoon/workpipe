@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary; TikTok/DiDi/Temu experience bullets",
+        "issue": "Ownership or qualifier words are bolded in the body, such as \"team-maintained\", \"team-owned\", and \"intern-owned\". This weakens the emphasis system because bold should be reserved for technologies, scale, and metric signals.",
+        "fix": "Remove bold from qualifier words and keep bold only on technologies, scope numbers, and key metrics."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "TikTok · Security experience",
+        "issue": "The internship reads like a single short engagement with 4 programming languages on the critical path (Go, Java, Python, C++). A hiring manager is likely to ask which language was primary versus incidental integration work.",
+        "fix": "Group the languages by function and ownership, for example: Go/gRPC for service handlers, Python for evaluation, Java for Bedrock adapters, and C++ for feature extraction. If one language was not central, remove it."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security experience, bullets 1-5",
+        "issue": "The most recent experience relies heavily on percentage improvements and time deltas, but lacks a concrete tier-1 scope anchor such as internal user count, event volume, request rate, or SLA. That weakens first-screen credibility for MLE II.",
+        "fix": "Add one substantiated scope signal to the first bullet or project baseline, such as internal users served, security-event volume, benchmark size, request rate, or release SLA, without changing the internship scope."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add one concrete tier-1 scope anchor to the TikTok Security internship, ideally in the first bullet or project baseline, so the MLE narrative is not carried only by percentage improvements.",
+    "[MUST] Recast the TikTok experience so Go, Java, Python, and C++ are clearly mapped to specific tasks instead of reading like one broad daily stack.",
+    "[SHOULD] Remove bold from ownership qualifiers such as team-maintained, team-owned, and intern-owned; reserve emphasis for technologies and metrics.",
+    "[NICE] Keep the rest of the content, but make the most relevant scope signal visible earlier in the TikTok section."
+  ],
+  "revision_instructions": "[MUST] In TikTok Security, add one concrete tier-1 scope signal to the first bullet or project baseline (for example internal user count, event volume, request rate, benchmark size, or SLA) so the opening does not rely only on percentage improvements. [MUST] Rephrase the TikTok bullets so each language is tied to a specific responsibility: Go/gRPC for service handlers, Python for evaluation, Java for Bedrock adapters, C++ for feature extraction. [SHOULD] Remove bold from qualifier words like team-maintained, team-owned, and intern-owned, and keep bold on technologies, scale, and metrics only."
+}

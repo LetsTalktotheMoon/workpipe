@@ -1,0 +1,333 @@
+{
+  "label": "extra/HealthEquity-DotNet",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/HealthEquity-DotNet",
+    "company": "HealthEquity",
+    "title": "Software Engineer II",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "HealthEquity is dedicated to saving and improving lives by empowering healthcare consumers",
+    "tech_required": [
+      "Azure",
+      "Spark",
+      "MongoDB",
+      "Agile",
+      "Databricks",
+      "Angular",
+      "SQL",
+      "Git",
+      "Css",
+      "Python",
+      "Html",
+      "Scala",
+      "JavaScript",
+      "Scrum"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.3,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [
+        "Compress the Skills section so each category stays within the 4-8 item density rule.",
+        "Remove bolding from qualifier words like `team-maintained` and add a clearer healthcare-domain bridge in the summary."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.2,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.4,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.3,
+      "verdict": "pass",
+      "seed_label": "Generalist DotNet Enterprise",
+      "route_mode": "retarget",
+      "revised": false,
+      "repaired_at": "2026-04-07T16:57:27",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T20:33:35",
+    "completed_at": "2026-04-17T20:35:00",
+    "duration_seconds": 85.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Summary sentence 1; Summary sentence 2; TikTok Experience bullet 2; TikTok Experience bullet 5",
+            "issue": "Several scan-critical quantitative and technical tokens are left unbolded, including `3+ years`, `Agile`, and `Bedrock`.",
+            "fix": "Bold those evidence-bearing tokens in place wherever they appear, without changing the wording."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-4; DiDi Experience bullets 1-4",
+            "issue": "Ownership and scope qualifiers that matter for credibility are plain text, such as `team-maintained`, `internal`, `operator-facing`, and `shared`.",
+            "fix": "Bold the qualifiers that define ownership, boundary, or responsibility when they carry signal value."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary sentence 1",
+            "issue": "The opening frame leads with `trajectory` and `transitioning from data analytics` instead of a direct role-and-domain anchor, so the first impression is career shift rather than target fit.",
+            "fix": "Rewrite the header to a direct fit statement such as `Security-focused Backend Software Engineer:` or `Backend Engineer:` and move the transition story later."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Reframe Summary sentence 1 to lead with a direct backend/security role statement instead of a transition narrative.",
+        "[MUST] Bold the missing high-signal tokens in the body and Summary (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`).",
+        "[SHOULD] Keep the rest of the content unchanged; do not remove any technical evidence that supports JD fit."
+      ],
+      "revision_instructions": "[MUST] Rewrite the first Summary sentence so the first impression is a direct backend/security role fit, not a career transition. [MUST] Bold the missing scan-critical signals in place (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`) while preserving the current wording and immutable fields. Keep the rest of the resume intact.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 97.0,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Reframe Summary sentence 1 to lead with a direct backend/security role statement instead of a transition narrative.",
+        "[MUST] Bold the missing high-signal tokens in the body and Summary (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`).",
+        "[SHOULD] Keep the rest of the content unchanged; do not remove any technical evidence that supports JD fit."
+      ],
+      "revision_instructions": "[MUST] Rewrite the first Summary sentence so the first impression is a direct backend/security role fit, not a career transition. [MUST] Bold the missing scan-critical signals in place (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`) while preserving the current wording and immutable fields. Keep the rest of the resume intact.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Summary sentence 1; Summary sentence 2; TikTok Experience bullet 2; TikTok Experience bullet 5",
+              "issue": "Several scan-critical quantitative and technical tokens are left unbolded, including `3+ years`, `Agile`, and `Bedrock`.",
+              "fix": "Bold those evidence-bearing tokens in place wherever they appear, without changing the wording."
+            },
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "TikTok Experience bullets 1-4; DiDi Experience bullets 1-4",
+              "issue": "Ownership and scope qualifiers that matter for credibility are plain text, such as `team-maintained`, `internal`, `operator-facing`, and `shared`.",
+              "fix": "Bold the qualifiers that define ownership, boundary, or responsibility when they carry signal value."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Summary sentence 1",
+              "issue": "The opening frame leads with `trajectory` and `transitioning from data analytics` instead of a direct role-and-domain anchor, so the first impression is career shift rather than target fit.",
+              "fix": "Rewrite the header to a direct fit statement such as `Security-focused Backend Software Engineer:` or `Backend Engineer:` and move the transition story later."
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": []
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Reframe Summary sentence 1 to lead with a direct backend/security role statement instead of a transition narrative.",
+          "[MUST] Bold the missing high-signal tokens in the body and Summary (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`).",
+          "[SHOULD] Keep the rest of the content unchanged; do not remove any technical evidence that supports JD fit."
+        ],
+        "revision_instructions": "[MUST] Rewrite the first Summary sentence so the first impression is a direct backend/security role fit, not a career transition. [MUST] Bold the missing scan-critical signals in place (`3+ years`, `Agile`, `Bedrock`, `team-maintained`, `internal`, `operator-facing`) while preserving the current wording and immutable fields. Keep the rest of the resume intact.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Summary sentence 1; Summary sentence 2; TikTok Experience bullet 2; TikTok Experience bullet 5",
+            "issue": "Several scan-critical quantitative and technical tokens are left unbolded, including `3+ years`, `Agile`, and `Bedrock`.",
+            "fix": "Bold those evidence-bearing tokens in place wherever they appear, without changing the wording."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-4; DiDi Experience bullets 1-4",
+            "issue": "Ownership and scope qualifiers that matter for credibility are plain text, such as `team-maintained`, `internal`, `operator-facing`, and `shared`.",
+            "fix": "Bold the qualifiers that define ownership, boundary, or responsibility when they carry signal value."
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary sentence 1",
+            "issue": "The opening frame leads with `trajectory` and `transitioning from data analytics` instead of a direct role-and-domain anchor, so the first impression is career shift rather than target fit.",
+            "fix": "Rewrite the header to a direct fit statement such as `Security-focused Backend Software Engineer:` or `Backend Engineer:` and move the transition story later."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 2,
+          "rule_ids": [
+            "P1-040",
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P1-042",
+        "P2-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

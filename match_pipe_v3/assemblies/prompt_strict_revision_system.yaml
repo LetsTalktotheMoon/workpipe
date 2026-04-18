@@ -1,0 +1,4 @@
+name: prompt_strict_revision_system
+sections:
+  - part: strict_revision_system
+join: "\n\n"

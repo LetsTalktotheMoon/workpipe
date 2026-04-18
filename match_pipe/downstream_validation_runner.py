@@ -17,15 +17,20 @@ if str(RUNTIME_ROOT) not in sys.path:
 from automation.job_router import build_job_fingerprint, build_skill_vocab_from_seeds, decide_route
 from automation.seed_registry import load_seed_registry
 from core.anthropic_client import LLMUnavailableError, configure_llm_client
-from core.prompt_builder import (
-    build_master_writer_prompt,
-    build_seed_retarget_prompt,
-    build_unified_review_prompt,
-    build_upgrade_revision_prompt,
+from job_webapp.prompt_library import (
+    append_match_pipe_dual_channel_overlay,
+    build_match_pipe_master_writer_prompt,
+    build_match_pipe_seed_retarget_prompt,
+    build_match_pipe_unified_review_prompt,
+    build_match_pipe_upgrade_revision_prompt,
+    match_pipe_reviewer_system_prompt,
+    match_pipe_strict_revision_system_prompt,
+    match_pipe_upgrade_revision_system_prompt,
+    match_pipe_writer_system_prompt,
 )
 from models.jd import JDProfile
 from pipeline.revision_acceptance import should_adopt_revision
-from reviewers.unified_reviewer import UNIFIED_REVIEWER_SYSTEM, UnifiedReviewer
+from reviewers.unified_reviewer import UnifiedReviewer
 from writers.master_writer import MasterWriter
 
 from .frozen_teacher import frozen_teacher_manifest
@@ -74,8 +79,8 @@ class FlowResult:
 
 
 def _review_prompt_tokens(jd: JDProfile, resume_md: str, review_summary) -> tuple[int, int]:
-    prompt = build_unified_review_prompt(resume_md, jd, review_scope="full")
-    prompt_tokens = _estimate_tokens(UNIFIED_REVIEWER_SYSTEM) + _estimate_tokens(prompt)
+    prompt = build_match_pipe_unified_review_prompt(resume_md, jd, review_scope="full")
+    prompt_tokens = _estimate_tokens(match_pipe_reviewer_system_prompt()) + _estimate_tokens(prompt)
     call_count = len(review_summary.calibration_scores) if review_summary.calibrated and review_summary.calibration_scores else 1
     output_tokens = _estimate_tokens(review_summary.raw_response) * call_count
     return prompt_tokens * call_count, output_tokens
@@ -92,7 +97,13 @@ def _review_with_revision(
     revision_prompt_builder,
     started_at: float,
 ) -> FlowResult:
-    review = reviewer.review(initial_resume_md, jd, mode="full")
+    review = reviewer.review(
+        initial_resume_md,
+        jd,
+        mode="full",
+        prompt_override=build_match_pipe_unified_review_prompt(initial_resume_md, jd, review_scope="full"),
+        system_prompt_override=match_pipe_reviewer_system_prompt(),
+    )
     total_writer_prompt_tokens = writer_prompt_tokens
     total_writer_output_tokens = _estimate_tokens(initial_resume_md)
     rewrite_rounds = 0
@@ -101,8 +112,20 @@ def _review_with_revision(
     while not review.passed and review.needs_revision and rewrite_rounds < 1:
         rewrite_rounds += 1
         revision_prompt = revision_prompt_builder(current_resume_md, review)
-        revised_md = writer.revise(current_resume_md, revision_prompt, jd, rewrite_mode="upgrade")
-        revised_review = reviewer.review(revised_md, jd, mode="full")
+        revised_md = writer.revise(
+            current_resume_md,
+            revision_prompt,
+            jd,
+            rewrite_mode="upgrade",
+            system_prompt_override=match_pipe_upgrade_revision_system_prompt(),
+        )
+        revised_review = reviewer.review(
+            revised_md,
+            jd,
+            mode="full",
+            prompt_override=build_match_pipe_unified_review_prompt(revised_md, jd, review_scope="full"),
+            system_prompt_override=match_pipe_reviewer_system_prompt(),
+        )
         adopted = should_adopt_revision(
             score_before=review.weighted_score,
             critical_before=review.critical_count,
@@ -138,10 +161,11 @@ def _review_with_revision(
 
 def _run_no_starter(writer: MasterWriter, reviewer: UnifiedReviewer, jd: JDProfile) -> FlowResult:
     started = time.perf_counter()
-    prompt = build_master_writer_prompt(jd)
+    prompt = build_match_pipe_master_writer_prompt(jd)
     resume_md, _ = writer.write_from_prompt(
         prompt,
         jd=jd,
+        system_prompt=match_pipe_writer_system_prompt(),
         cache_key_parts=(jd.jd_id or "unknown", jd.company or "", jd.role_type or "", "small_flow_no_starter_v1"),
     )
 
@@ -152,7 +176,7 @@ def _run_no_starter(writer: MasterWriter, reviewer: UnifiedReviewer, jd: JDProfi
         initial_resume_md=resume_md,
         writer_prompt_tokens=_estimate_tokens(prompt),
         anchor_summary={"strategy": "generate_from_scratch"},
-        revision_prompt_builder=lambda current_md, review: build_upgrade_revision_prompt(
+        revision_prompt_builder=lambda current_md, review: build_match_pipe_upgrade_revision_prompt(
             current_md,
             review.__dict__ | {
                 "scores": {
@@ -192,14 +216,19 @@ def _run_old_match(
     decision = decide_route(fingerprint, seeds)
     seed_entry = next(item for item in seeds if item.seed_id == decision.top_candidate.seed_id)
     seed_resume_md = seed_entry.source_md.read_text(encoding="utf-8")
-    prompt = build_seed_retarget_prompt(
+    prompt = build_match_pipe_seed_retarget_prompt(
         seed_resume_md,
         jd,
         seed_label=decision.top_candidate.label,
         route_mode=decision.route_mode,
         top_candidate=decision.top_candidate.to_dict(),
     )
-    resume_md = writer.revise(seed_resume_md, prompt, jd)
+    resume_md = writer.revise(
+        seed_resume_md,
+        prompt,
+        jd,
+        system_prompt_override=match_pipe_strict_revision_system_prompt(),
+    )
     result = _review_with_revision(
         writer=writer,
         reviewer=reviewer,
@@ -211,7 +240,7 @@ def _run_old_match(
             "seed_label": decision.top_candidate.label,
             "seed_id": decision.top_candidate.seed_id,
         },
-        revision_prompt_builder=lambda current_md, review: build_upgrade_revision_prompt(
+        revision_prompt_builder=lambda current_md, review: build_match_pipe_upgrade_revision_prompt(
             current_md,
             review.__dict__ | {
                 "scores": {
@@ -258,7 +287,7 @@ def _run_new_dual_channel(
         [selector_payload["writer_input"].get("continuity_anchor")]
         + list(selector_payload.get("company_top_k", []))
     )
-    prompt = build_seed_retarget_prompt(
+    prompt = build_match_pipe_seed_retarget_prompt(
         seed_resume_md,
         jd,
         seed_label=f"semantic:{primary_anchor['company_name']} / {primary_anchor['title']}",
@@ -273,16 +302,17 @@ def _run_new_dual_channel(
             "missing_required": primary_anchor.get("missing_critical_units", []),
         },
     )
-    prompt += "\n\n## Dual-channel continuity note\n"
-    for line in selector_payload.get("delta_summary", []):
-        prompt += f"- {line}\n"
-    if continuity_anchor:
-        prompt += (
-            f"- Continuity anchor: {continuity_anchor['company_name']} / {continuity_anchor['title']} "
-            f"(reuse_readiness={continuity_anchor['reuse_readiness']:.2f}).\n"
-        )
-    prompt += "- Use semantic anchor as the main skeleton. Apply company continuity only when it does not reintroduce hard gaps.\n"
-    resume_md = writer.revise(seed_resume_md, prompt, jd)
+    prompt = append_match_pipe_dual_channel_overlay(
+        prompt,
+        delta_summary=selector_payload.get("delta_summary", []),
+        continuity_anchor=continuity_anchor,
+    )
+    resume_md = writer.revise(
+        seed_resume_md,
+        prompt,
+        jd,
+        system_prompt_override=match_pipe_strict_revision_system_prompt(),
+    )
     result = _review_with_revision(
         writer=writer,
         reviewer=reviewer,
@@ -294,7 +324,7 @@ def _run_new_dual_channel(
             "semantic_writer_anchor": primary_anchor,
             "company_best_anchor": selector_payload.get("company_best_anchor"),
         },
-        revision_prompt_builder=lambda current_md, review: build_upgrade_revision_prompt(
+        revision_prompt_builder=lambda current_md, review: build_match_pipe_upgrade_revision_prompt(
             current_md,
             review.__dict__ | {
                 "scores": {

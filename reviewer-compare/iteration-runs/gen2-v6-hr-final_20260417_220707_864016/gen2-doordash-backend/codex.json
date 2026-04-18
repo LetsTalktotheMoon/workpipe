@@ -1,0 +1,197 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:15:14",
+  "completed_at": "2026-04-17T22:16:09",
+  "duration_seconds": 55.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Summary / Experience bullets",
+          "issue": "Key quantitative outcomes and scope markers are not bolded outside Skills, so the scan weight stays on technologies rather than impact (for example: 11 -> 4 minutes, 24%, 13-person, 20+ city, 96% coverage).",
+          "fix": "Bold the highest-signal metric or scope token in the lead bullet of each role and project, especially the first quantified outcome in TikTok and DiDi."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The headline uses 'Backend Engineer in Transition', which weakens the first-screen role signal with transition framing.",
+          "fix": "Rewrite the first sentence to lead with the target role and domain, e.g. 'Backend Engineer: ...', and move the analytics-to-backend bridge later in the summary."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Intern and DiDi Experience",
+          "issue": "Programming-language breadth is presented as active use of Java, Go, Python, Scala, and JavaScript across the first two experiences, which reads like stack accumulation unless you separate primary vs supporting languages.",
+          "fix": "For each role, name the 1-2 primary implementation languages in the main bullets and relegate secondary languages, scripting, or UI work to supporting context or the project block."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary headline to lead with 'Backend Engineer' and remove 'in transition' from the opening framing.",
+      "[MUST] Reduce programming-language breadth in the main experience bullets by assigning a primary language per role and demoting secondary languages to supporting context.",
+      "[SHOULD] Bold the strongest metrics and scope markers in the lead bullet of each role and project so impact is visible in a 6-8 second scan.",
+      "[NICE] Keep the analytics-to-backend bridge explicit, but put it in sentence 2 or 3 instead of the headline."
+    ],
+    "revision_instructions": "Rewrite Summary sentence 1 as a direct role statement, e.g. 'Backend Engineer: ...', and remove 'transitioning' from the headline. Keep the analytics-to-backend story, but place it after the role anchor. In TikTok and DiDi, present one primary implementation language per role in the main bullets; keep other languages as supporting tools, scripting, or project context. Bold the strongest quantified outcomes and scope markers in the first bullet of each role and project. Do not change the immutable company/title/date/location fields.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.3,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the Summary headline to lead with 'Backend Engineer' and remove 'in transition' from the opening framing.",
+      "[MUST] Reduce programming-language breadth in the main experience bullets by assigning a primary language per role and demoting secondary languages to supporting context.",
+      "[SHOULD] Bold the strongest metrics and scope markers in the lead bullet of each role and project so impact is visible in a 6-8 second scan.",
+      "[NICE] Keep the analytics-to-backend bridge explicit, but put it in sentence 2 or 3 instead of the headline."
+    ],
+    "revision_instructions": "Rewrite Summary sentence 1 as a direct role statement, e.g. 'Backend Engineer: ...', and remove 'transitioning' from the headline. Keep the analytics-to-backend story, but place it after the role anchor. In TikTok and DiDi, present one primary implementation language per role in the main bullets; keep other languages as supporting tools, scripting, or project context. Bold the strongest quantified outcomes and scope markers in the first bullet of each role and project. Do not change the immutable company/title/date/location fields.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Summary / Experience bullets",
+            "issue": "Key quantitative outcomes and scope markers are not bolded outside Skills, so the scan weight stays on technologies rather than impact (for example: 11 -> 4 minutes, 24%, 13-person, 20+ city, 96% coverage).",
+            "fix": "Bold the highest-signal metric or scope token in the lead bullet of each role and project, especially the first quantified outcome in TikTok and DiDi."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The headline uses 'Backend Engineer in Transition', which weakens the first-screen role signal with transition framing.",
+            "fix": "Rewrite the first sentence to lead with the target role and domain, e.g. 'Backend Engineer: ...', and move the analytics-to-backend bridge later in the summary."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok Intern and DiDi Experience",
+            "issue": "Programming-language breadth is presented as active use of Java, Go, Python, Scala, and JavaScript across the first two experiences, which reads like stack accumulation unless you separate primary vs supporting languages.",
+            "fix": "For each role, name the 1-2 primary implementation languages in the main bullets and relegate secondary languages, scripting, or UI work to supporting context or the project block."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the Summary headline to lead with 'Backend Engineer' and remove 'in transition' from the opening framing.",
+        "[MUST] Reduce programming-language breadth in the main experience bullets by assigning a primary language per role and demoting secondary languages to supporting context.",
+        "[SHOULD] Bold the strongest metrics and scope markers in the lead bullet of each role and project so impact is visible in a 6-8 second scan.",
+        "[NICE] Keep the analytics-to-backend bridge explicit, but put it in sentence 2 or 3 instead of the headline."
+      ],
+      "revision_instructions": "Rewrite Summary sentence 1 as a direct role statement, e.g. 'Backend Engineer: ...', and remove 'transitioning' from the headline. Keep the analytics-to-backend story, but place it after the role anchor. In TikTok and DiDi, present one primary implementation language per role in the main bullets; keep other languages as supporting tools, scripting, or project context. Bold the strongest quantified outcomes and scope markers in the first bullet of each role and project. Do not change the immutable company/title/date/location fields.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Summary / Experience bullets",
+          "issue": "Key quantitative outcomes and scope markers are not bolded outside Skills, so the scan weight stays on technologies rather than impact (for example: 11 -> 4 minutes, 24%, 13-person, 20+ city, 96% coverage).",
+          "fix": "Bold the highest-signal metric or scope token in the lead bullet of each role and project, especially the first quantified outcome in TikTok and DiDi."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Intern and DiDi Experience",
+          "issue": "Programming-language breadth is presented as active use of Java, Go, Python, Scala, and JavaScript across the first two experiences, which reads like stack accumulation unless you separate primary vs supporting languages.",
+          "fix": "For each role, name the 1-2 primary implementation languages in the main bullets and relegate secondary languages, scripting, or UI work to supporting context or the project block."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The headline uses 'Backend Engineer in Transition', which weakens the first-screen role signal with transition framing.",
+          "fix": "Rewrite the first sentence to lead with the target role and domain, e.g. 'Backend Engineer: ...', and move the analytics-to-backend bridge later in the summary."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3C-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-001",
+      "P3C-010"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ TikTok Intern and DiDi Experience"
+    ]
+  }
+}

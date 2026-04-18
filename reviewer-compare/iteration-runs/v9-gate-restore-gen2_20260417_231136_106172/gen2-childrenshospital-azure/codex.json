@@ -1,0 +1,248 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:15:20",
+  "completed_at": "2026-04-17T23:16:26",
+  "duration_seconds": 66.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Summary and Experience bullets (all quantified impact bullets)",
+          "issue": "The resume does not consistently bold the main scale/scope and impact figures outside Skills. Several key metrics are left plain-text, which weakens scanability under this format.",
+          "fix": "Bold the primary quantitative signal in each bullet, especially time, count, and scope figures such as **11 minutes**, **4 minutes**, **3 internal queues**, **13-person**, **120K**, **96%**, and similar result numbers."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening framing leads with 'transitioning from analytics,' which reads as a transition story before a role story. That weakens the first-screen signal for an Azure/backend SWE role.",
+          "fix": "Reframe the first sentence to start with the target role and domain first, then mention analytics as background, e.g. 'Backend engineer with 3+ years building internal workflow systems...' and keep the transition context secondary."
+        },
+        {
+          "rule_id": "P2-010",
+          "severity": "high",
+          "field": "Professional Summary, sentence 3",
+          "issue": "The header 'Team Fit' is generic and low-signal for the first screen. It does not add decision-quality cognitive signal.",
+          "fix": "Replace it with a higher-signal header such as 'Systems judgment:' or 'Pattern recognition:' and keep the cross-functional evidence in the body."
+        },
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills, second line",
+          "issue": "The standalone category label 'APIs' is too vague to carry useful resume signal; it reads like a bucket rather than a capability area.",
+          "fix": "Rename or split the category into a more specific label that matches the contents, or fold the items into clearer buckets such as 'Cloud/Infra' or 'Architecture' if that better reflects the skill set."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Overall resume vs. 'Azure Software Engineer Professional' JD",
+          "issue": "This is a specialized Azure-platform role, but the resume never shows Azure delivery or C# usage in the body. The narrative reads as generic backend/data/full-stack work rather than platform-specific Azure engineering.",
+          "fix": "Add one concrete Azure/C# artifact to the most relevant experience bullet where it truly occurred, such as a deployment or service built on Azure with C#; if that evidence does not exist, this JD is a structural mismatch.",
+          "note": "[结构性错配]"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add concrete Azure and C# evidence to the most relevant experience bullet, or treat this JD as a structural mismatch.",
+      "[MUST] Reframe Summary sentence 1 so it starts with backend/platform direction instead of the transition story.",
+      "[SHOULD] Replace the generic Summary sentence 3 header and the vague 'APIs' skill bucket with higher-signal labels.",
+      "[NICE] Bold the main metric figures in bullets for faster ATS/manual scan."
+    ],
+    "revision_instructions": "[结构性错配] The current resume is not yet credible for an Azure Software Engineer Professional role because Azure and C# are missing from the body. If those skills are real, add one concrete Azure/C# bullet to the most relevant experience entry; if not, this JD is the wrong target. Also reframe the Summary to lead with backend/platform identity, replace 'Team Fit' with a cognition-oriented header, and bold the main quantitative results for scanability.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 7.5,
+      "r5_logic": 9.5,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 88.6,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add concrete Azure and C# evidence to the most relevant experience bullet, or treat this JD as a structural mismatch.",
+      "[MUST] Reframe Summary sentence 1 so it starts with backend/platform direction instead of the transition story.",
+      "[SHOULD] Replace the generic Summary sentence 3 header and the vague 'APIs' skill bucket with higher-signal labels.",
+      "[NICE] Bold the main metric figures in bullets for faster ATS/manual scan."
+    ],
+    "revision_instructions": "[结构性错配] The current resume is not yet credible for an Azure Software Engineer Professional role because Azure and C# are missing from the body. If those skills are real, add one concrete Azure/C# bullet to the most relevant experience entry; if not, this JD is the wrong target. Also reframe the Summary to lead with backend/platform identity, replace 'Team Fit' with a cognition-oriented header, and bold the main quantitative results for scanability.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Summary and Experience bullets (all quantified impact bullets)",
+            "issue": "The resume does not consistently bold the main scale/scope and impact figures outside Skills. Several key metrics are left plain-text, which weakens scanability under this format.",
+            "fix": "Bold the primary quantitative signal in each bullet, especially time, count, and scope figures such as **11 minutes**, **4 minutes**, **3 internal queues**, **13-person**, **120K**, **96%**, and similar result numbers."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening framing leads with 'transitioning from analytics,' which reads as a transition story before a role story. That weakens the first-screen signal for an Azure/backend SWE role.",
+            "fix": "Reframe the first sentence to start with the target role and domain first, then mention analytics as background, e.g. 'Backend engineer with 3+ years building internal workflow systems...' and keep the transition context secondary."
+          },
+          {
+            "rule_id": "P2-010",
+            "severity": "high",
+            "field": "Professional Summary, sentence 3",
+            "issue": "The header 'Team Fit' is generic and low-signal for the first screen. It does not add decision-quality cognitive signal.",
+            "fix": "Replace it with a higher-signal header such as 'Systems judgment:' or 'Pattern recognition:' and keep the cross-functional evidence in the body."
+          },
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills, second line",
+            "issue": "The standalone category label 'APIs' is too vague to carry useful resume signal; it reads like a bucket rather than a capability area.",
+            "fix": "Rename or split the category into a more specific label that matches the contents, or fold the items into clearer buckets such as 'Cloud/Infra' or 'Architecture' if that better reflects the skill set."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall resume vs. 'Azure Software Engineer Professional' JD",
+            "issue": "This is a specialized Azure-platform role, but the resume never shows Azure delivery or C# usage in the body. The narrative reads as generic backend/data/full-stack work rather than platform-specific Azure engineering.",
+            "fix": "Add one concrete Azure/C# artifact to the most relevant experience bullet where it truly occurred, such as a deployment or service built on Azure with C#; if that evidence does not exist, this JD is a structural mismatch.",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add concrete Azure and C# evidence to the most relevant experience bullet, or treat this JD as a structural mismatch.",
+        "[MUST] Reframe Summary sentence 1 so it starts with backend/platform direction instead of the transition story.",
+        "[SHOULD] Replace the generic Summary sentence 3 header and the vague 'APIs' skill bucket with higher-signal labels.",
+        "[NICE] Bold the main metric figures in bullets for faster ATS/manual scan."
+      ],
+      "revision_instructions": "[结构性错配] The current resume is not yet credible for an Azure Software Engineer Professional role because Azure and C# are missing from the body. If those skills are real, add one concrete Azure/C# bullet to the most relevant experience entry; if not, this JD is the wrong target. Also reframe the Summary to lead with backend/platform identity, replace 'Team Fit' with a cognition-oriented header, and bold the main quantitative results for scanability.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Summary and Experience bullets (all quantified impact bullets)",
+          "issue": "The resume does not consistently bold the main scale/scope and impact figures outside Skills. Several key metrics are left plain-text, which weakens scanability under this format.",
+          "fix": "Bold the primary quantitative signal in each bullet, especially time, count, and scope figures such as **11 minutes**, **4 minutes**, **3 internal queues**, **13-person**, **120K**, **96%**, and similar result numbers."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Overall resume vs. 'Azure Software Engineer Professional' JD",
+          "issue": "This is a specialized Azure-platform role, but the resume never shows Azure delivery or C# usage in the body. The narrative reads as generic backend/data/full-stack work rather than platform-specific Azure engineering.",
+          "fix": "Add one concrete Azure/C# artifact to the most relevant experience bullet where it truly occurred, such as a deployment or service built on Azure with C#; if that evidence does not exist, this JD is a structural mismatch.",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening framing leads with 'transitioning from analytics,' which reads as a transition story before a role story. That weakens the first-screen signal for an Azure/backend SWE role.",
+          "fix": "Reframe the first sentence to start with the target role and domain first, then mention analytics as background, e.g. 'Backend engineer with 3+ years building internal workflow systems...' and keep the transition context secondary."
+        },
+        {
+          "rule_id": "P2-010",
+          "severity": "high",
+          "field": "Professional Summary, sentence 3",
+          "issue": "The header 'Team Fit' is generic and low-signal for the first screen. It does not add decision-quality cognitive signal.",
+          "fix": "Replace it with a higher-signal header such as 'Systems judgment:' or 'Pattern recognition:' and keep the cross-functional evidence in the body."
+        }
+      ],
+      "r5_logic": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills, second line",
+          "issue": "The standalone category label 'APIs' is too vague to carry useful resume signal; it reads like a bucket rather than a capability area.",
+          "fix": "Rename or split the category into a more specific label that matches the contents, or fold the items into clearer buckets such as 'Cloud/Infra' or 'Architecture' if that better reflects the skill set."
+        }
+      ],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 3,
+        "rule_ids": [
+          "P2-001",
+          "P2-010",
+          "P2-040"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3B-012"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-001",
+      "P2-010",
+      "P2-040",
+      "P3B-012"
+    ],
+    "high_or_critical": [
+      "P2-010 @ Professional Summary, sentence 3",
+      "P3B-012 @ Overall resume vs. 'Azure Software Engineer Professional' JD"
+    ]
+  }
+}

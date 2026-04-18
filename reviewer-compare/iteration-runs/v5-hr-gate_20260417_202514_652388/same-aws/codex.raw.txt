@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullet 1; TikTok project bullet 1",
+        "issue": "Qualifying words like `team-maintained` and `existing` are bolded. This dilutes emphasis that should be reserved for named technologies, scope, and metrics.",
+        "fix": "Remove bold from descriptive qualifiers and keep bold only on stack terms, scope signals, and quantified outcomes."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary / first sentence",
+        "issue": "The opening framing leads with a transition narrative (`Backend Transition Profile`) instead of a direct role anchor. That weakens the first-screen signal for a backend/security SWE target.",
+        "fix": "Rewrite the first sentence to start with a role-direction anchor, such as `Security-focused backend engineer:` or `Backend/Security SWE:`; move the analytics-transition language later in the sentence."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Software Engineer Intern | TikTok · Security",
+        "issue": "The intern segment presents Go, Java, C++, and Embedded as primary used technologies across a short internship, which reads like stack-stuffing unless some of that work is clearly framed as supporting test/adaptation work.",
+        "fix": "Keep the same technologies, but make 1-2 languages the core delivery stack and explicitly frame C++/Embedded as test-adapter, device-validation, or support tooling so the scope feels believable."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rewrite the Summary opening to lead with a direct role anchor instead of `Transition Profile` language.",
+    "[MUST] Recast the TikTok internship so the language/tool stack reads as two core languages plus supporting embedded/test work, not four equal primary stacks.",
+    "[SHOULD] Remove bold styling from qualifiers like `team-maintained` and `existing` so emphasis stays on technologies and quantified outcomes.",
+    "[NICE] Tighten the first-screen Summary so the backend/security direction is visible within the first clause."
+  ],
+  "revision_instructions": "Rewrite the first Summary sentence to open with a direct role anchor, e.g. `Security-focused backend engineer:` or `Backend/Security SWE:`, and keep the analytics-transition idea as a secondary clause. In the TikTok internship, preserve C++, Embedded, Java, and Go, but frame C++/Embedded as test-adapter or device-validation support so the role does not read like four equal primary daily stacks. Remove bold from qualifiers such as `team-maintained` and `existing`; reserve bold for technologies, scope, and metrics. Keep the rest of the structure unchanged."
+}

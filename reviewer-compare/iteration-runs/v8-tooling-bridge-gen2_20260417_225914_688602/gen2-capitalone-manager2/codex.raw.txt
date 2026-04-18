@@ -1,0 +1,56 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, bullet 1",
+        "issue": "The opening line frames the candidate as a generic \"Data Analysis Candidate\" instead of a role/domain anchor. That weakens the first-screen signal for a manager-level analytics posting.",
+        "fix": "Reframe the first summary header to a direct role + domain signal, for example \"Data Analytics / Platform:\" or \"Data Analyst / Data Engineer:\", and keep the opening clause focused on analytics scope and business context."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall experience level vs JD Manager scope",
+        "issue": "The posting explicitly asks for a Manager with 6+ years plus people/project leadership, but the resume only states \"3+ years\" in Summary and shows no direct people-management or mentoring evidence. The current scope reads IC-level, so a recruiter will see a level mismatch.",
+        "fix": "If the experience is real, surface one DiDi or Temu bullet that shows project leadership, mentoring, or cross-team ownership; otherwise retarget this resume to an IC analytics posting.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills / Experience",
+        "issue": "The JD's core analytics stack includes R, but R does not appear anywhere in the resume. ATS will treat the core-skill family as uncovered.",
+        "fix": "If the candidate actually used R, add one concrete R-based analysis/reporting bullet in the most relevant analytics role; if not, do not present this resume as a full-match for this posting."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok | Software Engineer Intern",
+        "issue": "The latest experience is dominated by percentage-improvement bullets and does not supply a Tier 1 scope signal such as team size, data volume, request volume, or system scale. For a manager-oriented posting, that weakens the opening credibility of the page.",
+        "fix": "Add one concrete scope bullet if true, such as the size of the internal user group, dataset volume, workflow throughput, or release cadence, so the latest experience can carry more than only Tier 2 percentage lifts."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Surface a real R-based analytics bullet in the most relevant experience, or accept that this posting is not a full ATS match.",
+    "[MUST] Resolve the manager-level scope gap by adding true project leadership / mentoring / cross-team ownership evidence, or retarget the resume to IC roles.",
+    "[SHOULD] Reframe the first Summary bullet from \"Data Analysis Candidate\" to a direct role + domain anchor.",
+    "[NICE] Add one concrete scope signal to the latest TikTok experience so the top of the page reads less like percentage-only impact."
+  ],
+  "revision_instructions": "[结构性错配] 这版更像 IC 数据分析简历，不像 Capital One 的 Manager, Data Analysis。优先只做三处：1) 如果真实用过 R，在最相关的 Temu/DiDi 分析 bullet 里补出 R 的具体用途；2) 在 DiDi 或 Temu 中补 1 条真实的项目/跨团队/带教/协调证据，支撑 manager/lead scope；3) 把 Summary 第一句改成角色+领域锚点，去掉 \"Candidate\" 口吻。若没有 R 或管理/项目领导经历，这个 JD 不建议硬投。"
+}

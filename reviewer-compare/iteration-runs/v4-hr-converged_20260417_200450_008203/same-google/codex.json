@@ -1,0 +1,247 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:05:49",
+  "completed_at": "2026-04-17T20:07:16",
+  "duration_seconds": 87.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience and project bullets",
+          "issue": "第一屏正文里的关键量化信号大多没有加粗，像 31%、89%→96%、14 分钟→6 分钟、12K+、13-person、20+ city、4-hour refresh 这类最该被 HR 一眼扫到的信息都被埋在普通文本里。",
+          "fix": "把每段最有分量的 1-2 个数字或 scope 信号加粗，优先覆盖最新经历和两个项目中的核心结果。"
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary and experience bullets",
+          "issue": "存在把修饰语当成重点去加粗的情况，例如 `team-maintained`、`existing`、`internal`、`teammate-guided`，会稀释真正的技术和结果信号。",
+          "fix": "取消这些限定词的加粗，只保留技术栈名词和核心量化结果的加粗。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句用 `transitioning from data analysis to full-stack development` 做 framing，首屏先讲转变过程而不是目标角色和领域信号，6-8 秒扫读时容易削弱第一印象。",
+          "fix": "把首句改成直接的目标角色定位，例如先写 security / full-stack / platform 方向，再补充转型背景。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3A-002",
+          "sub_area": "3A",
+          "severity": "high",
+          "field": "TikTok Project: Security Knowledge Retrieval Assistant, bullet 1",
+          "issue": "正文出现了 `AWS Bedrock`，但 Skills 里没有这个明确产品/服务名。对 ATS 和面试官来说，这会像是正文引入了一个未被技能区支撑的关键技术点。",
+          "fix": "如果确实使用过，就把 `AWS Bedrock` 补进 Skills；如果不想扩展 Skills，就把该句改写成更泛化的 `AWS-managed retrieval service` 或 `internal retrieval workflow`。"
+        },
+        {
+          "rule_id": "P3A-003",
+          "sub_area": "3A",
+          "severity": "critical",
+          "field": "Professional Summary, sentence 2",
+          "issue": "Summary 里写了对 `data structures` 和 `algorithms` 的强调，但正文没有任何具体 bullet 证明这类工作内容，属于首屏能力主张缺少正文支撑。",
+          "fix": "删除这段未被证明的主张，或者在最相关经历里补一条明确的算法 / 数据结构实现证据后再保留。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 首句改成目标角色/领域导向，去掉首屏的转型叙事。",
+      "[MUST] 删掉或补证据支撑 `data structures` / `algorithms` 这条 Summary 主张。",
+      "[MUST] 若真实使用过 `AWS Bedrock`，把它补进 Skills；否则把 TikTok retrieval bullet 收敛成更泛化的 AWS 内部检索表述。",
+      "[SHOULD] 把第一屏最强的数字和 scope 信号加粗，同时去掉 `team-maintained`、`existing`、`internal` 这类修饰语的加粗。"
+    ],
+    "revision_instructions": "先改 Summary：第一句直接写成 security/full-stack/platform 方向的角色定位，不要以 `transitioning` 开头；第二句删除 `data structures` 和 `algorithms`，除非你能在正文补一条具体实现证据。TikTok 的 retrieval 项目里如果确实用了 `AWS Bedrock`，把它补进 Skills；如果不想扩展 Skills，就把这句改成更泛化的内部 AWS 检索服务表述。最后把第一屏最重要的数字和 scope（31%、13-person、20+ city、12K+、4-hour、14→6 min）加粗，并取消 `team-maintained`、`existing`、`internal` 这类修饰语的加粗。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 4.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 86.2,
+    "critical_count": 1,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 把 Summary 首句改成目标角色/领域导向，去掉首屏的转型叙事。",
+      "[MUST] 删掉或补证据支撑 `data structures` / `algorithms` 这条 Summary 主张。",
+      "[MUST] 若真实使用过 `AWS Bedrock`，把它补进 Skills；否则把 TikTok retrieval bullet 收敛成更泛化的 AWS 内部检索表述。",
+      "[SHOULD] 把第一屏最强的数字和 scope 信号加粗，同时去掉 `team-maintained`、`existing`、`internal` 这类修饰语的加粗。"
+    ],
+    "revision_instructions": "先改 Summary：第一句直接写成 security/full-stack/platform 方向的角色定位，不要以 `transitioning` 开头；第二句删除 `data structures` 和 `algorithms`，除非你能在正文补一条具体实现证据。TikTok 的 retrieval 项目里如果确实用了 `AWS Bedrock`，把它补进 Skills；如果不想扩展 Skills，就把这句改成更泛化的内部 AWS 检索服务表述。最后把第一屏最重要的数字和 scope（31%、13-person、20+ city、12K+、4-hour、14→6 min）加粗，并取消 `team-maintained`、`existing`、`internal` 这类修饰语的加粗。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience and project bullets",
+            "issue": "第一屏正文里的关键量化信号大多没有加粗，像 31%、89%→96%、14 分钟→6 分钟、12K+、13-person、20+ city、4-hour refresh 这类最该被 HR 一眼扫到的信息都被埋在普通文本里。",
+            "fix": "把每段最有分量的 1-2 个数字或 scope 信号加粗，优先覆盖最新经历和两个项目中的核心结果。"
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary and experience bullets",
+            "issue": "存在把修饰语当成重点去加粗的情况，例如 `team-maintained`、`existing`、`internal`、`teammate-guided`，会稀释真正的技术和结果信号。",
+            "fix": "取消这些限定词的加粗，只保留技术栈名词和核心量化结果的加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句用 `transitioning from data analysis to full-stack development` 做 framing，首屏先讲转变过程而不是目标角色和领域信号，6-8 秒扫读时容易削弱第一印象。",
+            "fix": "把首句改成直接的目标角色定位，例如先写 security / full-stack / platform 方向，再补充转型背景。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3A-002",
+            "sub_area": "3A",
+            "severity": "high",
+            "field": "TikTok Project: Security Knowledge Retrieval Assistant, bullet 1",
+            "issue": "正文出现了 `AWS Bedrock`，但 Skills 里没有这个明确产品/服务名。对 ATS 和面试官来说，这会像是正文引入了一个未被技能区支撑的关键技术点。",
+            "fix": "如果确实使用过，就把 `AWS Bedrock` 补进 Skills；如果不想扩展 Skills，就把该句改写成更泛化的 `AWS-managed retrieval service` 或 `internal retrieval workflow`。"
+          },
+          {
+            "rule_id": "P3A-003",
+            "sub_area": "3A",
+            "severity": "critical",
+            "field": "Professional Summary, sentence 2",
+            "issue": "Summary 里写了对 `data structures` 和 `algorithms` 的强调，但正文没有任何具体 bullet 证明这类工作内容，属于首屏能力主张缺少正文支撑。",
+            "fix": "删除这段未被证明的主张，或者在最相关经历里补一条明确的算法 / 数据结构实现证据后再保留。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 Summary 首句改成目标角色/领域导向，去掉首屏的转型叙事。",
+        "[MUST] 删掉或补证据支撑 `data structures` / `algorithms` 这条 Summary 主张。",
+        "[MUST] 若真实使用过 `AWS Bedrock`，把它补进 Skills；否则把 TikTok retrieval bullet 收敛成更泛化的 AWS 内部检索表述。",
+        "[SHOULD] 把第一屏最强的数字和 scope 信号加粗，同时去掉 `team-maintained`、`existing`、`internal` 这类修饰语的加粗。"
+      ],
+      "revision_instructions": "先改 Summary：第一句直接写成 security/full-stack/platform 方向的角色定位，不要以 `transitioning` 开头；第二句删除 `data structures` 和 `algorithms`，除非你能在正文补一条具体实现证据。TikTok 的 retrieval 项目里如果确实用了 `AWS Bedrock`，把它补进 Skills；如果不想扩展 Skills，就把这句改成更泛化的内部 AWS 检索服务表述。最后把第一屏最重要的数字和 scope（31%、13-person、20+ city、12K+、4-hour、14→6 min）加粗，并取消 `team-maintained`、`existing`、`internal` 这类修饰语的加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [
+        {
+          "rule_id": "P3A-002",
+          "sub_area": "3A",
+          "severity": "high",
+          "field": "TikTok Project: Security Knowledge Retrieval Assistant, bullet 1",
+          "issue": "正文出现了 `AWS Bedrock`，但 Skills 里没有这个明确产品/服务名。对 ATS 和面试官来说，这会像是正文引入了一个未被技能区支撑的关键技术点。",
+          "fix": "如果确实使用过，就把 `AWS Bedrock` 补进 Skills；如果不想扩展 Skills，就把该句改写成更泛化的 `AWS-managed retrieval service` 或 `internal retrieval workflow`。"
+        },
+        {
+          "rule_id": "P3A-003",
+          "sub_area": "3A",
+          "severity": "critical",
+          "field": "Professional Summary, sentence 2",
+          "issue": "Summary 里写了对 `data structures` 和 `algorithms` 的强调，但正文没有任何具体 bullet 证明这类工作内容，属于首屏能力主张缺少正文支撑。",
+          "fix": "删除这段未被证明的主张，或者在最相关经历里补一条明确的算法 / 数据结构实现证据后再保留。"
+        }
+      ],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience and project bullets",
+          "issue": "第一屏正文里的关键量化信号大多没有加粗，像 31%、89%→96%、14 分钟→6 分钟、12K+、13-person、20+ city、4-hour refresh 这类最该被 HR 一眼扫到的信息都被埋在普通文本里。",
+          "fix": "把每段最有分量的 1-2 个数字或 scope 信号加粗，优先覆盖最新经历和两个项目中的核心结果。"
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary and experience bullets",
+          "issue": "存在把修饰语当成重点去加粗的情况，例如 `team-maintained`、`existing`、`internal`、`teammate-guided`，会稀释真正的技术和结果信号。",
+          "fix": "取消这些限定词的加粗，只保留技术栈名词和核心量化结果的加粗。"
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句用 `transitioning from data analysis to full-stack development` 做 framing，首屏先讲转变过程而不是目标角色和领域信号，6-8 秒扫读时容易削弱第一印象。",
+          "fix": "把首句改成直接的目标角色定位，例如先写 security / full-stack / platform 方向，再补充转型背景。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-040",
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3A-002",
+          "P3A-003"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P1-042",
+      "P2-001",
+      "P3A-002",
+      "P3A-003"
+    ],
+    "high_or_critical": [
+      "P3A-002 @ TikTok Project: Security Knowledge Retrieval Assistant, bullet 1",
+      "P3A-003 @ Professional Summary, sentence 2"
+    ]
+  }
+}

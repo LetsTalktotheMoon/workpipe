@@ -1,0 +1,390 @@
+{
+  "label": "same/Microsoft",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293",
+  "historical": {
+    "official_score": 94.2,
+    "official_verdict": "pass",
+    "official_notes": [
+      "Old report baseline only; no detailed official target revision priority was recorded.",
+      "Old report assessment: official reviewer likely underweighted top-of-page senior/backend framing risk."
+    ],
+    "claude_score": 87.9,
+    "claude_verdict": "fail",
+    "claude_notes": [
+      "High severity on Summary header: Strategic Problem Solving.",
+      "Medium severity on transition framing: transitioning from data analytics.",
+      "Medium severity on exact top-of-page keyword signaling: Distributed Systems and Code Review.",
+      "Medium severity on category naming: Cloud."
+    ],
+    "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+  },
+  "metadata": {
+    "label": "same/Microsoft",
+    "company": "Microsoft",
+    "title": "Software Engineer II - Azure Storage",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Microsoft is building a massively scalable cloud storage solution, Azure Storage, and is looking for a Software Engineer II to join their team",
+    "tech_required": [
+      "C++",
+      "Distributed Systems"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/review.json",
+    "historical": {
+      "official_score": 94.2,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; no detailed official target revision priority was recorded.",
+        "Old report assessment: official reviewer likely underweighted top-of-page senior/backend framing risk."
+      ],
+      "claude_score": 87.9,
+      "claude_verdict": "fail",
+      "claude_notes": [
+        "High severity on Summary header: Strategic Problem Solving.",
+        "Medium severity on transition framing: transitioning from data analytics.",
+        "Medium severity on exact top-of-page keyword signaling: Distributed Systems and Code Review.",
+        "Medium severity on category naming: Cloud."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    },
+    "portfolio_review": {
+      "weighted_score": 94.4,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": true,
+      "revision_priority": [
+        "在 `## Skills` 里补上 `Distributed Systems`，并在 Summary 或 TikTok 至少一条 bullet 里保留同义的分布式服务证据。",
+        "收紧加粗规则：去掉限定词加粗，修正 `**2 release** cycles` 这类断裂写法，只保留技术名词和数字加粗。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 8.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.8,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.4,
+      "verdict": "pass",
+      "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+      "route_mode": "retarget",
+      "revised": false
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T19:36:22",
+    "completed_at": "2026-04-17T19:37:25",
+    "duration_seconds": 63.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary bullet 2; TikTok Experience bullets 1-2; TikTok project intro line",
+            "issue": "存在将描述性限定词加粗的情况，例如 `team-maintained` 和 `existing`。这会稀释技术栈与量化信号的视觉权重。",
+            "fix": "取消这些限定词的加粗，只保留技术名词、规模和结果数字加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary sentence 1",
+            "issue": "首句虽然有 `Backend Engineering Alignment`，但主体仍然是 `transitioning from data analytics to backend engineering`，首屏仍偏转岗叙事，弱化了后端方向的即刻判断。",
+            "fix": "把首句改成直接的后端/分布式系统定位，把转岗背景压到后半句或下一句。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills; Professional Summary; TikTok Experience",
+            "issue": "JD 必须项里有 `Distributed Systems`，但简历只用 `Microservices`、`Kafka`、`gRPC` 等间接表达，Skills 里没有把这个核心概念明确立住，ATS 和招聘方首扫都可能读不出硬覆盖。",
+            "fix": "在最相关的后端经历里补一条明确的分布式系统证据，并在 Skills 或 Summary 中显式写出 `Distributed Systems` / `distributed systems`，让 JD 匹配一眼可见。"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary; TikTok Experience",
+            "issue": "最近经历把 `Go`、`Python`、`Java`、`C#`、`JavaScript` 等多种语言都写成使用级证据，容易读成语言堆砌而不是一个清晰的主栈。",
+            "fix": "每段经历保留 1-2 个主语言，其余语言只在必要的集成或调用场景里顺带提及，避免让同一段看起来像同时日常主用五六种语言。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "最新且最相关的 TikTok 段落首条 bullet 主要是百分比提升，规模/边界/ownership 信号不在第一眼位置，量化抓手偏弱。",
+            "fix": "把一个具体的系统规模或 ownership 指标前置到第一条 bullet，例如服务边界、队列规模、请求量、延迟/SLA 或处理链路范围，再把百分比结果放在后半句。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 TikTok 首条 bullet 改成真正的后端/分布式系统抓手，前置一个具体 scale 或 ownership 指标，别让首屏先看到一串百分比。",
+        "[MUST] 显式写出 `Distributed Systems`，并在最相关的后端经历里补足可追问的系统边界证据，确保 Azure Storage 的 JD 匹配一眼可见。",
+        "[MUST] 收敛 TikTok 段的语言栈表述，每段只保留 1-2 个主语言，其余语言只作为集成或调用背景出现。",
+        "[SHOULD] 去掉 `team-maintained`、`existing` 这类描述词的加粗，只保留技术名词和量化结果加粗。"
+      ],
+      "revision_instructions": "[MUST] 重写 TikTok Summary 第一句和第一条 bullet：首句直接定位为后端/分布式系统方向，不要以“transitioning from data analytics”开头；第一条 bullet 前置一个可追问的系统规模或 ownership 指标（服务边界、请求量、队列规模、SLA、延迟等），把百分比结果放后面。 [MUST] 在最相关的后端经历里显式补 `Distributed Systems` 证据，并让 Skills/Summary 也能一眼看出这个 JD 必须项，而不是只靠 `Microservices/Kafka/gRPC` 间接暗示。 [MUST] 收敛 TikTok 段的语言栈，每段保留 1-2 个主语言，其他语言只作为集成调用背景出现，避免“多语言堆砌”观感。 [SHOULD] 取消 `team-maintained`、`existing` 等描述词加粗，保留技术名词和量化数字加粗即可。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 90.4,
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 把 TikTok 首条 bullet 改成真正的后端/分布式系统抓手，前置一个具体 scale 或 ownership 指标，别让首屏先看到一串百分比。",
+        "[MUST] 显式写出 `Distributed Systems`，并在最相关的后端经历里补足可追问的系统边界证据，确保 Azure Storage 的 JD 匹配一眼可见。",
+        "[MUST] 收敛 TikTok 段的语言栈表述，每段只保留 1-2 个主语言，其余语言只作为集成或调用背景出现。",
+        "[SHOULD] 去掉 `team-maintained`、`existing` 这类描述词的加粗，只保留技术名词和量化结果加粗。"
+      ],
+      "revision_instructions": "[MUST] 重写 TikTok Summary 第一句和第一条 bullet：首句直接定位为后端/分布式系统方向，不要以“transitioning from data analytics”开头；第一条 bullet 前置一个可追问的系统规模或 ownership 指标（服务边界、请求量、队列规模、SLA、延迟等），把百分比结果放后面。 [MUST] 在最相关的后端经历里显式补 `Distributed Systems` 证据，并让 Skills/Summary 也能一眼看出这个 JD 必须项，而不是只靠 `Microservices/Kafka/gRPC` 间接暗示。 [MUST] 收敛 TikTok 段的语言栈，每段保留 1-2 个主语言，其他语言只作为集成调用背景出现，避免“多语言堆砌”观感。 [SHOULD] 取消 `team-maintained`、`existing` 等描述词加粗，保留技术名词和量化数字加粗即可。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Professional Summary bullet 2; TikTok Experience bullets 1-2; TikTok project intro line",
+              "issue": "存在将描述性限定词加粗的情况，例如 `team-maintained` 和 `existing`。这会稀释技术栈与量化信号的视觉权重。",
+              "fix": "取消这些限定词的加粗，只保留技术名词、规模和结果数字加粗。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary sentence 1",
+              "issue": "首句虽然有 `Backend Engineering Alignment`，但主体仍然是 `transitioning from data analytics to backend engineering`，首屏仍偏转岗叙事，弱化了后端方向的即刻判断。",
+              "fix": "把首句改成直接的后端/分布式系统定位，把转岗背景压到后半句或下一句。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-001",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Skills; Professional Summary; TikTok Experience",
+              "issue": "JD 必须项里有 `Distributed Systems`，但简历只用 `Microservices`、`Kafka`、`gRPC` 等间接表达，Skills 里没有把这个核心概念明确立住，ATS 和招聘方首扫都可能读不出硬覆盖。",
+              "fix": "在最相关的后端经历里补一条明确的分布式系统证据，并在 Skills 或 Summary 中显式写出 `Distributed Systems` / `distributed systems`，让 JD 匹配一眼可见。"
+            },
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "Professional Summary; TikTok Experience",
+              "issue": "最近经历把 `Go`、`Python`、`Java`、`C#`、`JavaScript` 等多种语言都写成使用级证据，容易读成语言堆砌而不是一个清晰的主栈。",
+              "fix": "每段经历保留 1-2 个主语言，其余语言只在必要的集成或调用场景里顺带提及，避免让同一段看起来像同时日常主用五六种语言。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Experience",
+              "issue": "最新且最相关的 TikTok 段落首条 bullet 主要是百分比提升，规模/边界/ownership 信号不在第一眼位置，量化抓手偏弱。",
+              "fix": "把一个具体的系统规模或 ownership 指标前置到第一条 bullet，例如服务边界、队列规模、请求量、延迟/SLA 或处理链路范围，再把百分比结果放在后半句。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 把 TikTok 首条 bullet 改成真正的后端/分布式系统抓手，前置一个具体 scale 或 ownership 指标，别让首屏先看到一串百分比。",
+          "[MUST] 显式写出 `Distributed Systems`，并在最相关的后端经历里补足可追问的系统边界证据，确保 Azure Storage 的 JD 匹配一眼可见。",
+          "[MUST] 收敛 TikTok 段的语言栈表述，每段只保留 1-2 个主语言，其余语言只作为集成或调用背景出现。",
+          "[SHOULD] 去掉 `team-maintained`、`existing` 这类描述词的加粗，只保留技术名词和量化结果加粗。"
+        ],
+        "revision_instructions": "[MUST] 重写 TikTok Summary 第一句和第一条 bullet：首句直接定位为后端/分布式系统方向，不要以“transitioning from data analytics”开头；第一条 bullet 前置一个可追问的系统规模或 ownership 指标（服务边界、请求量、队列规模、SLA、延迟等），把百分比结果放后面。 [MUST] 在最相关的后端经历里显式补 `Distributed Systems` 证据，并让 Skills/Summary 也能一眼看出这个 JD 必须项，而不是只靠 `Microservices/Kafka/gRPC` 间接暗示。 [MUST] 收敛 TikTok 段的语言栈，每段保留 1-2 个主语言，其他语言只作为集成调用背景出现，避免“多语言堆砌”观感。 [SHOULD] 取消 `team-maintained`、`existing` 等描述词加粗，保留技术名词和量化数字加粗即可。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary bullet 2; TikTok Experience bullets 1-2; TikTok project intro line",
+            "issue": "存在将描述性限定词加粗的情况，例如 `team-maintained` 和 `existing`。这会稀释技术栈与量化信号的视觉权重。",
+            "fix": "取消这些限定词的加粗，只保留技术名词、规模和结果数字加粗。"
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills; Professional Summary; TikTok Experience",
+            "issue": "JD 必须项里有 `Distributed Systems`，但简历只用 `Microservices`、`Kafka`、`gRPC` 等间接表达，Skills 里没有把这个核心概念明确立住，ATS 和招聘方首扫都可能读不出硬覆盖。",
+            "fix": "在最相关的后端经历里补一条明确的分布式系统证据，并在 Skills 或 Summary 中显式写出 `Distributed Systems` / `distributed systems`，让 JD 匹配一眼可见。"
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Professional Summary; TikTok Experience",
+            "issue": "最近经历把 `Go`、`Python`、`Java`、`C#`、`JavaScript` 等多种语言都写成使用级证据，容易读成语言堆砌而不是一个清晰的主栈。",
+            "fix": "每段经历保留 1-2 个主语言，其余语言只在必要的集成或调用场景里顺带提及，避免让同一段看起来像同时日常主用五六种语言。"
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary sentence 1",
+            "issue": "首句虽然有 `Backend Engineering Alignment`，但主体仍然是 `transitioning from data analytics to backend engineering`，首屏仍偏转岗叙事，弱化了后端方向的即刻判断。",
+            "fix": "把首句改成直接的后端/分布式系统定位，把转岗背景压到后半句或下一句。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "最新且最相关的 TikTok 段落首条 bullet 主要是百分比提升，规模/边界/ownership 信号不在第一眼位置，量化抓手偏弱。",
+            "fix": "把一个具体的系统规模或 ownership 指标前置到第一条 bullet，例如服务边界、队列规模、请求量、延迟/SLA 或处理链路范围，再把百分比结果放在后半句。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 3,
+          "rule_ids": [
+            "P3B-001",
+            "P3C-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-001",
+        "P3B-001",
+        "P3C-010",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-001 @ Skills; Professional Summary; TikTok Experience",
+        "P3C-010 @ Professional Summary; TikTok Experience"
+      ]
+    }
+  }
+}

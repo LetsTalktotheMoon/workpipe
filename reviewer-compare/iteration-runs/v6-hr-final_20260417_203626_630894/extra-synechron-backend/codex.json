@@ -1,0 +1,132 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:42:36",
+  "completed_at": "2026-04-17T20:43:54",
+  "duration_seconds": 78.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills section, `APIs` category",
+          "issue": "The category title `APIs` is too vague for a first-scan read and mixes unrelated items (`NoSQL`, `Gitlab Ci`, `Jenkins`, `Agile`). It reduces parsing clarity for a fullstack backend JD.",
+          "fix": "Rename this bucket to a more informative label such as `Delivery`, `Platform`, or split it into function-based buckets like `Data/Storage` and `CI/CD`."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rename the `APIs` skills bucket to a more specific category so the first scan reads as backend/fullstack rather than miscellaneous tooling.",
+      "[NICE] If you want cleaner ATS parsing, split `NoSQL`, `Jenkins`, `Gitlab Ci`, and `Agile` into function-based groups instead of one mixed bucket."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 10.0,
+      "r5_logic": 9.5,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 99.7,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 1,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rename the `APIs` skills bucket to a more specific category so the first scan reads as backend/fullstack rather than miscellaneous tooling.",
+      "[NICE] If you want cleaner ATS parsing, split `NoSQL`, `Jenkins`, `Gitlab Ci`, and `Agile` into function-based groups instead of one mixed bucket."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills section, `APIs` category",
+            "issue": "The category title `APIs` is too vague for a first-scan read and mixes unrelated items (`NoSQL`, `Gitlab Ci`, `Jenkins`, `Agile`). It reduces parsing clarity for a fullstack backend JD.",
+            "fix": "Rename this bucket to a more informative label such as `Delivery`, `Platform`, or split it into function-based buckets like `Data/Storage` and `CI/CD`."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Rename the `APIs` skills bucket to a more specific category so the first scan reads as backend/fullstack rather than miscellaneous tooling.",
+        "[NICE] If you want cleaner ATS parsing, split `NoSQL`, `Jenkins`, `Gitlab Ci`, and `Agile` into function-based groups instead of one mixed bucket."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [],
+      "r5_logic": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills section, `APIs` category",
+          "issue": "The category title `APIs` is too vague for a first-scan read and mixes unrelated items (`NoSQL`, `Gitlab Ci`, `Jenkins`, `Agile`). It reduces parsing clarity for a fullstack backend JD.",
+          "fix": "Rename this bucket to a more informative label such as `Delivery`, `Platform`, or split it into function-based buckets like `Data/Storage` and `CI/CD`."
+        }
+      ],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-040"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-040"
+    ],
+    "high_or_critical": []
+  }
+}

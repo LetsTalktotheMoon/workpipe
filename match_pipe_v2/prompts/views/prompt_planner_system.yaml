@@ -1,0 +1,8 @@
+view_id: prompt_planner_system
+title: Planner System Prompt
+pipeline: match_pipe
+stage: planner system
+role: planner
+description: planner-only 的 system prompt。
+system_block: planner_system
+user_blocks: []

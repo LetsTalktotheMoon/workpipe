@@ -1,0 +1,54 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary / TikTok and DiDi experience bullets",
+        "issue": "Qualifying modifiers are bolded in the body, for example **team-maintained**. That violates the emphasis rule: bold should stay on technologies and scope or metric signals, not on descriptive qualifiers.",
+        "fix": "Remove bold from modifiers and keep bold only on technical nouns, scope nouns, and quantitative results."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The opening reads as a transition narrative ('trajectory' / 'transitioning from data analytics') instead of a direct role-plus-domain signal, so the first scan does not immediately anchor the candidate as a fit for the target SWE role.",
+        "fix": "Rewrite the first sentence to start with the target role or domain, then place the data-analytics background later in the sentence."
+      },
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills section > APIs",
+        "issue": "The category label 'APIs' is vague and low-information for a 6-8 second scan.",
+        "fix": "Rename it to a more specific workflow bucket, or merge Git, Shell, Scrum, and Unit Testing into a clearer category such as Engineering Workflow."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Summary / top of Experience",
+        "issue": "The story does not explicitly bridge prior internal tooling work to Veterans United's home-loan and veteran-family domain, so the reader has to infer transferability.",
+        "fix": "Add one bridge clause in Summary or the most relevant experience that frames the work as operations-heavy, customer-adjacent, or regulated-workflow tooling transferable to mortgage servicing."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rewrite the Summary opening so it is role-first and domain-first, not transition-first.",
+    "[MUST] Remove bold emphasis from qualifier words like team-maintained; reserve bold for technologies and metrics.",
+    "[MUST] Add one explicit transfer-bridge sentence tying prior internal workflow work to regulated, customer-facing operations.",
+    "[SHOULD] Rename the vague Skills bucket 'APIs' to a clearer workflow-oriented category."
+  ],
+  "revision_instructions": "Keep all immutable titles, dates, and locations unchanged. Rewrite the first Summary sentence to lead with the target role/domain instead of 'trajectory' language. Remove bold from modifier words such as team-maintained, and keep emphasis only on tech names, scope, and metrics. Add one short bridge sentence or clause that explains how internal tooling, ops, and support workflows transfer to mortgage or veteran-family services. If you keep the Skills section as-is, rename 'APIs' to a more specific workflow category.",
+}

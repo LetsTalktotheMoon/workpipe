@@ -1,0 +1,220 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:14:43",
+  "completed_at": "2026-04-17T22:15:46",
+  "duration_seconds": 63.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-051",
+          "severity": "medium",
+          "field": "Skills > Programming line",
+          "issue": "The Programming row is too dense and exceeds the 14-word cap once the item list is counted.",
+          "fix": "Split the row so Programming only holds the core languages (for example, Java, C++, Go, Python) and move frameworks/tools like React, gRPC, REST, Flask, Pytest, and Jira into a separate category."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets and TikTok project bullets",
+          "issue": "Qualifiers such as `team-maintained` are bolded, which violates the reserved bolding rule for technologies and scale signals.",
+          "fix": "Remove bolding from modifiers and qualifiers; keep bold only for technologies, scope terms, and quantitative metrics."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary sentence 1",
+          "issue": "The opening framing centers a transition narrative (`candidate transitioning from analytics`) rather than landing immediately as a direct role fit for backend/networking work.",
+          "fix": "Rewrite the first sentence to open with a direct role anchor such as `Security-focused backend engineer` or `Backend SWE`, and move the transition language later or remove it from the opener."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Summary and TikTok Experience",
+          "issue": "The profile presents four programming languages as active hands-on stack (`Java`, `Go`, `C++`, `Python`) across the opening summary and the TikTok section, which reads like stack-buffet rather than sharply bounded ownership.",
+          "fix": "Keep only the primary languages in the summary, and make `C++` and `Python` clearly bullet-specific support technologies inside the relevant parser/validation bullets instead of framing all four as equally central."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite Summary sentence 1 to open as a direct security/backend engineer fit, not as a transition profile.",
+      "[MUST] Narrow the TikTok language stack presentation so Go/Java are primary and C++/Python are clearly supporting in specific bullets.",
+      "[SHOULD] Remove bold from qualifiers like `team-maintained`; reserve bold for technologies and quantitative signals.",
+      "[SHOULD] Compress the Programming skills row or split it so it satisfies the density rule."
+    ],
+    "revision_instructions": "[MUST] Keep all immutable title/date/location fields unchanged. Rewrite the first Summary sentence to start with a direct role anchor (for example, `Security-focused backend engineer`) and remove `transitioning from analytics` from the opener. [MUST] Reduce the global language-stack presentation: keep Go/Java as the primary story, and frame C++/Python as bullet-specific support inside the TikTok parser/validation bullets rather than as equally central in the Summary. [SHOULD] Remove bold from modifiers/qualifiers such as `team-maintained`; only bold technologies, scope terms, and metrics. [SHOULD] Split or compress the Programming skills line so it fits the density cap, ideally by moving frameworks/tools into a separate category while keeping the two-project structure intact.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 95.8,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite Summary sentence 1 to open as a direct security/backend engineer fit, not as a transition profile.",
+      "[MUST] Narrow the TikTok language stack presentation so Go/Java are primary and C++/Python are clearly supporting in specific bullets.",
+      "[SHOULD] Remove bold from qualifiers like `team-maintained`; reserve bold for technologies and quantitative signals.",
+      "[SHOULD] Compress the Programming skills row or split it so it satisfies the density rule."
+    ],
+    "revision_instructions": "[MUST] Keep all immutable title/date/location fields unchanged. Rewrite the first Summary sentence to start with a direct role anchor (for example, `Security-focused backend engineer`) and remove `transitioning from analytics` from the opener. [MUST] Reduce the global language-stack presentation: keep Go/Java as the primary story, and frame C++/Python as bullet-specific support inside the TikTok parser/validation bullets rather than as equally central in the Summary. [SHOULD] Remove bold from modifiers/qualifiers such as `team-maintained`; only bold technologies, scope terms, and metrics. [SHOULD] Split or compress the Programming skills line so it fits the density cap, ideally by moving frameworks/tools into a separate category while keeping the two-project structure intact.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-051",
+            "severity": "medium",
+            "field": "Skills > Programming line",
+            "issue": "The Programming row is too dense and exceeds the 14-word cap once the item list is counted.",
+            "fix": "Split the row so Programming only holds the core languages (for example, Java, C++, Go, Python) and move frameworks/tools like React, gRPC, REST, Flask, Pytest, and Jira into a separate category."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets and TikTok project bullets",
+            "issue": "Qualifiers such as `team-maintained` are bolded, which violates the reserved bolding rule for technologies and scale signals.",
+            "fix": "Remove bolding from modifiers and qualifiers; keep bold only for technologies, scope terms, and quantitative metrics."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary sentence 1",
+            "issue": "The opening framing centers a transition narrative (`candidate transitioning from analytics`) rather than landing immediately as a direct role fit for backend/networking work.",
+            "fix": "Rewrite the first sentence to open with a direct role anchor such as `Security-focused backend engineer` or `Backend SWE`, and move the transition language later or remove it from the opener."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Summary and TikTok Experience",
+            "issue": "The profile presents four programming languages as active hands-on stack (`Java`, `Go`, `C++`, `Python`) across the opening summary and the TikTok section, which reads like stack-buffet rather than sharply bounded ownership.",
+            "fix": "Keep only the primary languages in the summary, and make `C++` and `Python` clearly bullet-specific support technologies inside the relevant parser/validation bullets instead of framing all four as equally central."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary sentence 1 to open as a direct security/backend engineer fit, not as a transition profile.",
+        "[MUST] Narrow the TikTok language stack presentation so Go/Java are primary and C++/Python are clearly supporting in specific bullets.",
+        "[SHOULD] Remove bold from qualifiers like `team-maintained`; reserve bold for technologies and quantitative signals.",
+        "[SHOULD] Compress the Programming skills row or split it so it satisfies the density rule."
+      ],
+      "revision_instructions": "[MUST] Keep all immutable title/date/location fields unchanged. Rewrite the first Summary sentence to start with a direct role anchor (for example, `Security-focused backend engineer`) and remove `transitioning from analytics` from the opener. [MUST] Reduce the global language-stack presentation: keep Go/Java as the primary story, and frame C++/Python as bullet-specific support inside the TikTok parser/validation bullets rather than as equally central in the Summary. [SHOULD] Remove bold from modifiers/qualifiers such as `team-maintained`; only bold technologies, scope terms, and metrics. [SHOULD] Split or compress the Programming skills line so it fits the density cap, ideally by moving frameworks/tools into a separate category while keeping the two-project structure intact.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-051",
+          "severity": "medium",
+          "field": "Skills > Programming line",
+          "issue": "The Programming row is too dense and exceeds the 14-word cap once the item list is counted.",
+          "fix": "Split the row so Programming only holds the core languages (for example, Java, C++, Go, Python) and move frameworks/tools like React, gRPC, REST, Flask, Pytest, and Jira into a separate category."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets and TikTok project bullets",
+          "issue": "Qualifiers such as `team-maintained` are bolded, which violates the reserved bolding rule for technologies and scale signals.",
+          "fix": "Remove bolding from modifiers and qualifiers; keep bold only for technologies, scope terms, and quantitative metrics."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "Summary and TikTok Experience",
+          "issue": "The profile presents four programming languages as active hands-on stack (`Java`, `Go`, `C++`, `Python`) across the opening summary and the TikTok section, which reads like stack-buffet rather than sharply bounded ownership.",
+          "fix": "Keep only the primary languages in the summary, and make `C++` and `Python` clearly bullet-specific support technologies inside the relevant parser/validation bullets instead of framing all four as equally central."
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Summary sentence 1",
+          "issue": "The opening framing centers a transition narrative (`candidate transitioning from analytics`) rather than landing immediately as a direct role fit for backend/networking work.",
+          "fix": "Rewrite the first sentence to open with a direct role anchor such as `Security-focused backend engineer` or `Backend SWE`, and move the transition language later or remove it from the opener."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-051",
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3C-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P1-051",
+      "P2-001",
+      "P3C-010"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ Summary and TikTok Experience"
+    ]
+  }
+}

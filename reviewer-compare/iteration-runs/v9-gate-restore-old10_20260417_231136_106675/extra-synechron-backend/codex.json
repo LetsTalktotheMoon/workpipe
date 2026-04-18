@@ -1,0 +1,161 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:17:36",
+  "completed_at": "2026-04-17T23:18:42",
+  "duration_seconds": 66.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary (3 bullets)",
+          "issue": "The three summary bullets are noun-led profile statements rather than verb-led achievement bullets, so the top block reads more like a bio than a sharp impact summary.",
+          "fix": "Rewrite each summary bullet to start with a strong action verb or role anchor while keeping the same 3-sentence structure and immutable experience fields."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary bullet 1; TikTok Experience bullets 1-2",
+          "issue": "Non-core qualifiers are bolded in the body, for example `**internal**` and `**team-maintained**`, which dilutes the visual hierarchy that should be reserved for technologies, scope, and quantified impact.",
+          "fix": "Remove bold from ordinary modifiers and keep bold only for technologies, ownership scope, and measurable results."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the 3 Summary bullets so each starts with a strong action verb or role anchor while preserving the same evidence and the 3-sentence structure.",
+      "[MUST] Remove bold from descriptive qualifiers like `internal` and `team-maintained`; reserve emphasis for technologies, scope, and metrics.",
+      "[SHOULD] Normalize Skills token casing for cleaner ATS parsing, especially `GitLab CI` and `RESTful APIs`.",
+      "[NICE] Keep the current project and experience evidence density; no extra stack breadth is needed."
+    ],
+    "revision_instructions": "Rewrite the three Summary bullets into verb-led sentences without changing the immutable experience fields or the required 3-sentence structure. De-bold ordinary descriptors such as internal/team-maintained and keep bold only on technologies, scope, and quantified outcomes. Optional cleanup: normalize Skills casing and tokenization for ATS readability.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 8.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 10.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 98.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the 3 Summary bullets so each starts with a strong action verb or role anchor while preserving the same evidence and the 3-sentence structure.",
+      "[MUST] Remove bold from descriptive qualifiers like `internal` and `team-maintained`; reserve emphasis for technologies, scope, and metrics.",
+      "[SHOULD] Normalize Skills token casing for cleaner ATS parsing, especially `GitLab CI` and `RESTful APIs`.",
+      "[NICE] Keep the current project and experience evidence density; no extra stack breadth is needed."
+    ],
+    "revision_instructions": "Rewrite the three Summary bullets into verb-led sentences without changing the immutable experience fields or the required 3-sentence structure. De-bold ordinary descriptors such as internal/team-maintained and keep bold only on technologies, scope, and quantified outcomes. Optional cleanup: normalize Skills casing and tokenization for ATS readability.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "Professional Summary (3 bullets)",
+            "issue": "The three summary bullets are noun-led profile statements rather than verb-led achievement bullets, so the top block reads more like a bio than a sharp impact summary.",
+            "fix": "Rewrite each summary bullet to start with a strong action verb or role anchor while keeping the same 3-sentence structure and immutable experience fields."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary bullet 1; TikTok Experience bullets 1-2",
+            "issue": "Non-core qualifiers are bolded in the body, for example `**internal**` and `**team-maintained**`, which dilutes the visual hierarchy that should be reserved for technologies, scope, and quantified impact.",
+            "fix": "Remove bold from ordinary modifiers and keep bold only for technologies, ownership scope, and measurable results."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the 3 Summary bullets so each starts with a strong action verb or role anchor while preserving the same evidence and the 3-sentence structure.",
+        "[MUST] Remove bold from descriptive qualifiers like `internal` and `team-maintained`; reserve emphasis for technologies, scope, and metrics.",
+        "[SHOULD] Normalize Skills token casing for cleaner ATS parsing, especially `GitLab CI` and `RESTful APIs`.",
+        "[NICE] Keep the current project and experience evidence density; no extra stack breadth is needed."
+      ],
+      "revision_instructions": "Rewrite the three Summary bullets into verb-led sentences without changing the immutable experience fields or the required 3-sentence structure. De-bold ordinary descriptors such as internal/team-maintained and keep bold only on technologies, scope, and quantified outcomes. Optional cleanup: normalize Skills casing and tokenization for ATS readability.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary (3 bullets)",
+          "issue": "The three summary bullets are noun-led profile statements rather than verb-led achievement bullets, so the top block reads more like a bio than a sharp impact summary.",
+          "fix": "Rewrite each summary bullet to start with a strong action verb or role anchor while keeping the same 3-sentence structure and immutable experience fields."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary bullet 1; TikTok Experience bullets 1-2",
+          "issue": "Non-core qualifiers are bolded in the body, for example `**internal**` and `**team-maintained**`, which dilutes the visual hierarchy that should be reserved for technologies, scope, and quantified impact.",
+          "fix": "Remove bold from ordinary modifiers and keep bold only for technologies, ownership scope, and measurable results."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-030",
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-030",
+      "P1-042"
+    ],
+    "high_or_critical": []
+  }
+}

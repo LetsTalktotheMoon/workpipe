@@ -1,0 +1,15 @@
+view_id: prompt_upgrade_revision
+title: Upgrade Revision Prompt
+pipeline: match_pipe
+stage: reviewer 后续改写
+role: writer
+description: review 失败后的升级重写 prompt。
+system_block: upgrade_revision_system
+user_blocks:
+- upgrade_prompt
+- upgrade_context
+- format_constraints_shared_head
+- format_constraints_branch
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract

@@ -1,0 +1,16 @@
+view_id: prompt_upgrade_revision_bytedance
+title: Upgrade Revision Prompt（ByteDance 分支）
+pipeline: match_pipe
+stage: reviewer 后续改写 / bytedance
+role: writer
+description: ByteDance upgrade 走共享主干 + 特殊要求块。
+system_block: upgrade_revision_system
+user_blocks:
+- upgrade_prompt
+- upgrade_bytedance_special
+- upgrade_context
+- format_constraints_shared_head
+- format_constraints_branch_bytedance
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract

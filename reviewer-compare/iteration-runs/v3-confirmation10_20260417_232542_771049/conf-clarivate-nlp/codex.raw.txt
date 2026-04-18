@@ -1,0 +1,29 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3E-013",
+        "sub_area": "3E",
+        "severity": "medium",
+        "field": "TikTok · Security, first bullet and AWS Bedrock-related project bullets",
+        "issue": "In a security-context section, the resume mentions AWS Bedrock for NLP/LLM evaluation and summarization, but it does not explicitly state the data boundary. A reviewer may ask whether the work used synthetic, redacted, internal, or production/user data.",
+        "fix": "Add an explicit qualifier if accurate, such as 'internal evaluation on synthetic/redacted data' or 'no user/prod data involved', while keeping the Bedrock/NLP claim.",
+        "note": "[合规边界]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Add an explicit data-boundary qualifier to the TikTok AWS Bedrock bullets so the Security-context use case is unambiguous."
+  ],
+  "revision_instructions": ""
+}

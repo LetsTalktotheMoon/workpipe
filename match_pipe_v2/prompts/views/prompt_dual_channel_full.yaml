@@ -1,0 +1,17 @@
+view_id: prompt_dual_channel_full
+title: Dual-channel Retarget Prompt
+pipeline: match_pipe
+stage: new_dual_channel / writer
+role: writer
+description: dual-channel 路径会在 retarget prompt 后面追加 continuity overlay。
+system_block: strict_revision_system
+user_blocks:
+- retarget_prompt
+- retarget_project_pool
+- retarget_context
+- format_constraints_shared_head
+- format_constraints_branch
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract
+- dual_channel_overlay

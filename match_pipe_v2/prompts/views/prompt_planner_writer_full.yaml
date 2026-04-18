@@ -1,0 +1,25 @@
+view_id: prompt_planner_writer_full
+title: Planner-first Writer Prompt
+pipeline: match_pipe
+stage: planner write
+role: writer
+description: planner 先决策，再把判断覆盖到 Writer prompt 上。
+system_block: writer_system
+user_blocks:
+- candidate_context_shared_experience
+- candidate_context_generic_tiktok_branch
+- candidate_context_shared_education
+- candidate_context_shared_achievements
+- writer_jd_context
+- writer_plan_shared_intro
+- writer_plan_generic_tiktok_branch
+- writer_plan_shared_didi_temu
+- writer_plan_shared_gt_coursework
+- writer_plan_shared_tail
+- format_constraints_shared_head
+- format_constraints_branch
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract
+- planner_writer_context
+- planner_writer_overlay

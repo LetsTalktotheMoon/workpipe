@@ -1,0 +1,351 @@
+{
+  "label": "extra/HealthEquity-DotNet",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/HealthEquity-DotNet",
+    "company": "HealthEquity",
+    "title": "Software Engineer II",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "HealthEquity is dedicated to saving and improving lives by empowering healthcare consumers",
+    "tech_required": [
+      "Scrum",
+      "JavaScript",
+      "Python",
+      "MongoDB",
+      "Git",
+      "Spark",
+      "Angular",
+      "SQL",
+      "Html",
+      "Scala",
+      "Azure",
+      "Css",
+      "Agile",
+      "Databricks"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.3,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [
+        "Compress the Skills section so each category stays within the 4-8 item density rule.",
+        "Remove bolding from qualifier words like `team-maintained` and add a clearer healthcare-domain bridge in the summary."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.2,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.4,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.3,
+      "verdict": "pass",
+      "seed_label": "Generalist DotNet Enterprise",
+      "route_mode": "retarget",
+      "revised": false,
+      "repaired_at": "2026-04-07T16:57:27",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:07:44",
+    "completed_at": "2026-04-17T23:09:26",
+    "duration_seconds": 102.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句先讲“transitioning from data analytics”，首屏更像转行叙事而不是目标岗位锚点，HR 6–8 秒扫读时会先看到迁移过程而不是 backend/Azure 方向。",
+            "fix": "把首句改成目标角色+领域开头，例如先写“Backend / platform engineer with X years in Python, .NET, Azure, and SQL”，再把数据分析转向放到后半句。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Experience timeline / Professional Summary",
+            "issue": "简历可见的工作经历合计约 3.1 年，明显低于 JD 要求的 6+ 年 Microsoft stack 相关经验；Summary 写“3+ years”并不能覆盖这个门槛。",
+            "fix": "如果有更早的相关全职经历，补进时间线并放到最前面的相关段落；如果没有，这个 JD 属于真实的结构性不匹配，不要继续用措辞硬撑。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3B-011",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Summary / Skills / TikTok & DiDi bullets",
+            "issue": "JD 反复点名 Azure App Service、API Management、Service Bus、App Insights、Application Gateway、Event Grid、Key Vault、Azure SQL、Azure DevOps Services、.NET Core、Microsoft SQL Server、OpenAPI/Swagger，以及 MongoDB 的 schema/index/query 深度；简历目前只证明了泛化 Azure、.NET/C#/SQL 和“MongoDB-compatible”表述，named service 级证据不足。",
+            "fix": "只在真实使用过的最相关 bullet 里补上具体 Azure 服务名、Azure DevOps、.NET Core、SQL Server、Swagger/OpenAPI、MongoDB schema/indexing/query optimization 证据；如果这些能力并不真实存在，就不要把这份简历投这个 Azure 平台岗。",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 先解决 seniority 门槛问题：当前可见经历只有约 3.1 年，和 JD 的 6+ 年要求不匹配。",
+        "[MUST] 只有在真实做过的前提下，补齐 named Azure/Microsoft service 证据；否则这份简历对该 JD 属于结构性错配。",
+        "[MUST] 把 Summary 第一条改成 backend/Azure/Python 的目标角色 framing，删除首屏的转行感。",
+        "[SHOULD] 收紧 TikTok 和 DiDi 的技术堆栈密度，让每条 bullet 聚焦 1 个主系统 + 1 个结果。"
+      ],
+      "revision_instructions": "[结构性错配] 先确认候选人是否真的有 6+ 年 Microsoft/Azure 后端经验；如果没有，不要硬改成命中 JD。Summary 第一句改成目标角色开场，迁移叙事放后面。只在真实发生过的最相关 bullet 里补 Azure App Service / API Management / Service Bus / App Insights / Gateway / Event Grid / Key Vault / Azure SQL / Azure DevOps / .NET Core / SQL Server / OpenAPI/Swagger / MongoDB schema-index-query 的证据；没有真实证据就不要补词。最后收紧每条 bullet 的技术密度，保留主栈和结果，去掉旁支堆叠。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 6.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 86.8,
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 先解决 seniority 门槛问题：当前可见经历只有约 3.1 年，和 JD 的 6+ 年要求不匹配。",
+        "[MUST] 只有在真实做过的前提下，补齐 named Azure/Microsoft service 证据；否则这份简历对该 JD 属于结构性错配。",
+        "[MUST] 把 Summary 第一条改成 backend/Azure/Python 的目标角色 framing，删除首屏的转行感。",
+        "[SHOULD] 收紧 TikTok 和 DiDi 的技术堆栈密度，让每条 bullet 聚焦 1 个主系统 + 1 个结果。"
+      ],
+      "revision_instructions": "[结构性错配] 先确认候选人是否真的有 6+ 年 Microsoft/Azure 后端经验；如果没有，不要硬改成命中 JD。Summary 第一句改成目标角色开场，迁移叙事放后面。只在真实发生过的最相关 bullet 里补 Azure App Service / API Management / Service Bus / App Insights / Gateway / Event Grid / Key Vault / Azure SQL / Azure DevOps / .NET Core / SQL Server / OpenAPI/Swagger / MongoDB schema-index-query 的证据；没有真实证据就不要补词。最后收紧每条 bullet 的技术密度，保留主栈和结果，去掉旁支堆叠。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "首句先讲“transitioning from data analytics”，首屏更像转行叙事而不是目标岗位锚点，HR 6–8 秒扫读时会先看到迁移过程而不是 backend/Azure 方向。",
+              "fix": "把首句改成目标角色+领域开头，例如先写“Backend / platform engineer with X years in Python, .NET, Azure, and SQL”，再把数据分析转向放到后半句。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Experience timeline / Professional Summary",
+              "issue": "简历可见的工作经历合计约 3.1 年，明显低于 JD 要求的 6+ 年 Microsoft stack 相关经验；Summary 写“3+ years”并不能覆盖这个门槛。",
+              "fix": "如果有更早的相关全职经历，补进时间线并放到最前面的相关段落；如果没有，这个 JD 属于真实的结构性不匹配，不要继续用措辞硬撑。",
+              "note": "[结构性错配]"
+            },
+            {
+              "rule_id": "P3B-011",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Summary / Skills / TikTok & DiDi bullets",
+              "issue": "JD 反复点名 Azure App Service、API Management、Service Bus、App Insights、Application Gateway、Event Grid、Key Vault、Azure SQL、Azure DevOps Services、.NET Core、Microsoft SQL Server、OpenAPI/Swagger，以及 MongoDB 的 schema/index/query 深度；简历目前只证明了泛化 Azure、.NET/C#/SQL 和“MongoDB-compatible”表述，named service 级证据不足。",
+              "fix": "只在真实使用过的最相关 bullet 里补上具体 Azure 服务名、Azure DevOps、.NET Core、SQL Server、Swagger/OpenAPI、MongoDB schema/indexing/query optimization 证据；如果这些能力并不真实存在，就不要把这份简历投这个 Azure 平台岗。",
+              "note": "[结构性错配]"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 先解决 seniority 门槛问题：当前可见经历只有约 3.1 年，和 JD 的 6+ 年要求不匹配。",
+          "[MUST] 只有在真实做过的前提下，补齐 named Azure/Microsoft service 证据；否则这份简历对该 JD 属于结构性错配。",
+          "[MUST] 把 Summary 第一条改成 backend/Azure/Python 的目标角色 framing，删除首屏的转行感。",
+          "[SHOULD] 收紧 TikTok 和 DiDi 的技术堆栈密度，让每条 bullet 聚焦 1 个主系统 + 1 个结果。"
+        ],
+        "revision_instructions": "[结构性错配] 先确认候选人是否真的有 6+ 年 Microsoft/Azure 后端经验；如果没有，不要硬改成命中 JD。Summary 第一句改成目标角色开场，迁移叙事放后面。只在真实发生过的最相关 bullet 里补 Azure App Service / API Management / Service Bus / App Insights / Gateway / Event Grid / Key Vault / Azure SQL / Azure DevOps / .NET Core / SQL Server / OpenAPI/Swagger / MongoDB schema-index-query 的证据；没有真实证据就不要补词。最后收紧每条 bullet 的技术密度，保留主栈和结果，去掉旁支堆叠。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Experience timeline / Professional Summary",
+            "issue": "简历可见的工作经历合计约 3.1 年，明显低于 JD 要求的 6+ 年 Microsoft stack 相关经验；Summary 写“3+ years”并不能覆盖这个门槛。",
+            "fix": "如果有更早的相关全职经历，补进时间线并放到最前面的相关段落；如果没有，这个 JD 属于真实的结构性不匹配，不要继续用措辞硬撑。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3B-011",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Summary / Skills / TikTok & DiDi bullets",
+            "issue": "JD 反复点名 Azure App Service、API Management、Service Bus、App Insights、Application Gateway、Event Grid、Key Vault、Azure SQL、Azure DevOps Services、.NET Core、Microsoft SQL Server、OpenAPI/Swagger，以及 MongoDB 的 schema/index/query 深度；简历目前只证明了泛化 Azure、.NET/C#/SQL 和“MongoDB-compatible”表述，named service 级证据不足。",
+            "fix": "只在真实使用过的最相关 bullet 里补上具体 Azure 服务名、Azure DevOps、.NET Core、SQL Server、Swagger/OpenAPI、MongoDB schema/indexing/query optimization 证据；如果这些能力并不真实存在，就不要把这份简历投这个 Azure 平台岗。",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句先讲“transitioning from data analytics”，首屏更像转行叙事而不是目标岗位锚点，HR 6–8 秒扫读时会先看到迁移过程而不是 backend/Azure 方向。",
+            "fix": "把首句改成目标角色+领域开头，例如先写“Backend / platform engineer with X years in Python, .NET, Azure, and SQL”，再把数据分析转向放到后半句。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-010",
+            "P3B-011"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P3B-010",
+        "P3B-011"
+      ],
+      "high_or_critical": [
+        "P3B-010 @ Experience timeline / Professional Summary",
+        "P3B-011 @ Summary / Skills / TikTok & DiDi bullets"
+      ]
+    }
+  }
+}

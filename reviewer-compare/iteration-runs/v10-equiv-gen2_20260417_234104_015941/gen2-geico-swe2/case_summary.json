@@ -1,0 +1,355 @@
+{
+  "label": "gen2/Geico-SWE2",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Geico-SWE2",
+    "company": "GEICO",
+    "title": "Software Engineer II",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "GEICO is a leading insurance company that offers quality coverage to millions of customers",
+    "tech_required": [
+      "Azure",
+      "Java",
+      "Shell",
+      "Code Review",
+      "Distributed Systems",
+      "Algorithms",
+      "Data Structures",
+      "Go",
+      "Python",
+      "REST",
+      "C++",
+      "Scala"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 92.4,
+      "overall_verdict": "fail",
+      "passed": false,
+      "critical_count": 0,
+      "high_count": 1,
+      "needs_revision": true,
+      "revision_priority": [
+        "Trim the oversized Skills buckets so each category stays within 4-8 items and reads cleaner to ATS.",
+        "Add Code Review to Skills and make the backend ownership boundary in the transition story explicit.",
+        "把 `Code Review` 明确加入 `Skills`，让 JD 必须关键词在技能区完整出现。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "fail",
+          "findings_count": 2
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.4,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "calibrated": true,
+      "calibration_scores": [
+        92.2,
+        92.6
+      ],
+      "final_score": 92.4,
+      "verdict": "conditional_pass",
+      "seed_label": "Google Cloud Infra Anchor",
+      "route_mode": "retarget",
+      "revised": true,
+      "main_failure_reason": "Trim the oversized Skills buckets so each category stays within 4-8 items and reads cleaner to ATS.",
+      "failure_bucket": "writer_fixable",
+      "repaired_at": "2026-04-07T16:57:24",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:47:54",
+    "completed_at": "2026-04-17T23:48:46",
+    "duration_seconds": 52.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets and project bullets",
+            "issue": "正文里的关键量化信号基本都没做加粗，像 **13-person**、**28%**、**24 hours**、**3 days -> 1 day** 这类首屏抓手被埋在普通文本里。",
+            "fix": "把每条结果里最重要的规模/改进数字加粗，优先保留能证明 scope 的数字和最能被 HR 扫到的对比值。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary 第一句",
+            "issue": "首句 framing 以 'Transitioning from Analytics' 为主，先讲转型过程而不是直接讲 backend / distributed systems 方向，首屏信号偏弱。",
+            "fix": "把首句改成直接的角色锚点，例如先写 'Backend engineer' 或 'Security-focused backend engineer'，再补充 analytics 背景作为迁移支撑。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-013",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Skills / TikTok experience",
+            "issue": "JD 明写 Advanced PowerShell scripting skills，但简历只写了 Shell，没有任何 PowerShell 的实战证据；这属于支持性交付工具缺口。",
+            "fix": "在最相关的 TikTok 或 DiDi bullet 里补一条 PowerShell 相关的 Azure / release / deployment 脚本证据；如果确实不会，就不要把它写进 Skills。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok experience and project",
+            "issue": "最新经历几乎全是百分比改进，缺少 Tier 1 规模/范围信号，读起来像 impact-heavy 但 scope-light。",
+            "fix": "给 TikTok 最强的一条 bullet 补一个可追问的规模指标，例如请求量、事件量、服务数、团队规模或验证环境范围。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 给 TikTok 或 DiDi 增补 PowerShell 的真实使用证据，补齐 JD 的支持性交付工具要求。",
+        "[MUST] 把最重要的量化数字加粗，尤其是能体现 scope 的数字和最强结果对比。",
+        "[SHOULD] 把 Summary 第一段改成直接的 backend / security 角色锚点，弱化 'Transitioning from Analytics' 的首屏转型叙事。",
+        "[NICE] 在 TikTok 段补一个 Tier 1 规模指标，减少整份简历对百分比结果的依赖。"
+      ],
+      "revision_instructions": "[MUST] 在 TikTok 或 DiDi 的最相关 bullet 中补一条 PowerShell 真实使用证据，最好放在 Azure / release / deployment 场景里；[MUST] 给最关键的 scope / 量化数字加粗，优先是团队规模、请求量、事件量、验证范围和最强结果对比；[SHOULD] 把 Summary 第一段改成直接的 backend / security 角色锚点，再补 analytics 迁移背景；[NICE] 给 TikTok 段补一个可追问的 Tier 1 规模指标，降低整份简历对百分比 lift 的依赖。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 9.5,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 95.1,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 给 TikTok 或 DiDi 增补 PowerShell 的真实使用证据，补齐 JD 的支持性交付工具要求。",
+        "[MUST] 把最重要的量化数字加粗，尤其是能体现 scope 的数字和最强结果对比。",
+        "[SHOULD] 把 Summary 第一段改成直接的 backend / security 角色锚点，弱化 'Transitioning from Analytics' 的首屏转型叙事。",
+        "[NICE] 在 TikTok 段补一个 Tier 1 规模指标，减少整份简历对百分比结果的依赖。"
+      ],
+      "revision_instructions": "[MUST] 在 TikTok 或 DiDi 的最相关 bullet 中补一条 PowerShell 真实使用证据，最好放在 Azure / release / deployment 场景里；[MUST] 给最关键的 scope / 量化数字加粗，优先是团队规模、请求量、事件量、验证范围和最强结果对比；[SHOULD] 把 Summary 第一段改成直接的 backend / security 角色锚点，再补 analytics 迁移背景；[NICE] 给 TikTok 段补一个可追问的 Tier 1 规模指标，降低整份简历对百分比 lift 的依赖。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Experience bullets and project bullets",
+              "issue": "正文里的关键量化信号基本都没做加粗，像 **13-person**、**28%**、**24 hours**、**3 days -> 1 day** 这类首屏抓手被埋在普通文本里。",
+              "fix": "把每条结果里最重要的规模/改进数字加粗，优先保留能证明 scope 的数字和最能被 HR 扫到的对比值。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary 第一句",
+              "issue": "首句 framing 以 'Transitioning from Analytics' 为主，先讲转型过程而不是直接讲 backend / distributed systems 方向，首屏信号偏弱。",
+              "fix": "把首句改成直接的角色锚点，例如先写 'Backend engineer' 或 'Security-focused backend engineer'，再补充 analytics 背景作为迁移支撑。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-013",
+              "sub_area": "3B",
+              "severity": "medium",
+              "field": "Skills / TikTok experience",
+              "issue": "JD 明写 Advanced PowerShell scripting skills，但简历只写了 Shell，没有任何 PowerShell 的实战证据；这属于支持性交付工具缺口。",
+              "fix": "在最相关的 TikTok 或 DiDi bullet 里补一条 PowerShell 相关的 Azure / release / deployment 脚本证据；如果确实不会，就不要把它写进 Skills。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok experience and project",
+              "issue": "最新经历几乎全是百分比改进，缺少 Tier 1 规模/范围信号，读起来像 impact-heavy 但 scope-light。",
+              "fix": "给 TikTok 最强的一条 bullet 补一个可追问的规模指标，例如请求量、事件量、服务数、团队规模或验证环境范围。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 给 TikTok 或 DiDi 增补 PowerShell 的真实使用证据，补齐 JD 的支持性交付工具要求。",
+          "[MUST] 把最重要的量化数字加粗，尤其是能体现 scope 的数字和最强结果对比。",
+          "[SHOULD] 把 Summary 第一段改成直接的 backend / security 角色锚点，弱化 'Transitioning from Analytics' 的首屏转型叙事。",
+          "[NICE] 在 TikTok 段补一个 Tier 1 规模指标，减少整份简历对百分比结果的依赖。"
+        ],
+        "revision_instructions": "[MUST] 在 TikTok 或 DiDi 的最相关 bullet 中补一条 PowerShell 真实使用证据，最好放在 Azure / release / deployment 场景里；[MUST] 给最关键的 scope / 量化数字加粗，优先是团队规模、请求量、事件量、验证范围和最强结果对比；[SHOULD] 把 Summary 第一段改成直接的 backend / security 角色锚点，再补 analytics 迁移背景；[NICE] 给 TikTok 段补一个可追问的 Tier 1 规模指标，降低整份简历对百分比 lift 的依赖。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets and project bullets",
+            "issue": "正文里的关键量化信号基本都没做加粗，像 **13-person**、**28%**、**24 hours**、**3 days -> 1 day** 这类首屏抓手被埋在普通文本里。",
+            "fix": "把每条结果里最重要的规模/改进数字加粗，优先保留能证明 scope 的数字和最能被 HR 扫到的对比值。"
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-013",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Skills / TikTok experience",
+            "issue": "JD 明写 Advanced PowerShell scripting skills，但简历只写了 Shell，没有任何 PowerShell 的实战证据；这属于支持性交付工具缺口。",
+            "fix": "在最相关的 TikTok 或 DiDi bullet 里补一条 PowerShell 相关的 Azure / release / deployment 脚本证据；如果确实不会，就不要把它写进 Skills。"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary 第一句",
+            "issue": "首句 framing 以 'Transitioning from Analytics' 为主，先讲转型过程而不是直接讲 backend / distributed systems 方向，首屏信号偏弱。",
+            "fix": "把首句改成直接的角色锚点，例如先写 'Backend engineer' 或 'Security-focused backend engineer'，再补充 analytics 背景作为迁移支撑。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok experience and project",
+            "issue": "最新经历几乎全是百分比改进，缺少 Tier 1 规模/范围信号，读起来像 impact-heavy 但 scope-light。",
+            "fix": "给 TikTok 最强的一条 bullet 补一个可追问的规模指标，例如请求量、事件量、服务数、团队规模或验证环境范围。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-040"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-013",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P2-001",
+        "P3B-013",
+        "P3D-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:44:46",
+  "completed_at": "2026-04-17T23:45:44",
+  "duration_seconds": 58.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Experience > TikTok · Security bullet 4",
+          "issue": "将限定词 \"existing\" 也加粗了，属于修饰语/限定词加粗，不符合版式约束；正文应把强调点留给技术名词或规模信号。",
+          "fix": "把 \"existing\" 恢复为常规字体，只保留技术名词与可核验结果的加粗；如果想保留强调，优先强调 \"Microservices\" 或具体的发布结果。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary sentence 1",
+          "issue": "首句以 \"transitioning from analytics\" 开头，首屏更像转岗叙事而不是 Azure 后端工程方向，削弱了 HR 6-8 秒内的角色判断。",
+          "fix": "把首句改成先锚定目标角色和技术方向，例如先写 \"Backend-focused software engineer\" / \"Azure-oriented software engineer\"，再把 analytics 迁移经历放到后半句。"
+        },
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary sentence 3",
+          "issue": "第三句标题 \"Team Fit\" 信息量偏弱，偏通用协作描述，不是高价值认知类 framing。",
+          "fix": "把该句标题改成更有判断力的认知类标签，例如 \"Systems judgment\"、\"Execution pattern\" 或 \"Delivery model\"，并保留后面的具体交付内容。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills + Experience overall",
+          "issue": "JD 核心技能要求里明确包含 C# 和 Azure，但简历正文与 Skills 都没有 C# / Azure 的实质使用证据；当前只能看到 Node.js、React、Angular 和通用云/容器栈。",
+          "fix": "不要删现有栈，改为在最相关的后端经历里补一条明确的 C# / Azure 使用证据（例如 Azure App Service / Functions / SQL / App Insights / AD 部署等），否则 ATS 会直接判定核心栈覆盖不完整。",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary + Experience",
+          "issue": "岗位是专门的 Azure Software Engineer Professional，但正文呈现的是通用全栈/后台交付和 GCP 经验，没有 Azure 平台 artifact、service ownership 或平台深度证据；这会被 hiring manager 视为平台型岗位错配。",
+          "fix": "在最相关经历中补出一个 Azure 交付点，而不是只写 umbrella cloud；如果真实经历里没有 Azure，这个 JD 选型本身不合适，应避免继续用泛化的 Node/React 叙事硬贴。",
+          "note": "[结构性错配]"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在最相关经历里补出明确的 Azure 和 C# 使用证据；当前简历对该 JD 的核心平台栈覆盖不成立。",
+      "[MUST] 把 Summary 第一句改成目标角色先行的写法，先锚定 Azure/backend，再把 analytics 迁移经历作为补充。",
+      "[SHOULD] 去掉修饰语的加粗，尤其是 \"existing\" 这类限定词，只保留技术名词和可核验结果的强调。",
+      "[NICE] 把 \"Team Fit\" 这种泛化标题换成更有判断力的认知型标题。"
+    ],
+    "revision_instructions": "[结构性错配] 如果真实经历里有 Azure / C#，请只在最相关的后端经历补一条具体、可核验的 Azure 交付 bullet，并把 Summary 第一句改为目标角色先行的表述；如果没有 Azure 经验，这个 JD 不应继续硬贴。保留现有 Node.js / React / Angular 叙事，但不要让 \"transitioning from analytics\" 放在首句，也不要把 \"existing\" 这类限定词加粗。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 6.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 85.3,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在最相关经历里补出明确的 Azure 和 C# 使用证据；当前简历对该 JD 的核心平台栈覆盖不成立。",
+      "[MUST] 把 Summary 第一句改成目标角色先行的写法，先锚定 Azure/backend，再把 analytics 迁移经历作为补充。",
+      "[SHOULD] 去掉修饰语的加粗，尤其是 \"existing\" 这类限定词，只保留技术名词和可核验结果的强调。",
+      "[NICE] 把 \"Team Fit\" 这种泛化标题换成更有判断力的认知型标题。"
+    ],
+    "revision_instructions": "[结构性错配] 如果真实经历里有 Azure / C#，请只在最相关的后端经历补一条具体、可核验的 Azure 交付 bullet，并把 Summary 第一句改为目标角色先行的表述；如果没有 Azure 经验，这个 JD 不应继续硬贴。保留现有 Node.js / React / Angular 叙事，但不要让 \"transitioning from analytics\" 放在首句，也不要把 \"existing\" 这类限定词加粗。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Experience > TikTok · Security bullet 4",
+            "issue": "将限定词 \"existing\" 也加粗了，属于修饰语/限定词加粗，不符合版式约束；正文应把强调点留给技术名词或规模信号。",
+            "fix": "把 \"existing\" 恢复为常规字体，只保留技术名词与可核验结果的加粗；如果想保留强调，优先强调 \"Microservices\" 或具体的发布结果。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary sentence 1",
+            "issue": "首句以 \"transitioning from analytics\" 开头，首屏更像转岗叙事而不是 Azure 后端工程方向，削弱了 HR 6-8 秒内的角色判断。",
+            "fix": "把首句改成先锚定目标角色和技术方向，例如先写 \"Backend-focused software engineer\" / \"Azure-oriented software engineer\"，再把 analytics 迁移经历放到后半句。"
+          },
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary sentence 3",
+            "issue": "第三句标题 \"Team Fit\" 信息量偏弱，偏通用协作描述，不是高价值认知类 framing。",
+            "fix": "把该句标题改成更有判断力的认知类标签，例如 \"Systems judgment\"、\"Execution pattern\" 或 \"Delivery model\"，并保留后面的具体交付内容。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills + Experience overall",
+            "issue": "JD 核心技能要求里明确包含 C# 和 Azure，但简历正文与 Skills 都没有 C# / Azure 的实质使用证据；当前只能看到 Node.js、React、Angular 和通用云/容器栈。",
+            "fix": "不要删现有栈，改为在最相关的后端经历里补一条明确的 C# / Azure 使用证据（例如 Azure App Service / Functions / SQL / App Insights / AD 部署等），否则 ATS 会直接判定核心栈覆盖不完整。",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3B-012",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary + Experience",
+            "issue": "岗位是专门的 Azure Software Engineer Professional，但正文呈现的是通用全栈/后台交付和 GCP 经验，没有 Azure 平台 artifact、service ownership 或平台深度证据；这会被 hiring manager 视为平台型岗位错配。",
+            "fix": "在最相关经历中补出一个 Azure 交付点，而不是只写 umbrella cloud；如果真实经历里没有 Azure，这个 JD 选型本身不合适，应避免继续用泛化的 Node/React 叙事硬贴。",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关经历里补出明确的 Azure 和 C# 使用证据；当前简历对该 JD 的核心平台栈覆盖不成立。",
+        "[MUST] 把 Summary 第一句改成目标角色先行的写法，先锚定 Azure/backend，再把 analytics 迁移经历作为补充。",
+        "[SHOULD] 去掉修饰语的加粗，尤其是 \"existing\" 这类限定词，只保留技术名词和可核验结果的强调。",
+        "[NICE] 把 \"Team Fit\" 这种泛化标题换成更有判断力的认知型标题。"
+      ],
+      "revision_instructions": "[结构性错配] 如果真实经历里有 Azure / C#，请只在最相关的后端经历补一条具体、可核验的 Azure 交付 bullet，并把 Summary 第一句改为目标角色先行的表述；如果没有 Azure 经验，这个 JD 不应继续硬贴。保留现有 Node.js / React / Angular 叙事，但不要让 \"transitioning from analytics\" 放在首句，也不要把 \"existing\" 这类限定词加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Experience > TikTok · Security bullet 4",
+          "issue": "将限定词 \"existing\" 也加粗了，属于修饰语/限定词加粗，不符合版式约束；正文应把强调点留给技术名词或规模信号。",
+          "fix": "把 \"existing\" 恢复为常规字体，只保留技术名词与可核验结果的加粗；如果想保留强调，优先强调 \"Microservices\" 或具体的发布结果。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills + Experience overall",
+          "issue": "JD 核心技能要求里明确包含 C# 和 Azure，但简历正文与 Skills 都没有 C# / Azure 的实质使用证据；当前只能看到 Node.js、React、Angular 和通用云/容器栈。",
+          "fix": "不要删现有栈，改为在最相关的后端经历里补一条明确的 C# / Azure 使用证据（例如 Azure App Service / Functions / SQL / App Insights / AD 部署等），否则 ATS 会直接判定核心栈覆盖不完整。",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3B-012",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary + Experience",
+          "issue": "岗位是专门的 Azure Software Engineer Professional，但正文呈现的是通用全栈/后台交付和 GCP 经验，没有 Azure 平台 artifact、service ownership 或平台深度证据；这会被 hiring manager 视为平台型岗位错配。",
+          "fix": "在最相关经历中补出一个 Azure 交付点，而不是只写 umbrella cloud；如果真实经历里没有 Azure，这个 JD 选型本身不合适，应避免继续用泛化的 Node/React 叙事硬贴。",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary sentence 1",
+          "issue": "首句以 \"transitioning from analytics\" 开头，首屏更像转岗叙事而不是 Azure 后端工程方向，削弱了 HR 6-8 秒内的角色判断。",
+          "fix": "把首句改成先锚定目标角色和技术方向，例如先写 \"Backend-focused software engineer\" / \"Azure-oriented software engineer\"，再把 analytics 迁移经历放到后半句。"
+        },
+        {
+          "rule_id": "P2-010",
+          "severity": "medium",
+          "field": "Professional Summary sentence 3",
+          "issue": "第三句标题 \"Team Fit\" 信息量偏弱，偏通用协作描述，不是高价值认知类 framing。",
+          "fix": "把该句标题改成更有判断力的认知类标签，例如 \"Systems judgment\"、\"Execution pattern\" 或 \"Delivery model\"，并保留后面的具体交付内容。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-001",
+          "P2-010"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-001",
+          "P3B-012"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P2-010",
+      "P3B-001",
+      "P3B-012"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills + Experience overall",
+      "P3B-012 @ Professional Summary + Experience"
+    ]
+  }
+}

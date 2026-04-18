@@ -1,0 +1,163 @@
+canonical_skill,category,in_resume,in_jd,source_coverage,resume_record_count,jd_record_count
+Python,Programming Languages,yes,yes,resume+jd,616,2508
+SQL,Data & Analytics,yes,yes,resume+jd,616,1334
+AWS,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,497,1284
+Java,Programming Languages,yes,yes,resume+jd,531,1189
+APIs,Backend & APIs,no,yes,jd_only,0,1349
+Machine Learning,AI / ML,yes,yes,resume+jd,164,1150
+Kubernetes,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,596,624
+CI/CD,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,343,861
+REST APIs,Backend & APIs,yes,yes,resume+jd,572,621
+Docker,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,606,535
+C,Programming Languages,no,yes,jd_only,0,1072
+Go,Programming Languages,yes,yes,resume+jd,574,487
+LLM,AI / ML,yes,yes,resume+jd,173,764
+Azure,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,124,803
+C++,Programming Languages,yes,yes,resume+jd,146,767
+JavaScript,Programming Languages,yes,yes,resume+jd,169,711
+Algorithms,Architecture / Systems,yes,yes,resume+jd,130,744
+Kafka,Databases / Storage / Streaming,yes,yes,resume+jd,574,273
+PostgreSQL,Databases / Storage / Streaming,yes,yes,resume+jd,584,213
+React,Frontend & UI,yes,yes,resume+jd,140,635
+RAG,AI / ML,yes,yes,resume+jd,462,291
+ETL,Data & Analytics,yes,yes,resume+jd,450,290
+Pandas,Data & Analytics,yes,yes,resume+jd,569,157
+Microservices,Backend & APIs,yes,yes,resume+jd,326,387
+TypeScript,Programming Languages,yes,yes,resume+jd,124,573
+GCP,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,91,578
+Agile,Quality & Workflow,yes,yes,resume+jd,27,629
+Git,Quality & Workflow,yes,yes,resume+jd,160,483
+Hive,Data & Analytics,yes,yes,resume+jd,559,65
+Distributed Systems,Architecture / Systems,yes,yes,resume+jd,79,531
+gRPC,Backend & APIs,yes,yes,resume+jd,526,65
+Data Science,Data & Analytics,no,yes,jd_only,0,585
+Redis,Databases / Storage / Streaming,yes,yes,resume+jd,484,101
+MySQL,Databases / Storage / Streaming,yes,yes,resume+jd,401,179
+Spark SQL,Data & Analytics,yes,yes,resume+jd,568,9
+PyTorch,AI / ML,yes,yes,resume+jd,96,475
+Data Structures,Architecture / Systems,yes,yes,resume+jd,124,423
+Data Pipelines,Data & Analytics,yes,yes,resume+jd,41,498
+Generative AI,AI / ML,yes,yes,resume+jd,49,480
+S3,Databases / Storage / Streaming,yes,yes,resume+jd,370,154
+C#,Programming Languages,yes,yes,resume+jd,28,492
+Airflow,Data & Analytics,yes,yes,resume+jd,356,148
+A/B Testing,Data & Analytics,yes,yes,resume+jd,389,98
+AWS Bedrock,AI / ML,yes,yes,resume+jd,456,25
+GitHub Actions,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,333,118
+Linux,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,95,354
+Deep Learning,AI / ML,yes,yes,resume+jd,49,353
+TensorFlow,AI / ML,yes,yes,resume+jd,64,337
+Flask,Backend & APIs,yes,yes,resume+jd,319,75
+Spark,Data & Analytics,yes,yes,resume+jd,43,332
+R,Programming Languages,yes,yes,resume+jd,46,328
+NoSQL,Databases / Storage / Streaming,yes,yes,resume+jd,65,292
+NLP,AI / ML,yes,yes,resume+jd,40,305
+scikit-learn,AI / ML,yes,yes,resume+jd,167,151
+Version Control,Quality & Workflow,no,yes,jd_only,0,317
+Scala,Programming Languages,yes,yes,resume+jd,146,148
+Scrum,Quality & Workflow,yes,yes,resume+jd,114,175
+Relational Databases,Databases / Storage / Streaming,no,yes,jd_only,0,282
+Tableau,Data & Analytics,yes,yes,resume+jd,42,239
+Terraform,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,40,240
+Node.js,Backend & APIs,yes,yes,resume+jd,42,234
+Angular,Frontend & UI,yes,yes,resume+jd,51,224
+Prompt Engineering,AI / ML,yes,yes,resume+jd,9,253
+System Design,Architecture / Systems,yes,yes,resume+jd,41,217
+Jenkins,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,60,191
+Spring,Backend & APIs,yes,yes,resume+jd,35,205
+MongoDB,Databases / Storage / Streaming,yes,yes,resume+jd,78,137
+CSS,Frontend & UI,yes,yes,resume+jd,46,168
+Databricks,Data & Analytics,yes,yes,resume+jd,26,183
+Snowflake,Data & Analytics,yes,yes,resume+jd,33,176
+.NET,Backend & APIs,yes,yes,resume+jd,24,182
+Networking,Architecture / Systems,yes,yes,resume+jd,11,193
+HTML,Frontend & UI,yes,yes,resume+jd,42,150
+OpenAI,AI / ML,yes,yes,resume+jd,4,186
+MLOps,AI / ML,yes,yes,resume+jd,1,187
+Unit Testing,Quality & Workflow,yes,yes,resume+jd,48,133
+Spring Boot,Backend & APIs,yes,yes,resume+jd,36,143
+LangChain,AI / ML,yes,yes,resume+jd,1,175
+Embedded Systems,Architecture / Systems,yes,yes,resume+jd,25,145
+Object-Oriented Programming,Architecture / Systems,no,yes,jd_only,0,168
+Power BI,Data & Analytics,yes,yes,resume+jd,20,140
+Backend Development,Backend & APIs,no,yes,jd_only,0,156
+Jira,Quality & Workflow,yes,yes,resume+jd,34,116
+GraphQL,Backend & APIs,yes,yes,resume+jd,10,139
+NumPy,Data & Analytics,yes,yes,resume+jd,21,117
+Rust,Programming Languages,yes,yes,resume+jd,12,124
+Shell,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,78,58
+Code Review,Quality & Workflow,yes,yes,resume+jd,13,109
+dbt,Data & Analytics,yes,yes,resume+jd,17,104
+Computer Vision,AI / ML,yes,yes,resume+jd,8,112
+Bash,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,29,80
+Prometheus,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,28,80
+Ruby,Programming Languages,yes,yes,resume+jd,12,96
+Model Deployment,AI / ML,yes,yes,resume+jd,18,85
+Jupyter,Data & Analytics,yes,yes,resume+jd,73,28
+Forecasting,Data & Analytics,yes,yes,resume+jd,1,99
+BigQuery,Data & Analytics,yes,yes,resume+jd,21,78
+Hadoop,Data & Analytics,yes,yes,resume+jd,13,84
+Kotlin,Programming Languages,yes,yes,resume+jd,10,87
+Web Development,Backend & APIs,no,yes,jd_only,0,96
+Vue,Frontend & UI,yes,yes,resume+jd,17,78
+DynamoDB,Databases / Storage / Streaming,yes,yes,resume+jd,3,87
+Next.js,Frontend & UI,yes,yes,resume+jd,3,86
+FastAPI,Backend & APIs,yes,yes,resume+jd,8,80
+ECS,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,27,56
+Looker,Data & Analytics,yes,yes,resume+jd,1,82
+TDD,Quality & Workflow,yes,yes,resume+jd,34,49
+Full-Stack Development,Backend & APIs,no,yes,jd_only,0,77
+Django,Backend & APIs,yes,yes,resume+jd,4,72
+ML Infrastructure,AI / ML,yes,yes,resume+jd,13,61
+Redshift,Databases / Storage / Streaming,yes,yes,resume+jd,3,70
+Embeddings,AI / ML,yes,yes,resume+jd,2,70
+HTML5,Frontend & UI,yes,yes,resume+jd,5,64
+Cassandra,Databases / Storage / Streaming,yes,yes,resume+jd,24,41
+Matplotlib,Data & Analytics,yes,yes,resume+jd,35,30
+Swift,Programming Languages,yes,yes,resume+jd,5,60
+ASP.NET,Backend & APIs,yes,yes,resume+jd,23,38
+Ansible,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,2,57
+PHP,Programming Languages,yes,yes,resume+jd,12,47
+Software Testing,Quality & Workflow,no,yes,jd_only,0,58
+JUnit,Quality & Workflow,yes,yes,resume+jd,18,39
+Anomaly Detection,Data & Analytics,yes,yes,resume+jd,1,54
+Elasticsearch,Databases / Storage / Streaming,yes,yes,resume+jd,5,48
+Flink,Databases / Storage / Streaming,yes,yes,resume+jd,6,47
+Playwright,Quality & Workflow,yes,yes,resume+jd,12,41
+Rails,Backend & APIs,yes,yes,resume+jd,16,36
+Express,Backend & APIs,yes,yes,resume+jd,28,20
+GitLab CI,Cloud / DevOps / Infrastructure,yes,yes,resume+jd,7,39
+pytest,Quality & Workflow,yes,yes,resume+jd,19,27
+Selenium,Quality & Workflow,yes,yes,resume+jd,5,40
+CSS3,Frontend & UI,yes,yes,resume+jd,3,41
+Azure OpenAI,AI / ML,yes,yes,resume+jd,1,39
+Jest,Quality & Workflow,yes,yes,resume+jd,2,34
+Cypress,Quality & Workflow,yes,yes,resume+jd,2,33
+Keras,AI / ML,yes,yes,resume+jd,4,30
+Visual Studio,Quality & Workflow,yes,yes,resume+jd,1,33
+MATLAB,Programming Languages,yes,yes,resume+jd,2,29
+Context Engineering,AI / ML,yes,yes,resume+jd,2,28
+Time Series Analysis,Data & Analytics,yes,yes,resume+jd,1,24
+Experiment Design,Data & Analytics,yes,yes,resume+jd,1,22
+Software Test Engineering,Quality & Workflow,yes,yes,resume+jd,8,15
+Large-Scale Systems,Architecture / Systems,yes,yes,resume+jd,1,21
+Webpack,Frontend & UI,yes,yes,resume+jd,1,21
+DB2,Databases / Storage / Streaming,yes,yes,resume+jd,1,20
+.NET / C#,Backend & APIs,yes,yes,resume+jd,1,19
+Vite,Frontend & UI,yes,yes,resume+jd,4,13
+Tailwind,Frontend & UI,yes,yes,resume+jd,1,15
+Design Review,Quality & Workflow,yes,yes,resume+jd,4,9
+NestJS,Backend & APIs,yes,yes,resume+jd,2,10
+VB.NET,Programming Languages,yes,yes,resume+jd,1,11
+OpenAI API,AI / ML,yes,yes,resume+jd,2,9
+ASP.NET MVC,Backend & APIs,yes,yes,resume+jd,1,8
+LLM Application Development,AI / ML,yes,yes,resume+jd,1,8
+SSMS,Databases / Storage / Streaming,yes,yes,resume+jd,1,5
+Android SDK,Frontend & UI,yes,yes,resume+jd,1,4
+Jetpack Compose,Frontend & UI,yes,yes,resume+jd,1,3
+Azure Blob Storage,Databases / Storage / Streaming,yes,yes,resume+jd,1,2
+Network Protocol,Architecture / Systems,yes,no,resume_only,3,0
+Material Design,Frontend & UI,yes,yes,resume+jd,1,1
+Retrieval Evaluation,AI / ML,yes,yes,resume+jd,1,1
+Dashboard Automation,Data & Analytics,yes,no,resume_only,1,0
+KPI Measurement,Data & Analytics,yes,no,resume_only,1,0

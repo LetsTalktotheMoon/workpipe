@@ -1,0 +1,57 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The opener frames the profile as a 'Candidate' rather than a role/domain anchor, so the first-screen read is weaker than it needs to be for a recruiter skim.",
+        "fix": "Rewrite the first header into a direct role anchor such as 'Data analysis professional:' or 'Data/platform analyst:' and keep the stack and scale signal in the same sentence."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall seniority signal / Experience section",
+        "issue": "For a Manager JD, the resume does not show direct people-management, hiring, performance review, or explicit workstream leadership; it reads more like a senior IC/lead contributor profile.",
+        "fix": "If truthful, add one experience bullet with explicit leadership scope in the most senior role: team size, mentoring, prioritization, stakeholder ownership, or decision rights. If not truthful, this profile should be targeted to senior IC data roles instead.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Skills section",
+        "issue": "The top-level stack is too broad across one category: programming/infra skills show usage-level evidence for Python, Java, Go, REST, gRPC, Flask, Spark, AWS, Kafka, Docker, Kubernetes, MySQL, PostgreSQL, and Redis. That reads as stack inflation rather than a focused core.",
+        "fix": "Split Skills into a tighter core/secondary structure, keep only the 3-5 stacks most central to the target role at the top, and push the rest into project-specific bullets or secondary skills."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security experience",
+        "issue": "The latest experience is framed mostly through percentage/time deltas without a concrete scope anchor, so HR cannot tell whether the gains came from a small internal workflow or a meaningful operating surface.",
+        "fix": "Add one concrete volume/scope metric to the first bullet or the project bullets, such as cases/day, analysts supported, documents indexed, jobs/day, or query volume."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [
+  ],
+  "revision_priority": [
+    "[MUST] If there was no real people-management scope, do not present this as a Manager profile; if there was, add explicit leadership evidence in the most senior experience.",
+    "[MUST] Tighten the top-level Skills stack so it reads like a focused core, not a broad inventory of every tool ever touched.",
+    "[SHOULD] Add one concrete scale anchor to the TikTok experience so the percentage wins have visible operating context.",
+    "[NICE] Reword the Summary opener so it starts with a role/domain anchor instead of 'Candidate' language."
+  ],
+  "revision_instructions": "[结构性错配] 这份简历当前更像 senior IC。若真实有管理职责，把它补进最相关经历，写清 team size、mentor/priority ownership、stakeholder decision rights；如果没有，不要继续把目标包装成 Manager。其次，把 Summary 第一行改成角色/领域锚点，去掉 'Candidate' 语感。第三，收缩 Skills 到 3-5 个核心栈，把 Go/Java/gRPC/Flask 等次级栈移到具体经历或 secondary skills。最后，给 TikTok 最近经历补一条规模锚点（cases/day、analysts supported、documents indexed、jobs/day），避免只剩百分比提升。"
+}

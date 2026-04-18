@@ -1,0 +1,21 @@
+title,semantic_variants,frequency,job_count,mention_count
+Enterprise Software / SaaS,Enterprise,420,420,420
+Risk / Fraud / Credit,Risk、Fraud、Credit,240,240,287
+Finance / FinTech,Financial Services、Fintech、Payment、Payments、Financial Markets、Wealth Management、FinTech,238,238,305
+Education / EdTech,Education,181,181,181
+Healthcare,Healthcare,147,147,147
+Public Sector / Government,Government、Public Sector,124,124,124
+Retail / E-commerce,Marketplace、E-Commerce、Retail,115,115,126
+Consumer Products / Consumer Internet,Consumer,103,103,103
+Media / Advertising,Media、Advertising、Ad Tech,99,99,106
+Travel / Hospitality,Travel、Hospitality,80,80,82
+Logistics / Supply Chain,Supply Chain、Logistics、Transportation,74,74,90
+Banking,Banking、Lending、Mortgage,70,70,72
+Trading,Trading,60,60,60
+Manufacturing / Industrial,Manufacturing,59,59,59
+Energy / Utilities,Energy,38,38,38
+Life Sciences / Biotech,Life Sciences、Pharma、Biotech、Life Science,33,33,45
+Gaming / Entertainment,Gaming,21,21,21
+B2B / B2C,B2B、B2C,20,20,22
+Real Estate / PropTech,Real Estate,6,6,6
+Telecom,Telecom、Telecommunications,2,2,2

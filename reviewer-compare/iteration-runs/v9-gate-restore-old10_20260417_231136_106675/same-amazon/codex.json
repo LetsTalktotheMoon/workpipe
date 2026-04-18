@@ -1,0 +1,198 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:13:33",
+  "completed_at": "2026-04-17T23:14:28",
+  "duration_seconds": 55.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句先写“Backend-leaning ML Engineer”再写“transitioning from analytics”，首屏第一眼会被读成转型叙事而不是稳定的 ML/LLM 方向定位。",
+          "fix": "把首句改成直接的角色锚点 + 领域锚点，例如“ML/Backend Engineer building LLM customization and retrieval systems”，把转型背景放到后句或删除。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary + Experience timeline",
+          "issue": "可见的非实习经历只有 Temu 和 DiDi，合计约 2.5 年，低于 JD 明写的 3+ years non-internship professional software development experience；这会在硬门槛筛选直接触发拒点。",
+          "fix": "[结构性错配] 这条硬门槛无法靠措辞补齐。若继续投递，简历应保持“2.5+ years”这一真实表述，不要暗示已满足 3 年；更合理的做法是把该版本用于无 3+ 年硬门槛的岗位。"
+        },
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Experience",
+          "issue": "同一段经历里以使用级证据同时展开 Go、Python、Java、C++ 四种编程语言，容易被 HR 读成堆砌型炫技，而不是清晰的主责闭环。",
+          "fix": "保留 1-2 个真正的主语言作为主线，其余语言只在确有明确职责时作为一次性集成/适配补充出现，避免每条 bullet 都拉满语言数量。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 直面 3+ years non-internship 门槛：当前可见经历只有约 2.5 年，这份简历对该 JD 是结构性错配。",
+      "[MUST] 把 Summary 第一行改成直接的 ML/LLM 角色锚点，去掉“transitioning”式首屏叙事。",
+      "[SHOULD] 收敛 TikTok 段的编程语言密度，突出最核心的 1-2 门语言，避免堆砌感。",
+      "[NICE] 保持其余 ML / RAG / Bedrock 证据不变，但减少同类技术重复出现的频率。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历对该 JD 的主要问题是 3+ years non-internship 硬门槛不足，无法通过局部改写彻底消除。保留“2.5+ years”这一真实表述，不要伪装成已满足年限；同时把 Summary 首句改成直接的 ML/LLM engineer 定位，并收敛 TikTok 段的语言堆砌，只保留最核心的主语言和最有说服力的系统证据。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 91.2,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 1,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 直面 3+ years non-internship 门槛：当前可见经历只有约 2.5 年，这份简历对该 JD 是结构性错配。",
+      "[MUST] 把 Summary 第一行改成直接的 ML/LLM 角色锚点，去掉“transitioning”式首屏叙事。",
+      "[SHOULD] 收敛 TikTok 段的编程语言密度，突出最核心的 1-2 门语言，避免堆砌感。",
+      "[NICE] 保持其余 ML / RAG / Bedrock 证据不变，但减少同类技术重复出现的频率。"
+    ],
+    "revision_instructions": "[结构性错配] 这份简历对该 JD 的主要问题是 3+ years non-internship 硬门槛不足，无法通过局部改写彻底消除。保留“2.5+ years”这一真实表述，不要伪装成已满足年限；同时把 Summary 首句改成直接的 ML/LLM engineer 定位，并收敛 TikTok 段的语言堆砌，只保留最核心的主语言和最有说服力的系统证据。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句先写“Backend-leaning ML Engineer”再写“transitioning from analytics”，首屏第一眼会被读成转型叙事而不是稳定的 ML/LLM 方向定位。",
+            "fix": "把首句改成直接的角色锚点 + 领域锚点，例如“ML/Backend Engineer building LLM customization and retrieval systems”，把转型背景放到后句或删除。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary + Experience timeline",
+            "issue": "可见的非实习经历只有 Temu 和 DiDi，合计约 2.5 年，低于 JD 明写的 3+ years non-internship professional software development experience；这会在硬门槛筛选直接触发拒点。",
+            "fix": "[结构性错配] 这条硬门槛无法靠措辞补齐。若继续投递，简历应保持“2.5+ years”这一真实表述，不要暗示已满足 3 年；更合理的做法是把该版本用于无 3+ 年硬门槛的岗位。"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok Experience",
+            "issue": "同一段经历里以使用级证据同时展开 Go、Python、Java、C++ 四种编程语言，容易被 HR 读成堆砌型炫技，而不是清晰的主责闭环。",
+            "fix": "保留 1-2 个真正的主语言作为主线，其余语言只在确有明确职责时作为一次性集成/适配补充出现，避免每条 bullet 都拉满语言数量。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 直面 3+ years non-internship 门槛：当前可见经历只有约 2.5 年，这份简历对该 JD 是结构性错配。",
+        "[MUST] 把 Summary 第一行改成直接的 ML/LLM 角色锚点，去掉“transitioning”式首屏叙事。",
+        "[SHOULD] 收敛 TikTok 段的编程语言密度，突出最核心的 1-2 门语言，避免堆砌感。",
+        "[NICE] 保持其余 ML / RAG / Bedrock 证据不变，但减少同类技术重复出现的频率。"
+      ],
+      "revision_instructions": "[结构性错配] 这份简历对该 JD 的主要问题是 3+ years non-internship 硬门槛不足，无法通过局部改写彻底消除。保留“2.5+ years”这一真实表述，不要伪装成已满足年限；同时把 Summary 首句改成直接的 ML/LLM engineer 定位，并收敛 TikTok 段的语言堆砌，只保留最核心的主语言和最有说服力的系统证据。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Professional Summary + Experience timeline",
+          "issue": "可见的非实习经历只有 Temu 和 DiDi，合计约 2.5 年，低于 JD 明写的 3+ years non-internship professional software development experience；这会在硬门槛筛选直接触发拒点。",
+          "fix": "[结构性错配] 这条硬门槛无法靠措辞补齐。若继续投递，简历应保持“2.5+ years”这一真实表述，不要暗示已满足 3 年；更合理的做法是把该版本用于无 3+ 年硬门槛的岗位。"
+        }
+      ],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Experience",
+          "issue": "同一段经历里以使用级证据同时展开 Go、Python、Java、C++ 四种编程语言，容易被 HR 读成堆砌型炫技，而不是清晰的主责闭环。",
+          "fix": "保留 1-2 个真正的主语言作为主线，其余语言只在确有明确职责时作为一次性集成/适配补充出现，避免每条 bullet 都拉满语言数量。"
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "首句先写“Backend-leaning ML Engineer”再写“transitioning from analytics”，首屏第一眼会被读成转型叙事而不是稳定的 ML/LLM 方向定位。",
+          "fix": "把首句改成直接的角色锚点 + 领域锚点，例如“ML/Backend Engineer building LLM customization and retrieval systems”，把转型背景放到后句或删除。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-010",
+          "P3C-010"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3B-010",
+      "P3C-010"
+    ],
+    "high_or_critical": [
+      "P3B-010 @ Professional Summary + Experience timeline",
+      "P3C-010 @ TikTok Experience"
+    ]
+  }
+}

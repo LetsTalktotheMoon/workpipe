@@ -1,0 +1,113 @@
+{
+  "label": "gen2/ChildrensHospital-Azure",
+  "company": "Children's Hospital Colorado",
+  "title": "Azure Software Engineer Professional",
+  "role_type": "swe_backend",
+  "seniority": "entry",
+  "team_direction": "Children's Hospital Colorado is seeking an Azure Software Engineer Professional to contribute to systems analysis, design, and applications programming",
+  "tech_required": [],
+  "tech_preferred": [
+    "Angular",
+    "Node.js",
+    "Azure",
+    "React"
+  ],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/children-s-hospital-colorado/2026-04-02/69ceeb15398fb071abf8ab1a/review.json",
+  "historical": {},
+  "portfolio_review": {
+    "weighted_score": 72.0,
+    "overall_verdict": "fail",
+    "passed": false,
+    "critical_count": 1,
+    "high_count": 0,
+    "needs_revision": true,
+    "revision_priority": [
+      "删除 Achievements 中的中文字符，确保整份英文简历完全英文化。",
+      "补一条真实可自证的 Azure 相关经历，或调整叙事避免把简历包装成 Azure 背景。"
+    ],
+    "scores": {
+      "r0_authenticity": {
+        "score": 3.0,
+        "weight": 0.2,
+        "verdict": "fail",
+        "findings_count": 1
+      },
+      "r1_writing_standard": {
+        "score": 8.3,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r2_jd_fitness": {
+        "score": 7.7,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.1,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 8.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 8.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 8.8,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 72.0,
+    "verdict": "fail",
+    "seed_label": "Egen Fullstack Node",
+    "route_mode": "retarget",
+    "revised": false,
+    "main_failure_reason": "删除 Achievements 中的中文字符，确保整份英文简历完全英文化。",
+    "failure_bucket": "writer_fixable",
+    "repaired_at": "2026-04-07T16:57:15",
+    "repair_changes": [
+      "normalized_go_achievement",
+      "normalized_didi_scope_note"
+    ],
+    "repair_issue_codes_before": [],
+    "repair_issue_codes_after": []
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

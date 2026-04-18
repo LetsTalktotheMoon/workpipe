@@ -1,0 +1,326 @@
+{
+  "label": "gen2/Geico-SWE2",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Geico-SWE2",
+    "company": "GEICO",
+    "title": "Software Engineer II",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "GEICO is a leading insurance company that offers quality coverage to millions of customers",
+    "tech_required": [
+      "Data Structures",
+      "Algorithms",
+      "Scala",
+      "REST",
+      "Shell",
+      "Code Review",
+      "Java",
+      "Distributed Systems",
+      "Python",
+      "C++",
+      "Go",
+      "Azure"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/geico/2026-04-02/69cefa7454f00230c6d0570e/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 92.4,
+      "overall_verdict": "fail",
+      "passed": false,
+      "critical_count": 0,
+      "high_count": 1,
+      "needs_revision": true,
+      "revision_priority": [
+        "Trim the oversized Skills buckets so each category stays within 4-8 items and reads cleaner to ATS.",
+        "Add Code Review to Skills and make the backend ownership boundary in the transition story explicit.",
+        "把 `Code Review` 明确加入 `Skills`，让 JD 必须关键词在技能区完整出现。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "fail",
+          "findings_count": 2
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.4,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "calibrated": true,
+      "calibration_scores": [
+        92.2,
+        92.6
+      ],
+      "final_score": 92.4,
+      "verdict": "conditional_pass",
+      "seed_label": "Google Cloud Infra Anchor",
+      "route_mode": "retarget",
+      "revised": true,
+      "main_failure_reason": "Trim the oversized Skills buckets so each category stays within 4-8 items and reads cleaner to ATS.",
+      "failure_bucket": "writer_fixable",
+      "repaired_at": "2026-04-07T16:57:24",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:27:37",
+    "completed_at": "2026-04-17T22:28:32",
+    "duration_seconds": 55.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, bullet 1",
+            "issue": "The opener frames the candidate as 'Transitioning from Analytics', so the first-screen signal is the transition narrative rather than the target-role identity.",
+            "fix": "Rewrite the first sentence to lead with the target role and core domain, e.g. 'Backend engineer with 3+ years building distributed services in Python/Go/Java...' and move the analytics-transition phrase later in the sentence."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security | Software Engineer Intern",
+            "issue": "This latest segment is dominated by tier-2 percentage lifts (28%, 19%, 31%) without a tier-1 scope anchor such as request volume, service footprint, or release cadence.",
+            "fix": "Add one concrete scope metric to the first bullet or project baseline, such as requests/day, number of services, daily analysts, or release frequency, so the impact reads as anchored rather than percentage-only."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Temu · R&D | Data Analyst",
+            "issue": "The Temu section is almost entirely percentage/time-savings results, so the impact signal is weak relative to the role and lacks a scale anchor.",
+            "fix": "Add one scope metric such as pipeline volume, dataset size, report audience, or weekly query load to one bullet so the numbers become interpretable."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary bullet 1 to lead with the backend role and distributed-systems domain, not the analytics-transition phrase.",
+        "[MUST] Add a concrete scope anchor to the TikTok intern section so the latest experience is not read as percentage-only impact.",
+        "[MUST] Add a concrete scope anchor to the Temu section so the earliest experience is not read as percentage-only impact.",
+        "[SHOULD] Keep the current technical coverage and two-project structure; the rest is broadly aligned."
+      ],
+      "revision_instructions": "[MUST] Rewrite Summary bullet 1 so it opens with 'Backend Engineer' and the core backend/distributed-systems stack; keep the analytics transition as a trailing clause, not the headline. [MUST] In the TikTok section, add one scope metric to the first bullet or project baseline (requests/day, services owned, analyst volume, or release cadence) so the latest experience has a Tier1 anchor. [MUST] In the Temu section, add one scope metric (pipeline volume, dataset size, report audience, or weekly query load) to one bullet to avoid an all-percentage impact pattern. [SHOULD] Leave the rest of the resume structure intact; the technical coverage is already strong.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 97.0,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary bullet 1 to lead with the backend role and distributed-systems domain, not the analytics-transition phrase.",
+        "[MUST] Add a concrete scope anchor to the TikTok intern section so the latest experience is not read as percentage-only impact.",
+        "[MUST] Add a concrete scope anchor to the Temu section so the earliest experience is not read as percentage-only impact.",
+        "[SHOULD] Keep the current technical coverage and two-project structure; the rest is broadly aligned."
+      ],
+      "revision_instructions": "[MUST] Rewrite Summary bullet 1 so it opens with 'Backend Engineer' and the core backend/distributed-systems stack; keep the analytics transition as a trailing clause, not the headline. [MUST] In the TikTok section, add one scope metric to the first bullet or project baseline (requests/day, services owned, analyst volume, or release cadence) so the latest experience has a Tier1 anchor. [MUST] In the Temu section, add one scope metric (pipeline volume, dataset size, report audience, or weekly query load) to one bullet to avoid an all-percentage impact pattern. [SHOULD] Leave the rest of the resume structure intact; the technical coverage is already strong.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, bullet 1",
+              "issue": "The opener frames the candidate as 'Transitioning from Analytics', so the first-screen signal is the transition narrative rather than the target-role identity.",
+              "fix": "Rewrite the first sentence to lead with the target role and core domain, e.g. 'Backend engineer with 3+ years building distributed services in Python/Go/Java...' and move the analytics-transition phrase later in the sentence."
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok · Security | Software Engineer Intern",
+              "issue": "This latest segment is dominated by tier-2 percentage lifts (28%, 19%, 31%) without a tier-1 scope anchor such as request volume, service footprint, or release cadence.",
+              "fix": "Add one concrete scope metric to the first bullet or project baseline, such as requests/day, number of services, daily analysts, or release frequency, so the impact reads as anchored rather than percentage-only."
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "Temu · R&D | Data Analyst",
+              "issue": "The Temu section is almost entirely percentage/time-savings results, so the impact signal is weak relative to the role and lacks a scale anchor.",
+              "fix": "Add one scope metric such as pipeline volume, dataset size, report audience, or weekly query load to one bullet so the numbers become interpretable."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Rewrite Summary bullet 1 to lead with the backend role and distributed-systems domain, not the analytics-transition phrase.",
+          "[MUST] Add a concrete scope anchor to the TikTok intern section so the latest experience is not read as percentage-only impact.",
+          "[MUST] Add a concrete scope anchor to the Temu section so the earliest experience is not read as percentage-only impact.",
+          "[SHOULD] Keep the current technical coverage and two-project structure; the rest is broadly aligned."
+        ],
+        "revision_instructions": "[MUST] Rewrite Summary bullet 1 so it opens with 'Backend Engineer' and the core backend/distributed-systems stack; keep the analytics transition as a trailing clause, not the headline. [MUST] In the TikTok section, add one scope metric to the first bullet or project baseline (requests/day, services owned, analyst volume, or release cadence) so the latest experience has a Tier1 anchor. [MUST] In the Temu section, add one scope metric (pipeline volume, dataset size, report audience, or weekly query load) to one bullet to avoid an all-percentage impact pattern. [SHOULD] Leave the rest of the resume structure intact; the technical coverage is already strong.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, bullet 1",
+            "issue": "The opener frames the candidate as 'Transitioning from Analytics', so the first-screen signal is the transition narrative rather than the target-role identity.",
+            "fix": "Rewrite the first sentence to lead with the target role and core domain, e.g. 'Backend engineer with 3+ years building distributed services in Python/Go/Java...' and move the analytics-transition phrase later in the sentence."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security | Software Engineer Intern",
+            "issue": "This latest segment is dominated by tier-2 percentage lifts (28%, 19%, 31%) without a tier-1 scope anchor such as request volume, service footprint, or release cadence.",
+            "fix": "Add one concrete scope metric to the first bullet or project baseline, such as requests/day, number of services, daily analysts, or release frequency, so the impact reads as anchored rather than percentage-only."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Temu · R&D | Data Analyst",
+            "issue": "The Temu section is almost entirely percentage/time-savings results, so the impact signal is weak relative to the role and lacks a scale anchor.",
+            "fix": "Add one scope metric such as pipeline volume, dataset size, report audience, or weekly query load to one bullet so the numbers become interpretable."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3D-001",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P3D-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

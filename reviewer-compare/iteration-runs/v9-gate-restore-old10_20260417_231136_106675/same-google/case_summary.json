@@ -1,0 +1,291 @@
+{
+  "label": "same/Google",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
+  "historical": {
+    "official_score": 94.0,
+    "official_verdict": "pass",
+    "official_notes": [
+      "Old report baseline only; target side had no revision priority.",
+      "Old report assessment: official reviewer passed the resume as substantively strong."
+    ],
+    "claude_score": 86.3,
+    "claude_verdict": "fail",
+    "claude_notes": [
+      "ATS-like insistence that Looker and semantic-layer signals appear as exact phrases in body text.",
+      "Exact year arithmetic concerns around 3+ years claims.",
+      "Skills taxonomy/category naming quality concerns.",
+      "Summary framing judged too data-modeling-first rather than infrastructure/performance-first."
+    ],
+    "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+  },
+  "metadata": {
+    "label": "same/Google",
+    "company": "Google",
+    "title": "Software Engineer III, Full Stack, Google Cloud Platforms",
+    "role_type": "swe_fullstack",
+    "seniority": "entry",
+    "team_direction": "Google is a leading technology company that develops next-generation technologies impacting billions of users",
+    "tech_required": [
+      "C++",
+      "TypeScript",
+      "Java",
+      "Node.js",
+      "JavaScript",
+      "Python"
+    ],
+    "tech_preferred": [
+      "Algorithms",
+      "Data Structures",
+      "Software Test Engineering",
+      "Design Review"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/review.json",
+    "historical": {
+      "official_score": 94.0,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; target side had no revision priority.",
+        "Old report assessment: official reviewer passed the resume as substantively strong."
+      ],
+      "claude_score": 86.3,
+      "claude_verdict": "fail",
+      "claude_notes": [
+        "ATS-like insistence that Looker and semantic-layer signals appear as exact phrases in body text.",
+        "Exact year arithmetic concerns around 3+ years claims.",
+        "Skills taxonomy/category naming quality concerns.",
+        "Summary framing judged too data-modeling-first rather than infrastructure/performance-first."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    },
+    "portfolio_review": {
+      "weighted_score": 94.0,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r1_writing_standard": {
+          "score": 9.1,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.0,
+      "verdict": "pass",
+      "seed_label": "Google Full Stack",
+      "route_mode": "retarget",
+      "revised": false,
+      "rewrite_adopted": false,
+      "content_changed": false,
+      "revision_instructions": "",
+      "rereview_version": "unified_followup_v1",
+      "rereviewed_at": "2026-04-08T20:10:33",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_achievement"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 82.1,
+      "previous_verdict": "fail"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:12:38",
+    "completed_at": "2026-04-17T23:13:33",
+    "duration_seconds": 55.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first bullet",
+            "issue": "首屏 framing 以“transitioning from data analysis to full-stack development”开场，先讲转型过程而不是目标角色与领域信号；6-8 秒扫读时，HR 会先看到转行叙事而不是 Full-stack / backend / platform 定位。",
+            "fix": "把开头改成目标角色+领域信号，例如 `**Full-Stack Software Engineer:**` 或 `**Backend/Platform Engineer:**`，再把“from data analysis to full-stack”移到句尾作为补充背景。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 将 Summary 第一条改成目标角色先行，再补“从数据分析转向全栈”的背景。",
+        "[NICE] 保持其余经历不变；当前项目与经历的技术证据已足够支撑 JD 的核心要求。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 98.0,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 将 Summary 第一条改成目标角色先行，再补“从数据分析转向全栈”的背景。",
+        "[NICE] 保持其余经历不变；当前项目与经历的技术证据已足够支撑 JD 的核心要求。"
+      ],
+      "revision_instructions": "",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, first bullet",
+              "issue": "首屏 framing 以“transitioning from data analysis to full-stack development”开场，先讲转型过程而不是目标角色与领域信号；6-8 秒扫读时，HR 会先看到转行叙事而不是 Full-stack / backend / platform 定位。",
+              "fix": "把开头改成目标角色+领域信号，例如 `**Full-Stack Software Engineer:**` 或 `**Backend/Platform Engineer:**`，再把“from data analysis to full-stack”移到句尾作为补充背景。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": []
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[SHOULD] 将 Summary 第一条改成目标角色先行，再补“从数据分析转向全栈”的背景。",
+          "[NICE] 保持其余经历不变；当前项目与经历的技术证据已足够支撑 JD 的核心要求。"
+        ],
+        "revision_instructions": "",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first bullet",
+            "issue": "首屏 framing 以“transitioning from data analysis to full-stack development”开场，先讲转型过程而不是目标角色与领域信号；6-8 秒扫读时，HR 会先看到转行叙事而不是 Full-stack / backend / platform 定位。",
+            "fix": "把开头改成目标角色+领域信号，例如 `**Full-Stack Software Engineer:**` 或 `**Backend/Platform Engineer:**`，再把“from data analysis to full-stack”移到句尾作为补充背景。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

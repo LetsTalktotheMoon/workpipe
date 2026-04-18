@@ -1,0 +1,153 @@
+canonical_skill,category,total_mentions,record_count,raw_variants,source_scopes
+Python,Programming Languages,616,616,Python,resume
+Go,Programming Languages,574,574,Go,resume
+Java,Programming Languages,531,531,"Java, Java 17",resume
+JavaScript,Programming Languages,169,169,JavaScript,resume
+C++,Programming Languages,146,146,C++,resume
+Scala,Programming Languages,146,146,Scala,resume
+TypeScript,Programming Languages,124,124,TypeScript,resume
+R,Programming Languages,46,46,R,resume
+C#,Programming Languages,28,28,C#,resume
+PHP,Programming Languages,12,12,Php,resume
+Ruby,Programming Languages,12,12,Ruby,resume
+Rust,Programming Languages,12,12,Rust,resume
+Kotlin,Programming Languages,10,10,Kotlin,resume
+Swift,Programming Languages,5,5,Swift,resume
+MATLAB,Programming Languages,2,2,Matlab,resume
+VB.NET,Programming Languages,1,1,Vb.Net,resume
+REST APIs,Backend & APIs,589,572,"REST, REST APIs, RESTful, RESTful APIs, Restful Apis",resume
+gRPC,Backend & APIs,526,526,gRPC,resume
+Microservices,Backend & APIs,326,326,Microservices,resume
+Flask,Backend & APIs,319,319,Flask,resume
+Node.js,Backend & APIs,42,42,Node.js,resume
+Spring Boot,Backend & APIs,36,36,Spring Boot,resume
+Spring,Backend & APIs,35,35,Spring,resume
+Express,Backend & APIs,28,28,Express,resume
+.NET,Backend & APIs,24,24,.NET,resume
+ASP.NET,Backend & APIs,23,23,ASP.NET,resume
+Rails,Backend & APIs,16,16,Rails,resume
+GraphQL,Backend & APIs,10,10,GraphQL,resume
+FastAPI,Backend & APIs,8,8,FastAPI,resume
+Django,Backend & APIs,4,4,Django,resume
+NestJS,Backend & APIs,2,2,NestJS,resume
+.NET / C#,Backend & APIs,1,1,C#/.Net,resume
+ASP.NET MVC,Backend & APIs,1,1,ASP.NET MVC,resume
+React,Frontend & UI,141,140,"React, React 16+",resume
+Angular,Frontend & UI,51,51,Angular,resume
+CSS,Frontend & UI,46,46,"CSS, Css",resume
+HTML,Frontend & UI,42,42,Html,resume
+Vue,Frontend & UI,17,17,Vue,resume
+HTML5,Frontend & UI,5,5,"HTML5, Html5",resume
+Vite,Frontend & UI,4,4,Vite,resume
+CSS3,Frontend & UI,3,3,Css3,resume
+Next.js,Frontend & UI,3,3,Next.js,resume
+Android SDK,Frontend & UI,1,1,Android Sdk,resume
+Jetpack Compose,Frontend & UI,1,1,Jetpack Compose,resume
+Material Design,Frontend & UI,1,1,Material Design,resume
+Tailwind,Frontend & UI,1,1,Tailwind,resume
+Webpack,Frontend & UI,1,1,Webpack,resume
+SQL,Data & Analytics,616,616,SQL,resume
+Pandas,Data & Analytics,569,569,Pandas,resume
+Spark SQL,Data & Analytics,568,568,Spark SQL,resume
+Hive,Data & Analytics,559,559,Hive,resume
+ETL,Data & Analytics,450,450,ETL,resume
+A/B Testing,Data & Analytics,389,389,A/B Testing,resume
+Airflow,Data & Analytics,356,356,"Airflow, Apache Airflow",resume
+Jupyter,Data & Analytics,73,73,Jupyter,resume
+Spark,Data & Analytics,43,43,Spark,resume
+Tableau,Data & Analytics,42,42,Tableau,resume
+Data Pipelines,Data & Analytics,41,41,Data Pipelines,resume
+Matplotlib,Data & Analytics,35,35,Matplotlib,resume
+Snowflake,Data & Analytics,33,33,Snowflake,resume
+Databricks,Data & Analytics,26,26,Databricks,resume
+BigQuery,Data & Analytics,21,21,BigQuery,resume
+NumPy,Data & Analytics,21,21,NumPy,resume
+Power BI,Data & Analytics,20,20,Power Bi,resume
+dbt,Data & Analytics,17,17,DBT,resume
+Hadoop,Data & Analytics,13,13,Hadoop,resume
+Anomaly Detection,Data & Analytics,1,1,anomaly detection,resume
+Dashboard Automation,Data & Analytics,1,1,Dashboard Automation,resume
+Experiment Design,Data & Analytics,1,1,Experiment Design,resume
+Forecasting,Data & Analytics,1,1,Forecasting,resume
+KPI Measurement,Data & Analytics,1,1,KPI Measurement,resume
+Looker,Data & Analytics,1,1,Looker,resume
+Time Series Analysis,Data & Analytics,1,1,time-series analysis,resume
+RAG,AI / ML,462,462,RAG,resume
+AWS Bedrock,AI / ML,456,456,AWS Bedrock,resume
+LLM,AI / ML,173,173,LLM,resume
+scikit-learn,AI / ML,167,167,scikit-learn,resume
+Machine Learning,AI / ML,164,164,Machine Learning,resume
+PyTorch,AI / ML,96,96,PyTorch,resume
+TensorFlow,AI / ML,64,64,TensorFlow,resume
+Deep Learning,AI / ML,49,49,Deep Learning,resume
+Generative AI,AI / ML,49,49,"Genai, Generative AI",resume
+NLP,AI / ML,40,40,NLP,resume
+Model Deployment,AI / ML,18,18,Model Deployment,resume
+ML Infrastructure,AI / ML,13,13,ML Infrastructure,resume
+Prompt Engineering,AI / ML,9,9,Prompt Engineering,resume
+Computer Vision,AI / ML,8,8,Computer Vision,resume
+Keras,AI / ML,4,4,Keras,resume
+OpenAI,AI / ML,4,4,OpenAI,resume
+Context Engineering,AI / ML,2,2,Context Engineering,resume
+Embeddings,AI / ML,2,2,"Embeddings, Vector Embeddings",resume
+OpenAI API,AI / ML,2,2,"OpenAI API, Openai Api",resume
+Azure OpenAI,AI / ML,1,1,Azure OpenAI,resume
+LLM Application Development,AI / ML,1,1,LLM Application Development,resume
+LangChain,AI / ML,1,1,Langchain,resume
+MLOps,AI / ML,1,1,Mlops,resume
+Retrieval Evaluation,AI / ML,1,1,Retrieval Evaluation,resume
+Docker,Cloud / DevOps / Infrastructure,606,606,Docker,resume
+Kubernetes,Cloud / DevOps / Infrastructure,597,596,"K8S, Kubernetes",resume
+AWS,Cloud / DevOps / Infrastructure,497,497,AWS,resume
+CI/CD,Cloud / DevOps / Infrastructure,343,343,CI/CD,resume
+GitHub Actions,Cloud / DevOps / Infrastructure,333,333,GitHub Actions,resume
+Azure,Cloud / DevOps / Infrastructure,124,124,Azure,resume
+Linux,Cloud / DevOps / Infrastructure,95,95,Linux,resume
+GCP,Cloud / DevOps / Infrastructure,91,91,"GCP, Google Cloud",resume
+Shell,Cloud / DevOps / Infrastructure,78,78,Shell,resume
+Jenkins,Cloud / DevOps / Infrastructure,60,60,Jenkins,resume
+Terraform,Cloud / DevOps / Infrastructure,40,40,Terraform,resume
+Bash,Cloud / DevOps / Infrastructure,29,29,Bash,resume
+Prometheus,Cloud / DevOps / Infrastructure,28,28,Prometheus,resume
+ECS,Cloud / DevOps / Infrastructure,27,27,ECS,resume
+GitLab CI,Cloud / DevOps / Infrastructure,7,7,"GitLab CI, Gitlab Ci",resume
+Ansible,Cloud / DevOps / Infrastructure,2,2,Ansible,resume
+PostgreSQL,Databases / Storage / Streaming,584,584,PostgreSQL,resume
+Kafka,Databases / Storage / Streaming,574,574,Kafka,resume
+Redis,Databases / Storage / Streaming,484,484,Redis,resume
+MySQL,Databases / Storage / Streaming,401,401,MySQL,resume
+S3,Databases / Storage / Streaming,370,370,S3,resume
+MongoDB,Databases / Storage / Streaming,78,78,MongoDB,resume
+NoSQL,Databases / Storage / Streaming,65,65,NoSQL,resume
+Cassandra,Databases / Storage / Streaming,24,24,Cassandra,resume
+Flink,Databases / Storage / Streaming,9,6,"Apache Flink, Flink",resume
+Elasticsearch,Databases / Storage / Streaming,5,5,Elasticsearch,resume
+DynamoDB,Databases / Storage / Streaming,3,3,"DynamoDB, Dynamodb",resume
+Redshift,Databases / Storage / Streaming,3,3,Redshift,resume
+Azure Blob Storage,Databases / Storage / Streaming,1,1,Azure Blob Storage,resume
+DB2,Databases / Storage / Streaming,1,1,Db2,resume
+SSMS,Databases / Storage / Streaming,1,1,Ssms,resume
+Algorithms,Architecture / Systems,130,130,Algorithms,resume
+Data Structures,Architecture / Systems,124,124,Data Structures,resume
+Distributed Systems,Architecture / Systems,79,79,Distributed Systems,resume
+System Design,Architecture / Systems,41,41,System Design,resume
+Embedded Systems,Architecture / Systems,25,25,"Embedded, Embedded Systems",resume
+Networking,Architecture / Systems,11,11,Networking,resume
+Network Protocol,Architecture / Systems,3,3,Network Protocol,resume
+Large-Scale Systems,Architecture / Systems,1,1,Large-Scale Systems,resume
+Git,Quality & Workflow,160,160,Git,resume
+Scrum,Quality & Workflow,114,114,Scrum,resume
+Unit Testing,Quality & Workflow,48,48,Unit Testing,resume
+Jira,Quality & Workflow,34,34,Jira,resume
+TDD,Quality & Workflow,34,34,TDD,resume
+Agile,Quality & Workflow,27,27,Agile,resume
+pytest,Quality & Workflow,19,19,"Pytest, pytest",resume
+JUnit,Quality & Workflow,18,18,"JUnit, Junit",resume
+Code Review,Quality & Workflow,13,13,Code Review,resume
+Playwright,Quality & Workflow,12,12,Playwright,resume
+Software Test Engineering,Quality & Workflow,8,8,Software Test Engineering,resume
+Selenium,Quality & Workflow,5,5,"Selenium, Selenium Webdriver",resume
+Design Review,Quality & Workflow,4,4,Design Review,resume
+Cypress,Quality & Workflow,2,2,Cypress,resume
+Jest,Quality & Workflow,2,2,Jest,resume
+Visual Studio,Quality & Workflow,1,1,Visual Studio,resume

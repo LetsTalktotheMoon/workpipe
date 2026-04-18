@@ -1,0 +1,48 @@
+shared_intro: |-
+  ## 阶段一：PLAN（在此规划，不输出给最终用户）
+
+  请在 <PLAN> 标签内完成：
+
+  {{ data.sentences.code_fence_close }}
+  <PLAN>
+  ## 技术分配规划
+generic_tiktok_branch: |-
+  ### TikTok（intern，最灵活，承接 JD 核心技术）
+  {{ data.sentences.writer_plan_jd_tech }}
+  额外技术（stretch tier，叙事自洽即可）: [列出]
+  {{ data.sentences.writer_plan_tech_list }}
+shared_didi_temu: |-
+  ### DiDi（mid-senior acting lead，转行桥梁，连接分析和工程）
+  {{ data.sentences.writer_plan_jd_tech }}
+  额外技术（extended tier 为主）: [列出]
+  {{ data.sentences.writer_plan_tech_list }}
+
+  ### Temu（junior DA，故事起点，分析基础）
+  技术（core/extended tier，体现数据分析基础）: [列出]
+  {{ data.sentences.writer_plan_tech_list }}
+shared_gt_coursework: |-
+  ### Georgia Tech CS coursework/projects（所有线路共享；ByteDance 可提升权重）
+  {{ data.sentences.writer_plan_jd_tech }}
+  {{ data.sentences.writer_plan_tech_list }}
+shared_tail: |-
+  ## SKILLS 推导（= 上述经历/项目技术列表的并集）
+  [按 2-4 个类别优先组织；若为满足 14 词硬上限可扩到 5 类；任何类别不得少于 4 个技术]
+
+  ## 项目规划
+  - 项目1: 属于 [哪段经历] | 主题: [业务场景]
+  - 项目2: 属于 [哪段经历] | 主题: [业务场景]
+
+  ## 教育经历选择
+  [列出要保留的学历条目及理由]
+  </PLAN>
+  {{ data.sentences.code_fence_close }}
+
+  ## 阶段二：RESUME
+
+  按照上方 PLAN 的规划，在 <RESUME> 标签内输出完整的 Markdown 简历：
+
+  {{ data.sentences.code_fence_close }}
+  <RESUME>
+  [完整简历内容]
+  </RESUME>
+  {{ data.sentences.code_fence_close }}

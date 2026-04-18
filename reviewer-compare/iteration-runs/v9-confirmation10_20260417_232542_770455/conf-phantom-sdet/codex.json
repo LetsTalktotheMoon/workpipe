@@ -1,0 +1,221 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:31:19",
+  "completed_at": "2026-04-17T23:32:34",
+  "duration_seconds": 75.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok Experience bullets 1, 2, 4; DiDi Experience bullet 1",
+          "issue": "Modifier/ownership adjectives are bolded repeatedly (`team-maintained`, `team-owned`, `bounded`). The rubric treats bold emphasis as reserved for technologies and scale/scope signals, so this adds visual noise.",
+          "fix": "Remove bold from qualifiers and ownership adjectives. Keep bold only on technologies, systems, and quantified scope/results."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening framing leads with a transition narrative (`Transitioning from data analytics to software engineering`) instead of a direct SDET/backend signal, which weakens the first-screen read.",
+          "fix": "Rewrite the first sentence to open with the target role and domain, e.g. `SDET / backend engineer:` followed by test infrastructure, REST/gRPC, and distributed-systems validation."
+        },
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills, second category title `APIs`",
+          "issue": "The category title is too vague for quick scanning and mixes testing/CI tools with source-control and framework entries.",
+          "fix": "Rename the category to something information-rich such as `Testing & CI` or split it into `Testing` and `CI/CD`."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "JD minimum qualifications vs. Professional Summary and TikTok Experience / project bullets",
+          "issue": "The resume shows broad API/test automation experience, but it does not explicitly evidence the JD's harder SDET expectations: from-scratch test framework design, webhook/idempotency/retry edge cases, and incident post-mortem prevention steps.",
+          "fix": "Add one bullet in the most relevant testing/backend experience that states you designed the framework/validation pack from scratch, included seeded/cleaned test data, and covered REST/webhook idempotency, retry, and out-of-order cases; if applicable, add a post-mortem-derived prevention step."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the first Summary sentence to lead with `SDET/backend engineer` signal, not the transition narrative.",
+      "[MUST] Add one concrete bullet showing from-scratch test framework ownership plus API edge-case coverage (idempotency, retry, webhook, out-of-order delivery) and, if true, a post-mortem prevention action.",
+      "[SHOULD] Rename the `APIs` skills category to `Testing & CI` or split it into clearer buckets.",
+      "[NICE] Remove bold emphasis from qualifiers like `team-maintained` and `team-owned` so emphasis stays on technical and quantitative signals."
+    ],
+    "revision_instructions": "Rewrite Summary sentence 1 to open as `SDET/backend engineer` with test-infra, REST/gRPC, distributed-systems, and CI/CD language; remove the transition-first framing. In the TikTok section, add one bullet that explicitly says you designed a reusable test framework/validation pack from scratch, seeded/cleaned SQL test data, and covered REST/webhook idempotency, retry, and out-of-order delivery cases; include a post-mortem prevention step only if you actually owned one. Rename the `APIs` Skills category to `Testing & CI` or split it into clearer buckets. Remove bolding from modifier words like `team-maintained` and `team-owned`; keep bold for technologies, scope, and metrics.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 9.5,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 91.6,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the first Summary sentence to lead with `SDET/backend engineer` signal, not the transition narrative.",
+      "[MUST] Add one concrete bullet showing from-scratch test framework ownership plus API edge-case coverage (idempotency, retry, webhook, out-of-order delivery) and, if true, a post-mortem prevention action.",
+      "[SHOULD] Rename the `APIs` skills category to `Testing & CI` or split it into clearer buckets.",
+      "[NICE] Remove bold emphasis from qualifiers like `team-maintained` and `team-owned` so emphasis stays on technical and quantitative signals."
+    ],
+    "revision_instructions": "Rewrite Summary sentence 1 to open as `SDET/backend engineer` with test-infra, REST/gRPC, distributed-systems, and CI/CD language; remove the transition-first framing. In the TikTok section, add one bullet that explicitly says you designed a reusable test framework/validation pack from scratch, seeded/cleaned SQL test data, and covered REST/webhook idempotency, retry, and out-of-order delivery cases; include a post-mortem prevention step only if you actually owned one. Rename the `APIs` Skills category to `Testing & CI` or split it into clearer buckets. Remove bolding from modifier words like `team-maintained` and `team-owned`; keep bold for technologies, scope, and metrics.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience bullets 1, 2, 4; DiDi Experience bullet 1",
+            "issue": "Modifier/ownership adjectives are bolded repeatedly (`team-maintained`, `team-owned`, `bounded`). The rubric treats bold emphasis as reserved for technologies and scale/scope signals, so this adds visual noise.",
+            "fix": "Remove bold from qualifiers and ownership adjectives. Keep bold only on technologies, systems, and quantified scope/results."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening framing leads with a transition narrative (`Transitioning from data analytics to software engineering`) instead of a direct SDET/backend signal, which weakens the first-screen read.",
+            "fix": "Rewrite the first sentence to open with the target role and domain, e.g. `SDET / backend engineer:` followed by test infrastructure, REST/gRPC, and distributed-systems validation."
+          },
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills, second category title `APIs`",
+            "issue": "The category title is too vague for quick scanning and mixes testing/CI tools with source-control and framework entries.",
+            "fix": "Rename the category to something information-rich such as `Testing & CI` or split it into `Testing` and `CI/CD`."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "JD minimum qualifications vs. Professional Summary and TikTok Experience / project bullets",
+            "issue": "The resume shows broad API/test automation experience, but it does not explicitly evidence the JD's harder SDET expectations: from-scratch test framework design, webhook/idempotency/retry edge cases, and incident post-mortem prevention steps.",
+            "fix": "Add one bullet in the most relevant testing/backend experience that states you designed the framework/validation pack from scratch, included seeded/cleaned test data, and covered REST/webhook idempotency, retry, and out-of-order cases; if applicable, add a post-mortem-derived prevention step."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the first Summary sentence to lead with `SDET/backend engineer` signal, not the transition narrative.",
+        "[MUST] Add one concrete bullet showing from-scratch test framework ownership plus API edge-case coverage (idempotency, retry, webhook, out-of-order delivery) and, if true, a post-mortem prevention action.",
+        "[SHOULD] Rename the `APIs` skills category to `Testing & CI` or split it into clearer buckets.",
+        "[NICE] Remove bold emphasis from qualifiers like `team-maintained` and `team-owned` so emphasis stays on technical and quantitative signals."
+      ],
+      "revision_instructions": "Rewrite Summary sentence 1 to open as `SDET/backend engineer` with test-infra, REST/gRPC, distributed-systems, and CI/CD language; remove the transition-first framing. In the TikTok section, add one bullet that explicitly says you designed a reusable test framework/validation pack from scratch, seeded/cleaned SQL test data, and covered REST/webhook idempotency, retry, and out-of-order delivery cases; include a post-mortem prevention step only if you actually owned one. Rename the `APIs` Skills category to `Testing & CI` or split it into clearer buckets. Remove bolding from modifier words like `team-maintained` and `team-owned`; keep bold for technologies, scope, and metrics.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary; TikTok Experience bullets 1, 2, 4; DiDi Experience bullet 1",
+          "issue": "Modifier/ownership adjectives are bolded repeatedly (`team-maintained`, `team-owned`, `bounded`). The rubric treats bold emphasis as reserved for technologies and scale/scope signals, so this adds visual noise.",
+          "fix": "Remove bold from qualifiers and ownership adjectives. Keep bold only on technologies, systems, and quantified scope/results."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "JD minimum qualifications vs. Professional Summary and TikTok Experience / project bullets",
+          "issue": "The resume shows broad API/test automation experience, but it does not explicitly evidence the JD's harder SDET expectations: from-scratch test framework design, webhook/idempotency/retry edge cases, and incident post-mortem prevention steps.",
+          "fix": "Add one bullet in the most relevant testing/backend experience that states you designed the framework/validation pack from scratch, included seeded/cleaned test data, and covered REST/webhook idempotency, retry, and out-of-order cases; if applicable, add a post-mortem-derived prevention step."
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening framing leads with a transition narrative (`Transitioning from data analytics to software engineering`) instead of a direct SDET/backend signal, which weakens the first-screen read.",
+          "fix": "Rewrite the first sentence to open with the target role and domain, e.g. `SDET / backend engineer:` followed by test infrastructure, REST/gRPC, and distributed-systems validation."
+        }
+      ],
+      "r5_logic": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills, second category title `APIs`",
+          "issue": "The category title is too vague for quick scanning and mixes testing/CI tools with source-control and framework entries.",
+          "fix": "Rename the category to something information-rich such as `Testing & CI` or split it into `Testing` and `CI/CD`."
+        }
+      ],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 2,
+        "rule_ids": [
+          "P2-001",
+          "P2-040"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3B-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P2-040",
+      "P3B-001"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ JD minimum qualifications vs. Professional Summary and TikTok Experience / project bullets"
+    ]
+  }
+}

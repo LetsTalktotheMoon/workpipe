@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prompt 速查</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page prompt-page">
+      <header class="hero prompt-hero">
+        <div class="prompt-hero-copy">
+          <p class="eyebrow">Prompt Lookup</p>
+          <h1 class="monitor-title">match_pipe prompt速查</h1>
+          <p class="subtitle">
+            这页只看 <code>match_pipe</code>。主视图按完整 prompt flow 展示自然语言正文；上下文输入、schema 与结构占位会转成灰色说明，不进入主编辑区。
+          </p>
+          <div class="prompt-path-note" id="promptPathNote"></div>
+        </div>
+        <div class="prompt-hero-actions">
+          <div class="prompt-meta" id="promptMeta"></div>
+          <div class="prompt-toolbar">
+            <div class="prompt-save-status" id="promptSaveStatus">当前没有未保存改动</div>
+          </div>
+          <a class="ghost-button prompt-back-link" href="/">返回看板</a>
+        </div>
+      </header>
+
+      <section class="prompt-preview-shell">
+        <div class="prompt-section-head">
+          <div>
+            <p class="eyebrow">Editable Prompts</p>
+            <h2 class="quick-actions-title">段落平铺编辑</h2>
+          </div>
+          <div class="prompt-section-meta">直接编辑并保存；灰色说明仅提示 flow 中的输入 / schema / 附录结构</div>
+        </div>
+        <div class="prompt-preview-list" id="promptPreviewList"></div>
+      </section>
+    </main>
+
+    <script src="/prompt-lookup.js" defer></script>
+  </body>
+</html>

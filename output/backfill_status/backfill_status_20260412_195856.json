@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-04-12T19:58:56",
+  "pool_total_jobs": 1258,
+  "jobs_with_apply_url": 1258,
+  "processed_this_run": 5,
+  "status_counts": {
+    "unknown": 4,
+    "open": 1,
+    "missing": 1253
+  },
+  "coverage_ratio": 0.000794912559618442,
+  "top_hosts": {
+    "boards.greenhouse.io": 215,
+    "jobs.ashbyhq.com": 107,
+    "www.linkedin.com": 94,
+    "www.amazon.jobs": 90,
+    "apply.careers.microsoft.com": 53,
+    "jobs.lever.co": 42,
+    "careers.google.com": 29,
+    "jpmorganchase.contacthr.com": 23,
+    "paypal.eightfold.ai": 21,
+    "www.capitalonecareers.com": 18,
+    "tnl2.jometer.com": 16,
+    "careers.adobe.com": 15,
+    "jpmc.fa.oraclecloud.com": 15,
+    "jobs.intuit.com": 10,
+    "hdpc.fa.us2.oraclecloud.com": 10,
+    "careers.qualcomm.com": 9,
+    "jobs.smartrecruiters.com": 9,
+    "jobs.apple.com": 8,
+    "jobs.jobvite.com": 7,
+    "www.disneycareers.com": 6,
+    "recruiting.ultipro.com": 6,
+    "careers.mastercard.com": 5,
+    "careers.medpace.com": 5,
+    "careers-mercuryinsurance.icims.com": 5,
+    "motorolasolutions.wd5.myworkdayjobs.com": 5
+  },
+  "unresolved_hosts": {
+    "boards.greenhouse.io": 214,
+    "jobs.ashbyhq.com": 107,
+    "www.linkedin.com": 94,
+    "www.amazon.jobs": 90,
+    "apply.careers.microsoft.com": 53,
+    "jobs.lever.co": 42,
+    "careers.google.com": 29,
+    "jpmorganchase.contacthr.com": 23,
+    "paypal.eightfold.ai": 21,
+    "www.capitalonecareers.com": 18,
+    "tnl2.jometer.com": 16,
+    "careers.adobe.com": 15,
+    "jpmc.fa.oraclecloud.com": 15,
+    "hdpc.fa.us2.oraclecloud.com": 10,
+    "jobs.intuit.com": 10,
+    "careers.qualcomm.com": 9,
+    "jobs.smartrecruiters.com": 9,
+    "jobs.apple.com": 8,
+    "jobs.jobvite.com": 7,
+    "www.disneycareers.com": 6,
+    "recruiting.ultipro.com": 6,
+    "careers.mastercard.com": 5,
+    "careers.medpace.com": 5,
+    "motorolasolutions.wd5.myworkdayjobs.com": 5,
+    "careers-mercuryinsurance.icims.com": 5
+  },
+  "results": [
+    {
+      "job_id": "69da96ba9f97a42dc9c2ad53",
+      "status": "unknown",
+      "detector": "careers.jobscore.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://careers.jobscore.com/careers/nexonamericainc/jobs/qa-tester-c8jFZAbWriUkTb8L_lpe4A",
+      "final_url": "https://careers.jobscore.com/careers/nexonamericainc/jobs/qa-tester-c8jFZAbWriUkTb8L_lpe4A",
+      "host": "careers.jobscore.com",
+      "http_status": 200,
+      "title": "QA Tester job at Nexon America Inc in El Segundo, CA (Hybrid), powered by JobScore",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "tester"
+        ],
+        "page_host": "careers.jobscore.com"
+      }
+    },
+    {
+      "job_id": "69da936b738f2f099e8aa099",
+      "status": "unknown",
+      "detector": "www.capitalonecareers.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://www.capitalonecareers.com/job/-/-/234/93806318624?p_sid=7ZGm3Cb&p_uid=myWAwZ86MF&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "final_url": "https://www.capitalonecareers.com/job/-/-/234/93806318624?p_sid=7ZGm3Cb&p_uid=myWAwZ86MF&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "host": "www.capitalonecareers.com",
+      "http_status": 200,
+      "title": "Senior Associate, Data Scientist at Capital One",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "associate"
+        ],
+        "page_host": "www.capitalonecareers.com"
+      }
+    },
+    {
+      "job_id": "69da9348b67cec4f9b0aa0c3",
+      "status": "unknown",
+      "detector": "www.capitalonecareers.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://www.capitalonecareers.com/job/-/-/234/93814762944?p_sid=s3wVIBb&p_uid=HYUofPH0zk&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "final_url": "https://www.capitalonecareers.com/job/-/-/234/93814762944?p_sid=s3wVIBb&p_uid=HYUofPH0zk&source=jobright&ss=paid&utm_campaign=data_science_toh_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright",
+      "host": "www.capitalonecareers.com",
+      "http_status": 200,
+      "title": "Manager, Data Science - AI for Data at Capital One",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [
+          "manager",
+          "science"
+        ],
+        "page_host": "www.capitalonecareers.com"
+      }
+    },
+    {
+      "job_id": "69da933b9f97a42dc9c2a057",
+      "status": "unknown",
+      "detector": "www.disneycareers.com:fallback",
+      "confidence": 0.0,
+      "reason": "Insufficient evidence",
+      "requested_url": "https://www.disneycareers.com/job/-/-/391/92736320096?source=LINKEDIN_JOB_SLOTS",
+      "final_url": "https://www.disneycareers.com/en/job/-/-/391/92736320096?source=LINKEDIN_JOB_SLOTS",
+      "host": "www.disneycareers.com",
+      "http_status": 200,
+      "title": "Software Engineer II at DISNEY - Disney Careers",
+      "matched_markers": [],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "www.disneycareers.com"
+      }
+    },
+    {
+      "job_id": "6985053a8da7a612045f4df2",
+      "status": "open",
+      "detector": "greenhouse:markers",
+      "confidence": 0.88,
+      "reason": "Open markers and title evidence found",
+      "requested_url": "https://boards.greenhouse.io/embed/job_app?token=6738818&utm_source=jobright",
+      "final_url": "https://job-boards.greenhouse.io/embed/job_app?for=doximity&token=6738818&utm_source=jobright",
+      "host": "boards.greenhouse.io",
+      "http_status": 200,
+      "title": "Job Application for Data Analyst at Doximity",
+      "matched_markers": [
+        "\"questions\"",
+        "apply for this job",
+        "submit application"
+      ],
+      "checked_at": "2026-04-12T19:58:56",
+      "signals": {
+        "title_overlap": [],
+        "page_host": "job-boards.greenhouse.io",
+        "open_score": 5
+      }
+    }
+  ]
+}

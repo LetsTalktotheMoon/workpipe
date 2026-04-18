@@ -1,0 +1,162 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T19:59:18",
+  "completed_at": "2026-04-17T20:00:09",
+  "duration_seconds": 51.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience | TikTok bullet 4",
+          "issue": "这一条里 `GitHub Actions` 没有加粗，`11 minutes -> 4 minutes` 这类首屏关键量化信号也没有用同一套加粗规则突出，破坏了正文中技术栈和关键指标的视觉一致性。",
+          "fix": "把该 bullet 的核心技术名词和主结果统一加粗，例如将 `GitHub Actions`、`11 minutes`、`4 minutes` 用与其他 bullets 一致的方式突出。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills | `APIs` category",
+          "issue": "`APIs` 作为类别名信息量偏低，而且该行内容实际包含的是 `NoSQL`、`Gitlab CI`、`Jenkins`、`Agile` 等平台/流程能力，不是 API 本身。",
+          "fix": "把该类别改成更具体的名称，例如 `Platform / DevOps` 或 `Workflow / DevOps`，让 HR 扫读时更快理解这一组技能。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 把 `Skills` 里的 `APIs` 类别改成更准确的 `Platform / DevOps` 或 `Workflow / DevOps`。",
+      "[SHOULD] 统一强化 TikTok bullet 4 的视觉层级，把 `GitHub Actions` 和主结果指标加粗。",
+      "[NICE] 保持其余结构不变，当前内容主线已经能过 ATS 和首屏扫读。"
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 10.0,
+      "r5_logic": 9.5,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 99.2,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 把 `Skills` 里的 `APIs` 类别改成更准确的 `Platform / DevOps` 或 `Workflow / DevOps`。",
+      "[SHOULD] 统一强化 TikTok bullet 4 的视觉层级，把 `GitHub Actions` 和主结果指标加粗。",
+      "[NICE] 保持其余结构不变，当前内容主线已经能过 ATS 和首屏扫读。"
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience | TikTok bullet 4",
+            "issue": "这一条里 `GitHub Actions` 没有加粗，`11 minutes -> 4 minutes` 这类首屏关键量化信号也没有用同一套加粗规则突出，破坏了正文中技术栈和关键指标的视觉一致性。",
+            "fix": "把该 bullet 的核心技术名词和主结果统一加粗，例如将 `GitHub Actions`、`11 minutes`、`4 minutes` 用与其他 bullets 一致的方式突出。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills | `APIs` category",
+            "issue": "`APIs` 作为类别名信息量偏低，而且该行内容实际包含的是 `NoSQL`、`Gitlab CI`、`Jenkins`、`Agile` 等平台/流程能力，不是 API 本身。",
+            "fix": "把该类别改成更具体的名称，例如 `Platform / DevOps` 或 `Workflow / DevOps`，让 HR 扫读时更快理解这一组技能。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 把 `Skills` 里的 `APIs` 类别改成更准确的 `Platform / DevOps` 或 `Workflow / DevOps`。",
+        "[SHOULD] 统一强化 TikTok bullet 4 的视觉层级，把 `GitHub Actions` 和主结果指标加粗。",
+        "[NICE] 保持其余结构不变，当前内容主线已经能过 ATS 和首屏扫读。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-040",
+          "severity": "medium",
+          "field": "Experience | TikTok bullet 4",
+          "issue": "这一条里 `GitHub Actions` 没有加粗，`11 minutes -> 4 minutes` 这类首屏关键量化信号也没有用同一套加粗规则突出，破坏了正文中技术栈和关键指标的视觉一致性。",
+          "fix": "把该 bullet 的核心技术名词和主结果统一加粗，例如将 `GitHub Actions`、`11 minutes`、`4 minutes` 用与其他 bullets 一致的方式突出。"
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [],
+      "r5_logic": [
+        {
+          "rule_id": "P2-040",
+          "severity": "medium",
+          "field": "Skills | `APIs` category",
+          "issue": "`APIs` 作为类别名信息量偏低，而且该行内容实际包含的是 `NoSQL`、`Gitlab CI`、`Jenkins`、`Agile` 等平台/流程能力，不是 API 本身。",
+          "fix": "把该类别改成更具体的名称，例如 `Platform / DevOps` 或 `Workflow / DevOps`，让 HR 扫读时更快理解这一组技能。"
+        }
+      ],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-040"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-040"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-040",
+      "P2-040"
+    ],
+    "high_or_critical": []
+  }
+}

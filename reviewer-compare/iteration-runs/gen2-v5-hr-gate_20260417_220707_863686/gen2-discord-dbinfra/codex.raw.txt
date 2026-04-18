@@ -1,0 +1,40 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Experience / TikTok and DiDi bullets",
+        "issue": "正文里把限定词和 ownership 修饰语加粗了，例如 team-maintained、existing、internal、team-owned、bounded、shared，这会稀释技术名词和量化结果的视觉权重。",
+        "fix": "移除这些修饰语的加粗，只保留技术栈名词、项目名和关键量化结果加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills / 全文",
+        "issue": "Discord JD 的 must-have 技术里 Rust 未在 Skills 或正文中出现，属于岗位定义级缺口；其余必须项 C++、Go、Java、Distributed Systems 已有覆盖。",
+        "fix": "如果确有真实 Rust 经验，把 Rust 补到最相关的后端或基础设施经历 bullet 里作为使用证据，并同步加入 Skills；如果没有真实 Rust，就应视为该 JD 的结构性错配。该问题可标注为 [结构性错配]。",
+        "note": "[结构性错配]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 补出真实 Rust 使用证据到最相关的后端/基础设施经历，并同步进 Skills；如果没有真实 Rust，这版简历不算完整覆盖 Discord JD。",
+    "[MUST] 去掉正文里对 team-maintained、internal、existing 这类修饰语的加粗，只保留技术名词和关键量化结果加粗。",
+    "[SHOULD] 如果确有 Rust 经验，优先放在最强的 TikTok 或 DiDi bullet 中，形成与 C++ / Go / Java / Distributed Systems 的完整后端叙事。",
+    "[NICE] 继续保持当前结构，不需要为了这份 JD 额外改 Summary 或项目数。"
+  ],
+  "revision_instructions": "[结构性错配] 针对 Discord 这份 JD，先补齐 Rust 的真实使用证据：把 Rust 放进最相关的后端/基础设施经历 bullet，并同步加入 Skills；如果没有真实 Rust，不要硬写，直接视为 JD 缺口。与此同时，删除正文里 team-maintained、internal、existing 这类修饰语的加粗，只保留技术名词、项目名和量化结果加粗。"
+}

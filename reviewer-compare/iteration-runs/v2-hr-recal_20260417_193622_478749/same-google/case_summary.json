@@ -1,0 +1,402 @@
+{
+  "label": "same/Google",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
+  "historical": {
+    "official_score": 94.0,
+    "official_verdict": "pass",
+    "official_notes": [
+      "Old report baseline only; target side had no revision priority.",
+      "Old report assessment: official reviewer passed the resume as substantively strong."
+    ],
+    "claude_score": 86.3,
+    "claude_verdict": "fail",
+    "claude_notes": [
+      "ATS-like insistence that Looker and semantic-layer signals appear as exact phrases in body text.",
+      "Exact year arithmetic concerns around 3+ years claims.",
+      "Skills taxonomy/category naming quality concerns.",
+      "Summary framing judged too data-modeling-first rather than infrastructure/performance-first."
+    ],
+    "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+  },
+  "metadata": {
+    "label": "same/Google",
+    "company": "Google",
+    "title": "Software Engineer III, Full Stack, Google Cloud Platforms",
+    "role_type": "swe_fullstack",
+    "seniority": "entry",
+    "team_direction": "Google is a leading technology company that develops next-generation technologies impacting billions of users",
+    "tech_required": [
+      "Java",
+      "Node.js",
+      "TypeScript",
+      "C++",
+      "JavaScript",
+      "Python"
+    ],
+    "tech_preferred": [
+      "Data Structures",
+      "Algorithms",
+      "Design Review",
+      "Software Test Engineering"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f/review.json",
+    "historical": {
+      "official_score": 94.0,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; target side had no revision priority.",
+        "Old report assessment: official reviewer passed the resume as substantively strong."
+      ],
+      "claude_score": 86.3,
+      "claude_verdict": "fail",
+      "claude_notes": [
+        "ATS-like insistence that Looker and semantic-layer signals appear as exact phrases in body text.",
+        "Exact year arithmetic concerns around 3+ years claims.",
+        "Skills taxonomy/category naming quality concerns.",
+        "Summary framing judged too data-modeling-first rather than infrastructure/performance-first."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    },
+    "portfolio_review": {
+      "weighted_score": 94.0,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r1_writing_standard": {
+          "score": 9.1,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.0,
+      "verdict": "pass",
+      "seed_label": "Google Full Stack",
+      "route_mode": "retarget",
+      "revised": false,
+      "rewrite_adopted": false,
+      "content_changed": false,
+      "revision_instructions": "",
+      "rereview_version": "unified_followup_v1",
+      "rereviewed_at": "2026-04-08T20:10:33",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_achievement"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 82.1,
+      "previous_verdict": "fail"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T19:37:25",
+    "completed_at": "2026-04-17T19:38:36",
+    "duration_seconds": 71.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok / DiDi / project sections",
+            "issue": "Key scope and scale signals are not consistently emphasized, even though the resume already bolds many technical terms. Examples include `13-person`, `20+ city`, `12K+`, `3 active markets`, and `11 operational releases`.",
+            "fix": "Bold only the highest-value scope/result tokens in the top bullets so the eye lands on scale faster, while keeping the emphasis selective."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Experience bullets with qualifier language",
+            "issue": "Qualifier words are being bolded in the body, such as `team-maintained`, which weakens the visual convention that bold should reserve space for technologies and scope signals.",
+            "fix": "Unbold qualifier/adjective phrases like `team-maintained` and keep bolding for technologies, scale, and outcome numbers."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary, sentence 1",
+            "issue": "The first sentence leads with a transition narrative (`transitioning from data analysis to full-stack development`) instead of a direct role/domain anchor, which weakens the first-screen signal.",
+            "fix": "Rewrite the first sentence to start with a direct role framing, such as a full-stack or backend/security-oriented anchor, and move the transition story later or out of the summary."
+          },
+          {
+            "rule_id": "P2-020",
+            "severity": "low",
+            "field": "TikTok Experience, bullet 1",
+            "issue": "The first bullet is technically solid but still reads as a metric-led improvement bullet rather than the clearest scope/ownership signal for the role.",
+            "fix": "Move the strongest ownership or scope cue to the front of the bullet, then keep the latency metric as the payoff."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3A-002",
+            "sub_area": "3A",
+            "severity": "high",
+            "field": "TikTok Experience, project bullet 1",
+            "issue": "The body uses `AWS Bedrock`, but `Bedrock` does not appear in Skills, so the named platform is unsupported in the skill inventory.",
+            "fix": "Add `AWS Bedrock` to Skills if this project bullet stays, so the named platform has matching skill coverage."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary sentence 1 to lead with a direct role/domain anchor instead of `transitioning from data analysis to full-stack development`.",
+        "[MUST] Add `AWS Bedrock` to Skills, or remove the named platform from the TikTok retrieval project bullet.",
+        "[SHOULD] Move the clearest scope signal into the first TikTok bullet and surface the best quantitative evidence earlier.",
+        "[NICE] Normalize bolding so qualifiers like `team-maintained` are unbolded and only technologies or key scale/result tokens are emphasized."
+      ],
+      "revision_instructions": "Keep all immutable employer/title/date/location fields unchanged. Rewrite Summary sentence 1 to start with a direct role anchor, e.g. a full-stack or security-focused SWE framing, and avoid leading with the transition narrative. Add `AWS Bedrock` to Skills if the TikTok retrieval project remains as written. In the first TikTok bullet, put the ownership/scope cue before the metric, and bold only the most important scale/result tokens. Unbold qualifier words such as `team-maintained` so bolding is reserved for technologies and quantified impact.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 8.0,
+        "r1_writing_standard": 9.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 92.8,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 3,
+      "low_count": 1,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite Summary sentence 1 to lead with a direct role/domain anchor instead of `transitioning from data analysis to full-stack development`.",
+        "[MUST] Add `AWS Bedrock` to Skills, or remove the named platform from the TikTok retrieval project bullet.",
+        "[SHOULD] Move the clearest scope signal into the first TikTok bullet and surface the best quantitative evidence earlier.",
+        "[NICE] Normalize bolding so qualifiers like `team-maintained` are unbolded and only technologies or key scale/result tokens are emphasized."
+      ],
+      "revision_instructions": "Keep all immutable employer/title/date/location fields unchanged. Rewrite Summary sentence 1 to start with a direct role anchor, e.g. a full-stack or security-focused SWE framing, and avoid leading with the transition narrative. Add `AWS Bedrock` to Skills if the TikTok retrieval project remains as written. In the first TikTok bullet, put the ownership/scope cue before the metric, and bold only the most important scale/result tokens. Unbold qualifier words such as `team-maintained` so bolding is reserved for technologies and quantified impact.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Experience bullets across TikTok / DiDi / project sections",
+              "issue": "Key scope and scale signals are not consistently emphasized, even though the resume already bolds many technical terms. Examples include `13-person`, `20+ city`, `12K+`, `3 active markets`, and `11 operational releases`.",
+              "fix": "Bold only the highest-value scope/result tokens in the top bullets so the eye lands on scale faster, while keeping the emphasis selective."
+            },
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Experience bullets with qualifier language",
+              "issue": "Qualifier words are being bolded in the body, such as `team-maintained`, which weakens the visual convention that bold should reserve space for technologies and scope signals.",
+              "fix": "Unbold qualifier/adjective phrases like `team-maintained` and keep bolding for technologies, scale, and outcome numbers."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Summary, sentence 1",
+              "issue": "The first sentence leads with a transition narrative (`transitioning from data analysis to full-stack development`) instead of a direct role/domain anchor, which weakens the first-screen signal.",
+              "fix": "Rewrite the first sentence to start with a direct role framing, such as a full-stack or backend/security-oriented anchor, and move the transition story later or out of the summary."
+            },
+            {
+              "rule_id": "P2-020",
+              "severity": "low",
+              "field": "TikTok Experience, bullet 1",
+              "issue": "The first bullet is technically solid but still reads as a metric-led improvement bullet rather than the clearest scope/ownership signal for the role.",
+              "fix": "Move the strongest ownership or scope cue to the front of the bullet, then keep the latency metric as the payoff."
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3A-002",
+              "sub_area": "3A",
+              "severity": "high",
+              "field": "TikTok Experience, project bullet 1",
+              "issue": "The body uses `AWS Bedrock`, but `Bedrock` does not appear in Skills, so the named platform is unsupported in the skill inventory.",
+              "fix": "Add `AWS Bedrock` to Skills if this project bullet stays, so the named platform has matching skill coverage."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Rewrite Summary sentence 1 to lead with a direct role/domain anchor instead of `transitioning from data analysis to full-stack development`.",
+          "[MUST] Add `AWS Bedrock` to Skills, or remove the named platform from the TikTok retrieval project bullet.",
+          "[SHOULD] Move the clearest scope signal into the first TikTok bullet and surface the best quantitative evidence earlier.",
+          "[NICE] Normalize bolding so qualifiers like `team-maintained` are unbolded and only technologies or key scale/result tokens are emphasized."
+        ],
+        "revision_instructions": "Keep all immutable employer/title/date/location fields unchanged. Rewrite Summary sentence 1 to start with a direct role anchor, e.g. a full-stack or security-focused SWE framing, and avoid leading with the transition narrative. Add `AWS Bedrock` to Skills if the TikTok retrieval project remains as written. In the first TikTok bullet, put the ownership/scope cue before the metric, and bold only the most important scale/result tokens. Unbold qualifier words such as `team-maintained` so bolding is reserved for technologies and quantified impact.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [
+          {
+            "rule_id": "P3A-002",
+            "sub_area": "3A",
+            "severity": "high",
+            "field": "TikTok Experience, project bullet 1",
+            "issue": "The body uses `AWS Bedrock`, but `Bedrock` does not appear in Skills, so the named platform is unsupported in the skill inventory.",
+            "fix": "Add `AWS Bedrock` to Skills if this project bullet stays, so the named platform has matching skill coverage."
+          }
+        ],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok / DiDi / project sections",
+            "issue": "Key scope and scale signals are not consistently emphasized, even though the resume already bolds many technical terms. Examples include `13-person`, `20+ city`, `12K+`, `3 active markets`, and `11 operational releases`.",
+            "fix": "Bold only the highest-value scope/result tokens in the top bullets so the eye lands on scale faster, while keeping the emphasis selective."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Experience bullets with qualifier language",
+            "issue": "Qualifier words are being bolded in the body, such as `team-maintained`, which weakens the visual convention that bold should reserve space for technologies and scope signals.",
+            "fix": "Unbold qualifier/adjective phrases like `team-maintained` and keep bolding for technologies, scale, and outcome numbers."
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Summary, sentence 1",
+            "issue": "The first sentence leads with a transition narrative (`transitioning from data analysis to full-stack development`) instead of a direct role/domain anchor, which weakens the first-screen signal.",
+            "fix": "Rewrite the first sentence to start with a direct role framing, such as a full-stack or backend/security-oriented anchor, and move the transition story later or out of the summary."
+          },
+          {
+            "rule_id": "P2-020",
+            "severity": "low",
+            "field": "TikTok Experience, bullet 1",
+            "issue": "The first bullet is technically solid but still reads as a metric-led improvement bullet rather than the clearest scope/ownership signal for the role.",
+            "fix": "Move the strongest ownership or scope cue to the front of the bullet, then keep the latency metric as the payoff."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 2,
+          "rule_ids": [
+            "P1-040",
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 2,
+          "rule_ids": [
+            "P2-001",
+            "P2-020"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 1,
+          "rule_ids": [
+            "P3A-002"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P1-042",
+        "P2-001",
+        "P2-020",
+        "P3A-002"
+      ],
+      "high_or_critical": [
+        "P3A-002 @ TikTok Experience, project bullet 1"
+      ]
+    }
+  }
+}

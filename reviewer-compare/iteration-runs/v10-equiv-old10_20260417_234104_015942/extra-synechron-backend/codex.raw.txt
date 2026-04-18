@@ -1,0 +1,28 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience, bullet 1",
+        "issue": "Qualifier text `team-maintained` is bolded, which violates the rule against bolding modifiers/limited scope words in正文.",
+        "fix": "Remove bold from qualifier words such as `team-maintained`; keep bold emphasis for technologies, scope signals, and quantified outcomes only."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Remove bold formatting from qualifier words like `team-maintained` in the TikTok bullet and keep emphasis reserved for technical terms and measurable scope.",
+    "[NICE] Keep bold usage consistent across bullets so the visual emphasis stays on ownership, systems, and outcomes."
+  ],
+  "revision_instructions": ""
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-17T20:23:04",
+  "case_count": 2,
+  "cases": [
+    {
+      "label": "extra/Ramp-Platform",
+      "score": 100.0,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 0,
+      "low_count": 0,
+      "duration_seconds": 24.0,
+      "top_rules": []
+    },
+    {
+      "label": "extra/HealthEquity-DotNet",
+      "score": 88.6,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 73.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P2-040",
+        "P3B-002",
+        "P3D-001"
+      ]
+    }
+  ]
+}

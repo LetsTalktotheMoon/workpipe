@@ -1,0 +1,308 @@
+{
+  "label": "extra/Zoox-LLM",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/Zoox-LLM",
+    "company": "Zoox",
+    "title": "Machine Learning Engineer, 3D Simulation",
+    "role_type": "mle",
+    "seniority": "senior",
+    "team_direction": "Zoox is developing the first ground-up, fully autonomous vehicle fleet and the supporting ecosystem required to bring this technology to market",
+    "tech_required": [
+      "C++",
+      "Python"
+    ],
+    "tech_preferred": [
+      "Distributed Systems",
+      "Scala",
+      "Machine Learning"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 93.5,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": true,
+      "revision_priority": [
+        "Normalize the Skills section so every category has 4-8 items, especially the sparse `Cloud & Delivery` bucket.",
+        "Strengthen the connection to Zoox's `3D Simulation` work by making the replay/validation story more explicit in the Summary and first internship bullets."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.4,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 93.5,
+      "verdict": "pass",
+      "seed_label": "Amazon AGI/LLM Anchor",
+      "route_mode": "retarget",
+      "revised": false,
+      "repaired_at": "2026-04-07T16:57:56",
+      "repair_changes": [
+        "normalized_go_achievement",
+        "normalized_didi_scope_note"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:16:44",
+    "completed_at": "2026-04-17T23:17:36",
+    "duration_seconds": 52.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / Experience",
+            "issue": "JD 的核心门槛是 3D vision / 3D reconstruction / radiance field / style transfer，但简历正文只提供了 ML 评测、检索、特征抽取和分布式服务证据，没有任何 3D simulation 相关的可核验经历。对 Zoox 这个岗位来说，这会被 HR 直接读成结构性不匹配。",
+            "fix": "在最相关的经历里补 1 条真实的 3D 相关 bullet，明确写出你接触的是 radiance field、3D reconstruction、human-centric 3D vision、style transfer 或 generative 3D/video 中的哪一类、你的 ownership、使用的技术和结果；如果没有真实经历，就应把这版简历定位到更偏 ML systems/backend 的岗位。注：[结构性错配]"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok · Security",
+            "issue": "这一段同时展开 Go、Python、C++、Java 四种编程语言，再叠加 gRPC、Kafka、PostgreSQL、Docker、Kubernetes、PyTorch，语言和工具密度偏高，容易被读成堆栈炫技而不是一个清晰的主责闭环。",
+            "fix": "保留最主线的 2-3 种语言作为该段的主叙事，把其余语言只留在真正承接的 bullet 里，或合并到一条系统描述中，降低“多语言并列”的视觉噪音。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 补出一条真实的 3D simulation / radiance field / 3D reconstruction 证据，否则这份简历对 Zoox 的结构性匹配不足。",
+        "[MUST] 收敛 TikTok intern 段的语言与工具密度，避免 4 种编程语言并列造成堆栈炫技感。",
+        "[SHOULD] 如果有真实的数学建模或概率方法经历，把它用 1 条可核验 bullet 写出来。",
+        "[NICE] 让 Summary 第一行更贴近目标岗位的 3D ML 方向，而不是只强调 backend 交付。"
+      ],
+      "revision_instructions": "[结构性错配] 优先在最相关经历中补 1 条真实的 3D 视觉/重建/radiance field/style transfer bullet，写清数据类型、方法、你的 ownership 和结果；如果没有真实经历，不要硬改成该岗位。其次压缩 TikTok intern 段的语言/工具密度，保留主语言和主链路，避免 4 语言并列造成堆栈炫技感。若有实际数学/概率建模经历，再补 1 条可核验 bullet。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 9.0,
+        "r4_rationality": 10.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 93.8,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 1,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 补出一条真实的 3D simulation / radiance field / 3D reconstruction 证据，否则这份简历对 Zoox 的结构性匹配不足。",
+        "[MUST] 收敛 TikTok intern 段的语言与工具密度，避免 4 种编程语言并列造成堆栈炫技感。",
+        "[SHOULD] 如果有真实的数学建模或概率方法经历，把它用 1 条可核验 bullet 写出来。",
+        "[NICE] 让 Summary 第一行更贴近目标岗位的 3D ML 方向，而不是只强调 backend 交付。"
+      ],
+      "revision_instructions": "[结构性错配] 优先在最相关经历中补 1 条真实的 3D 视觉/重建/radiance field/style transfer bullet，写清数据类型、方法、你的 ownership 和结果；如果没有真实经历，不要硬改成该岗位。其次压缩 TikTok intern 段的语言/工具密度，保留主语言和主链路，避免 4 语言并列造成堆栈炫技感。若有实际数学/概率建模经历，再补 1 条可核验 bullet。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-001",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Professional Summary / Experience",
+              "issue": "JD 的核心门槛是 3D vision / 3D reconstruction / radiance field / style transfer，但简历正文只提供了 ML 评测、检索、特征抽取和分布式服务证据，没有任何 3D simulation 相关的可核验经历。对 Zoox 这个岗位来说，这会被 HR 直接读成结构性不匹配。",
+              "fix": "在最相关的经历里补 1 条真实的 3D 相关 bullet，明确写出你接触的是 radiance field、3D reconstruction、human-centric 3D vision、style transfer 或 generative 3D/video 中的哪一类、你的 ownership、使用的技术和结果；如果没有真实经历，就应把这版简历定位到更偏 ML systems/backend 的岗位。注：[结构性错配]"
+            },
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "medium",
+              "field": "TikTok · Security",
+              "issue": "这一段同时展开 Go、Python、C++、Java 四种编程语言，再叠加 gRPC、Kafka、PostgreSQL、Docker、Kubernetes、PyTorch，语言和工具密度偏高，容易被读成堆栈炫技而不是一个清晰的主责闭环。",
+              "fix": "保留最主线的 2-3 种语言作为该段的主叙事，把其余语言只留在真正承接的 bullet 里，或合并到一条系统描述中，降低“多语言并列”的视觉噪音。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 补出一条真实的 3D simulation / radiance field / 3D reconstruction 证据，否则这份简历对 Zoox 的结构性匹配不足。",
+          "[MUST] 收敛 TikTok intern 段的语言与工具密度，避免 4 种编程语言并列造成堆栈炫技感。",
+          "[SHOULD] 如果有真实的数学建模或概率方法经历，把它用 1 条可核验 bullet 写出来。",
+          "[NICE] 让 Summary 第一行更贴近目标岗位的 3D ML 方向，而不是只强调 backend 交付。"
+        ],
+        "revision_instructions": "[结构性错配] 优先在最相关经历中补 1 条真实的 3D 视觉/重建/radiance field/style transfer bullet，写清数据类型、方法、你的 ownership 和结果；如果没有真实经历，不要硬改成该岗位。其次压缩 TikTok intern 段的语言/工具密度，保留主语言和主链路，避免 4 语言并列造成堆栈炫技感。若有实际数学/概率建模经历，再补 1 条可核验 bullet。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / Experience",
+            "issue": "JD 的核心门槛是 3D vision / 3D reconstruction / radiance field / style transfer，但简历正文只提供了 ML 评测、检索、特征抽取和分布式服务证据，没有任何 3D simulation 相关的可核验经历。对 Zoox 这个岗位来说，这会被 HR 直接读成结构性不匹配。",
+            "fix": "在最相关的经历里补 1 条真实的 3D 相关 bullet，明确写出你接触的是 radiance field、3D reconstruction、human-centric 3D vision、style transfer 或 generative 3D/video 中的哪一类、你的 ownership、使用的技术和结果；如果没有真实经历，就应把这版简历定位到更偏 ML systems/backend 的岗位。注：[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok · Security",
+            "issue": "这一段同时展开 Go、Python、C++、Java 四种编程语言，再叠加 gRPC、Kafka、PostgreSQL、Docker、Kubernetes、PyTorch，语言和工具密度偏高，容易被读成堆栈炫技而不是一个清晰的主责闭环。",
+            "fix": "保留最主线的 2-3 种语言作为该段的主叙事，把其余语言只留在真正承接的 bullet 里，或合并到一条系统描述中，降低“多语言并列”的视觉噪音。"
+          }
+        ],
+        "r4_rationality": [],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-001",
+            "P3C-010"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P3B-001",
+        "P3C-010"
+      ],
+      "high_or_critical": [
+        "P3B-001 @ Professional Summary / Experience"
+      ]
+    }
+  }
+}

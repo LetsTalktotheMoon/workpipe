@@ -1,0 +1,39 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1-5",
+        "issue": "多处把修饰语/限定词加粗了，例如 `team-maintained`、`intern-owned`、`team-owned`、`privacy-sensitive`。按规则，正文加粗应优先留给技术栈名词和量化信号，不应把描述性限定词一起加粗。",
+        "fix": "取消这些限定词的加粗，只保留技术名词、系统名、数字和 scope 词加粗；让视觉强调回到可核验的硬信息上。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok · Security / Software Engineer Intern",
+        "issue": "同一实习段把 Go、Python、Java、Scala、Rust、C++ 作为使用级证据分散到多条 bullet，编程语言家族暴露过密，容易被 HR 读成技术栈堆砌而不是主工作栈。",
+        "fix": "收敛成 2-3 个主语言作为该段主叙事，其余语言只保留在确有直接职责的单条 bullet 中；避免在同一段里把六种语言都抬到同等权重。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 取消 TikTok 段里对 `team-maintained`、`intern-owned`、`team-owned`、`privacy-sensitive` 这类限定词的加粗，只保留技术、数字和 scope 词加粗。",
+    "[MUST] 收敛 TikTok 实习段的语言家族暴露，保留 2-3 个主语言作为主线，其他语言只在必要的单条 bullet 中出现。",
+    "[SHOULD] 如果要进一步降低首屏噪音，Summary 里也不要把所有语言一次性铺满，保留最能代表岗位方向的语言组合即可。",
+    "[NICE] 让每条 bullet 的技术栈分布更像“围绕一个系统的职责”，而不是“罗列能做的东西”。"
+  ],
+  "revision_instructions": "[MUST] 去掉正文里所有修饰语/限定词的加粗，尤其是 TikTok 段的 `team-maintained`、`intern-owned`、`team-owned`、`privacy-sensitive`。只保留技术名词、系统名、数字和明确 scope 的加粗。[MUST] 把 TikTok 实习段的语言展示收敛到 2-3 个主语言，其他语言只在确有直接职责的单条 bullet 中保留，避免同段出现过密的多语言堆砌；Summary 里也尽量不要把全部语言平铺展开。"
+}

@@ -1,0 +1,62 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Professional Summary; Experience bullets",
+        "issue": "正文里大量可量化结果和 scope 信号仍是普通文本展示，首屏扫读时不会像技术名词那样被抓住。",
+        "fix": "把最关键的量化信号做一致加粗，优先处理 `3+ years`、`13-person`、`20+ cities`、`31%`、`26%` 这类首个出现的结果/规模词。"
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok bullets; DiDi bullets; project bullets",
+        "issue": "修饰语和限定词被加粗得过多，例如 `team-maintained`、`team-owned`、`internal`，会稀释技术栈和结果的视觉权重。",
+        "fix": "保留技术名词与关键结果的加粗，把限定语恢复为普通文本，只保留少量真正承载 scope 的词。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-002",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills; Experience",
+        "issue": "JD 明确要求 intermediate Excel，并偏好 Power BI / Tableau，但简历正文没有任何可核验的 Excel、报表、仪表盘或 BI 工具使用证据，HR 很容易直接追问。",
+        "fix": "把 Excel 和 BI 工具补到最相关的分析经历里，最好放在 DiDi 的一条 bullet 中，写清楚你用 lookup、pivot、validation、dashboard/report delivery 具体做了什么。"
+      },
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary; TikTok Experience",
+        "issue": "AMH 这个岗位的核心是 BI、financial reporting、requirements gathering 和 stakeholder reporting，但简历首屏和前两段经历更像后端/安全/数据管道叙事，分析岗的桥接不够直。",
+        "fix": "在最相关的 DiDi 或 Temu 经历里补一条面向业务方的 bullet，明确写出需求访谈、报表交付、指标定义或财务/经营分析场景。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience",
+        "issue": "最新经历的 4 条 bullet 基本都在讲百分比改进，缺少案例量、数据量、团队规模或系统范围，量化信号偏轻。",
+        "fix": "在 TikTok 的相关 bullet 里补一个可追问的规模锚点，比如每天处理的 case 数、数据集规模、支持的分析师人数或验证环境范围。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 在最相关的 DiDi 或 Temu 经历里补出 Excel + BI/reporting 证据，直接对齐 AMH 的硬性筛选点。",
+    "[MUST] 给 AMH 岗位补一条 analyst-facing 的 requirements/reporting bullet，把目前偏 backend/security 的首屏叙事拉回 BI/财报/数据仓库方向。",
+    "[SHOULD] 把 TikTok 最新经历的量化结果补上规模锚点，避免只剩百分比改进。",
+    "[NICE] 收敛过度加粗的修饰语，集中突出技术栈、scope 和结果。"
+  ],
+  "revision_instructions": "[MUST] 在 DiDi 或 Temu 最相关的 bullet 里补出 Excel、Power BI/Tableau、报表/仪表盘、需求访谈或财务/经营分析的具体使用证据。优先写成一条可核验的 analyst-facing bullet，而不是只放进 Summary。\n[MUST] 把首屏前两段经历从“后端/安全/管道”拉回到 AMH 的 BI/financial reporting/requirements gathering 方向，确保 HR 6 秒内能看到你和岗位的直接匹配。\n[SHOULD] 给 TikTok 最新经历补一个可追问的规模锚点，例如 case volume、dataset scale、支持用户数或验证范围。\n[NICE] 减少对 `team-maintained`、`internal` 这类限定词的加粗，把视觉权重留给技术栈和结果。"
+}

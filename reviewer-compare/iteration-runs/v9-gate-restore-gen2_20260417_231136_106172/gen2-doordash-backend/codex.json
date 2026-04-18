@@ -1,0 +1,132 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:19:54",
+  "completed_at": "2026-04-17T23:20:59",
+  "duration_seconds": 65.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, bullet 1",
+          "issue": "首句以“Backend Engineer in Transition”开头，先强调转型状态而不是后端角色与领域锚点，削弱了首屏对 DoorDash backend 岗位的即时匹配感。",
+          "fix": "把句首改成直接的角色定位，例如 `Backend Engineer:`，并将“transitioning from analytics”放到句末作为补充说明，而不是主 framing。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 将 Summary 第一句改成直接的 `Backend Engineer` framing，弱化“transitioning from analytics”的首屏占位。",
+      "[NICE] 进一步压缩 Summary 的表述密度，保留 1-2 个最强后端信号，避免首屏信息过载。"
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 98.0,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 1,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 将 Summary 第一句改成直接的 `Backend Engineer` framing，弱化“transitioning from analytics”的首屏占位。",
+      "[NICE] 进一步压缩 Summary 的表述密度，保留 1-2 个最强后端信号，避免首屏信息过载。"
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, bullet 1",
+            "issue": "首句以“Backend Engineer in Transition”开头，先强调转型状态而不是后端角色与领域锚点，削弱了首屏对 DoorDash backend 岗位的即时匹配感。",
+            "fix": "把句首改成直接的角色定位，例如 `Backend Engineer:`，并将“transitioning from analytics”放到句末作为补充说明，而不是主 framing。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 将 Summary 第一句改成直接的 `Backend Engineer` framing，弱化“transitioning from analytics”的首屏占位。",
+        "[NICE] 进一步压缩 Summary 的表述密度，保留 1-2 个最强后端信号，避免首屏信息过载。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, bullet 1",
+          "issue": "首句以“Backend Engineer in Transition”开头，先强调转型状态而不是后端角色与领域锚点，削弱了首屏对 DoorDash backend 岗位的即时匹配感。",
+          "fix": "把句首改成直接的角色定位，例如 `Backend Engineer:`，并将“transitioning from analytics”放到句末作为补充说明，而不是主 framing。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001"
+    ],
+    "high_or_critical": []
+  }
+}

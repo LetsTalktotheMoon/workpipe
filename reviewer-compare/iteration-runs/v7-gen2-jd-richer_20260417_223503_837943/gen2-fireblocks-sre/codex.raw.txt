@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "首句把主叙事放在“Transitioning from data analysis to software engineering”，首屏更像转行说明而不是直接的 SRE/backend 定位，削弱了 6-8 秒扫读时的角色判断。",
+        "fix": "把句首改成直接角色锚点，例如先写“Reliability-focused backend/SRE engineer”，再把转型背景放到后半句或删掉。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills + most relevant experience bullets",
+        "issue": "JD 明确要求 Kubernetes/Helm 以及配置管理家族（Ansible/Chef/Puppet/ArgoCD），而简历只证明了 Kubernetes/Docker/Prometheus/AWS/Azure，没有给出 Helm 或任何配置管理工具的实质使用证据，部署层覆盖不完整。",
+        "fix": "如果真实使用过 Helm 或 ArgoCD/Ansible，把它补到最相关的 TikTok 或 DiDi 经验 bullet 里，写成“在 Helm/ArgoCD 上交付/发布/回滚/配置管理”的具体动作；如果没有真实经历，就不要硬写，改投更贴近现有栈的岗位。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security experience",
+        "issue": "最新经历的四条主 bullet 主要是分钟数和百分比改进，缺少 alert volume、service count、incident count、traffic 或 on-call 规模这类 Tier 1 scope 信号，SRE 可信度更多靠“做了什么”，而不是“管多大”。",
+        "fix": "在最相关的一条 bullet 里补一个可追问的规模指标，例如每周告警量、服务数、流水线数量、review volume、incident frequency 或 on-call 覆盖范围。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 在最相关经历里补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据，或者确认该 JD 不应作为主投方向。",
+    "[MUST] 重写 Summary 第一条，先给出 SRE/backend 定位，再处理“transitioning from data analysis”的背景句。",
+    "[SHOULD] 给最新经历补一个 Tier-1 规模信号，避免整段只剩时间/百分比改进。",
+    "[NICE] 如果真实存在，再补一句把 security / incident-response / observability 迁移到更受监管的基础设施场景。"
+  ],
+  "revision_instructions": "[MUST] 把 Summary 第一句改成直接的 SRE/backend 定位，移除或后置“Transitioning from data analysis...”。[MUST] 在最相关的经验 bullet 中补出 Helm / ArgoCD / Ansible 这类配置管理与发布层证据；这是当前 JD 匹配的主要缺口。[SHOULD] 在最新经历里加入一个可追问的规模指标（alerts/day、services owned、incidents、traffic、on-call load 等），让首屏不只看到百分比改进。[NICE] 若属实，补一句把 security/observability/incident work 与更受监管的基础设施场景衔接起来。"
+}

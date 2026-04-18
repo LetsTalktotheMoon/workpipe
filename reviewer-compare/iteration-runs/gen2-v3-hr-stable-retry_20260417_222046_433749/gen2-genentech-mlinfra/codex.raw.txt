@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok Experience + Security Knowledge Retrieval Sandbox",
+        "issue": "这一段把 Go、Python、Java、Scala、Rust、C++、PyTorch、gRPC、AWS Bedrock、Kafka、PostgreSQL、S3、Docker、Kubernetes 都以使用级证据铺开，读起来像堆栈清单而不是聚焦的 ownership 叙事，容易让 HM 怀疑 breadth 大于 depth。",
+        "fix": "把 TikTok 段收敛成 2-3 个主贡献故事，每条 bullet 只保留该贡献真正负责的核心语言和基础设施，其余技术作为上下文并入一句里，避免同一段里同时展示过多同类技术。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience Summary / 第一条 bullet",
+        "issue": "最新且最相关的经历几乎全是 tier-2 改进指标（时间缩短、precision 提升、失败率下降、CPU 降低），缺少一个可追问的 tier-1 scope 信号来支撑首屏可信度。",
+        "fix": "补一个真实可核验的 scope 事实，例如团队规模、日请求量、评测集规模、服务边界或上线频率；如果没有更大数字，就把 ownership 和系统边界写得更明确。"
+      },
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary / 整体叙事与 Genentech 团队方向",
+        "issue": "当前摘要能讲通 backend/ML infra，但没有明确把 security、retrieval、evaluation、audit-friendly workflow 迁移到 biotech/healthcare 这类受监管场景的桥接逻辑，HM 需要额外脑补迁移原因。",
+        "fix": "在 Summary 里加一句迁移桥接，说明你如何把 privacy-sensitive workflow、replay/evaluation、数据治理和可靠性交付经验迁移到 Genentech 的医疗/生物技术 ML Infra 场景。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 将 TikTok 实习段从多语言堆栈清单改成 2-3 个主系统故事，避免一段里同时展示过多同类技术。",
+    "[MUST] 为 TikTok 最新经历补一个真实可追问的 scope 事实，避免整段只剩百分比改进。",
+    "[SHOULD] 在 Summary 或相关经历里补一条到 Genentech 的迁移桥接，明确为什么这套 privacy-sensitive retrieval/evaluation 经验适合医疗/生物技术场景。",
+    "[NICE] 若有真实基线，把部分“improved by X%”改成带对象、窗口和 ownership 的表述。"
+  ],
+  "revision_instructions": "[MUST] 重写 TikTok 段的表达方式：每条 bullet 只保留一个主责任系统和 2-3 个关键技术，其他语言/组件改为上下文，避免像技术堆砌。[MUST] 给 TikTok 最新经历补一个可验证的 scope 信号（团队规模、请求量、评测集规模、上线频率或服务边界），让首屏不只剩性能百分比。[SHOULD] 在 Summary 增加一句桥接到受监管/隐私敏感场景的迁移逻辑，说明这些 retrieval/evaluation/replay 经验如何迁移到 Genentech。 [NICE] 其余百分比结果尽量补上基线、时间窗和 ownership，提升可追问性。"
+}

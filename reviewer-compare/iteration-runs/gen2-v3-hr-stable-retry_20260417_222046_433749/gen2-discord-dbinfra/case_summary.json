@@ -1,0 +1,324 @@
+{
+  "label": "gen2/Discord-DBInfra",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Discord-DBInfra",
+    "company": "Discord",
+    "title": "Software Engineer- Database Infrastructure",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "Discord is a platform used by over 200 million people for gaming communication and interaction",
+    "tech_required": [
+      "Java",
+      "Distributed Systems",
+      "Go",
+      "Rust",
+      "C++"
+    ],
+    "tech_preferred": [
+      "Linux",
+      "PostgreSQL",
+      "Cassandra",
+      "Kubernetes",
+      "Terraform",
+      "Elasticsearch"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/discord/2026-04-02/69ceefc154f00230c6d04e93/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 84.5,
+      "overall_verdict": "fail",
+      "passed": false,
+      "critical_count": 0,
+      "high_count": 1,
+      "needs_revision": true,
+      "revision_priority": [
+        "Add genuine Rust evidence or remove this resume from consideration for this JD because Rust is mandatory.",
+        "Rewrite one core experience bullet to show explicit database-infrastructure ownership instead of broad backend/data collaboration."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 6.0,
+          "weight": 0.2,
+          "verdict": "fail",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 8.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 8.0,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 1
+        }
+      },
+      "final_score": 84.5,
+      "verdict": "fail",
+      "seed_label": "Google Cloud Infra Anchor",
+      "route_mode": "retarget",
+      "revised": false,
+      "main_failure_reason": "Add genuine Rust evidence or remove this resume from consideration for this JD because Rust is mandatory.",
+      "failure_bucket": "true_outlier",
+      "repaired_at": "2026-04-07T16:57:20",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T22:20:46",
+    "completed_at": "2026-04-17T22:22:02",
+    "duration_seconds": 76.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "## Professional Summary",
+            "issue": "The 3 summary bullets are noun-led descriptors rather than verb-led bullets, so they read like labels instead of action-oriented summary statements.",
+            "fix": "Keep the 3-sentence structure, but rewrite each line so the clause after the header starts with a strong verb, e.g. Built/Developed/Applied."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "## Professional Summary; TikTok Experience; DiDi Project baselines",
+            "issue": "Descriptive qualifiers are bolded repeatedly (team-maintained, existing, internal, team-owned, intern-owned, shared), which dilutes the intended bold signal reserved for technologies and quantified outcomes.",
+            "fix": "Reserve bold for technologies, scope nouns, and quantified results; unbold descriptive modifiers."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / all Experience sections",
+            "issue": "The JD must-have Rust is missing from both Skills and the body, so the resume does not visibly cover the full required stack.",
+            "fix": "If Rust experience is real, add one concrete Rust-based backend bullet in the most relevant experience with the specific component and outcome; otherwise this is a structural mismatch for this JD.",
+            "note": "[结构性错配]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add Rust evidence or treat the Discord JD as a structural mismatch.",
+        "[MUST] Remove bolding from qualifiers; keep bold only for technologies and metrics.",
+        "[SHOULD] Rework the Summary into verb-led clauses while preserving the 3-sentence structure.",
+        "[NICE] Add one explicit database/storage ownership signal in the most relevant backend bullet to sharpen the infra story."
+      ],
+      "revision_instructions": "[结构性错配] If you have real Rust work, add one concrete Rust bullet in the most relevant backend experience with the module, stack, and outcome. If not, this Discord role is a poor fit on paper. Also remove bold from descriptive modifiers like team-maintained/internal/existing and keep bold for technologies and metrics. Rewrite the 3 Summary lines so each header is followed by a verb-led clause.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 8.5,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 10.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 92.9,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add Rust evidence or treat the Discord JD as a structural mismatch.",
+        "[MUST] Remove bolding from qualifiers; keep bold only for technologies and metrics.",
+        "[SHOULD] Rework the Summary into verb-led clauses while preserving the 3-sentence structure.",
+        "[NICE] Add one explicit database/storage ownership signal in the most relevant backend bullet to sharpen the infra story."
+      ],
+      "revision_instructions": "[结构性错配] If you have real Rust work, add one concrete Rust bullet in the most relevant backend experience with the module, stack, and outcome. If not, this Discord role is a poor fit on paper. Also remove bold from descriptive modifiers like team-maintained/internal/existing and keep bold for technologies and metrics. Rewrite the 3 Summary lines so each header is followed by a verb-led clause.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-030",
+              "severity": "medium",
+              "field": "## Professional Summary",
+              "issue": "The 3 summary bullets are noun-led descriptors rather than verb-led bullets, so they read like labels instead of action-oriented summary statements.",
+              "fix": "Keep the 3-sentence structure, but rewrite each line so the clause after the header starts with a strong verb, e.g. Built/Developed/Applied."
+            },
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "## Professional Summary; TikTok Experience; DiDi Project baselines",
+              "issue": "Descriptive qualifiers are bolded repeatedly (team-maintained, existing, internal, team-owned, intern-owned, shared), which dilutes the intended bold signal reserved for technologies and quantified outcomes.",
+              "fix": "Reserve bold for technologies, scope nouns, and quantified results; unbold descriptive modifiers."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-001",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Skills / all Experience sections",
+              "issue": "The JD must-have Rust is missing from both Skills and the body, so the resume does not visibly cover the full required stack.",
+              "fix": "If Rust experience is real, add one concrete Rust-based backend bullet in the most relevant experience with the specific component and outcome; otherwise this is a structural mismatch for this JD.",
+              "note": "[结构性错配]"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Add Rust evidence or treat the Discord JD as a structural mismatch.",
+          "[MUST] Remove bolding from qualifiers; keep bold only for technologies and metrics.",
+          "[SHOULD] Rework the Summary into verb-led clauses while preserving the 3-sentence structure.",
+          "[NICE] Add one explicit database/storage ownership signal in the most relevant backend bullet to sharpen the infra story."
+        ],
+        "revision_instructions": "[结构性错配] If you have real Rust work, add one concrete Rust bullet in the most relevant backend experience with the module, stack, and outcome. If not, this Discord role is a poor fit on paper. Also remove bold from descriptive modifiers like team-maintained/internal/existing and keep bold for technologies and metrics. Rewrite the 3 Summary lines so each header is followed by a verb-led clause.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "## Professional Summary",
+            "issue": "The 3 summary bullets are noun-led descriptors rather than verb-led bullets, so they read like labels instead of action-oriented summary statements.",
+            "fix": "Keep the 3-sentence structure, but rewrite each line so the clause after the header starts with a strong verb, e.g. Built/Developed/Applied."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "## Professional Summary; TikTok Experience; DiDi Project baselines",
+            "issue": "Descriptive qualifiers are bolded repeatedly (team-maintained, existing, internal, team-owned, intern-owned, shared), which dilutes the intended bold signal reserved for technologies and quantified outcomes.",
+            "fix": "Reserve bold for technologies, scope nouns, and quantified results; unbold descriptive modifiers."
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills / all Experience sections",
+            "issue": "The JD must-have Rust is missing from both Skills and the body, so the resume does not visibly cover the full required stack.",
+            "fix": "If Rust experience is real, add one concrete Rust-based backend bullet in the most relevant experience with the specific component and outcome; otherwise this is a structural mismatch for this JD.",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 2,
+          "rule_ids": [
+            "P1-030",
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 1,
+          "rule_ids": [
+            "P3B-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-030",
+        "P1-042",
+        "P3B-001"
+      ],
+      "high_or_critical": [
+        "P3B-001 @ Skills / all Experience sections"
+      ]
+    }
+  }
+}

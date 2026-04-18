@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-04-17T20:02:54",
+  "case_count": 10,
+  "cases": [
+    {
+      "label": "same/Microsoft",
+      "score": 90.3,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 5,
+      "low_count": 0,
+      "duration_seconds": 72.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P3B-001",
+        "P3C-011",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "same/Google",
+      "score": 94.1,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 65.0,
+      "top_rules": [
+        "P2-001",
+        "P3A-002",
+        "P3E-013"
+      ]
+    },
+    {
+      "label": "same/Amazon",
+      "score": 95.0,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 4,
+      "low_count": 0,
+      "duration_seconds": 60.0,
+      "top_rules": [
+        "P1-040",
+        "P2-001",
+        "P2-030",
+        "P3C-010",
+        "P3E-013"
+      ]
+    },
+    {
+      "label": "same/AWS",
+      "score": 97.5,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 49.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001"
+      ]
+    },
+    {
+      "label": "extra/Dataminr-Infra",
+      "score": 99.0,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 1,
+      "low_count": 0,
+      "duration_seconds": 40.0,
+      "top_rules": [
+        "P2-010"
+      ]
+    },
+    {
+      "label": "extra/Zoox-LLM",
+      "score": 96.8,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 66.0,
+      "top_rules": [
+        "P1-030",
+        "P3C-010",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "extra/Synechron-Backend",
+      "score": 99.2,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 51.0,
+      "top_rules": [
+        "P1-040",
+        "P2-040"
+      ]
+    },
+    {
+      "label": "extra/CapitalOne-AI",
+      "score": 87.9,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 48.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P2-020",
+        "P3B-010",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "extra/Ramp-Platform",
+      "score": 97.1,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 51.0,
+      "top_rules": [
+        "P1-040",
+        "P3B-003",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "extra/HealthEquity-DotNet",
+      "score": 89.6,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 66.0,
+      "top_rules": [
+        "P2-001",
+        "P3B-001",
+        "P3B-004"
+      ]
+    }
+  ]
+}

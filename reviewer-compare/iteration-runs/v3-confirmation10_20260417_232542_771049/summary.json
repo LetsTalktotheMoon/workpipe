@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-04-17T23:36:15",
+  "case_count": 10,
+  "cases": [
+    {
+      "label": "conf/FlexTrade-SoftwareDeveloper",
+      "score": 90.6,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 65.0,
+      "top_rules": [
+        "P2-001",
+        "P3B-001",
+        "P3B-003",
+        "P3E-013"
+      ]
+    },
+    {
+      "label": "conf/Whoop-SensorIntelligence",
+      "score": 94.0,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 46.0,
+      "top_rules": [
+        "P2-001",
+        "P3B-004",
+        "P3C-010"
+      ]
+    },
+    {
+      "label": "conf/Hopper-CustomerPlatform",
+      "score": 97.5,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 67.0,
+      "top_rules": [
+        "P1-040",
+        "P2-001"
+      ]
+    },
+    {
+      "label": "conf/Nuro-OffboardInfra",
+      "score": 94.6,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 50.0,
+      "top_rules": [
+        "P2-010",
+        "P3B-003",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "conf/AMH-EnterpriseDataAnalyst",
+      "score": 98.0,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 65.0,
+      "top_rules": [
+        "P1-040",
+        "P1-042",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "conf/Phantom-SDET",
+      "score": 95.5,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 5,
+      "low_count": 0,
+      "duration_seconds": 85.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P2-040",
+        "P3B-003",
+        "P3E-013"
+      ]
+    },
+    {
+      "label": "conf/VeteransUnited-AssociateSE",
+      "score": 95.8,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 4,
+      "low_count": 0,
+      "duration_seconds": 76.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P2-040",
+        "P3B-003"
+      ]
+    },
+    {
+      "label": "conf/8451-ResearchAI",
+      "score": 95.8,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 54.0,
+      "top_rules": [
+        "P2-001",
+        "P2-010",
+        "P3C-010"
+      ]
+    },
+    {
+      "label": "conf/Photon-AIEngineer",
+      "score": 93.3,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 78.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P3C-010",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "conf/Clarivate-NLP",
+      "score": 99.7,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 1,
+      "low_count": 0,
+      "duration_seconds": 47.0,
+      "top_rules": [
+        "P3E-013"
+      ]
+    }
+  ]
+}

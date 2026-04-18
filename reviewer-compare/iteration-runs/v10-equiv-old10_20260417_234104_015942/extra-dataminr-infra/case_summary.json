@@ -1,0 +1,394 @@
+{
+  "label": "extra/Dataminr-Infra",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/Dataminr-Infra",
+    "company": "Dataminr",
+    "title": "Senior Software Engineer, Backend",
+    "role_type": "swe_backend",
+    "seniority": "senior",
+    "team_direction": "Dataminr is a mission-driven company that provides organizations with AI-powered intelligence to respond to emerging risks and events",
+    "tech_required": [
+      "Microservices",
+      "Redis",
+      "Data Structures",
+      "Go",
+      "Distributed Systems",
+      "Kafka",
+      "Java",
+      "Elasticsearch",
+      "PostgreSQL",
+      "Algorithms",
+      "Python",
+      "Scala"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.0,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r5_logic": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.0,
+      "verdict": "pass",
+      "seed_label": "Google Cloud Infra Anchor",
+      "route_mode": "retarget",
+      "revised": true,
+      "repaired_at": "2026-04-07T16:57:20",
+      "repair_changes": [
+        "normalized_go_achievement",
+        "normalized_didi_scope_note"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:47:02",
+    "completed_at": "2026-04-17T23:48:11",
+    "duration_seconds": 69.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-4",
+            "issue": "Several non-technical qualifiers are bolded, such as team-maintained, existing, and intern-owned. This dilutes the emphasis that should be reserved for technologies and true scope signals.",
+            "fix": "Remove bold from qualifiers and keep bold only on technologies, metrics, and genuine scope terms."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 3",
+            "issue": "The header 'Structured Problem Solver' is generic cognition framing rather than a role or domain anchor, so it adds little first-screen hiring signal.",
+            "fix": "Replace it with a more job-relevant header such as 'Systems judgment:' or 'Backend delivery:' if the supporting bullets can justify it."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / total experience",
+            "issue": "The resume self-reports 3+ years, while the JD requires 4+ years building backend services. The visible timeline only supports about 37 months of work experience, so this falls short of the hard gate.",
+            "fix": "[结构性错配] Treat this as a role-fit gap, not a wording problem. Either target a 3+ year backend role or add only substantiated backend ownership from DiDi/TikTok if you truly have it; wording alone will not clear the requirement.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-2",
+            "issue": "One intern segment reads like routine use of Go, Python, Java, and Scala as a four-language primary stack, which stretches credibility for the scope shown.",
+            "fix": "Split the role into the primary languages used per bullet and avoid implying all four were equally core unless the scope is explicitly multi-service and multi-owner."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "The latest/relevant section is dominated by percentage lifts and lacks a concrete Tier 1 scope signal, so the impact story is easy to skim past.",
+            "fix": "Add one credible scope metric in the most relevant bullet, such as services owned, events/day, teams partnered, or a latency/throughput/SLA figure."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Resolve the Dataminr 4+ year backend hard gate issue; this profile currently reads as ~3+ years, so it is structurally short of the requirement.",
+        "[MUST] Narrow the TikTok internship to the actual primary languages and ownership per bullet so the scope reads credible instead of like a four-language primary stack.",
+        "[SHOULD] Add one Tier 1 scope metric to the most relevant backend bullet to replace the current percent-only impact framing.",
+        "[NICE] Remove bold from non-technical qualifiers and make the third summary sentence more role-specific."
+      ],
+      "revision_instructions": "[结构性错配] 这份简历对 Dataminr 的 4+ 年 backend 硬门槛仍然偏短，无法靠措辞彻底补齐。若继续投这个 JD，只能在 DiDi/TikTok 的最相关 bullets 里补充已发生的 backend 交付证据，并把 TikTok 的四语言叙事收窄为真实主责栈；同时补一个 Tier 1 规模/ownership 指标。第三句 Summary 改成更具体的系统判断型标题，并去掉对非技术限定词的加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 9.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 91.3,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Resolve the Dataminr 4+ year backend hard gate issue; this profile currently reads as ~3+ years, so it is structurally short of the requirement.",
+        "[MUST] Narrow the TikTok internship to the actual primary languages and ownership per bullet so the scope reads credible instead of like a four-language primary stack.",
+        "[SHOULD] Add one Tier 1 scope metric to the most relevant backend bullet to replace the current percent-only impact framing.",
+        "[NICE] Remove bold from non-technical qualifiers and make the third summary sentence more role-specific."
+      ],
+      "revision_instructions": "[结构性错配] 这份简历对 Dataminr 的 4+ 年 backend 硬门槛仍然偏短，无法靠措辞彻底补齐。若继续投这个 JD，只能在 DiDi/TikTok 的最相关 bullets 里补充已发生的 backend 交付证据，并把 TikTok 的四语言叙事收窄为真实主责栈；同时补一个 Tier 1 规模/ownership 指标。第三句 Summary 改成更具体的系统判断型标题，并去掉对非技术限定词的加粗。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "TikTok Experience bullets 1-4",
+              "issue": "Several non-technical qualifiers are bolded, such as team-maintained, existing, and intern-owned. This dilutes the emphasis that should be reserved for technologies and true scope signals.",
+              "fix": "Remove bold from qualifiers and keep bold only on technologies, metrics, and genuine scope terms."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-010",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 3",
+              "issue": "The header 'Structured Problem Solver' is generic cognition framing rather than a role or domain anchor, so it adds little first-screen hiring signal.",
+              "fix": "Replace it with a more job-relevant header such as 'Systems judgment:' or 'Backend delivery:' if the supporting bullets can justify it."
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-010",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Professional Summary / total experience",
+              "issue": "The resume self-reports 3+ years, while the JD requires 4+ years building backend services. The visible timeline only supports about 37 months of work experience, so this falls short of the hard gate.",
+              "fix": "[结构性错配] Treat this as a role-fit gap, not a wording problem. Either target a 3+ year backend role or add only substantiated backend ownership from DiDi/TikTok if you truly have it; wording alone will not clear the requirement.",
+              "note": "[结构性错配]"
+            },
+            {
+              "rule_id": "P3C-011",
+              "sub_area": "3C",
+              "severity": "medium",
+              "field": "TikTok Experience bullets 1-2",
+              "issue": "One intern segment reads like routine use of Go, Python, Java, and Scala as a four-language primary stack, which stretches credibility for the scope shown.",
+              "fix": "Split the role into the primary languages used per bullet and avoid implying all four were equally core unless the scope is explicitly multi-service and multi-owner."
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Experience",
+              "issue": "The latest/relevant section is dominated by percentage lifts and lacks a concrete Tier 1 scope signal, so the impact story is easy to skim past.",
+              "fix": "Add one credible scope metric in the most relevant bullet, such as services owned, events/day, teams partnered, or a latency/throughput/SLA figure."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Resolve the Dataminr 4+ year backend hard gate issue; this profile currently reads as ~3+ years, so it is structurally short of the requirement.",
+          "[MUST] Narrow the TikTok internship to the actual primary languages and ownership per bullet so the scope reads credible instead of like a four-language primary stack.",
+          "[SHOULD] Add one Tier 1 scope metric to the most relevant backend bullet to replace the current percent-only impact framing.",
+          "[NICE] Remove bold from non-technical qualifiers and make the third summary sentence more role-specific."
+        ],
+        "revision_instructions": "[结构性错配] 这份简历对 Dataminr 的 4+ 年 backend 硬门槛仍然偏短，无法靠措辞彻底补齐。若继续投这个 JD，只能在 DiDi/TikTok 的最相关 bullets 里补充已发生的 backend 交付证据，并把 TikTok 的四语言叙事收窄为真实主责栈；同时补一个 Tier 1 规模/ownership 指标。第三句 Summary 改成更具体的系统判断型标题，并去掉对非技术限定词的加粗。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-4",
+            "issue": "Several non-technical qualifiers are bolded, such as team-maintained, existing, and intern-owned. This dilutes the emphasis that should be reserved for technologies and true scope signals.",
+            "fix": "Remove bold from qualifiers and keep bold only on technologies, metrics, and genuine scope terms."
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Professional Summary / total experience",
+            "issue": "The resume self-reports 3+ years, while the JD requires 4+ years building backend services. The visible timeline only supports about 37 months of work experience, so this falls short of the hard gate.",
+            "fix": "[结构性错配] Treat this as a role-fit gap, not a wording problem. Either target a 3+ year backend role or add only substantiated backend ownership from DiDi/TikTok if you truly have it; wording alone will not clear the requirement.",
+            "note": "[结构性错配]"
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok Experience bullets 1-2",
+            "issue": "One intern segment reads like routine use of Go, Python, Java, and Scala as a four-language primary stack, which stretches credibility for the scope shown.",
+            "fix": "Split the role into the primary languages used per bullet and avoid implying all four were equally core unless the scope is explicitly multi-service and multi-owner."
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-010",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 3",
+            "issue": "The header 'Structured Problem Solver' is generic cognition framing rather than a role or domain anchor, so it adds little first-screen hiring signal.",
+            "fix": "Replace it with a more job-relevant header such as 'Systems judgment:' or 'Backend delivery:' if the supporting bullets can justify it."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "The latest/relevant section is dominated by percentage lifts and lacks a concrete Tier 1 scope signal, so the impact story is easy to skim past.",
+            "fix": "Add one credible scope metric in the most relevant bullet, such as services owned, events/day, teams partnered, or a latency/throughput/SLA figure."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-010"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 3,
+          "rule_ids": [
+            "P3B-010",
+            "P3C-011",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-010",
+        "P3B-010",
+        "P3C-011",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-010 @ Professional Summary / total experience"
+      ]
+    }
+  }
+}

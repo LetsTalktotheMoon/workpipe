@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Professional Summary, first two sentences",
+        "issue": "Core technical nouns in the summary are not bolded, so the top-of-resume scan is weaker than the formatting spec expects.",
+        "fix": "Bold the key stack terms in the first two summary clauses, for example **Go**, **Python**, **Kafka**, **Redis**, **PostgreSQL**, **MySQL**, **Docker**, **Kubernetes**, **Terraform**, **AWS**, **Azure**, and **GCP**."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary + top of Experience",
+        "issue": "The resume does not explicitly bridge prior backend/security/data work to Ramp's finance-infrastructure context, so a recruiter may not immediately see why this background maps to spend/finance systems.",
+        "fix": "Add one bridge clause in the Summary or the most relevant bullet that connects your internal-platform/security/release-work to high-trust operational infrastructure for finance teams."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security, Software Engineer Intern",
+        "issue": "The newest experience leans heavily on percentage/time improvements without a tier-1 scope anchor, so the quantification reads efficient but not especially large-scale.",
+        "fix": "Add one concrete scope descriptor that is already true in the work, such as service footprint, analyst/user count, corpus size, request volume, or release cadence, to the strongest TikTok bullet or project background."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add an explicit bridge to Ramp's finance-infrastructure context in the Summary or the most relevant bullet so the screener can map your backend/security experience to the role immediately.",
+    "[MUST] Add one concrete scope anchor to the newest experience so the quantification is not mostly tier-2 deltas.",
+    "[SHOULD] Bold the core technical nouns in the Summary for faster scanability.",
+    "[NICE] If space allows, replace one redundant percentage-style bullet with ownership or scope detail instead of another delta."
+  ],
+  "revision_instructions": "In the Summary, add one clause that connects backend/security/internal-platform work to finance-facing operational infrastructure. In TikTok, replace one percentage-only bullet with a scope anchor already true in the project, such as service footprint, analyst count, corpus size, request volume, or release cadence. Then bold the core technologies in the first two Summary sentences for scanability. Do not change immutable experience fields."
+}

@@ -1,0 +1,336 @@
+{
+  "label": "same/Microsoft",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293",
+  "historical": {
+    "official_score": 94.2,
+    "official_verdict": "pass",
+    "official_notes": [
+      "Old report baseline only; no detailed official target revision priority was recorded.",
+      "Old report assessment: official reviewer likely underweighted top-of-page senior/backend framing risk."
+    ],
+    "claude_score": 87.9,
+    "claude_verdict": "fail",
+    "claude_notes": [
+      "High severity on Summary header: Strategic Problem Solving.",
+      "Medium severity on transition framing: transitioning from data analytics.",
+      "Medium severity on exact top-of-page keyword signaling: Distributed Systems and Code Review.",
+      "Medium severity on category naming: Cloud."
+    ],
+    "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+  },
+  "metadata": {
+    "label": "same/Microsoft",
+    "company": "Microsoft",
+    "title": "Software Engineer II - Azure Storage",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Microsoft is building a massively scalable cloud storage solution, Azure Storage, and is looking for a Software Engineer II to join their team",
+    "tech_required": [
+      "Distributed Systems",
+      "C++"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293/review.json",
+    "historical": {
+      "official_score": 94.2,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; no detailed official target revision priority was recorded.",
+        "Old report assessment: official reviewer likely underweighted top-of-page senior/backend framing risk."
+      ],
+      "claude_score": 87.9,
+      "claude_verdict": "fail",
+      "claude_notes": [
+        "High severity on Summary header: Strategic Problem Solving.",
+        "Medium severity on transition framing: transitioning from data analytics.",
+        "Medium severity on exact top-of-page keyword signaling: Distributed Systems and Code Review.",
+        "Medium severity on category naming: Cloud."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    },
+    "portfolio_review": {
+      "weighted_score": 94.4,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": true,
+      "revision_priority": [
+        "在 `## Skills` 里补上 `Distributed Systems`，并在 Summary 或 TikTok 至少一条 bullet 里保留同义的分布式服务证据。",
+        "收紧加粗规则：去掉限定词加粗，修正 `**2 release** cycles` 这类断裂写法，只保留技术名词和数字加粗。"
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.9,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 8.8,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.8,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.4,
+      "verdict": "pass",
+      "seed_label": "Microsoft CoreAI/BIC Platform Anchor",
+      "route_mode": "retarget",
+      "revised": false
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T20:36:26",
+    "completed_at": "2026-04-17T20:37:29",
+    "duration_seconds": 63.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“transitioning from data analytics to backend engineering”作为主 framing，首屏先传达的是转型状态而不是直接的后端/分布式系统定位，削弱了 6–8 秒扫读时的岗位匹配感。",
+            "fix": "把首句改成直接角色锚点先行，例如先写“Backend engineer focused on distributed systems and C++/gRPC-based services”，再把从数据分析转向后端的叙事放到后半句。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills；Professional Summary；TikTok Experience",
+            "issue": "JD must-have 的“Distributed Systems”没有在 Skills 中被明确列出，只能通过 Microservices / Kafka / gRPC 和 Summary 里的“distributed backend systems”间接推断；对 ATS 来说这比直接命名弱，容易丢掉 Azure Storage 的核心匹配信号。",
+            "fix": "在最相关的后端经历里补一条明确的 distributed systems 证据，最好落在 TikTok 第一条 bullet 或 Summary 首句中，同时在 Skills 里保留 C++ 并补出“Distributed Systems”这个命名信号。"
+          },
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "这一段把 Go、Python、Java、C#、JavaScript 作为同一实习经历的主要使用语言呈现出来，读起来像 5 门语言都是主工作栈，容易被认为语言堆砌。",
+            "fix": "把这一段收敛成 1-2 个主语言，其余语言改写为集成、脚本、验证或联调工具；例如让 Go/Python 成为主线，Java/C#/JavaScript 只保留在特定子任务里。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关的后端经历里补出“Distributed Systems”这个命名信号，并让它和 C++/gRPC/Kafka 的证据同框出现。",
+        "[MUST] 把 Summary 第一句改成直接的后端/分布式系统定位，把“从数据分析转向后端”放到后半句。",
+        "[SHOULD] 收敛 TikTok 实习段的语言栈叙事，避免 5 门语言看起来都像主工作栈。",
+        "[NICE] 其余量化保持即可，优先让首屏更快读出“Azure Storage 相关的分布式后端工程师”信号。"
+      ],
+      "revision_instructions": "把 Summary 第一句改成“Backend engineer focused on distributed systems and C++/gRPC-based services...”这种直接岗位锚点，再把转型叙事放到后半句。随后在最相关的后端经历里明确写出“distributed systems”而不是只写 microservices / distributed backend systems，让 JD 的 must-have 直接命中。最后收敛 TikTok 段的语言栈，把 Go/Python 设为主线，其余语言改成集成、脚本或验证工具，避免单段经历看起来像多语言主责。不要改不可变字段。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 10.0,
+        "r2_jd_fitness": 8.0,
+        "r3_overqualification": 9.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 91.8,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "needs_revision": true,
+      "overall_verdict": "fail",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关的后端经历里补出“Distributed Systems”这个命名信号，并让它和 C++/gRPC/Kafka 的证据同框出现。",
+        "[MUST] 把 Summary 第一句改成直接的后端/分布式系统定位，把“从数据分析转向后端”放到后半句。",
+        "[SHOULD] 收敛 TikTok 实习段的语言栈叙事，避免 5 门语言看起来都像主工作栈。",
+        "[NICE] 其余量化保持即可，优先让首屏更快读出“Azure Storage 相关的分布式后端工程师”信号。"
+      ],
+      "revision_instructions": "把 Summary 第一句改成“Backend engineer focused on distributed systems and C++/gRPC-based services...”这种直接岗位锚点，再把转型叙事放到后半句。随后在最相关的后端经历里明确写出“distributed systems”而不是只写 microservices / distributed backend systems，让 JD 的 must-have 直接命中。最后收敛 TikTok 段的语言栈，把 Go/Python 设为主线，其余语言改成集成、脚本或验证工具，避免单段经历看起来像多语言主责。不要改不可变字段。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": []
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "首句以“transitioning from data analytics to backend engineering”作为主 framing，首屏先传达的是转型状态而不是直接的后端/分布式系统定位，削弱了 6–8 秒扫读时的岗位匹配感。",
+              "fix": "把首句改成直接角色锚点先行，例如先写“Backend engineer focused on distributed systems and C++/gRPC-based services”，再把从数据分析转向后端的叙事放到后半句。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-001",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Skills；Professional Summary；TikTok Experience",
+              "issue": "JD must-have 的“Distributed Systems”没有在 Skills 中被明确列出，只能通过 Microservices / Kafka / gRPC 和 Summary 里的“distributed backend systems”间接推断；对 ATS 来说这比直接命名弱，容易丢掉 Azure Storage 的核心匹配信号。",
+              "fix": "在最相关的后端经历里补一条明确的 distributed systems 证据，最好落在 TikTok 第一条 bullet 或 Summary 首句中，同时在 Skills 里保留 C++ 并补出“Distributed Systems”这个命名信号。"
+            },
+            {
+              "rule_id": "P3C-011",
+              "sub_area": "3C",
+              "severity": "medium",
+              "field": "TikTok Experience",
+              "issue": "这一段把 Go、Python、Java、C#、JavaScript 作为同一实习经历的主要使用语言呈现出来，读起来像 5 门语言都是主工作栈，容易被认为语言堆砌。",
+              "fix": "把这一段收敛成 1-2 个主语言，其余语言改写为集成、脚本、验证或联调工具；例如让 Go/Python 成为主线，Java/C#/JavaScript 只保留在特定子任务里。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 在最相关的后端经历里补出“Distributed Systems”这个命名信号，并让它和 C++/gRPC/Kafka 的证据同框出现。",
+          "[MUST] 把 Summary 第一句改成直接的后端/分布式系统定位，把“从数据分析转向后端”放到后半句。",
+          "[SHOULD] 收敛 TikTok 实习段的语言栈叙事，避免 5 门语言看起来都像主工作栈。",
+          "[NICE] 其余量化保持即可，优先让首屏更快读出“Azure Storage 相关的分布式后端工程师”信号。"
+        ],
+        "revision_instructions": "把 Summary 第一句改成“Backend engineer focused on distributed systems and C++/gRPC-based services...”这种直接岗位锚点，再把转型叙事放到后半句。随后在最相关的后端经历里明确写出“distributed systems”而不是只写 microservices / distributed backend systems，让 JD 的 must-have 直接命中。最后收敛 TikTok 段的语言栈，把 Go/Python 设为主线，其余语言改成集成、脚本或验证工具，避免单段经历看起来像多语言主责。不要改不可变字段。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills；Professional Summary；TikTok Experience",
+            "issue": "JD must-have 的“Distributed Systems”没有在 Skills 中被明确列出，只能通过 Microservices / Kafka / gRPC 和 Summary 里的“distributed backend systems”间接推断；对 ATS 来说这比直接命名弱，容易丢掉 Azure Storage 的核心匹配信号。",
+            "fix": "在最相关的后端经历里补一条明确的 distributed systems 证据，最好落在 TikTok 第一条 bullet 或 Summary 首句中，同时在 Skills 里保留 C++ 并补出“Distributed Systems”这个命名信号。"
+          }
+        ],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "这一段把 Go、Python、Java、C#、JavaScript 作为同一实习经历的主要使用语言呈现出来，读起来像 5 门语言都是主工作栈，容易被认为语言堆砌。",
+            "fix": "把这一段收敛成 1-2 个主语言，其余语言改写为集成、脚本、验证或联调工具；例如让 Go/Python 成为主线，Java/C#/JavaScript 只保留在特定子任务里。"
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句以“transitioning from data analytics to backend engineering”作为主 framing，首屏先传达的是转型状态而不是直接的后端/分布式系统定位，削弱了 6–8 秒扫读时的岗位匹配感。",
+            "fix": "把首句改成直接角色锚点先行，例如先写“Backend engineer focused on distributed systems and C++/gRPC-based services”，再把从数据分析转向后端的叙事放到后半句。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-001",
+            "P3C-011"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P2-001",
+        "P3B-001",
+        "P3C-011"
+      ],
+      "high_or_critical": [
+        "P3B-001 @ Skills；Professional Summary；TikTok Experience"
+      ]
+    }
+  }
+}

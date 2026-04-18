@@ -1,0 +1,168 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:20:09",
+  "completed_at": "2026-04-17T23:21:05",
+  "duration_seconds": 56.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary and Experience section",
+          "issue": "正文中多处把修饰语/限定词加粗，例如 **team-maintained**、**existing**、**internal**，这违反了加粗规则。当前视觉重点会分散到修饰词，而不是技术栈和量化信号。",
+          "fix": "移除这些限定词上的加粗，只保留技术名词、核心 scope 词和量化结果的加粗。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3E-013",
+          "sub_area": "3E",
+          "severity": "medium",
+          "field": "TikTok Experience bullet 2",
+          "issue": "在 TikTok Security 的 RAG / Bedrock bullet 里只写了 internal AWS service 和 S3 document chunks，但没有明确限定这些内容是 redacted、synthetic、sandbox，或 no user / production data。对敏感团队场景来说，数据边界表达不够完整。",
+          "fix": "如果事实成立，在这一条里补上边界限定语，例如 'using redacted internal docs'、'no user or production data involved'、或 'sandbox evaluation'，以消除合规疑虑。",
+          "note": "[合规边界]"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 取消正文里对限定词/修饰语的加粗，只保留技术栈、关键 scope 和量化结果的加粗。",
+      "[SHOULD] 给 TikTok 的 RAG / Bedrock bullet 补一条明确的数据边界说明，避免敏感团队场景下的合规追问。",
+      "[NICE] 其余结构基本合规，不需要改动职业主线；保持现有的 infra/backend 叙事即可。"
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 10.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 9.5,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 99.2,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] 取消正文里对限定词/修饰语的加粗，只保留技术栈、关键 scope 和量化结果的加粗。",
+      "[SHOULD] 给 TikTok 的 RAG / Bedrock bullet 补一条明确的数据边界说明，避免敏感团队场景下的合规追问。",
+      "[NICE] 其余结构基本合规，不需要改动职业主线；保持现有的 infra/backend 叙事即可。"
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary and Experience section",
+            "issue": "正文中多处把修饰语/限定词加粗，例如 **team-maintained**、**existing**、**internal**，这违反了加粗规则。当前视觉重点会分散到修饰词，而不是技术栈和量化信号。",
+            "fix": "移除这些限定词上的加粗，只保留技术名词、核心 scope 词和量化结果的加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok Experience bullet 2",
+            "issue": "在 TikTok Security 的 RAG / Bedrock bullet 里只写了 internal AWS service 和 S3 document chunks，但没有明确限定这些内容是 redacted、synthetic、sandbox，或 no user / production data。对敏感团队场景来说，数据边界表达不够完整。",
+            "fix": "如果事实成立，在这一条里补上边界限定语，例如 'using redacted internal docs'、'no user or production data involved'、或 'sandbox evaluation'，以消除合规疑虑。",
+            "note": "[合规边界]"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] 取消正文里对限定词/修饰语的加粗，只保留技术栈、关键 scope 和量化结果的加粗。",
+        "[SHOULD] 给 TikTok 的 RAG / Bedrock bullet 补一条明确的数据边界说明，避免敏感团队场景下的合规追问。",
+        "[NICE] 其余结构基本合规，不需要改动职业主线；保持现有的 infra/backend 叙事即可。"
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Professional Summary and Experience section",
+          "issue": "正文中多处把修饰语/限定词加粗，例如 **team-maintained**、**existing**、**internal**，这违反了加粗规则。当前视觉重点会分散到修饰词，而不是技术栈和量化信号。",
+          "fix": "移除这些限定词上的加粗，只保留技术名词、核心 scope 词和量化结果的加粗。"
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [],
+      "r5_logic": [],
+      "r7_ecosystem": [
+        {
+          "rule_id": "P3E-013",
+          "sub_area": "3E",
+          "severity": "medium",
+          "field": "TikTok Experience bullet 2",
+          "issue": "在 TikTok Security 的 RAG / Bedrock bullet 里只写了 internal AWS service 和 S3 document chunks，但没有明确限定这些内容是 redacted、synthetic、sandbox，或 no user / production data。对敏感团队场景来说，数据边界表达不够完整。",
+          "fix": "如果事实成立，在这一条里补上边界限定语，例如 'using redacted internal docs'、'no user or production data involved'、或 'sandbox evaluation'，以消除合规疑虑。",
+          "note": "[合规边界]"
+        }
+      ],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3E-013"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P3E-013"
+    ],
+    "high_or_critical": []
+  }
+}

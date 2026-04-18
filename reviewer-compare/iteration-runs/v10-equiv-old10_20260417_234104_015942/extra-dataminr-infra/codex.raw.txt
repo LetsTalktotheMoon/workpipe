@@ -1,0 +1,64 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1-4",
+        "issue": "Several non-technical qualifiers are bolded, such as team-maintained, existing, and intern-owned. This dilutes the emphasis that should be reserved for technologies and true scope signals.",
+        "fix": "Remove bold from qualifiers and keep bold only on technologies, metrics, and genuine scope terms."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 3",
+        "issue": "The header 'Structured Problem Solver' is generic cognition framing rather than a role or domain anchor, so it adds little first-screen hiring signal.",
+        "fix": "Replace it with a more job-relevant header such as 'Systems judgment:' or 'Backend delivery:' if the supporting bullets can justify it."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Professional Summary / total experience",
+        "issue": "The resume self-reports 3+ years, while the JD requires 4+ years building backend services. The visible timeline only supports about 37 months of work experience, so this falls short of the hard gate.",
+        "fix": "[结构性错配] Treat this as a role-fit gap, not a wording problem. Either target a 3+ year backend role or add only substantiated backend ownership from DiDi/TikTok if you truly have it; wording alone will not clear the requirement.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "TikTok Experience bullets 1-2",
+        "issue": "One intern segment reads like routine use of Go, Python, Java, and Scala as a four-language primary stack, which stretches credibility for the scope shown.",
+        "fix": "Split the role into the primary languages used per bullet and avoid implying all four were equally core unless the scope is explicitly multi-service and multi-owner."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience",
+        "issue": "The latest/relevant section is dominated by percentage lifts and lacks a concrete Tier 1 scope signal, so the impact story is easy to skim past.",
+        "fix": "Add one credible scope metric in the most relevant bullet, such as services owned, events/day, teams partnered, or a latency/throughput/SLA figure."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Resolve the Dataminr 4+ year backend hard gate issue; this profile currently reads as ~3+ years, so it is structurally short of the requirement.",
+    "[MUST] Narrow the TikTok internship to the actual primary languages and ownership per bullet so the scope reads credible instead of like a four-language primary stack.",
+    "[SHOULD] Add one Tier 1 scope metric to the most relevant backend bullet to replace the current percent-only impact framing.",
+    "[NICE] Remove bold from non-technical qualifiers and make the third summary sentence more role-specific."
+  ],
+  "revision_instructions": "[结构性错配] 这份简历对 Dataminr 的 4+ 年 backend 硬门槛仍然偏短，无法靠措辞彻底补齐。若继续投这个 JD，只能在 DiDi/TikTok 的最相关 bullets 里补充已发生的 backend 交付证据，并把 TikTok 的四语言叙事收窄为真实主责栈；同时补一个 Tier 1 规模/ownership 指标。第三句 Summary 改成更具体的系统判断型标题，并去掉对非技术限定词的加粗。"
+}

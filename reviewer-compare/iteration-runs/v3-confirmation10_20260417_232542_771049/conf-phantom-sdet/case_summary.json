@@ -1,0 +1,373 @@
+{
+  "label": "conf/Phantom-SDET",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72",
+  "historical": {},
+  "metadata": {
+    "label": "conf/Phantom-SDET",
+    "company": "Phantom",
+    "title": "SDET (Wallet Platform)",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Phantom is the modern money app used by tens of millions around the world, combining everything people need to manage their finances in one intuitive experience",
+    "tech_required": [
+      "Gitlab Ci",
+      "Go",
+      "REST",
+      "Python",
+      "SQL",
+      "TypeScript",
+      "AWS",
+      "Github Actions",
+      "GCP",
+      "JavaScript"
+    ],
+    "tech_preferred": [
+      "CI/CD",
+      "Distributed Systems"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/phantom/2026-04-02/69b20992d04c69566c74ae72/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 95.1,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": true,
+      "revision_priority": [
+        "Add one explicit wallet/payments/money-flow validation example so the Phantom fit is demonstrated, not just implied.",
+        "Reduce the Cloud & Data skills bucket to 4-8 items and remove bold from modifier words like team-maintained and shared."
+      ],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.8,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.5,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.8,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.4,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 95.1,
+      "verdict": "pass",
+      "seed_label": "Magnite SDET",
+      "route_mode": "retarget",
+      "revised": false,
+      "repaired_at": "2026-04-07T16:57:41",
+      "repair_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_didi_scope_note",
+        "normalized_keyword_bolding"
+      ],
+      "repair_issue_codes_before": [],
+      "repair_issue_codes_after": []
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:30:35",
+    "completed_at": "2026-04-17T23:32:00",
+    "duration_seconds": 85.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary",
+            "issue": "三个 summary 小标题都偏 trait/qualifier-led（例如 `Quality-focused`、`SDET-aligned`、`Pattern-recognition mindset`），而不是更直接的 role/domain-led anchors，首屏扫读信息密度不够集中。",
+            "fix": "把三句的小标题改成更直接的角色/领域锚点，例如 `Backend/SDET engineer:`、`CI/CD automation builder:`、`Pattern recognition:`，保留正文内容不变。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "第一句以 `Transitioning from data analytics to software engineering` 开头，首屏先呈现转向叙事而不是目标角色与领域信号，HR 扫读时会弱化定位感。",
+            "fix": "把句首改成目标角色锚点，例如先写 `Backend/SDET engineer` 或 `Security-focused SWE`，再把 `transitioning from data analytics` 放到句尾或第二句。"
+          },
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills > APIs",
+            "issue": "`APIs` 作为类别名信息量偏低，读起来像工具清单而不是能力分组，影响首屏可读性。",
+            "fix": "把这一行改成更具体的类别名，例如 `Testing & Automation` 或 `Developer Tools`，并保留现有条目。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary / TikTok Experience",
+            "issue": "简历没有把现有的 SDET/验证工作显式桥接到 Phantom 的 wallet/financial correctness 场景，业务迁移逻辑仍偏泛化，面试官会需要额外追问为什么适合 money app。",
+            "fix": "在 Summary 或 TikTok 第一条 bullet 里补一层桥接语，例如把验证对象明确写成 `correctness-critical`, `release-gated`, `transaction-like` 或 `high-integrity` workflows，突出你做的是高风险链路的质量保障。"
+          },
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok Experience, bullet 2",
+            "issue": "在 Security 场景里写 `AWS, Bedrock, and RAG review service`，但没有显式说明这是内部评估/沙箱/合成数据流程，容易引发数据边界追问。",
+            "fix": "给这条补一个边界限定词，例如 `internal evaluation service`、`sandbox`、`synthetic/redacted prompts` 或 `no production user data involved`，把合规边界写死。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 重写 Summary 首句和三个小标题，让开头先落在目标角色/领域，而不是 `transitioning` / trait-led 叙事。",
+        "[MUST] 把 `Skills > APIs` 改成更具体的能力分组名，例如 `Testing & Automation`。",
+        "[SHOULD] 在 Summary 或 TikTok 首条里补一层到 Phantom 的桥接，突出你做的是高风险、正确性敏感的验证工作，而不是泛化的自动化经验。",
+        "[SHOULD] 给 TikTok 的 Bedrock/RAG 条目加上 internal/sandbox/synthetic/no-production-data 的边界限定。"
+      ],
+      "revision_instructions": "把 Summary 第一句改成 role-led 开头，去掉 `Transitioning from data analytics...` 的首屏位置；三个 summary 小标题改成更直接的角色/领域锚点，不要用 trait-led 表达。把 `Skills > APIs` 改名为 `Testing & Automation` 或 `Developer Tools`。在 TikTok 的 Bedrock/RAG 条目里补 `internal evaluation` / `sandbox` / `synthetic or redacted prompts` / `no production user data` 之类的限定语。再在 Summary 或 TikTok 第一条里加一句桥接到 Phantom 的 wallet/transaction correctness 场景，强调你做的是高风险链路的验证与发布门禁。不要改不可变经历字段。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 9.5,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.0,
+        "r5_logic": 9.5,
+        "r7_ecosystem": 9.5,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 95.5,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 5,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 重写 Summary 首句和三个小标题，让开头先落在目标角色/领域，而不是 `transitioning` / trait-led 叙事。",
+        "[MUST] 把 `Skills > APIs` 改成更具体的能力分组名，例如 `Testing & Automation`。",
+        "[SHOULD] 在 Summary 或 TikTok 首条里补一层到 Phantom 的桥接，突出你做的是高风险、正确性敏感的验证工作，而不是泛化的自动化经验。",
+        "[SHOULD] 给 TikTok 的 Bedrock/RAG 条目加上 internal/sandbox/synthetic/no-production-data 的边界限定。"
+      ],
+      "revision_instructions": "把 Summary 第一句改成 role-led 开头，去掉 `Transitioning from data analytics...` 的首屏位置；三个 summary 小标题改成更直接的角色/领域锚点，不要用 trait-led 表达。把 `Skills > APIs` 改名为 `Testing & Automation` 或 `Developer Tools`。在 TikTok 的 Bedrock/RAG 条目里补 `internal evaluation` / `sandbox` / `synthetic or redacted prompts` / `no production user data` 之类的限定语。再在 Summary 或 TikTok 第一条里加一句桥接到 Phantom 的 wallet/transaction correctness 场景，强调你做的是高风险链路的验证与发布门禁。不要改不可变经历字段。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "Professional Summary",
+              "issue": "三个 summary 小标题都偏 trait/qualifier-led（例如 `Quality-focused`、`SDET-aligned`、`Pattern-recognition mindset`），而不是更直接的 role/domain-led anchors，首屏扫读信息密度不够集中。",
+              "fix": "把三句的小标题改成更直接的角色/领域锚点，例如 `Backend/SDET engineer:`、`CI/CD automation builder:`、`Pattern recognition:`，保留正文内容不变。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "第一句以 `Transitioning from data analytics to software engineering` 开头，首屏先呈现转向叙事而不是目标角色与领域信号，HR 扫读时会弱化定位感。",
+              "fix": "把句首改成目标角色锚点，例如先写 `Backend/SDET engineer` 或 `Security-focused SWE`，再把 `transitioning from data analytics` 放到句尾或第二句。"
+            },
+            {
+              "rule_id": "P2-040",
+              "severity": "medium",
+              "field": "Skills > APIs",
+              "issue": "`APIs` 作为类别名信息量偏低，读起来像工具清单而不是能力分组，影响首屏可读性。",
+              "fix": "把这一行改成更具体的类别名，例如 `Testing & Automation` 或 `Developer Tools`，并保留现有条目。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-003",
+              "sub_area": "3B",
+              "severity": "medium",
+              "field": "Professional Summary / TikTok Experience",
+              "issue": "简历没有把现有的 SDET/验证工作显式桥接到 Phantom 的 wallet/financial correctness 场景，业务迁移逻辑仍偏泛化，面试官会需要额外追问为什么适合 money app。",
+              "fix": "在 Summary 或 TikTok 第一条 bullet 里补一层桥接语，例如把验证对象明确写成 `correctness-critical`, `release-gated`, `transaction-like` 或 `high-integrity` workflows，突出你做的是高风险链路的质量保障。"
+            },
+            {
+              "rule_id": "P3E-013",
+              "sub_area": "3E",
+              "severity": "medium",
+              "field": "TikTok Experience, bullet 2",
+              "issue": "在 Security 场景里写 `AWS, Bedrock, and RAG review service`，但没有显式说明这是内部评估/沙箱/合成数据流程，容易引发数据边界追问。",
+              "fix": "给这条补一个边界限定词，例如 `internal evaluation service`、`sandbox`、`synthetic/redacted prompts` 或 `no production user data involved`，把合规边界写死。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 重写 Summary 首句和三个小标题，让开头先落在目标角色/领域，而不是 `transitioning` / trait-led 叙事。",
+          "[MUST] 把 `Skills > APIs` 改成更具体的能力分组名，例如 `Testing & Automation`。",
+          "[SHOULD] 在 Summary 或 TikTok 首条里补一层到 Phantom 的桥接，突出你做的是高风险、正确性敏感的验证工作，而不是泛化的自动化经验。",
+          "[SHOULD] 给 TikTok 的 Bedrock/RAG 条目加上 internal/sandbox/synthetic/no-production-data 的边界限定。"
+        ],
+        "revision_instructions": "把 Summary 第一句改成 role-led 开头，去掉 `Transitioning from data analytics...` 的首屏位置；三个 summary 小标题改成更直接的角色/领域锚点，不要用 trait-led 表达。把 `Skills > APIs` 改名为 `Testing & Automation` 或 `Developer Tools`。在 TikTok 的 Bedrock/RAG 条目里补 `internal evaluation` / `sandbox` / `synthetic or redacted prompts` / `no production user data` 之类的限定语。再在 Summary 或 TikTok 第一条里加一句桥接到 Phantom 的 wallet/transaction correctness 场景，强调你做的是高风险链路的验证与发布门禁。不要改不可变经历字段。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Professional Summary",
+            "issue": "三个 summary 小标题都偏 trait/qualifier-led（例如 `Quality-focused`、`SDET-aligned`、`Pattern-recognition mindset`），而不是更直接的 role/domain-led anchors，首屏扫读信息密度不够集中。",
+            "fix": "把三句的小标题改成更直接的角色/领域锚点，例如 `Backend/SDET engineer:`、`CI/CD automation builder:`、`Pattern recognition:`，保留正文内容不变。"
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary / TikTok Experience",
+            "issue": "简历没有把现有的 SDET/验证工作显式桥接到 Phantom 的 wallet/financial correctness 场景，业务迁移逻辑仍偏泛化，面试官会需要额外追问为什么适合 money app。",
+            "fix": "在 Summary 或 TikTok 第一条 bullet 里补一层桥接语，例如把验证对象明确写成 `correctness-critical`, `release-gated`, `transaction-like` 或 `high-integrity` workflows，突出你做的是高风险链路的质量保障。"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "第一句以 `Transitioning from data analytics to software engineering` 开头，首屏先呈现转向叙事而不是目标角色与领域信号，HR 扫读时会弱化定位感。",
+            "fix": "把句首改成目标角色锚点，例如先写 `Backend/SDET engineer` 或 `Security-focused SWE`，再把 `transitioning from data analytics` 放到句尾或第二句。"
+          }
+        ],
+        "r5_logic": [
+          {
+            "rule_id": "P2-040",
+            "severity": "medium",
+            "field": "Skills > APIs",
+            "issue": "`APIs` 作为类别名信息量偏低，读起来像工具清单而不是能力分组，影响首屏可读性。",
+            "fix": "把这一行改成更具体的类别名，例如 `Testing & Automation` 或 `Developer Tools`，并保留现有条目。"
+          }
+        ],
+        "r7_ecosystem": [
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok Experience, bullet 2",
+            "issue": "在 Security 场景里写 `AWS, Bedrock, and RAG review service`，但没有显式说明这是内部评估/沙箱/合成数据流程，容易引发数据边界追问。",
+            "fix": "给这条补一个边界限定词，例如 `internal evaluation service`、`sandbox`、`synthetic/redacted prompts` 或 `no production user data involved`，把合规边界写死。"
+          }
+        ],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 2,
+          "rule_ids": [
+            "P2-001",
+            "P2-040"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-003",
+            "P3E-013"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-042",
+        "P2-001",
+        "P2-040",
+        "P3B-003",
+        "P3E-013"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

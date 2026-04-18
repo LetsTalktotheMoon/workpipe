@@ -1,0 +1,50 @@
+INFO reviewers.unified_reviewer: Unified Reviewer 开始审查: Research Scientist (L5) - Content Understanding @ Netflix
+INFO reviewers.unified_reviewer: 审查结果: 综合评分: 71.5/100 [FAIL]
+Critical: 0  High: 4
+
+各维度评分:
+  ✓ r0_authenticity: 10.0/10 (×0.20 → 20.0分)
+  ✗ r1_writing_standard: 6.5/10 (×0.15 → 9.8分)
+  ✗ r2_jd_fitness: 4.0/10 (×0.20 → 8.0分)
+  ✓ r3_overqualification: 9.0/10 (×0.10 → 9.0分)
+  ✗ r4_rationality: 6.0/10 (×0.20 → 12.0分)
+  ✓ r5_logic: 9.0/10 (×0.10 → 9.0分)
+  ✓ r6_competitiveness: 7.5/10 (×0.05 → 3.8分)
+
+优先修改事项:
+  1. Add genuine Scala, .NET, and explicit Algorithms evidence in the body and Skills; without that, this resume does not meet the Netflix JD.
+  2. Rewrite the Professional Summary into exactly 3 labeled sentences and move the ML/LLM/retrieval signal to the front.
+  3. Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary.
+INFO reviewers.unified_reviewer: Unified Reviewer 开始审查: Machine Learning Engineer (L5) - Content Understanding @ Netflix
+INFO reviewers.unified_reviewer: 审查结果: 综合评分: 78.5/100 [FAIL]
+Critical: 0  High: 2
+
+各维度评分:
+  ✓ r0_authenticity: 9.5/10 (×0.20 → 19.0分)
+  ✓ r1_writing_standard: 8.8/10 (×0.15 → 13.2分)
+  ✗ r2_jd_fitness: 3.6/10 (×0.20 → 7.2分)
+  ✓ r3_overqualification: 9.2/10 (×0.10 → 9.2分)
+  ✓ r4_rationality: 8.2/10 (×0.20 → 16.4分)
+  ✓ r5_logic: 9.3/10 (×0.10 → 9.3分)
+  ✓ r6_competitiveness: 8.4/10 (×0.05 → 4.2分)
+
+优先修改事项:
+  1. Add genuine Scala and .NET evidence in the closest relevant experience or project; without those body-level signals, this JD will keep failing ATS.
+  2. Rewrite the Summary so ML/retrieval/evaluation ownership is the opening signal, not the data-to-engineering transition story.
+  3. Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary.
+INFO reviewers.unified_reviewer: Unified Reviewer 开始审查: Advisory AI Data Specialist (FDE Unit) @ Dell Technologies
+INFO reviewers.unified_reviewer: 审查结果: 综合评分: 92.6/100 [FAIL]
+Critical: 0  High: 0
+
+各维度评分:
+  ✓ r0_authenticity: 9.7/10 (×0.20 → 19.4分)
+  ✓ r1_writing_standard: 9.2/10 (×0.15 → 13.8分)
+  ✓ r2_jd_fitness: 8.8/10 (×0.20 → 17.6分)
+  ✓ r3_overqualification: 9.6/10 (×0.10 → 9.6分)
+  ✓ r4_rationality: 9.1/10 (×0.20 → 18.2分)
+  ✓ r5_logic: 9.3/10 (×0.10 → 9.3分)
+  ✓ r6_competitiveness: 9.4/10 (×0.05 → 4.7分)
+
+优先修改事项:
+  1. Add body evidence for each JD must-have technology instead of leaving it only in Skills or Summary.
+INFO reviewers.unified_reviewer: Unified Reviewer 开始审查: Applied Researcher I (AI Foundations, LLM Customization, Finetuning, Reinforcement Learning) @ Capital One

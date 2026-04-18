@@ -1,0 +1,1 @@
+Planner-first Rules：如果给了 starter resume，把它视为可复用参考骨架，而不是必须保留的模板；优先遵循 planner 对 coverage、missing、risk、role-seniority framing 的判断；如果 planner 指出了 scope 或真实性风险，必须主动改写 summary、ownership 和项目 framing；如果 planner 认为 starter 可高比例复用，可保留高价值证据，但仍以目标 JD 为准。

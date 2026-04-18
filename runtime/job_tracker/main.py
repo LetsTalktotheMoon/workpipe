@@ -10,7 +10,13 @@ import json
 import os
 import sys
 import traceback
+from pathlib import Path
 
+RUNTIME_ROOT = Path(__file__).resolve().parents[1]
+if str(RUNTIME_ROOT) not in sys.path:
+    sys.path.insert(0, str(RUNTIME_ROOT))
+
+from automation.jobs_catalog import merge_rows_into_catalog
 from config import SESSION_ID
 from scraper import DEFAULT_LOOKBACK_HOURS
 
@@ -66,6 +72,11 @@ def main():
         with open(backup, "w", encoding="utf-8") as f:
             json.dump(jobs, f, ensure_ascii=False, indent=2)
         print(f"💾  Local backup → {backup}")
+        catalog_summary = merge_rows_into_catalog(jobs)
+        print(
+            f"🗂️  Catalog updated → {catalog_summary['catalog_path']} "
+            f"({catalog_summary['catalog_count']} rows / {catalog_summary['unique_job_ids']} unique job_id)"
+        )
 
         if args.scrape_only:
             print("📋  --scrape-only mode. Skipping Sheets sync.")

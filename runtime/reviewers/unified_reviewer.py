@@ -122,7 +122,15 @@ class UnifiedReviewer:
     BORDERLINE_CALIBRATION_FLOOR = 91.5
     CALIBRATION_DIFF_THRESHOLD = 1.0
 
-    def review(self, resume_md: str, jd: JDProfile, *, mode: str = "full") -> ReviewSummary:
+    def review(
+        self,
+        resume_md: str,
+        jd: JDProfile,
+        *,
+        mode: str = "full",
+        prompt_override: str | None = None,
+        system_prompt_override: str | None = None,
+    ) -> ReviewSummary:
         """
         对简历进行完整审查。
 
@@ -134,7 +142,14 @@ class UnifiedReviewer:
             ReviewSummary 包含评分、findings 和修改指令
         """
         logger.info("Unified Reviewer 开始审查: %s @ %s", jd.title, jd.company)
-        summary = self._single_review(resume_md, jd, "primary", mode=mode)
+        summary = self._single_review(
+            resume_md,
+            jd,
+            "primary",
+            mode=mode,
+            prompt_override=prompt_override,
+            system_prompt_override=system_prompt_override,
+        )
         if mode == "full" and self._should_calibrate(summary):
             logger.info(
                 "边界分数触发复核校准: %.1f（critical=%d high=%d）",
@@ -144,14 +159,28 @@ class UnifiedReviewer:
             )
             calibration_runs = [
                 summary,
-                self._single_review(resume_md, jd, "calibration_1", mode=mode),
+                self._single_review(
+                    resume_md,
+                    jd,
+                    "calibration_1",
+                    mode=mode,
+                    prompt_override=prompt_override,
+                    system_prompt_override=system_prompt_override,
+                ),
             ]
             spread = abs(
                 calibration_runs[0].weighted_score - calibration_runs[1].weighted_score
             )
             if spread >= self.CALIBRATION_DIFF_THRESHOLD:
                 calibration_runs.append(
-                    self._single_review(resume_md, jd, "calibration_2", mode=mode)
+                    self._single_review(
+                        resume_md,
+                        jd,
+                        "calibration_2",
+                        mode=mode,
+                        prompt_override=prompt_override,
+                        system_prompt_override=system_prompt_override,
+                    )
                 )
             summary = _combine_review_summaries(calibration_runs)
         summary = _apply_deterministic_audit(summary, resume_md, jd)
@@ -165,10 +194,12 @@ class UnifiedReviewer:
         cache_suffix: str,
         *,
         mode: str = "full",
+        prompt_override: str | None = None,
+        system_prompt_override: str | None = None,
     ) -> ReviewSummary:
         client = get_llm_client()
         prompt_resume = _build_compact_review_excerpt(resume_md, jd) if mode == "compact" else resume_md
-        prompt = build_unified_review_prompt(prompt_resume, jd, review_scope=mode)
+        prompt = prompt_override or build_unified_review_prompt(prompt_resume, jd, review_scope=mode)
         cache_key = client.make_cache_key(
             jd.jd_id or "unknown",
             jd.company or "",
@@ -179,7 +210,7 @@ class UnifiedReviewer:
 
         raw = client.call_review(
             prompt,
-            system=UNIFIED_REVIEWER_SYSTEM,
+            system=system_prompt_override or UNIFIED_REVIEWER_SYSTEM,
             cache_key=cache_key,
         )
         summary = _parse_review_response(raw)

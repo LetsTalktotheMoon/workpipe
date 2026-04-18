@@ -1,0 +1,369 @@
+{
+  "label": "conf/AMH-EnterpriseDataAnalyst",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8",
+  "historical": {},
+  "metadata": {
+    "label": "conf/AMH-EnterpriseDataAnalyst",
+    "company": "AMH",
+    "title": "Senior Enterprise Data Analyst",
+    "role_type": "data_analyst",
+    "seniority": "senior",
+    "team_direction": "AMH is one of the leading single-family rental companies and homebuilders in the country, recognized as a top employer",
+    "tech_required": [
+      "Snowflake",
+      "Databricks",
+      "SQL",
+      "Express"
+    ],
+    "tech_preferred": [
+      "Tableau",
+      "Power Bi"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/amh/2026-04-06/69d4003a366bb95ba55394a8/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 93.4,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 9.7,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.1,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r2_jd_fitness": {
+          "score": 9.3,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r3_overqualification": {
+          "score": 9.6,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 2
+        },
+        "r5_logic": {
+          "score": 9.5,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.2,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 93.4,
+      "verdict": "pass",
+      "seed_label": "Qualified Health Data Engineer",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T17:06:17",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 91.8,
+      "previous_verdict": "conditional_pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:45:55",
+    "completed_at": "2026-04-17T23:47:00",
+    "duration_seconds": 65.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Professional Summary; Experience bullets",
+            "issue": "正文里大量可量化结果和 scope 信号仍是普通文本展示，首屏扫读时不会像技术名词那样被抓住。",
+            "fix": "把最关键的量化信号做一致加粗，优先处理 `3+ years`、`13-person`、`20+ cities`、`31%`、`26%` 这类首个出现的结果/规模词。"
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok bullets; DiDi bullets; project bullets",
+            "issue": "修饰语和限定词被加粗得过多，例如 `team-maintained`、`team-owned`、`internal`，会稀释技术栈和结果的视觉权重。",
+            "fix": "保留技术名词与关键结果的加粗，把限定语恢复为普通文本，只保留少量真正承载 scope 的词。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-002",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills; Experience",
+            "issue": "JD 明确要求 intermediate Excel，并偏好 Power BI / Tableau，但简历正文没有任何可核验的 Excel、报表、仪表盘或 BI 工具使用证据，HR 很容易直接追问。",
+            "fix": "把 Excel 和 BI 工具补到最相关的分析经历里，最好放在 DiDi 的一条 bullet 中，写清楚你用 lookup、pivot、validation、dashboard/report delivery 具体做了什么。"
+          },
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience",
+            "issue": "AMH 这个岗位的核心是 BI、financial reporting、requirements gathering 和 stakeholder reporting，但简历首屏和前两段经历更像后端/安全/数据管道叙事，分析岗的桥接不够直。",
+            "fix": "在最相关的 DiDi 或 Temu 经历里补一条面向业务方的 bullet，明确写出需求访谈、报表交付、指标定义或财务/经营分析场景。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "最新经历的 4 条 bullet 基本都在讲百分比改进，缺少案例量、数据量、团队规模或系统范围，量化信号偏轻。",
+            "fix": "在 TikTok 的相关 bullet 里补一个可追问的规模锚点，比如每天处理的 case 数、数据集规模、支持的分析师人数或验证环境范围。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关的 DiDi 或 Temu 经历里补出 Excel + BI/reporting 证据，直接对齐 AMH 的硬性筛选点。",
+        "[MUST] 给 AMH 岗位补一条 analyst-facing 的 requirements/reporting bullet，把目前偏 backend/security 的首屏叙事拉回 BI/财报/数据仓库方向。",
+        "[SHOULD] 把 TikTok 最新经历的量化结果补上规模锚点，避免只剩百分比改进。",
+        "[NICE] 收敛过度加粗的修饰语，集中突出技术栈、scope 和结果。"
+      ],
+      "revision_instructions": "[MUST] 在 DiDi 或 Temu 最相关的 bullet 里补出 Excel、Power BI/Tableau、报表/仪表盘、需求访谈或财务/经营分析的具体使用证据。优先写成一条可核验的 analyst-facing bullet，而不是只放进 Summary。\n[MUST] 把首屏前两段经历从“后端/安全/管道”拉回到 AMH 的 BI/financial reporting/requirements gathering 方向，确保 HR 6 秒内能看到你和岗位的直接匹配。\n[SHOULD] 给 TikTok 最新经历补一个可追问的规模锚点，例如 case volume、dataset scale、支持用户数或验证范围。\n[NICE] 减少对 `team-maintained`、`internal` 这类限定词的加粗，把视觉权重留给技术栈和结果。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.0,
+        "r2_jd_fitness": 7.5,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 91.0,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关的 DiDi 或 Temu 经历里补出 Excel + BI/reporting 证据，直接对齐 AMH 的硬性筛选点。",
+        "[MUST] 给 AMH 岗位补一条 analyst-facing 的 requirements/reporting bullet，把目前偏 backend/security 的首屏叙事拉回 BI/财报/数据仓库方向。",
+        "[SHOULD] 把 TikTok 最新经历的量化结果补上规模锚点，避免只剩百分比改进。",
+        "[NICE] 收敛过度加粗的修饰语，集中突出技术栈、scope 和结果。"
+      ],
+      "revision_instructions": "[MUST] 在 DiDi 或 Temu 最相关的 bullet 里补出 Excel、Power BI/Tableau、报表/仪表盘、需求访谈或财务/经营分析的具体使用证据。优先写成一条可核验的 analyst-facing bullet，而不是只放进 Summary。\n[MUST] 把首屏前两段经历从“后端/安全/管道”拉回到 AMH 的 BI/financial reporting/requirements gathering 方向，确保 HR 6 秒内能看到你和岗位的直接匹配。\n[SHOULD] 给 TikTok 最新经历补一个可追问的规模锚点，例如 case volume、dataset scale、支持用户数或验证范围。\n[NICE] 减少对 `team-maintained`、`internal` 这类限定词的加粗，把视觉权重留给技术栈和结果。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Professional Summary; Experience bullets",
+              "issue": "正文里大量可量化结果和 scope 信号仍是普通文本展示，首屏扫读时不会像技术名词那样被抓住。",
+              "fix": "把最关键的量化信号做一致加粗，优先处理 `3+ years`、`13-person`、`20+ cities`、`31%`、`26%` 这类首个出现的结果/规模词。"
+            },
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "TikTok bullets; DiDi bullets; project bullets",
+              "issue": "修饰语和限定词被加粗得过多，例如 `team-maintained`、`team-owned`、`internal`，会稀释技术栈和结果的视觉权重。",
+              "fix": "保留技术名词与关键结果的加粗，把限定语恢复为普通文本，只保留少量真正承载 scope 的词。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-002",
+              "sub_area": "3B",
+              "severity": "high",
+              "field": "Skills; Experience",
+              "issue": "JD 明确要求 intermediate Excel，并偏好 Power BI / Tableau，但简历正文没有任何可核验的 Excel、报表、仪表盘或 BI 工具使用证据，HR 很容易直接追问。",
+              "fix": "把 Excel 和 BI 工具补到最相关的分析经历里，最好放在 DiDi 的一条 bullet 中，写清楚你用 lookup、pivot、validation、dashboard/report delivery 具体做了什么。"
+            },
+            {
+              "rule_id": "P3B-003",
+              "sub_area": "3B",
+              "severity": "medium",
+              "field": "Professional Summary; TikTok Experience",
+              "issue": "AMH 这个岗位的核心是 BI、financial reporting、requirements gathering 和 stakeholder reporting，但简历首屏和前两段经历更像后端/安全/数据管道叙事，分析岗的桥接不够直。",
+              "fix": "在最相关的 DiDi 或 Temu 经历里补一条面向业务方的 bullet，明确写出需求访谈、报表交付、指标定义或财务/经营分析场景。"
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Experience",
+              "issue": "最新经历的 4 条 bullet 基本都在讲百分比改进，缺少案例量、数据量、团队规模或系统范围，量化信号偏轻。",
+              "fix": "在 TikTok 的相关 bullet 里补一个可追问的规模锚点，比如每天处理的 case 数、数据集规模、支持的分析师人数或验证环境范围。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 在最相关的 DiDi 或 Temu 经历里补出 Excel + BI/reporting 证据，直接对齐 AMH 的硬性筛选点。",
+          "[MUST] 给 AMH 岗位补一条 analyst-facing 的 requirements/reporting bullet，把目前偏 backend/security 的首屏叙事拉回 BI/财报/数据仓库方向。",
+          "[SHOULD] 把 TikTok 最新经历的量化结果补上规模锚点，避免只剩百分比改进。",
+          "[NICE] 收敛过度加粗的修饰语，集中突出技术栈、scope 和结果。"
+        ],
+        "revision_instructions": "[MUST] 在 DiDi 或 Temu 最相关的 bullet 里补出 Excel、Power BI/Tableau、报表/仪表盘、需求访谈或财务/经营分析的具体使用证据。优先写成一条可核验的 analyst-facing bullet，而不是只放进 Summary。\n[MUST] 把首屏前两段经历从“后端/安全/管道”拉回到 AMH 的 BI/financial reporting/requirements gathering 方向，确保 HR 6 秒内能看到你和岗位的直接匹配。\n[SHOULD] 给 TikTok 最新经历补一个可追问的规模锚点，例如 case volume、dataset scale、支持用户数或验证范围。\n[NICE] 减少对 `team-maintained`、`internal` 这类限定词的加粗，把视觉权重留给技术栈和结果。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Professional Summary; Experience bullets",
+            "issue": "正文里大量可量化结果和 scope 信号仍是普通文本展示，首屏扫读时不会像技术名词那样被抓住。",
+            "fix": "把最关键的量化信号做一致加粗，优先处理 `3+ years`、`13-person`、`20+ cities`、`31%`、`26%` 这类首个出现的结果/规模词。"
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok bullets; DiDi bullets; project bullets",
+            "issue": "修饰语和限定词被加粗得过多，例如 `team-maintained`、`team-owned`、`internal`，会稀释技术栈和结果的视觉权重。",
+            "fix": "保留技术名词与关键结果的加粗，把限定语恢复为普通文本，只保留少量真正承载 scope 的词。"
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-002",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills; Experience",
+            "issue": "JD 明确要求 intermediate Excel，并偏好 Power BI / Tableau，但简历正文没有任何可核验的 Excel、报表、仪表盘或 BI 工具使用证据，HR 很容易直接追问。",
+            "fix": "把 Excel 和 BI 工具补到最相关的分析经历里，最好放在 DiDi 的一条 bullet 中，写清楚你用 lookup、pivot、validation、dashboard/report delivery 具体做了什么。"
+          },
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary; TikTok Experience",
+            "issue": "AMH 这个岗位的核心是 BI、financial reporting、requirements gathering 和 stakeholder reporting，但简历首屏和前两段经历更像后端/安全/数据管道叙事，分析岗的桥接不够直。",
+            "fix": "在最相关的 DiDi 或 Temu 经历里补一条面向业务方的 bullet，明确写出需求访谈、报表交付、指标定义或财务/经营分析场景。"
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience",
+            "issue": "最新经历的 4 条 bullet 基本都在讲百分比改进，缺少案例量、数据量、团队规模或系统范围，量化信号偏轻。",
+            "fix": "在 TikTok 的相关 bullet 里补一个可追问的规模锚点，比如每天处理的 case 数、数据集规模、支持的分析师人数或验证环境范围。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 2,
+          "rule_ids": [
+            "P1-040",
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 3,
+          "rule_ids": [
+            "P3B-002",
+            "P3B-003",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P1-042",
+        "P3B-002",
+        "P3B-003",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3B-002 @ Skills; Experience"
+      ]
+    }
+  }
+}

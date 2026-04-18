@@ -1,0 +1,29 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-003",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary / TikTok Experience",
+        "issue": "叙事主轴集中在 security retrieval、merchant tooling 和 data analysis，和 Zoox 的 3D simulation / autonomous vehicle ecosystem 之间的迁移桥接没有被明确讲圆。HR 很可能会追问：这些 ML systems 和 replay sandbox 经验如何直接迁移到仿真链路。",
+        "fix": "在 Summary 第一句或 TikTok 项目前两条里补一层明确桥接，写清你做的是 replayable/synthetic evaluation、C++/Python 评估管线、模型行为验证或场景回放，并把它对齐到 simulation fidelity、scenario validation、pre-production testing 这类仿真语境。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 在 Summary 或 TikTok 最前面的 bullet 里补一条明确的 simulation/autonomy 迁移桥接，把 replayable testing、synthetic evaluation、C++/Python validation 讲成可迁移到 3D simulation 的能力。",
+    "[NICE] 如果要继续增强首屏说服力，可以把最相关的 C++/Python 经验前置到 TikTok 段落，并用一条更明确的场景验证/回放表述收束。"
+  ],
+  "revision_instructions": ""
+}

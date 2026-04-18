@@ -1,0 +1,18 @@
+view_id: prompt_retarget_old_match_bytedance
+title: Retarget Prompt（ByteDance 分支）
+pipeline: match_pipe
+stage: old_match_anchor / writer / bytedance
+role: writer
+description: ByteDance retarget 走共享主干 + 专用特殊块/同公司分支。
+system_block: strict_revision_system
+user_blocks:
+- retarget_prompt
+- retarget_bytedance_special
+- retarget_same_company_bytedance
+- retarget_project_pool
+- retarget_context
+- format_constraints_shared_head
+- format_constraints_branch_bytedance
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract

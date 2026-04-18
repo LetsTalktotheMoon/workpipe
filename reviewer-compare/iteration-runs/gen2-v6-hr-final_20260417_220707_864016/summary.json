@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-04-17T22:18:33",
+  "case_count": 10,
+  "cases": [
+    {
+      "label": "gen2/Discord-DBInfra",
+      "score": 92.9,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 71.0,
+      "top_rules": [
+        "P1-042",
+        "P3B-001",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "gen2/AppliedIntuition-CloudInfra",
+      "score": 96.3,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 81.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P3C-010"
+      ]
+    },
+    {
+      "label": "gen2/Fireblocks-SRE",
+      "score": 96.5,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 75.0,
+      "top_rules": [
+        "P1-030",
+        "P1-042",
+        "P2-001"
+      ]
+    },
+    {
+      "label": "gen2/ChildrensHospital-Azure",
+      "score": 94.3,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 4,
+      "low_count": 0,
+      "duration_seconds": 76.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P2-010",
+        "P2-030",
+        "P3C-010"
+      ]
+    },
+    {
+      "label": "gen2/CapitalOne-Manager2",
+      "score": 89.9,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 4,
+      "low_count": 0,
+      "duration_seconds": 72.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P2-030",
+        "P3B-010",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "gen2/Fanduel-AnalyticsManager",
+      "score": 89.0,
+      "verdict": "fail",
+      "critical_count": 0,
+      "high_count": 2,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 52.0,
+      "top_rules": [
+        "P2-001",
+        "P3B-010",
+        "P3D-001",
+        "P3E-013"
+      ]
+    },
+    {
+      "label": "gen2/Geico-SWE2",
+      "score": 96.3,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 60.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P3C-010"
+      ]
+    },
+    {
+      "label": "gen2/Doordash-Backend",
+      "score": 96.3,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 2,
+      "low_count": 0,
+      "duration_seconds": 55.0,
+      "top_rules": [
+        "P1-040",
+        "P2-001",
+        "P3C-010"
+      ]
+    },
+    {
+      "label": "gen2/Cisco-NetworkingSenior",
+      "score": 96.5,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 84.0,
+      "top_rules": [
+        "P1-042",
+        "P2-001",
+        "P3D-001"
+      ]
+    },
+    {
+      "label": "gen2/Genentech-MLInfra",
+      "score": 95.7,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "duration_seconds": 60.0,
+      "top_rules": [
+        "P1-030",
+        "P1-042",
+        "P3B-004"
+      ]
+    }
+  ]
+}

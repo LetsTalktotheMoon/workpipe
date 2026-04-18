@@ -1,0 +1,250 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:17:41",
+  "completed_at": "2026-04-17T23:18:39",
+  "duration_seconds": 58.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets; DiDi Experience bullets; TikTok project bullets",
+          "issue": "正文中出现了加粗的修饰语/限定词（例如 team-maintained、existing、internal 类表达），而规则要求正文里只保留技术栈名词和规模/scope 量化信号的加粗。",
+          "fix": "取消这些修饰语的加粗，只保留技术名词、规模词和核心指标的加粗。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary 第一句",
+          "issue": "首句以“Transitioning from...”和“Candidate”作 framing，首屏先传递的是转型状态而不是角色方向与领域信号，弱化了 6-8 秒扫读时的判断效率。",
+          "fix": "把首句改成直接的角色/领域锚点，例如先写 analytics / data / risk / SQL-Python-Spark 方向，再补充 3+ years 和主要成果。"
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills + Experience 全文",
+          "issue": "JD 明确要求 SQL、Excel、数据可视化软件；简历只显式覆盖了 SQL/Python/Spark，未给出 Excel 和任何明确数据可视化软件（如 Tableau）的正文证据，ATS 会视为 must-have 覆盖不完整。",
+          "fix": "在最相关的 DiDi 或 Temu 经历里补一条明确写出 Excel 和数据可视化软件的使用场景，并在 Skills 中同步补上对应工具名；不要删除现有技术栈。"
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "DiDi · Senior Data Analyst 段",
+          "issue": "岗位是 Analytics Manager，JD 明写 1+ years managing/coaching analysts；简历虽然写了 `Data lead`，但没有直接说明管理对象、coaching、任务优先级安排、输出 review 或 direct reports，manager scope 证据不足。",
+          "fix": "在 DiDi 段补一条明确 people-management 证据，例如管理/辅导的分析师人数、任务分配、周度 review 机制、跨职能优先级协调；如果没有真实管理经历，不要用 title 代替 scope。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security 段及其项目",
+          "issue": "最新经历几乎全部依赖百分比改善，缺少 Tier1 规模/scope 锚点（如数据量、请求量、团队规模、SLA），HR 很难判断影响范围。",
+          "fix": "在 TikTok 第一条或项目条中补一个可追问的规模锚点，例如每天处理的数据量、事件量、团队人数、服务 SLA 或排查吞吐。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在最相关经历里补出 Excel 和明确的数据可视化软件证据，JD 的必需项现在缺少正文支撑。",
+      "[MUST] 在 DiDi 段补出真实 people-management / coaching / task-prioritization 证据，当前不够支撑 Manager 职责。",
+      "[SHOULD] 把 Summary 第一句从“转型中”改成直接的 analytics / risk / SQL-Python-Spark 角色锚点，提升首屏命中率。",
+      "[SHOULD] 给 TikTok 最新经历补一个 Tier1 规模锚点，避免整段只剩百分比提升。"
+    ],
+    "revision_instructions": "保留所有不可变字段不动。把 Summary 第一句改成直接的角色/领域锚点，不要以 Transitioning/Candidate 开头。DiDi 段补一条明确的管理证据，写清楚你管理/辅导了多少分析师、如何分配请求、如何 review 输出。再在 DiDi 或 Temu 段补一条明确写出 Excel 和数据可视化软件（优先 Tableau 或等价工具）的使用场景，并同步到 Skills。TikTok 最新经历加一个 Tier1 规模锚点（数据量、请求量、团队规模、SLA 任选其一），增强可信度。最后把正文里加粗的修饰语去掉，只保留技术名词和关键量化指标的加粗。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 6.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 85.3,
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在最相关经历里补出 Excel 和明确的数据可视化软件证据，JD 的必需项现在缺少正文支撑。",
+      "[MUST] 在 DiDi 段补出真实 people-management / coaching / task-prioritization 证据，当前不够支撑 Manager 职责。",
+      "[SHOULD] 把 Summary 第一句从“转型中”改成直接的 analytics / risk / SQL-Python-Spark 角色锚点，提升首屏命中率。",
+      "[SHOULD] 给 TikTok 最新经历补一个 Tier1 规模锚点，避免整段只剩百分比提升。"
+    ],
+    "revision_instructions": "保留所有不可变字段不动。把 Summary 第一句改成直接的角色/领域锚点，不要以 Transitioning/Candidate 开头。DiDi 段补一条明确的管理证据，写清楚你管理/辅导了多少分析师、如何分配请求、如何 review 输出。再在 DiDi 或 Temu 段补一条明确写出 Excel 和数据可视化软件（优先 Tableau 或等价工具）的使用场景，并同步到 Skills。TikTok 最新经历加一个 Tier1 规模锚点（数据量、请求量、团队规模、SLA 任选其一），增强可信度。最后把正文里加粗的修饰语去掉，只保留技术名词和关键量化指标的加粗。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience bullets; DiDi Experience bullets; TikTok project bullets",
+            "issue": "正文中出现了加粗的修饰语/限定词（例如 team-maintained、existing、internal 类表达），而规则要求正文里只保留技术栈名词和规模/scope 量化信号的加粗。",
+            "fix": "取消这些修饰语的加粗，只保留技术名词、规模词和核心指标的加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary 第一句",
+            "issue": "首句以“Transitioning from...”和“Candidate”作 framing，首屏先传递的是转型状态而不是角色方向与领域信号，弱化了 6-8 秒扫读时的判断效率。",
+            "fix": "把首句改成直接的角色/领域锚点，例如先写 analytics / data / risk / SQL-Python-Spark 方向，再补充 3+ years 和主要成果。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-001",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Skills + Experience 全文",
+            "issue": "JD 明确要求 SQL、Excel、数据可视化软件；简历只显式覆盖了 SQL/Python/Spark，未给出 Excel 和任何明确数据可视化软件（如 Tableau）的正文证据，ATS 会视为 must-have 覆盖不完整。",
+            "fix": "在最相关的 DiDi 或 Temu 经历里补一条明确写出 Excel 和数据可视化软件的使用场景，并在 Skills 中同步补上对应工具名；不要删除现有技术栈。"
+          },
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "DiDi · Senior Data Analyst 段",
+            "issue": "岗位是 Analytics Manager，JD 明写 1+ years managing/coaching analysts；简历虽然写了 `Data lead`，但没有直接说明管理对象、coaching、任务优先级安排、输出 review 或 direct reports，manager scope 证据不足。",
+            "fix": "在 DiDi 段补一条明确 people-management 证据，例如管理/辅导的分析师人数、任务分配、周度 review 机制、跨职能优先级协调；如果没有真实管理经历，不要用 title 代替 scope。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security 段及其项目",
+            "issue": "最新经历几乎全部依赖百分比改善，缺少 Tier1 规模/scope 锚点（如数据量、请求量、团队规模、SLA），HR 很难判断影响范围。",
+            "fix": "在 TikTok 第一条或项目条中补一个可追问的规模锚点，例如每天处理的数据量、事件量、团队人数、服务 SLA 或排查吞吐。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在最相关经历里补出 Excel 和明确的数据可视化软件证据，JD 的必需项现在缺少正文支撑。",
+        "[MUST] 在 DiDi 段补出真实 people-management / coaching / task-prioritization 证据，当前不够支撑 Manager 职责。",
+        "[SHOULD] 把 Summary 第一句从“转型中”改成直接的 analytics / risk / SQL-Python-Spark 角色锚点，提升首屏命中率。",
+        "[SHOULD] 给 TikTok 最新经历补一个 Tier1 规模锚点，避免整段只剩百分比提升。"
+      ],
+      "revision_instructions": "保留所有不可变字段不动。把 Summary 第一句改成直接的角色/领域锚点，不要以 Transitioning/Candidate 开头。DiDi 段补一条明确的管理证据，写清楚你管理/辅导了多少分析师、如何分配请求、如何 review 输出。再在 DiDi 或 Temu 段补一条明确写出 Excel 和数据可视化软件（优先 Tableau 或等价工具）的使用场景，并同步到 Skills。TikTok 最新经历加一个 Tier1 规模锚点（数据量、请求量、团队规模、SLA 任选其一），增强可信度。最后把正文里加粗的修饰语去掉，只保留技术名词和关键量化指标的加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience bullets; DiDi Experience bullets; TikTok project bullets",
+          "issue": "正文中出现了加粗的修饰语/限定词（例如 team-maintained、existing、internal 类表达），而规则要求正文里只保留技术栈名词和规模/scope 量化信号的加粗。",
+          "fix": "取消这些修饰语的加粗，只保留技术名词、规模词和核心指标的加粗。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-001",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Skills + Experience 全文",
+          "issue": "JD 明确要求 SQL、Excel、数据可视化软件；简历只显式覆盖了 SQL/Python/Spark，未给出 Excel 和任何明确数据可视化软件（如 Tableau）的正文证据，ATS 会视为 must-have 覆盖不完整。",
+          "fix": "在最相关的 DiDi 或 Temu 经历里补一条明确写出 Excel 和数据可视化软件的使用场景，并在 Skills 中同步补上对应工具名；不要删除现有技术栈。"
+        },
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "DiDi · Senior Data Analyst 段",
+          "issue": "岗位是 Analytics Manager，JD 明写 1+ years managing/coaching analysts；简历虽然写了 `Data lead`，但没有直接说明管理对象、coaching、任务优先级安排、输出 review 或 direct reports，manager scope 证据不足。",
+          "fix": "在 DiDi 段补一条明确 people-management 证据，例如管理/辅导的分析师人数、任务分配、周度 review 机制、跨职能优先级协调；如果没有真实管理经历，不要用 title 代替 scope。"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary 第一句",
+          "issue": "首句以“Transitioning from...”和“Candidate”作 framing，首屏先传递的是转型状态而不是角色方向与领域信号，弱化了 6-8 秒扫读时的判断效率。",
+          "fix": "把首句改成直接的角色/领域锚点，例如先写 analytics / data / risk / SQL-Python-Spark 方向，再补充 3+ years 和主要成果。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security 段及其项目",
+          "issue": "最新经历几乎全部依赖百分比改善，缺少 Tier1 规模/scope 锚点（如数据量、请求量、团队规模、SLA），HR 很难判断影响范围。",
+          "fix": "在 TikTok 第一条或项目条中补一个可追问的规模锚点，例如每天处理的数据量、事件量、团队人数、服务 SLA 或排查吞吐。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-001",
+          "P3B-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3B-001",
+      "P3B-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-001 @ Skills + Experience 全文",
+      "P3B-010 @ DiDi · Senior Data Analyst 段"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience bullets across TikTok, DiDi, and Temu",
+        "issue": "Primary result metrics and scope tokens are not consistently bolded, so the scan path is dominated by technology names rather than the outcome/scope signals the structure rules want to foreground.",
+        "fix": "Bold the most important metric or scope token in each result line, for example `**32%**`, `**18%**`, `**13-person**`, `**20+ city**`, and `**45 minutes**`, while keeping the existing tech-token bolding."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "high",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The first sentence opens with transition framing (`software engineer transitioning from data analytics`) instead of a direct role/stack anchor, so HR has to infer the target fit after the first clause.",
+        "fix": "Rewrite the first sentence to lead with the target role and strongest technical domain, then place the transition story second, e.g. `Backend engineer with X years building...`."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Professional Summary / overall timeline",
+        "issue": "The JD requires minimum 6 years of software development experience, but the visible timeline only supports roughly 4.5 years from the first role through the TikTok internship, and the summary itself claims only 3+ years. That is a hard leveling mismatch for Software Engineer II.",
+        "fix": "If earlier full-time SWE experience exists, surface it explicitly with dates and scope; otherwise this JD is structurally too senior for the current timeline and should be redirected to a lower-level opening.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3B-011",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills / DiDi Experience",
+        "issue": "The JD repeatedly calls for named Azure services and Azure DevOps depth (`Azure App Service`, `API Management`, `Service Bus`, `Application Insights`, `Gateway`, `Event Grid`, `Key Vault`, `Azure SQL`, `Azure DevOps Services`), but the resume only shows generic `Azure` mentions and no direct ownership evidence for those services.",
+        "fix": "Add the exact Azure services actually used in the most relevant experience bullet and describe what you owned; if those services were not used, this is a structural fit problem for the role."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Resolve the 6-year Microsoft/Azure leveling gap: either surface earlier full-time SWE experience with dates and scope, or treat this JD as structurally too senior.",
+    "[MUST] Add exact Azure service and Azure DevOps evidence in the most relevant bullet if those services were truly used; `Azure` alone is too generic for this JD.",
+    "[SHOULD] Rewrite the first Summary sentence to a role-first backend/platform framing instead of a transition-first framing.",
+    "[NICE] Bold the primary metric/scope token in each result line to improve first-pass scanability."
+  ],
+  "revision_instructions": "[结构性错配] 先确认这份经历是否真的能满足 JD 的 6+ 年 Microsoft/Azure 门槛；如果有更早 full-time SWE 经验，把它补进最相关经历并写清年月与 scope，否则应换更低级别岗位。然后在最相关的 DiDi/TikTok bullet 里补出你实际用过的 Azure App Service / API Management / Service Bus / Azure DevOps 等命名服务证据，只写 `Azure` 不够。最后把 Summary 第一句改成 role-first 的 backend/platform framing，并给每条结果里的主指标和 scope token 加粗。"
+}

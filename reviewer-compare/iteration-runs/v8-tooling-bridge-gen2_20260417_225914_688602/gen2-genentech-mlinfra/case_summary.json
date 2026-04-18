@@ -1,0 +1,344 @@
+{
+  "label": "gen2/Genentech-MLInfra",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43",
+  "historical": {},
+  "metadata": {
+    "label": "gen2/Genentech-MLInfra",
+    "company": "Genentech",
+    "title": "Machine Learning Engineer/Senior Machine Learning Engineer - Infra",
+    "role_type": "mle",
+    "seniority": "senior",
+    "team_direction": "Genentech is a leading biotechnology company focused on innovation and healthcare access",
+    "tech_required": [
+      "C++",
+      "Scala",
+      "Git",
+      "Python",
+      "Rust",
+      "Go",
+      "AWS"
+    ],
+    "tech_preferred": [
+      "ML Infrastructure",
+      "PyTorch"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/genentech/2026-04-06/69d3dab0366bb95ba5537f43/review.json",
+    "historical": {},
+    "portfolio_review": {
+      "weighted_score": 94.5,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.3,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 8.9,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.5,
+      "verdict": "pass",
+      "seed_label": "Amazon AGI/LLM Anchor",
+      "route_mode": "retarget",
+      "revised": true,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T21:54:04",
+      "rereview_rounds": 1,
+      "rereview_revised": true,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_achievement"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 93.9,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T23:08:40",
+    "completed_at": "2026-04-17T23:09:31",
+    "duration_seconds": 51.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok / DiDi / Temu",
+            "issue": "Many of the quantitative proof points are left unbolded, so the format does not visually foreground the scale and result signals the resume relies on.",
+            "fix": "Bold the most salient scale/result markers in each bullet, especially team size, city count, latency, before/after metrics, and benchmark or workflow scope; keep the emphasis to the strongest 1-2 numbers per bullet."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Security bullets and project bullets",
+            "issue": "Qualifier phrases such as team-maintained, team-owned, and intern-owned are bolded, which the format treats as discouraged modifier emphasis.",
+            "fix": "Remove bold from ownership qualifiers and reserve bold for technologies and hard proof points like metrics, scale, or system boundaries."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Software Engineer Intern | TikTok · Security",
+            "issue": "This section stacks many programming languages and infra technologies across one intern role (Go, Python, Java, Scala, Rust, C++), which reads more like breadth signaling than a sharply owned scope.",
+            "fix": "Center the section on 2-3 primary languages and one clear service boundary; move the rest into supporting context or the project block so the ownership story stays focused."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Software Engineer Intern | TikTok · Security",
+            "issue": "The latest/relevant experience leans heavily on percentage lifts and elapsed-time reductions without enough explicit scale or scope to anchor the impact.",
+            "fix": "Add one concrete scope metric for the retrieval service or evaluation set, such as daily query volume, number of reviewers, benchmark size, or service count."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Tighten the TikTok intern section around 2-3 primary languages and one owned infra boundary instead of spreading the story across six languages.",
+        "[MUST] Add one concrete scale metric to the TikTok first bullet or project block so the impact is not only percentage-based.",
+        "[SHOULD] Remove bold from qualifier phrases like team-maintained, team-owned, and intern-owned.",
+        "[NICE] Bold the strongest quantitative proof points consistently across Experience bullets."
+      ],
+      "revision_instructions": "Keep the immutable role history unchanged, but rewrite the TikTok intern section to read as a focused infra story: emphasize Go/Python/Java as the primary stack, mention Scala/Rust/C++ only when directly needed as integration or parser support, and add one concrete scope metric to the first bullet or project block (for example daily event volume, benchmark size, or internal user count). Remove bold from qualifier adjectives such as team-maintained and team-owned, and instead bold the main metrics and scale markers. If you want, mirror that emphasis style across DiDi and Temu so the quantitative evidence is easier to scan.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.0,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 8.0,
+        "r4_rationality": 9.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 96.8,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Tighten the TikTok intern section around 2-3 primary languages and one owned infra boundary instead of spreading the story across six languages.",
+        "[MUST] Add one concrete scale metric to the TikTok first bullet or project block so the impact is not only percentage-based.",
+        "[SHOULD] Remove bold from qualifier phrases like team-maintained, team-owned, and intern-owned.",
+        "[NICE] Bold the strongest quantitative proof points consistently across Experience bullets."
+      ],
+      "revision_instructions": "Keep the immutable role history unchanged, but rewrite the TikTok intern section to read as a focused infra story: emphasize Go/Python/Java as the primary stack, mention Scala/Rust/C++ only when directly needed as integration or parser support, and add one concrete scope metric to the first bullet or project block (for example daily event volume, benchmark size, or internal user count). Remove bold from qualifier adjectives such as team-maintained and team-owned, and instead bold the main metrics and scale markers. If you want, mirror that emphasis style across DiDi and Temu so the quantitative evidence is easier to scan.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Experience bullets across TikTok / DiDi / Temu",
+              "issue": "Many of the quantitative proof points are left unbolded, so the format does not visually foreground the scale and result signals the resume relies on.",
+              "fix": "Bold the most salient scale/result markers in each bullet, especially team size, city count, latency, before/after metrics, and benchmark or workflow scope; keep the emphasis to the strongest 1-2 numbers per bullet."
+            },
+            {
+              "rule_id": "P1-042",
+              "severity": "medium",
+              "field": "TikTok Security bullets and project bullets",
+              "issue": "Qualifier phrases such as team-maintained, team-owned, and intern-owned are bolded, which the format treats as discouraged modifier emphasis.",
+              "fix": "Remove bold from ownership qualifiers and reserve bold for technologies and hard proof points like metrics, scale, or system boundaries."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3C-010",
+              "sub_area": "3C",
+              "severity": "high",
+              "field": "Software Engineer Intern | TikTok · Security",
+              "issue": "This section stacks many programming languages and infra technologies across one intern role (Go, Python, Java, Scala, Rust, C++), which reads more like breadth signaling than a sharply owned scope.",
+              "fix": "Center the section on 2-3 primary languages and one clear service boundary; move the rest into supporting context or the project block so the ownership story stays focused."
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "Software Engineer Intern | TikTok · Security",
+              "issue": "The latest/relevant experience leans heavily on percentage lifts and elapsed-time reductions without enough explicit scale or scope to anchor the impact.",
+              "fix": "Add one concrete scope metric for the retrieval service or evaluation set, such as daily query volume, number of reviewers, benchmark size, or service count."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Tighten the TikTok intern section around 2-3 primary languages and one owned infra boundary instead of spreading the story across six languages.",
+          "[MUST] Add one concrete scale metric to the TikTok first bullet or project block so the impact is not only percentage-based.",
+          "[SHOULD] Remove bold from qualifier phrases like team-maintained, team-owned, and intern-owned.",
+          "[NICE] Bold the strongest quantitative proof points consistently across Experience bullets."
+        ],
+        "revision_instructions": "Keep the immutable role history unchanged, but rewrite the TikTok intern section to read as a focused infra story: emphasize Go/Python/Java as the primary stack, mention Scala/Rust/C++ only when directly needed as integration or parser support, and add one concrete scope metric to the first bullet or project block (for example daily event volume, benchmark size, or internal user count). Remove bold from qualifier adjectives such as team-maintained and team-owned, and instead bold the main metrics and scale markers. If you want, mirror that emphasis style across DiDi and Temu so the quantitative evidence is easier to scan.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Experience bullets across TikTok / DiDi / Temu",
+            "issue": "Many of the quantitative proof points are left unbolded, so the format does not visually foreground the scale and result signals the resume relies on.",
+            "fix": "Bold the most salient scale/result markers in each bullet, especially team size, city count, latency, before/after metrics, and benchmark or workflow scope; keep the emphasis to the strongest 1-2 numbers per bullet."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Security bullets and project bullets",
+            "issue": "Qualifier phrases such as team-maintained, team-owned, and intern-owned are bolded, which the format treats as discouraged modifier emphasis.",
+            "fix": "Remove bold from ownership qualifiers and reserve bold for technologies and hard proof points like metrics, scale, or system boundaries."
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "Software Engineer Intern | TikTok · Security",
+            "issue": "This section stacks many programming languages and infra technologies across one intern role (Go, Python, Java, Scala, Rust, C++), which reads more like breadth signaling than a sharply owned scope.",
+            "fix": "Center the section on 2-3 primary languages and one clear service boundary; move the rest into supporting context or the project block so the ownership story stays focused."
+          }
+        ],
+        "r4_rationality": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "Software Engineer Intern | TikTok · Security",
+            "issue": "The latest/relevant experience leans heavily on percentage lifts and elapsed-time reductions without enough explicit scale or scope to anchor the impact.",
+            "fix": "Add one concrete scope metric for the retrieval service or evaluation set, such as daily query volume, number of reviewers, benchmark size, or service count."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 2,
+          "rule_ids": [
+            "P1-040",
+            "P1-042"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3C-010",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P1-042",
+        "P3C-010",
+        "P3D-001"
+      ],
+      "high_or_critical": [
+        "P3C-010 @ Software Engineer Intern | TikTok · Security"
+      ]
+    }
+  }
+}

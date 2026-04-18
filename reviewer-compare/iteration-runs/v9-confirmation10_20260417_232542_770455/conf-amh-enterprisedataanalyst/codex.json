@@ -1,0 +1,256 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:30:19",
+  "completed_at": "2026-04-17T23:31:19",
+  "duration_seconds": 60.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary, bullet 1",
+          "issue": "The bullet starts with a noun phrase ('Data analyst with...') rather than a strong action verb, which weakens the required bullet framing.",
+          "fix": "Rewrite the opening as a verb-led sentence while keeping the same role signal, e.g. 'Delivers 3+ years of SQL, Python, ETL, Databricks, and Snowflake-driven analytics...'."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience, bullets 2 and 4",
+          "issue": "Modifier phrases are bolded inside the body text (for example, 'team-owned dataset' and 'team-maintained service'), which violates the bolding rule.",
+          "fix": "Remove bold from qualifier phrases and keep bold only on technical terms and allowed scale/scope signals."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-004",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary / overall narrative",
+          "issue": "The resume does not explicitly bridge prior consumer, ops, and security analytics work to AMH's real-estate, rental, and homebuilding BI context, so a recruiter may need to infer the migration path.",
+          "fix": "Add one short bridge clause in Summary or the first relevant experience bullet explaining how the prior work maps to stakeholder requirements, financial reporting, dashboarding, and data-quality work for AMH.",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Experience, overall section",
+          "issue": "The section stacks too many same-family tools and platforms in one intern role, which reads like stack breadth rather than a clear core contribution narrative.",
+          "fix": "Tighten the TikTok story around one primary data/analytics contribution path, keep only the most relevant stack tokens for the AMH target, and avoid listing multiple platform families unless each is clearly scoped to a distinct internal workflow.",
+          "note": null
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience, all four bullets",
+          "issue": "The most recent and most relevant experience is almost entirely expressed as percentage improvements, with no concrete tier-1 scope anchor such as dataset size, case volume, team size, or report consumers.",
+          "fix": "Add one concrete scope or ownership metric to the lead TikTok bullet, such as number of analysts supported, daily cases processed, dataset size, or downstream consumers, and keep the percentage as the secondary result.",
+          "note": null
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the first Summary bullet so it starts with a verb and stays explicitly data-analyst focused.",
+      "[MUST] Tighten the TikTok section into a narrower core narrative and add one concrete scope anchor to the lead bullet.",
+      "[SHOULD] Add one bridge sentence linking prior analytics/reporting work to AMH's rental/homebuilding BI and financial-reporting context.",
+      "[NICE] Remove bold formatting from qualifier phrases like `team-owned` and `team-maintained`."
+    ],
+    "revision_instructions": "[MUST] Rewrite Professional Summary bullet 1 to begin with a verb while preserving the Senior Enterprise Data Analyst framing. [MUST] Rework TikTok to emphasize one primary data/analytics contribution path, reduce stack breadth, and add a concrete scope anchor in the first bullet (team size, dataset size, cases/day, or consumers supported). [SHOULD] Add a short bridge clause connecting prior operational analytics/reporting work to AMH's rental/homebuilding BI and financial-reporting needs. [SHOULD] Remove bolding from non-technical qualifier phrases such as `team-owned` and `team-maintained`.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 8.5,
+      "r2_jd_fitness": 9.0,
+      "r3_overqualification": 8.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 93.5,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the first Summary bullet so it starts with a verb and stays explicitly data-analyst focused.",
+      "[MUST] Tighten the TikTok section into a narrower core narrative and add one concrete scope anchor to the lead bullet.",
+      "[SHOULD] Add one bridge sentence linking prior analytics/reporting work to AMH's rental/homebuilding BI and financial-reporting context.",
+      "[NICE] Remove bold formatting from qualifier phrases like `team-owned` and `team-maintained`."
+    ],
+    "revision_instructions": "[MUST] Rewrite Professional Summary bullet 1 to begin with a verb while preserving the Senior Enterprise Data Analyst framing. [MUST] Rework TikTok to emphasize one primary data/analytics contribution path, reduce stack breadth, and add a concrete scope anchor in the first bullet (team size, dataset size, cases/day, or consumers supported). [SHOULD] Add a short bridge clause connecting prior operational analytics/reporting work to AMH's rental/homebuilding BI and financial-reporting needs. [SHOULD] Remove bolding from non-technical qualifier phrases such as `team-owned` and `team-maintained`.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "Professional Summary, bullet 1",
+            "issue": "The bullet starts with a noun phrase ('Data analyst with...') rather than a strong action verb, which weakens the required bullet framing.",
+            "fix": "Rewrite the opening as a verb-led sentence while keeping the same role signal, e.g. 'Delivers 3+ years of SQL, Python, ETL, Databricks, and Snowflake-driven analytics...'."
+          },
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok Experience, bullets 2 and 4",
+            "issue": "Modifier phrases are bolded inside the body text (for example, 'team-owned dataset' and 'team-maintained service'), which violates the bolding rule.",
+            "fix": "Remove bold from qualifier phrases and keep bold only on technical terms and allowed scale/scope signals."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-004",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary / overall narrative",
+            "issue": "The resume does not explicitly bridge prior consumer, ops, and security analytics work to AMH's real-estate, rental, and homebuilding BI context, so a recruiter may need to infer the migration path.",
+            "fix": "Add one short bridge clause in Summary or the first relevant experience bullet explaining how the prior work maps to stakeholder requirements, financial reporting, dashboarding, and data-quality work for AMH.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3C-010",
+            "sub_area": "3C",
+            "severity": "high",
+            "field": "TikTok Experience, overall section",
+            "issue": "The section stacks too many same-family tools and platforms in one intern role, which reads like stack breadth rather than a clear core contribution narrative.",
+            "fix": "Tighten the TikTok story around one primary data/analytics contribution path, keep only the most relevant stack tokens for the AMH target, and avoid listing multiple platform families unless each is clearly scoped to a distinct internal workflow.",
+            "note": null
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience, all four bullets",
+            "issue": "The most recent and most relevant experience is almost entirely expressed as percentage improvements, with no concrete tier-1 scope anchor such as dataset size, case volume, team size, or report consumers.",
+            "fix": "Add one concrete scope or ownership metric to the lead TikTok bullet, such as number of analysts supported, daily cases processed, dataset size, or downstream consumers, and keep the percentage as the secondary result.",
+            "note": null
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the first Summary bullet so it starts with a verb and stays explicitly data-analyst focused.",
+        "[MUST] Tighten the TikTok section into a narrower core narrative and add one concrete scope anchor to the lead bullet.",
+        "[SHOULD] Add one bridge sentence linking prior analytics/reporting work to AMH's rental/homebuilding BI and financial-reporting context.",
+        "[NICE] Remove bold formatting from qualifier phrases like `team-owned` and `team-maintained`."
+      ],
+      "revision_instructions": "[MUST] Rewrite Professional Summary bullet 1 to begin with a verb while preserving the Senior Enterprise Data Analyst framing. [MUST] Rework TikTok to emphasize one primary data/analytics contribution path, reduce stack breadth, and add a concrete scope anchor in the first bullet (team size, dataset size, cases/day, or consumers supported). [SHOULD] Add a short bridge clause connecting prior operational analytics/reporting work to AMH's rental/homebuilding BI and financial-reporting needs. [SHOULD] Remove bolding from non-technical qualifier phrases such as `team-owned` and `team-maintained`.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "Professional Summary, bullet 1",
+          "issue": "The bullet starts with a noun phrase ('Data analyst with...') rather than a strong action verb, which weakens the required bullet framing.",
+          "fix": "Rewrite the opening as a verb-led sentence while keeping the same role signal, e.g. 'Delivers 3+ years of SQL, Python, ETL, Databricks, and Snowflake-driven analytics...'."
+        },
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok Experience, bullets 2 and 4",
+          "issue": "Modifier phrases are bolded inside the body text (for example, 'team-owned dataset' and 'team-maintained service'), which violates the bolding rule.",
+          "fix": "Remove bold from qualifier phrases and keep bold only on technical terms and allowed scale/scope signals."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-004",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary / overall narrative",
+          "issue": "The resume does not explicitly bridge prior consumer, ops, and security analytics work to AMH's real-estate, rental, and homebuilding BI context, so a recruiter may need to infer the migration path.",
+          "fix": "Add one short bridge clause in Summary or the first relevant experience bullet explaining how the prior work maps to stakeholder requirements, financial reporting, dashboarding, and data-quality work for AMH.",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-010",
+          "sub_area": "3C",
+          "severity": "high",
+          "field": "TikTok Experience, overall section",
+          "issue": "The section stacks too many same-family tools and platforms in one intern role, which reads like stack breadth rather than a clear core contribution narrative.",
+          "fix": "Tighten the TikTok story around one primary data/analytics contribution path, keep only the most relevant stack tokens for the AMH target, and avoid listing multiple platform families unless each is clearly scoped to a distinct internal workflow.",
+          "note": null
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience, all four bullets",
+          "issue": "The most recent and most relevant experience is almost entirely expressed as percentage improvements, with no concrete tier-1 scope anchor such as dataset size, case volume, team size, or report consumers.",
+          "fix": "Add one concrete scope or ownership metric to the lead TikTok bullet, such as number of analysts supported, daily cases processed, dataset size, or downstream consumers, and keep the percentage as the secondary result.",
+          "note": null
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 2,
+        "rule_ids": [
+          "P1-030",
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-004",
+          "P3C-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-030",
+      "P1-042",
+      "P3B-004",
+      "P3C-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3C-010 @ TikTok Experience, overall section"
+    ]
+  }
+}

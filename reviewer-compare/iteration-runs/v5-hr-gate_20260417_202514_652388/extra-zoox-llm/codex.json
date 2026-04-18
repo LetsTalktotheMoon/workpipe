@@ -1,0 +1,222 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:30:10",
+  "completed_at": "2026-04-17T20:31:07",
+  "duration_seconds": 57.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok experience bullets 1, 3, 5 and Security Knowledge Retrieval Sandbox bullets 1, 3",
+          "issue": "修饰语/限定词被加粗，例如 `team-maintained`, `intern-owned` 这类词不应承担视觉强调；当前会让版面把注意力放到边界词而不是技术和结果。",
+          "fix": "取消这些修饰语的加粗，只保留技术名词、数量、延迟、比例等真正的信号词加粗。"
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": []
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary + TikTok Security Knowledge Retrieval Sandbox",
+          "issue": "对 `3D Simulation` 方向的桥接还停留在 `replayable testing` / `evaluation` 的抽象层，正文没有把它明确讲成 simulation-like validation 或 scenario replay 体系，HR 可能看不出为什么这份经历能迁移到 Zoox 的仿真岗位。",
+          "fix": "在 Summary 或 TikTok 项目里补一句明确桥接，例如把 sandbox 定义为用于 pre-production scenario replay / simulation-style validation 的内部环境，并说明它如何支撑模型行为评估与回放测试。"
+        },
+        {
+          "rule_id": "P3C-011",
+          "sub_area": "3C",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "这一段把 Go、Python、C++、Java 都写成了实操语言，配合 gRPC / Kafka / Docker / Kubernetes / PyTorch 的组合，读起来像一个 intern 段同时日常主用多种编程语言，容易显得栈面过宽。",
+          "fix": "收敛成 1-2 个主语言，再把其他语言降级为接口对接、脚本、适配器或协作开发的补充证据；在单条 bullet 里不要同时堆太多主语言。"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "最新经历主要依赖百分比改善和时间改写，缺少更强的规模/scope 锚点，作为 senior MLE simulation 岗位的首屏抓手偏弱。",
+          "fix": "补一个可追问的规模信号，例如请求量、样本量、回放规模、服务数、团队边界或 benchmark 规模；把一两个百分比结果替换成更具体的 scope 表达。"
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在 Summary 和 TikTok 项目里把 `replay sandbox` 明确写成 simulation-like validation / scenario replay 体系，直接建立与 Zoox 3D Simulation 的迁移桥接。",
+      "[MUST] 收敛 TikTok 段的语言栈表达，标清主语言与辅助语言，避免看起来像 4 种编程语言的日常主栈。",
+      "[SHOULD] 给最新经历补一个可追问的规模锚点，减少纯百分比叙事对首屏说服力的依赖。",
+      "[NICE] 取消 `team-maintained`、`intern-owned` 这类限定词的加粗，只保留技术名词和量化信号加粗。"
+    ],
+    "revision_instructions": "把 Summary 第一句和 TikTok 顶部项目改写成明确的 simulation / replay validation 叙事，而不是泛化的 backend/security work；在 TikTok 段标清主语言与辅助语言，避免 4 语言并列像主栈；为最新经历补 1 个规模锚点（请求量、样本量、回放规模、服务数或团队边界）；去掉修饰语加粗，只保留技术和数字加粗。",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 9.5,
+      "r3_overqualification": 9.0,
+      "r4_rationality": 9.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 4,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] 在 Summary 和 TikTok 项目里把 `replay sandbox` 明确写成 simulation-like validation / scenario replay 体系，直接建立与 Zoox 3D Simulation 的迁移桥接。",
+      "[MUST] 收敛 TikTok 段的语言栈表达，标清主语言与辅助语言，避免看起来像 4 种编程语言的日常主栈。",
+      "[SHOULD] 给最新经历补一个可追问的规模锚点，减少纯百分比叙事对首屏说服力的依赖。",
+      "[NICE] 取消 `team-maintained`、`intern-owned` 这类限定词的加粗，只保留技术名词和量化信号加粗。"
+    ],
+    "revision_instructions": "把 Summary 第一句和 TikTok 顶部项目改写成明确的 simulation / replay validation 叙事，而不是泛化的 backend/security work；在 TikTok 段标清主语言与辅助语言，避免 4 语言并列像主栈；为最新经历补 1 个规模锚点（请求量、样本量、回放规模、服务数或团队边界）；去掉修饰语加粗，只保留技术和数字加粗。",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "TikTok experience bullets 1, 3, 5 and Security Knowledge Retrieval Sandbox bullets 1, 3",
+            "issue": "修饰语/限定词被加粗，例如 `team-maintained`, `intern-owned` 这类词不应承担视觉强调；当前会让版面把注意力放到边界词而不是技术和结果。",
+            "fix": "取消这些修饰语的加粗，只保留技术名词、数量、延迟、比例等真正的信号词加粗。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary + TikTok Security Knowledge Retrieval Sandbox",
+            "issue": "对 `3D Simulation` 方向的桥接还停留在 `replayable testing` / `evaluation` 的抽象层，正文没有把它明确讲成 simulation-like validation 或 scenario replay 体系，HR 可能看不出为什么这份经历能迁移到 Zoox 的仿真岗位。",
+            "fix": "在 Summary 或 TikTok 项目里补一句明确桥接，例如把 sandbox 定义为用于 pre-production scenario replay / simulation-style validation 的内部环境，并说明它如何支撑模型行为评估与回放测试。"
+          },
+          {
+            "rule_id": "P3C-011",
+            "sub_area": "3C",
+            "severity": "medium",
+            "field": "TikTok · Security",
+            "issue": "这一段把 Go、Python、C++、Java 都写成了实操语言，配合 gRPC / Kafka / Docker / Kubernetes / PyTorch 的组合，读起来像一个 intern 段同时日常主用多种编程语言，容易显得栈面过宽。",
+            "fix": "收敛成 1-2 个主语言，再把其他语言降级为接口对接、脚本、适配器或协作开发的补充证据；在单条 bullet 里不要同时堆太多主语言。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security",
+            "issue": "最新经历主要依赖百分比改善和时间改写，缺少更强的规模/scope 锚点，作为 senior MLE simulation 岗位的首屏抓手偏弱。",
+            "fix": "补一个可追问的规模信号，例如请求量、样本量、回放规模、服务数、团队边界或 benchmark 规模；把一两个百分比结果替换成更具体的 scope 表达。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 在 Summary 和 TikTok 项目里把 `replay sandbox` 明确写成 simulation-like validation / scenario replay 体系，直接建立与 Zoox 3D Simulation 的迁移桥接。",
+        "[MUST] 收敛 TikTok 段的语言栈表达，标清主语言与辅助语言，避免看起来像 4 种编程语言的日常主栈。",
+        "[SHOULD] 给最新经历补一个可追问的规模锚点，减少纯百分比叙事对首屏说服力的依赖。",
+        "[NICE] 取消 `team-maintained`、`intern-owned` 这类限定词的加粗，只保留技术名词和量化信号加粗。"
+      ],
+      "revision_instructions": "把 Summary 第一句和 TikTok 顶部项目改写成明确的 simulation / replay validation 叙事，而不是泛化的 backend/security work；在 TikTok 段标清主语言与辅助语言，避免 4 语言并列像主栈；为最新经历补 1 个规模锚点（请求量、样本量、回放规模、服务数或团队边界）；去掉修饰语加粗，只保留技术和数字加粗。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "TikTok experience bullets 1, 3, 5 and Security Knowledge Retrieval Sandbox bullets 1, 3",
+          "issue": "修饰语/限定词被加粗，例如 `team-maintained`, `intern-owned` 这类词不应承担视觉强调；当前会让版面把注意力放到边界词而不是技术和结果。",
+          "fix": "取消这些修饰语的加粗，只保留技术名词、数量、延迟、比例等真正的信号词加粗。"
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-003",
+          "sub_area": "3B",
+          "severity": "medium",
+          "field": "Professional Summary + TikTok Security Knowledge Retrieval Sandbox",
+          "issue": "对 `3D Simulation` 方向的桥接还停留在 `replayable testing` / `evaluation` 的抽象层，正文没有把它明确讲成 simulation-like validation 或 scenario replay 体系，HR 可能看不出为什么这份经历能迁移到 Zoox 的仿真岗位。",
+          "fix": "在 Summary 或 TikTok 项目里补一句明确桥接，例如把 sandbox 定义为用于 pre-production scenario replay / simulation-style validation 的内部环境，并说明它如何支撑模型行为评估与回放测试。"
+        }
+      ],
+      "r3_overqualification": [
+        {
+          "rule_id": "P3C-011",
+          "sub_area": "3C",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "这一段把 Go、Python、C++、Java 都写成了实操语言，配合 gRPC / Kafka / Docker / Kubernetes / PyTorch 的组合，读起来像一个 intern 段同时日常主用多种编程语言，容易显得栈面过宽。",
+          "fix": "收敛成 1-2 个主语言，再把其他语言降级为接口对接、脚本、适配器或协作开发的补充证据；在单条 bullet 里不要同时堆太多主语言。"
+        }
+      ],
+      "r4_rationality": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok · Security",
+          "issue": "最新经历主要依赖百分比改善和时间改写，缺少更强的规模/scope 锚点，作为 senior MLE simulation 岗位的首屏抓手偏弱。",
+          "fix": "补一个可追问的规模信号，例如请求量、样本量、回放规模、服务数、团队边界或 benchmark 规模；把一两个百分比结果替换成更具体的 scope 表达。"
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_3_substance": {
+        "count": 3,
+        "rule_ids": [
+          "P3B-003",
+          "P3C-011",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P3B-003",
+      "P3C-011",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

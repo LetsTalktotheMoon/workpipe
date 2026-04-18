@@ -1,0 +1,859 @@
+{
+  "generated_at_utc": "2026-04-13T16:17:31+00:00",
+  "summary": {
+    "group_count": 12,
+    "covered_title_count": 33,
+    "singleton_count": 0,
+    "singleton_titles": [],
+    "title_group_counts": {
+      "思辨与创新": 9,
+      "合作": 6,
+      "管理/领导": 6,
+      "Architecture / Systems": 3,
+      "B2B / B2C": 3,
+      "Data Engineering": 3,
+      "Database Systems": 3,
+      "Travel / Hospitality": 3,
+      "抗压": 3,
+      "Backend Development": 2,
+      "Banking": 2,
+      "Consumer Products / Consumer Internet": 2,
+      "Data Science / Analytics": 2,
+      "Education / EdTech": 2,
+      "Energy / Utilities": 2,
+      "Enterprise Software / SaaS": 2,
+      "Finance / FinTech": 2,
+      "Frontend Development": 2,
+      "Full-Stack Development": 2,
+      "Gaming / Entertainment": 2,
+      "Healthcare": 2,
+      "Life Sciences / Biotech": 2,
+      "Logistics / Supply Chain": 2,
+      "Manufacturing / Industrial": 2,
+      "Media / Advertising": 2,
+      "Public Sector / Government": 2,
+      "Real Estate / PropTech": 2,
+      "Retail / E-commerce": 2,
+      "Risk / Fraud / Credit": 2,
+      "Software Engineering": 2,
+      "Telecom": 2,
+      "Trading": 2,
+      "Web Development": 2
+    }
+  },
+  "groups": [
+    {
+      "group_label": "产业运营与线下基础设施",
+      "merged_titles_text": "合作、抗压、Travel / Hospitality、Logistics / Supply Chain、Manufacturing / Industrial、Energy / Utilities、Real Estate / PropTech、Telecom",
+      "titles": [
+        "合作",
+        "抗压",
+        "Travel / Hospitality",
+        "Logistics / Supply Chain",
+        "Manufacturing / Industrial",
+        "Energy / Utilities",
+        "Real Estate / PropTech",
+        "Telecom"
+      ],
+      "common_introduction": "这组标题描述的是围绕线下运营、供应链和基础设施的行业场景，强调流程协同和服务连续性。",
+      "common_business_scenario": "常见于仓储运输、生产调度、能源运维、资产管理和通信服务团队，需要把复杂流程在线化并保持稳定运行。",
+      "title_focuses": [
+        {
+          "title": "合作",
+          "bucket": "soft_skill",
+          "focus": "强调协作、沟通、跨团队配合和利益相关方对齐。",
+          "frequency": 2773
+        },
+        {
+          "title": "抗压",
+          "bucket": "soft_skill",
+          "focus": "强调在压力、变化和多任务环境下保持稳定推进、节奏控制和质量把关。",
+          "frequency": 813
+        },
+        {
+          "title": "Travel / Hospitality",
+          "bucket": "business_domain",
+          "focus": "强调出行、预订和服务履约体验。",
+          "frequency": 80
+        },
+        {
+          "title": "Logistics / Supply Chain",
+          "bucket": "business_domain",
+          "focus": "强调仓储、运输和供应链协同。",
+          "frequency": 74
+        },
+        {
+          "title": "Manufacturing / Industrial",
+          "bucket": "business_domain",
+          "focus": "强调生产流程、设备协同和制造数字化。",
+          "frequency": 59
+        },
+        {
+          "title": "Energy / Utilities",
+          "bucket": "business_domain",
+          "focus": "强调能源生产、调度和运营监控。",
+          "frequency": 38
+        },
+        {
+          "title": "Real Estate / PropTech",
+          "bucket": "business_domain",
+          "focus": "强调房产交易、租赁和资产管理流程数字化。",
+          "frequency": 6
+        },
+        {
+          "title": "Telecom",
+          "bucket": "business_domain",
+          "focus": "强调通信网络、运营支撑和服务质量保障。",
+          "frequency": 2
+        }
+      ],
+      "title_focuses_text": "合作：强调协作、沟通、跨团队配合和利益相关方对齐。\n抗压：强调在压力、变化和多任务环境下保持稳定推进、节奏控制和质量把关。\nTravel / Hospitality：强调出行、预订和服务履约体验。\nLogistics / Supply Chain：强调仓储、运输和供应链协同。\nManufacturing / Industrial：强调生产流程、设备协同和制造数字化。\nEnergy / Utilities：强调能源生产、调度和运营监控。\nReal Estate / PropTech：强调房产交易、租赁和资产管理流程数字化。\nTelecom：强调通信网络、运营支撑和服务质量保障。",
+      "title_count": 8,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 6,
+        "soft_skill": 2
+      }
+    },
+    {
+      "group_label": "产品增长与商业化",
+      "merged_titles_text": "合作、思辨与创新、Retail / E-commerce、Consumer Products / Consumer Internet、Media / Advertising、Gaming / Entertainment、B2B / B2C",
+      "titles": [
+        "合作",
+        "思辨与创新",
+        "Retail / E-commerce",
+        "Consumer Products / Consumer Internet",
+        "Media / Advertising",
+        "Gaming / Entertainment",
+        "B2B / B2C"
+      ],
+      "common_introduction": "这组标题描述的是面向用户增长和商业化转化的业务场景，强调产品、内容和运营协同。",
+      "common_business_scenario": "常见于增长、营销、内容和商业化团队，需要把用户触达、转化和留存串成闭环。",
+      "title_focuses": [
+        {
+          "title": "合作",
+          "bucket": "soft_skill",
+          "focus": "强调协作、沟通、跨团队配合和利益相关方对齐。",
+          "frequency": 2773
+        },
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "Retail / E-commerce",
+          "bucket": "business_domain",
+          "focus": "强调商品、交易、订单和用户增长链路。",
+          "frequency": 115
+        },
+        {
+          "title": "Consumer Products / Consumer Internet",
+          "bucket": "business_domain",
+          "focus": "强调面向大众用户的产品增长和体验优化。",
+          "frequency": 103
+        },
+        {
+          "title": "Media / Advertising",
+          "bucket": "business_domain",
+          "focus": "强调内容分发、投放效果和商业化转化。",
+          "frequency": 99
+        },
+        {
+          "title": "Gaming / Entertainment",
+          "bucket": "business_domain",
+          "focus": "强调内容玩法、用户留存和实时体验。",
+          "frequency": 21
+        },
+        {
+          "title": "B2B / B2C",
+          "bucket": "business_domain",
+          "focus": "强调同时兼顾企业客户和个人用户的产品设计与交付。",
+          "frequency": 20
+        }
+      ],
+      "title_focuses_text": "合作：强调协作、沟通、跨团队配合和利益相关方对齐。\n思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\nRetail / E-commerce：强调商品、交易、订单和用户增长链路。\nConsumer Products / Consumer Internet：强调面向大众用户的产品增长和体验优化。\nMedia / Advertising：强调内容分发、投放效果和商业化转化。\nGaming / Entertainment：强调内容玩法、用户留存和实时体验。\nB2B / B2C：强调同时兼顾企业客户和个人用户的产品设计与交付。",
+      "title_count": 7,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 5,
+        "soft_skill": 2
+      }
+    },
+    {
+      "group_label": "公共服务与受监管行业",
+      "merged_titles_text": "思辨与创新、管理/领导、Education / EdTech、Healthcare、Public Sector / Government、Travel / Hospitality、Life Sciences / Biotech",
+      "titles": [
+        "思辨与创新",
+        "管理/领导",
+        "Education / EdTech",
+        "Healthcare",
+        "Public Sector / Government",
+        "Travel / Hospitality",
+        "Life Sciences / Biotech"
+      ],
+      "common_introduction": "这组标题描述的是受监管或强流程行业中的数字化场景，强调合规、服务质量和流程规范。",
+      "common_business_scenario": "常见于政务、教育、医疗和科研相关团队，需要在满足监管和流程要求的前提下提升服务效率。",
+      "title_focuses": [
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "管理/领导",
+          "bucket": "soft_skill",
+          "focus": "强调带人、推进闭环、承担结果和驱动团队前进。",
+          "frequency": 1210
+        },
+        {
+          "title": "Education / EdTech",
+          "bucket": "business_domain",
+          "focus": "强调教学、学习和教育运营流程的数字化。",
+          "frequency": 181
+        },
+        {
+          "title": "Healthcare",
+          "bucket": "business_domain",
+          "focus": "强调医疗流程、合规与服务效率优化。",
+          "frequency": 147
+        },
+        {
+          "title": "Public Sector / Government",
+          "bucket": "business_domain",
+          "focus": "强调政务流程、公共服务和合规交付。",
+          "frequency": 124
+        },
+        {
+          "title": "Travel / Hospitality",
+          "bucket": "business_domain",
+          "focus": "强调出行、预订和服务履约体验。",
+          "frequency": 80
+        },
+        {
+          "title": "Life Sciences / Biotech",
+          "bucket": "business_domain",
+          "focus": "强调研发、试验和监管合规。",
+          "frequency": 33
+        }
+      ],
+      "title_focuses_text": "思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\n管理/领导：强调带人、推进闭环、承担结果和驱动团队前进。\nEducation / EdTech：强调教学、学习和教育运营流程的数字化。\nHealthcare：强调医疗流程、合规与服务效率优化。\nPublic Sector / Government：强调政务流程、公共服务和合规交付。\nTravel / Hospitality：强调出行、预订和服务履约体验。\nLife Sciences / Biotech：强调研发、试验和监管合规。",
+      "title_count": 7,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 5,
+        "soft_skill": 2
+      }
+    },
+    {
+      "group_label": "平台架构与工程治理",
+      "merged_titles_text": "思辨与创新、Software Engineering、管理/领导、Database Systems、Full-Stack Development、Data Engineering、Architecture / Systems、Backend Development、Frontend Development、Web Development",
+      "titles": [
+        "思辨与创新",
+        "Software Engineering",
+        "管理/领导",
+        "Database Systems",
+        "Full-Stack Development",
+        "Data Engineering",
+        "Architecture / Systems",
+        "Backend Development",
+        "Frontend Development",
+        "Web Development"
+      ],
+      "common_introduction": "这组标题描述的是保障平台长期演进的工程治理能力，强调架构、稳定性、质量和边界控制。",
+      "common_business_scenario": "常见于复杂系统、容量规划、稳定性治理和规范化开发场景，团队需要既能落地功能，也能守住系统底线。",
+      "title_focuses": [
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "Software Engineering",
+          "bucket": "generalized_tech",
+          "focus": "强调从需求到上线的端到端工程方法，关注可维护性、可扩展性和持续交付。",
+          "frequency": 1846
+        },
+        {
+          "title": "管理/领导",
+          "bucket": "soft_skill",
+          "focus": "强调带人、推进闭环、承担结果和驱动团队前进。",
+          "frequency": 1210
+        },
+        {
+          "title": "Database Systems",
+          "bucket": "generalized_tech",
+          "focus": "强调数据建模、事务一致性、查询效率和存储治理。",
+          "frequency": 1164
+        },
+        {
+          "title": "Full-Stack Development",
+          "bucket": "generalized_tech",
+          "focus": "强调前后端协同实现和一体化交付。",
+          "frequency": 326
+        },
+        {
+          "title": "Data Engineering",
+          "bucket": "generalized_tech",
+          "focus": "强调数据采集、清洗、建模和管道治理。",
+          "frequency": 325
+        },
+        {
+          "title": "Architecture / Systems",
+          "bucket": "generalized_tech",
+          "focus": "强调系统拆分、扩展性、容量规划和长期演进。",
+          "frequency": 234
+        },
+        {
+          "title": "Backend Development",
+          "bucket": "generalized_tech",
+          "focus": "强调服务端业务逻辑、接口设计和数据读写。",
+          "frequency": 173
+        },
+        {
+          "title": "Frontend Development",
+          "bucket": "generalized_tech",
+          "focus": "强调页面交互、组件组织和用户体验呈现。",
+          "frequency": 128
+        },
+        {
+          "title": "Web Development",
+          "bucket": "generalized_tech",
+          "focus": "强调 Web 页面、应用交互和浏览器端交付链路。",
+          "frequency": 86
+        }
+      ],
+      "title_focuses_text": "思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\nSoftware Engineering：强调从需求到上线的端到端工程方法，关注可维护性、可扩展性和持续交付。\n管理/领导：强调带人、推进闭环、承担结果和驱动团队前进。\nDatabase Systems：强调数据建模、事务一致性、查询效率和存储治理。\nFull-Stack Development：强调前后端协同实现和一体化交付。\nData Engineering：强调数据采集、清洗、建模和管道治理。\nArchitecture / Systems：强调系统拆分、扩展性、容量规划和长期演进。\nBackend Development：强调服务端业务逻辑、接口设计和数据读写。\nFrontend Development：强调页面交互、组件组织和用户体验呈现。\nWeb Development：强调 Web 页面、应用交互和浏览器端交付链路。",
+      "title_count": 10,
+      "bucket_mix": {
+        "generalized_tech": 8,
+        "business_domain": 0,
+        "soft_skill": 2
+      }
+    },
+    {
+      "group_label": "数据平台与分析决策",
+      "merged_titles_text": "思辨与创新、Database Systems、Data Science / Analytics、Data Engineering、Architecture / Systems",
+      "titles": [
+        "思辨与创新",
+        "Database Systems",
+        "Data Science / Analytics",
+        "Data Engineering",
+        "Architecture / Systems"
+      ],
+      "common_introduction": "这组标题描述的是把业务数据转成可查询、可分析、可决策的资产，覆盖存储、加工、建模和解释。",
+      "common_business_scenario": "常见于报表、数仓、指标体系、实验分析和数据治理场景，团队需要兼顾稳定性与分析效率。",
+      "title_focuses": [
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "Database Systems",
+          "bucket": "generalized_tech",
+          "focus": "强调数据建模、事务一致性、查询效率和存储治理。",
+          "frequency": 1164
+        },
+        {
+          "title": "Data Science / Analytics",
+          "bucket": "generalized_tech",
+          "focus": "强调把数据转成洞察、指标和决策建议。",
+          "frequency": 618
+        },
+        {
+          "title": "Data Engineering",
+          "bucket": "generalized_tech",
+          "focus": "强调数据采集、清洗、建模和管道治理。",
+          "frequency": 325
+        },
+        {
+          "title": "Architecture / Systems",
+          "bucket": "generalized_tech",
+          "focus": "强调系统拆分、扩展性、容量规划和长期演进。",
+          "frequency": 234
+        }
+      ],
+      "title_focuses_text": "思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\nDatabase Systems：强调数据建模、事务一致性、查询效率和存储治理。\nData Science / Analytics：强调把数据转成洞察、指标和决策建议。\nData Engineering：强调数据采集、清洗、建模和管道治理。\nArchitecture / Systems：强调系统拆分、扩展性、容量规划和长期演进。",
+      "title_count": 5,
+      "bucket_mix": {
+        "generalized_tech": 4,
+        "business_domain": 0,
+        "soft_skill": 1
+      }
+    },
+    {
+      "group_label": "数据驱动与实验分析",
+      "merged_titles_text": "合作、思辨与创新、Database Systems、Data Science / Analytics、Data Engineering",
+      "titles": [
+        "合作",
+        "思辨与创新",
+        "Database Systems",
+        "Data Science / Analytics",
+        "Data Engineering"
+      ],
+      "common_introduction": "这组标题描述的是用数据评估产品和业务效果的分析场景，强调从采集到解释的完整链路。",
+      "common_business_scenario": "常见于实验分析、指标监控、增长分析和经营复盘团队，需要把数据结果转成可行动建议。",
+      "title_focuses": [
+        {
+          "title": "合作",
+          "bucket": "soft_skill",
+          "focus": "强调协作、沟通、跨团队配合和利益相关方对齐。",
+          "frequency": 2773
+        },
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "Database Systems",
+          "bucket": "generalized_tech",
+          "focus": "强调数据建模、事务一致性、查询效率和存储治理。",
+          "frequency": 1164
+        },
+        {
+          "title": "Data Science / Analytics",
+          "bucket": "generalized_tech",
+          "focus": "强调把数据转成洞察、指标和决策建议。",
+          "frequency": 618
+        },
+        {
+          "title": "Data Engineering",
+          "bucket": "generalized_tech",
+          "focus": "强调数据采集、清洗、建模和管道治理。",
+          "frequency": 325
+        }
+      ],
+      "title_focuses_text": "合作：强调协作、沟通、跨团队配合和利益相关方对齐。\n思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\nDatabase Systems：强调数据建模、事务一致性、查询效率和存储治理。\nData Science / Analytics：强调把数据转成洞察、指标和决策建议。\nData Engineering：强调数据采集、清洗、建模和管道治理。",
+      "title_count": 5,
+      "bucket_mix": {
+        "generalized_tech": 3,
+        "business_domain": 0,
+        "soft_skill": 2
+      }
+    },
+    {
+      "group_label": "自驱成长与执行质量",
+      "merged_titles_text": "思辨与创新、管理/领导、抗压",
+      "titles": [
+        "思辨与创新",
+        "管理/领导",
+        "抗压"
+      ],
+      "common_introduction": "这组标题描述的是个人的工作方式和执行质量，强调自驱、节奏控制和持续改进。",
+      "common_business_scenario": "常见于快速变化或高不确定性的工作环境，团队需要成员能够独立推进任务并持续提升结果质量。",
+      "title_focuses": [
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "管理/领导",
+          "bucket": "soft_skill",
+          "focus": "强调带人、推进闭环、承担结果和驱动团队前进。",
+          "frequency": 1210
+        },
+        {
+          "title": "抗压",
+          "bucket": "soft_skill",
+          "focus": "强调在压力、变化和多任务环境下保持稳定推进、节奏控制和质量把关。",
+          "frequency": 813
+        }
+      ],
+      "title_focuses_text": "思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\n管理/领导：强调带人、推进闭环、承担结果和驱动团队前进。\n抗压：强调在压力、变化和多任务环境下保持稳定推进、节奏控制和质量把关。",
+      "title_count": 3,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 0,
+        "soft_skill": 3
+      }
+    },
+    {
+      "group_label": "行业数字化转型",
+      "merged_titles_text": "Enterprise Software / SaaS、Risk / Fraud / Credit、Finance / FinTech、Education / EdTech、Healthcare、Public Sector / Government、Retail / E-commerce、Consumer Products / Consumer Internet、Media / Advertising、Travel / Hospitality、Logistics / Supply Chain、Banking、Trading、Manufacturing / Industrial、Energy / Utilities、Life Sciences / Biotech、Gaming / Entertainment、B2B / B2C、Real Estate / PropTech、Telecom",
+      "titles": [
+        "Enterprise Software / SaaS",
+        "Risk / Fraud / Credit",
+        "Finance / FinTech",
+        "Education / EdTech",
+        "Healthcare",
+        "Public Sector / Government",
+        "Retail / E-commerce",
+        "Consumer Products / Consumer Internet",
+        "Media / Advertising",
+        "Travel / Hospitality",
+        "Logistics / Supply Chain",
+        "Banking",
+        "Trading",
+        "Manufacturing / Industrial",
+        "Energy / Utilities",
+        "Life Sciences / Biotech",
+        "Gaming / Entertainment",
+        "B2B / B2C",
+        "Real Estate / PropTech",
+        "Telecom"
+      ],
+      "common_introduction": "这组标题描述的是业务所处的行业和场景，强调在特定行业约束下把通用产品和流程数字化。",
+      "common_business_scenario": "常见于需要理解行业规则、交易流程、监管要求或用户行为的团队，重点是把平台能力落到具体行业语境里。",
+      "title_focuses": [
+        {
+          "title": "Enterprise Software / SaaS",
+          "bucket": "business_domain",
+          "focus": "强调面向企业客户的标准化产品交付和多租户能力。",
+          "frequency": 420
+        },
+        {
+          "title": "Risk / Fraud / Credit",
+          "bucket": "business_domain",
+          "focus": "强调风险识别、欺诈防控和授信决策。",
+          "frequency": 240
+        },
+        {
+          "title": "Finance / FinTech",
+          "bucket": "business_domain",
+          "focus": "强调金融业务数字化、支付结算和资金流转场景。",
+          "frequency": 238
+        },
+        {
+          "title": "Education / EdTech",
+          "bucket": "business_domain",
+          "focus": "强调教学、学习和教育运营流程的数字化。",
+          "frequency": 181
+        },
+        {
+          "title": "Healthcare",
+          "bucket": "business_domain",
+          "focus": "强调医疗流程、合规与服务效率优化。",
+          "frequency": 147
+        },
+        {
+          "title": "Public Sector / Government",
+          "bucket": "business_domain",
+          "focus": "强调政务流程、公共服务和合规交付。",
+          "frequency": 124
+        },
+        {
+          "title": "Retail / E-commerce",
+          "bucket": "business_domain",
+          "focus": "强调商品、交易、订单和用户增长链路。",
+          "frequency": 115
+        },
+        {
+          "title": "Consumer Products / Consumer Internet",
+          "bucket": "business_domain",
+          "focus": "强调面向大众用户的产品增长和体验优化。",
+          "frequency": 103
+        },
+        {
+          "title": "Media / Advertising",
+          "bucket": "business_domain",
+          "focus": "强调内容分发、投放效果和商业化转化。",
+          "frequency": 99
+        },
+        {
+          "title": "Travel / Hospitality",
+          "bucket": "business_domain",
+          "focus": "强调出行、预订和服务履约体验。",
+          "frequency": 80
+        },
+        {
+          "title": "Logistics / Supply Chain",
+          "bucket": "business_domain",
+          "focus": "强调仓储、运输和供应链协同。",
+          "frequency": 74
+        },
+        {
+          "title": "Banking",
+          "bucket": "business_domain",
+          "focus": "强调账户、授信、支付和资金安全。",
+          "frequency": 70
+        },
+        {
+          "title": "Trading",
+          "bucket": "business_domain",
+          "focus": "强调行情、订单、撮合和交易执行。",
+          "frequency": 60
+        },
+        {
+          "title": "Manufacturing / Industrial",
+          "bucket": "business_domain",
+          "focus": "强调生产流程、设备协同和制造数字化。",
+          "frequency": 59
+        },
+        {
+          "title": "Energy / Utilities",
+          "bucket": "business_domain",
+          "focus": "强调能源生产、调度和运营监控。",
+          "frequency": 38
+        },
+        {
+          "title": "Life Sciences / Biotech",
+          "bucket": "business_domain",
+          "focus": "强调研发、试验和监管合规。",
+          "frequency": 33
+        },
+        {
+          "title": "Gaming / Entertainment",
+          "bucket": "business_domain",
+          "focus": "强调内容玩法、用户留存和实时体验。",
+          "frequency": 21
+        },
+        {
+          "title": "B2B / B2C",
+          "bucket": "business_domain",
+          "focus": "强调同时兼顾企业客户和个人用户的产品设计与交付。",
+          "frequency": 20
+        },
+        {
+          "title": "Real Estate / PropTech",
+          "bucket": "business_domain",
+          "focus": "强调房产交易、租赁和资产管理流程数字化。",
+          "frequency": 6
+        },
+        {
+          "title": "Telecom",
+          "bucket": "business_domain",
+          "focus": "强调通信网络、运营支撑和服务质量保障。",
+          "frequency": 2
+        }
+      ],
+      "title_focuses_text": "Enterprise Software / SaaS：强调面向企业客户的标准化产品交付和多租户能力。\nRisk / Fraud / Credit：强调风险识别、欺诈防控和授信决策。\nFinance / FinTech：强调金融业务数字化、支付结算和资金流转场景。\nEducation / EdTech：强调教学、学习和教育运营流程的数字化。\nHealthcare：强调医疗流程、合规与服务效率优化。\nPublic Sector / Government：强调政务流程、公共服务和合规交付。\nRetail / E-commerce：强调商品、交易、订单和用户增长链路。\nConsumer Products / Consumer Internet：强调面向大众用户的产品增长和体验优化。\nMedia / Advertising：强调内容分发、投放效果和商业化转化。\nTravel / Hospitality：强调出行、预订和服务履约体验。\nLogistics / Supply Chain：强调仓储、运输和供应链协同。\nBanking：强调账户、授信、支付和资金安全。\nTrading：强调行情、订单、撮合和交易执行。\nManufacturing / Industrial：强调生产流程、设备协同和制造数字化。\nEnergy / Utilities：强调能源生产、调度和运营监控。\nLife Sciences / Biotech：强调研发、试验和监管合规。\nGaming / Entertainment：强调内容玩法、用户留存和实时体验。\nB2B / B2C：强调同时兼顾企业客户和个人用户的产品设计与交付。\nReal Estate / PropTech：强调房产交易、租赁和资产管理流程数字化。\nTelecom：强调通信网络、运营支撑和服务质量保障。",
+      "title_count": 20,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 20,
+        "soft_skill": 0
+      }
+    },
+    {
+      "group_label": "跨团队协作与项目推进",
+      "merged_titles_text": "合作、思辨与创新、管理/领导",
+      "titles": [
+        "合作",
+        "思辨与创新",
+        "管理/领导"
+      ],
+      "common_introduction": "这组标题描述的是团队协作、对齐和推进结果的能力，强调跨角色沟通和共同闭环。",
+      "common_business_scenario": "常见于需求推进、方案评审、里程碑管理和协作交付场景，团队需要把不同角色拉到同一目标上。",
+      "title_focuses": [
+        {
+          "title": "合作",
+          "bucket": "soft_skill",
+          "focus": "强调协作、沟通、跨团队配合和利益相关方对齐。",
+          "frequency": 2773
+        },
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "管理/领导",
+          "bucket": "soft_skill",
+          "focus": "强调带人、推进闭环、承担结果和驱动团队前进。",
+          "frequency": 1210
+        }
+      ],
+      "title_focuses_text": "合作：强调协作、沟通、跨团队配合和利益相关方对齐。\n思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\n管理/领导：强调带人、推进闭环、承担结果和驱动团队前进。",
+      "title_count": 3,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 0,
+        "soft_skill": 3
+      }
+    },
+    {
+      "group_label": "软件研发与产品交付",
+      "merged_titles_text": "Software Engineering、Enterprise Software / SaaS、Full-Stack Development、Architecture / Systems、Backend Development、Frontend Development、Web Development、B2B / B2C",
+      "titles": [
+        "Software Engineering",
+        "Enterprise Software / SaaS",
+        "Full-Stack Development",
+        "Architecture / Systems",
+        "Backend Development",
+        "Frontend Development",
+        "Web Development",
+        "B2B / B2C"
+      ],
+      "common_introduction": "这组标题描述的是把业务需求转成可维护软件产品的研发链路，强调设计、实现、联调和上线的完整交付。",
+      "common_business_scenario": "常见于企业内部平台、SaaS 产品和面向用户的业务系统，团队需要在功能、性能和可维护性之间平衡。",
+      "title_focuses": [
+        {
+          "title": "Software Engineering",
+          "bucket": "generalized_tech",
+          "focus": "强调从需求到上线的端到端工程方法，关注可维护性、可扩展性和持续交付。",
+          "frequency": 1846
+        },
+        {
+          "title": "Enterprise Software / SaaS",
+          "bucket": "business_domain",
+          "focus": "强调面向企业客户的标准化产品交付和多租户能力。",
+          "frequency": 420
+        },
+        {
+          "title": "Full-Stack Development",
+          "bucket": "generalized_tech",
+          "focus": "强调前后端协同实现和一体化交付。",
+          "frequency": 326
+        },
+        {
+          "title": "Architecture / Systems",
+          "bucket": "generalized_tech",
+          "focus": "强调系统拆分、扩展性、容量规划和长期演进。",
+          "frequency": 234
+        },
+        {
+          "title": "Backend Development",
+          "bucket": "generalized_tech",
+          "focus": "强调服务端业务逻辑、接口设计和数据读写。",
+          "frequency": 173
+        },
+        {
+          "title": "Frontend Development",
+          "bucket": "generalized_tech",
+          "focus": "强调页面交互、组件组织和用户体验呈现。",
+          "frequency": 128
+        },
+        {
+          "title": "Web Development",
+          "bucket": "generalized_tech",
+          "focus": "强调 Web 页面、应用交互和浏览器端交付链路。",
+          "frequency": 86
+        },
+        {
+          "title": "B2B / B2C",
+          "bucket": "business_domain",
+          "focus": "强调同时兼顾企业客户和个人用户的产品设计与交付。",
+          "frequency": 20
+        }
+      ],
+      "title_focuses_text": "Software Engineering：强调从需求到上线的端到端工程方法，关注可维护性、可扩展性和持续交付。\nEnterprise Software / SaaS：强调面向企业客户的标准化产品交付和多租户能力。\nFull-Stack Development：强调前后端协同实现和一体化交付。\nArchitecture / Systems：强调系统拆分、扩展性、容量规划和长期演进。\nBackend Development：强调服务端业务逻辑、接口设计和数据读写。\nFrontend Development：强调页面交互、组件组织和用户体验呈现。\nWeb Development：强调 Web 页面、应用交互和浏览器端交付链路。\nB2B / B2C：强调同时兼顾企业客户和个人用户的产品设计与交付。",
+      "title_count": 8,
+      "bucket_mix": {
+        "generalized_tech": 6,
+        "business_domain": 2,
+        "soft_skill": 0
+      }
+    },
+    {
+      "group_label": "金融科技与风控交易",
+      "merged_titles_text": "合作、思辨与创新、管理/领导、Risk / Fraud / Credit、Finance / FinTech、Banking、Trading",
+      "titles": [
+        "合作",
+        "思辨与创新",
+        "管理/领导",
+        "Risk / Fraud / Credit",
+        "Finance / FinTech",
+        "Banking",
+        "Trading"
+      ],
+      "common_introduction": "这组标题描述的是金融业务的交易、资金、风控和合规场景，强调高可信度和高准确性。",
+      "common_business_scenario": "常见于支付、授信、结算、交易和风险控制团队，需要同时满足业务效率、合规与稳定性。",
+      "title_focuses": [
+        {
+          "title": "合作",
+          "bucket": "soft_skill",
+          "focus": "强调协作、沟通、跨团队配合和利益相关方对齐。",
+          "frequency": 2773
+        },
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "管理/领导",
+          "bucket": "soft_skill",
+          "focus": "强调带人、推进闭环、承担结果和驱动团队前进。",
+          "frequency": 1210
+        },
+        {
+          "title": "Risk / Fraud / Credit",
+          "bucket": "business_domain",
+          "focus": "强调风险识别、欺诈防控和授信决策。",
+          "frequency": 240
+        },
+        {
+          "title": "Finance / FinTech",
+          "bucket": "business_domain",
+          "focus": "强调金融业务数字化、支付结算和资金流转场景。",
+          "frequency": 238
+        },
+        {
+          "title": "Banking",
+          "bucket": "business_domain",
+          "focus": "强调账户、授信、支付和资金安全。",
+          "frequency": 70
+        },
+        {
+          "title": "Trading",
+          "bucket": "business_domain",
+          "focus": "强调行情、订单、撮合和交易执行。",
+          "frequency": 60
+        }
+      ],
+      "title_focuses_text": "合作：强调协作、沟通、跨团队配合和利益相关方对齐。\n思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\n管理/领导：强调带人、推进闭环、承担结果和驱动团队前进。\nRisk / Fraud / Credit：强调风险识别、欺诈防控和授信决策。\nFinance / FinTech：强调金融业务数字化、支付结算和资金流转场景。\nBanking：强调账户、授信、支付和资金安全。\nTrading：强调行情、订单、撮合和交易执行。",
+      "title_count": 7,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 4,
+        "soft_skill": 3
+      }
+    },
+    {
+      "group_label": "高变化环境下的个人执行",
+      "merged_titles_text": "合作、思辨与创新、管理/领导、抗压",
+      "titles": [
+        "合作",
+        "思辨与创新",
+        "管理/领导",
+        "抗压"
+      ],
+      "common_introduction": "这组标题描述的是高变化环境里的个人执行方式，强调快速调整、独立推进和持续优化。",
+      "common_business_scenario": "常见于目标变化快、协同链路长或需要不断试错的团队，成员既要能自我驱动，也要能把事情落到结果上。",
+      "title_focuses": [
+        {
+          "title": "合作",
+          "bucket": "soft_skill",
+          "focus": "强调协作、沟通、跨团队配合和利益相关方对齐。",
+          "frequency": 2773
+        },
+        {
+          "title": "思辨与创新",
+          "bucket": "soft_skill",
+          "focus": "强调结构化分析、问题拆解、学习迁移和提出更优方案。",
+          "frequency": 1981
+        },
+        {
+          "title": "管理/领导",
+          "bucket": "soft_skill",
+          "focus": "强调带人、推进闭环、承担结果和驱动团队前进。",
+          "frequency": 1210
+        },
+        {
+          "title": "抗压",
+          "bucket": "soft_skill",
+          "focus": "强调在压力、变化和多任务环境下保持稳定推进、节奏控制和质量把关。",
+          "frequency": 813
+        }
+      ],
+      "title_focuses_text": "合作：强调协作、沟通、跨团队配合和利益相关方对齐。\n思辨与创新：强调结构化分析、问题拆解、学习迁移和提出更优方案。\n管理/领导：强调带人、推进闭环、承担结果和驱动团队前进。\n抗压：强调在压力、变化和多任务环境下保持稳定推进、节奏控制和质量把关。",
+      "title_count": 4,
+      "bucket_mix": {
+        "generalized_tech": 0,
+        "business_domain": 0,
+        "soft_skill": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+writer_jd_context: |-
+  ## 目标 JD 信息
+  **公司:** {{ company }}
+  **岗位:** {{ title }}
+  **角色类型:** {{ role_type }}
+  **职级/资历:** {{ seniority }}
+  **团队业务方向:** {{ team_direction }}
+
+  **必须技术栈（SKILLS 中至少覆盖所有 JD 必须项，且必须有正文出处）:**
+  {{ tech_required }}
+
+  **加分技术栈（合理选择即可，不必全部包含）:**
+  {{ tech_preferred }}
+
+  **OR 组（满足其一即可）:**
+    - {{ or_group }}（至少满足其一）
+
+  **软性要求:**
+    - {{ soft_required }}
+
+  **领域桥接提示:**
+  - 如果团队业务方向涉及陌生行业（例如自动驾驶、物理 AI、机器人、传感器系统、空间数据系统），请优先使用“可迁移能力”桥接：
+    `infrastructure-grade pipeline patterns transferable to spatial and sensor-data systems`
+    这类表达优于生造直接行业 ownership。

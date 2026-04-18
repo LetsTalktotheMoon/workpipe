@@ -1,0 +1,48 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Summary / Skills / Experience",
+        "issue": "JD minimum qualifications ask for radiance-field model experience plus human-centric 3D vision / 3D reconstruction / style transfer, but the resume only supports backend/data/security ML systems work. There is no 3D simulation, reconstruction, or radiance-field evidence to bridge the role.",
+        "fix": "If this experience is real, add one truthful bullet in the most relevant ML section showing 3D vision / 3D reconstruction / radiance-field work. If it does not exist, this is a structural mismatch for this JD.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-011",
+        "sub_area": "3C",
+        "severity": "medium",
+        "field": "TikTok · Security experience",
+        "issue": "This one internship section reads like four primary programming languages are all day-to-day main-stack languages (Go, Python, C++, Java). For an intern, that breadth can feel overstated and weakens focus.",
+        "fix": "Reframe the section around 2 primary languages and treat the other languages as supporting integration or adjacent touchpoints instead of equal-weight daily stacks."
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "Professional Summary / TikTok first bullet",
+        "issue": "The top of the resume leans on process and percentage improvements, but the latest relevant experience does not surface a strong Tier 1 scale or scope signal. That makes the first screen less compelling for a senior ML role.",
+        "fix": "Promote one real scale/scope metric in the TikTok section if you have it, such as request volume, benchmark size, service count, or team scope, and make the first bullet carry the strongest available signal."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] If you have real 3D vision / 3D reconstruction / radiance-field work, add it to the most relevant ML bullet; otherwise this Zoox JD is a structural mismatch.",
+    "[MUST] Rebalance the TikTok intern section so 2 primary languages carry the story and the other languages are clearly supporting integration work.",
+    "[SHOULD] Surface one concrete scale or scope metric in the TikTok section so the top of the resume has a stronger hook.",
+    "[NICE] If you want a sharper first impression, rename the third Summary header to something more cognition- or impact-oriented."
+  ],
+  "revision_instructions": "[结构性错配] 在不改不可变字段前提下，优先把最相关的 ML 经历改写成能证明 3D vision / 3D reconstruction / radiance-field / human-centric vision 的版本；如果这些经历并不存在，这个 JD 不建议继续硬投。其次，把 TikTok 段收束为 2 个主语言，其他语言写成 supporting integration；最后补一个真实的 scale/scope 指标，避免首屏只剩百分比提升。"
+}

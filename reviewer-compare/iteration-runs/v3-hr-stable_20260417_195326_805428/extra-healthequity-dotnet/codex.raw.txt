@@ -1,0 +1,46 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "开头先用“transitioning from data analytics”定义自己，首屏更像转型叙事而不是目标后端/SWE 方向；6-8 秒扫读时会削弱岗位匹配感。",
+        "fix": "把第一句改成直接角色 + 领域锚点，例如“Software engineer building backend and data-intensive internal products...”，把转型信息后置或压缩。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-001",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Skills section",
+        "issue": "JD must-have 里的 `Agile` 和精确 `Spark` 没有在 Skills 里以 exact token 出现；当前只有 `Scrum` 和 `Spark SQL`，对 ATS 来说仍偏弱。",
+        "fix": "在 Skills 中补上 exact `Agile` 和 `Apache Spark`，并在最相关经历的 bullet 里再用一次同样的 exact 词，优先放在 DiDi 段。"
+      },
+      {
+        "rule_id": "P3B-004",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary / Experience bridge",
+        "issue": "简历没有把安全、审计敏感、运营工具和数据流程经验直接桥接到 HealthEquity 这类 healthcare consumer / regulated workflow 场景，HR 可能会追问迁移逻辑。",
+        "fix": "在 Summary 或 DiDi 段前加一句迁移桥接，明确这些 secure / audit-sensitive internal workflow 经验如何迁移到医疗消费平台的合规与业务流程复杂度。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 在 Skills 里补出 JD 的 exact `Agile` 和 `Apache Spark`，不要只靠 `Scrum` / `Spark SQL` 代替，并在最相关经历里再写一次同样的 exact 词。",
+    "[MUST] 把 Summary 第一句改成直接角色锚点，删掉或后置“transitioning from data analytics”的首屏转型叙事。",
+    "[SHOULD] 补一条迁移桥接，把安全/审计敏感/运营工具经验明确连到 healthcare consumer / regulated workflow 场景。"
+  ],
+  "revision_instructions": "[MUST] 在 Skills 里补出 JD 的 exact `Agile` 和 `Apache Spark`，不要只写 `Scrum` / `Spark SQL`；并在最相关的 DiDi 或 Temu bullet 里再出现一次同样的 exact 词。 [MUST] 把 Professional Summary 第一句改成直接角色锚点，例如“Software engineer building backend and data-intensive internal products...”，删除或后置“transitioning from data analytics”的首屏转型叙事。 [SHOULD] 在 Summary 或 DiDi 段加一句桥接，把安全/审计敏感/运营工具经验明确迁移到 healthcare consumer / regulated workflow 场景。"
+}

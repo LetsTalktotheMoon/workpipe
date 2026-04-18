@@ -1,0 +1,56 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Summary third sentence; TikTok/DiDi/Temu Experience bullets",
+        "issue": "Qualifier words and limited-context modifiers are bolded in multiple places, such as `team-maintained`, `existing`, `internal`, and similar descriptors. This creates visual noise and weakens the intended emphasis hierarchy.",
+        "fix": "Reserve bold for technologies, scope numbers, and key metrics only. Remove bold from modifiers like `team-maintained`, `existing`, `internal`, and other descriptive qualifiers."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first sentence",
+        "issue": "The first sentence leads with a transition story (`candidate transitioning from analytics`) instead of a role-direction framing. That lowers the first-screen signal for an SDE II backend role.",
+        "fix": "Rewrite the first sentence to start with the target role and domain, for example `Backend engineer:` or `Backend-focused SWE:`, then move the analytics-to-backend transition language later in the sentence or into a later summary line."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall experience timeline + Education",
+        "issue": "The visible non-internship professional timeline is only about 30 months, which does not clearly satisfy the JD's `3+ years of non-internship professional software development experience` requirement. The resume also does not visibly show the required bachelor's or equivalent degree.",
+        "fix": "If true, add an explicit bachelor's/equivalent degree line and any earlier full-time software development experience. If no such experience exists, this resume is structurally short of the JD hard bar and should be targeted to a more junior role.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Intern section, first bullet and surrounding bullets",
+        "issue": "The newest and most relevant experience relies mainly on time-reduction and percentage-improvement metrics, but lacks a Tier 1 scope anchor such as request volume, incident volume, service count, or team size on the first bullet.",
+        "fix": "Add one concrete scope signal to the first TikTok bullet if available, such as incident volume, service boundary, on-call footprint, or team size. Keep the existing latency/result metric as supporting evidence rather than the lead signal."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Make the JD hard-bar situation explicit: the current visible timeline does not clearly satisfy 3+ years of non-internship software development experience, and the resume does not visibly show a bachelor's/equivalent degree.",
+    "[MUST] If those hard requirements are actually satisfied, add the missing proof in the most relevant experience/education line; otherwise target a more junior JD.",
+    "[SHOULD] Reframe the Summary opening to lead with backend/SDE direction instead of analytics transition language.",
+    "[NICE] Remove bold from qualifier words and keep emphasis only on technologies, scope numbers, and key outcomes."
+  ],
+  "revision_instructions": "[结构性错配] If the candidate does not have an unlisted bachelor's/equivalent degree and earlier full-time software development experience, this resume should not be positioned for AWS SDE II as written. Add explicit proof for the 3+ year non-internship requirement and degree if true; otherwise re-target the resume. Separately, rewrite the Summary opening to lead with backend/SDE framing, and reduce bolding of qualifiers to restore visual hierarchy."
+}

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prompt Review</title>
+    <link rel="stylesheet" href="/prompt_review/styles.css" />
+  </head>
+  <body>
+    <div class="review-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Prompt Review</p>
+          <h1>可 round-trip 的 prompt 审阅页</h1>
+          <p class="subtitle">
+            全量索引按「生产链路 - 环节 - 角色」展开。每个 group 独立成卡，即便 prompt 文本完全相同也不会合并。编辑层显示完整 prompt，映射层通过
+            <code>data-*</code> 与隐藏 <code>JSON</code> 保留 group / block / source 元数据。
+          </p>
+          <div class="hero-meta" id="heroMeta"></div>
+        </div>
+        <div class="hero-status">
+          <div class="status-stack">
+            <span class="status-badge" id="connectionBadge">加载中</span>
+            <span class="status-badge" id="autosaveBadge">自动保存待命</span>
+            <span class="status-badge" id="freezeBadge" hidden>FROZEN</span>
+          </div>
+          <div class="status-note" id="statusNote">正在加载审阅数据。</div>
+          <div class="hero-actions">
+            <button class="secondary-button" type="button" id="refreshButton">刷新</button>
+            <button class="primary-button" type="button" id="saveAllButton">保存全部草稿</button>
+            <button class="secondary-button" type="button" id="checkConsistencyButton">检查一致性</button>
+            <button class="secondary-button" type="button" id="writebackButton">Writeback to Source</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="toolbar">
+        <div class="toolbar-fields">
+          <label class="field">
+            <span>搜索</span>
+            <input id="searchInput" type="search" placeholder="按 prompt 文本、group、block、source 路径搜索" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>生产链路</span>
+            <select id="chainFilter">
+              <option value="">全部</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>环节</span>
+            <select id="stageFilter">
+              <option value="">全部</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>角色</span>
+            <select id="roleFilter">
+              <option value="">全部</option>
+            </select>
+          </label>
+          <div class="view-toggle">
+            <button class="secondary-button compact-button active" type="button" id="viewModeDedup">去重视图</button>
+            <button class="secondary-button compact-button" type="button" id="viewModeTiles">平铺视图</button>
+          </div>
+          <button class="secondary-button compact-button" type="button" id="showAllChainsButton">显示全部链路</button>
+        </div>
+        <div class="toolbar-summary" id="toolbarSummary"></div>
+      </section>
+
+      <div class="content-layout" id="contentLayout">
+        <nav class="toc-rail" id="tocRail" aria-label="卡片目录">
+          <div class="toc-head">目录</div>
+          <div class="toc-body" id="tocBody"></div>
+        </nav>
+        <main class="main-panel">
+          <section class="section-card">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Review Cards</p>
+                <h2>生产链路 - 环节 - 角色</h2>
+              </div>
+              <div class="section-note">每张卡片展示该角色实际接收到的完整 prompt，并保留 block/source 元数据。</div>
+            </div>
+            <div class="card-list" id="cardList"></div>
+          </section>
+        </main>
+
+        <aside class="side-rail closed" id="sideRail">
+          <section class="section-card side-card" id="conflictPanel">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Conflict</p>
+                <h2>冻结 / 冲突状态</h2>
+              </div>
+            </div>
+            <div class="side-body" id="conflictBody"></div>
+          </section>
+
+          <section class="section-card side-card">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Coverage</p>
+                <h2>覆盖率</h2>
+              </div>
+            </div>
+            <div class="side-body" id="coverageBody"></div>
+          </section>
+
+          <section class="section-card side-card">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Ambiguities</p>
+                <h2>歧义清单</h2>
+              </div>
+            </div>
+            <div class="side-body" id="ambiguityBody"></div>
+          </section>
+
+          <section class="section-card side-card revisions-card">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Revisions</p>
+                <h2>历史版本</h2>
+              </div>
+              <button class="secondary-button compact-button" type="button" id="reloadRevisionsButton">刷新列表</button>
+            </div>
+            <div class="side-body revisions-list" id="revisionsList"></div>
+          </section>
+        </aside>
+      </div>
+      <button class="side-rail-toggle" type="button" id="sideRailToggle" title="打开/关闭边栏">☰</button>
+    </div>
+
+    <script id="prompt-review-config" type="application/json">
+      {
+        "editorVersion": "prompt_review.frontend.v1",
+        "autosaveDelayMs": 900,
+        "localCacheKey": "prompt_review_draft_cache_v1",
+        "endpoints": {
+          "review": "/api/prompt-review",
+          "save": "/api/prompt-review/save",
+          "revisions": "/api/prompt-review/revisions",
+          "restore": "/api/prompt-review/restore",
+          "conflicts": "/api/prompt-review/conflicts",
+          "coverage": "/api/prompt-review/coverage",
+          "ambiguities": "/api/prompt-review/ambiguities",
+          "writeback": "/api/prompt-review/writeback"
+        },
+        "fallbackFiles": {
+          "review": "/prompt_review/review.edited.json",
+          "map": "/prompt_review/review.map.json",
+          "coverage": "/prompt_review/coverage.report.json",
+          "ambiguities": "/prompt_review/ambiguities.json",
+          "roundtrip": "/prompt_review/roundtrip.report.json",
+          "revisions": "/prompt_review/revisions/revisions.index.json",
+          "conflicts": "/prompt_review/conflicts/active.json"
+        }
+      }
+    </script>
+    <script src="/prompt_review/app.js" defer></script>
+  </body>
+</html>

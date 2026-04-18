@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-04-17T22:56:05",
+  "case_count": 1,
+  "cases": [
+    {
+      "label": "gen2/Genentech-MLInfra",
+      "score": 98.3,
+      "verdict": "pass",
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 1,
+      "low_count": 0,
+      "duration_seconds": 61.0,
+      "top_rules": [
+        "P1-042",
+        "P3C-010"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "label": "extra/Ramp-Platform",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/Ramp-Platform",
+    "company": "Ramp",
+    "title": "Software Engineer, Infrastructure",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Ramp is building the smart infrastructure for finance teams, automating how over $100B in annualized spend flows in and out of 50,000+ companies",
+    "tech_required": [
+      "Azure",
+      "AWS",
+      "GCP",
+      "PostgreSQL",
+      "Redis",
+      "MySQL",
+      "Kafka",
+      "SQL",
+      "Flask",
+      "Terraform",
+      "Kubernetes"
+    ],
+    "tech_preferred": [],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.6,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 8.8,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.4,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.1,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 9.7,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.3,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.6,
+      "verdict": "pass",
+      "seed_label": "TRIMEDX Platform Multicloud",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T22:14:13",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 94.2,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T20:00:57",
+    "completed_at": "2026-04-17T20:01:48",
+    "duration_seconds": 51.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Professional Summary, first two sentences",
+            "issue": "Core technical nouns in the summary are not bolded, so the top-of-resume scan is weaker than the formatting spec expects.",
+            "fix": "Bold the key stack terms in the first two summary clauses, for example **Go**, **Python**, **Kafka**, **Redis**, **PostgreSQL**, **MySQL**, **Docker**, **Kubernetes**, **Terraform**, **AWS**, **Azure**, and **GCP**."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": []
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary + top of Experience",
+            "issue": "The resume does not explicitly bridge prior backend/security/data work to Ramp's finance-infrastructure context, so a recruiter may not immediately see why this background maps to spend/finance systems.",
+            "fix": "Add one bridge clause in the Summary or the most relevant bullet that connects your internal-platform/security/release-work to high-trust operational infrastructure for finance teams."
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security, Software Engineer Intern",
+            "issue": "The newest experience leans heavily on percentage/time improvements without a tier-1 scope anchor, so the quantification reads efficient but not especially large-scale.",
+            "fix": "Add one concrete scope descriptor that is already true in the work, such as service footprint, analyst/user count, corpus size, request volume, or release cadence, to the strongest TikTok bullet or project background."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add an explicit bridge to Ramp's finance-infrastructure context in the Summary or the most relevant bullet so the screener can map your backend/security experience to the role immediately.",
+        "[MUST] Add one concrete scope anchor to the newest experience so the quantification is not mostly tier-2 deltas.",
+        "[SHOULD] Bold the core technical nouns in the Summary for faster scanability.",
+        "[NICE] If space allows, replace one redundant percentage-style bullet with ownership or scope detail instead of another delta."
+      ],
+      "revision_instructions": "In the Summary, add one clause that connects backend/security/internal-platform work to finance-facing operational infrastructure. In TikTok, replace one percentage-only bullet with a scope anchor already true in the project, such as service footprint, analyst count, corpus size, request volume, or release cadence. Then bold the core technologies in the first two Summary sentences for scanability. Do not change immutable experience fields.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 9.5,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 9.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 10.0,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 97.1,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 3,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add an explicit bridge to Ramp's finance-infrastructure context in the Summary or the most relevant bullet so the screener can map your backend/security experience to the role immediately.",
+        "[MUST] Add one concrete scope anchor to the newest experience so the quantification is not mostly tier-2 deltas.",
+        "[SHOULD] Bold the core technical nouns in the Summary for faster scanability.",
+        "[NICE] If space allows, replace one redundant percentage-style bullet with ownership or scope detail instead of another delta."
+      ],
+      "revision_instructions": "In the Summary, add one clause that connects backend/security/internal-platform work to finance-facing operational infrastructure. In TikTok, replace one percentage-only bullet with a scope anchor already true in the project, such as service footprint, analyst count, corpus size, request volume, or release cadence. Then bold the core technologies in the first two Summary sentences for scanability. Do not change immutable experience fields.",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Professional Summary, first two sentences",
+              "issue": "Core technical nouns in the summary are not bolded, so the top-of-resume scan is weaker than the formatting spec expects.",
+              "fix": "Bold the key stack terms in the first two summary clauses, for example **Go**, **Python**, **Kafka**, **Redis**, **PostgreSQL**, **MySQL**, **Docker**, **Kubernetes**, **Terraform**, **AWS**, **Azure**, and **GCP**."
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": []
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3B-003",
+              "sub_area": "3B",
+              "severity": "medium",
+              "field": "Professional Summary + top of Experience",
+              "issue": "The resume does not explicitly bridge prior backend/security/data work to Ramp's finance-infrastructure context, so a recruiter may not immediately see why this background maps to spend/finance systems.",
+              "fix": "Add one bridge clause in the Summary or the most relevant bullet that connects your internal-platform/security/release-work to high-trust operational infrastructure for finance teams."
+            },
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok · Security, Software Engineer Intern",
+              "issue": "The newest experience leans heavily on percentage/time improvements without a tier-1 scope anchor, so the quantification reads efficient but not especially large-scale.",
+              "fix": "Add one concrete scope descriptor that is already true in the work, such as service footprint, analyst/user count, corpus size, request volume, or release cadence, to the strongest TikTok bullet or project background."
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] Add an explicit bridge to Ramp's finance-infrastructure context in the Summary or the most relevant bullet so the screener can map your backend/security experience to the role immediately.",
+          "[MUST] Add one concrete scope anchor to the newest experience so the quantification is not mostly tier-2 deltas.",
+          "[SHOULD] Bold the core technical nouns in the Summary for faster scanability.",
+          "[NICE] If space allows, replace one redundant percentage-style bullet with ownership or scope detail instead of another delta."
+        ],
+        "revision_instructions": "In the Summary, add one clause that connects backend/security/internal-platform work to finance-facing operational infrastructure. In TikTok, replace one percentage-only bullet with a scope anchor already true in the project, such as service footprint, analyst count, corpus size, request volume, or release cadence. Then bold the core technologies in the first two Summary sentences for scanability. Do not change immutable experience fields.",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Professional Summary, first two sentences",
+            "issue": "Core technical nouns in the summary are not bolded, so the top-of-resume scan is weaker than the formatting spec expects.",
+            "fix": "Bold the key stack terms in the first two summary clauses, for example **Go**, **Python**, **Kafka**, **Redis**, **PostgreSQL**, **MySQL**, **Docker**, **Kubernetes**, **Terraform**, **AWS**, **Azure**, and **GCP**."
+          }
+        ],
+        "r2_jd_fitness": [
+          {
+            "rule_id": "P3B-003",
+            "sub_area": "3B",
+            "severity": "medium",
+            "field": "Professional Summary + top of Experience",
+            "issue": "The resume does not explicitly bridge prior backend/security/data work to Ramp's finance-infrastructure context, so a recruiter may not immediately see why this background maps to spend/finance systems.",
+            "fix": "Add one bridge clause in the Summary or the most relevant bullet that connects your internal-platform/security/release-work to high-trust operational infrastructure for finance teams."
+          }
+        ],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok · Security, Software Engineer Intern",
+            "issue": "The newest experience leans heavily on percentage/time improvements without a tier-1 scope anchor, so the quantification reads efficient but not especially large-scale.",
+            "fix": "Add one concrete scope descriptor that is already true in the work, such as service footprint, analyst/user count, corpus size, request volume, or release cadence, to the strongest TikTok bullet or project background."
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-040"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 0,
+          "rule_ids": []
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3B-003",
+            "P3D-001"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P3B-003",
+        "P3D-001"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

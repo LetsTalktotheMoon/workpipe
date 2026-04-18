@@ -1,0 +1,8 @@
+view_id: prompt_writer_system
+title: Writer System Prompt
+pipeline: match_pipe
+stage: writer system
+role: writer
+description: writer 在主生成和 planner-first 生成里都会先收到这段 system prompt。
+system_block: writer_system
+user_blocks: []

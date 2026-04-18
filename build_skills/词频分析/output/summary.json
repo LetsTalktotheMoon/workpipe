@@ -1,0 +1,507 @@
+{
+  "generated_at_utc": "2026-04-13T16:17:27+00:00",
+  "catalog_record_count": 3999,
+  "jobs_with_any_candidate": 3871,
+  "phrase_row_count": 21034,
+  "bucket_counts": {
+    "generalized_tech": 10730,
+    "business_domain": 4333,
+    "soft_skill": 16145
+  },
+  "ignored_source_fields": [
+    "job_summary",
+    "core_skills"
+  ],
+  "source_field_coverage": [
+    {
+      "source_field": "must_have_quals",
+      "jobs_with_content": 3990,
+      "jobs_with_candidate": 3311,
+      "raw_match_count": 9309,
+      "unique_phrases": 124
+    },
+    {
+      "source_field": "preferred_quals",
+      "jobs_with_content": 2915,
+      "jobs_with_candidate": 1561,
+      "raw_match_count": 2883,
+      "unique_phrases": 122
+    },
+    {
+      "source_field": "core_responsibilities",
+      "jobs_with_content": 3980,
+      "jobs_with_candidate": 2637,
+      "raw_match_count": 5651,
+      "unique_phrases": 114
+    },
+    {
+      "source_field": "detailQualifications.mustHave.hardSkill",
+      "jobs_with_content": 3985,
+      "jobs_with_candidate": 2329,
+      "raw_match_count": 3780,
+      "unique_phrases": 88
+    },
+    {
+      "source_field": "detailQualifications.mustHave.softSkill",
+      "jobs_with_content": 2640,
+      "jobs_with_candidate": 2443,
+      "raw_match_count": 6624,
+      "unique_phrases": 56
+    },
+    {
+      "source_field": "detailQualifications.preferredHave.hardSkill",
+      "jobs_with_content": 2883,
+      "jobs_with_candidate": 1235,
+      "raw_match_count": 1841,
+      "unique_phrases": 90
+    },
+    {
+      "source_field": "detailQualifications.preferredHave.softSkill",
+      "jobs_with_content": 754,
+      "jobs_with_candidate": 571,
+      "raw_match_count": 1120,
+      "unique_phrases": 51
+    }
+  ],
+  "top_phrases": [
+    {
+      "normalized_phrase": "Problem-Solving",
+      "job_count": 1219
+    },
+    {
+      "normalized_phrase": "Communication",
+      "job_count": 1180
+    },
+    {
+      "normalized_phrase": "Collaboration",
+      "job_count": 979
+    },
+    {
+      "normalized_phrase": "Stakeholders",
+      "job_count": 962
+    },
+    {
+      "normalized_phrase": "Software Development",
+      "job_count": 781
+    },
+    {
+      "normalized_phrase": "Communication Skills",
+      "job_count": 695
+    },
+    {
+      "normalized_phrase": "Software Engineering",
+      "job_count": 675
+    },
+    {
+      "normalized_phrase": "Databases",
+      "job_count": 648
+    },
+    {
+      "normalized_phrase": "Analytical",
+      "job_count": 527
+    },
+    {
+      "normalized_phrase": "Data Analysis",
+      "job_count": 469
+    },
+    {
+      "normalized_phrase": "Collaborative",
+      "job_count": 449
+    },
+    {
+      "normalized_phrase": "Database",
+      "job_count": 446
+    },
+    {
+      "normalized_phrase": "Ownership",
+      "job_count": 446
+    },
+    {
+      "normalized_phrase": "Cross-Functional Teams",
+      "job_count": 427
+    },
+    {
+      "normalized_phrase": "Enterprise",
+      "job_count": 420
+    },
+    {
+      "normalized_phrase": "Leadership",
+      "job_count": 419
+    },
+    {
+      "normalized_phrase": "Software Development Experience",
+      "job_count": 408
+    },
+    {
+      "normalized_phrase": "Problem-Solving Skills",
+      "job_count": 380
+    },
+    {
+      "normalized_phrase": "Adaptability",
+      "job_count": 347
+    },
+    {
+      "normalized_phrase": "Analytical Skills",
+      "job_count": 321
+    },
+    {
+      "normalized_phrase": "Attention To Detail",
+      "job_count": 320
+    },
+    {
+      "normalized_phrase": "Relational Databases",
+      "job_count": 312
+    },
+    {
+      "normalized_phrase": "Problem Solving",
+      "job_count": 290
+    },
+    {
+      "normalized_phrase": "Data Engineering",
+      "job_count": 264
+    },
+    {
+      "normalized_phrase": "Application Development",
+      "job_count": 241
+    },
+    {
+      "normalized_phrase": "Software Engineering Experience",
+      "job_count": 240
+    },
+    {
+      "normalized_phrase": "Verbal Communication",
+      "job_count": 230
+    },
+    {
+      "normalized_phrase": "Software Development Life Cycle",
+      "job_count": 221
+    },
+    {
+      "normalized_phrase": "Interpersonal Skills",
+      "job_count": 218
+    },
+    {
+      "normalized_phrase": "Mentoring",
+      "job_count": 208
+    },
+    {
+      "normalized_phrase": "System Design",
+      "job_count": 207
+    },
+    {
+      "normalized_phrase": "Curiosity",
+      "job_count": 207
+    },
+    {
+      "normalized_phrase": "Written Communication",
+      "job_count": 207
+    },
+    {
+      "normalized_phrase": "Teamwork",
+      "job_count": 193
+    },
+    {
+      "normalized_phrase": "Risk",
+      "job_count": 191
+    },
+    {
+      "normalized_phrase": "Effective Communication",
+      "job_count": 184
+    },
+    {
+      "normalized_phrase": "Education",
+      "job_count": 181
+    },
+    {
+      "normalized_phrase": "Data Analytics",
+      "job_count": 166
+    },
+    {
+      "normalized_phrase": "Full-Stack",
+      "job_count": 166
+    },
+    {
+      "normalized_phrase": "Proactive",
+      "job_count": 166
+    },
+    {
+      "normalized_phrase": "Software Development Lifecycle",
+      "job_count": 151
+    },
+    {
+      "normalized_phrase": "Healthcare",
+      "job_count": 147
+    },
+    {
+      "normalized_phrase": "Backend Development",
+      "job_count": 140
+    },
+    {
+      "normalized_phrase": "Clear Communication",
+      "job_count": 137
+    },
+    {
+      "normalized_phrase": "Willingness To Learn",
+      "job_count": 128
+    },
+    {
+      "normalized_phrase": "Government",
+      "job_count": 123
+    },
+    {
+      "normalized_phrase": "Full Stack",
+      "job_count": 109
+    },
+    {
+      "normalized_phrase": "Critical Thinking",
+      "job_count": 109
+    },
+    {
+      "normalized_phrase": "Cross-Functional Collaboration",
+      "job_count": 104
+    },
+    {
+      "normalized_phrase": "Stakeholder",
+      "job_count": 104
+    }
+  ],
+  "source_statistics": {
+    "core_responsibilities": {
+      "jobs_with_content": 3980,
+      "jobs_with_candidate": 2637,
+      "raw_match_count": 5651,
+      "unique_phrases": 114
+    },
+    "detailQualifications.mustHave.hardSkill": {
+      "jobs_with_content": 3985,
+      "jobs_with_candidate": 2329,
+      "raw_match_count": 3780,
+      "unique_phrases": 88
+    },
+    "detailQualifications.mustHave.softSkill": {
+      "jobs_with_content": 2640,
+      "jobs_with_candidate": 2443,
+      "raw_match_count": 6624,
+      "unique_phrases": 56
+    },
+    "detailQualifications.preferredHave.hardSkill": {
+      "jobs_with_content": 2883,
+      "jobs_with_candidate": 1235,
+      "raw_match_count": 1841,
+      "unique_phrases": 90
+    },
+    "detailQualifications.preferredHave.softSkill": {
+      "jobs_with_content": 754,
+      "jobs_with_candidate": 571,
+      "raw_match_count": 1120,
+      "unique_phrases": 51
+    },
+    "must_have_quals": {
+      "jobs_with_content": 3990,
+      "jobs_with_candidate": 3311,
+      "raw_match_count": 9309,
+      "unique_phrases": 124
+    },
+    "preferred_quals": {
+      "jobs_with_content": 2915,
+      "jobs_with_candidate": 1561,
+      "raw_match_count": 2883,
+      "unique_phrases": 122
+    }
+  },
+  "accepted_rows": 20968,
+  "dropped_rows": 66,
+  "accepted_jobs": 3871,
+  "accepted_variant_rows": 20968,
+  "final_title_count": 33,
+  "drop_reason_counts": {
+    "noise": 65,
+    "unmapped": 1
+  },
+  "filtered_noise_samples": [
+    {
+      "phrase": "Insurance",
+      "count": 65
+    }
+  ],
+  "excluded_tech_samples": [],
+  "bucket_summaries": {
+    "generalized_tech": {
+      "title_count": 9,
+      "job_count_total": 4900,
+      "mention_count_total": 6489,
+      "top_10": [
+        {
+          "title": "Software Engineering",
+          "frequency": 1846,
+          "semantic_variants": "Software Development、Software Engineering、Application Development、Software Development Life Cycle、Software Development Lifecycle、Software Engineer、Software Developer、SWE、Application Engineering、SDE I"
+        },
+        {
+          "title": "Database Systems",
+          "frequency": 1164,
+          "semantic_variants": "Databases、Database、Relational Databases、Relational Database、Non-Relational Databases、Non-Relational Database、MPP Databases"
+        },
+        {
+          "title": "Data Science / Analytics",
+          "frequency": 618,
+          "semantic_variants": "Data Analysis、Data Analytics、Data Visualization Tools、Data Visualization Tool"
+        },
+        {
+          "title": "Full-Stack Development",
+          "frequency": 326,
+          "semantic_variants": "Full-Stack、Full Stack、Full-Stack Development、Full Stack Development"
+        },
+        {
+          "title": "Data Engineering",
+          "frequency": 325,
+          "semantic_variants": "Data Engineering、Data Pipeline"
+        },
+        {
+          "title": "Architecture / Systems",
+          "frequency": 234,
+          "semantic_variants": "System Design、Distributed System"
+        },
+        {
+          "title": "Backend Development",
+          "frequency": 173,
+          "semantic_variants": "Backend Development、Back-End Development、Back End Development"
+        },
+        {
+          "title": "Frontend Development",
+          "frequency": 128,
+          "semantic_variants": "Frontend Development、Front-End Development、Front End Development"
+        },
+        {
+          "title": "Web Development",
+          "frequency": 86,
+          "semantic_variants": "Web Development、WEB Development"
+        }
+      ]
+    },
+    "business_domain": {
+      "title_count": 20,
+      "job_count_total": 2130,
+      "mention_count_total": 2296,
+      "top_10": [
+        {
+          "title": "Enterprise Software / SaaS",
+          "frequency": 420,
+          "semantic_variants": "Enterprise"
+        },
+        {
+          "title": "Risk / Fraud / Credit",
+          "frequency": 240,
+          "semantic_variants": "Risk、Fraud、Credit"
+        },
+        {
+          "title": "Finance / FinTech",
+          "frequency": 238,
+          "semantic_variants": "Financial Services、Fintech、Payment、Payments、Financial Markets、Wealth Management、FinTech"
+        },
+        {
+          "title": "Education / EdTech",
+          "frequency": 181,
+          "semantic_variants": "Education"
+        },
+        {
+          "title": "Healthcare",
+          "frequency": 147,
+          "semantic_variants": "Healthcare"
+        },
+        {
+          "title": "Public Sector / Government",
+          "frequency": 124,
+          "semantic_variants": "Government、Public Sector"
+        },
+        {
+          "title": "Retail / E-commerce",
+          "frequency": 115,
+          "semantic_variants": "Marketplace、E-Commerce、Retail"
+        },
+        {
+          "title": "Consumer Products / Consumer Internet",
+          "frequency": 103,
+          "semantic_variants": "Consumer"
+        },
+        {
+          "title": "Media / Advertising",
+          "frequency": 99,
+          "semantic_variants": "Media、Advertising、Ad Tech"
+        },
+        {
+          "title": "Travel / Hospitality",
+          "frequency": 80,
+          "semantic_variants": "Travel、Hospitality"
+        }
+      ]
+    },
+    "soft_skill": {
+      "title_count": 4,
+      "job_count_total": 6777,
+      "mention_count_total": 12183,
+      "top_10": [
+        {
+          "title": "合作",
+          "frequency": 2773,
+          "semantic_variants": "Communication、Collaboration、Stakeholders、Collaborative、Cross-Functional Teams、Verbal Communication、Interpersonal、Written Communication、Teamwork、Effective Communication、Clear Communication、Cross-Functional Collaboration、Cross-Functional Team、Stakeholder Management、Cross Functional Teams、Cross Functional Team、Cross Functional Collaboration"
+        },
+        {
+          "title": "思辨与创新",
+          "frequency": 1981,
+          "semantic_variants": "Problem-Solving、Analytical、Problem Solving、Curiosity、Willingness To Learn、Critical Thinking、Analytical Thinking、Eagerness To Learn、Quick Learner、Creativity、Business Acumen"
+        },
+        {
+          "title": "管理/领导",
+          "frequency": 1210,
+          "semantic_variants": "Ownership、Leadership、Mentoring、Proactive、Stakeholder、Self-Starter、Initiative、Accountability、Accountable、Self Starter"
+        },
+        {
+          "title": "抗压",
+          "frequency": 813,
+          "semantic_variants": "Adaptability、Attention To Detail、Time Management、Organizational、Independent Work、Independence、Flexibility"
+        }
+      ]
+    }
+  },
+  "merged_narratives_summary": {
+    "group_count": 12,
+    "covered_title_count": 33,
+    "singleton_count": 0,
+    "singleton_titles": [],
+    "title_group_counts": {
+      "思辨与创新": 9,
+      "合作": 6,
+      "管理/领导": 6,
+      "Architecture / Systems": 3,
+      "B2B / B2C": 3,
+      "Data Engineering": 3,
+      "Database Systems": 3,
+      "Travel / Hospitality": 3,
+      "抗压": 3,
+      "Backend Development": 2,
+      "Banking": 2,
+      "Consumer Products / Consumer Internet": 2,
+      "Data Science / Analytics": 2,
+      "Education / EdTech": 2,
+      "Energy / Utilities": 2,
+      "Enterprise Software / SaaS": 2,
+      "Finance / FinTech": 2,
+      "Frontend Development": 2,
+      "Full-Stack Development": 2,
+      "Gaming / Entertainment": 2,
+      "Healthcare": 2,
+      "Life Sciences / Biotech": 2,
+      "Logistics / Supply Chain": 2,
+      "Manufacturing / Industrial": 2,
+      "Media / Advertising": 2,
+      "Public Sector / Government": 2,
+      "Real Estate / PropTech": 2,
+      "Retail / E-commerce": 2,
+      "Risk / Fraud / Credit": 2,
+      "Software Engineering": 2,
+      "Telecom": 2,
+      "Trading": 2,
+      "Web Development": 2
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T20:26:23",
+  "completed_at": "2026-04-17T20:27:11",
+  "duration_seconds": 48.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": []
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening framing centers on a transition narrative ('transitioning from data analysis to full-stack development') instead of a direct role/domain anchor, so the first scan reads as career-change rather than immediate SWE fit.",
+          "fix": "Rewrite the first sentence to start with the target role and domain, for example: 'Full-stack SWE focused on internal platforms and workflow automation in Java, TypeScript, Node.js, Python, and Go,' then move the transition story later in the summary."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3A-002",
+          "sub_area": "3A",
+          "severity": "high",
+          "field": "TikTok project: Security Knowledge Retrieval Assistant, bullet 1",
+          "issue": "AWS Bedrock appears in the body but is not listed in Skills, so the body and Skills are not fully aligned on the actual stack used.",
+          "fix": "Add AWS Bedrock to the relevant Skills category, or reword the bullet to a broader cloud-service description if you want to keep the Skills section narrower."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the opening Summary sentence to lead with a clear full-stack SWE role/domain anchor instead of the transition narrative.",
+      "[MUST] Add AWS Bedrock to Skills, or soften the project wording so the stack in the body matches the stack list.",
+      "[SHOULD] If you have one more concrete scope cue, add it to the first bullet of the newest role to strengthen the Google Cloud platform fit.",
+      "[NICE] Keep the current structure and quantification style; the resume is otherwise internally coherent."
+    ],
+    "revision_instructions": "[MUST] Rewrite Summary sentence 1 so it starts with a direct role/domain anchor (for example, 'Full-stack SWE focused on internal platforms and workflow automation...') and keep the transition story as a secondary point. [MUST] Add AWS Bedrock to Skills under Cloud, or rephrase the TikTok project bullet so the body does not introduce a tool that the Skills section omits. [SHOULD] If available, add one explicit ownership/scope cue to the first bullet of the newest role to better support the Google Cloud full-stack target. [NICE] Leave the rest of the structure intact; the resume is otherwise coherent and ATS-friendly.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 8.0,
+      "r1_writing_standard": 10.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 94.4,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 1,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Rewrite the opening Summary sentence to lead with a clear full-stack SWE role/domain anchor instead of the transition narrative.",
+      "[MUST] Add AWS Bedrock to Skills, or soften the project wording so the stack in the body matches the stack list.",
+      "[SHOULD] If you have one more concrete scope cue, add it to the first bullet of the newest role to strengthen the Google Cloud platform fit.",
+      "[NICE] Keep the current structure and quantification style; the resume is otherwise internally coherent."
+    ],
+    "revision_instructions": "[MUST] Rewrite Summary sentence 1 so it starts with a direct role/domain anchor (for example, 'Full-stack SWE focused on internal platforms and workflow automation...') and keep the transition story as a secondary point. [MUST] Add AWS Bedrock to Skills under Cloud, or rephrase the TikTok project bullet so the body does not introduce a tool that the Skills section omits. [SHOULD] If available, add one explicit ownership/scope cue to the first bullet of the newest role to better support the Google Cloud full-stack target. [NICE] Leave the rest of the structure intact; the resume is otherwise coherent and ATS-friendly.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": []
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The opening framing centers on a transition narrative ('transitioning from data analysis to full-stack development') instead of a direct role/domain anchor, so the first scan reads as career-change rather than immediate SWE fit.",
+            "fix": "Rewrite the first sentence to start with the target role and domain, for example: 'Full-stack SWE focused on internal platforms and workflow automation in Java, TypeScript, Node.js, Python, and Go,' then move the transition story later in the summary."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3A-002",
+            "sub_area": "3A",
+            "severity": "high",
+            "field": "TikTok project: Security Knowledge Retrieval Assistant, bullet 1",
+            "issue": "AWS Bedrock appears in the body but is not listed in Skills, so the body and Skills are not fully aligned on the actual stack used.",
+            "fix": "Add AWS Bedrock to the relevant Skills category, or reword the bullet to a broader cloud-service description if you want to keep the Skills section narrower."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Rewrite the opening Summary sentence to lead with a clear full-stack SWE role/domain anchor instead of the transition narrative.",
+        "[MUST] Add AWS Bedrock to Skills, or soften the project wording so the stack in the body matches the stack list.",
+        "[SHOULD] If you have one more concrete scope cue, add it to the first bullet of the newest role to strengthen the Google Cloud platform fit.",
+        "[NICE] Keep the current structure and quantification style; the resume is otherwise internally coherent."
+      ],
+      "revision_instructions": "[MUST] Rewrite Summary sentence 1 so it starts with a direct role/domain anchor (for example, 'Full-stack SWE focused on internal platforms and workflow automation...') and keep the transition story as a secondary point. [MUST] Add AWS Bedrock to Skills under Cloud, or rephrase the TikTok project bullet so the body does not introduce a tool that the Skills section omits. [SHOULD] If available, add one explicit ownership/scope cue to the first bullet of the newest role to better support the Google Cloud full-stack target. [NICE] Leave the rest of the structure intact; the resume is otherwise coherent and ATS-friendly.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [
+        {
+          "rule_id": "P3A-002",
+          "sub_area": "3A",
+          "severity": "high",
+          "field": "TikTok project: Security Knowledge Retrieval Assistant, bullet 1",
+          "issue": "AWS Bedrock appears in the body but is not listed in Skills, so the body and Skills are not fully aligned on the actual stack used.",
+          "fix": "Add AWS Bedrock to the relevant Skills category, or reword the bullet to a broader cloud-service description if you want to keep the Skills section narrower."
+        }
+      ],
+      "r1_writing_standard": [],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The opening framing centers on a transition narrative ('transitioning from data analysis to full-stack development') instead of a direct role/domain anchor, so the first scan reads as career-change rather than immediate SWE fit.",
+          "fix": "Rewrite the first sentence to start with the target role and domain, for example: 'Full-stack SWE focused on internal platforms and workflow automation in Java, TypeScript, Node.js, Python, and Go,' then move the transition story later in the summary."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3A-002"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P2-001",
+      "P3A-002"
+    ],
+    "high_or_critical": [
+      "P3A-002 @ TikTok project: Security Knowledge Retrieval Assistant, bullet 1"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary; TikTok and DiDi Experience bullets",
+        "issue": "Modifiers and scope phrases such as `team-maintained`, `internal`, `13-person`, and `20+ city` are bolded. That creates emphasis noise and weakens the visual contrast reserved for technologies and measurable outcomes.",
+        "fix": "Keep bold only on technologies, systems, and hard metrics. Remove bold from descriptive qualifiers and ownership phrases."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, bullet 1",
+        "issue": "The opening frame leads with `Transitioning from data analysis to software engineering`, so the first screen reads like a career-change note before the infra/backend signal.",
+        "fix": "Open with the target role/domain first, then move the transition note later or compress it into a short trailing clause."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Skills section",
+        "issue": "The Programming and Cloud groups each surface many active tools/languages at once, which reads like a stack laundry list instead of a sharply anchored backend/infrastructure profile.",
+        "fix": "Keep each Skills category to the 4-6 strongest items and let the experience bullets carry the secondary tool evidence; preserve the JD must-haves, but stop presenting every supported tool as equally primary."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Rewrite Summary bullet 1 so it opens with the target infra/backend/security role instead of the transition narrative.",
+    "[MUST] Compress the Skills section so each category shows only the core stack, not every supported tool at the same prominence level.",
+    "[SHOULD] Remove bold from modifiers and scope adjectives such as `team-maintained`, `internal`, `13-person`, and `20+ city`.",
+    "[NICE] Keep the rest of the structure; it is parseable and mostly compliant."
+  ],
+  "revision_instructions": "Rewrite the first summary bullet to lead with the target role/domain, e.g. an infra/backend/security framing, and move or shorten the transition note. Trim `Skills` so each category shows only the strongest core items, while the experience bullets continue to prove the rest of the stack. Remove bold from qualifiers and scope adjectives like `team-maintained`, `internal`, `13-person`, and `20+ city`; reserve emphasis for technologies and measurable outcomes."
+}

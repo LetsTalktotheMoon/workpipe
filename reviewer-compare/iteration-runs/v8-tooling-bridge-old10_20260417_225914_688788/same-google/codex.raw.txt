@@ -1,0 +1,39 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, 第一句",
+        "issue": "首句以“Full-Stack Transition”开场，先讲转型过程而不是角色方向与领域信号，首屏抓手偏弱。",
+        "fix": "把首句改成角色先行的 framing，例如先写“Full-Stack SWE”或“Backend/Platform-focused SWE”，再把“from data analysis”放到第二句或后半句。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3A-002",
+        "sub_area": "3A",
+        "severity": "high",
+        "field": "TikTok Experience > Project: Security Knowledge Retrieval Assistant, bullet 1",
+        "issue": "正文出现了 `Bedrock`，但 Skills 里没有这个命名技术，造成“正文用到、Skills 无出处”的技术-叙事不一致。",
+        "fix": "在 Skills 的 Cloud/Platform 区补上 `AWS Bedrock`，或者把该 bullet 改写为只使用已在 Skills 中列出的技术；不要保留正文有命名技术、Skills 里完全缺失的状态。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把 Summary 第一条改成角色先行的 full-stack framing，弱化或后移“transitioning from data analysis”的表述。",
+    "[MUST] 处理 TikTok 项目里 `Bedrock` 的技能出处不一致：要么补进 Skills，要么重写该 bullet 只保留已列出的技术。",
+    "[SHOULD] 如果目标继续对准 Google Cloud Platforms，补一条更明确的云平台/部署/监控/权限相关正文证据，而不是只在 Skills 里泛列云技术。",
+    "[NICE] 精简 Summary 第三句的 Go 成就表述，保留 cognition signal，但让首屏更快扫读。"
+  ],
+  "revision_instructions": "[MUST] 将 Professional Summary 第一条改成角色先行的开场，例如先写 Full-Stack/Platform-focused SWE，再把“from data analysis”放到后半句，避免首屏先看到转型叙事。\n[MUST] 在 Skills 中补 `AWS Bedrock`，或把 TikTok 项目第一条改写为仅使用已列出的技术；当前正文出现命名技术但 Skills 无出处，会被 ATS/面试官直接追问。\n[SHOULD] 若继续投 Google Cloud Platforms，建议在最相关经历里补 1 条更明确的云平台/部署/监控/权限证据，增强与岗位方向的桥接。\n[NICE] 压缩 Summary 第三句的 Go 成绩描述，保留 pattern-recognition 信号即可。"
+}

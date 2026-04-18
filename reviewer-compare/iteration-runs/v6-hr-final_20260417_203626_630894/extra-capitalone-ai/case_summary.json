@@ -1,0 +1,363 @@
+{
+  "label": "extra/CapitalOne-AI",
+  "target_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd",
+  "historical": {
+    "official_score": null,
+    "official_verdict": "",
+    "official_notes": [
+      "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+    ],
+    "claude_score": null,
+    "claude_verdict": "",
+    "claude_notes": [],
+    "baseline_source": ""
+  },
+  "metadata": {
+    "label": "extra/CapitalOne-AI",
+    "company": "Capital One",
+    "title": "Manager, Data Analysis - Card Services",
+    "role_type": "swe_backend",
+    "seniority": "entry",
+    "team_direction": "Capital One is a Fortune 200 company and a leader in data-driven decision-making",
+    "tech_required": [],
+    "tech_preferred": [
+      "Spark",
+      "Python",
+      "SQL",
+      "R",
+      "Tableau",
+      "AWS"
+    ],
+    "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/resume.md",
+    "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/job.md",
+    "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/manifest.json",
+    "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd/review.json",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    },
+    "portfolio_review": {
+      "weighted_score": 94.7,
+      "overall_verdict": "pass",
+      "passed": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "needs_revision": false,
+      "revision_priority": [],
+      "scores": {
+        "r0_authenticity": {
+          "score": 10.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r1_writing_standard": {
+          "score": 9.0,
+          "weight": 0.15,
+          "verdict": "pass",
+          "findings_count": 1
+        },
+        "r2_jd_fitness": {
+          "score": 9.2,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r3_overqualification": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r4_rationality": {
+          "score": 9.0,
+          "weight": 0.2,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r5_logic": {
+          "score": 10.0,
+          "weight": 0.1,
+          "verdict": "pass",
+          "findings_count": 0
+        },
+        "r6_competitiveness": {
+          "score": 9.5,
+          "weight": 0.05,
+          "verdict": "pass",
+          "findings_count": 0
+        }
+      },
+      "final_score": 94.7,
+      "verdict": "pass",
+      "seed_label": "Qualified Health Data Engineer",
+      "route_mode": "retarget",
+      "revised": false,
+      "revision_instructions": "",
+      "rereview_version": "historical_rereview_v1",
+      "rereviewed_at": "2026-04-07T21:27:00",
+      "rereview_rounds": 0,
+      "rereview_revised": false,
+      "normalized_before_review": false,
+      "normalize_changes": [
+        "normalized_go_summary",
+        "normalized_go_achievement",
+        "normalized_keyword_bolding"
+      ],
+      "deterministic_issue_codes_after": [],
+      "previous_final_score": 95.2,
+      "previous_verdict": "pass"
+    },
+    "immutable_snapshot": [
+      {
+        "company": "Temu",
+        "department": "R&D",
+        "title": "Data Analyst",
+        "dates": "Jun 2021 – Feb 2022",
+        "location": "Shanghai"
+      },
+      {
+        "company": "DiDi",
+        "department": "IBG · Food",
+        "title": "Senior Data Analyst",
+        "dates": "Sep 2022 – May 2024",
+        "location": "Beijing/Mexico"
+      },
+      {
+        "company": "TikTok",
+        "department": "Security",
+        "title": "Software Engineer Intern",
+        "dates": "Jun 2025 – Dec 2025",
+        "location": "San Jose, USA"
+      }
+    ]
+  },
+  "codex": {
+    "runner": "codex",
+    "model": "gpt-5.4-mini",
+    "started_at": "2026-04-17T20:43:54",
+    "completed_at": "2026-04-17T20:44:49",
+    "duration_seconds": 55.0,
+    "raw_json": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "正文里的技术名词并未完全延续加粗规则，尤其是 Spark 在首句中未加粗，和其他技术信号的视觉强调不一致。",
+            "fix": "将 Spark 也加粗，或把首句中所有核心技术统一为同一加粗粒度，保持 Summary 的首屏信号一致。"
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句用 \"Data Analysis Candidate\" 做 framing，角色方向是有的，但 \"Candidate\" 会削弱首屏的确定性与岗位匹配感。",
+            "fix": "把首句改成直接的岗位锚点，例如 \"Data analyst with 3+ years...\" 或 \"Data/Platform analyst with 3+ years...\"，去掉 candidate 叙事。"
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience, bullets 1-4",
+            "issue": "最新且最相关的经历几乎全部依赖百分比改进，缺少 Tier 1 规模/范围锚点，首条 bullet 也主要是技术改进结果，HR 很难快速判断工作体量。",
+            "fix": "在最相关的一条 TikTok bullet 或其项目里补一个可追问的规模信号，例如每天处理的 case 数、支持的 analyst/team 数、数据量、服务流量或 release 规模。"
+          },
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok Experience, bullet 3; Project: Security Knowledge Retrieval Acceleration, bullet 1",
+            "issue": "安全场景里写了 AWS Bedrock 和 RAG，但没有明确说明是 internal workflow、sandbox、redacted docs 或 no user data/prod data，边界表达不足。",
+            "fix": "如果属实，在同一条 bullet 里补上明确限定语，例如 \"internal workflow\"、\"sandbox\"、\"redacted internal docs\" 或 \"no user data involved\"，避免被误读为合规风险。"
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 给 TikTok Security 的 Bedrock/RAG 表述补上明确数据边界限定语（internal/sandbox/no user data/prod data），避免安全场景被误读。",
+        "[MUST] 在最新且最相关的经历里补一个 Tier 1 规模信号，别让百分比改进单独承担叙事。",
+        "[SHOULD] 把 Summary 第一句从 \"Data Analysis Candidate\" 改成直接岗位锚点，减少首屏弱化感。",
+        "[NICE] 统一 Summary 的技术加粗颗粒度，把 Spark 也纳入同一套强调规则。"
+      ],
+      "revision_instructions": "[MUST] 保持不可变字段不动。把 TikTok Security 里涉及 Bedrock/RAG 的 bullet 改写成明确的内部/沙箱/无用户数据语境；如果没有这些限定，就不要继续保留当前写法。 [MUST] 在 TikTok 或最相关项目里补 1 个可追问的规模锚点，例如 case/day、支持的团队数、数据量、服务流量、release 规模，让 31%/26% 这类百分比有体量支撑。 [SHOULD] 将 Summary 第一句从 \"Data Analysis Candidate\" 改成直接角色锚点，如 \"Data analyst with 3+ years...\"。 [NICE] 将 Spark 与其他核心技术统一加粗风格。",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "aggregated": {
+      "scores": {
+        "r0_authenticity": 10.0,
+        "r1_writing_standard": 9.5,
+        "r2_jd_fitness": 10.0,
+        "r3_overqualification": 10.0,
+        "r4_rationality": 8.5,
+        "r5_logic": 10.0,
+        "r7_ecosystem": 9.5,
+        "r8_localization": 10.0
+      },
+      "weighted_score": 96.2,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 4,
+      "low_count": 0,
+      "needs_revision": false,
+      "overall_verdict": "pass",
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] 给 TikTok Security 的 Bedrock/RAG 表述补上明确数据边界限定语（internal/sandbox/no user data/prod data），避免安全场景被误读。",
+        "[MUST] 在最新且最相关的经历里补一个 Tier 1 规模信号，别让百分比改进单独承担叙事。",
+        "[SHOULD] 把 Summary 第一句从 \"Data Analysis Candidate\" 改成直接岗位锚点，减少首屏弱化感。",
+        "[NICE] 统一 Summary 的技术加粗颗粒度，把 Spark 也纳入同一套强调规则。"
+      ],
+      "revision_instructions": "[MUST] 保持不可变字段不动。把 TikTok Security 里涉及 Bedrock/RAG 的 bullet 改写成明确的内部/沙箱/无用户数据语境；如果没有这些限定，就不要继续保留当前写法。 [MUST] 在 TikTok 或最相关项目里补 1 个可追问的规模锚点，例如 case/day、支持的团队数、数据量、服务流量、release 规模，让 31%/26% 这类百分比有体量支撑。 [SHOULD] 将 Summary 第一句从 \"Data Analysis Candidate\" 改成直接角色锚点，如 \"Data analyst with 3+ years...\"。 [NICE] 将 Spark 与其他核心技术统一加粗风格。",
+      "reviewer_raw": {
+        "pass_1_structural": {
+          "findings": [
+            {
+              "rule_id": "P1-040",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "正文里的技术名词并未完全延续加粗规则，尤其是 Spark 在首句中未加粗，和其他技术信号的视觉强调不一致。",
+              "fix": "将 Spark 也加粗，或把首句中所有核心技术统一为同一加粗粒度，保持 Summary 的首屏信号一致。"
+            }
+          ]
+        },
+        "pass_2_attention": {
+          "findings": [
+            {
+              "rule_id": "P2-001",
+              "severity": "medium",
+              "field": "Professional Summary, sentence 1",
+              "issue": "首句用 \"Data Analysis Candidate\" 做 framing，角色方向是有的，但 \"Candidate\" 会削弱首屏的确定性与岗位匹配感。",
+              "fix": "把首句改成直接的岗位锚点，例如 \"Data analyst with 3+ years...\" 或 \"Data/Platform analyst with 3+ years...\"，去掉 candidate 叙事。"
+            }
+          ]
+        },
+        "pass_3_substance": {
+          "findings": [
+            {
+              "rule_id": "P3D-001",
+              "sub_area": "3D",
+              "severity": "medium",
+              "field": "TikTok Experience, bullets 1-4",
+              "issue": "最新且最相关的经历几乎全部依赖百分比改进，缺少 Tier 1 规模/范围锚点，首条 bullet 也主要是技术改进结果，HR 很难快速判断工作体量。",
+              "fix": "在最相关的一条 TikTok bullet 或其项目里补一个可追问的规模信号，例如每天处理的 case 数、支持的 analyst/team 数、数据量、服务流量或 release 规模。"
+            },
+            {
+              "rule_id": "P3E-013",
+              "sub_area": "3E",
+              "severity": "medium",
+              "field": "TikTok Experience, bullet 3; Project: Security Knowledge Retrieval Acceleration, bullet 1",
+              "issue": "安全场景里写了 AWS Bedrock 和 RAG，但没有明确说明是 internal workflow、sandbox、redacted docs 或 no user data/prod data，边界表达不足。",
+              "fix": "如果属实，在同一条 bullet 里补上明确限定语，例如 \"internal workflow\"、\"sandbox\"、\"redacted internal docs\" 或 \"no user data involved\"，避免被误读为合规风险。"
+            }
+          ]
+        },
+        "translation_recommendations": [],
+        "revision_priority": [
+          "[MUST] 给 TikTok Security 的 Bedrock/RAG 表述补上明确数据边界限定语（internal/sandbox/no user data/prod data），避免安全场景被误读。",
+          "[MUST] 在最新且最相关的经历里补一个 Tier 1 规模信号，别让百分比改进单独承担叙事。",
+          "[SHOULD] 把 Summary 第一句从 \"Data Analysis Candidate\" 改成直接岗位锚点，减少首屏弱化感。",
+          "[NICE] 统一 Summary 的技术加粗颗粒度，把 Spark 也纳入同一套强调规则。"
+        ],
+        "revision_instructions": "[MUST] 保持不可变字段不动。把 TikTok Security 里涉及 Bedrock/RAG 的 bullet 改写成明确的内部/沙箱/无用户数据语境；如果没有这些限定，就不要继续保留当前写法。 [MUST] 在 TikTok 或最相关项目里补 1 个可追问的规模锚点，例如 case/day、支持的团队数、数据量、服务流量、release 规模，让 31%/26% 这类百分比有体量支撑。 [SHOULD] 将 Summary 第一句从 \"Data Analysis Candidate\" 改成直接角色锚点，如 \"Data analyst with 3+ years...\"。 [NICE] 将 Spark 与其他核心技术统一加粗风格。",
+        "pass_5_localization": {
+          "findings": []
+        }
+      },
+      "per_dimension_findings": {
+        "r0_authenticity": [],
+        "r1_writing_standard": [
+          {
+            "rule_id": "P1-040",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "正文里的技术名词并未完全延续加粗规则，尤其是 Spark 在首句中未加粗，和其他技术信号的视觉强调不一致。",
+            "fix": "将 Spark 也加粗，或把首句中所有核心技术统一为同一加粗粒度，保持 Summary 的首屏信号一致。"
+          }
+        ],
+        "r2_jd_fitness": [],
+        "r3_overqualification": [],
+        "r4_rationality": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "首句用 \"Data Analysis Candidate\" 做 framing，角色方向是有的，但 \"Candidate\" 会削弱首屏的确定性与岗位匹配感。",
+            "fix": "把首句改成直接的岗位锚点，例如 \"Data analyst with 3+ years...\" 或 \"Data/Platform analyst with 3+ years...\"，去掉 candidate 叙事。"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience, bullets 1-4",
+            "issue": "最新且最相关的经历几乎全部依赖百分比改进，缺少 Tier 1 规模/范围锚点，首条 bullet 也主要是技术改进结果，HR 很难快速判断工作体量。",
+            "fix": "在最相关的一条 TikTok bullet 或其项目里补一个可追问的规模信号，例如每天处理的 case 数、支持的 analyst/team 数、数据量、服务流量或 release 规模。"
+          }
+        ],
+        "r5_logic": [],
+        "r7_ecosystem": [
+          {
+            "rule_id": "P3E-013",
+            "sub_area": "3E",
+            "severity": "medium",
+            "field": "TikTok Experience, bullet 3; Project: Security Knowledge Retrieval Acceleration, bullet 1",
+            "issue": "安全场景里写了 AWS Bedrock 和 RAG，但没有明确说明是 internal workflow、sandbox、redacted docs 或 no user data/prod data，边界表达不足。",
+            "fix": "如果属实，在同一条 bullet 里补上明确限定语，例如 \"internal workflow\"、\"sandbox\"、\"redacted internal docs\" 或 \"no user data involved\"，避免被误读为合规风险。"
+          }
+        ],
+        "r8_localization": []
+      }
+    },
+    "finding_summary": {
+      "by_section": {
+        "pass_1_structural": {
+          "count": 1,
+          "rule_ids": [
+            "P1-040"
+          ]
+        },
+        "pass_2_attention": {
+          "count": 1,
+          "rule_ids": [
+            "P2-001"
+          ]
+        },
+        "pass_3_substance": {
+          "count": 2,
+          "rule_ids": [
+            "P3D-001",
+            "P3E-013"
+          ]
+        },
+        "pass_5_localization": {
+          "count": 0,
+          "rule_ids": []
+        }
+      },
+      "all_rule_ids": [
+        "P1-040",
+        "P2-001",
+        "P3D-001",
+        "P3E-013"
+      ],
+      "high_or_critical": []
+    }
+  }
+}

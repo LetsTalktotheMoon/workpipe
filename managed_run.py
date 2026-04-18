@@ -12,6 +12,7 @@ import subprocess
 import sys
 import threading
 import time
+import traceback
 import uuid
 from contextlib import contextmanager
 from dataclasses import dataclass
@@ -23,7 +24,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 STATE_ROOT = ROOT / "state"
 RUNS_ROOT = ROOT / "runs"
-DEFAULT_JOBS_JSON = ROOT / "data" / "job_tracker" / "scraped_jobs.json"
+DEFAULT_JOBS_JSON = ROOT / "data" / "job_tracker" / "jobs_catalog.json"
 DEFAULT_PORTFOLIO_ROOT = ROOT / "data" / "deliverables" / "resume_portfolio"
 MONITOR_STATE_PATH = STATE_ROOT / "managed_runs.json"
 MONITOR_LOCK_PATH = STATE_ROOT / "managed_runs.lock"
@@ -708,6 +709,22 @@ def _with_injected_run_dir(command: list[str], label: str, run_id: str) -> tuple
     return (updated, str(run_dir))
 
 
+def _looks_like_pipeline_jobs_command(command: list[str]) -> bool:
+    for index, token in enumerate(command[:-1]):
+        token_name = Path(str(token or "")).name
+        if token_name != "pipeline.py":
+            continue
+        if str(command[index + 1] or "").strip() == "jobs":
+            return True
+    return False
+
+
+def _should_run_scraper_backfill(*, preset_id: str, command: list[str]) -> bool:
+    if str(preset_id or "").strip() == "daily_job_scraper":
+        return True
+    return _looks_like_pipeline_jobs_command(command)
+
+
 def _signal_process_group(pgid: int, sig: int) -> None:
     if pgid <= 0:
         return
@@ -898,6 +915,48 @@ class ManagedRunner:
         )
         raise SystemExit(128 + signum)
 
+    def _run_scraper_backfill_pre_hook(self, *, effective_command: list[str], log_file: Any) -> None:
+        if not _should_run_scraper_backfill(preset_id=self.preset_id, command=effective_command):
+            return
+
+        start_line = "Running scraper pre-hook: backfill_status.run_backfill(force=True)"
+        log_file.write(start_line + "\n")
+        log_file.flush()
+        _append_log_tail(self.run_id, start_line)
+
+        from backfill_status import runner as backfill_runner
+
+        try:
+            summary = backfill_runner.run_backfill(force=True)
+        except Exception as exc:
+            message = f"Scraper pre-hook failed before child launch: {exc}"
+            log_file.write(message + "\n")
+            log_file.write(traceback.format_exc())
+            log_file.flush()
+            _append_log_tail(self.run_id, message)
+            raise RuntimeError(message) from exc
+
+        finish_line = (
+            "Scraper pre-hook completed: "
+            f"processed_jobs={summary.processed_jobs}, classified_jobs={summary.classified_jobs}, "
+            f"report_path={summary.report_path or '<none>'}"
+        )
+        log_file.write(finish_line + "\n")
+        log_file.flush()
+        _append_log_tail(self.run_id, finish_line)
+        merge_process_metadata(
+            self.run_id,
+            {
+                "scraper_pre_hook": {
+                    "status": "completed",
+                    "processed_jobs": int(summary.processed_jobs),
+                    "classified_jobs": int(summary.classified_jobs),
+                    "report_path": str(summary.report_path or ""),
+                    "generated_at": str(summary.generated_at or ""),
+                }
+            },
+        )
+
     def run(self) -> int:
         MANAGED_LOG_ROOT.mkdir(parents=True, exist_ok=True)
         PRIORITY_INPUT_ROOT.mkdir(parents=True, exist_ok=True)
@@ -928,6 +987,7 @@ class ManagedRunner:
                     log_file.write(f"\n===== run #{self.run_count} start {_now_iso()} =====\n")
                     log_file.write("command: " + shlex.join(effective_command) + "\n")
                     log_file.flush()
+                    self._run_scraper_backfill_pre_hook(effective_command=effective_command, log_file=log_file)
 
                     launch_env = {**os.environ, "MANAGED_RUN_ACTIVE": "1"}
                     queue_payload = load_waiting_retry_queue(self.run_id) or {}

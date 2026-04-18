@@ -1,0 +1,63 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Summary and Experience bullets with emphasis formatting",
+        "issue": "Several descriptive qualifiers are bolded, such as `team-maintained`, `existing`, `internal`, and `team-owned`, which violates the rule that emphasis should be reserved for technologies and scope signals.",
+        "fix": "Remove bold from qualifier words and keep bold only on technologies, scope, and quantified outcomes."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "The header uses `Candidate`, which reads like an applicant label rather than a clear role/domain statement, so the first scan is weaker than it should be.",
+        "fix": "Rewrite the header to `Data Analyst` or `Data/Platform Analyst` and keep the rest of the sentence intact."
+      },
+      {
+        "rule_id": "P2-030",
+        "severity": "medium",
+        "field": "Skills, first row (`Programming:`)",
+        "issue": "The first skills line leads with programming tools instead of the JD's core data-analysis stack, so the top-of-page scan is slightly misaligned.",
+        "fix": "Move `Data` or `Analytics` to the first row, or rename the row to `Analytics:` while keeping Python/SQL/Spark there."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Overall resume vs target role",
+        "issue": "The resume shows strong IC delivery but no people-management, hiring, mentoring, or explicit operating-lead scope, which leaves the `Manager` title unsupported.",
+        "fix": "If true, add one bullet with team leadership, roadmap ownership, mentorship, or cross-functional operating-review scope; otherwise this profile is structurally closer to IC data-analysis roles.",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok · Security | Jun 2025 – Dec 2025",
+        "issue": "The newest experience is rich in tool detail but has no Tier 1 scale signal, so it does not give HR a strong first-impression scope anchor.",
+        "fix": "Add a concrete scale metric if true, such as case volume, analyst count, SLA, throughput, or team size; keep the current latency/result metric as secondary proof."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Add explicit manager/leadership scope evidence, or acknowledge that the profile is currently closer to an IC data-analysis target than a Manager role.",
+    "[MUST] Rewrite Summary sentence 1 to remove `Candidate` and lead with a clearer `Data Analyst` / `Data/Platform Analyst` framing.",
+    "[MUST] Move `Data` / `Analytics` ahead of `Programming` in Skills so the first scan hit aligns with the JD.",
+    "[SHOULD] Add one concrete scope metric to the TikTok first bullet and remove bold from descriptive qualifiers like `team-maintained` and `existing`."
+  ],
+  "revision_instructions": "[结构性错配] If you can truthfully support manager scope, add one bullet showing team leadership, roadmap ownership, mentoring, or operating-review ownership; otherwise this reads as an IC data analyst profile. Rewrite Summary sentence 1 to remove `Candidate` and lead with `Data Analyst` / `Data/Platform Analyst`. Move `Data` / `Analytics` to the first Skills row. Add one concrete scale metric to the TikTok first bullet, and unbold descriptive qualifiers such as `team-maintained`, `existing`, and `internal`."
+}

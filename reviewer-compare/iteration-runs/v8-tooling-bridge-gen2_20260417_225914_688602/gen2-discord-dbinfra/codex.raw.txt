@@ -1,0 +1,32 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": []
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "## Professional Summary / TikTok Experience",
+        "issue": "This is a specialized Database Infrastructure role, but the resume currently proves only adjacent backend/data experience: Go/Java/C++ services, PostgreSQL usage, Kafka, Docker, Kubernetes, and Linux. It does not explicitly show database-infrastructure ownership such as reliability, HA/failover, replication, query-path debugging, storage primitives, or on-call production debugging, so a recruiter has to infer the fit.",
+        "fix": "Add one bullet in the most relevant experience that explicitly names the database surface you owned and the operational work you did, for example PostgreSQL reliability, failover or rollback validation, replication lag debugging, schema migration safety, or query-path troubleshooting, plus one concrete outcome. If that work is not real, this resume is not yet a strong fit for Discord Database Infrastructure.",
+        "note": "[结构性错配]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] In the most relevant experience, add one explicit database-infrastructure ownership bullet so the resume proves Database Infrastructure fit instead of only adjacent backend/platform work.",
+    "[MUST] Reframe the summary to foreground database infrastructure and operational reliability, not just general backend/data experience.",
+    "[SHOULD] If Rust or PostgreSQL HA/replication work is real, surface it once in the same most-relevant bullet rather than leaving it implicit.",
+    "[NICE] Keep the existing stack breadth, but reduce reliance on inference by naming the exact DB surface, operational action, and measured result in one place."
+  ],
+  "revision_instructions": "Keep all immutable fields unchanged. Rework one TikTok bullet, or the TikTok project bullet, so it explicitly names real database-infrastructure ownership: PostgreSQL reliability, failover/rollback validation, replication or query-path debugging, schema migration safety, or storage-related debugging. Pair that with one concrete outcome. Then tighten the summary so the first two sentences clearly signal backend/database infrastructure rather than generic backend/data work. Do not add Rust unless it is a true part of the experience."
+}

@@ -10,7 +10,7 @@
   - `review`
   - `pdf`
   - waiting-window enqueue / retry continuation
-- Newly scraped jobs still land in `scraped_jobs.json`, so the web app will surface them as `无简历`.
+- Newly scraped jobs still land in `scraped_jobs.json` as the local scraper cache, but the web app should now read the merged `jobs_catalog.json` first so newly synced jobs and historical jobs share one canonical pool.
 
 ## A Plan: Current Production Router / Seed System
 

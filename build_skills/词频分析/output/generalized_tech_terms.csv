@@ -1,0 +1,10 @@
+title,semantic_variants,frequency,job_count,mention_count
+Software Engineering,Software Development、Software Engineering、Application Development、Software Development Life Cycle、Software Development Lifecycle、Software Engineer、Software Developer、SWE、Application Engineering、SDE I,1846,1846,2850
+Database Systems,Databases、Database、Relational Databases、Relational Database、Non-Relational Databases、Non-Relational Database、MPP Databases,1164,1164,1506
+Data Science / Analytics,Data Analysis、Data Analytics、Data Visualization Tools、Data Visualization Tool,618,618,721
+Full-Stack Development,Full-Stack、Full Stack、Full-Stack Development、Full Stack Development,326,326,436
+Data Engineering,Data Engineering、Data Pipeline,325,325,348
+Architecture / Systems,System Design、Distributed System,234,234,239
+Backend Development,Backend Development、Back-End Development、Back End Development,173,173,174
+Frontend Development,Frontend Development、Front-End Development、Front End Development,128,128,128
+Web Development,Web Development、WEB Development,86,86,87

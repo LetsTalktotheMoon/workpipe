@@ -1,0 +1,71 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience bullets > quantified metrics across TikTok / DiDi / Temu",
+        "issue": "正文里的关键规模和结果数字大多没有加粗，视觉重心偏向技术名词而不是最能抓住 HR 的 scope 信号。",
+        "fix": "把每段经历里最有分量的 1-2 个数字加粗，例如 `13-person`、`20+ city`、`11 minutes -> 4 minutes`、`24%`、`31%`、`33%`、`41%`，优先放在首条 bullet。"
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Experience bullets > bold usage in modifiers",
+        "issue": "存在把修饰语/限定词加粗的情况，例如 `team-maintained`、`intern-owned`、`team-owned`，这会稀释技术名词和结果数字的强调效果。",
+        "fix": "取消这些修饰词的加粗，只保留技术栈名词、关键指标和明确 scope 词汇的加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary > bullet 1",
+        "issue": "首句把“transitioning from analytics”放在前面，首屏先读到的是转型叙事而不是 ML/LLM 角色锚点，对 senior MLE 目标位的第一印象偏弱。",
+        "fix": "把开头改成直接的角色+领域信号，例如先写 `Backend-leaning ML Engineer` / `ML Engineer`，再补充 analytics 背景作为辅助经历。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-010",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Professional Summary > bullet 1; full experience timeline",
+        "issue": "简历自己写明只有 `2.5+ years` of non-internship experience，而 JD 明确要求 `3+ years of non-internship professional software development experience`，这是可见的硬门槛缺口。",
+        "fix": "不要试图用措辞硬抬年限；如果还有其他真实的非实习软件经历，补进最相关经历里。否则这份简历对该 JD 仍是结构性错配。 ",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "TikTok Experience",
+        "issue": "同一段经历里同时堆出了 Go、Python、Java、C++、PyTorch、Kafka、Docker、Kubernetes、AWS Bedrock、PostgreSQL、gRPC、RAG 等多组“使用级”技术信号，读起来更像 stack spraying 而不是清晰的单一 ownership 叙事。",
+        "fix": "把 TikTok 段收敛成 1 条主线，保留 1-2 个主语言和 1 个 ML/检索栈，其余技术放到 Skills 或压缩到一条背景句里。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "TikTok Experience",
+        "issue": "最新且最相关的经历几乎都在讲百分比提升、延迟下降和局部效果，没有给出足够的 tier-1 规模/scope 信号，HR 很难 6-8 秒内判断这项工作的真实体量。",
+        "fix": "在 TikTok 首条 bullet 或项目里补一个可追问的规模指标，例如评测集大小、请求量、数据量、服务边界或团队 ownership 范围。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 先解决 Amazon MLE II 的硬门槛问题：当前简历只可见约 2.5 年 non-internship 经验，不能把它包装成 3+ 年。",
+    "[MUST] 收敛 TikTok 段的技术栈密度，保留一条清晰的 ML/LLM customization 主线，避免 stack spraying。",
+    "[SHOULD] 给 TikTok 或 DiDi 的首条 bullet 补一个可验证的 tier-1 scope 指标，让首屏更像 senior 级别的工程/ML 产出。",
+    "[NICE] 调整加粗策略：弱化修饰语加粗，强化关键数字与 scope 词。"
+  ],
+  "revision_instructions": "[结构性错配] 这份履历对 Amazon MLE II 的 3+ years non-internship 门槛仍偏短；如果事实如此，不要改写年份。优先把 Summary 改成直接的 ML/LLM customization 叙事，把 TikTok 第一段收敛成 1 条主线，并补 1 个 tier-1 scope 指标（评测集大小、请求量、数据量或团队边界）。同时取消 `team-maintained` / `intern-owned` 这类修饰语加粗，保留技术名词与关键数字的加粗。"
+}

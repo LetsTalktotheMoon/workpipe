@@ -1,0 +1,55 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience bullets across TikTok / DiDi / Temu",
+        "issue": "Several scope and impact anchors are left unbolded, so the reader's eye is not guided to the main quantitative signals (for example, 13-person squad, 20+ city operations, 140+ weekly internal users, and similar inline metrics).",
+        "fix": "Bold the few scale/scope numbers you want scanned first in each bullet, while keeping the rest of the sentence plain so the strongest proof stands out visually."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first sentence",
+        "issue": "The opening frames the candidate as a transition story ('Backend Transition Profile' / 'candidate transitioning from analytics'), which weakens the first-screen role signal for a backend SDE target.",
+        "fix": "Rewrite the first sentence as a direct backend/security identity with the transition explained later, so the opening reads like a current fit rather than a migration narrative."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "Software Engineer Intern | TikTok · Security",
+        "issue": "This latest experience is heavily expressed through latency/percentage improvements, but it lacks a clear Tier 1 scope anchor such as analyst count, event volume, service count, or incident volume, so the impact reads thinner than the stack breadth.",
+        "fix": "Add one already-true scope metric to the first bullet or the project bullet, and keep the current deltas as secondary evidence rather than the only proof of impact."
+      },
+      {
+        "rule_id": "P3E-010",
+        "sub_area": "3E",
+        "severity": "critical",
+        "field": "TikTok project: Security Investigation Retrieval Assistant, bullet 2",
+        "issue": "The bullet integrates AWS Bedrock into a TikTok Security incident-investigation workflow without any explicit sandbox, synthetic-data, redaction, or no-user-data qualifier, so it reads as if protected security data could be sent to an external LLM.",
+        "fix": "If the real setup was sandboxed or redacted-only, say that explicitly in the bullet; if not, remove or soften the Bedrock/LLM claim from the TikTok Security section. [合规边界]"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Clarify the TikTok Security / AWS Bedrock bullet with an explicit data boundary, or remove the external-LLM claim if it touched protected data.",
+    "[MUST] Reframe the Summary opening as a direct backend/security identity instead of a transition story.",
+    "[SHOULD] Add one concrete Tier 1 scope metric to the TikTok intern section so the latest experience reads as owned impact, not only percentage deltas.",
+    "[NICE] Bold the key scope numbers and headline metrics consistently across the experience bullets."
+  ],
+  "revision_instructions": "Keep the immutable company/title/date/location fields unchanged. Rewrite the first Summary sentence to start with a direct backend/security identity, not a transition narrative. In the TikTok Security project, either add an explicit sandbox/redacted/no-user-data qualifier to the Bedrock bullet or remove the external-LLM claim if that boundary cannot be stated truthfully. Add one concrete scope metric to the TikTok intern section (for example analyst count, event volume, service count, or incident volume) so the section has a Tier 1 anchor. Finally, bold the most important scale/impact numbers consistently in the body bullets."
+}

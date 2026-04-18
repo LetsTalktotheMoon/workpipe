@@ -1,0 +1,12 @@
+view_id: prompt_reviewer_full_bytedance
+title: 主 Reviewer Prompt（ByteDance 分支）
+pipeline: match_pipe
+stage: all reviewer steps / bytedance
+role: reviewer
+description: ByteDance 目标岗位的 reviewer prompt 会启用专用审查分支。
+user_blocks:
+- reviewer_user
+- reviewer_user_bytedance
+- reviewer_context
+- reviewer_context_bytedance
+- reviewer_output_schema

@@ -1,0 +1,123 @@
+{
+  "label": "conf/FlexTrade-SoftwareDeveloper",
+  "company": "FlexTrade",
+  "title": "Software Developer",
+  "role_type": "swe_backend",
+  "seniority": "senior",
+  "team_direction": "FlexTrade Systems is a global leader in high performance multi-asset execution management and order management systems",
+  "tech_required": [
+    "Shell",
+    "CI/CD",
+    "Linux",
+    "Distributed Systems",
+    "Redis",
+    "Docker",
+    "NoSQL",
+    "AWS",
+    "Microservices",
+    "Go",
+    "SQL",
+    "Git"
+  ],
+  "tech_preferred": [
+    "Kubernetes",
+    "Code Review",
+    "Scala",
+    "React",
+    "RESTful"
+  ],
+  "resume_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09/resume.md",
+  "job_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09/job.md",
+  "manifest_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09/manifest.json",
+  "review_path": "/Users/jingyizhang/Documents/Playground/projects/local_job_resume_pipeline_prompt_worktree/data/deliverables/resume_portfolio/by_company/flextrade/2026-04-02/69cea6facdb525785fb99d09/review.json",
+  "historical": {},
+  "portfolio_review": {
+    "weighted_score": 94.7,
+    "overall_verdict": "pass",
+    "passed": true,
+    "critical_count": 0,
+    "high_count": 0,
+    "needs_revision": false,
+    "revision_priority": [],
+    "scores": {
+      "r0_authenticity": {
+        "score": 10.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r1_writing_standard": {
+        "score": 9.2,
+        "weight": 0.15,
+        "verdict": "pass",
+        "findings_count": 2
+      },
+      "r2_jd_fitness": {
+        "score": 9.0,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 1
+      },
+      "r3_overqualification": {
+        "score": 9.6,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r4_rationality": {
+        "score": 9.4,
+        "weight": 0.2,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r5_logic": {
+        "score": 9.7,
+        "weight": 0.1,
+        "verdict": "pass",
+        "findings_count": 0
+      },
+      "r6_competitiveness": {
+        "score": 9.5,
+        "weight": 0.05,
+        "verdict": "pass",
+        "findings_count": 0
+      }
+    },
+    "final_score": 94.7,
+    "verdict": "pass",
+    "seed_label": "JPMorganChase Data Platform/MLOps Anchor",
+    "route_mode": "retarget",
+    "revised": false,
+    "repaired_at": "2026-04-07T16:57:23",
+    "repair_changes": [
+      "normalized_go_summary",
+      "normalized_go_achievement",
+      "normalized_keyword_bolding"
+    ],
+    "repair_issue_codes_before": [],
+    "repair_issue_codes_after": []
+  },
+  "immutable_snapshot": [
+    {
+      "company": "Temu",
+      "department": "R&D",
+      "title": "Data Analyst",
+      "dates": "Jun 2021 – Feb 2022",
+      "location": "Shanghai"
+    },
+    {
+      "company": "DiDi",
+      "department": "IBG · Food",
+      "title": "Senior Data Analyst",
+      "dates": "Sep 2022 – May 2024",
+      "location": "Beijing/Mexico"
+    },
+    {
+      "company": "TikTok",
+      "department": "Security",
+      "title": "Software Engineer Intern",
+      "dates": "Jun 2025 – Dec 2025",
+      "location": "San Jose, USA"
+    }
+  ]
+}

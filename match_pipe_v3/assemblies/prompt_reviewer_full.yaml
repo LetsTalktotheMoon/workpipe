@@ -1,0 +1,33 @@
+name: prompt_reviewer_full
+sections:
+  - part: reviewer_user
+    transform: reviewer_bytedance_branch
+    condition: is_bytedance
+  - part: reviewer_user
+    condition: not is_bytedance
+  - template_part: reviewer_context_bytedance
+    condition: is_bytedance
+    vars:
+      company: company
+      title: title
+      role_type: role_type
+      seniority: seniority
+      tech_required: tech_required
+      tech_preferred: tech_preferred
+      team_direction: team_direction
+      immutable_block: immutable_block
+  - template_part: reviewer_context
+    condition: not is_bytedance
+    vars:
+      company: company
+      title: title
+      role_type: role_type
+      seniority: seniority
+      tech_required: tech_required
+      tech_preferred: tech_preferred
+      team_direction: team_direction
+      immutable_block: immutable_block
+  - part: reviewer_context_bytedance
+    condition: is_bytedance
+  - part: reviewer_output_schema
+join: "\n\n"

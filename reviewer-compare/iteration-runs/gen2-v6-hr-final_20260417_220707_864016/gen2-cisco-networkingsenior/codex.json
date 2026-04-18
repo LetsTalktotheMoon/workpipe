@@ -1,0 +1,194 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T22:16:09",
+  "completed_at": "2026-04-17T22:17:33",
+  "duration_seconds": 84.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "DiDi Experience > Restaurant Incident Self-Service Workbench, bullet 4",
+          "issue": "Scope-limiting language is inconsistently emphasized, and `140+ weekly internal users` is split as `**140+ week**ly`, which looks like a formatting error and weakens the metric signal.",
+          "fix": "Use clean emphasis on the full signal, e.g. `**140+ weekly internal users**`, and bold other scope-limiters only when they matter, such as `**team-maintained**` or `**internal**`."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The lead summary frames the candidate as `transitioning from analytics`, which reads as a status/process story instead of a direct backend or networking role signal for a Cisco screen.",
+          "fix": "Rewrite the first sentence to start with a role and domain anchor, then mention the analytics-to-engineering bridge after that anchor."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience, top bullet and project baseline",
+          "issue": "The newest experience is mostly supported by local time-reduction percentages and lacks one clear scale/scope anchor, so the impact is hard to size in a senior backend/networking screen.",
+          "fix": "Add one concrete scope metric such as event volume, analyst count, incident volume, service throughput, or release cadence to the lead TikTok bullet or project baseline, then keep the percentage gains as supporting evidence."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add one explicit scope anchor to the TikTok lead bullet or project baseline so the newest experience reads like senior backend/networking work, not only local percentage improvements.",
+      "[MUST] Fix the partial bolding in the DiDi project bullet (`**140+ week**ly`) and make scope-limiting qualifiers consistent where they carry meaning.",
+      "[SHOULD] Reword Summary sentence 1 so it starts with a direct role/domain anchor instead of a transition narrative.",
+      "[NICE] If you want extra polish, label primary vs supporting languages/tools in TikTok to reduce the impression of a very broad multi-language primary stack."
+    ],
+    "revision_instructions": "[MUST] Add one concrete scope signal to the TikTok lead bullet or project baseline (for example analyst count, event volume, incident volume, service throughput, or release cadence). Keep the time-reduction metrics, but do not let them be the only impact signal. [MUST] Clean up emphasis formatting in the DiDi project bullet: replace `**140+ week**ly` with a clean full phrase such as `**140+ weekly internal users**`, and bold scope-limiting qualifiers like `**team-maintained**` / `**internal**` only when they materially constrain ownership. [SHOULD] Reword Summary sentence 1 to be role-led rather than transition-led. [NICE] If you want extra polish, distinguish primary vs supporting languages/tools in TikTok so the section reads less like a 4-language primary stack.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 96.5,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Add one explicit scope anchor to the TikTok lead bullet or project baseline so the newest experience reads like senior backend/networking work, not only local percentage improvements.",
+      "[MUST] Fix the partial bolding in the DiDi project bullet (`**140+ week**ly`) and make scope-limiting qualifiers consistent where they carry meaning.",
+      "[SHOULD] Reword Summary sentence 1 so it starts with a direct role/domain anchor instead of a transition narrative.",
+      "[NICE] If you want extra polish, label primary vs supporting languages/tools in TikTok to reduce the impression of a very broad multi-language primary stack."
+    ],
+    "revision_instructions": "[MUST] Add one concrete scope signal to the TikTok lead bullet or project baseline (for example analyst count, event volume, incident volume, service throughput, or release cadence). Keep the time-reduction metrics, but do not let them be the only impact signal. [MUST] Clean up emphasis formatting in the DiDi project bullet: replace `**140+ week**ly` with a clean full phrase such as `**140+ weekly internal users**`, and bold scope-limiting qualifiers like `**team-maintained**` / `**internal**` only when they materially constrain ownership. [SHOULD] Reword Summary sentence 1 to be role-led rather than transition-led. [NICE] If you want extra polish, distinguish primary vs supporting languages/tools in TikTok so the section reads less like a 4-language primary stack.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "DiDi Experience > Restaurant Incident Self-Service Workbench, bullet 4",
+            "issue": "Scope-limiting language is inconsistently emphasized, and `140+ weekly internal users` is split as `**140+ week**ly`, which looks like a formatting error and weakens the metric signal.",
+            "fix": "Use clean emphasis on the full signal, e.g. `**140+ weekly internal users**`, and bold other scope-limiters only when they matter, such as `**team-maintained**` or `**internal**`."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, sentence 1",
+            "issue": "The lead summary frames the candidate as `transitioning from analytics`, which reads as a status/process story instead of a direct backend or networking role signal for a Cisco screen.",
+            "fix": "Rewrite the first sentence to start with a role and domain anchor, then mention the analytics-to-engineering bridge after that anchor."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Experience, top bullet and project baseline",
+            "issue": "The newest experience is mostly supported by local time-reduction percentages and lacks one clear scale/scope anchor, so the impact is hard to size in a senior backend/networking screen.",
+            "fix": "Add one concrete scope metric such as event volume, analyst count, incident volume, service throughput, or release cadence to the lead TikTok bullet or project baseline, then keep the percentage gains as supporting evidence."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Add one explicit scope anchor to the TikTok lead bullet or project baseline so the newest experience reads like senior backend/networking work, not only local percentage improvements.",
+        "[MUST] Fix the partial bolding in the DiDi project bullet (`**140+ week**ly`) and make scope-limiting qualifiers consistent where they carry meaning.",
+        "[SHOULD] Reword Summary sentence 1 so it starts with a direct role/domain anchor instead of a transition narrative.",
+        "[NICE] If you want extra polish, label primary vs supporting languages/tools in TikTok to reduce the impression of a very broad multi-language primary stack."
+      ],
+      "revision_instructions": "[MUST] Add one concrete scope signal to the TikTok lead bullet or project baseline (for example analyst count, event volume, incident volume, service throughput, or release cadence). Keep the time-reduction metrics, but do not let them be the only impact signal. [MUST] Clean up emphasis formatting in the DiDi project bullet: replace `**140+ week**ly` with a clean full phrase such as `**140+ weekly internal users**`, and bold scope-limiting qualifiers like `**team-maintained**` / `**internal**` only when they materially constrain ownership. [SHOULD] Reword Summary sentence 1 to be role-led rather than transition-led. [NICE] If you want extra polish, distinguish primary vs supporting languages/tools in TikTok so the section reads less like a 4-language primary stack.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "DiDi Experience > Restaurant Incident Self-Service Workbench, bullet 4",
+          "issue": "Scope-limiting language is inconsistently emphasized, and `140+ weekly internal users` is split as `**140+ week**ly`, which looks like a formatting error and weakens the metric signal.",
+          "fix": "Use clean emphasis on the full signal, e.g. `**140+ weekly internal users**`, and bold other scope-limiters only when they matter, such as `**team-maintained**` or `**internal**`."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, sentence 1",
+          "issue": "The lead summary frames the candidate as `transitioning from analytics`, which reads as a status/process story instead of a direct backend or networking role signal for a Cisco screen.",
+          "fix": "Rewrite the first sentence to start with a role and domain anchor, then mention the analytics-to-engineering bridge after that anchor."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Experience, top bullet and project baseline",
+          "issue": "The newest experience is mostly supported by local time-reduction percentages and lacks one clear scale/scope anchor, so the impact is hard to size in a senior backend/networking screen.",
+          "fix": "Add one concrete scope metric such as event volume, analyst count, incident volume, service throughput, or release cadence to the lead TikTok bullet or project baseline, then keep the percentage gains as supporting evidence."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 1,
+        "rule_ids": [
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3D-001"
+    ],
+    "high_or_critical": []
+  }
+}

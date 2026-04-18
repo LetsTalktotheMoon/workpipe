@@ -1,0 +1,26 @@
+name: prompt_retarget_old_match
+sections:
+  - part: retarget_prompt
+    condition: not is_bytedance
+  - part: retarget_bytedance_special
+    condition: is_bytedance
+  - part: retarget_same_company
+    condition: same_company and not is_bytedance
+  - part: retarget_same_company_bytedance
+    condition: same_company and is_bytedance
+  - part: retarget_project_pool
+  - template_part: retarget_context
+    vars:
+      seed_resume_md: seed_resume_md
+  - group: format_constraints
+    join: "\n\n"
+    sections:
+      - part: format_constraints_shared_head
+      - part: format_constraints_branch
+        condition: not is_bytedance
+      - part: format_constraints_branch_bytedance
+        condition: is_bytedance
+      - part: format_constraints_shared_mid
+      - part: format_constraints_shared_tail
+  - part: output_contract
+join: "\n\n"

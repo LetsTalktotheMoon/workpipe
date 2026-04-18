@@ -1,0 +1,175 @@
+[
+  {
+    "label": "same/Microsoft",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/microsoft/2026-04-08/69d64f92706f771673baa293",
+    "historical": {
+      "official_score": 94.2,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; no detailed official target revision priority was recorded.",
+        "Old report assessment: official reviewer likely underweighted top-of-page senior/backend framing risk."
+      ],
+      "claude_score": 87.9,
+      "claude_verdict": "fail",
+      "claude_notes": [
+        "High severity on Summary header: Strategic Problem Solving.",
+        "Medium severity on transition framing: transitioning from data analytics.",
+        "Medium severity on exact top-of-page keyword signaling: Distributed Systems and Code Review.",
+        "Medium severity on category naming: Cloud."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    }
+  },
+  {
+    "label": "same/Google",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/google/2026-04-08/69ba8bc25697383741402b0f",
+    "historical": {
+      "official_score": 94.0,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; target side had no revision priority.",
+        "Old report assessment: official reviewer passed the resume as substantively strong."
+      ],
+      "claude_score": 86.3,
+      "claude_verdict": "fail",
+      "claude_notes": [
+        "ATS-like insistence that Looker and semantic-layer signals appear as exact phrases in body text.",
+        "Exact year arithmetic concerns around 3+ years claims.",
+        "Skills taxonomy/category naming quality concerns.",
+        "Summary framing judged too data-modeling-first rather than infrastructure/performance-first."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    }
+  },
+  {
+    "label": "same/Amazon",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/amazon/2026-04-05/697d7d4b3f57a3356967669e",
+    "historical": {
+      "official_score": 95.6,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; official target side was a clean pass.",
+        "Old report assessment: official reviewer gave the resume substantial credit for semantic evidence and transferability."
+      ],
+      "claude_score": 93.5,
+      "claude_verdict": "pass",
+      "claude_notes": [
+        "Mostly medium and low suggestions only on the target JD.",
+        "Matlab signal judged too thin.",
+        "Category naming tweaks suggested.",
+        "Summary positioning tweaks suggested."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    }
+  },
+  {
+    "label": "same/AWS",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/amazon-web-services-aws/2026-04-08/69d640de52a5bf5800128045",
+    "historical": {
+      "official_score": 95.1,
+      "official_verdict": "pass",
+      "official_notes": [
+        "Old report baseline only; official and Claude largely converged on this case.",
+        "Shared themes in the old report: mild concern about senior/backend ownership framing, formatting cleanup, and denser C++ or Embedded evidence."
+      ],
+      "claude_score": 94.5,
+      "claude_verdict": "pass",
+      "claude_notes": [
+        "Mild concern about senior/backend ownership framing.",
+        "Formatting cleanup suggestions.",
+        "C++ or Embedded evidence could be denser."
+      ],
+      "baseline_source": "output/analysis/claude_vs_official_review_report_2026-04-09.md"
+    }
+  },
+  {
+    "label": "extra/Dataminr-Infra",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/dataminr/2026-04-03/68d4127b17554c2d9eef5cdc",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    }
+  },
+  {
+    "label": "extra/Zoox-LLM",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/zoox/2026-04-03/687852d5866a435525ab86a8",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    }
+  },
+  {
+    "label": "extra/Synechron-Backend",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/synechron/2026-04-05/69c56ec4e565c26a7000f91a",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    }
+  },
+  {
+    "label": "extra/CapitalOne-AI",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/capital-one/2026-04-06/69d3eb5be63cea7a8b654ccd",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    }
+  },
+  {
+    "label": "extra/Ramp-Platform",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/ramp/2026-04-06/6932ac66a0dde7020e2e80de",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    }
+  },
+  {
+    "label": "extra/HealthEquity-DotNet",
+    "target_dir": "data/deliverables/resume_portfolio/by_company/healthequity/2026-04-03/6997e0cece78e77b4fdc5857",
+    "historical": {
+      "official_score": null,
+      "official_verdict": "",
+      "official_notes": [
+        "No recovered historical Claude-vs-official target baseline; used only for old-pipe vs new-pipe Codex comparison."
+      ],
+      "claude_score": null,
+      "claude_verdict": "",
+      "claude_notes": [],
+      "baseline_source": ""
+    }
+  }
+]

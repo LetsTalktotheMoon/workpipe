@@ -1,0 +1,47 @@
+{
+  "pass_1_structural": {
+    "findings": []
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, sentence 1",
+        "issue": "Opening framing starts with a transition narrative instead of the target role, so the first read feels like a career-change note rather than a direct WHOOP-relevant engineering pitch.",
+        "fix": "Rewrite the first summary chunk to lead with the target identity and technical direction first, then place the data-analytics transition as supporting context."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-004",
+        "sub_area": "3B",
+        "severity": "medium",
+        "field": "Professional Summary + TikTok internship framing",
+        "issue": "The resume does not explicitly bridge marketplace/security/mobility work into WHOOP's sensor-intelligence and human-performance context, so the relevance is not immediately obvious to a first-pass hiring manager.",
+        "fix": "Add one bridge sentence that ties the candidate's validation tooling, ML evaluation, or data-quality work to sensor-like signal validation, time-series QA, or performance-oriented analytics."
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Experience > Software Engineer Intern | TikTok · Security > bullet 3",
+        "issue": "One bullet stacks TensorFlow, Keras, PyTorch, and scikit-learn together in a single claim, which reads like framework name-dropping rather than one concrete workflow.",
+        "fix": "Split the ML evaluation work into one primary workflow bullet and, if needed, a secondary support bullet so each framework has a clear role and the line reads as credible execution rather than stack dumping."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] Reframe the first Summary sentence to anchor on the target engineering identity first, and move the transition language behind that anchor.",
+    "[MUST] Split the TikTok ML-evaluation bullet so the frameworks are supported by a single workflow instead of being stacked in one line.",
+    "[SHOULD] Add one explicit bridge to WHOOP-relevant work, such as validation tooling, signal quality, or time-series/data QA, so the domain fit is legible on first scan.",
+    "[NICE] Tighten the top-of-page narrative so the resume reads as sensor/validation-adjacent rather than broadly cross-domain."
+  ],
+  "revision_instructions": "[MUST] Rewrite Professional Summary sentence 1 to lead with the target role/technical direction, then mention the analytics-to-engineering transition as background. [MUST] Rewrite the TikTok ML-evaluation bullet so one workflow owns the claim and the frameworks are not piled into a single line; keep evidence for the must-have ML stack, but distribute it across more than one bullet if needed. [SHOULD] Add one bridge clause to WHOOP-relevant work, such as signal quality, validation tooling, or time-series/data QA, in the Summary or TikTok project intro. Keep immutable company/title/date/location fields unchanged."
+}

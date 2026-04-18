@@ -1,0 +1,162 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:28:21",
+  "completed_at": "2026-04-17T23:29:14",
+  "duration_seconds": 53.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "## Professional Summary bullets 1-3",
+          "issue": "The Summary bullets are noun-phrase led rather than verb-led, so they do not meet the resume-parser expectation that bullets start with a strong action verb.",
+          "fix": "Rewrite each Summary bullet to start with an action verb or action-oriented role clause, for example 'Builds backend systems...' or 'Designs platform delivery...' while keeping the three-bullet structure."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "## Professional Summary, first bullet",
+          "issue": "The opening framing is still transition-led ('transitioning from analytics'), which weakens first-scan role clarity even though the backend direction is present.",
+          "fix": "Lead with a direct role anchor such as 'Backend engineer' or 'Customer-experience platform engineer', then place the analytics-transition context in the second clause."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": []
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rewrite the first Summary bullet to lead with a backend/customer-experience role anchor instead of 'transitioning from analytics'.",
+      "[SHOULD] Make all three Summary bullets verb-led so the top section reads like an engineering resume, not a profile statement.",
+      "[NICE] Keep the current technical breadth and experience ordering; the stack coverage itself is already aligned with the JD."
+    ],
+    "revision_instructions": "",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.0,
+      "r2_jd_fitness": 10.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 9.0,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 97.0,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 0,
+    "needs_revision": false,
+    "overall_verdict": "pass",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[SHOULD] Rewrite the first Summary bullet to lead with a backend/customer-experience role anchor instead of 'transitioning from analytics'.",
+      "[SHOULD] Make all three Summary bullets verb-led so the top section reads like an engineering resume, not a profile statement.",
+      "[NICE] Keep the current technical breadth and experience ordering; the stack coverage itself is already aligned with the JD."
+    ],
+    "revision_instructions": "",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-030",
+            "severity": "medium",
+            "field": "## Professional Summary bullets 1-3",
+            "issue": "The Summary bullets are noun-phrase led rather than verb-led, so they do not meet the resume-parser expectation that bullets start with a strong action verb.",
+            "fix": "Rewrite each Summary bullet to start with an action verb or action-oriented role clause, for example 'Builds backend systems...' or 'Designs platform delivery...' while keeping the three-bullet structure."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "## Professional Summary, first bullet",
+            "issue": "The opening framing is still transition-led ('transitioning from analytics'), which weakens first-scan role clarity even though the backend direction is present.",
+            "fix": "Lead with a direct role anchor such as 'Backend engineer' or 'Customer-experience platform engineer', then place the analytics-transition context in the second clause."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": []
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[SHOULD] Rewrite the first Summary bullet to lead with a backend/customer-experience role anchor instead of 'transitioning from analytics'.",
+        "[SHOULD] Make all three Summary bullets verb-led so the top section reads like an engineering resume, not a profile statement.",
+        "[NICE] Keep the current technical breadth and experience ordering; the stack coverage itself is already aligned with the JD."
+      ],
+      "revision_instructions": "",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-030",
+          "severity": "medium",
+          "field": "## Professional Summary bullets 1-3",
+          "issue": "The Summary bullets are noun-phrase led rather than verb-led, so they do not meet the resume-parser expectation that bullets start with a strong action verb.",
+          "fix": "Rewrite each Summary bullet to start with an action verb or action-oriented role clause, for example 'Builds backend systems...' or 'Designs platform delivery...' while keeping the three-bullet structure."
+        }
+      ],
+      "r2_jd_fitness": [],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "## Professional Summary, first bullet",
+          "issue": "The opening framing is still transition-led ('transitioning from analytics'), which weakens first-scan role clarity even though the backend direction is present.",
+          "fix": "Lead with a direct role anchor such as 'Backend engineer' or 'Customer-experience platform engineer', then place the analytics-transition context in the second clause."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-030"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 0,
+        "rule_ids": []
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-030",
+      "P2-001"
+    ],
+    "high_or_critical": []
+  }
+}

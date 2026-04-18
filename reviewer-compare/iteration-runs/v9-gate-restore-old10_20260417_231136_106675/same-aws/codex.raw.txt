@@ -1,0 +1,36 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary; TikTok Experience bullets 1, 3; TikTok project bullets 1, 4",
+        "issue": "Modifiers and qualifiers such as \"team-maintained\" and \"existing\" are bolded, which weakens the emphasis discipline the format expects.",
+        "fix": "Remove bold from non-noun qualifiers like team-maintained and existing. Keep bold reserved for technical nouns, systems, and measurable scope."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary, first sentence",
+        "issue": "The lead framing is transition-first: \"Backend Transition Profile\" and \"transitioning from analytics\" make the top of the resume read like a career pivot rather than a backend SDE profile.",
+        "fix": "Rewrite the first Summary sentence to lead with a backend identity and domain signal first, then mention the analytics background later as context."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Rewrite the first Summary sentence to lead with a backend/security identity instead of a transition frame.",
+    "[SHOULD] Unbold modifiers like team-maintained and existing so emphasis stays on technical nouns and scope."
+  ],
+  "revision_instructions": ""
+}

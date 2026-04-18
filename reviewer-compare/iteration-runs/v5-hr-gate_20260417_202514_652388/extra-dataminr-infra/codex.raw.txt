@@ -1,0 +1,82 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-030",
+        "severity": "medium",
+        "field": "Professional Summary",
+        "issue": "The 3 summary bullets start as noun phrases / descriptive labels rather than strong-verb bullets.",
+        "fix": "Rewrite each summary bullet so the lead text is verb-led or role-led, while keeping the required 3-sentence structure."
+      },
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience / Project bullets",
+        "issue": "Key quantitative signals are not bolded in the body, including values such as 28%, 19%, 31%, 13-person, 11 hours, and 4 hours.",
+        "fix": "Bold the strongest scope/result numbers in each role and project so the metrics become visual anchors."
+      },
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "Professional Summary; Experience bullets",
+        "issue": "Multiple qualifier words are bolded, such as team-maintained, existing, internal, team-owned, and shared.",
+        "fix": "Keep bolding for core technologies and key metrics only; remove bold from modifiers and ownership adjectives."
+      },
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Programming",
+        "issue": "This Skills line is too dense for the stated 14-word cap.",
+        "fix": "Split the line into a shorter category row or reduce the listed terms so the full line stays within the cap."
+      },
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Data",
+        "issue": "This Skills line is too dense for the stated 14-word cap.",
+        "fix": "Split the line into a shorter category row or reduce the listed terms so the full line stays within the cap."
+      },
+      {
+        "rule_id": "P1-051",
+        "severity": "medium",
+        "field": "Skills > Cloud",
+        "issue": "This Skills line is too dense for the stated 14-word cap.",
+        "fix": "Split the line into a shorter category row or reduce the listed terms so the full line stays within the cap."
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary, third sentence header",
+        "issue": "The header Structured Problem Solver is readable but generic, so it weakens the cognition signal on the first screen.",
+        "fix": "Replace it with a more specific cognition header such as Systems judgment, Decision-making, or Pattern recognition."
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "Experience > TikTok · Security",
+        "issue": "The latest role is dominated by percentage lifts and time reductions, but it lacks a Tier 1 scope anchor such as request volume, data volume, SLA, or team size.",
+        "fix": "Add one concrete scope or ownership signal to the most relevant TikTok bullet, ideally in the first bullet, so the role reads as more than a collection of incremental improvements."
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] Compress the Skills section into 3 short category rows that stay within the line-word cap.",
+    "[SHOULD] Add one Tier 1 scope metric to the TikTok first bullet so the latest role has a clear scale anchor.",
+    "[SHOULD] Rewrite the third Summary header into a stronger cognition label and make the Summary bullets more verb-led.",
+    "[NICE] Remove bold from qualifiers and reserve bold for the strongest metrics and core technologies."
+  ],
+  "revision_instructions": ""
+}

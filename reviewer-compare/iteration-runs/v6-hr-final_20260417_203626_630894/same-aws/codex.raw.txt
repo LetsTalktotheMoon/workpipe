@@ -1,0 +1,44 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-042",
+        "severity": "medium",
+        "field": "TikTok Experience bullet 1",
+        "issue": "将修饰语 `team-maintained` 加粗了。该规则要求正文里主要只加粗技术栈名词和规模/量化信号，修饰性限定词不应抢占视觉权重。",
+        "fix": "去掉 `team-maintained` 的加粗，只保留技术名词和结果数字的加粗。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary 第一句",
+        "issue": "首句以 `Backend Transition Profile` 和 `transitioning from analytics` 为中心，首屏先讲转变过程而不是岗位方向，弱化了后端候选人的直接识别度。",
+        "fix": "把首句改成更直接的角色锚点，例如 `Backend engineer:` / `Security-focused SWE:`，再把 analytics 转迁放到后半句或第二句。"
+      },
+      {
+        "rule_id": "P2-010",
+        "severity": "medium",
+        "field": "Professional Summary 第三句",
+        "issue": "`GenAI Systems Context` 作为 header 过于泛化，没有把围棋经历转成 HR 一眼能抓住的 cognition 信号，导致差异化点埋得太深。",
+        "fix": "把 header 改成 `Pattern recognition:`、`Systems judgment:` 或 `Structural intuition:`，让围棋成就直接承担认知信号。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": []
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[SHOULD] 把 Summary 第一句改成直接的后端/安全角色锚点，弱化 `transitioning from analytics` 的首屏存在感。",
+    "[SHOULD] 把第三句的 `GenAI Systems Context` 换成 cognition 型 header，例如 `Pattern recognition:`，让围棋经历更像能力证据而不是背景说明。",
+    "[NICE] 取消修饰语的加粗，只保留技术栈名词、规模和结果数字加粗，避免视觉权重失衡。"
+  ],
+  "revision_instructions": ""
+}

@@ -1,0 +1,1118 @@
+[
+  {
+    "group_label": "后端服务与业务接口交付",
+    "category": "Backend & APIs",
+    "merged_skills_text": "Python、Go、C、C++、Java、JavaScript、TypeScript、C#、Scala、PHP、Ruby、Rust、VB.NET、Node.js、Spring Boot、Spring、Express、Flask、FastAPI、Django、Rails、NestJS、.NET、ASP.NET、ASP.NET MVC、.NET / C#、GraphQL、REST APIs、gRPC、APIs、Web Development、Backend Development、Full-Stack Development、Microservices、PostgreSQL、MySQL、Redis、Kafka、Git、CI/CD",
+    "common_introduction": "这组技术栈主要用于后端服务、接口设计和业务系统交付，覆盖从服务实现到系统联调的核心工程能力。",
+    "common_business_scenario": "团队通常会用它们开发订单、账户、支付、权限、工单等核心服务，并对接上游页面和下游数据或基础设施系统。",
+    "skill_focuses": [
+      {
+        "skill": "Python",
+        "focus": "通用性强，兼顾后端开发、数据处理、自动化和机器学习落地。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Go",
+        "focus": "偏向高并发服务、基础设施工具和性能稳定的后端系统。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "C",
+        "focus": "偏向底层系统、性能敏感模块和贴近硬件的工程实现。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "C++",
+        "focus": "偏向高性能、底层能力和资源敏感型系统实现。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Java",
+        "focus": "偏向企业级后端服务、复杂业务系统和长期维护型平台。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "JavaScript",
+        "focus": "偏向 Web 交互逻辑，也常用于全栈应用和轻量服务开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "TypeScript",
+        "focus": "偏向大型前后端工程中的类型安全和代码可维护性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "C#",
+        "focus": "偏向微软技术栈下的业务系统和桌面/后端应用。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Scala",
+        "focus": "偏向数据平台、函数式风格开发和分布式计算生态。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "PHP",
+        "focus": "偏向 Web 应用和传统站点后端开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Ruby",
+        "focus": "偏向快速业务开发和以 Rails 为代表的高迭代后端场景。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Rust",
+        "focus": "偏向安全性和性能要求较高的系统工具与服务。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "VB.NET",
+        "focus": "偏向传统企业内部系统和部分桌面应用维护。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Node.js",
+        "focus": "强调事件驱动和 JavaScript 统一栈开发体验。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Spring Boot",
+        "focus": "强调快速搭建生产级 Java 服务和完整生态支持。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Spring",
+        "focus": "强调企业级依赖注入、事务管理和大型后端架构能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Express",
+        "focus": "强调轻量 Node.js 服务开发和接口灵活性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Flask",
+        "focus": "强调轻量、灵活，适合快速搭建内部工具或小型 API。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "FastAPI",
+        "focus": "强调 Python 服务开发效率、类型提示和高性能接口。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Django",
+        "focus": "强调功能完备、后台能力强和成熟 Web 开发范式。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Rails",
+        "focus": "强调约定优于配置和业务快速迭代。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "NestJS",
+        "focus": "强调结构化 Node.js 后端架构和工程规范。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": ".NET",
+        "focus": "强调企业应用开发、工具链完整和微软生态整合。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "ASP.NET",
+        "focus": "强调 Web 服务和企业后台开发能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "ASP.NET MVC",
+        "focus": "强调经典 MVC Web 架构和服务端页面组织。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": ".NET / C#",
+        "focus": "强调 .NET 平台能力与 C# 语言结合的企业开发场景。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "GraphQL",
+        "focus": "强调按需取数和前后端灵活数据契约。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "REST APIs",
+        "focus": "强调标准化 HTTP 接口设计和跨系统集成能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "gRPC",
+        "focus": "强调强类型、低延迟和服务间高性能调用。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "APIs",
+        "focus": "强调系统接口抽象、调用契约与服务协作边界。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "Web Development",
+        "focus": "强调 Web 产品开发全流程与页面到服务的联动实现。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "Backend Development",
+        "focus": "强调服务端业务逻辑、数据访问和接口交付。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "Full-Stack Development",
+        "focus": "强调从前端页面到后端服务的一体化交付能力。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "Microservices",
+        "focus": "强调业务拆分、独立部署和服务自治。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "PostgreSQL",
+        "focus": "强调事务能力、复杂查询和稳定关系型存储。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "MySQL",
+        "focus": "强调通用事务型应用存储和成熟生态。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Redis",
+        "focus": "强调高速缓存、会话状态和热点数据访问。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Kafka",
+        "focus": "强调高吞吐事件流和异步解耦。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Git",
+        "focus": "强调版本管理、协作开发和变更追踪。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CI/CD",
+        "focus": "强调自动化校验、发布和持续交付。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "AI/ML 应用开发与模型落地",
+    "category": "AI / ML",
+    "merged_skills_text": "Python、SQL、Pandas、Machine Learning、Deep Learning、LLM、LLM Application Development、RAG、AWS Bedrock、scikit-learn、PyTorch、TensorFlow、Keras、NLP、Computer Vision、Generative AI、Embeddings、Prompt Engineering、OpenAI、OpenAI API、Azure OpenAI、LangChain、MLOps、Model Deployment、ML Infrastructure、Retrieval Evaluation、Context Engineering、Docker、Kubernetes、Airflow、Git、CI/CD",
+    "common_introduction": "这组技术栈主要服务于 AI/ML 能力建设，从模型训练、评估、部署到大模型应用编排都涵盖在内。",
+    "common_business_scenario": "团队通常会用它们构建检索问答、文本理解、智能审核、推荐排序或运营辅助系统，并让模型能力稳定进入日常业务流程。",
+    "skill_focuses": [
+      {
+        "skill": "Python",
+        "focus": "通用性强，兼顾后端开发、数据处理、自动化和机器学习落地。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "SQL",
+        "focus": "强调结构化查询、聚合分析和数据口径校验。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Pandas",
+        "focus": "强调灵活的数据清洗、拼接和探索分析能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Machine Learning",
+        "focus": "强调利用数据驱动预测和自动化决策。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Deep Learning",
+        "focus": "强调神经网络建模和复杂模式学习。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "LLM",
+        "focus": "强调自然语言理解、生成和复杂文本任务处理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "LLM Application Development",
+        "focus": "强调围绕大模型构建完整业务应用。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "RAG",
+        "focus": "强调把外部知识检索结果注入模型回答过程。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "AWS Bedrock",
+        "focus": "强调企业环境中的托管模型接入与治理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "scikit-learn",
+        "focus": "强调传统机器学习建模与评估效率。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "PyTorch",
+        "focus": "强调灵活的深度学习建模与研究迭代。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "TensorFlow",
+        "focus": "强调生产化深度学习训练与部署生态。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Keras",
+        "focus": "强调高层次深度学习建模开发效率。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "NLP",
+        "focus": "强调文本理解、分类、抽取和语言处理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Computer Vision",
+        "focus": "强调图像识别、检测和视觉理解任务。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Generative AI",
+        "focus": "强调内容生成、智能助手和创作型 AI 场景。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Embeddings",
+        "focus": "强调向量表示、语义相似度和召回能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Prompt Engineering",
+        "focus": "强调针对大模型任务设计高质量提示词。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "OpenAI",
+        "focus": "强调模型能力调用和通用大模型能力接入。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "OpenAI API",
+        "focus": "强调通过接口把大模型能力集成进业务系统。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Azure OpenAI",
+        "focus": "强调在 Azure 环境中接入大模型能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "LangChain",
+        "focus": "强调多组件编排和 LLM 应用开发框架化。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "MLOps",
+        "focus": "强调机器学习系统的工程化与运营管理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Model Deployment",
+        "focus": "强调模型上线、推理服务和版本管理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "ML Infrastructure",
+        "focus": "强调训练、评估、发布和监控的基础设施建设。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Retrieval Evaluation",
+        "focus": "强调检索质量度量与 RAG 效果评估。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Context Engineering",
+        "focus": "强调上下文组织、信息压缩和输入设计。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Docker",
+        "focus": "强调环境一致性、容器化交付和服务可移植性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Kubernetes",
+        "focus": "强调容器编排、弹性伸缩和集群管理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Airflow",
+        "focus": "强调定时调度、任务依赖和数据工作流编排。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Git",
+        "focus": "强调版本管理、协作开发和变更追踪。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CI/CD",
+        "focus": "强调自动化校验、发布和持续交付。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "数据分析与经营决策支持",
+    "category": "Data & Analytics",
+    "merged_skills_text": "Python、R、MATLAB、SQL、Pandas、Spark SQL、Hive、ETL、Airflow、Spark、Jupyter、Tableau、Data Pipelines、Matplotlib、Snowflake、Databricks、BigQuery、NumPy、Power BI、dbt、Hadoop、Data Science、A/B Testing、Experiment Design、Forecasting、KPI Measurement、Dashboard Automation、Time Series Analysis、Anomaly Detection、Looker、Git",
+    "common_introduction": "这组技术栈围绕数据加工、指标建设、实验分析和报表消费展开，是数据驱动型业务决策的核心支撑能力。",
+    "common_business_scenario": "团队通常会用它们建设数仓与报表链路、做转化分析和经营复盘，并为产品、运营和管理层提供可执行的数据结论。",
+    "skill_focuses": [
+      {
+        "skill": "Python",
+        "focus": "通用性强，兼顾后端开发、数据处理、自动化和机器学习落地。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "R",
+        "focus": "偏向统计分析、实验研究和数据探索型工作。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "MATLAB",
+        "focus": "偏向数值计算、建模仿真和工程研究场景。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "SQL",
+        "focus": "强调结构化查询、聚合分析和数据口径校验。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Pandas",
+        "focus": "强调灵活的数据清洗、拼接和探索分析能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Spark SQL",
+        "focus": "强调大规模数据的分布式查询与聚合处理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Hive",
+        "focus": "强调离线数仓查询和批量数据组织。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "ETL",
+        "focus": "强调把原始数据加工成可消费数据资产的流程能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Airflow",
+        "focus": "强调定时调度、任务依赖和数据工作流编排。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Spark",
+        "focus": "强调大规模分布式数据处理能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Jupyter",
+        "focus": "强调交互式分析和探索式数据研究。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Tableau",
+        "focus": "强调商业分析看板和可视化呈现。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Data Pipelines",
+        "focus": "强调数据从采集到消费的链路建设。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Matplotlib",
+        "focus": "强调基础图表绘制和分析结果展示。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Snowflake",
+        "focus": "强调云数仓能力和多团队数据共享。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Databricks",
+        "focus": "强调数据工程与机器学习一体化平台能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "BigQuery",
+        "focus": "强调云上大规模 SQL 分析能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "NumPy",
+        "focus": "强调数值计算和数组运算基础。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Power BI",
+        "focus": "强调业务报表制作和自助分析能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "dbt",
+        "focus": "强调数据模型管理、转换治理和版本化开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Hadoop",
+        "focus": "强调分布式存储与批处理基础设施。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Data Science",
+        "focus": "强调统计建模、实验分析和数据驱动问题求解。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "A/B Testing",
+        "focus": "强调实验设计、效果比较和决策验证。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Experiment Design",
+        "focus": "强调实验方法论和指标因果评估。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Forecasting",
+        "focus": "强调趋势预测和经营计划支持。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "KPI Measurement",
+        "focus": "强调关键指标定义、计算与跟踪。",
+        "source_coverage": "resume_only"
+      },
+      {
+        "skill": "Dashboard Automation",
+        "focus": "强调报表自动刷新和分析流程自动化。",
+        "source_coverage": "resume_only"
+      },
+      {
+        "skill": "Time Series Analysis",
+        "focus": "强调时间序列规律挖掘与预测。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Anomaly Detection",
+        "focus": "强调异常模式识别和监控告警支撑。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Looker",
+        "focus": "强调指标层建模和数据消费统一视图。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Git",
+        "focus": "强调版本管理、协作开发和变更追踪。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "工程协作、测试与发布质量",
+    "category": "Quality & Workflow",
+    "merged_skills_text": "Git、Version Control、CI/CD、GitHub Actions、GitLab CI、Jenkins、Unit Testing、Software Testing、pytest、JUnit、Playwright、Selenium、Cypress、Jest、TDD、Code Review、Design Review、Software Test Engineering、Scrum、Agile、Jira、Visual Studio",
+    "common_introduction": "这组技术栈和实践围绕团队协作、测试验证、持续交付和质量治理展开，目标是降低变更风险并提升交付效率。",
+    "common_business_scenario": "团队通常会用它们组织开发流程、执行自动化测试、评审代码和方案，并让业务功能以更稳定可控的方式进入生产环境。",
+    "skill_focuses": [
+      {
+        "skill": "Git",
+        "focus": "强调版本管理、协作开发和变更追踪。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Version Control",
+        "focus": "强调多人协作下的版本管理、分支策略和变更追踪。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "CI/CD",
+        "focus": "强调自动化校验、发布和持续交付。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "GitHub Actions",
+        "focus": "强调仓库内自动化流程和发布流水线集成。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "GitLab CI",
+        "focus": "强调 GitLab 体系内的自动化测试与部署。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Jenkins",
+        "focus": "强调可定制化持续集成与传统流水线建设。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Unit Testing",
+        "focus": "强调单元级验证和代码正确性保障。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Software Testing",
+        "focus": "强调通过自动化与工程流程降低功能回归和线上风险。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "pytest",
+        "focus": "强调 Python 生态下的自动化测试效率。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "JUnit",
+        "focus": "强调 Java 生态下的单元测试规范。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Playwright",
+        "focus": "强调端到端自动化测试和浏览器交互验证。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Selenium",
+        "focus": "强调浏览器自动化和回归测试场景。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Cypress",
+        "focus": "强调前端集成测试和页面交互验证。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Jest",
+        "focus": "强调 JavaScript/前端单元测试能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "TDD",
+        "focus": "强调测试先行和可验证开发方式。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Code Review",
+        "focus": "强调变更评审、知识共享和质量把关。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Design Review",
+        "focus": "强调方案评审和架构风险前置识别。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Software Test Engineering",
+        "focus": "强调测试体系建设和质量流程设计。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Scrum",
+        "focus": "强调敏捷迭代节奏和跨职能协作。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Agile",
+        "focus": "强调快速反馈、持续迭代和业务协同。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Jira",
+        "focus": "强调需求、任务和缺陷流程管理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Visual Studio",
+        "focus": "强调 .NET 等生态下的集成开发环境支持。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "平台工程、DevOps 与稳定性保障",
+    "category": "Cloud / DevOps / Infrastructure",
+    "merged_skills_text": "Go、Python、Linux、Shell、Bash、Terraform、Docker、Kubernetes、AWS、Azure、GCP、S3、Prometheus、ECS、Jenkins、GitHub Actions、GitLab CI、Ansible、CI/CD、Git、Kafka、Redis",
+    "common_introduction": "这组技术栈围绕环境管理、自动化交付、可观测性和平台稳定性展开，是生产系统长期可靠运行的基础设施能力集合。",
+    "common_business_scenario": "团队通常会用它们部署服务、配置资源、建设发布流水线、监控线上健康度，并保障高峰期业务系统可扩展且可恢复。",
+    "skill_focuses": [
+      {
+        "skill": "Go",
+        "focus": "偏向高并发服务、基础设施工具和性能稳定的后端系统。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Python",
+        "focus": "通用性强，兼顾后端开发、数据处理、自动化和机器学习落地。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Linux",
+        "focus": "强调服务器运行环境和系统层运维基础。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Shell",
+        "focus": "强调脚本化自动化和系统任务串联。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Bash",
+        "focus": "强调命令行自动化和运维脚本执行。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Terraform",
+        "focus": "强调基础设施即代码和跨环境资源管理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Docker",
+        "focus": "强调环境一致性、容器化交付和服务可移植性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Kubernetes",
+        "focus": "强调容器编排、弹性伸缩和集群管理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "AWS",
+        "focus": "强调云资源供给完整和托管服务生态丰富。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Azure",
+        "focus": "强调微软云生态和企业级云资源管理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "GCP",
+        "focus": "强调 Google 云服务与数据/AI 生态协同。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "S3",
+        "focus": "强调对象存储、文件归档和大规模数据落盘。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Prometheus",
+        "focus": "强调指标采集、监控与告警体系建设。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "ECS",
+        "focus": "强调容器运行和云上服务编排。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Jenkins",
+        "focus": "强调可定制化持续集成与传统流水线建设。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "GitHub Actions",
+        "focus": "强调仓库内自动化流程和发布流水线集成。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "GitLab CI",
+        "focus": "强调 GitLab 体系内的自动化测试与部署。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Ansible",
+        "focus": "强调批量配置管理和自动化运维。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CI/CD",
+        "focus": "强调自动化校验、发布和持续交付。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Git",
+        "focus": "强调版本管理、协作开发和变更追踪。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Kafka",
+        "focus": "强调高吞吐事件流和异步解耦。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Redis",
+        "focus": "强调高速缓存、会话状态和热点数据访问。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "前端体验与产品交互实现",
+    "category": "Frontend & UI",
+    "merged_skills_text": "JavaScript、TypeScript、React、Angular、Vue、Next.js、HTML、HTML5、CSS、CSS3、Tailwind、Vite、Webpack、GraphQL、Node.js、Web Development、Full-Stack Development、Git、CI/CD",
+    "common_introduction": "这组技术栈主要用于构建用户直接感知的交互层，包括页面结构、视觉样式、前端工程化和前后端联动能力。",
+    "common_business_scenario": "团队通常会用它们开发管理后台、客户门户、运营工作台和增长页面，承接信息展示、操作提交与状态反馈等核心交互场景。",
+    "skill_focuses": [
+      {
+        "skill": "JavaScript",
+        "focus": "偏向 Web 交互逻辑，也常用于全栈应用和轻量服务开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "TypeScript",
+        "focus": "偏向大型前后端工程中的类型安全和代码可维护性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "React",
+        "focus": "强调组件化、状态管理和交互式页面开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Angular",
+        "focus": "强调大型前端工程规范和完整框架能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Vue",
+        "focus": "强调渐进式接入和较低上手成本。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Next.js",
+        "focus": "强调 React 生态下的全栈渲染与应用框架能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "HTML",
+        "focus": "强调页面结构定义和内容组织。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "HTML5",
+        "focus": "强调现代 Web 标准能力和多媒体/语义化支持。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CSS",
+        "focus": "强调页面样式控制和视觉呈现。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CSS3",
+        "focus": "强调更丰富的样式、动画和布局能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Tailwind",
+        "focus": "强调原子化样式和高效率页面搭建。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Vite",
+        "focus": "强调前端开发启动速度和构建效率。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Webpack",
+        "focus": "强调前端资源打包与构建流程控制。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "GraphQL",
+        "focus": "强调按需取数和前后端灵活数据契约。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Node.js",
+        "focus": "强调事件驱动和 JavaScript 统一栈开发体验。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Web Development",
+        "focus": "强调 Web 产品开发全流程与页面到服务的联动实现。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "Full-Stack Development",
+        "focus": "强调从前端页面到后端服务的一体化交付能力。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "Git",
+        "focus": "强调版本管理、协作开发和变更追踪。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CI/CD",
+        "focus": "强调自动化校验、发布和持续交付。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "数据存储、检索与流式处理",
+    "category": "Databases / Storage / Streaming",
+    "merged_skills_text": "SQL、Relational Databases、PostgreSQL、MySQL、MongoDB、NoSQL、Cassandra、DynamoDB、Redis、S3、Kafka、Flink、Elasticsearch、Redshift、Azure Blob Storage、DB2、SSMS",
+    "common_introduction": "这组技术栈主要负责业务数据的持久化、查询检索、事件流转与分析承载，是应用系统和数据平台的底座。",
+    "common_business_scenario": "团队通常会用它们保存交易和状态数据、支撑全文检索与实时报文流，并为下游报表、监控和智能应用提供稳定数据来源。",
+    "skill_focuses": [
+      {
+        "skill": "SQL",
+        "focus": "强调结构化查询、聚合分析和数据口径校验。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Relational Databases",
+        "focus": "强调结构化数据建模、事务一致性与关系查询能力。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "PostgreSQL",
+        "focus": "强调事务能力、复杂查询和稳定关系型存储。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "MySQL",
+        "focus": "强调通用事务型应用存储和成熟生态。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "MongoDB",
+        "focus": "强调文档型存储和灵活模式设计。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "NoSQL",
+        "focus": "强调非关系型数据模型和水平扩展能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Cassandra",
+        "focus": "强调分布式高可用写入与大规模数据承载。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "DynamoDB",
+        "focus": "强调云原生键值存储和高可扩展性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Redis",
+        "focus": "强调高速缓存、会话状态和热点数据访问。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "S3",
+        "focus": "强调对象存储、文件归档和大规模数据落盘。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Kafka",
+        "focus": "强调高吞吐事件流和异步解耦。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Flink",
+        "focus": "强调实时流处理和低延迟计算。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Elasticsearch",
+        "focus": "强调全文检索和快速查询分析。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Redshift",
+        "focus": "强调云数仓分析和大规模聚合查询。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Azure Blob Storage",
+        "focus": "强调 Azure 生态下的对象存储能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "DB2",
+        "focus": "强调传统企业数据库和大型系统兼容性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "SSMS",
+        "focus": "强调 SQL Server 管理与开发工具支持。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "系统设计与工程基础能力",
+    "category": "Architecture / Systems",
+    "merged_skills_text": "Algorithms、Data Structures、Distributed Systems、System Design、Object-Oriented Programming、Networking、Network Protocol、Large-Scale Systems、Embedded Systems、Microservices、APIs、REST APIs、gRPC",
+    "common_introduction": "这组能力决定了工程师如何设计高性能、可扩展且可维护的软件系统，是很多应用技术之上的通用基础。",
+    "common_business_scenario": "团队通常会在设计复杂链路、高并发平台、服务拆分方案或长期演进的系统架构时依赖这些基础能力做技术取舍。",
+    "skill_focuses": [
+      {
+        "skill": "Algorithms",
+        "focus": "强调效率优化、问题建模和核心逻辑设计。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Data Structures",
+        "focus": "强调数据组织方式和算法实现基础。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Distributed Systems",
+        "focus": "强调多节点协作、一致性与容错能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "System Design",
+        "focus": "强调高层架构规划和模块边界设计。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Object-Oriented Programming",
+        "focus": "强调抽象建模、封装复用和大型代码结构组织。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "Networking",
+        "focus": "强调网络通信原理和链路设计理解。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Network Protocol",
+        "focus": "强调协议规则、传输机制和系统互通。",
+        "source_coverage": "resume_only"
+      },
+      {
+        "skill": "Large-Scale Systems",
+        "focus": "强调大规模流量、容量和复杂链路治理。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Embedded Systems",
+        "focus": "强调软硬件结合和资源受限场景开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Microservices",
+        "focus": "强调业务拆分、独立部署和服务自治。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "APIs",
+        "focus": "强调系统接口抽象、调用契约与服务协作边界。",
+        "source_coverage": "jd_only"
+      },
+      {
+        "skill": "REST APIs",
+        "focus": "强调标准化 HTTP 接口设计和跨系统集成能力。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "gRPC",
+        "focus": "强调强类型、低延迟和服务间高性能调用。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  },
+  {
+    "group_label": "移动端与客户端体验建设",
+    "category": "Frontend & UI",
+    "merged_skills_text": "Kotlin、Swift、Android SDK、Jetpack Compose、Material Design、React、TypeScript、HTML、CSS、Git、CI/CD",
+    "common_introduction": "这组技术栈主要服务于移动端和客户端产品体验建设，覆盖原生能力、界面组织和交付协作链路。",
+    "common_business_scenario": "团队通常会用它们开发移动应用界面、优化客户端交互体验，并与后端服务和发布流程协同完成版本迭代。",
+    "skill_focuses": [
+      {
+        "skill": "Kotlin",
+        "focus": "偏向现代 JVM 开发，也常用于 Android 应用构建。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Swift",
+        "focus": "偏向 Apple 生态下的客户端与应用开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Android SDK",
+        "focus": "强调 Android 原生能力调用和移动端应用开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Jetpack Compose",
+        "focus": "强调声明式 Android UI 开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Material Design",
+        "focus": "强调统一设计规范和组件体验一致性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "React",
+        "focus": "强调组件化、状态管理和交互式页面开发。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "TypeScript",
+        "focus": "偏向大型前后端工程中的类型安全和代码可维护性。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "HTML",
+        "focus": "强调页面结构定义和内容组织。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CSS",
+        "focus": "强调页面样式控制和视觉呈现。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "Git",
+        "focus": "强调版本管理、协作开发和变更追踪。",
+        "source_coverage": "resume+jd"
+      },
+      {
+        "skill": "CI/CD",
+        "focus": "强调自动化校验、发布和持续交付。",
+        "source_coverage": "resume+jd"
+      }
+    ]
+  }
+]

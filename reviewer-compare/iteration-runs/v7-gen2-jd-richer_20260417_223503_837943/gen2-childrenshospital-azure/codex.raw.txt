@@ -1,0 +1,78 @@
+{
+  "pass_1_structural": {
+    "findings": [
+      {
+        "rule_id": "P1-040",
+        "severity": "medium",
+        "field": "Experience / Project bullets",
+        "issue": "正文里不少关键数字和范围词没有加粗，尤其是时间缩短、百分比提升、队列数量、历史样本量等高信号信息，首屏扫读时不够醒目。",
+        "fix": "把每段最强的数字结果加粗，优先处理 `11 minutes -> 4 minutes`, `3 internal queues`, `32%`, `26 minutes -> 9 minutes`, `120K`, `13-person squad` 这类信息。"
+      }
+    ]
+  },
+  "pass_2_attention": {
+    "findings": [
+      {
+        "rule_id": "P2-001",
+        "severity": "medium",
+        "field": "Professional Summary 第一句（Full-Stack Transition）",
+        "issue": "首句是转型叙事先行，而不是目标角色先行；`transitioning from analytics` 会削弱前 6-8 秒的岗位匹配感。",
+        "fix": "把首句改成 role-first 的 framing，例如 `Backend Engineer:` 或 `Full-Stack Engineer:`，再把 analytics 迁移背景放到后半句。"
+      },
+      {
+        "rule_id": "P2-010",
+        "severity": "high",
+        "field": "Professional Summary 第三句（Team Fit）",
+        "issue": "`Team Fit` 属于泛化协作型标题，信息量弱，不能给 HR 提供明确的认知锚点。",
+        "fix": "把这一句改成更强的 cognition header，例如 `Systems judgment:` 或 `Pattern recognition:`，并用一个具体决策/优化例子承接。"
+      },
+      {
+        "rule_id": "P2-040",
+        "severity": "medium",
+        "field": "Skills 第 2 行 `APIs`",
+        "issue": "`APIs` 作为类别名过于模糊，里面混了云、方法论和 SQL，首屏无法快速识别这行到底在表达什么能力。",
+        "fix": "把类别改成更有信息量的命名，例如 `Backend & Delivery`、`Cloud & Delivery` 或拆成更清晰的 `Backend`, `Datastores`, `Delivery`。"
+      }
+    ]
+  },
+  "pass_3_substance": {
+    "findings": [
+      {
+        "rule_id": "P3B-012",
+        "sub_area": "3B",
+        "severity": "high",
+        "field": "Job title / Core Skills / TikTok + DiDi 经验段",
+        "issue": "岗位是 Azure Software Engineer Professional，但简历只给了泛化的 Node/React/内部工具交付证据，没有任何 Azure 具体服务、Azure artifact 或 C# 使用证据；这对一个 Azure 专项岗位是结构性错配。",
+        "fix": "如果确实有 Azure/C# 经验，就把它补到最相关经历的具体 bullet 里，写清楚用到了哪个 Azure 服务或 C# 代码路径；如果没有，就应考虑更匹配的岗位方向。",
+        "note": "[结构性错配]"
+      },
+      {
+        "rule_id": "P3C-010",
+        "sub_area": "3C",
+        "severity": "high",
+        "field": "Senior Data Analyst | DiDi · IBG · Food",
+        "issue": "同一段经历里把 React、Angular、Vue 都写成了使用级证据，再叠加 Node/Express/Scala/Python/SQL，读起来像 stack salad，容易让人质疑真实主责边界。",
+        "fix": "把这些技术按具体项目拆开，只保留你真实亲自负责的主栈；如果 Angular/Vue 只是协作接触，就明确写成与前端协作交付，而不要并列成主力使用栈。"
+      },
+      {
+        "rule_id": "P3D-001",
+        "sub_area": "3D",
+        "severity": "medium",
+        "field": "Software Engineer Intern | TikTok · Security",
+        "issue": "最新经历的量化结果主要是 turnaround/time reduction 和内部流程提升，缺少更硬的 tier 1 scope 信号，例如明确的用户量、请求量、服务规模或团队规模。",
+        "fix": "补一个可追问的 scope 锚点，例如具体负责的 service 数、请求量、审查队列规模、协作团队人数，前提是这些数字真实可解释。"
+      }
+    ]
+  },
+  "pass_4_localization": {
+    "findings": []
+  },
+  "translation_recommendations": [],
+  "revision_priority": [
+    "[MUST] 把简历从泛化 Node/React 全栈叙事改成能支撑 Azure Software Engineer 的叙事：补 Azure 具体服务与 C# 证据，或直接换更匹配的岗位。",
+    "[MUST] 把 Summary 首句改成 role-first framing，删除 `Transition` 主导感；第三句也要改成更强的认知型标题。",
+    "[MUST] 收敛 DiDi 段的技术广度，把 React / Angular / Vue 的 ownership 边界讲清楚，只保留你真实亲自使用的栈。",
+    "[SHOULD] 给最强结果数字加粗，并补 1 个可追问的 scope 锚点，提升首屏抓手。"
+  ],
+  "revision_instructions": "[结构性错配] 这份简历目前更像 Node/React 全栈 + 内部工具交付背景，不像 Azure 专项岗位。优先在最相关经历中补 Azure 具体服务与 C# 使用证据；如果没有真实 Azure/C# 经验，就不要继续硬凑这个岗位。同步把 Summary 改成 role-first 表达，删掉 `Transition` 主导感；DiDi 段收敛前端框架广度，只保留你真实主责的框架，并把关键数字加粗。"
+}

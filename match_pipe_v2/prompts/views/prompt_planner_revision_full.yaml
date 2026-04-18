@@ -1,0 +1,25 @@
+view_id: prompt_planner_revision_full
+title: Planner-first Revision Prompt
+pipeline: match_pipe
+stage: planner revision
+role: writer
+description: planner 和 reviewer 的 carry-over 都会进入这条 revision prompt。
+system_block: upgrade_revision_system
+user_blocks:
+- candidate_context_shared_experience
+- candidate_context_generic_tiktok_branch
+- candidate_context_shared_education
+- candidate_context_shared_achievements
+- writer_jd_context
+- writer_plan_shared_intro
+- writer_plan_generic_tiktok_branch
+- writer_plan_shared_didi_temu
+- writer_plan_shared_gt_coursework
+- writer_plan_shared_tail
+- format_constraints_shared_head
+- format_constraints_branch
+- format_constraints_shared_mid
+- format_constraints_shared_tail
+- output_contract
+- planner_revision_context
+- planner_revision_overlay

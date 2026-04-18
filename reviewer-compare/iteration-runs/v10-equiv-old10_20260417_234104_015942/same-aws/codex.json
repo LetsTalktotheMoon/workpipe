@@ -1,0 +1,226 @@
+{
+  "runner": "codex",
+  "model": "gpt-5.4-mini",
+  "started_at": "2026-04-17T23:45:36",
+  "completed_at": "2026-04-17T23:47:02",
+  "duration_seconds": 86.0,
+  "raw_json": {
+    "pass_1_structural": {
+      "findings": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary third sentence; TikTok/DiDi/Temu Experience bullets",
+          "issue": "Qualifier words and limited-context modifiers are bolded in multiple places, such as `team-maintained`, `existing`, `internal`, and similar descriptors. This creates visual noise and weakens the intended emphasis hierarchy.",
+          "fix": "Reserve bold for technologies, scope numbers, and key metrics only. Remove bold from modifiers like `team-maintained`, `existing`, `internal`, and other descriptive qualifiers."
+        }
+      ]
+    },
+    "pass_2_attention": {
+      "findings": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The first sentence leads with a transition story (`candidate transitioning from analytics`) instead of a role-direction framing. That lowers the first-screen signal for an SDE II backend role.",
+          "fix": "Rewrite the first sentence to start with the target role and domain, for example `Backend engineer:` or `Backend-focused SWE:`, then move the analytics-to-backend transition language later in the sentence or into a later summary line."
+        }
+      ]
+    },
+    "pass_3_substance": {
+      "findings": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Overall experience timeline + Education",
+          "issue": "The visible non-internship professional timeline is only about 30 months, which does not clearly satisfy the JD's `3+ years of non-internship professional software development experience` requirement. The resume also does not visibly show the required bachelor's or equivalent degree.",
+          "fix": "If true, add an explicit bachelor's/equivalent degree line and any earlier full-time software development experience. If no such experience exists, this resume is structurally short of the JD hard bar and should be targeted to a more junior role.",
+          "note": "[结构性错配]"
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Intern section, first bullet and surrounding bullets",
+          "issue": "The newest and most relevant experience relies mainly on time-reduction and percentage-improvement metrics, but lacks a Tier 1 scope anchor such as request volume, incident volume, service count, or team size on the first bullet.",
+          "fix": "Add one concrete scope signal to the first TikTok bullet if available, such as incident volume, service boundary, on-call footprint, or team size. Keep the existing latency/result metric as supporting evidence rather than the lead signal."
+        }
+      ]
+    },
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Make the JD hard-bar situation explicit: the current visible timeline does not clearly satisfy 3+ years of non-internship software development experience, and the resume does not visibly show a bachelor's/equivalent degree.",
+      "[MUST] If those hard requirements are actually satisfied, add the missing proof in the most relevant experience/education line; otherwise target a more junior JD.",
+      "[SHOULD] Reframe the Summary opening to lead with backend/SDE direction instead of analytics transition language.",
+      "[NICE] Remove bold from qualifier words and keep emphasis only on technologies, scope numbers, and key outcomes."
+    ],
+    "revision_instructions": "[结构性错配] If the candidate does not have an unlisted bachelor's/equivalent degree and earlier full-time software development experience, this resume should not be positioned for AWS SDE II as written. Add explicit proof for the 3+ year non-internship requirement and degree if true; otherwise re-target the resume. Separately, rewrite the Summary opening to lead with backend/SDE framing, and reduce bolding of qualifiers to restore visual hierarchy.",
+    "pass_5_localization": {
+      "findings": []
+    }
+  },
+  "aggregated": {
+    "scores": {
+      "r0_authenticity": 10.0,
+      "r1_writing_standard": 9.5,
+      "r2_jd_fitness": 8.0,
+      "r3_overqualification": 10.0,
+      "r4_rationality": 8.5,
+      "r5_logic": 10.0,
+      "r7_ecosystem": 10.0,
+      "r8_localization": 10.0
+    },
+    "weighted_score": 90.9,
+    "critical_count": 0,
+    "high_count": 1,
+    "medium_count": 3,
+    "low_count": 0,
+    "needs_revision": true,
+    "overall_verdict": "fail",
+    "translation_recommendations": [],
+    "revision_priority": [
+      "[MUST] Make the JD hard-bar situation explicit: the current visible timeline does not clearly satisfy 3+ years of non-internship software development experience, and the resume does not visibly show a bachelor's/equivalent degree.",
+      "[MUST] If those hard requirements are actually satisfied, add the missing proof in the most relevant experience/education line; otherwise target a more junior JD.",
+      "[SHOULD] Reframe the Summary opening to lead with backend/SDE direction instead of analytics transition language.",
+      "[NICE] Remove bold from qualifier words and keep emphasis only on technologies, scope numbers, and key outcomes."
+    ],
+    "revision_instructions": "[结构性错配] If the candidate does not have an unlisted bachelor's/equivalent degree and earlier full-time software development experience, this resume should not be positioned for AWS SDE II as written. Add explicit proof for the 3+ year non-internship requirement and degree if true; otherwise re-target the resume. Separately, rewrite the Summary opening to lead with backend/SDE framing, and reduce bolding of qualifiers to restore visual hierarchy.",
+    "reviewer_raw": {
+      "pass_1_structural": {
+        "findings": [
+          {
+            "rule_id": "P1-042",
+            "severity": "medium",
+            "field": "Summary third sentence; TikTok/DiDi/Temu Experience bullets",
+            "issue": "Qualifier words and limited-context modifiers are bolded in multiple places, such as `team-maintained`, `existing`, `internal`, and similar descriptors. This creates visual noise and weakens the intended emphasis hierarchy.",
+            "fix": "Reserve bold for technologies, scope numbers, and key metrics only. Remove bold from modifiers like `team-maintained`, `existing`, `internal`, and other descriptive qualifiers."
+          }
+        ]
+      },
+      "pass_2_attention": {
+        "findings": [
+          {
+            "rule_id": "P2-001",
+            "severity": "medium",
+            "field": "Professional Summary, first sentence",
+            "issue": "The first sentence leads with a transition story (`candidate transitioning from analytics`) instead of a role-direction framing. That lowers the first-screen signal for an SDE II backend role.",
+            "fix": "Rewrite the first sentence to start with the target role and domain, for example `Backend engineer:` or `Backend-focused SWE:`, then move the analytics-to-backend transition language later in the sentence or into a later summary line."
+          }
+        ]
+      },
+      "pass_3_substance": {
+        "findings": [
+          {
+            "rule_id": "P3B-010",
+            "sub_area": "3B",
+            "severity": "high",
+            "field": "Overall experience timeline + Education",
+            "issue": "The visible non-internship professional timeline is only about 30 months, which does not clearly satisfy the JD's `3+ years of non-internship professional software development experience` requirement. The resume also does not visibly show the required bachelor's or equivalent degree.",
+            "fix": "If true, add an explicit bachelor's/equivalent degree line and any earlier full-time software development experience. If no such experience exists, this resume is structurally short of the JD hard bar and should be targeted to a more junior role.",
+            "note": "[结构性错配]"
+          },
+          {
+            "rule_id": "P3D-001",
+            "sub_area": "3D",
+            "severity": "medium",
+            "field": "TikTok Intern section, first bullet and surrounding bullets",
+            "issue": "The newest and most relevant experience relies mainly on time-reduction and percentage-improvement metrics, but lacks a Tier 1 scope anchor such as request volume, incident volume, service count, or team size on the first bullet.",
+            "fix": "Add one concrete scope signal to the first TikTok bullet if available, such as incident volume, service boundary, on-call footprint, or team size. Keep the existing latency/result metric as supporting evidence rather than the lead signal."
+          }
+        ]
+      },
+      "translation_recommendations": [],
+      "revision_priority": [
+        "[MUST] Make the JD hard-bar situation explicit: the current visible timeline does not clearly satisfy 3+ years of non-internship software development experience, and the resume does not visibly show a bachelor's/equivalent degree.",
+        "[MUST] If those hard requirements are actually satisfied, add the missing proof in the most relevant experience/education line; otherwise target a more junior JD.",
+        "[SHOULD] Reframe the Summary opening to lead with backend/SDE direction instead of analytics transition language.",
+        "[NICE] Remove bold from qualifier words and keep emphasis only on technologies, scope numbers, and key outcomes."
+      ],
+      "revision_instructions": "[结构性错配] If the candidate does not have an unlisted bachelor's/equivalent degree and earlier full-time software development experience, this resume should not be positioned for AWS SDE II as written. Add explicit proof for the 3+ year non-internship requirement and degree if true; otherwise re-target the resume. Separately, rewrite the Summary opening to lead with backend/SDE framing, and reduce bolding of qualifiers to restore visual hierarchy.",
+      "pass_5_localization": {
+        "findings": []
+      }
+    },
+    "per_dimension_findings": {
+      "r0_authenticity": [],
+      "r1_writing_standard": [
+        {
+          "rule_id": "P1-042",
+          "severity": "medium",
+          "field": "Summary third sentence; TikTok/DiDi/Temu Experience bullets",
+          "issue": "Qualifier words and limited-context modifiers are bolded in multiple places, such as `team-maintained`, `existing`, `internal`, and similar descriptors. This creates visual noise and weakens the intended emphasis hierarchy.",
+          "fix": "Reserve bold for technologies, scope numbers, and key metrics only. Remove bold from modifiers like `team-maintained`, `existing`, `internal`, and other descriptive qualifiers."
+        }
+      ],
+      "r2_jd_fitness": [
+        {
+          "rule_id": "P3B-010",
+          "sub_area": "3B",
+          "severity": "high",
+          "field": "Overall experience timeline + Education",
+          "issue": "The visible non-internship professional timeline is only about 30 months, which does not clearly satisfy the JD's `3+ years of non-internship professional software development experience` requirement. The resume also does not visibly show the required bachelor's or equivalent degree.",
+          "fix": "If true, add an explicit bachelor's/equivalent degree line and any earlier full-time software development experience. If no such experience exists, this resume is structurally short of the JD hard bar and should be targeted to a more junior role.",
+          "note": "[结构性错配]"
+        }
+      ],
+      "r3_overqualification": [],
+      "r4_rationality": [
+        {
+          "rule_id": "P2-001",
+          "severity": "medium",
+          "field": "Professional Summary, first sentence",
+          "issue": "The first sentence leads with a transition story (`candidate transitioning from analytics`) instead of a role-direction framing. That lowers the first-screen signal for an SDE II backend role.",
+          "fix": "Rewrite the first sentence to start with the target role and domain, for example `Backend engineer:` or `Backend-focused SWE:`, then move the analytics-to-backend transition language later in the sentence or into a later summary line."
+        },
+        {
+          "rule_id": "P3D-001",
+          "sub_area": "3D",
+          "severity": "medium",
+          "field": "TikTok Intern section, first bullet and surrounding bullets",
+          "issue": "The newest and most relevant experience relies mainly on time-reduction and percentage-improvement metrics, but lacks a Tier 1 scope anchor such as request volume, incident volume, service count, or team size on the first bullet.",
+          "fix": "Add one concrete scope signal to the first TikTok bullet if available, such as incident volume, service boundary, on-call footprint, or team size. Keep the existing latency/result metric as supporting evidence rather than the lead signal."
+        }
+      ],
+      "r5_logic": [],
+      "r7_ecosystem": [],
+      "r8_localization": []
+    }
+  },
+  "finding_summary": {
+    "by_section": {
+      "pass_1_structural": {
+        "count": 1,
+        "rule_ids": [
+          "P1-042"
+        ]
+      },
+      "pass_2_attention": {
+        "count": 1,
+        "rule_ids": [
+          "P2-001"
+        ]
+      },
+      "pass_3_substance": {
+        "count": 2,
+        "rule_ids": [
+          "P3B-010",
+          "P3D-001"
+        ]
+      },
+      "pass_5_localization": {
+        "count": 0,
+        "rule_ids": []
+      }
+    },
+    "all_rule_ids": [
+      "P1-042",
+      "P2-001",
+      "P3B-010",
+      "P3D-001"
+    ],
+    "high_or_critical": [
+      "P3B-010 @ Overall experience timeline + Education"
+    ]
+  }
+}
